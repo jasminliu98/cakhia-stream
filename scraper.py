@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import hashlib
-import time
 import re
+import time
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -11,17 +11,14 @@ HEADERS = {
 }
 
 BASE_URL = "https://cakhiatv247.net"
-
-CDN_LINKS = [
-    "https://cdn-tvc2.taoxanh.biz/live-phogatv/video/adaptive/2026/03/playlist.m3u8",
-    "https://cdn-tvc2.taoxanh.biz/live-phogatv/video/adaptive/2026/04/playlist.m3u8",
-]
+CBOX_URL = "https://cbox-v2.cakhiatv89.com/"
 
 def make_id(text, prefix):
     h = hashlib.md5(text.encode()).hexdigest()[:10]
     return f"{prefix}-{h}"
 
 def get_matches():
+    """Lấy danh sách trận + match_id + blv_id từ trang chủ"""
     res = requests.get(BASE_URL, headers=HEADERS, timeout=15)
     soup = BeautifulSoup(res.text, "html.parser")
 
@@ -36,67 +33,101 @@ def get_matches():
 
         url = BASE_URL + href if href.startswith("/") else href
 
+        # Lấy match_id từ URL (số cuối)
+        match_id = re.search(r'/(\d+)$', href)
+        if not match_id:
+            continue
+        match_id = match_id.group(1)
+
         # Lấy tên 2 đội
-        teams = a.select("img[alt]")
-        team_names = [t.get("alt", "") for t in teams if t.get("alt") and t.get("alt") != "Bóng đá"]
+        imgs = a.select("img[alt]")
+        team_names = [
+            i.get("alt", "") for i in imgs
+            if i.get("alt") and i.get("alt") not in ["Bóng đá","Bóng rổ","Tennis","Cầu Lông","Billiards","Võ Thuật","Bóng chuyền","Pickleball"]
+        ]
 
-        # Lấy logo
-        logos = []
-        for img in a.select("img[src]"):
-            src = img.get("src", "")
-            if "soccer.svg" not in src and "icon" not in src:
-                logos.append(src)
+        # Lấy logo đội
+        logos = [
+            i.get("src","") for i in imgs
+            if i.get("src","") and "soccer.svg" not in i.get("src","") and "icon" not in i.get("src","")
+        ]
 
-        # Lấy giờ đấu
+        # Lấy giờ
         text = a.get_text(" ", strip=True)
         time_match = re.search(r'\d{2}:\d{2}', text)
         match_time = time_match.group(0) if time_match else ""
 
-        # Tên trận
-        if len(team_names) >= 2:
-            name = f"{team_names[0]} vs {team_names[1]}"
-        else:
-            name = text[:60]
+        # Lấy BLV links (channel_id) từ các link ?blv=
+        blv_links = re.findall(r'\?blv=(\d+)', str(a))
 
-        if name:
-            matches.append({
-                "url": url,
-                "name": name,
-                "time": match_time,
-                "logo_a": logos[0] if len(logos) > 0 else "",
-                "logo_b": logos[1] if len(logos) > 1 else "",
-            })
+        name = f"{team_names[0]} vs {team_names[1]}" if len(team_names) >= 2 else text[:60]
+
+        matches.append({
+            "url": url,
+            "match_id": match_id,
+            "name": name,
+            "time": match_time,
+            "logo_a": logos[0] if len(logos) > 0 else "",
+            "logo_b": logos[1] if len(logos) > 1 else "",
+            "blv_ids": blv_links,
+        })
 
     return matches
 
+def get_streams(match_id, blv_ids):
+    """Gọi cbox API để lấy link m3u8"""
+    streams = []
+
+    # Nếu không có BLV ID, thử channel_id mặc định
+    if not blv_ids:
+        blv_ids = ["0"]
+
+    for blv_id in blv_ids[:3]:  # Tối đa 3 BLV
+        try:
+            url = f"{CBOX_URL}?match_id={match_id}&channel_id={blv_id}"
+            res = requests.get(url, headers=HEADERS, timeout=10)
+
+            # Tìm tất cả link m3u8
+            # Decode unicode escape trước
+            text = res.text.encode().decode('unicode_escape', errors='ignore')
+            m3u8_links = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', text)
+            # Cũng tìm alilicloud
+            alili_links = re.findall(r'https?://[^\s"\'<>\\]*alilicloud[^\s"\'<>\\]*', text)
+
+            all_links = list(dict.fromkeys(m3u8_links + alili_links))
+            streams.extend(all_links)
+        except Exception as e:
+            print(f"    Lỗi cbox {match_id}/{blv_id}: {e}")
+        time.sleep(0.2)
+
+    return list(dict.fromkeys(streams))  # unique
+
 def get_match_detail(match_url):
-    """Lấy thêm thông tin từ trang trận đấu: giải đấu, logo rõ hơn"""
+    """Lấy thêm logo, giải đấu từ trang trận"""
     try:
-        res = requests.get(match_url, headers=HEADERS, timeout=15)
+        res = requests.get(match_url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(res.text, "html.parser")
 
-        # Lấy tên giải từ title
+        # Logo từ cdn.rapid-api hoặc taoxanh
+        logos = [
+            i.get("src","") for i in soup.select("img[src]")
+            if any(x in i.get("src","") for x in ["rapid-api","taoxanh.biz/live-phogatv/football"])
+        ]
+
+        # Tên giải từ breadcrumb hoặc title
         title = soup.find("title")
         league = ""
         if title:
             t = title.get_text()
-            # Ví dụ: "Xem trực tiếp Real Betis vs Real Madrid ... Spanish La Liga"
-            parts = t.split(" ")
-            if len(parts) > 5:
-                league = " ".join(parts[-3:]).strip()
+            # "Xem trực tiếp X vs Y ... GiaiDau"
+            m = re.search(r'(?:Spanish|English|German|French|Italian|V-League|Premier|Liga|Bundesliga|Serie|Ligue|Champions)[^\|]+', t)
+            if m:
+                league = m.group(0).strip()
 
-        # Lấy logo đội từ thẻ img có src cdn.rapid-api hoặc cdn-live.taoxanh
-        logos = []
-        for img in soup.select("img[src*='cdn']"):
-            src = img.get("src", "")
-            if any(x in src for x in ["rapid-api", "taoxanh.biz/live-phogatv/football"]):
-                logos.append(src)
-
-        # Lấy thumbnail
         thumb = ""
-        og_img = soup.find("meta", property="og:image")
-        if og_img:
-            thumb = og_img.get("content", "")
+        og = soup.find("meta", property="og:image")
+        if og:
+            thumb = og.get("content", "")
 
         return {
             "league": league,
@@ -107,41 +138,35 @@ def get_match_detail(match_url):
     except:
         return {"league": "", "logo_a": "", "logo_b": "", "thumb": ""}
 
-def build_channel(match, detail):
-    uid = make_id(match["url"], "kaytee")
+def build_channel(match, detail, streams):
+    uid    = make_id(match["url"], "kaytee")
     src_id = make_id(match["url"], "src")
     ct_id  = make_id(match["url"], "ct")
     st_id  = make_id(match["url"], "st")
 
     stream_links = []
-    for i, cdn_url in enumerate(CDN_LINKS):
-        lnk_id = make_id(cdn_url + str(i), "lnk")
+    for i, s_url in enumerate(streams):
+        lnk_id = make_id(s_url + str(i), "lnk")
         stream_links.append({
             "id": lnk_id,
             "name": f"Link {i+1}",
             "type": "hls",
             "default": i == 0,
-            "url": cdn_url,
+            "url": s_url,
             "request_headers": [
                 {"key": "Referer", "value": match["url"]},
                 {"key": "User-Agent", "value": "Mozilla/5.0"}
             ]
         })
 
-    channel = {
+    return {
         "id": uid,
         "name": f"⚽ {match['name']}",
         "type": "single",
         "display": "thumbnail-only",
         "enable_detail": False,
-        "labels": [
-            {
-                "text": "● Live",
-                "position": "top-left",
-                "color": "#00ffffff",
-                "text_color": "#ff0000"
-            }
-        ],
+        "labels": [{"text": "● Live", "position": "top-left",
+                    "color": "#00ffffff", "text_color": "#ff0000"}],
         "sources": [{
             "id": src_id,
             "name": "CakhiaTV",
@@ -157,28 +182,37 @@ def build_channel(match, detail):
         }],
         "org_metadata": {
             "league": detail.get("league", ""),
-            "team_a": match["name"].split(" vs ")[0] if " vs " in match["name"] else "",
+            "team_a": match["name"].split(" vs ")[0] if " vs " in match["name"] else match["name"],
             "team_b": match["name"].split(" vs ")[1] if " vs " in match["name"] else "",
-            "logo_a": detail.get("logo_a", match.get("logo_a", "")),
-            "logo_b": detail.get("logo_b", match.get("logo_b", "")),
+            "logo_a": detail.get("logo_a") or match.get("logo_a", ""),
+            "logo_b": detail.get("logo_b") or match.get("logo_b", ""),
             "thumb": detail.get("thumb", ""),
         }
     }
 
-    return channel
-
 def main():
-    print("🔍 Đang lấy danh sách trận từ cakhiatv247...")
+    print("🔍 Lấy danh sách trận từ cakhiatv247...")
     matches = get_matches()
-    print(f"✅ Tìm thấy {len(matches)} trận")
+    print(f"✅ Tìm thấy {len(matches)} trận\n")
 
     channels = []
     for i, match in enumerate(matches):
-        print(f"  [{i+1}/{len(matches)}] {match['name']}")
+        print(f"[{i+1}/{len(matches)}] {match['name']} (ID: {match['match_id']})")
+
+        # Lấy stream từ cbox API
+        streams = get_streams(match["match_id"], match["blv_ids"])
+        print(f"    → {len(streams)} link stream")
+
+        if not streams:
+            print(f"    ⚠️ Bỏ qua (không có stream)")
+            continue
+
+        # Lấy detail (logo, giải)
         detail = get_match_detail(match["url"])
-        channel = build_channel(match, detail)
+
+        channel = build_channel(match, detail, streams)
         channels.append(channel)
-        time.sleep(0.5)
+        time.sleep(0.3)
 
     output = {
         "id": "cakhia",
