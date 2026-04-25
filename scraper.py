@@ -39,23 +39,31 @@ def get_matches():
             continue
         match_id = match_id.group(1)
 
-        # LIVE: class stream_m_live
+        # LIVE
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        # Logo: lấy tất cả img có data-src chứa /team/, bỏ /league/
-        team_imgs = [
-            i for i in card.select("img[data-src]")
-            if "/team/" in i.get("data-src", "") and "/league/" not in i.get("data-src", "")
-        ]
-        logo_a = team_imgs[0].get("data-src", "") if len(team_imgs) > 0 else ""
-        logo_b = team_imgs[1].get("data-src", "") if len(team_imgs) > 1 else ""
-        team_a = team_imgs[0].get("alt", "") if len(team_imgs) > 0 else ""
-        team_b = team_imgs[1].get("alt", "") if len(team_imgs) > 1 else ""
+        # Logo: lấy img trong div w-1/3 có alt không rỗng và data-src
+        team_divs = card.select("div.flex.flex-col.items-center.gap-3.w-1\\/3")
+        logo_a, logo_b, team_a, team_b = "", "", "", ""
+
+        if len(team_divs) >= 1:
+            img = team_divs[0].select_one("img[data-src][alt]")
+            if img and img.get("alt"):
+                logo_a = img.get("data-src", "")
+                team_a = img.get("alt", "")
+
+        if len(team_divs) >= 2:
+            img = team_divs[-1].select_one("img[data-src][alt]")
+            if img and img.get("alt"):
+                logo_b = img.get("data-src", "")
+                team_b = img.get("alt", "")
 
         # Giải đấu
         league_tag = card.select_one("span.s_by_name")
-        league = league_tag.get_text(strip=True) if league_tag else ""
+        leagues = card.select("span.s_by_name")
+        # s_by_name xuất hiện nhiều lần, lấy cái đầu tiên (tên giải)
+        league = leagues[0].get_text(strip=True) if leagues else ""
 
         # Giờ đấu
         time_tag = card.select_one("span.font-mono")
@@ -181,8 +189,8 @@ def main():
 
     for i, match in enumerate(live_matches):
         print(f"[LIVE {i+1}/{len(live_matches)}] {match['name']}")
-        print(f"  logo_a: {match['logo_a'][:60] if match['logo_a'] else 'TRONG'}")
-        print(f"  logo_b: {match['logo_b'][:60] if match['logo_b'] else 'TRONG'}")
+        print(f"  logo_a: {match['logo_a'][:70] if match['logo_a'] else 'TRONG'}")
+        print(f"  logo_b: {match['logo_b'][:70] if match['logo_b'] else 'TRONG'}")
         streams = get_streams(match["match_id"], match["blv_list"])
         print(f"  stream: {len(streams)} link")
         if not streams:
