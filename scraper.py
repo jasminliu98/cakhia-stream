@@ -18,75 +18,51 @@ def make_id(text, prefix):
     return f"{prefix}-{h}"
 
 def get_matches():
-    """Lấy danh sách trận từ trang chủ, kèm logo và trạng thái"""
     res = requests.get(BASE_URL, headers=HEADERS, timeout=15)
     soup = BeautifulSoup(res.text, "html.parser")
 
-    seen = set()
     matches = []
+    seen = set()
 
-    for a in soup.select("a[href*='/truc-tiep/']"):
-        href = a.get("href", "")
+    for card in soup.select("div.grid-matches__item"):
+        a_tag = card.select_one("a[href*='/truc-tiep/']")
+        if not a_tag:
+            continue
+        href = a_tag.get("href", "")
         if not href or href in seen:
             continue
         seen.add(href)
 
         url = BASE_URL + href if href.startswith("/") else href
-
-        # Lấy match_id từ URL (số cuối)
-        match_id = re.search(r'/(\d+)$', href)
+        match_id = re.search(r'/(\d+)(?:\?|$)', href)
         if not match_id:
             continue
         match_id = match_id.group(1)
 
-        # ── Logo + tên đội ──
-        # Mỗi đội nằm trong div chứa img cdn.rapid-api.icu
-        team_imgs = a.select("img[src*='cdn.rapid-api.icu']")
-        
-        logo_a, logo_b = "", ""
-        team_a, team_b = "", ""
+        card_class = " ".join(card.get("class", []))
+        is_live = "stream_m_live" in card_class
 
-        if len(team_imgs) >= 1:
-            logo_a = team_imgs[0].get("src", "")
-            team_a = team_imgs[0].get("alt", "")
-        if len(team_imgs) >= 2:
-            logo_b = team_imgs[1].get("src", "")
-            team_b = team_imgs[1].get("alt", "")
+        team_imgs = card.select("img[data-src*='football/team']")
+        logo_a = team_imgs[0].get("data-src", "") if len(team_imgs) > 0 else ""
+        logo_b = team_imgs[1].get("data-src", "") if len(team_imgs) > 1 else ""
+        team_a = team_imgs[0].get("alt", "") if len(team_imgs) > 0 else ""
+        team_b = team_imgs[1].get("alt", "") if len(team_imgs) > 1 else ""
 
-        # ── Trạng thái LIVE ──
-        # Trận LIVE: div logo có class ring-red-500
-        # Trận chưa live: div logo có class ring-blue-500
-        is_live = False
-        logo_divs = a.select("div[class*='ring-red']")
-        if logo_divs:
-            is_live = True
+        league_tag = card.select_one("span.s_by_name")
+        league = league_tag.get_text(strip=True) if league_tag else ""
 
-        # Cũng kiểm tra thêm text "LIVE" hoặc span có màu đỏ
-        live_spans = a.select("span[class*='red'], span[class*='live']")
-        if live_spans:
-            is_live = True
+        time_tag = card.select_one("span.font-mono")
+        match_time = time_tag.get_text(strip=True) if time_tag else ""
 
-        # ── Giờ đấu ──
-        time_tag = a.find(string=re.compile(r'\d{2}:\d{2}'))
-        match_time = time_tag.strip() if time_tag else ""
+        blv_list = []
+        for blv_a in card.select("a[href*='?blv=']"):
+            blv_href = blv_a.get("href", "")
+            blv_id_match = re.search(r'\?blv=(\d+)', blv_href)
+            blv_name = blv_a.get_text(strip=True)
+            if blv_id_match and blv_name:
+                blv_list.append({"id": blv_id_match.group(1), "name": blv_name})
 
-        # ── Tên trận ──
-        if team_a and team_b:
-            name = f"{team_a} vs {team_b}"
-        else:
-            # Fallback: lấy từ href
-            slug = href.split("/")[2] if len(href.split("/")) > 2 else ""
-            name = slug.replace("-", " ").title()[:60]
-
-        # ── Giải đấu ──
-        league_tag = a.find(class_=re.compile(r'text-link-stream'))
-        league = ""
-        if league_tag:
-            text = league_tag.get_text(strip=True)
-            # Format: "Bóng đá, 23:30" hoặc "K-League, 23:30"
-            parts = text.split(",")
-            if parts:
-                league = parts[0].strip()
+        name = f"{team_a} vs {team_b}" if team_a and team_b else href.split("/")[2][:50]
 
         matches.append({
             "url": url,
@@ -99,48 +75,29 @@ def get_matches():
             "logo_b": logo_b,
             "league": league,
             "is_live": is_live,
+            "blv_list": blv_list,
         })
 
     return matches
 
-def get_streams(match_id):
-    """Gọi cbox API để lấy link m3u8, thử các channel_id phổ biến"""
+def get_streams(match_id, blv_list):
     streams = []
+    channel_ids = [b["id"] for b in blv_list] if blv_list else ["0"]
 
-    # Thử channel_id = 0 (mặc định) trước, rồi các ID phổ biến
-    channel_ids = ["0", "145238", "145274", "145476"]
-
-    for ch_id in channel_ids:
+    for ch_id in channel_ids[:3]:
         try:
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
-
-            # Decode unicode escape (\u0026 → &)
             text = res.text
-
-            # Tìm link m3u8 từ cdn-hls.cakhiatv89.com
-            cakhia_links = re.findall(
-                r'https://cdn-hls\.cakhiatv89\.com/live/[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*',
-                text
-            )
-            # Tìm link alilicloud
-            alili_links = re.findall(
-                r'https://live\.alilicloud\.com/live/[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*',
-                text
-            )
-
-            # Xử lý unicode escape trong link
-            all_raw = cakhia_links + alili_links
-            for lnk in all_raw:
+            found = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', text)
+            for lnk in found:
                 clean = lnk.replace("\\u0026", "&").replace("\\/", "/")
                 if clean not in streams:
                     streams.append(clean)
-
             if streams:
-                break  # Có link rồi, không cần thử thêm
-
+                break
         except Exception as e:
-            print(f"    ⚠️ Lỗi cbox {match_id}/{ch_id}: {e}")
+            print(f"    Loi cbox {match_id}/{ch_id}: {e}")
         time.sleep(0.2)
 
     return streams
@@ -166,109 +123,80 @@ def build_channel(match, streams):
             ]
         })
 
-    # Label: LIVE đỏ hoặc giờ đấu
-    label_text = "● LIVE" if match["is_live"] else f"🕐 {match['time']}"
-    label_color = "#ff0000" if match["is_live"] else "#ffffff"
+    blv_names = ", ".join([b["name"] for b in match["blv_list"]]) if match["blv_list"] else ""
+    display_name = match["name"]
+    if match["time"]:
+        display_name = f"{match['name']} ({match['time']})"
+
+    label_text  = "● LIVE" if match["is_live"] else f"🕐 {match['time']}"
+    label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
     return {
         "id": uid,
-        "name": match["name"],
+        "name": display_name,
         "type": "single",
         "display": "thumbnail-only",
         "enable_detail": False,
-        "labels": [
-            {
-                "text": label_text,
-                "position": "top-left",
-                "color": "#00000080",
-                "text_color": label_color
-            }
-        ],
+        "labels": [{"text": label_text, "position": "top-left",
+                    "color": "#00000080", "text_color": label_color}],
         "sources": [{
             "id": src_id,
             "name": "CakhiaTV",
             "contents": [{
                 "id": ct_id,
                 "name": match["name"],
-                "streams": [{
-                    "id": st_id,
-                    "name": "KT",
-                    "stream_links": stream_links
-                }]
+                "streams": [{"id": st_id, "name": "KT", "stream_links": stream_links}]
             }]
         }],
         "org_metadata": {
             "league": match.get("league", ""),
             "team_a": match.get("team_a", ""),
             "team_b": match.get("team_b", ""),
-            "logo": match.get("logo_a", ""),      # logo chính (đội nhà)
+            "logo": match.get("logo_a", ""),
             "logo_a": match.get("logo_a", ""),
             "logo_b": match.get("logo_b", ""),
+            "time": match.get("time", ""),
+            "blv": blv_names,
             "is_live": match["is_live"],
         }
     }
 
 def main():
-    print("🔍 Lấy danh sách trận từ cakhiatv247...")
+    print("Lay danh sach tran tu cakhiatv247...")
     matches = get_matches()
-    print(f"✅ Tìm thấy {len(matches)} trận\n")
 
-    live_count = sum(1 for m in matches if m["is_live"])
-    print(f"   🔴 Đang LIVE: {live_count}")
-    print(f"   🕐 Sắp diễn ra: {len(matches) - live_count}\n")
-
-    # Tách 2 nhóm
-    live_matches    = [m for m in matches if m["is_live"]]
+    live_matches     = [m for m in matches if m["is_live"]]
     upcoming_matches = [m for m in matches if not m["is_live"]]
+
+    print(f"Tong: {len(matches)} tran | LIVE: {len(live_matches)} | Sap: {len(upcoming_matches)}\n")
 
     live_channels     = []
     upcoming_channels = []
 
-    all_matches = live_matches + upcoming_matches
+    for i, match in enumerate(live_matches):
+        print(f"[LIVE {i+1}/{len(live_matches)}] {match['name']}")
+        streams = get_streams(match["match_id"], match["blv_list"])
+        print(f"  Stream: {len(streams)} link")
+        if not streams:
+            continue
+        live_channels.append(build_channel(match, streams))
+        time.sleep(0.3)
 
-    for i, match in enumerate(all_matches):
-        status = "🔴 LIVE" if match["is_live"] else "🕐 Sắp"
-        print(f"[{i+1}/{len(all_matches)}] {status} {match['name']}")
+    for match in upcoming_matches:
+        upcoming_channels.append(build_channel(match, []))
 
-        # Chỉ lấy stream cho trận LIVE
-        streams = []
-        if match["is_live"]:
-            streams = get_streams(match["match_id"])
-            print(f"    → {len(streams)} link stream")
-            if not streams:
-                print(f"    ⚠️ Không có stream, bỏ qua")
-                continue
-        
-        channel = build_channel(match, streams)
-
-        if match["is_live"]:
-            live_channels.append(channel)
-        else:
-            upcoming_channels.append(channel)
-
-        time.sleep(0.2)
-
-    # Build output JSON với 2 group
     groups = []
-
     if live_channels:
         groups.append({
-            "id": "live",
-            "name": "🔴 Đang Live",
-            "display": "vertical",
-            "grid_number": 2,
-            "enable_detail": False,
-            "channels": live_channels
+            "id": "live", "name": "🔴 Đang Live",
+            "display": "vertical", "grid_number": 2,
+            "enable_detail": False, "channels": live_channels
         })
-
     if upcoming_channels:
         groups.append({
-            "id": "upcoming",
-            "name": "🕐 Sắp Diễn Ra",
-            "display": "vertical",
-            "grid_number": 2,
-            "enable_detail": False,
-            "channels": upcoming_channels
+            "id": "upcoming", "name": "🕐 Sắp Diễn Ra",
+            "display": "vertical", "grid_number": 2,
+            "enable_detail": False, "channels": upcoming_channels
         })
 
     output = {
@@ -277,20 +205,14 @@ def main():
         "name": "CakhiaTV",
         "color": "#1cb57a",
         "grid_number": 3,
-        "image": {
-            "type": "cover",
-            "url": "https://cakhiatv247.net/img/logo-247-1.png"
-        },
+        "image": {"type": "cover", "url": "https://cakhiatv247.net/img/logo-247-1.png"},
         "groups": groups
     }
 
     with open("output.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Xong!")
-    print(f"   🔴 Live: {len(live_channels)} kênh")
-    print(f"   🕐 Sắp: {len(upcoming_channels)} kênh")
-    print(f"   → output.json")
+    print(f"\nXong! LIVE: {len(live_channels)} | Sap: {len(upcoming_channels)} -> output.json")
 
 if __name__ == "__main__":
     main()
