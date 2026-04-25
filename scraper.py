@@ -18,6 +18,30 @@ CBOX_URL = "https://cbox-v2.cakhiatv89.com/"
 THUMBS_DIR = "thumbs"
 REPO_RAW = os.environ.get("REPO_RAW", "")
 
+# Map icon-cate sang tên môn
+CATE_MAP = {
+    "1":  "⚽ Bóng Đá",
+    "2":  "🏀 Bóng Rổ",
+    "3":  "🎾 Tennis",
+    "4":  "🏸 Cầu Lông",
+    "5":  "🎱 Billiards",
+    "6":  "🥊 Võ Thuật",
+    "7":  "🏐 Bóng Chuyền",
+    "8":  "🏓 Bóng Bàn",
+    "9":  "🏊 Bơi Lội",
+    "10": "⛳ Golf",
+    "11": "🏋️ Thể Hình",
+    "12": "🚴 Đua Xe",
+    "13": "🏸 Cầu Lông",
+    "14": "🏊 Bơi Lội",
+    "15": "🤼 Vật",
+    "16": "🏇 Đua Ngựa",
+    "17": "🏒 Khúc Côn Cầu",
+    "18": "🎿 Trượt Tuyết",
+    "19": "🏊 Thể Thao Dưới Nước",
+    "20": "🏀 Bóng Rổ",
+}
+
 def make_id(text, prefix):
     h = hashlib.md5(text.encode()).hexdigest()[:10]
     return f"{prefix}-{h}"
@@ -34,72 +58,87 @@ def make_thumbnail(match, channel_id):
     out_path = f"{THUMBS_DIR}/{channel_id}.png"
 
     W, H = 1600, 1200
-    # Background tối
-    bg = Image.new("RGB", (W, H), (15, 23, 42))
+
+    # Nền trắng
+    bg = Image.new("RGB", (W, H), (255, 255, 255))
     draw = ImageDraw.Draw(bg)
 
-    # Vẽ gradient nhẹ ở giữa
-    for i in range(H):
-        alpha = int(20 * (1 - abs(i - H//2) / (H//2)))
-        draw.line([(0, i), (W, i)], fill=(30, 50, 80))
+    # Viền xám nhạt
+    draw.rectangle([(0,0),(W-1,H-1)], outline=(220,220,220), width=4)
 
-    logo_size = 320
+    # Header: giải đấu (nền xanh đậm)
+    draw.rectangle([(0,0),(W,120)], fill=(15, 23, 42))
+
+    # Footer: BLV (nền xanh đậm)
+    draw.rectangle([(0, H-100),(W, H)], fill=(15, 23, 42))
+
+    try:
+        font_vs    = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 130)
+        font_time  = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 90)
+        font_team  = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 55)
+        font_league= ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 52)
+        font_blv   = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 48)
+    except:
+        font_vs = font_time = font_team = font_league = font_blv = ImageFont.load_default()
+
+    logo_size = 380
+    logo_y = 200
 
     # Logo A (trái)
     if match.get("logo_a"):
         img_a = fetch_image(match["logo_a"])
         if img_a:
             img_a = img_a.resize((logo_size, logo_size), Image.LANCZOS)
-            x = W // 4 - logo_size // 2
-            y = H // 2 - logo_size // 2 - 60
-            bg.paste(img_a, (x, y), img_a)
+            x = W//4 - logo_size//2
+            bg.paste(img_a, (x, logo_y), img_a)
 
     # Logo B (phải)
     if match.get("logo_b"):
         img_b = fetch_image(match["logo_b"])
         if img_b:
             img_b = img_b.resize((logo_size, logo_size), Image.LANCZOS)
-            x = W * 3 // 4 - logo_size // 2
-            y = H // 2 - logo_size // 2 - 60
-            bg.paste(img_b, (x, y), img_b)
+            x = W*3//4 - logo_size//2
+            bg.paste(img_b, (x, logo_y), img_b)
 
-    # Text
-    try:
-        font_big   = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 80)
-        font_med   = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 52)
-        font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 42)
-    except:
-        font_big = font_med = font_small = ImageFont.load_default()
+    center_y = logo_y + logo_size//2
 
-    # VS ở giữa
-    draw.text((W//2, H//2 - 60), "VS", fill=(255, 255, 255), font=font_big, anchor="mm")
+    # VS
+    draw.text((W//2, center_y - 50), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
 
-    # Giờ đấu dưới VS
+    # Giờ đấu
     if match.get("time"):
-        draw.text((W//2, H//2 + 60), match["time"], fill=(251, 146, 60), font=font_med, anchor="mm")
+        draw.text((W//2, center_y + 100), match["time"], fill=(234, 88, 12), font=font_time, anchor="mm")
 
     # Tên đội A
     if match.get("team_a"):
-        draw.text((W//4, H//2 + logo_size//2 - 20), match["team_a"],
-                  fill=(226, 232, 240), font=font_small, anchor="mm")
+        name_a = match["team_a"][:20]
+        draw.text((W//4, logo_y + logo_size + 60), name_a, fill=(15,23,42), font=font_team, anchor="mm")
 
     # Tên đội B
     if match.get("team_b"):
-        draw.text((W*3//4, H//2 + logo_size//2 - 20), match["team_b"],
-                  fill=(226, 232, 240), font=font_small, anchor="mm")
+        name_b = match["team_b"][:20]
+        draw.text((W*3//4, logo_y + logo_size + 60), name_b, fill=(15,23,42), font=font_team, anchor="mm")
 
-    # Giải đấu (trên cùng)
+    # Giải đấu (header)
     if match.get("league"):
-        draw.text((W//2, 60), match["league"].upper(),
-                  fill=(148, 163, 184), font=font_small, anchor="mm")
+        draw.text((W//2, 60), match["league"].upper(), fill=(255,255,255), font=font_league, anchor="mm")
 
-    # BLV (dưới cùng)
+    # BLV (footer)
     if match.get("blv"):
-        draw.text((W//2, H - 60), f"BLV: {match['blv']}",
-                  fill=(100, 200, 150), font=font_small, anchor="mm")
+        draw.text((W//2, H - 50), f"🎙 BLV: {match['blv']}", fill=(134,239,172), font=font_blv, anchor="mm")
 
     bg.save(out_path, "PNG", optimize=True)
     return out_path
+
+def parse_time_sort(match_time):
+    """Chuyển '22:00 25/04' thành số để sort"""
+    try:
+        parts = match_time.strip().split()
+        hm = parts[0].split(":")
+        dm = parts[1].split("/") if len(parts) > 1 else ["25","04"]
+        return int(dm[1]) * 100000 + int(dm[0]) * 1000 + int(hm[0]) * 60 + int(hm[1])
+    except:
+        return 999999
 
 def get_matches():
     res = requests.get(BASE_URL, headers=HEADERS, timeout=15)
@@ -126,7 +165,14 @@ def get_matches():
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        SKIP_ALTS = {"","Bóng đá","Bóng rổ","Cầu Lông","Tennis","Billiards","Võ Thuật","Bóng chuyền","Pickleball"}
+        # Lấy cate_id từ class item_cate_XX
+        cate_id = "1"
+        cate_match = re.search(r'item_cate_(\d+)', card_class)
+        if cate_match:
+            cate_id = cate_match.group(1)
+
+        SKIP_ALTS = {"","Bóng đá","Bóng rổ","Cầu Lông","Tennis","Billiards",
+                     "Võ Thuật","Bóng chuyền","Pickleball","Bóng Rổ"}
         team_imgs = [
             i for i in card.select("img[width='64']")
             if i.get("alt","").strip() and i.get("alt","") not in SKIP_ALTS
@@ -145,6 +191,7 @@ def get_matches():
         time_tag = card.select_one("span.font-mono")
         match_time = time_tag.get_text(strip=True) if time_tag else ""
 
+        # BLV: ưu tiên BLV online (có tên) lên trước
         blv_list = []
         for blv_a in card.select("a[href*='?blv=']"):
             blv_href = blv_a.get("href", "")
@@ -161,6 +208,7 @@ def get_matches():
             "match_id": match_id,
             "name": name,
             "time": match_time,
+            "time_sort": parse_time_sort(match_time),
             "team_a": team_a,
             "team_b": team_b,
             "logo_a": logo_a,
@@ -169,15 +217,23 @@ def get_matches():
             "blv": blv_names,
             "is_live": is_live,
             "blv_list": blv_list,
+            "cate_id": cate_id,
         })
 
+    # Sắp xếp: LIVE trước, sau đó theo giờ tăng dần
+    matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return matches
 
 def get_streams(match_id, blv_list):
+    """Ưu tiên BLV có tên trước, sau đó mới thử channel mặc định"""
     streams = []
-    channel_ids = [b["id"] for b in blv_list] if blv_list else ["0"]
 
-    for ch_id in channel_ids[:3]:
+    # BLV có tên trước (ưu tiên cao)
+    named_blv = [b for b in blv_list if b["name"].strip()]
+    # Sau đó thử channel_id=0 (sóng nhà đài)
+    channel_ids = [b["id"] for b in named_blv] + ["0"]
+
+    for ch_id in channel_ids[:4]:
         try:
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
@@ -215,11 +271,9 @@ def build_channel(match, streams, thumb_url=""):
             ]
         })
 
-    # Label
-    label_text  = "● LIVE" if match["is_live"] else "🕐 Sắp diễn ra"
+    label_text  = "● LIVE" if match["is_live"] else "🕐 Sắp"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
-    # Tên: thêm giờ
     display_name = match["name"]
     if match["time"]:
         display_name = f"{match['name']} | {match['time']}"
@@ -256,7 +310,7 @@ def build_channel(match, streams, thumb_url=""):
     if thumb_url:
         channel["image"] = {
             "padding": 1,
-            "background_color": "#0f172a",
+            "background_color": "#ffffff",
             "display": "contain",
             "url": thumb_url,
             "width": 1600,
@@ -269,38 +323,53 @@ def main():
     print("Lay danh sach tran tu cakhiatv247...")
     matches = get_matches()
 
-    live_matches     = [m for m in matches if m["is_live"]]
-    upcoming_matches = [m for m in matches if not m["is_live"]]
+    live_count = sum(1 for m in matches if m["is_live"])
+    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches)-live_count}\n")
 
-    print(f"Tong: {len(matches)} | LIVE: {len(live_matches)} | Sap: {len(upcoming_matches)}\n")
+    # Nhóm theo môn thể thao
+    cate_channels = {}  # cate_id -> list of channels
 
-    all_channels = []
+    for i, match in enumerate(matches):
+        cate_id = match["cate_id"]
+        status = "LIVE" if match["is_live"] else "SAP"
+        print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']})")
 
-    # Trận LIVE trước
-    for i, match in enumerate(live_matches):
-        print(f"[LIVE {i+1}/{len(live_matches)}] {match['name']}")
-        streams = get_streams(match["match_id"], match["blv_list"])
-        print(f"  stream: {len(streams)} link")
-        if not streams:
-            print(f"  Bo qua - khong co stream")
-            continue
-
+        streams = []
+        if match["is_live"]:
+            streams = get_streams(match["match_id"], match["blv_list"])
+            print(f"  stream: {len(streams)} link")
+            if not streams:
+                print(f"  Bo qua - khong co stream")
+                # Vẫn thêm vào nhưng không có stream
+        
         uid = make_id(match["url"], "kaytee")
         thumb_path = make_thumbnail(match, uid)
         thumb_url = f"{REPO_RAW}/{thumb_path}" if REPO_RAW else ""
 
-        all_channels.append(build_channel(match, streams, thumb_url))
-        time.sleep(0.3)
+        channel = build_channel(match, streams, thumb_url)
 
-    # Trận sắp diễn ra
-    for i, match in enumerate(upcoming_matches):
-        print(f"[SAP {i+1}/{len(upcoming_matches)}] {match['name']} - {match['time']}")
-        uid = make_id(match["url"], "kaytee")
-        thumb_path = make_thumbnail(match, uid)
-        thumb_url = f"{REPO_RAW}/{thumb_path}" if REPO_RAW else ""
-        all_channels.append(build_channel(match, [], thumb_url))
+        if cate_id not in cate_channels:
+            cate_channels[cate_id] = []
+        cate_channels[cate_id].append(channel)
 
-    # 1 group duy nhất
+        time.sleep(0.2)
+
+    # Build groups theo môn
+    groups = []
+    for cate_id, channels in cate_channels.items():
+        cate_name = CATE_MAP.get(cate_id, f"🏅 Thể Thao {cate_id}")
+        groups.append({
+            "id": f"cate_{cate_id}",
+            "name": cate_name,
+            "display": "vertical",
+            "grid_number": 2,
+            "enable_detail": False,
+            "channels": channels
+        })
+
+    # Sắp xếp: Bóng đá (cate 1) lên đầu
+    groups.sort(key=lambda g: (0 if g["id"] == "cate_1" else 1, g["name"]))
+
     output = {
         "id": "cakhia",
         "url": "https://cakhiatv247.net",
@@ -308,20 +377,14 @@ def main():
         "color": "#1cb57a",
         "grid_number": 3,
         "image": {"type": "cover", "url": "https://cakhiatv247.net/img/logo-247-1.png"},
-        "groups": [{
-            "id": "all",
-            "name": "⚽ Tất Cả Trận",
-            "display": "vertical",
-            "grid_number": 2,
-            "enable_detail": False,
-            "channels": all_channels
-        }]
+        "groups": groups
     }
 
     with open("output.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\nXong! Tong: {len(all_channels)} kenh -> output.json")
+    total = sum(len(g["channels"]) for g in groups)
+    print(f"\nXong! {total} kenh, {len(groups)} mon the thao -> output.json")
 
 if __name__ == "__main__":
     main()
