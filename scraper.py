@@ -41,7 +41,7 @@ def fetch_image(url):
     except:
         return None
 
-THUMB_VERSION = "v4"  # Tăng version này để force regenerate tất cả thumbnail cũ
+THUMB_VERSION = "v5"
 
 def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
@@ -84,9 +84,12 @@ def make_thumbnail(match, channel_id):
     # giờ: hàng 4 (~20%)
     # padding: còn lại
 
-    logo_y = content_top + int(content_h * 0.08)   # logo bắt đầu ở 8% từ header
-    name_y = logo_y + logo_size + 60               # tên đội dưới logo 60px
-    time_y = name_y + 80                           # giờ dưới tên đội 80px
+    logo_y = content_top + int(content_h * 0.06)   # logo bắt đầu ở 6% từ content_top
+    name_y = logo_y + logo_size + 55               # tên đội ngay dưới logo
+    # Giờ căn giữa vùng trống giữa tên đội và footer
+    gap_top = name_y + 60
+    gap_bot = content_bot
+    time_y  = (gap_top + gap_bot) // 2
 
     # Logo A (trái)
     if match.get("logo_a"):
@@ -152,7 +155,7 @@ def is_within_24h(match_time):
             match_dt = datetime(year, month, day, hour, minute)
         except ValueError:
             return False
-        lower = now - timedelta(hours=3)
+        lower = now - timedelta(hours=6)  # đủ cho môn dài như billiards, tennis
         upper = now + timedelta(hours=24)
         return lower <= match_dt <= upper
     except:
@@ -310,17 +313,23 @@ def get_streams(match_id, blv_list):
     if not named_blv:
         return []
 
-    for blv in named_blv[:4]:  # Tối đa 4 BLV
+    for blv in named_blv[:4]:
         ch_id = blv["id"]
         try:
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
             found = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', res.text)
+            blv_links = []
             for lnk in found:
                 clean = lnk.replace("\\u0026", "&").replace("\\/", "/")
-                if clean not in streams:
-                    streams.append(clean)
-                    print(f"    BLV [{blv['name']}] -> {clean[:60]}...")
+                if clean not in streams and clean not in blv_links:
+                    blv_links.append(clean)
+            if blv_links:
+                # Chỉ lấy 1 link tốt nhất mỗi BLV — tránh sóng đài lẫn vào
+                streams.append(blv_links[0])
+                print(f"    BLV [{blv['name']}] ch={ch_id} -> {blv_links[0][:60]}...")
+            else:
+                print(f"    BLV [{blv['name']}] ch={ch_id} -> no stream")
         except Exception as e:
             print(f"    Loi cbox {match_id}/{ch_id} ({blv['name']}): {e}")
         time.sleep(0.2)
@@ -398,6 +407,7 @@ def build_channel(match, streams, thumb_url=""):
     return channel
 
 def main():
+    os.makedirs(THUMBS_DIR, exist_ok=True)  # luôn tạo thư mục dù không có trận live
     print("Lay danh sach tran tu cakhiatv247...")
     matches = get_matches()
 
