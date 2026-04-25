@@ -42,7 +42,7 @@ def get_matches():
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        team_imgs = card.select("img[data-src*='/team/']")
+        team_imgs = card.select("img[data-src*='football/team']")
         logo_a = team_imgs[0].get("data-src", "") if len(team_imgs) > 0 else ""
         logo_b = team_imgs[1].get("data-src", "") if len(team_imgs) > 1 else ""
         team_a = team_imgs[0].get("alt", "") if len(team_imgs) > 0 else ""
@@ -131,12 +131,23 @@ def build_channel(match, streams):
     label_text  = "● LIVE" if match["is_live"] else f"🕐 {match['time']}"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
+    # Tạo thumbnail ghép logo 2 đội (dùng logo_a làm ảnh chính nếu chưa có thumb)
+    thumb_url = match.get("logo_a", "")
+
     return {
         "id": uid,
         "name": display_name,
         "type": "single",
         "display": "thumbnail-only",
         "enable_detail": False,
+        "image": {
+            "padding": 1,
+            "background_color": "#1a1a2e",
+            "display": "contain",
+            "url": thumb_url,
+            "width": 1600,
+            "height": 1200
+        },
         "labels": [{"text": label_text, "position": "top-left",
                     "color": "#00000080", "text_color": label_color}],
         "sources": [{
