@@ -10,24 +10,67 @@
   },
   "groups": [
     {
-      "id": "live",
-      "name": "🔴 Live",
+      "id": "upcoming",
+      "name": "🕐 Sắp Diễn Ra",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-49eabd770d",
-          "name": "⚽ Fulham vs Aston Villa",
+          "id": "kaytee-ae7a9aa58f",
+          "name": "Than Quang Ninh Vs Ba Ria Vung Tau Fc 1700 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 Bóng đá, 17:00",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae7a9aa58f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ae7a9aa58f",
+                  "name": "Than Quang Ninh Vs Ba Ria Vung Tau Fc 1700 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-ae7a9aa58f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-49eabd770d",
+          "name": "Fulham Vs Aston Villa 1830 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Bóng đá, 18:30",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -37,30 +80,12 @@
               "contents": [
                 {
                   "id": "ct-49eabd770d",
-                  "name": "Fulham vs Aston Villa",
+                  "name": "Fulham Vs Aston Villa 1830 25 04 2026",
                   "streams": [
                     {
                       "id": "st-49eabd770d",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-869977e145",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/42139f18d8523763649b9f507403df1b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/fulham-vs-aston-villa-1830-25-04-2026/601408302"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -68,26 +93,113 @@
             }
           ],
           "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Fulham",
-            "team_b": "Aston Villa",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a3c32d6a906083118cac2cb796edaab3.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-aa8eb63d80",
-          "name": "⚽ Arsenal vs Newcastle United",
+          "id": "kaytee-bd889338fb",
+          "name": "Liverpool Vs Crystal Palace 2100 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 Bóng đá, 21:00",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd889338fb",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bd889338fb",
+                  "name": "Liverpool Vs Crystal Palace 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-bd889338fb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-99731042bd",
+          "name": "West Ham United Vs Everton 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Bóng đá, 21:00",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99731042bd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-99731042bd",
+                  "name": "West Ham United Vs Everton 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-99731042bd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-aa8eb63d80",
+          "name": "Arsenal Vs Newcastle United 2330 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Bóng đá, 23:30",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -97,30 +209,12 @@
               "contents": [
                 {
                   "id": "ct-aa8eb63d80",
-                  "name": "Arsenal vs Newcastle United",
+                  "name": "Arsenal Vs Newcastle United 2330 25 04 2026",
                   "streams": [
                     {
                       "id": "st-aa8eb63d80",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cffbc94ca",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b88f14628ba4db95ea90af8b94ed3b5c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/arsenal-vs-newcastle-united-2330-25-04-2026/601411008"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -128,26 +222,27 @@
             }
           ],
           "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Arsenal",
-            "team_b": "Newcastle United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5dbe320855e3ba772dbce54f940c6fa5.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-82af10413a",
-          "name": "⚽ 1. FSV Mainz 05 vs FC Bayern Munich",
+          "name": "1 Fsv Mainz 05 Vs Fc Bayern Munich 2030 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 Bóng đá, 20:30",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -157,30 +252,12 @@
               "contents": [
                 {
                   "id": "ct-82af10413a",
-                  "name": "1. FSV Mainz 05 vs FC Bayern Munich",
+                  "name": "1 Fsv Mainz 05 Vs Fc Bayern Munich 2030 25 04 2026",
                   "streams": [
                     {
                       "id": "st-82af10413a",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0365724ec5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/61d59be56f1645c330641ef0b4fd8d94/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/1-fsv-mainz-05-vs-fc-bayern-munich-2030-25-04-2026/601409487"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -188,26 +265,156 @@
             }
           ],
           "org_metadata": {
-            "league": "",
-            "team_a": "1. FSV Mainz 05",
-            "team_b": "FC Bayern Munich",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ef19a84a6745fe57aa786873d2b18e8a.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-01ef997d96",
-          "name": "⚽ Deportivo Alavés vs RCD Mallorca",
+          "id": "kaytee-86fb4aac8d",
+          "name": "Becamex Binh Duong Vs Nam Dinh Fc 1800 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 Bóng đá, 18:00",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86fb4aac8d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-86fb4aac8d",
+                  "name": "Becamex Binh Duong Vs Nam Dinh Fc 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-86fb4aac8d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-cddab51132",
+          "name": "Clb Thanh Hoa Vs Pvf Cand 1800 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Bóng đá, 18:00",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cddab51132",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cddab51132",
+                  "name": "Clb Thanh Hoa Vs Pvf Cand 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-cddab51132",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-bc53936e36",
+          "name": "Quy Nhon United Vs Binh Phuoc 1800 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Bóng đá, 18:00",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc53936e36",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bc53936e36",
+                  "name": "Quy Nhon United Vs Binh Phuoc 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-bc53936e36",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-01ef997d96",
+          "name": "Deportivo Alaves Vs Rcd Mallorca 1900 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Bóng đá, 19:00",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -217,30 +424,12 @@
               "contents": [
                 {
                   "id": "ct-01ef997d96",
-                  "name": "Deportivo Alavés vs RCD Mallorca",
+                  "name": "Deportivo Alaves Vs Rcd Mallorca 1900 25 04 2026",
                   "streams": [
                     {
                       "id": "st-01ef997d96",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b60f1a4f04",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/d897ae0c927b1186e560d5db73a03fe4/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/deportivo-alaves-vs-rcd-mallorca-1900-25-04-2026/601408572"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -248,26 +437,70 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Deportivo Alavés",
-            "team_b": "RCD Mallorca",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/fdef90456d2a2eee09976c558457aec7.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "Bóng đá",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-36571c4ea0",
-          "name": "⚽ Parma vs Pisa",
+          "id": "kaytee-0cd10429c6",
+          "name": "Japan Vs Finland 2330 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 23:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cd10429c6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0cd10429c6",
+                  "name": "Japan Vs Finland 2330 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-0cd10429c6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-36571c4ea0",
+          "name": "Parma Vs Pisa 2000 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 20:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -277,30 +510,12 @@
               "contents": [
                 {
                   "id": "ct-36571c4ea0",
-                  "name": "Parma vs Pisa",
+                  "name": "Parma Vs Pisa 2000 25 04 2026",
                   "streams": [
                     {
                       "id": "st-36571c4ea0",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-92250869f5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/e291ef94fc588cbf69a18dda57855340/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/parma-vs-pisa-2000-25-04-2026/601409079"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -308,26 +523,27 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Parma",
-            "team_b": "Pisa",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9fadd87d190982c8082dddf1567e0b9b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7ca5de14056c7290f6787e0943aa11ad.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-d38a244b3a",
-          "name": "⚽ Lyon vs AJ Auxerre",
+          "name": "Lyon Vs Aj Auxerre 2000 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 20:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -337,30 +553,12 @@
               "contents": [
                 {
                   "id": "ct-d38a244b3a",
-                  "name": "Lyon vs AJ Auxerre",
+                  "name": "Lyon Vs Aj Auxerre 2000 25 04 2026",
                   "streams": [
                     {
                       "id": "st-d38a244b3a",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01e894c980",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/ed02b6ed556a4f8e18ac9b8cefe6708f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/lyon-vs-aj-auxerre-2000-25-04-2026/601409106"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -368,26 +566,27 @@
             }
           ],
           "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Lyon",
-            "team_b": "AJ Auxerre",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/92fb3cf79ea2ba919b94b04668e13491.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-b1fb839679",
-          "name": "⚽ Bologna vs AS Roma",
+          "name": "Bologna Vs As Roma 2300 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 23:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -397,30 +596,12 @@
               "contents": [
                 {
                   "id": "ct-b1fb839679",
-                  "name": "Bologna vs AS Roma",
+                  "name": "Bologna Vs As Roma 2300 25 04 2026",
                   "streams": [
                     {
                       "id": "st-b1fb839679",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f32f38f2bf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/6ee7a192fc289a692a0d0d7a67c880ac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/bologna-vs-as-roma-2300-25-04-2026/601410807"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -428,26 +609,156 @@
             }
           ],
           "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Bologna",
-            "team_b": "AS Roma",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/bd12298fc3920bc20b7ad43b16ad9624.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7a192686d30c1ad031d2fb605eaf2f2a.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-b48a99d49d",
-          "name": "⚽ Chinese Taipei vs Sweden",
+          "id": "kaytee-12eb460ef1",
+          "name": "Angers Sco Vs Paris Saint Germain 0000 26 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 00:00 26/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12eb460ef1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-12eb460ef1",
+                  "name": "Angers Sco Vs Paris Saint Germain 0000 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-12eb460ef1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-4fa7488375",
+          "name": "Atletico Madrid Vs Athletic Club 0200 26 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 02:00 26/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fa7488375",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4fa7488375",
+                  "name": "Atletico Madrid Vs Athletic Club 0200 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-4fa7488375",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-72dc300e94",
+          "name": "Toulouse Fc Vs As Monaco 0205 26 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 02:05 26/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72dc300e94",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-72dc300e94",
+                  "name": "Toulouse Fc Vs As Monaco 0205 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-72dc300e94",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-b48a99d49d",
+          "name": "Chinese Taipei Vs Sweden 1330 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 13:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -457,47 +768,12 @@
               "contents": [
                 {
                   "id": "ct-b48a99d49d",
-                  "name": "Chinese Taipei vs Sweden",
+                  "name": "Chinese Taipei Vs Sweden 1330 25 04 2026",
                   "streams": [
                     {
                       "id": "st-b48a99d49d",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb26185c95",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec575c4841d_145611/index.m3u8?expire=1777701340&sign=8eecfd1b28c6809f46e3ee75e3d91ee8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/chinese-taipei-vs-sweden-1330-25-04-2026/601418733"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-28f8c0c87a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec575c4841d_145611/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/chinese-taipei-vs-sweden-1330-25-04-2026/601418733"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -506,25 +782,112 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Chinese Taipei",
-            "team_b": "Sweden",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
             "logo_a": "",
             "logo_b": "",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/7c6a36958f3e1173e6131fd5d98cc541.jpg"
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-072c357755",
-          "name": "⚽ Manchester City vs Southampton",
+          "id": "kaytee-af8c192e60",
+          "name": "Japan Women Vs South Africa Women 1330 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 13:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af8c192e60",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-af8c192e60",
+                  "name": "Japan Women Vs South Africa Women 1330 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-af8c192e60",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-c6740eab3f",
+          "name": "Malaysia W Vs Turkey W 1330 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 13:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6740eab3f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c6740eab3f",
+                  "name": "Malaysia W Vs Turkey W 1330 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-c6740eab3f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-072c357755",
+          "name": "Manchester City Vs Southampton 2315 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 23:15 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -534,30 +897,12 @@
               "contents": [
                 {
                   "id": "ct-072c357755",
-                  "name": "Manchester City vs Southampton",
+                  "name": "Manchester City Vs Southampton 2315 25 04 2026",
                   "streams": [
                     {
                       "id": "st-072c357755",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76b95fbbe7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b7de014897dde0c3f840a1c91eb7e874/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/manchester-city-vs-southampton-2315-25-04-2026/601411005"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -566,25 +911,112 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Manchester City",
-            "team_b": "Southampton",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-0015a62b66",
-          "name": "⚽ Urawa Red Diamonds vs Yokohama F. Marinos",
+          "id": "kaytee-32be28f2e6",
+          "name": "Hellas Verona Vs Lecce 0145 26 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 01:45 26/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32be28f2e6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-32be28f2e6",
+                  "name": "Hellas Verona Vs Lecce 0145 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-32be28f2e6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-131a7b6242",
+          "name": "Inter Miami Cf Vs New England Revolution 0630 26 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 06:30 26/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-131a7b6242",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-131a7b6242",
+                  "name": "Inter Miami Cf Vs New England Revolution 0630 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-131a7b6242",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-0015a62b66",
+          "name": "Urawa Red Diamonds Vs Yokohama F Marinos 1200 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -594,64 +1026,12 @@
               "contents": [
                 {
                   "id": "ct-0015a62b66",
-                  "name": "Urawa Red Diamonds vs Yokohama F. Marinos",
+                  "name": "Urawa Red Diamonds Vs Yokohama F Marinos 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-0015a62b66",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-333e95318c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/74e50535f00a018731913e90501e4731/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/urawa-red-diamonds-vs-yokohama-f-marinos-1200-25-04-2026/601407426"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-55e289c25a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec434e36517_145503/index.m3u8?expire=1777696206&sign=f6287219d97e807e668dc4d88459e144",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/urawa-red-diamonds-vs-yokohama-f-marinos-1200-25-04-2026/601407426"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e71f3a89eb",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec434e36517_145503/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/urawa-red-diamonds-vs-yokohama-f-marinos-1200-25-04-2026/601407426"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -660,25 +1040,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Urawa Red Diamonds",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-7f07809d47",
-          "name": "⚽ Fagiano Okayama vs Avispa Fukuoka",
+          "name": "Fagiano Okayama Vs Avispa Fukuoka 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -688,64 +1069,12 @@
               "contents": [
                 {
                   "id": "ct-7f07809d47",
-                  "name": "Fagiano Okayama vs Avispa Fukuoka",
+                  "name": "Fagiano Okayama Vs Avispa Fukuoka 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-7f07809d47",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b78d5f188",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/a34e317d80e2ce059fe424d8915bb045/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/fagiano-okayama-vs-avispa-fukuoka-1200-25-04-2026/601407429"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-08cb85ea7d",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec438c4841d_145268/index.m3u8?expire=1777696268&sign=54094ec9db9c023dfec1ab4aa7117a0d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/fagiano-okayama-vs-avispa-fukuoka-1200-25-04-2026/601407429"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bfb0ae394c",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec438c4841d_145268/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/fagiano-okayama-vs-avispa-fukuoka-1200-25-04-2026/601407429"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -754,25 +1083,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Fagiano Okayama",
-            "team_b": "Avispa Fukuoka",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-b1c650ea50",
-          "name": "⚽ Shimizu S-Pulse vs Nagoya Grampus",
+          "name": "Shimizu Spulse Vs Nagoya Grampus 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -782,64 +1112,12 @@
               "contents": [
                 {
                   "id": "ct-b1c650ea50",
-                  "name": "Shimizu S-Pulse vs Nagoya Grampus",
+                  "name": "Shimizu Spulse Vs Nagoya Grampus 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-b1c650ea50",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a28aababf9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/1ab8a68d476ef0c13cd9c5f78f846a40/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/shimizu-spulse-vs-nagoya-grampus-1200-25-04-2026/601407432"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-72d9a0eeaf",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec44fa4841d_145277/index.m3u8?expire=1777696634&sign=d97ea0ebae77eb1b1135862c3e5448f0",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/shimizu-spulse-vs-nagoya-grampus-1200-25-04-2026/601407432"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-efa3e81a83",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec44fa4841d_145277/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/shimizu-spulse-vs-nagoya-grampus-1200-25-04-2026/601407432"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -848,25 +1126,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Shimizu S-Pulse",
-            "team_b": "Nagoya Grampus",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fa4105f0408ef893d941e70ae003ab4c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/32aa68e1fa3d62dad572d19b21a09353.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-d56abfa814",
-          "name": "⚽ Gangwon Football Club vs Football Club Seoul",
+          "name": "Gangwon Football Club Vs Football Club Seoul 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -876,64 +1155,12 @@
               "contents": [
                 {
                   "id": "ct-d56abfa814",
-                  "name": "Gangwon Football Club vs Football Club Seoul",
+                  "name": "Gangwon Football Club Vs Football Club Seoul 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-d56abfa814",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-131e48ae63",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b556bdcd4eafc95eb7a51dc94419a0e3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/gangwon-football-club-vs-football-club-seoul-1200-25-04-2026/601407480"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-996cb0aa80",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec434b36517_145428/index.m3u8?expire=1777696203&sign=c64131bee5ba9dd2a1db717995fcc7ec",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/gangwon-football-club-vs-football-club-seoul-1200-25-04-2026/601407480"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33caa73faf",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec434b36517_145428/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/gangwon-football-club-vs-football-club-seoul-1200-25-04-2026/601407480"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -942,25 +1169,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Football Club Seoul",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-d40e227f96",
-          "name": "⚽ Changwon LG Sakers vs Goyang Sono Skygunners",
+          "name": "Changwon Lg Sakers Vs Goyang Sono Skygunners 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -970,64 +1198,12 @@
               "contents": [
                 {
                   "id": "ct-d40e227f96",
-                  "name": "Changwon LG Sakers vs Goyang Sono Skygunners",
+                  "name": "Changwon Lg Sakers Vs Goyang Sono Skygunners 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-d40e227f96",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-512a73986a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/2e2dc884bf695c3c2ba42f9fded0ea70/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/changwon-lg-sakers-vs-goyang-sono-skygunners-1200-25-04-2026/601404153"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ca530bc326",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec4f2936517_145211/index.m3u8?expire=1777699241&sign=d1d787905059e9fa866b06d1f2002166",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/changwon-lg-sakers-vs-goyang-sono-skygunners-1200-25-04-2026/601404153"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d477e57dba",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec4f2936517_145211/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/changwon-lg-sakers-vs-goyang-sono-skygunners-1200-25-04-2026/601404153"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1036,25 +1212,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Changwon LG Sakers",
-            "team_b": "Goyang Sono Skygunners",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
             "logo_a": "",
             "logo_b": "",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/33e814dcc1adf0460bcc0cf684080ac6.jpg"
+            "is_live": false
           }
         },
         {
           "id": "kaytee-a18757958c",
-          "name": "⚽ Kawasaki Frontale vs JEF United Ichihara Chiba",
+          "name": "Kawasaki Frontale Vs Jef United Ichihara Chiba 1300 25 04 20",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 13:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1064,64 +1241,12 @@
               "contents": [
                 {
                   "id": "ct-a18757958c",
-                  "name": "Kawasaki Frontale vs JEF United Ichihara Chiba",
+                  "name": "Kawasaki Frontale Vs Jef United Ichihara Chiba 1300 25 04 20",
                   "streams": [
                     {
                       "id": "st-a18757958c",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2e752a634d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/0a34917f695f2650b8214809a91c4bf5/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/kawasaki-frontale-vs-jef-united-ichihara-chiba-1300-25-04-2026/601407540"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e3c185c235",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec51264841d_145476/index.m3u8?expire=1777699750&sign=c38639c18d4c9194df39f9295f7c02e4",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/kawasaki-frontale-vs-jef-united-ichihara-chiba-1300-25-04-2026/601407540"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-64497a0b5a",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec51264841d_145476/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/kawasaki-frontale-vs-jef-united-ichihara-chiba-1300-25-04-2026/601407540"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1130,25 +1255,1273 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Kawasaki Frontale",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-2f1a0c33b1",
-          "name": "⚽ VfL Wolfsburg vs Borussia Monchengladbach",
+          "id": "kaytee-91b50d8c1c",
+          "name": "Newcastle Jets Vs Central Coast Mariners 1400 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 14:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-91b50d8c1c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-91b50d8c1c",
+                  "name": "Newcastle Jets Vs Central Coast Mariners 1400 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-91b50d8c1c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-e604b3b34a",
+          "name": "Sanfrecce Hiroshima Vs Cerezo Osaka 1400 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 14:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e604b3b34a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e604b3b34a",
+                  "name": "Sanfrecce Hiroshima Vs Cerezo Osaka 1400 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-e604b3b34a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-8c6861f01e",
+          "name": "Incheon United Club Vs Jeju Sk Fc 1430 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 14:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c6861f01e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8c6861f01e",
+                  "name": "Incheon United Club Vs Jeju Sk Fc 1430 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-8c6861f01e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-6f574acbcf",
+          "name": "Bucheon Fc 1995 Vs Gimcheon Sangmu Football Club 1430 25 04 ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 14:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f574acbcf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f574acbcf",
+                  "name": "Bucheon Fc 1995 Vs Gimcheon Sangmu Football Club 1430 25 04 ",
+                  "streams": [
+                    {
+                      "id": "st-6f574acbcf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-b9484ca198",
+          "name": "Madura United Vs Dewa United Fc 1530 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 15:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9484ca198",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b9484ca198",
+                  "name": "Madura United Vs Dewa United Fc 1530 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-b9484ca198",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-c9a10e4498",
+          "name": "Francisco Cerundolo Vs Yannick Hanfmann 1600 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 16:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9a10e4498",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c9a10e4498",
+                  "name": "Francisco Cerundolo Vs Yannick Hanfmann 1600 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-c9a10e4498",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-dfa4a86ae2",
+          "name": "Vvaren Nagasaki Vs Gamba Osaka 1630 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 16:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfa4a86ae2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-dfa4a86ae2",
+                  "name": "Vvaren Nagasaki Vs Gamba Osaka 1630 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-dfa4a86ae2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-778575e006",
+          "name": "Western Sydney Vs Melbourne Victory 1635 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 16:35 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-778575e006",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-778575e006",
+                  "name": "Western Sydney Vs Melbourne Victory 1635 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-778575e006",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-b7d7c470a5",
+          "name": "Duya Legends Golden Nine International Classic 1700 25 04 20",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 17:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7d7c470a5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b7d7c470a5",
+                  "name": "Duya Legends Golden Nine International Classic 1700 25 04 20",
+                  "streams": [
+                    {
+                      "id": "st-b7d7c470a5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-b47a6dd781",
+          "name": "Malaysia Vs England 1700 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 17:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b47a6dd781",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b47a6dd781",
+                  "name": "Malaysia Vs England 1700 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-b47a6dd781",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-c5b5981bf9",
+          "name": "Chinese Taipei W Vs Australia Women 1700 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 17:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5b5981bf9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c5b5981bf9",
+                  "name": "Chinese Taipei W Vs Australia Women 1700 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-c5b5981bf9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-1696cce3e1",
+          "name": "Juan Manuel Cerundolo Vs Luciano Darderi 1710 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 17:10 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1696cce3e1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1696cce3e1",
+                  "name": "Juan Manuel Cerundolo Vs Luciano Darderi 1710 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-1696cce3e1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-73766b89fc",
+          "name": "Ludogorets Razgrad Vs Cska 1948 Sofia 1715 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 17:15 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73766b89fc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-73766b89fc",
+                  "name": "Ludogorets Razgrad Vs Cska 1948 Sofia 1715 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-73766b89fc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-9d974e1bcf",
+          "name": "Hertha Berlin Vs Holstein Kiel 1800 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d974e1bcf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9d974e1bcf",
+                  "name": "Hertha Berlin Vs Holstein Kiel 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-9d974e1bcf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-c7dbbe7b30",
+          "name": "Karlsruher Sc Vs Hannover 96 1800 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7dbbe7b30",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c7dbbe7b30",
+                  "name": "Karlsruher Sc Vs Hannover 96 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-c7dbbe7b30",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-01e0147a21",
+          "name": "Preuben Munster Vs Arminia Bielefeld 1800 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01e0147a21",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-01e0147a21",
+                  "name": "Preuben Munster Vs Arminia Bielefeld 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-01e0147a21",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-7d7864da1f",
+          "name": "Chiangrai United Vs Bangkok United Fc 1800 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d7864da1f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7d7864da1f",
+                  "name": "Chiangrai United Vs Bangkok United Fc 1800 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-7d7864da1f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-b8954ffb6c",
+          "name": "Chengdu Rongcheng Fc Vs Zhejiang Professional Fc 1800 25 04 ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8954ffb6c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b8954ffb6c",
+                  "name": "Chengdu Rongcheng Fc Vs Zhejiang Professional Fc 1800 25 04 ",
+                  "streams": [
+                    {
+                      "id": "st-b8954ffb6c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-1df22d3000",
+          "name": "Charlton Athletic Vs Hull City 1830 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1df22d3000",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1df22d3000",
+                  "name": "Charlton Athletic Vs Hull City 1830 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-1df22d3000",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-6df9355451",
+          "name": "Middlesbrough Vs Watford 1830 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6df9355451",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6df9355451",
+                  "name": "Middlesbrough Vs Watford 1830 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-6df9355451",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-fc1e10b375",
+          "name": "West Bromwich Albion Vs Ipswich Town 1830 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc1e10b375",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fc1e10b375",
+                  "name": "West Bromwich Albion Vs Ipswich Town 1830 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-fc1e10b375",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-52b8061abb",
+          "name": "Eyupspor Vs Gazisehir Gaziantep 1830 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52b8061abb",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-52b8061abb",
+                  "name": "Eyupspor Vs Gazisehir Gaziantep 1830 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-52b8061abb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-627d0ba08b",
+          "name": "Bg Pathum United Vs Nakhon Ratchasima Mazda Fc 1830 25 04 20",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-627d0ba08b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-627d0ba08b",
+                  "name": "Bg Pathum United Vs Nakhon Ratchasima Mazda Fc 1830 25 04 20",
+                  "streams": [
+                    {
+                      "id": "st-627d0ba08b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-5737c95e2c",
+          "name": "Beijing Guoan Fc Vs Tianjin Jinmen Tiger Fc 1835 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:35 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5737c95e2c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5737c95e2c",
+                  "name": "Beijing Guoan Fc Vs Tianjin Jinmen Tiger Fc 1835 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-5737c95e2c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-338a145936",
+          "name": "Borneo Fc Vs Semen Padang 1900 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 19:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-338a145936",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-338a145936",
+                  "name": "Borneo Fc Vs Semen Padang 1900 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-338a145936",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-314066aff7",
+          "name": "Shanghai Port Fc Vs Wuhan Three Towns Fc 1900 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 19:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-314066aff7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-314066aff7",
+                  "name": "Shanghai Port Fc Vs Wuhan Three Towns Fc 1900 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-314066aff7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-f08444fc6a",
+          "name": "Uthai Thani Forest Vs Port Fc 1900 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 19:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f08444fc6a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f08444fc6a",
+                  "name": "Uthai Thani Forest Vs Port Fc 1900 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-f08444fc6a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-5d8bbcc3a8",
+          "name": "Iga Swiatek Vs Ann Li 1910 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 19:10 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d8bbcc3a8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5d8bbcc3a8",
+                  "name": "Iga Swiatek Vs Ann Li 1910 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-5d8bbcc3a8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-ec505aec64",
+          "name": "Cska Sofia Vs Levski Sofia 2000 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 20:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec505aec64",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ec505aec64",
+                  "name": "Cska Sofia Vs Levski Sofia 2000 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-ec505aec64",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-2f1a0c33b1",
+          "name": "Vfl Wolfsburg Vs Borussia Monchengladbach 2030 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 20:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1158,30 +2531,12 @@
               "contents": [
                 {
                   "id": "ct-2f1a0c33b1",
-                  "name": "VfL Wolfsburg vs Borussia Monchengladbach",
+                  "name": "Vfl Wolfsburg Vs Borussia Monchengladbach 2030 25 04 2026",
                   "streams": [
                     {
                       "id": "st-2f1a0c33b1",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d2002e464",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/8d44cf0ba163740c8367c148ba21a3b3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/vfl-wolfsburg-vs-borussia-monchengladbach-2030-25-04-2026/601409481"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1190,25 +2545,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "VfL Wolfsburg",
-            "team_b": "Borussia Monchengladbach",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/89cdadf6cf1eb6f8d2507de1e01f806c.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-97410d441b",
-          "name": "⚽ FC Augsburg vs Eintracht Frankfurt",
+          "name": "Fc Augsburg Vs Eintracht Frankfurt 2030 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 20:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1218,30 +2574,12 @@
               "contents": [
                 {
                   "id": "ct-97410d441b",
-                  "name": "FC Augsburg vs Eintracht Frankfurt",
+                  "name": "Fc Augsburg Vs Eintracht Frankfurt 2030 25 04 2026",
                   "streams": [
                     {
                       "id": "st-97410d441b",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f41614e2d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/abbb4c7d148a6b90ddb3fc8f6f8ebc3b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/fc-augsburg-vs-eintracht-frankfurt-2030-25-04-2026/601409484"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1250,25 +2588,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "FC Augsburg",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/fe636189a2f3db78d0554c34f0bdaae6.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-eccfafa562",
-          "name": "⚽ FC Köln vs Bayer 04 Leverkusen",
+          "name": "Fc Kln Vs Bayer 04 Leverkusen 2030 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 20:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1278,30 +2617,12 @@
               "contents": [
                 {
                   "id": "ct-eccfafa562",
-                  "name": "FC Köln vs Bayer 04 Leverkusen",
+                  "name": "Fc Kln Vs Bayer 04 Leverkusen 2030 25 04 2026",
                   "streams": [
                     {
                       "id": "st-eccfafa562",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a6eae83bf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/ba83d93a4b7331e1e0e7a2948cfe164f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/fc-kln-vs-bayer-04-leverkusen-2030-25-04-2026/601409490"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1310,25 +2631,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "FC Köln",
-            "team_b": "Bayer 04 Leverkusen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/887b7663a0d47031528921d9972ae3a6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d3205f3ddca07dc01c822ea0de24a0e7.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-72260e3075",
-          "name": "⚽ 1. FC Heidenheim 1846 vs FC St. Pauli",
+          "name": "1 Fc Heidenheim 1846 Vs Fc St Pauli 2030 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 20:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1338,30 +2660,12 @@
               "contents": [
                 {
                   "id": "ct-72260e3075",
-                  "name": "1. FC Heidenheim 1846 vs FC St. Pauli",
+                  "name": "1 Fc Heidenheim 1846 Vs Fc St Pauli 2030 25 04 2026",
                   "streams": [
                     {
                       "id": "st-72260e3075",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b96d95473a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/05b31d054aaac27db5a2af2e56893fdd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/1-fc-heidenheim-1846-vs-fc-st-pauli-2030-25-04-2026/601409493"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1370,25 +2674,456 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "1. FC Heidenheim 1846",
-            "team_b": "FC St. Pauli",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/65503b155488a643de688e8dfa849b1f.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-86b4e5b8f9",
-          "name": "⚽ Getafe vs FC Barcelona",
+          "id": "kaytee-0421844548",
+          "name": "Wolverhampton Wanderers Vs Tottenham Hotspur 2100 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 21:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0421844548",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0421844548",
+                  "name": "Wolverhampton Wanderers Vs Tottenham Hotspur 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-0421844548",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-2a88334333",
+          "name": "Birmingham City Vs Bristol City 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a88334333",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2a88334333",
+                  "name": "Birmingham City Vs Bristol City 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-2a88334333",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-9b50b65bd3",
+          "name": "Oxford United Vs Sheffield Wednesday 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b50b65bd3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9b50b65bd3",
+                  "name": "Oxford United Vs Sheffield Wednesday 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-9b50b65bd3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-83d83ae1f5",
+          "name": "Queens Park Rangers Vs Derby County 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83d83ae1f5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-83d83ae1f5",
+                  "name": "Queens Park Rangers Vs Derby County 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-83d83ae1f5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-43f201025e",
+          "name": "Sheffield United Vs Preston North End 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43f201025e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-43f201025e",
+                  "name": "Sheffield United Vs Preston North End 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-43f201025e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-23c90c68e7",
+          "name": "Oudheverlee Leuven Vs  Rc Sporting Charleroi 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23c90c68e7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-23c90c68e7",
+                  "name": "Oudheverlee Leuven Vs  Rc Sporting Charleroi 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-23c90c68e7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-da5d1d0ff5",
+          "name": "Stoke City Vs Portsmouth 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da5d1d0ff5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-da5d1d0ff5",
+                  "name": "Stoke City Vs Portsmouth 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-da5d1d0ff5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-0d12059999",
+          "name": "Norwich City Vs Swansea City 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d12059999",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0d12059999",
+                  "name": "Norwich City Vs Swansea City 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-0d12059999",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-afd6f06209",
+          "name": "Kayserispor Vs Caykur Rizespor 2100 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afd6f06209",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-afd6f06209",
+                  "name": "Kayserispor Vs Caykur Rizespor 2100 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-afd6f06209",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-5058c828bb",
+          "name": "Ha Noi Tasco Auto Vs Hoa Chat Duc Giang Lao Cai 2100 25 04 2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5058c828bb",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5058c828bb",
+                  "name": "Ha Noi Tasco Auto Vs Hoa Chat Duc Giang Lao Cai 2100 25 04 2",
+                  "streams": [
+                    {
+                      "id": "st-5058c828bb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-86b4e5b8f9",
+          "name": "Getafe Vs Fc Barcelona 2115 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:15 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1398,30 +3133,12 @@
               "contents": [
                 {
                   "id": "ct-86b4e5b8f9",
-                  "name": "Getafe vs FC Barcelona",
+                  "name": "Getafe Vs Fc Barcelona 2115 25 04 2026",
                   "streams": [
                     {
                       "id": "st-86b4e5b8f9",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41f0593ba5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/49e93a03dec58cf5b1bae29ecd69c746/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/getafe-vs-fc-barcelona-2115-25-04-2026/601410210"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1429,26 +3146,199 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Getafe",
-            "team_b": "FC Barcelona",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f378eb1ea04e53999b89051aa3244de6.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-4a47701835",
-          "name": "⚽ Al-Ahli SFC vs Machida Zelvia",
+          "id": "kaytee-3b5e846e7b",
+          "name": "Feyenoord Vs Groningen 2130 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 21:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b5e846e7b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3b5e846e7b",
+                  "name": "Feyenoord Vs Groningen 2130 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-3b5e846e7b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-f19c6248fe",
+          "name": "Cd Tondela Vs Nacional Da Madeira 2130 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 21:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f19c6248fe",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f19c6248fe",
+                  "name": "Cd Tondela Vs Nacional Da Madeira 2130 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-f19c6248fe",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-4ae08253f2",
+          "name": "Racing Genk Vs Standard Liege 2315 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 23:15 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ae08253f2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4ae08253f2",
+                  "name": "Racing Genk Vs Standard Liege 2315 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-4ae08253f2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-5b6ff1bed0",
+          "name": "Bayern Munchen W Vs Barcelona W 2315 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 23:15 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b6ff1bed0",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5b6ff1bed0",
+                  "name": "Bayern Munchen W Vs Barcelona W 2315 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-5b6ff1bed0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-4a47701835",
+          "name": "Alahli Sfc Vs Machida Zelvia 2315 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 23:15 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1458,30 +3348,12 @@
               "contents": [
                 {
                   "id": "ct-4a47701835",
-                  "name": "Al-Ahli SFC vs Machida Zelvia",
+                  "name": "Alahli Sfc Vs Machida Zelvia 2315 25 04 2026",
                   "streams": [
                     {
                       "id": "st-4a47701835",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-396bd86328",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b7ca4cc5e4959ffd61e85699cfafddad/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/alahli-sfc-vs-machida-zelvia-2315-25-04-2026/601417932"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1489,26 +3361,70 @@
             }
           ],
           "org_metadata": {
-            "league": "Champions League Elite",
-            "team_a": "Al-Ahli SFC",
-            "team_b": "Machida Zelvia",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-898da77ff3",
-          "name": "⚽ Hamburger SV vs TSG Hoffenheim",
+          "id": "kaytee-c4a08f3f79",
+          "name": "China Women Vs Denmark Women 2330 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 23:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4a08f3f79",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c4a08f3f79",
+                  "name": "China Women Vs Denmark Women 2330 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-c4a08f3f79",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-898da77ff3",
+          "name": "Hamburger Sv Vs Tsg Hoffenheim 2330 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 23:30 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1518,30 +3434,12 @@
               "contents": [
                 {
                   "id": "ct-898da77ff3",
-                  "name": "Hamburger SV vs TSG Hoffenheim",
+                  "name": "Hamburger Sv Vs Tsg Hoffenheim 2330 25 04 2026",
                   "streams": [
                     {
                       "id": "st-898da77ff3",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0792e7d5b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/78c233ab4337c500a1e068b6ca96bb86/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/hamburger-sv-vs-tsg-hoffenheim-2330-25-04-2026/601411011"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1550,25 +3448,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Hamburger SV",
-            "team_b": "TSG Hoffenheim",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/81f8f9e258e6b73bc522bab06730720a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-a2bc137a13",
-          "name": "⚽ Valencia CF vs Girona FC",
+          "name": "Valencia Cf Vs Girona Fc 2330 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 23:30 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1578,150 +3477,12 @@
               "contents": [
                 {
                   "id": "ct-a2bc137a13",
-                  "name": "Valencia CF vs Girona FC",
+                  "name": "Valencia Cf Vs Girona Fc 2330 25 04 2026",
                   "streams": [
                     {
                       "id": "st-a2bc137a13",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a0980b856",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/1c4a123432ef2f93fe35fdc7db86281f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/valencia-cf-vs-girona-fc-2330-25-04-2026/601411020"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Valencia CF",
-            "team_b": "Girona FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/3b54543c1a584e2e9948d655142996d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/006ce259b33ef72dd5570cfa8dc39f38.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
-          }
-        },
-        {
-          "id": "kaytee-ce425a5b2b",
-          "name": "⚽ Newcastle Olympic vs Edgeworth Eagles FC",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce425a5b2b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ce425a5b2b",
-                  "name": "Newcastle Olympic vs Edgeworth Eagles FC",
-                  "streams": [
-                    {
-                      "id": "st-ce425a5b2b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7776a3e04",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/f3a13025ed95366439f2cb49defbe9bb/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/newcastle-olympic-vs-edgeworth-eagles-fc-1100-25-04-2026/601407405"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Newcastle Olympic",
-            "team_b": "Edgeworth Eagles FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/aa5f7b825709e21a96d40dea9f611882.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/e2b97426d7625e5cd01538ee80f50d2a.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
-          }
-        },
-        {
-          "id": "kaytee-c1e4fa2101",
-          "name": "⚽ Nagoya Diamond Dolphins vs Utsunomiya Brex",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1e4fa2101",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c1e4fa2101",
-                  "name": "Nagoya Diamond Dolphins vs Utsunomiya Brex",
-                  "streams": [
-                    {
-                      "id": "st-c1e4fa2101",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-47f0e334b3",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b2e955849fd0c5b5704fe50e84023de2/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/nagoya-diamond-dolphins-vs-utsunomiya-brex-1105-25-04-2026/601404144"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1730,58 +3491,41 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Nagoya Diamond Dolphins",
-            "team_b": "Utsunomiya Brex",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
             "logo_a": "",
             "logo_b": "",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/33e814dcc1adf0460bcc0cf684080ac6.jpg"
+            "is_live": false
           }
         },
         {
-          "id": "kaytee-b314826231",
-          "name": "⚽ Manawatu Jets vs Auckland Tuatara",
+          "id": "kaytee-87fbc27ad8",
+          "name": "Sc Heerenveen Vs Fortuna Sittard 2345 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 23:45 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
             {
-              "id": "src-b314826231",
+              "id": "src-87fbc27ad8",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-b314826231",
-                  "name": "Manawatu Jets vs Auckland Tuatara",
+                  "id": "ct-87fbc27ad8",
+                  "name": "Sc Heerenveen Vs Fortuna Sittard 2345 25 04 2026",
                   "streams": [
                     {
-                      "id": "st-b314826231",
+                      "id": "st-87fbc27ad8",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-852a03ebc9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/2ecb4411b389ff2d622f77a27316f029/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/manawatu-jets-vs-auckland-tuatara-1130-25-04-2026/601404147"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1790,25 +3534,413 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Manawatu Jets",
-            "team_b": "Auckland Tuatara",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
             "logo_a": "",
             "logo_b": "",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/33e814dcc1adf0460bcc0cf684080ac6.jpg"
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-cf1b8cafa8",
+          "name": "Sv Darmstadt 98 Vs Sv Elversberg 0130 26 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 01:30 26/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf1b8cafa8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cf1b8cafa8",
+                  "name": "Sv Darmstadt 98 Vs Sv Elversberg 0130 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-cf1b8cafa8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-a3a7288237",
+          "name": "Aljamain Sterling Vs Youssef Zalal 0400 26 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 04:00 26/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3a7288237",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a3a7288237",
+                  "name": "Aljamain Sterling Vs Youssef Zalal 0400 26 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-a3a7288237",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-d94dca34a1",
+          "name": "Rodtang Jitmuangnon Vs Takeru Segawa 1830 29 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 18:30 29/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d94dca34a1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d94dca34a1",
+                  "name": "Rodtang Jitmuangnon Vs Takeru Segawa 1830 29 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-d94dca34a1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-8275855027",
+          "name": "Jack Della Maddalena Vs Carlos Prates 1500 02 05 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 15:00 02/05",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8275855027",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8275855027",
+                  "name": "Jack Della Maddalena Vs Carlos Prates 1500 02 05 2026",
+                  "streams": [
+                    {
+                      "id": "st-8275855027",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-1b3c59374e",
+          "name": "Khamzat Chimaev Vs Sean Strickland 0600 10 05 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 06:00 10/05",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1b3c59374e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1b3c59374e",
+                  "name": "Khamzat Chimaev Vs Sean Strickland 0600 10 05 2026",
+                  "streams": [
+                    {
+                      "id": "st-1b3c59374e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-8340783269",
+          "name": "Arnold Allen Vs Melquizael Costa 1200 17 05 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 17/05",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8340783269",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8340783269",
+                  "name": "Arnold Allen Vs Melquizael Costa 1200 17 05 2026",
+                  "streams": [
+                    {
+                      "id": "st-8340783269",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-3820515bd7",
+          "name": "Song Yadong Vs Deiveson Figueiredo 1200 31 05 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 31/05",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3820515bd7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3820515bd7",
+                  "name": "Song Yadong Vs Deiveson Figueiredo 1200 31 05 2026",
+                  "streams": [
+                    {
+                      "id": "st-3820515bd7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-41d031c28c",
+          "name": "Belal Muhammad Vs Gabriel Bonfim 1200 07 06 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 07/06",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41d031c28c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-41d031c28c",
+                  "name": "Belal Muhammad Vs Gabriel Bonfim 1200 07 06 2026",
+                  "streams": [
+                    {
+                      "id": "st-41d031c28c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-40b035a597",
+          "name": "Ilia Topuria Vs Justin Gaethje 1200 15 06 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 15/06",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40b035a597",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-40b035a597",
+                  "name": "Ilia Topuria Vs Justin Gaethje 1200 15 06 2026",
+                  "streams": [
+                    {
+                      "id": "st-40b035a597",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-2ec129df20",
-          "name": "⚽ Iwate Big Bulls vs Aomori Wat's",
+          "name": "Iwate Big Bulls Vs Aomori Wats 1155 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 11:55 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1818,30 +3950,12 @@
               "contents": [
                 {
                   "id": "ct-2ec129df20",
-                  "name": "Iwate Big Bulls vs Aomori Wat's",
+                  "name": "Iwate Big Bulls Vs Aomori Wats 1155 25 04 2026",
                   "streams": [
                     {
                       "id": "st-2ec129df20",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1edb789664",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/9eea0afed4dd55fa0076a569e2db0417/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/iwate-big-bulls-vs-aomori-wats-1155-25-04-2026/601404150"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1850,25 +3964,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Iwate Big Bulls",
-            "team_b": "Aomori Wat's",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
             "logo_a": "",
             "logo_b": "",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/33e814dcc1adf0460bcc0cf684080ac6.jpg"
+            "is_live": false
           }
         },
         {
           "id": "kaytee-a412fc4e3f",
-          "name": "⚽ Gyeongju KHNP vs Ulsan Citizens",
+          "name": "Gyeongju Khnp Vs Ulsan Citizens 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1878,30 +3993,12 @@
               "contents": [
                 {
                   "id": "ct-a412fc4e3f",
-                  "name": "Gyeongju KHNP vs Ulsan Citizens",
+                  "name": "Gyeongju Khnp Vs Ulsan Citizens 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-a412fc4e3f",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d149ad54b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/59c73b5732cfa779076986bea84cbafc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/gyeongju-khnp-vs-ulsan-citizens-1200-25-04-2026/601407492"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1910,25 +4007,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Gyeongju KHNP",
-            "team_b": "Ulsan Citizens",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/f98cc0e192f6a8c68f2fa10741804d2b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/3b748d71ceee359ab6cdd2b169d617a9.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-2bd2a6deda",
-          "name": "⚽ Jeonbuk Hyundai Motors II vs Dangjin Citizen",
+          "name": "Jeonbuk Hyundai Motors Ii Vs Dangjin Citizen 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1938,30 +4036,12 @@
               "contents": [
                 {
                   "id": "ct-2bd2a6deda",
-                  "name": "Jeonbuk Hyundai Motors II vs Dangjin Citizen",
+                  "name": "Jeonbuk Hyundai Motors Ii Vs Dangjin Citizen 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-2bd2a6deda",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f97ad10714",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/98256764978a52efa1e99d358dae0e9b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/jeonbuk-hyundai-motors-ii-vs-dangjin-citizen-1200-25-04-2026/601407495"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1970,25 +4050,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Jeonbuk Hyundai Motors II",
-            "team_b": "Dangjin Citizen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ea6ca056be6e7e9b9a746a9cdefedb01.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/48f279f623b7b4131abdfbbe43b68c17.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-0a9e16cd31",
-          "name": "⚽ Daejeon Korail vs Changwon City",
+          "name": "Daejeon Korail Vs Changwon City 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -1998,30 +4079,12 @@
               "contents": [
                 {
                   "id": "ct-0a9e16cd31",
-                  "name": "Daejeon Korail vs Changwon City",
+                  "name": "Daejeon Korail Vs Changwon City 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-0a9e16cd31",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-acc11c8d3f",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/4004aea84ab52e097235e6b6550a1640/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/daejeon-korail-vs-changwon-city-1200-25-04-2026/601407498"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2030,25 +4093,26 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Daejeon Korail",
-            "team_b": "Changwon City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/f1728750086ff9f311de3e30a810aede.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/cc6ff0248b27e09279c807ce35ff3488.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-1495c3ffa5",
-          "name": "⚽ Adamstown Rosebuds FC vs Weston Workers FC",
+          "name": "Adamstown Rosebuds Fc Vs Weston Workers Fc 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -2058,30 +4122,12 @@
               "contents": [
                 {
                   "id": "ct-1495c3ffa5",
-                  "name": "Adamstown Rosebuds FC vs Weston Workers FC",
+                  "name": "Adamstown Rosebuds Fc Vs Weston Workers Fc 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-1495c3ffa5",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-63df57d620",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/697956cc6d33415a5461622dc2b289b1/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/adamstown-rosebuds-fc-vs-weston-workers-fc-1200-25-04-2026/601407501"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2089,26 +4135,27 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Adamstown Rosebuds FC",
-            "team_b": "Weston Workers FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/f5038a16d8e257c41d345a76913cb1a9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4d775084e58b983ddde3215469fa53f6.png",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         },
         {
           "id": "kaytee-fec1208524",
-          "name": "⚽ Boeun Sangmu (w) vs Gyeongju FC (w)",
+          "name": "Boeun Sangmu W Vs Gyeongju Fc W 1200 25 04 2026",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● Live",
+              "text": "🕐 12:00 25/04",
               "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "color": "#00000080",
+              "text_color": "#ffffff"
             }
           ],
           "sources": [
@@ -2118,30 +4165,12 @@
               "contents": [
                 {
                   "id": "ct-fec1208524",
-                  "name": "Boeun Sangmu (w) vs Gyeongju FC (w)",
+                  "name": "Boeun Sangmu W Vs Gyeongju Fc W 1200 25 04 2026",
                   "streams": [
                     {
                       "id": "st-fec1208524",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eea66988a9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/9666ce85095d10aa9acf72df6e895005/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/truc-tiep/boeun-sangmu-w-vs-gyeongju-fc-w-1200-25-04-2026/601407504"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2150,11 +4179,141 @@
           ],
           "org_metadata": {
             "league": "",
-            "team_a": "Boeun Sangmu (w)",
-            "team_b": "Gyeongju FC (w)",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
             "logo_a": "",
             "logo_b": "",
-            "thumb": "https://cdn-static.cakhiatv89.com/live-tv89/categories/2026/04/09/237bf08ed74205451bf96a744bea6e88.jpg"
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-cb156b9446",
+          "name": "Meizhou Qiangmin Vs Wuhan Lianzhen 1200 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb156b9446",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cb156b9446",
+                  "name": "Meizhou Qiangmin Vs Wuhan Lianzhen 1200 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-cb156b9446",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-fa906a5b56",
+          "name": "Yantai Huangbohai New Area Vs Guangzhou Xingpai 1200 25 04 2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa906a5b56",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fa906a5b56",
+                  "name": "Yantai Huangbohai New Area Vs Guangzhou Xingpai 1200 25 04 2",
+                  "streams": [
+                    {
+                      "id": "st-fa906a5b56",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
+          }
+        },
+        {
+          "id": "kaytee-169f6df043",
+          "name": "Albirex Niigata Vs Fc Osaka 1200 25 04 2026",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 12:00 25/04",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ffffff"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-169f6df043",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-169f6df043",
+                  "name": "Albirex Niigata Vs Fc Osaka 1200 25 04 2026",
+                  "streams": [
+                    {
+                      "id": "st-169f6df043",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "",
+            "team_b": "",
+            "logo": "",
+            "logo_a": "",
+            "logo_b": "",
+            "is_live": false
           }
         }
       ]
