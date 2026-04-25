@@ -22,14 +22,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2ac182a9d4f41b9cc59c7c4c8977528e.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -96,7 +88,6 @@
             "league": "Thomas Cup",
             "team_a": "Sweden",
             "team_b": "",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2ac182a9d4f41b9cc59c7c4c8977528e.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2ac182a9d4f41b9cc59c7c4c8977528e.png",
             "logo_b": "",
             "time": "13:30 25/04",
@@ -110,14 +101,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/511ce5ccb966e3fd16d3a8c1b99cc01a.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -184,7 +167,6 @@
             "league": "Uber Cup",
             "team_a": "Japan Women",
             "team_b": "South Africa Women",
-            "logo": "https://cdn.rapid-api.icu/football/team/511ce5ccb966e3fd16d3a8c1b99cc01a.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/511ce5ccb966e3fd16d3a8c1b99cc01a.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/329f02e5494a8daf8d32ba2b8d29cb53.png",
             "time": "13:30 25/04",
@@ -198,14 +180,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/da17b06c369d20a3d0912853d4698e4c.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -272,7 +246,6 @@
             "league": "Uber Cup",
             "team_a": "Malaysia (w)",
             "team_b": "Turkey (w)",
-            "logo": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/da17b06c369d20a3d0912853d4698e4c.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/da17b06c369d20a3d0912853d4698e4c.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6833e74cc7e961e3226632bf805e36c7.png",
             "time": "13:30 25/04",
@@ -286,14 +259,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -377,11 +342,106 @@
             "league": "Japanese J1 League",
             "team_a": "Kawasaki Frontale",
             "team_b": "JEF United Ichihara Chiba",
-            "logo": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
             "time": "13:00 25/04",
             "blv": "GIÀNG A RICH",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-91b50d8c1c",
+          "name": "Newcastle Jets vs Central Coast Mariners (14:00 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-91b50d8c1c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-91b50d8c1c",
+                  "name": "Newcastle Jets vs Central Coast Mariners",
+                  "streams": [
+                    {
+                      "id": "st-91b50d8c1c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a99c0f7ac0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/a7e16ce234b2b7818f2751b34d230844/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4b3e91211c",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec5f7336517_145208/index.m3u8?expire=1777703411",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-efad21de15",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ec5f7336517_145208/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia A-League",
+            "team_a": "Newcastle Jets",
+            "team_b": "Central Coast Mariners",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/296c68ac5ad3ff621c10c6ebfb9954ca.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4295d4c9acc95550f5a4360f0ba0d93f.png",
+            "time": "14:00 25/04",
+            "blv": "GIÀNG A CÒI",
             "is_live": true
           }
         },
@@ -391,14 +451,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -482,224 +534,10 @@
             "league": "Japanese J1 League",
             "team_a": "Sanfrecce Hiroshima",
             "team_b": "Cerezo Osaka",
-            "logo": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/ab10ee503e539e55a9a11a9ff202405a.png",
             "time": "14:00 25/04",
             "blv": "GIÀNG A KEN",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-84e11c950c",
-          "name": "Giravanz Kitakyushu vs Renofa Yamaguchi (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/fefa11f94d0efff34a0f98ee4440a34b.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84e11c950c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-84e11c950c",
-                  "name": "Giravanz Kitakyushu vs Renofa Yamaguchi",
-                  "streams": [
-                    {
-                      "id": "st-84e11c950c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27c0acad8b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/5d78275cd2044b3ce77062490421819b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 100 Year Vision League",
-            "team_a": "Giravanz Kitakyushu",
-            "team_b": "Renofa Yamaguchi",
-            "logo": "https://cdn.rapid-api.icu/football/team/fefa11f94d0efff34a0f98ee4440a34b.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fefa11f94d0efff34a0f98ee4440a34b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d504a9c77dd47f473561289a88545cdb.png",
-            "time": "12:00 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-28abf7270f",
-          "name": "Fujieda MYFC vs RB Omiya Ardija (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/89fbdff34136c67636e2b4875ab03043.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28abf7270f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-28abf7270f",
-                  "name": "Fujieda MYFC vs RB Omiya Ardija",
-                  "streams": [
-                    {
-                      "id": "st-28abf7270f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d5f259ad4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/fc2c0430caf5d16f0f49305c1b4d5e67/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 100 Year Vision League",
-            "team_a": "Fujieda MYFC",
-            "team_b": "RB Omiya Ardija",
-            "logo": "https://cdn.rapid-api.icu/football/team/89fbdff34136c67636e2b4875ab03043.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/89fbdff34136c67636e2b4875ab03043.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f3b0743cbe39963a20d4ffe3a8c64c2e.png",
-            "time": "12:00 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-8852245b12",
-          "name": "Sendai 89ers vs Yokohama B-Corsairs (12:05 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/376b94805fa90a72346e9a92db2dd8eb.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8852245b12",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8852245b12",
-                  "name": "Sendai 89ers vs Yokohama B-Corsairs",
-                  "streams": [
-                    {
-                      "id": "st-8852245b12",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1eec3ec397",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/54335a321c3a15ae28f1401e1ef927d8/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "B1 League",
-            "team_a": "Sendai 89ers",
-            "team_b": "Yokohama B-Corsairs",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/376b94805fa90a72346e9a92db2dd8eb.png",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/376b94805fa90a72346e9a92db2dd8eb.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0a84ca1946994fa91f8c159bf040b54f.png",
-            "time": "12:05 25/04",
-            "blv": "",
             "is_live": true
           }
         },
@@ -709,14 +547,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6d30d307275b4d34fed381fe7bee52ba.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -766,7 +596,6 @@
             "league": "NBL1 Eastern",
             "team_a": "Sydney Comets",
             "team_b": "Norths Bears",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6d30d307275b4d34fed381fe7bee52ba.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6d30d307275b4d34fed381fe7bee52ba.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7915294cf982484fb8cee538f2619c36.png",
             "time": "13:00 25/04",
@@ -780,14 +609,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/be8db04362822881e9666163b564733e.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -837,7 +658,6 @@
             "league": "Russian Women's Premier League",
             "team_a": "Yenisey Krasnoyarsk (w)",
             "team_b": "Chertanovo Moscow (w)",
-            "logo": "https://cdn.rapid-api.icu/football/team/be8db04362822881e9666163b564733e.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/be8db04362822881e9666163b564733e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/4bebf007f478e8cb2fbfa75fda9f6305.png",
             "time": "13:00 25/04",
@@ -851,14 +671,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/851663cc0ac3d6202c78c523eaf7a2f8.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -908,7 +720,6 @@
             "league": "B2 League",
             "team_a": "Kumamoto Volters",
             "team_b": "Kagoshima Rebnise",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/851663cc0ac3d6202c78c523eaf7a2f8.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/851663cc0ac3d6202c78c523eaf7a2f8.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7d7e829e1d19b3f7e0a71d0a85ed8e97.png",
             "time": "13:05 25/04",
@@ -922,14 +733,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/706def05df715f6e1a0c2e8e3cfcdc33.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -979,7 +782,6 @@
             "league": "B1 League",
             "team_a": "Kyoto Hannaryz",
             "team_b": "Osaka Evessa",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/706def05df715f6e1a0c2e8e3cfcdc33.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/706def05df715f6e1a0c2e8e3cfcdc33.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e95a228bdd999c079555a3828bca03e.png",
             "time": "13:05 25/04",
@@ -993,14 +795,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/582d7f08840a43e28c42fb66b6c52f28.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1050,7 +844,6 @@
             "league": "B1 League",
             "team_a": "Shimane Susanoo Magic",
             "team_b": "Ibaraki Robots",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/582d7f08840a43e28c42fb66b6c52f28.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/582d7f08840a43e28c42fb66b6c52f28.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ab5885f55b8ee6bfae8b65c8fe725694.png",
             "time": "13:05 25/04",
@@ -1064,14 +857,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1121,7 +906,6 @@
             "league": "B1 League",
             "team_a": "SeaHorses Mikawa",
             "team_b": "San-en NeoPhoenix",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/324cc01635a186046d31bddd15807528.png",
             "time": "13:05 25/04",
@@ -1135,14 +919,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59e4cef4d8fefff596b7e767878416c6.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1192,7 +968,6 @@
             "league": "B1 League",
             "team_a": "Toyama Grouses",
             "team_b": "Akita Northern Happinets",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59e4cef4d8fefff596b7e767878416c6.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59e4cef4d8fefff596b7e767878416c6.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/518fcabe90dafc4100d80de02554a004.png",
             "time": "13:05 25/04",
@@ -1206,14 +981,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f6a4d64897d33f8408f6d1e6829058.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1263,7 +1030,6 @@
             "league": "B2 League",
             "team_a": "Yamagata Wyverns",
             "team_b": "Kobe Storks",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f6a4d64897d33f8408f6d1e6829058.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f6a4d64897d33f8408f6d1e6829058.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5afe612c32412250878ab65ae82e4c3b.png",
             "time": "13:05 25/04",
@@ -1277,14 +1043,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1334,7 +1092,6 @@
             "league": "B1 League",
             "team_a": "Koshigaya Alphas",
             "team_b": "Kawasaki Brave Thunders",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e8edc9b94b7fd45ec9de586cacb1df6b.png",
             "time": "13:05 25/04",
@@ -1348,14 +1105,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aa09422ff0a12b45e53cf5ded9477875.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1405,7 +1154,6 @@
             "league": "B1 League",
             "team_a": "Levanga Hokkaido",
             "team_b": "Gunma Crane Thunders",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aa09422ff0a12b45e53cf5ded9477875.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aa09422ff0a12b45e53cf5ded9477875.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cee19ecfd84956bf744d0807e1817889.png",
             "time": "13:05 25/04",
@@ -1419,14 +1167,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2970f9e0de8f7bf405535510b9e5e6f.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1476,10 +1216,195 @@
             "league": "B2 League",
             "team_a": "Fukui Blowinds",
             "team_b": "Shinshu Brave Warriors",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2970f9e0de8f7bf405535510b9e5e6f.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2970f9e0de8f7bf405535510b9e5e6f.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d304b1c20b797f3a435ed2375ece319a.png",
             "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-f16216ff37",
+          "name": "Ehime Orange Vikings vs Bambitious Nara (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f16216ff37",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f16216ff37",
+                  "name": "Ehime Orange Vikings vs Bambitious Nara",
+                  "streams": [
+                    {
+                      "id": "st-f16216ff37",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e256c6c0b6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/052b6486551e8fe9df3e88a54a68bbc3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B2 League",
+            "team_a": "Ehime Orange Vikings",
+            "team_b": "Bambitious Nara",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/718edfc8f37a1f76693b8c117bd41eb8.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a41b7bd9bf7e51d0b0c1155e8c7f9a8a.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-c4f832a2bd",
+          "name": "Tokyo Excellence vs Fukushima Firebonds (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4f832a2bd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c4f832a2bd",
+                  "name": "Tokyo Excellence vs Fukushima Firebonds",
+                  "streams": [
+                    {
+                      "id": "st-c4f832a2bd",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43829fcc11",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/ac93c6d36d9e7d8e0fc338794765e14b/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B2 League",
+            "team_a": "Tokyo Excellence",
+            "team_b": "Fukushima Firebonds",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d1f21b4d887417fa73a700b77d948f36.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1acc8c61fa454caeb4d3e8170b9bc076.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-ce40c7d3bc",
+          "name": "Heidelberg United (w) vs Keilor Park (w) (13:15 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce40c7d3bc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ce40c7d3bc",
+                  "name": "Heidelberg United (w) vs Keilor Park (w)",
+                  "streams": [
+                    {
+                      "id": "st-ce40c7d3bc",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-672d9229fb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/c7873cf687ffddc35677575449e58e88/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia Victorian Women's Premier League",
+            "team_a": "Heidelberg United (w)",
+            "team_b": "Keilor Park (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/93b1b82a7c5646eb10ca93d7f7ab3a45.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/eb2bab44c78e972ebda8d968afc241df.png",
+            "time": "13:15 25/04",
             "blv": "",
             "is_live": true
           }
@@ -1499,14 +1424,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -1538,7 +1455,6 @@
             "league": "Thomas Cup",
             "team_a": "Japan",
             "team_b": "Finland",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e6b304ab48005c07c7047d6bd0f2a4aa.png",
             "time": "23:30 25/04",
@@ -1552,14 +1468,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/479d859dacd00866ef0da188c0617234.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -1591,7 +1499,6 @@
             "league": "Vietnam National First Class League",
             "team_a": "Than Quang Ninh",
             "team_b": "Ba Ria Vung Tau FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/479d859dacd00866ef0da188c0617234.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/479d859dacd00866ef0da188c0617234.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/5e40ed1f6779e1fcfb55c259e36746da.png",
             "time": "17:00 25/04",
@@ -1605,14 +1512,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -1644,7 +1543,6 @@
             "league": "English Premier League",
             "team_a": "Fulham",
             "team_b": "Aston Villa",
-            "logo": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/a3c32d6a906083118cac2cb796edaab3.png",
             "time": "18:30 25/04",
@@ -1658,14 +1556,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -1697,7 +1587,6 @@
             "league": "English Premier League",
             "team_a": "Liverpool",
             "team_b": "Crystal Palace",
-            "logo": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/42396d18444156e640c37476c2b41b93.png",
             "time": "21:00 25/04",
@@ -1711,14 +1600,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/d71ebda5c7fbca9093a1c2978c46f619.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -1750,7 +1631,6 @@
             "league": "English Premier League",
             "team_a": "West Ham United",
             "team_b": "Everton",
-            "logo": "https://cdn.rapid-api.icu/football/team/d71ebda5c7fbca9093a1c2978c46f619.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/d71ebda5c7fbca9093a1c2978c46f619.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/9592d1e0be6375b9e6c5ef169b7aa864.png",
             "time": "21:00 25/04",
@@ -1764,14 +1644,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -1803,7 +1675,6 @@
             "league": "English Premier League",
             "team_a": "Arsenal",
             "team_b": "Newcastle United",
-            "logo": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/5dbe320855e3ba772dbce54f940c6fa5.png",
             "time": "23:30 25/04",
@@ -1817,14 +1688,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -1856,7 +1719,6 @@
             "league": "Bundesliga",
             "team_a": "1. FSV Mainz 05",
             "team_b": "FC Bayern Munich",
-            "logo": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/ef19a84a6745fe57aa786873d2b18e8a.png",
             "time": "20:30 25/04",
@@ -1870,14 +1732,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -1909,7 +1763,6 @@
             "league": "Vietnam National Champion League",
             "team_a": "Becamex Binh Duong",
             "team_b": "Nam Dinh FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/bc5db4dd418cb566a4475649876b55bb.png",
             "time": "18:00 25/04",
@@ -1923,14 +1776,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -1962,7 +1807,6 @@
             "league": "Vietnam National Champion League",
             "team_a": "CLB Thanh Hoa",
             "team_b": "PVF CAND",
-            "logo": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/16b802abec41440eb4996fc68f16125b.png",
             "time": "18:00 25/04",
@@ -1976,14 +1820,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -2015,7 +1851,6 @@
             "league": "Vietnam National First Class League",
             "team_a": "Quy Nhơn United",
             "team_b": "Binh Phuoc",
-            "logo": "https://cdn.rapid-api.icu/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/a9741c7972e214b1c312092c8b51acd8.png",
             "time": "18:00 25/04",
@@ -2029,14 +1864,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -2068,7 +1895,6 @@
             "league": "Spanish La Liga",
             "team_a": "Deportivo Alavés",
             "team_b": "RCD Mallorca",
-            "logo": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/fdef90456d2a2eee09976c558457aec7.png",
             "time": "19:00 25/04",
@@ -2082,14 +1908,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/9fadd87d190982c8082dddf1567e0b9b.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:00 25/04",
@@ -2121,7 +1939,6 @@
             "league": "Italian Serie A",
             "team_a": "Parma",
             "team_b": "Pisa",
-            "logo": "https://cdn.rapid-api.icu/football/team/9fadd87d190982c8082dddf1567e0b9b.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/9fadd87d190982c8082dddf1567e0b9b.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/7ca5de14056c7290f6787e0943aa11ad.png",
             "time": "20:00 25/04",
@@ -2135,14 +1952,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/92fb3cf79ea2ba919b94b04668e13491.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:00 25/04",
@@ -2174,7 +1983,6 @@
             "league": "French Ligue 1",
             "team_a": "Lyon",
             "team_b": "AJ Auxerre",
-            "logo": "https://cdn.rapid-api.icu/football/team/92fb3cf79ea2ba919b94b04668e13491.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/92fb3cf79ea2ba919b94b04668e13491.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
             "time": "20:00 25/04",
@@ -2188,14 +1996,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/bd12298fc3920bc20b7ad43b16ad9624.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:00 25/04",
@@ -2227,7 +2027,6 @@
             "league": "Italian Serie A",
             "team_a": "Bologna",
             "team_b": "AS Roma",
-            "logo": "https://cdn.rapid-api.icu/football/team/bd12298fc3920bc20b7ad43b16ad9624.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/bd12298fc3920bc20b7ad43b16ad9624.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/7a192686d30c1ad031d2fb605eaf2f2a.png",
             "time": "23:00 25/04",
@@ -2241,14 +2040,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 00:00 26/04",
@@ -2280,7 +2071,6 @@
             "league": "French Ligue 1",
             "team_a": "Angers SCO",
             "team_b": "Paris Saint Germain",
-            "logo": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/3b720f181ce9993f9422d276acf7b292.png",
             "time": "00:00 26/04",
@@ -2294,14 +2084,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 02:00 26/04",
@@ -2333,7 +2115,6 @@
             "league": "Spanish La Liga",
             "team_a": "Atletico Madrid",
             "team_b": "Athletic Club",
-            "logo": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/abbb31d42c55612737713aac6567a226.png",
             "time": "02:00 26/04",
@@ -2347,14 +2128,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 02:05 26/04",
@@ -2386,7 +2159,6 @@
             "league": "French Ligue 1",
             "team_a": "Toulouse FC",
             "team_b": "AS Monaco",
-            "logo": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/693af0d277fe3179594695614dce8666.png",
             "time": "02:05 26/04",
@@ -2400,14 +2172,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -2439,7 +2203,6 @@
             "league": "FA Cup",
             "team_a": "Manchester City",
             "team_b": "Southampton",
-            "logo": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
             "time": "23:15 25/04",
@@ -2453,14 +2216,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 01:45 26/04",
@@ -2492,7 +2247,6 @@
             "league": "Italian Serie A",
             "team_a": "Hellas Verona",
             "team_b": "Lecce",
-            "logo": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/777d0840066313da8c0f85977e9178be.png",
             "time": "01:45 26/04",
@@ -2506,14 +2260,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/976fe1d29c112f4baeb844cdda2f04cb.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 06:30 26/04",
@@ -2545,64 +2291,10 @@
             "league": "United States Major League Soccer",
             "team_a": "Inter Miami CF",
             "team_b": "New England Revolution",
-            "logo": "https://cdn.rapid-api.icu/football/team/976fe1d29c112f4baeb844cdda2f04cb.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/976fe1d29c112f4baeb844cdda2f04cb.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/f1b7c49790e05778f194ed436515b240.png",
             "time": "06:30 26/04",
             "blv": "GIÀNG A DÂN",
-            "is_live": false
-          }
-        },
-        {
-          "id": "kaytee-91b50d8c1c",
-          "name": "Newcastle Jets vs Central Coast Mariners (14:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/296c68ac5ad3ff621c10c6ebfb9954ca.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🕐 14:00 25/04",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-91b50d8c1c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-91b50d8c1c",
-                  "name": "Newcastle Jets vs Central Coast Mariners",
-                  "streams": [
-                    {
-                      "id": "st-91b50d8c1c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia A-League",
-            "team_a": "Newcastle Jets",
-            "team_b": "Central Coast Mariners",
-            "logo": "https://cdn.rapid-api.icu/football/team/296c68ac5ad3ff621c10c6ebfb9954ca.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/296c68ac5ad3ff621c10c6ebfb9954ca.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4295d4c9acc95550f5a4360f0ba0d93f.png",
-            "time": "14:00 25/04",
-            "blv": "GIÀNG A CÒI",
             "is_live": false
           }
         },
@@ -2612,14 +2304,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 14:30 25/04",
@@ -2651,7 +2335,6 @@
             "league": "Korean K League 1",
             "team_a": "Bucheon FC 1995",
             "team_b": "Gimcheon Sangmu Football Club",
-            "logo": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/4a3e50e90ab721c1782568a287bd5358.png",
             "time": "14:30 25/04",
@@ -2665,14 +2348,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 14:30 25/04",
@@ -2704,7 +2379,6 @@
             "league": "Korean K League 1",
             "team_a": "Incheon United Club",
             "team_b": "Jeju SK FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
             "time": "14:30 25/04",
@@ -2718,14 +2392,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 15:30 25/04",
@@ -2757,7 +2423,6 @@
             "league": "Indonesian Liga 1",
             "team_a": "Madura United",
             "team_b": "Dewa United FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/76db1148a0e8a7c8e98ab05814cab691.png",
             "time": "15:30 25/04",
@@ -2771,14 +2436,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 16:00 25/04",
@@ -2810,7 +2467,6 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Francisco Cerundolo",
             "team_b": "Yannick Hanfmann",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5b1c61a6d1cff0d2237ccaecc8c5a270.png",
             "time": "16:00 25/04",
@@ -2824,14 +2480,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 16:30 25/04",
@@ -2863,7 +2511,6 @@
             "league": "Japanese J1 League",
             "team_a": "V-Varen Nagasaki",
             "team_b": "Gamba Osaka",
-            "logo": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/91008a96b5de8c75376d17057f89890e.png",
             "time": "16:30 25/04",
@@ -2877,14 +2524,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/9054259e823c101ccfe523cd527c2e5b.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 16:35 25/04",
@@ -2916,7 +2555,6 @@
             "league": "Australia A-League",
             "team_a": "Western Sydney",
             "team_b": "Melbourne Victory",
-            "logo": "https://cdn.rapid-api.icu/football/team/9054259e823c101ccfe523cd527c2e5b.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/9054259e823c101ccfe523cd527c2e5b.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/c540f8f279c09a2a3df1cbbfe82d7184.png",
             "time": "16:35 25/04",
@@ -2930,14 +2568,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -2969,7 +2599,6 @@
             "league": "Billiards",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "17:00 25/04",
@@ -2983,14 +2612,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4ffc223b0e0bbd58f069c2d128298408.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -3022,7 +2643,6 @@
             "league": "Thomas Cup",
             "team_a": "England",
             "team_b": "",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4ffc223b0e0bbd58f069c2d128298408.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4ffc223b0e0bbd58f069c2d128298408.png",
             "logo_b": "",
             "time": "17:00 25/04",
@@ -3036,14 +2656,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -3075,7 +2687,6 @@
             "league": "Uber Cup",
             "team_a": "Chinese Taipei (w)",
             "team_b": "Australia Women",
-            "logo": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/16e07f20613d448ad440f7445ce8dd5a.png",
             "time": "17:00 25/04",
@@ -3089,14 +2700,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 17:10 25/04",
@@ -3128,7 +2731,6 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Juan Manuel Cerundolo",
             "team_b": "Luciano Darderi",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/614b17a5a67a65bb7d8eb65a7f442cf4.png",
             "time": "17:10 25/04",
@@ -3142,14 +2744,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/3cd0dc57966a8b1f8536dd0016179664.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 17:15 25/04",
@@ -3181,7 +2775,6 @@
             "league": "Bulgarian First League",
             "team_a": "Ludogorets Razgrad",
             "team_b": "CSKA 1948 Sofia",
-            "logo": "https://cdn.rapid-api.icu/football/team/3cd0dc57966a8b1f8536dd0016179664.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3cd0dc57966a8b1f8536dd0016179664.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/182f01e096ad1f495cc88d2369c45224.png",
             "time": "17:15 25/04",
@@ -3195,14 +2788,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/1f74843bf2ffff474d23d387fa240102.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3234,7 +2819,6 @@
             "league": "German Bundesliga 2",
             "team_a": "Hertha Berlin",
             "team_b": "Holstein Kiel",
-            "logo": "https://cdn.rapid-api.icu/football/team/1f74843bf2ffff474d23d387fa240102.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/1f74843bf2ffff474d23d387fa240102.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/a285cb29d36e8d0e6fb35def1fbf442c.png",
             "time": "18:00 25/04",
@@ -3248,14 +2832,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/1d2fde8b4cbd9adc503dc5351e24513d.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3287,7 +2863,6 @@
             "league": "German Bundesliga 2",
             "team_a": "Karlsruher SC",
             "team_b": "Hannover 96",
-            "logo": "https://cdn.rapid-api.icu/football/team/1d2fde8b4cbd9adc503dc5351e24513d.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/1d2fde8b4cbd9adc503dc5351e24513d.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/1800be60204966114d63970b5d0873da.png",
             "time": "18:00 25/04",
@@ -3301,14 +2876,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/ae31b6267a9286cee274ca2cd1fa8cb1.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3340,7 +2907,6 @@
             "league": "German Bundesliga 2",
             "team_a": "Preuben Munster",
             "team_b": "Arminia Bielefeld",
-            "logo": "https://cdn.rapid-api.icu/football/team/ae31b6267a9286cee274ca2cd1fa8cb1.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/ae31b6267a9286cee274ca2cd1fa8cb1.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/8739d9ef9a67d757cc8ef67d12c58f62.png",
             "time": "18:00 25/04",
@@ -3354,14 +2920,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/72e738f86c289330982cfdf225169768.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3393,7 +2951,6 @@
             "league": "Hilux Revo Thai League",
             "team_a": "Chiangrai United",
             "team_b": "Bangkok United FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/72e738f86c289330982cfdf225169768.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/72e738f86c289330982cfdf225169768.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/5cd8cd571685287d0cb678034d78b9bd.png",
             "time": "18:00 25/04",
@@ -3407,14 +2964,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3446,7 +2995,6 @@
             "league": "Chinese Football Super League",
             "team_a": "Chengdu Rongcheng FC",
             "team_b": "Zhejiang Professional FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/cc1aef5e69e8d01ba3d3712f24040347.png",
             "time": "18:00 25/04",
@@ -3460,14 +3008,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/c6a2a1ae9f05aeb030cd7578e4614386.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3499,7 +3039,6 @@
             "league": "English Football League Championship",
             "team_a": "Charlton Athletic",
             "team_b": "Hull City",
-            "logo": "https://cdn.rapid-api.icu/football/team/c6a2a1ae9f05aeb030cd7578e4614386.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/c6a2a1ae9f05aeb030cd7578e4614386.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/262691204102d2200797f0ac34efb316.png",
             "time": "18:30 25/04",
@@ -3513,14 +3052,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3552,7 +3083,6 @@
             "league": "English Football League Championship",
             "team_a": "Middlesbrough",
             "team_b": "Watford",
-            "logo": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/31f7d5503f385d972d51ec447809a8a4.png",
             "time": "18:30 25/04",
@@ -3566,14 +3096,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3605,7 +3127,6 @@
             "league": "English Football League Championship",
             "team_a": "West Bromwich Albion",
             "team_b": "Ipswich Town",
-            "logo": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
             "time": "18:30 25/04",
@@ -3619,14 +3140,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/5a15fbeafbace6653cf789b2a252615f.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3658,7 +3171,6 @@
             "league": "Turkish Super League",
             "team_a": "Eyupspor",
             "team_b": "Gazisehir Gaziantep",
-            "logo": "https://cdn.rapid-api.icu/football/team/5a15fbeafbace6653cf789b2a252615f.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/5a15fbeafbace6653cf789b2a252615f.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/1d590fbc66db477bb5cb14304cd00c84.png",
             "time": "18:30 25/04",
@@ -3672,14 +3184,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3711,7 +3215,6 @@
             "league": "Hilux Revo Thai League",
             "team_a": "BG Pathum United",
             "team_b": "Nakhon Ratchasima Mazda FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/f999eb8927904adcf9c683b43b4dc856.png",
             "time": "18:30 25/04",
@@ -3725,14 +3228,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/e7af298237651113dfeafc32ff734a24.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:35 25/04",
@@ -3764,7 +3259,6 @@
             "league": "Chinese Football Super League",
             "team_a": "Beijing Guoan FC",
             "team_b": "Tianjin Jinmen Tiger FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/e7af298237651113dfeafc32ff734a24.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/e7af298237651113dfeafc32ff734a24.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c1786665c81e5dba734d5a8c2346d69e.png",
             "time": "18:35 25/04",
@@ -3778,14 +3272,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -3817,7 +3303,6 @@
             "league": "Indonesian Liga 1",
             "team_a": "Borneo FC",
             "team_b": "Semen Padang",
-            "logo": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/84cbbc8bc40a15d27aafc116d775cd27.png",
             "time": "19:00 25/04",
@@ -3831,14 +3316,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/c4e143e537412003565cdb7c2d212538.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -3870,7 +3347,6 @@
             "league": "Chinese Football Super League",
             "team_a": "Shanghai Port FC",
             "team_b": "Wuhan Three Towns FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/c4e143e537412003565cdb7c2d212538.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/c4e143e537412003565cdb7c2d212538.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/9d520898f49a46e0a00feef82240cb80.png",
             "time": "19:00 25/04",
@@ -3884,14 +3360,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/0bebca8b04365cbdf36703122a59189c.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -3923,7 +3391,6 @@
             "league": "Hilux Revo Thai League",
             "team_a": "Uthai Thani Forest",
             "team_b": "Port FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/0bebca8b04365cbdf36703122a59189c.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/0bebca8b04365cbdf36703122a59189c.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/fb00f7ae0bf4530e86baf7bec110f69f.png",
             "time": "19:00 25/04",
@@ -3937,14 +3404,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5f10d2e029bdf6ff25acbb58765baa6c.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 19:10 25/04",
@@ -3976,7 +3435,6 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Iga Swiatek",
             "team_b": "Ann Li",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5f10d2e029bdf6ff25acbb58765baa6c.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5f10d2e029bdf6ff25acbb58765baa6c.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
             "time": "19:10 25/04",
@@ -3990,14 +3448,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/3b19cae478679881554914e45d318742.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:00 25/04",
@@ -4029,7 +3479,6 @@
             "league": "Bulgarian First League",
             "team_a": "CSKA Sofia",
             "team_b": "Levski Sofia",
-            "logo": "https://cdn.rapid-api.icu/football/team/3b19cae478679881554914e45d318742.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3b19cae478679881554914e45d318742.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/fe56623a71d6056e9e1a93a6241e033f.png",
             "time": "20:00 25/04",
@@ -4043,14 +3492,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -4082,7 +3523,6 @@
             "league": "Bundesliga",
             "team_a": "VfL Wolfsburg",
             "team_b": "Borussia Monchengladbach",
-            "logo": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/89cdadf6cf1eb6f8d2507de1e01f806c.png",
             "time": "20:30 25/04",
@@ -4096,14 +3536,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -4135,7 +3567,6 @@
             "league": "Bundesliga",
             "team_a": "FC Augsburg",
             "team_b": "Eintracht Frankfurt",
-            "logo": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/fe636189a2f3db78d0554c34f0bdaae6.png",
             "time": "20:30 25/04",
@@ -4149,14 +3580,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/887b7663a0d47031528921d9972ae3a6.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -4188,7 +3611,6 @@
             "league": "Bundesliga",
             "team_a": "FC Köln",
             "team_b": "Bayer 04 Leverkusen",
-            "logo": "https://cdn.rapid-api.icu/football/team/887b7663a0d47031528921d9972ae3a6.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/887b7663a0d47031528921d9972ae3a6.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/d3205f3ddca07dc01c822ea0de24a0e7.png",
             "time": "20:30 25/04",
@@ -4202,14 +3624,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -4241,7 +3655,6 @@
             "league": "Bundesliga",
             "team_a": "1. FC Heidenheim 1846",
             "team_b": "FC St. Pauli",
-            "logo": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/65503b155488a643de688e8dfa849b1f.png",
             "time": "20:30 25/04",
@@ -4255,14 +3668,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/5759932ca2512c6701d86dfbd58380a7.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4294,7 +3699,6 @@
             "league": "English Premier League",
             "team_a": "Wolverhampton Wanderers",
             "team_b": "Tottenham Hotspur",
-            "logo": "https://cdn.rapid-api.icu/football/team/5759932ca2512c6701d86dfbd58380a7.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/5759932ca2512c6701d86dfbd58380a7.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/8b22ab4041e666b996a2d96f20dea707.png",
             "time": "21:00 25/04",
@@ -4308,14 +3712,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4347,7 +3743,6 @@
             "league": "English Football League Championship",
             "team_a": "Birmingham City",
             "team_b": "Bristol City",
-            "logo": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/e76b7c07aa13158e4041c101a87578dc.png",
             "time": "21:00 25/04",
@@ -4361,14 +3756,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4400,7 +3787,6 @@
             "league": "English Football League Championship",
             "team_a": "Oxford United",
             "team_b": "Sheffield Wednesday",
-            "logo": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/967493e73d52e5d6f1dda29b7b76eaa2.png",
             "time": "21:00 25/04",
@@ -4414,14 +3800,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4453,7 +3831,6 @@
             "league": "English Football League Championship",
             "team_a": "Queens Park Rangers",
             "team_b": "Derby County",
-            "logo": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/31cb07e323671e2442b8cb2a2e26693d.png",
             "time": "21:00 25/04",
@@ -4467,14 +3844,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/008437c93501963e6ca1b2450994007a.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4506,7 +3875,6 @@
             "league": "English Football League Championship",
             "team_a": "Sheffield United",
             "team_b": "Preston North End",
-            "logo": "https://cdn.rapid-api.icu/football/team/008437c93501963e6ca1b2450994007a.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/008437c93501963e6ca1b2450994007a.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/dbad1348304545f3d121cfd3e59395ab.png",
             "time": "21:00 25/04",
@@ -4520,14 +3888,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/3d0191f6fe1e152222e4b19b3cc9316a.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4559,7 +3919,6 @@
             "league": "Belgian Pro League",
             "team_a": " Oud-Heverlee Leuven",
             "team_b": " RC Sporting Charleroi",
-            "logo": "https://cdn.rapid-api.icu/football/team/3d0191f6fe1e152222e4b19b3cc9316a.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3d0191f6fe1e152222e4b19b3cc9316a.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/6ba531d9c12ad7e627c516dfdcee6c10.png",
             "time": "21:00 25/04",
@@ -4573,14 +3932,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4612,7 +3963,6 @@
             "league": "English Football League Championship",
             "team_a": "Stoke City",
             "team_b": "Portsmouth",
-            "logo": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/2f360e96a024fd54255d0ed941e9075e.png",
             "time": "21:00 25/04",
@@ -4626,14 +3976,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4665,7 +4007,6 @@
             "league": "English Football League Championship",
             "team_a": "Norwich City",
             "team_b": "Swansea City",
-            "logo": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/54d8cca610fda7b60925116c3b2aacdb.png",
             "time": "21:00 25/04",
@@ -4679,14 +4020,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/b0682ee168970ada040811b16fa9ade1.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4718,7 +4051,6 @@
             "league": "Turkish Super League",
             "team_a": "Kayserispor",
             "team_b": "Caykur Rizespor",
-            "logo": "https://cdn.rapid-api.icu/football/team/b0682ee168970ada040811b16fa9ade1.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/b0682ee168970ada040811b16fa9ade1.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/be9dd7715b88e662d366df132c630f72.png",
             "time": "21:00 25/04",
@@ -4732,14 +4064,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4771,7 +4095,6 @@
             "league": "giải bóng chuyền Cúp Hùng Vương 2026",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "21:00 25/04",
@@ -4785,14 +4108,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:15 25/04",
@@ -4824,7 +4139,6 @@
             "league": "Spanish La Liga",
             "team_a": "Getafe",
             "team_b": "FC Barcelona",
-            "logo": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/f378eb1ea04e53999b89051aa3244de6.png",
             "time": "21:15 25/04",
@@ -4838,14 +4152,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/44073f2d2c979a9388f98505ac3b754d.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:30 25/04",
@@ -4877,7 +4183,6 @@
             "league": "Netherlands Eredivisie",
             "team_a": "Feyenoord",
             "team_b": "Groningen",
-            "logo": "https://cdn.rapid-api.icu/football/team/44073f2d2c979a9388f98505ac3b754d.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/44073f2d2c979a9388f98505ac3b754d.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png",
             "time": "21:30 25/04",
@@ -4891,14 +4196,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 21:30 25/04",
@@ -4930,7 +4227,6 @@
             "league": "Portuguese Primera Liga",
             "team_a": "CD Tondela",
             "team_b": "Nacional da Madeira",
-            "logo": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/783ce34336f24424a273c5c2403a3cb1.png",
             "time": "21:30 25/04",
@@ -4944,14 +4240,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -4983,7 +4271,6 @@
             "league": "Belgian Pro League",
             "team_a": "Racing Genk",
             "team_b": "Standard Liege",
-            "logo": "https://cdn.rapid-api.icu/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/dcfd6a2671c5c5e09dd83daeb85feff9.png",
             "time": "23:15 25/04",
@@ -4997,14 +4284,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -5036,7 +4315,6 @@
             "league": "UEFA Women's Champions League",
             "team_a": "Bayern Munchen (w)",
             "team_b": "Barcelona (w)",
-            "logo": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
             "time": "23:15 25/04",
@@ -5050,14 +4328,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -5089,7 +4359,6 @@
             "league": "AFC Champions League Elite",
             "team_a": "Al-Ahli SFC",
             "team_b": "Machida Zelvia",
-            "logo": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
             "time": "23:15 25/04",
@@ -5103,14 +4372,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -5142,7 +4403,6 @@
             "league": "Uber Cup",
             "team_a": "China Women",
             "team_b": "Denmark Women",
-            "logo": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aaaf5868ef0b3cf4c6feab48c877d3ad.png",
             "time": "23:30 25/04",
@@ -5156,14 +4416,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/81f8f9e258e6b73bc522bab06730720a.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -5195,7 +4447,6 @@
             "league": "Bundesliga",
             "team_a": "Hamburger SV",
             "team_b": "TSG Hoffenheim",
-            "logo": "https://cdn.rapid-api.icu/football/team/81f8f9e258e6b73bc522bab06730720a.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/81f8f9e258e6b73bc522bab06730720a.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
             "time": "23:30 25/04",
@@ -5209,14 +4460,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/3b54543c1a584e2e9948d655142996d3.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -5248,7 +4491,6 @@
             "league": "Spanish La Liga",
             "team_a": "Valencia CF",
             "team_b": "Girona FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/3b54543c1a584e2e9948d655142996d3.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3b54543c1a584e2e9948d655142996d3.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/006ce259b33ef72dd5570cfa8dc39f38.png",
             "time": "23:30 25/04",
@@ -5262,14 +4504,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 23:45 25/04",
@@ -5301,7 +4535,6 @@
             "league": "Netherlands Eredivisie",
             "team_a": "SC Heerenveen",
             "team_b": "Fortuna Sittard",
-            "logo": "https://cdn.rapid-api.icu/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/622951cb622289cb656f2a1a05edcb13.png",
             "time": "23:45 25/04",
@@ -5315,14 +4548,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "https://cdn.rapid-api.icu/football/team/da5997a60373a56628e684ae3c16f2c8.png",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 01:30 26/04",
@@ -5354,7 +4579,6 @@
             "league": "German Bundesliga 2",
             "team_a": "SV Darmstadt 98",
             "team_b": "SV Elversberg",
-            "logo": "https://cdn.rapid-api.icu/football/team/da5997a60373a56628e684ae3c16f2c8.png",
             "logo_a": "https://cdn.rapid-api.icu/football/team/da5997a60373a56628e684ae3c16f2c8.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/20f905fb0975e88482cf157ad9da4874.png",
             "time": "01:30 26/04",
@@ -5368,14 +4592,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 04:00 26/04",
@@ -5407,7 +4623,6 @@
             "league": "UFC FIGHT NIGHT",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "04:00 26/04",
@@ -5421,14 +4636,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 18:30 29/04",
@@ -5460,7 +4667,6 @@
             "league": "ONE SAMURAI",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "18:30 29/04",
@@ -5474,14 +4680,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 15:00 02/05",
@@ -5513,7 +4711,6 @@
             "league": "UFC FIGHT NIGHT",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "15:00 02/05",
@@ -5527,14 +4724,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 06:00 10/05",
@@ -5566,7 +4755,6 @@
             "league": "UFC 328",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "06:00 10/05",
@@ -5580,14 +4768,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 12:00 17/05",
@@ -5619,7 +4799,6 @@
             "league": "UFC FIGHT NIGHT",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "12:00 17/05",
@@ -5633,14 +4812,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 12:00 31/05",
@@ -5672,7 +4843,6 @@
             "league": "UFC FIGHT NIGHT",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "12:00 31/05",
@@ -5686,14 +4856,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 12:00 07/06",
@@ -5725,7 +4887,6 @@
             "league": "UFC FIGHT NIGHT",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "12:00 07/06",
@@ -5739,14 +4900,6 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": "",
-            "width": 1600,
-            "height": 1200
-          },
           "labels": [
             {
               "text": "🕐 12:00 15/06",
@@ -5778,7 +4931,6 @@
             "league": "UFC Freedom 250",
             "team_a": "",
             "team_b": "",
-            "logo": "",
             "logo_a": "",
             "logo_b": "",
             "time": "12:00 15/06",
