@@ -39,28 +39,36 @@ def get_matches():
             continue
         match_id = match_id.group(1)
 
+        # LIVE: class stream_m_live
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        team_imgs = card.select("img[data-src*='football/team']")
+        # Logo: lấy tất cả img có data-src chứa /team/, bỏ /league/
+        team_imgs = [
+            i for i in card.select("img[data-src]")
+            if "/team/" in i.get("data-src", "") and "/league/" not in i.get("data-src", "")
+        ]
         logo_a = team_imgs[0].get("data-src", "") if len(team_imgs) > 0 else ""
         logo_b = team_imgs[1].get("data-src", "") if len(team_imgs) > 1 else ""
         team_a = team_imgs[0].get("alt", "") if len(team_imgs) > 0 else ""
         team_b = team_imgs[1].get("alt", "") if len(team_imgs) > 1 else ""
 
+        # Giải đấu
         league_tag = card.select_one("span.s_by_name")
         league = league_tag.get_text(strip=True) if league_tag else ""
 
+        # Giờ đấu
         time_tag = card.select_one("span.font-mono")
         match_time = time_tag.get_text(strip=True) if time_tag else ""
 
+        # BLV
         blv_list = []
         for blv_a in card.select("a[href*='?blv=']"):
             blv_href = blv_a.get("href", "")
-            blv_id_match = re.search(r'\?blv=(\d+)', blv_href)
+            blv_id_m = re.search(r'\?blv=(\d+)', blv_href)
             blv_name = blv_a.get_text(strip=True)
-            if blv_id_match and blv_name:
-                blv_list.append({"id": blv_id_match.group(1), "name": blv_name})
+            if blv_id_m and blv_name:
+                blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
 
         name = f"{team_a} vs {team_b}" if team_a and team_b else href.split("/")[2][:50]
 
@@ -88,8 +96,7 @@ def get_streams(match_id, blv_list):
         try:
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
-            text = res.text
-            found = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', text)
+            found = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', res.text)
             for lnk in found:
                 clean = lnk.replace("\\u0026", "&").replace("\\/", "/")
                 if clean not in streams:
@@ -131,23 +138,12 @@ def build_channel(match, streams):
     label_text  = "● LIVE" if match["is_live"] else f"🕐 {match['time']}"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
-    # Tạo thumbnail ghép logo 2 đội (dùng logo_a làm ảnh chính nếu chưa có thumb)
-    thumb_url = match.get("logo_a", "")
-
     return {
         "id": uid,
         "name": display_name,
         "type": "single",
         "display": "thumbnail-only",
         "enable_detail": False,
-        "image": {
-            "padding": 1,
-            "background_color": "#1a1a2e",
-            "display": "contain",
-            "url": thumb_url,
-            "width": 1600,
-            "height": 1200
-        },
         "labels": [{"text": label_text, "position": "top-left",
                     "color": "#00000080", "text_color": label_color}],
         "sources": [{
@@ -163,7 +159,6 @@ def build_channel(match, streams):
             "league": match.get("league", ""),
             "team_a": match.get("team_a", ""),
             "team_b": match.get("team_b", ""),
-            "logo": match.get("logo_a", ""),
             "logo_a": match.get("logo_a", ""),
             "logo_b": match.get("logo_b", ""),
             "time": match.get("time", ""),
@@ -179,15 +174,17 @@ def main():
     live_matches     = [m for m in matches if m["is_live"]]
     upcoming_matches = [m for m in matches if not m["is_live"]]
 
-    print(f"Tong: {len(matches)} tran | LIVE: {len(live_matches)} | Sap: {len(upcoming_matches)}\n")
+    print(f"Tong: {len(matches)} | LIVE: {len(live_matches)} | Sap: {len(upcoming_matches)}\n")
 
     live_channels     = []
     upcoming_channels = []
 
     for i, match in enumerate(live_matches):
         print(f"[LIVE {i+1}/{len(live_matches)}] {match['name']}")
+        print(f"  logo_a: {match['logo_a'][:60] if match['logo_a'] else 'TRONG'}")
+        print(f"  logo_b: {match['logo_b'][:60] if match['logo_b'] else 'TRONG'}")
         streams = get_streams(match["match_id"], match["blv_list"])
-        print(f"  Stream: {len(streams)} link")
+        print(f"  stream: {len(streams)} link")
         if not streams:
             continue
         live_channels.append(build_channel(match, streams))
