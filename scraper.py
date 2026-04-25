@@ -134,11 +134,13 @@ def make_thumbnail(match, channel_id):
     bg.save(out_path, "PNG", optimize=True)
     return out_path
 
-def is_within_24h(match_time):
+def is_within_24h(match_time, cate_id="1"):
     """
-    Trả về True nếu trận nằm trong khoảng từ bây giờ đến 24h tới.
-    Chấp nhận trận đã bắt đầu tối đa 3h trước (LIVE đang chạy).
+    Với bóng đá (cate_id=1): chỉ hiển thị trận trong 24h tới (và tối đa 6h đã qua).
+    Với các môn khác: không lọc theo thời gian (trả về True luôn).
     """
+    if cate_id != "1":
+        return True  # môn khác không giới hạn 24h
     from datetime import datetime, timedelta
     try:
         parts = match_time.strip().split()
@@ -155,7 +157,7 @@ def is_within_24h(match_time):
             match_dt = datetime(year, month, day, hour, minute)
         except ValueError:
             return False
-        lower = now - timedelta(hours=6)  # đủ cho môn dài như billiards, tennis
+        lower = now - timedelta(hours=6)
         upper = now + timedelta(hours=24)
         return lower <= match_dt <= upper
     except:
@@ -241,8 +243,8 @@ def get_matches():
         time_tag = card.select_one("span.font-mono")
         match_time = time_tag.get_text(strip=True) if time_tag else ""
 
-        # Lọc 24h tới
-        if not is_within_24h(match_time):
+        # Lọc 24h tới — chỉ bóng đá (cate_id=1)
+        if not is_within_24h(match_time, cate_id):
             continue
 
         # BLV: CHỈ lấy BLV trong section "BLV ONLINE"
@@ -319,17 +321,13 @@ def get_streams(match_id, blv_list):
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
             found = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', res.text)
-            blv_links = []
+            added = 0
             for lnk in found:
                 clean = lnk.replace("\\u0026", "&").replace("\\/", "/")
-                if clean not in streams and clean not in blv_links:
-                    blv_links.append(clean)
-            if blv_links:
-                # Chỉ lấy 1 link tốt nhất mỗi BLV — tránh sóng đài lẫn vào
-                streams.append(blv_links[0])
-                print(f"    BLV [{blv['name']}] ch={ch_id} -> {blv_links[0][:60]}...")
-            else:
-                print(f"    BLV [{blv['name']}] ch={ch_id} -> no stream")
+                if clean not in streams:
+                    streams.append(clean)
+                    added += 1
+            print(f"    BLV [{blv['name']}] ch={ch_id} -> {added} link(s)")
         except Exception as e:
             print(f"    Loi cbox {match_id}/{ch_id} ({blv['name']}): {e}")
         time.sleep(0.2)
@@ -414,8 +412,8 @@ def main():
     live_count = sum(1 for m in matches if m["is_live"])
     print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches)-live_count}\n")
 
-    # Nhóm theo môn thể thao
-    cate_channels = {}  # cate_id -> list of channels
+    # Nhóm theo môn thể thao — khởi tạo sẵn tất cả môn để cố định thứ tự/group
+    cate_channels = {cate_id: [] for cate_id in CATE_MAP}
 
     for i, match in enumerate(matches):
         cate_id = match["cate_id"]
