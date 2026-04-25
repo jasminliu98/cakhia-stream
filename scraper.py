@@ -34,7 +34,7 @@ CATE_MAP = {
 EXCLUDE_LEAGUES_AMERICA = [
     "mls", "major league soccer",
     "liga mx", "liga de expansion",
-    "brasileirao", "brasileirão", "serie a brasil", "campeonato brasileiro",
+    "brasileirao", "brasileirão", "serie a brasil", "campeonato brasileiro", "brazilian",
     "argentine", "argentina", "liga profesional", "copa de la liga",
     "colombian", "colombia", "liga betplay",
     "chile", "primera division chile",
@@ -151,7 +151,7 @@ def make_thumbnail(match, channel_id):
 
     # Giờ đấu — đen đậm, dưới tên đội, căn giữa ngang
     if match.get("time"):
-        draw.text((W//2, time_y), match["time"], fill=(15, 23, 42), font=font_time, anchor="mm")
+        draw.text((W//2, time_y), match["time"], fill=(200, 20, 20), font=font_time, anchor="mm")
 
     # Header: Giải đấu — trắng Bold
     if match.get("league"):
