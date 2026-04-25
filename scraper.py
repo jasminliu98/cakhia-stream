@@ -30,6 +30,30 @@ CATE_MAP = {
     "50": "🏐 Bóng Chuyền",
 }
 
+# Từ khóa giải châu Mỹ cần bỏ (so sánh không phân biệt hoa thường)
+EXCLUDE_LEAGUES_AMERICA = [
+    "mls", "major league soccer",
+    "liga mx", "liga de expansion",
+    "brasileirao", "brasileirão", "serie a brasil", "campeonato brasileiro",
+    "argentine", "argentina", "liga profesional", "copa de la liga",
+    "colombian", "colombia", "liga betplay",
+    "chile", "primera division chile",
+    "ecuador", "liga pro ecuador",
+    "peru", "liga 1 peru", "liga 1 perú",
+    "venezuela", "liga futve",
+    "paraguay", "apertura paraguay",
+    "uruguay", "primera division uruguay",
+    "bolivia", "division profesional",
+    "inter miami", "new england", "LA Galaxy", "NYCFC",
+    "concacaf", "conmebol",
+    "copa america", "copa sudamericana", "copa libertadores",
+]
+
+def is_america_league(league_name: str) -> bool:
+    """Trả về True nếu giải thuộc châu Mỹ cần bỏ."""
+    lower = league_name.lower()
+    return any(kw in lower for kw in EXCLUDE_LEAGUES_AMERICA)
+
 def make_id(text, prefix):
     h = hashlib.md5(text.encode()).hexdigest()[:10]
     return f"{prefix}-{h}"
@@ -240,6 +264,10 @@ def get_matches():
         league_tag = card.select_one("span.s_by_name")
         league = league_tag.get_text(strip=True) if league_tag else ""
 
+        # Bỏ giải châu Mỹ (chỉ áp dụng bóng đá cate_id=1)
+        if cate_id == "1" and is_america_league(league):
+            continue
+
         time_tag = card.select_one("span.font-mono")
         match_time = time_tag.get_text(strip=True) if time_tag else ""
 
@@ -423,6 +451,10 @@ def main():
         streams = []
         if match["is_live"]:
             streams = get_streams(match["match_id"], match["blv_list"])
+            # Bóng đá: link[0] thường là sóng đài, link[1] mới là BLV — đảo lên đầu
+            if match["cate_id"] == "1" and len(streams) >= 2:
+                streams = [streams[1], streams[0]] + streams[2:]
+                print(f"  [football] swapped link 1<->2")
             print(f"  stream: {len(streams)} link")
             if not streams:
                 print(f"  Bo qua - khong co stream")
