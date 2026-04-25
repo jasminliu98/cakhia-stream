@@ -43,21 +43,18 @@ def get_matches():
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        # Logo: lấy img trong div w-1/3 có alt không rỗng và data-src
-        team_divs = card.select("div.flex.flex-col.items-center.gap-3.w-1\\/3")
+        # Logo: lấy img có width=64 (logo đội to) và alt không rỗng
+        team_imgs = [
+            i for i in card.select("img[data-src][alt][width='64']")
+            if i.get("alt","").strip() and i.get("alt","") not in ["","Bóng đá","Bóng rổ","Cầu Lông","Tennis","Billiards","Võ Thuật","Bóng chuyền","Pickleball"]
+        ]
         logo_a, logo_b, team_a, team_b = "", "", "", ""
-
-        if len(team_divs) >= 1:
-            img = team_divs[0].select_one("img[data-src][alt]")
-            if img and img.get("alt"):
-                logo_a = img.get("data-src", "")
-                team_a = img.get("alt", "")
-
-        if len(team_divs) >= 2:
-            img = team_divs[-1].select_one("img[data-src][alt]")
-            if img and img.get("alt"):
-                logo_b = img.get("data-src", "")
-                team_b = img.get("alt", "")
+        if len(team_imgs) >= 1:
+            logo_a = team_imgs[0].get("data-src", "")
+            team_a = team_imgs[0].get("alt", "")
+        if len(team_imgs) >= 2:
+            logo_b = team_imgs[1].get("data-src", "")
+            team_b = team_imgs[1].get("alt", "")
 
         # Giải đấu
         league_tag = card.select_one("span.s_by_name")
