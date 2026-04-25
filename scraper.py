@@ -42,7 +42,7 @@ def get_matches():
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        team_imgs = card.select("img[data-src*='football/team']")
+        team_imgs = card.select("img[data-src*='/team/']")
         logo_a = team_imgs[0].get("data-src", "") if len(team_imgs) > 0 else ""
         logo_b = team_imgs[1].get("data-src", "") if len(team_imgs) > 1 else ""
         team_a = team_imgs[0].get("alt", "") if len(team_imgs) > 0 else ""
