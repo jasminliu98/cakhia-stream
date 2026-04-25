@@ -4,6 +4,9 @@ import json
 import hashlib
 import re
 import time
+import os
+from PIL import Image, ImageDraw
+from io import BytesIO
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -12,10 +15,61 @@ HEADERS = {
 
 BASE_URL = "https://cakhiatv247.net"
 CBOX_URL = "https://cbox-v2.cakhiatv89.com/"
+THUMBS_DIR = "thumbs"
+REPO_RAW = os.environ.get("REPO_RAW", "")  # Set trong workflow
 
 def make_id(text, prefix):
     h = hashlib.md5(text.encode()).hexdigest()[:10]
     return f"{prefix}-{h}"
+
+def fetch_image(url):
+    """Tải ảnh từ URL, trả về PIL Image hoặc None"""
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=8)
+        return Image.open(BytesIO(res.content)).convert("RGBA")
+    except:
+        return None
+
+def make_thumbnail(logo_a_url, logo_b_url, channel_id):
+    """Ghép 2 logo thành thumbnail 800x600, lưu vào thumbs/"""
+    os.makedirs(THUMBS_DIR, exist_ok=True)
+    out_path = f"{THUMBS_DIR}/{channel_id}.png"
+
+    # Nếu đã có file thì dùng lại
+    if os.path.exists(out_path):
+        return out_path
+
+    W, H = 800, 500
+    bg = Image.new("RGBA", (W, H), (15, 23, 42, 255))  # #0f172a
+    draw = ImageDraw.Draw(bg)
+
+    logo_size = 180
+
+    # Logo A (trái)
+    if logo_a_url:
+        img_a = fetch_image(logo_a_url)
+        if img_a:
+            img_a = img_a.resize((logo_size, logo_size), Image.LANCZOS)
+            x = W // 4 - logo_size // 2
+            y = H // 2 - logo_size // 2
+            bg.paste(img_a, (x, y), img_a)
+
+    # VS ở giữa
+    draw.text((W//2, H//2), "VS", fill=(255,255,255,200), anchor="mm")
+
+    # Logo B (phải)
+    if logo_b_url:
+        img_b = fetch_image(logo_b_url)
+        if img_b:
+            img_b = img_b.resize((logo_size, logo_size), Image.LANCZOS)
+            x = W * 3 // 4 - logo_size // 2
+            y = H // 2 - logo_size // 2
+            bg.paste(img_b, (x, y), img_b)
+
+    # Convert sang RGB để lưu PNG
+    final = bg.convert("RGB")
+    final.save(out_path, "PNG", optimize=True)
+    return out_path
 
 def get_matches():
     res = requests.get(BASE_URL, headers=HEADERS, timeout=15)
@@ -39,11 +93,9 @@ def get_matches():
             continue
         match_id = match_id.group(1)
 
-        # LIVE
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        # Logo: lấy img width=64, có alt tên đội, cả src lẫn data-src
         SKIP_ALTS = {"","Bóng đá","Bóng rổ","Cầu Lông","Tennis","Billiards","Võ Thuật","Bóng chuyền","Pickleball"}
         team_imgs = [
             i for i in card.select("img[width='64']")
@@ -57,17 +109,12 @@ def get_matches():
             logo_b = team_imgs[1].get("data-src") or team_imgs[1].get("src","")
             team_b = team_imgs[1].get("alt","")
 
-        # Giải đấu
         league_tag = card.select_one("span.s_by_name")
-        leagues = card.select("span.s_by_name")
-        # s_by_name xuất hiện nhiều lần, lấy cái đầu tiên (tên giải)
-        league = leagues[0].get_text(strip=True) if leagues else ""
+        league = league_tag.get_text(strip=True) if league_tag else ""
 
-        # Giờ đấu
         time_tag = card.select_one("span.font-mono")
         match_time = time_tag.get_text(strip=True) if time_tag else ""
 
-        # BLV
         blv_list = []
         for blv_a in card.select("a[href*='?blv=']"):
             blv_href = blv_a.get("href", "")
@@ -115,7 +162,7 @@ def get_streams(match_id, blv_list):
 
     return streams
 
-def build_channel(match, streams):
+def build_channel(match, streams, thumb_url=""):
     uid    = make_id(match["url"], "kaytee")
     src_id = make_id(match["url"], "src")
     ct_id  = make_id(match["url"], "ct")
@@ -144,23 +191,12 @@ def build_channel(match, streams):
     label_text  = "● LIVE" if match["is_live"] else f"🕐 {match['time']}"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
-    # Thumbnail: dùng logo_a làm ảnh đại diện
-    thumb = match.get("logo_a", "")
-
-    return {
+    channel = {
         "id": uid,
         "name": display_name,
         "type": "single",
         "display": "thumbnail-only",
         "enable_detail": False,
-        "image": {
-            "padding": 4,
-            "background_color": "#0f172a",
-            "display": "contain",
-            "url": thumb,
-            "width": 1600,
-            "height": 1200
-        },
         "labels": [{"text": label_text, "position": "top-left",
                     "color": "#00000080", "text_color": label_color}],
         "sources": [{
@@ -184,6 +220,19 @@ def build_channel(match, streams):
         }
     }
 
+    # Thêm thumbnail nếu có
+    if thumb_url:
+        channel["image"] = {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": thumb_url,
+            "width": 800,
+            "height": 500
+        }
+
+    return channel
+
 def main():
     print("Lay danh sach tran tu cakhiatv247...")
     matches = get_matches()
@@ -198,17 +247,25 @@ def main():
 
     for i, match in enumerate(live_matches):
         print(f"[LIVE {i+1}/{len(live_matches)}] {match['name']}")
-        print(f"  logo_a: {match['logo_a'][:70] if match['logo_a'] else 'TRONG'}")
-        print(f"  logo_b: {match['logo_b'][:70] if match['logo_b'] else 'TRONG'}")
         streams = get_streams(match["match_id"], match["blv_list"])
         print(f"  stream: {len(streams)} link")
         if not streams:
             continue
-        live_channels.append(build_channel(match, streams))
+
+        # Tạo thumbnail
+        uid = make_id(match["url"], "kaytee")
+        thumb_path = make_thumbnail(match["logo_a"], match["logo_b"], uid)
+        thumb_url = f"{REPO_RAW}/{thumb_path}" if REPO_RAW else ""
+        print(f"  thumb: {thumb_path}")
+
+        live_channels.append(build_channel(match, streams, thumb_url))
         time.sleep(0.3)
 
     for match in upcoming_matches:
-        upcoming_channels.append(build_channel(match, []))
+        uid = make_id(match["url"], "kaytee")
+        thumb_path = make_thumbnail(match["logo_a"], match["logo_b"], uid)
+        thumb_url = f"{REPO_RAW}/{thumb_path}" if REPO_RAW else ""
+        upcoming_channels.append(build_channel(match, [], thumb_url))
 
     groups = []
     if live_channels:
