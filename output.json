@@ -366,111 +366,6 @@
           }
         },
         {
-          "id": "kaytee-5d35e57107",
-          "name": "KVC Westerlo vs Royal Antwerp | 01:45 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d35e57107",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5d35e57107",
-                  "name": "KVC Westerlo vs Royal Antwerp",
-                  "streams": [
-                    {
-                      "id": "st-5d35e57107",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a63d8225a2",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed0e8836517_145575/index.m3u8?expire=1777748232",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-527f469b77",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2cbbf86aa12bc9d5ba53e0235fd5f3a3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-959a8cd744",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed0e8836517_145575/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Belgian Pro League",
-            "team_a": "KVC Westerlo",
-            "team_b": "Royal Antwerp",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d702c6992274d3c1d1dfc4c1b69ae932.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ddd8c6103c5ee746664405ab7a28bd8f.png",
-            "time": "01:45 26/04",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5d35e57107_1066f823.png?v=1066f823",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-4fa7488375",
           "name": "Atletico Madrid vs Athletic Club | 02:00 26/04",
           "type": "single",
@@ -710,111 +605,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bb2c0ad5f9_b1b8f04c.png?v=b1b8f04c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-884495a7c3",
-          "name": "Atletico Bucaramanga vs Jaguares de Cordoba | 02:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-884495a7c3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-884495a7c3",
-                  "name": "Atletico Bucaramanga vs Jaguares de Cordoba",
-                  "streams": [
-                    {
-                      "id": "st-884495a7c3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a8c2afc17",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed0f844841d_145611/index.m3u8?expire=1777748484",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6ad7bdaa78",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1ea0c3d3e3787e5e43ac797b354c649c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1b34aec1df",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed0f844841d_145611/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Categoría Primera A",
-            "team_a": "Atletico Bucaramanga",
-            "team_b": "Jaguares de Cordoba",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/70c92764e181ce7abe6176c411a93fe3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b7f3a068b301edd82ad4c56496f41063.png",
-            "time": "02:00 26/04",
-            "blv": "GIÀNG A NÚI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-884495a7c3_b831da17.png?v=b831da17",
             "width": 1600,
             "height": 1200
           }
@@ -1064,59 +854,6 @@
           }
         },
         {
-          "id": "kaytee-46dce31ab1",
-          "name": "Deportivo Pereira vs Atletico Nacional Medellin | 04:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46dce31ab1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-46dce31ab1",
-                  "name": "Deportivo Pereira vs Atletico Nacional Medellin",
-                  "streams": [
-                    {
-                      "id": "st-46dce31ab1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Categoría Primera A",
-            "team_a": "Deportivo Pereira",
-            "team_b": "Atletico Nacional Medellin",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2a016d670dd775e37ae908540843a444.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4ee24366d09a9239bb2c4207a5008111.png",
-            "time": "04:00 26/04",
-            "blv": "GIÀNG A TÔM",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-46dce31ab1_abb3c947.png?v=abb3c947",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-8383d4f808",
           "name": "Botafogo RJ vs Internacional RS | 04:30 26/04",
           "type": "single",
@@ -1276,59 +1013,6 @@
           }
         },
         {
-          "id": "kaytee-dff50ae205",
-          "name": "Deportivo Cali vs America de Cali | 06:10 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dff50ae205",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-dff50ae205",
-                  "name": "Deportivo Cali vs America de Cali",
-                  "streams": [
-                    {
-                      "id": "st-dff50ae205",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Categoría Primera A",
-            "team_a": "Deportivo Cali",
-            "team_b": "America de Cali",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b997a2811a0caed43ff38b631a708420.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png",
-            "time": "06:10 26/04",
-            "blv": "GIÀNG A KEN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dff50ae205_a64aab7a.png?v=a64aab7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-66d8acab58",
           "name": "Sao Paulo vs Mirassol | 07:00 26/04",
           "type": "single",
@@ -1377,59 +1061,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-66d8acab58_6f210e40.png?v=6f210e40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-6392a19709",
-          "name": "Dep.Independiente Medellin vs Fortaleza F.C | 08:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6392a19709",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6392a19709",
-                  "name": "Dep.Independiente Medellin vs Fortaleza F.C",
-                  "streams": [
-                    {
-                      "id": "st-6392a19709",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Categoría Primera A",
-            "team_a": "Dep.Independiente Medellin",
-            "team_b": "Fortaleza F.C",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6eef3985d6a6d69a6e5374e27b13b35f.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5a721f997fe18b1c151116a96b1b4ea8.png",
-            "time": "08:30 26/04",
-            "blv": "GIÀNG A NẾP",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6392a19709_af2f364c.png?v=af2f364c",
             "width": 1600,
             "height": 1200
           }
@@ -2230,59 +1861,6 @@
           }
         },
         {
-          "id": "kaytee-c8defdda17",
-          "name": "Slavia Sofia vs Botev Vratsa | 18:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8defdda17",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c8defdda17",
-                  "name": "Slavia Sofia vs Botev Vratsa",
-                  "streams": [
-                    {
-                      "id": "st-c8defdda17",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bulgarian First League",
-            "team_a": "Slavia Sofia",
-            "team_b": "Botev Vratsa",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e087c9b939975c0cb726253fc3c3e418.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2160cff8b0067605adb4e2d1ff213f3d.png",
-            "time": "18:00 26/04",
-            "blv": "GIÀNG A CAY",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c8defdda17_741c8871.png?v=741c8871",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-ff00c386ff",
           "name": "VfL Bochum 1848 vs SpVgg Greuther Fürth | 18:30 26/04",
           "type": "single",
@@ -2437,112 +2015,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c308b6410_30c74033.png?v=30c74033",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-8a384a9565",
-          "name": "Genclerbirligi vs Kocaelispor | 18:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a384a9565",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8a384a9565",
-                  "name": "Genclerbirligi vs Kocaelispor",
-                  "streams": [
-                    {
-                      "id": "st-8a384a9565",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish Super League",
-            "team_a": "Genclerbirligi",
-            "team_b": "Kocaelispor",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ec111e88997dce5a5f76c26b8e85d7f3.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cc07308e2f4326c6929fd8cece5668d1.png",
-            "time": "18:30 26/04",
-            "blv": "GIÀNG A CƠ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8a384a9565_0014c9c7.png?v=0014c9c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-f4ae43acf1",
-          "name": "KAA Gent vs Club Brugge | 18:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4ae43acf1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f4ae43acf1",
-                  "name": "KAA Gent vs Club Brugge",
-                  "streams": [
-                    {
-                      "id": "st-f4ae43acf1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Belgian Pro League",
-            "team_a": "KAA Gent",
-            "team_b": "Club Brugge",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/59e9be1ed056bdc0025f6064316485fe.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2e9f652d28ec91e0b66c0b714bff8d78.png",
-            "time": "18:30 26/04",
-            "blv": "GIÀNG A ĐÌNH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f4ae43acf1_e4754731.png?v=e4754731",
             "width": 1600,
             "height": 1200
           }
@@ -2822,8 +2294,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-9b0cc2f39e",
-          "name": "cbsa-peri-laili-cup-0800-26-04-2026 | 08:00 26/04",
+          "id": "kaytee-ea95fc4e0e",
+          "name": "Chen Guoen vs Li Yao | 08:00 26/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2837,15 +2309,15 @@
           ],
           "sources": [
             {
-              "id": "src-9b0cc2f39e",
+              "id": "src-ea95fc4e0e",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-9b0cc2f39e",
-                  "name": "cbsa-peri-laili-cup-0800-26-04-2026",
+                  "id": "ct-ea95fc4e0e",
+                  "name": "Chen Guoen vs Li Yao",
                   "streams": [
                     {
-                      "id": "st-9b0cc2f39e",
+                      "id": "st-ea95fc4e0e",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2855,11 +2327,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Billiards",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "league": "CBSA Peri Laili Cup",
+            "team_a": "Chen Guoen",
+            "team_b": "Li Yao",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7799c94b701d7d603e42c132d5400ff5.jpg",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4fae7cee95a2fbe01ecef0df3de69018.jpg",
             "time": "08:00 26/04",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2869,7 +2341,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9b0cc2f39e_4b6df019.png?v=4b6df019",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ea95fc4e0e_a07cb49e.png?v=a07cb49e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5cfc363c92",
+          "name": "Lê Quang Trung vs Sun Jie | 12:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cfc363c92",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5cfc363c92",
+                  "name": "Lê Quang Trung vs Sun Jie",
+                  "streams": [
+                    {
+                      "id": "st-5cfc363c92",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBSA Peri Laili Cup",
+            "team_a": "Lê Quang Trung",
+            "team_b": "Sun Jie",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/be2ceaf5b2eb69d47b4ca08d5211a7c1.jpg",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/c1803f1f7085ce561db97914d8c20eb2.jpg",
+            "time": "12:30 26/04",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5cfc363c92_564ca722.png?v=564ca722",
             "width": 1600,
             "height": 1200
           }
@@ -2926,10 +2451,19 @@
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
-          "id": "kaytee-ff17f83717",
-          "name": "cbsa-peri-laili-cup-1545-26-04-2026 | 15:45 26/04",
+          "id": "kaytee-5a7679f94c",
+          "name": "Sorana Cirstea vs Coco Gauff | 16:00 26/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2943,15 +2477,15 @@
           ],
           "sources": [
             {
-              "id": "src-ff17f83717",
+              "id": "src-5a7679f94c",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-ff17f83717",
-                  "name": "cbsa-peri-laili-cup-1545-26-04-2026",
+                  "id": "ct-5a7679f94c",
+                  "name": "Sorana Cirstea vs Coco Gauff",
                   "streams": [
                     {
-                      "id": "st-ff17f83717",
+                      "id": "st-5a7679f94c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2961,34 +2495,26 @@
             }
           ],
           "org_metadata": {
-            "league": "Billiards",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "15:45 26/04",
-            "blv": "GIÀNG A MÓM",
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Sorana Cirstea",
+            "team_b": "Coco Gauff",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/13a8a8371635efb726be117d6c809299.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FtOo4lXpad84ytb8c9aNzAQsGO2r",
+            "time": "16:00 26/04",
+            "blv": "GIÀNG A TÀI",
             "is_live": false,
-            "cate_name": "Billiards"
+            "cate_name": "Tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff17f83717_4b6df019.png?v=4b6df019",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5a7679f94c_a7ed6557.png?v=a7ed6557",
             "width": 1600,
             "height": 1200
           }
         }
       ]
-    },
-    {
-      "id": "cate_27",
-      "name": "🎾 Tennis",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": []
     },
     {
       "id": "cate_20",
@@ -2997,111 +2523,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6ea5714488",
-          "name": "Orlando Magic vs Detroit Pistons | 00:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ea5714488",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6ea5714488",
-                  "name": "Orlando Magic vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-6ea5714488",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ece96f0086",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/12b04aae49287e23e41876c2fc98c71f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-870b14c620",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ecf12e4841d_145211/index.m3u8?expire=1777740718",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-dbabe8de0f",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecf12e4841d_145211/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Orlando Magic",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "time": "00:00 26/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6ea5714488_50a85517.png?v=50a85517",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3cd3f23a03",
           "name": "Phoenix Suns vs Oklahoma City Thunder | 02:30 26/04",
@@ -3130,11 +2551,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ef977677af",
+                          "id": "lnk-0f70d468b1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.alilicloud.com/live/f1f4f60e89fc9409a03db51e35276a53/playlist.m3u8",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed117636517_145247/index.m3u8?expire=1777748982",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3147,11 +2568,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-16bcf43ec8",
+                          "id": "lnk-e10a446708",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed117636517_145247/index.m3u8?expire=1777748982",
+                          "url": "https://live.alilicloud.com/live/f1f4f60e89fc9409a03db51e35276a53/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
