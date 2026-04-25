@@ -19,16 +19,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install thư viện
-        run: pip install requests beautifulsoup4
+      - name: Install thu vien
+        run: pip install requests beautifulsoup4 Pillow
 
-      - name: Chạy scraper
+      - name: Chay scraper
+        env:
+          REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/main
         run: python scraper.py
 
-      - name: Lưu output.json vào repo
+      - name: Luu files vao repo
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add output.json
-          git diff --cached --quiet || git commit -m "🔄 Cập nhật $(date '+%H:%M %d/%m/%Y')"
+          git add output.json thumbs/
+          git diff --cached --quiet || git commit -m "Update $(date '+%H:%M %d/%m/%Y')"
           git push
