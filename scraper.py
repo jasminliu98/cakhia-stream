@@ -41,9 +41,13 @@ def fetch_image(url):
     except:
         return None
 
+THUMB_VERSION = "v3"  # Tăng version này để force regenerate tất cả thumbnail cũ
+
 def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    logo_hash = hashlib.md5((match.get("logo_a","") + match.get("logo_b","")).encode()).hexdigest()[:8]
+    # Dùng cả nội dung + version để cache bust khi layout thay đổi
+    cache_key = match.get("logo_a","") + match.get("logo_b","") + THUMB_VERSION
+    logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
     out_path = f"{THUMBS_DIR}/{channel_id}_{logo_hash}.png"
 
     W, H = 1600, 1200
@@ -61,17 +65,18 @@ def make_thumbnail(match, channel_id):
     # Footer: BLV (nền xanh đậm)
     draw.rectangle([(0, H-100),(W, H)], fill=(15, 23, 42))
 
+    FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
     try:
-        font_vs    = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 130)
-        font_time  = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 90)
-        font_team  = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 55)
-        font_league= ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 52)
-        font_blv   = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 48)
+        font_vs    = ImageFont.truetype(FONT_BOLD, 130)
+        font_time  = ImageFont.truetype(FONT_BOLD, 80)
+        font_team  = ImageFont.truetype(FONT_BOLD, 55)
+        font_league= ImageFont.truetype(FONT_BOLD, 52)
+        font_blv   = ImageFont.truetype(FONT_BOLD, 52)  # Bold, cùng size league
     except:
         font_vs = font_time = font_team = font_league = font_blv = ImageFont.load_default()
 
-    logo_size = 340  # FIX 4: thu nhỏ logo một chút để có chỗ cho thời gian
-    logo_y = 160     # FIX 4: dời logo lên cao hơn một chút
+    logo_size = 320
+    logo_y = 145  # sát header hơn để nhường chỗ phía dưới
 
     # Logo A (trái)
     if match.get("logo_a"):
@@ -91,32 +96,32 @@ def make_thumbnail(match, channel_id):
 
     center_y = logo_y + logo_size//2
 
-    # VS
-    draw.text((W//2, center_y - 30), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
+    # VS (giữa 2 logo)
+    draw.text((W//2, center_y), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
 
-    # FIX 4: Giờ đấu — màu TRẮNG, dời xuống dưới logo (không đè lên logo)
-    if match.get("time"):
-        time_y = logo_y + logo_size + 80  # dưới logo ~80px
-        draw.text((W//2, time_y), match["time"], fill=(255, 255, 255), font=font_time, anchor="mm",
-                  stroke_width=3, stroke_fill=(15, 23, 42))
-
-    # Tên đội A
+    # Tên đội A — ngay dưới logo
+    name_y = logo_y + logo_size + 55
     if match.get("team_a"):
         name_a = match["team_a"][:20]
-        draw.text((W//4, logo_y + logo_size + 170), name_a, fill=(15,23,42), font=font_team, anchor="mm")
+        draw.text((W//4, name_y), name_a, fill=(15,23,42), font=font_team, anchor="mm")
 
-    # Tên đội B
+    # Tên đội B — ngay dưới logo
     if match.get("team_b"):
         name_b = match["team_b"][:20]
-        draw.text((W*3//4, logo_y + logo_size + 170), name_b, fill=(15,23,42), font=font_team, anchor="mm")
+        draw.text((W*3//4, name_y), name_b, fill=(15,23,42), font=font_team, anchor="mm")
 
-    # Giải đấu (header)
+    # Giờ đấu — màu ĐEN, dưới tên đội
+    if match.get("time"):
+        time_y = name_y + 90
+        draw.text((W//2, time_y), match["time"], fill=(15, 23, 42), font=font_time, anchor="mm")
+
+    # Giải đấu (header) — trắng Bold
     if match.get("league"):
         draw.text((W//2, 60), match["league"].upper(), fill=(255,255,255), font=font_league, anchor="mm")
 
-    # BLV (footer)
+    # BLV (footer) — trắng Bold, cùng font/màu như header giải đấu
     if match.get("blv"):
-        draw.text((W//2, H - 50), f"🎙 BLV: {match['blv']}", fill=(134,239,172), font=font_blv, anchor="mm")
+        draw.text((W//2, H - 50), f"🎙 BLV: {match['blv']}", fill=(255,255,255), font=font_blv, anchor="mm")
 
     bg.save(out_path, "PNG", optimize=True)
     return out_path
@@ -240,16 +245,19 @@ def get_matches():
     return matches
 
 def get_streams(match_id, blv_list):
-    """Chỉ lấy stream từ BLV có tên, bỏ sóng quốc tế"""
+    """
+    Lấy stream từ tất cả BLV có tên (bỏ channel_id=0 là sóng quốc tế).
+    Ưu tiên: thu thập từng BLV theo thứ tự, Link 1 sẽ là BLV đầu tiên có stream.
+    """
     streams = []
 
-    named_blv = [b for b in blv_list if b["name"].strip()]
+    # Loại channel_id=0 (sóng nhà đài/quốc tế không có BLV)
+    named_blv = [b for b in blv_list if b["name"].strip() and b["id"] != "0"]
     if not named_blv:
         return []
 
-    channel_ids = [b["id"] for b in named_blv]
-
-    for ch_id in channel_ids[:3]:
+    for blv in named_blv[:4]:  # Tối đa 4 BLV
+        ch_id = blv["id"]
         try:
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
@@ -258,10 +266,9 @@ def get_streams(match_id, blv_list):
                 clean = lnk.replace("\\u0026", "&").replace("\\/", "/")
                 if clean not in streams:
                     streams.append(clean)
-            if streams:
-                break
+                    print(f"    BLV [{blv['name']}] -> {clean[:60]}...")
         except Exception as e:
-            print(f"    Loi cbox {match_id}/{ch_id}: {e}")
+            print(f"    Loi cbox {match_id}/{ch_id} ({blv['name']}): {e}")
         time.sleep(0.2)
 
     return streams
@@ -360,7 +367,8 @@ def main():
 
         uid = make_id(match["url"], "kaytee")
         thumb_path = make_thumbnail(match, uid)
-        logo_hash = hashlib.md5((match.get("logo_a","") + match.get("logo_b","")).encode()).hexdigest()[:8]
+        cache_key = match.get("logo_a","") + match.get("logo_b","") + THUMB_VERSION
+        logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
         channel = build_channel(match, streams, thumb_url)
