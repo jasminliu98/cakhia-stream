@@ -542,6 +542,198 @@
           }
         },
         {
+          "id": "kaytee-6f574acbcf",
+          "name": "Bucheon FC 1995 vs Gimcheon Sangmu Football Club (14:30 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f574acbcf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f574acbcf",
+                  "name": "Bucheon FC 1995 vs Gimcheon Sangmu Football Club",
+                  "streams": [
+                    {
+                      "id": "st-6f574acbcf",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-939bd6efc8",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/a1604d09a23248007558957eea823575/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f939afd649",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec68ae4841d_145277/index.m3u8?expire=1777705774",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3d5719f7ca",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ec68ae4841d_145277/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Bucheon FC 1995",
+            "team_b": "Gimcheon Sangmu Football Club",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4a3e50e90ab721c1782568a287bd5358.png",
+            "time": "14:30 25/04",
+            "blv": "GIÀNG A CƠ",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-8c6861f01e",
+          "name": "Incheon United Club vs Jeju SK FC (14:30 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c6861f01e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8c6861f01e",
+                  "name": "Incheon United Club vs Jeju SK FC",
+                  "streams": [
+                    {
+                      "id": "st-8c6861f01e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-735796e4c5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/a162c2ce087e82235648f0c1ac5b2171/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-44c3460f5b",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec627a36517_145187/index.m3u8?expire=1777704186",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4bd1bf26c6",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ec627a36517_145187/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Incheon United Club",
+            "team_b": "Jeju SK FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
+            "time": "14:30 25/04",
+            "blv": "GIÀNG A NÌ",
+            "is_live": true
+          }
+        },
+        {
           "id": "kaytee-f5673b8571",
           "name": "Sydney Comets vs Norths Bears (13:00 25/04)",
           "type": "single",
@@ -2299,94 +2491,6 @@
           }
         },
         {
-          "id": "kaytee-6f574acbcf",
-          "name": "Bucheon FC 1995 vs Gimcheon Sangmu Football Club (14:30 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 14:30 25/04",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f574acbcf",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6f574acbcf",
-                  "name": "Bucheon FC 1995 vs Gimcheon Sangmu Football Club",
-                  "streams": [
-                    {
-                      "id": "st-6f574acbcf",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Bucheon FC 1995",
-            "team_b": "Gimcheon Sangmu Football Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4a3e50e90ab721c1782568a287bd5358.png",
-            "time": "14:30 25/04",
-            "blv": "GIÀNG A CƠ",
-            "is_live": false
-          }
-        },
-        {
-          "id": "kaytee-8c6861f01e",
-          "name": "Incheon United Club vs Jeju SK FC (14:30 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 14:30 25/04",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c6861f01e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8c6861f01e",
-                  "name": "Incheon United Club vs Jeju SK FC",
-                  "streams": [
-                    {
-                      "id": "st-8c6861f01e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Incheon United Club",
-            "team_b": "Jeju SK FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
-            "time": "14:30 25/04",
-            "blv": "GIÀNG A NÌ",
-            "is_live": false
-          }
-        },
-        {
           "id": "kaytee-b9484ca198",
           "name": "Madura United vs Dewa United FC (15:30 25/04)",
           "type": "single",
@@ -2467,8 +2571,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Francisco Cerundolo",
             "team_b": "Yannick Hanfmann",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/59bec17bbb0773687df6306b291438fb.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/5b1c61a6d1cff0d2237ccaecc8c5a270.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5b1c61a6d1cff0d2237ccaecc8c5a270.png",
             "time": "16:00 25/04",
             "blv": "GIÀNG A LONG",
             "is_live": false
@@ -2731,8 +2835,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Juan Manuel Cerundolo",
             "team_b": "Luciano Darderi",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/463db21072547cae2e9b28cf3662a592.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/614b17a5a67a65bb7d8eb65a7f442cf4.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/614b17a5a67a65bb7d8eb65a7f442cf4.png",
             "time": "17:10 25/04",
             "blv": "GIÀNG A LONG",
             "is_live": false
@@ -3435,8 +3539,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Iga Swiatek",
             "team_b": "Ann Li",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/5f10d2e029bdf6ff25acbb58765baa6c.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/75655aabfb5c910ac5b9c6d927e86122.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5f10d2e029bdf6ff25acbb58765baa6c.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
             "time": "19:10 25/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false
