@@ -17,738 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-cf1b8cafa8",
-          "name": "SV Darmstadt 98 vs SV Elversberg | 01:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf1b8cafa8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cf1b8cafa8",
-                  "name": "SV Darmstadt 98 vs SV Elversberg",
-                  "streams": [
-                    {
-                      "id": "st-cf1b8cafa8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8dae364221",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed01c94841d_145407/index.m3u8?expire=1777744969",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-23580ea8c4",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b9379c525da53f2748bcd6951da330ba/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ba711ea5a2",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed01c94841d_145407/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Bundesliga 2",
-            "team_a": "SV Darmstadt 98",
-            "team_b": "SV Elversberg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/da5997a60373a56628e684ae3c16f2c8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/20f905fb0975e88482cf157ad9da4874.png",
-            "time": "01:30 26/04",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-cf1b8cafa8_9e6a1015.png?v=9e6a1015",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-32be28f2e6",
-          "name": "Hellas Verona vs Lecce | 01:45 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32be28f2e6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-32be28f2e6",
-                  "name": "Hellas Verona vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-32be28f2e6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f287ab5227",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed056d4841d_145689/index.m3u8?expire=1777745901",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-730fab19c4",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/5f06bf395a4955c228df498eda6f7a05/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-95734d1396",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed056d4841d_145689/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f39f3f2503",
-                          "name": "Link 4",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed094436517_145698/index.m3u8?expire=1777746884",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7ae6628997",
-                          "name": "Link 5",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed094436517_145698/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Hellas Verona",
-            "team_b": "Lecce",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/777d0840066313da8c0f85977e9178be.png",
-            "time": "01:45 26/04",
-            "blv": "GIÀNG A TRỀ, GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-32be28f2e6_21d8d199.png?v=21d8d199",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-4fa7488375",
-          "name": "Atletico Madrid vs Athletic Club | 02:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fa7488375",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4fa7488375",
-                  "name": "Atletico Madrid vs Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-4fa7488375",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aac1b12926",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed081b4841d_145821/index.m3u8?expire=1777746587",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a2f50cfa8f",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/70752f8f662eecfd603a9d8e9d0ec2cd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fd6c4ccc3b",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed081b4841d_145821/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-791f002cf0",
-                          "name": "Link 4",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed094336517_145199/index.m3u8?expire=1777746883",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8ed52466c7",
-                          "name": "Link 5",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed094336517_145199/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Atletico Madrid",
-            "team_b": "Athletic Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/abbb31d42c55612737713aac6567a226.png",
-            "time": "02:00 26/04",
-            "blv": "GIÀNG A NGAO, GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fa7488375_13ca12ff.png?v=13ca12ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-bb2c0ad5f9",
-          "name": "FC Twente Enschede vs NEC Nijmegen | 02:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb2c0ad5f9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-bb2c0ad5f9",
-                  "name": "FC Twente Enschede vs NEC Nijmegen",
-                  "streams": [
-                    {
-                      "id": "st-bb2c0ad5f9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7df0f88439",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed0b734841d_146091/index.m3u8?expire=1777747443",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5ce9bff047",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4d43c25afa6b8aedbd87bbc1304237e9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-07a539932c",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed0b734841d_146091/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "FC Twente Enschede",
-            "team_b": "NEC Nijmegen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7a2d0c79dd5d8589167c88684ac55aca.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
-            "time": "02:00 26/04",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bb2c0ad5f9_b1b8f04c.png?v=b1b8f04c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-72dc300e94",
-          "name": "Toulouse FC vs AS Monaco | 02:05 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72dc300e94",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-72dc300e94",
-                  "name": "Toulouse FC vs AS Monaco",
-                  "streams": [
-                    {
-                      "id": "st-72dc300e94",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-712cbbd882",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed068836517_145205/index.m3u8?expire=1777746184",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-79e223fc3c",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/ba1bbf17826c24fbb780404149390bc5/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-870cf661b4",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed068836517_145205/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8fb95c6ba5",
-                          "name": "Link 4",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed095736517_145232/index.m3u8?expire=1777746903",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-685e818e03",
-                          "name": "Link 5",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed095736517_145232/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Toulouse FC",
-            "team_b": "AS Monaco",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/693af0d277fe3179594695614dce8666.png",
-            "time": "02:05 26/04",
-            "blv": "GIÀNG A BẢNH, GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72dc300e94_4d03213e.png?v=4d03213e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-78894f8b1f",
-          "name": "Vitoria Guimaraes vs Rio Ave | 02:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78894f8b1f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-78894f8b1f",
-                  "name": "Vitoria Guimaraes vs Rio Ave",
-                  "streams": [
-                    {
-                      "id": "st-78894f8b1f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b1c3169c0",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed11cf36517_146781/index.m3u8?expire=1777749071",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9e596018d3",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8481343ea2173c682d02536b8286ba86/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-92a9f91e36",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed11cf36517_146781/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Vitoria Guimaraes",
-            "team_b": "Rio Ave",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ad97b71fe0d8df0e60f7c534fee24132.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/e83b163c8501f897012bcc29adfae2b9.png",
-            "time": "02:30 26/04",
-            "blv": "GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-78894f8b1f_e00c0bbc.png?v=e00c0bbc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-6674d0b08a",
           "name": "Jeonbuk Hyundai Motors vs Pohang Steelers | 12:00 26/04",
           "type": "single",
@@ -2072,6 +1340,271 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-8814677f93",
+          "name": "VfB Stuttgart vs SV Werder Bremen | 20:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8814677f93",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8814677f93",
+                  "name": "VfB Stuttgart vs SV Werder Bremen",
+                  "streams": [
+                    {
+                      "id": "st-8814677f93",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "VfB Stuttgart",
+            "team_b": "SV Werder Bremen",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bfdd500484330d63a723cbc396df762c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
+            "time": "20:30 26/04",
+            "blv": "GIÀNG A MAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8814677f93_1ea7fd27.png?v=1ea7fd27",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0babe04e9f",
+          "name": "Chelsea vs Leeds United | 21:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0babe04e9f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0babe04e9f",
+                  "name": "Chelsea vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-0babe04e9f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Chelsea",
+            "team_b": "Leeds United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/cd46d2ed1d364308dc206c97b48ce556.png",
+            "time": "21:00 26/04",
+            "blv": "GIÀNG A NGAO, GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0babe04e9f_9c6ae060.png?v=9c6ae060",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-1a3ee8a7b1",
+          "name": "Real Oviedo vs Elche | 21:15 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a3ee8a7b1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1a3ee8a7b1",
+                  "name": "Real Oviedo vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-1a3ee8a7b1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Real Oviedo",
+            "team_b": "Elche",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/21551996567bcd206ee574043d509a84.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e5ecd0553885f1a3af731758dddce2ec.png",
+            "time": "21:15 26/04",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1a3ee8a7b1_1ef75510.png?v=1ef75510",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a3e5b8c363",
+          "name": "Estoril vs FC Famalicao | 21:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3e5b8c363",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a3e5b8c363",
+                  "name": "Estoril vs FC Famalicao",
+                  "streams": [
+                    {
+                      "id": "st-a3e5b8c363",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Estoril",
+            "team_b": "FC Famalicao",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/faeceacffbf35e28b7e71a5f90b6efdc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/abd59f62f69ef9f59a8121c3baadd882.png",
+            "time": "21:30 26/04",
+            "blv": "GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a3e5b8c363_03d32cc4.png?v=03d32cc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-12f07b6fcb",
+          "name": "Arsenal (w) vs Lyon (w) | 21:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12f07b6fcb",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-12f07b6fcb",
+                  "name": "Arsenal (w) vs Lyon (w)",
+                  "streams": [
+                    {
+                      "id": "st-12f07b6fcb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Arsenal (w)",
+            "team_b": "Lyon (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b61190e348449a746ef3f802e7ebc701.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/99415c256a9adec98819ca588bfa8974.png",
+            "time": "21:30 26/04",
+            "blv": "GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-12f07b6fcb_49480380.png?v=49480380",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2425,10 +1958,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2458,7 +1991,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
             "time": "05:00 26/04",
             "blv": "GIÀNG A CÁO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
@@ -2647,94 +2180,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-c4a08f3f79",
-          "name": "China Women vs Denmark Women | 23:30 25/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4a08f3f79",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c4a08f3f79",
-                  "name": "China Women vs Denmark Women",
-                  "streams": [
-                    {
-                      "id": "st-c4a08f3f79",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8ac42c7fa",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ece50b4841d_146208/index.m3u8?expire=1777737611",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-db2a856b36",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ece50b4841d_146208/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uber Cup",
-            "team_a": "China Women",
-            "team_b": "Denmark Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aaaf5868ef0b3cf4c6feab48c877d3ad.png",
-            "time": "23:30 25/04",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c4a08f3f79_ecded84d.png?v=ecded84d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-f31b5888ba",
           "name": "Indonesia vs Thailand | 13:30 26/04",
