@@ -17,460 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-4a47701835",
-          "name": "Al-Ahli SFC vs Machida Zelvia | 23:15 25/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a47701835",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4a47701835",
-                  "name": "Al-Ahli SFC vs Machida Zelvia",
-                  "streams": [
-                    {
-                      "id": "st-4a47701835",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-396bd86328",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b7ca4cc5e4959ffd61e85699cfafddad/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fad49e77b8",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ecdedc4841d_145575/index.m3u8?expire=1777736028",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-61cd76d135",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecdedc4841d_145575/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Al-Ahli SFC",
-            "team_b": "Machida Zelvia",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "time": "23:15 25/04",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4a47701835_a3088a07.png?v=a3088a07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-12eb460ef1",
-          "name": "Angers SCO vs Paris Saint Germain | 00:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12eb460ef1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-12eb460ef1",
-                  "name": "Angers SCO vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "st-12eb460ef1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-647650ec78",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/901365d81355288447e25b115a7f477a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4ff392c94e",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ecedb936517_145238/index.m3u8?expire=1777739833",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8974a6d0ca",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecedb936517_145238/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c2f5aa10cf",
-                          "name": "Link 4",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69eceeff4841d_145812/index.m3u8?expire=1777740159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8308be9351",
-                          "name": "Link 5",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69eceeff4841d_145812/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "Angers SCO",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/3b720f181ce9993f9422d276acf7b292.png",
-            "time": "00:00 26/04",
-            "blv": "GIÀNG A GIÀ, GIÀNG A LƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-12eb460ef1_5e8a8c87.png?v=5e8a8c87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-a6fbd503d5",
-          "name": "Goztepe vs Antalyaspor | 00:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6fbd503d5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a6fbd503d5",
-                  "name": "Goztepe vs Antalyaspor",
-                  "streams": [
-                    {
-                      "id": "st-a6fbd503d5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e76907dbf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/488c35d054c2720f08355eb0c6f63d36/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9bbd1ccfa8",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69eced314841d_145277/index.m3u8?expire=1777739697",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-59a86f9483",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69eced314841d_145277/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish Super League",
-            "team_a": "Goztepe",
-            "team_b": "Antalyaspor",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/f05792a374a09fe90bc276305f1dc1e1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5f8b2ea5af09dc3f9de834892bb20ce9.png",
-            "time": "00:00 26/04",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a6fbd503d5_c84991ca.png?v=c84991ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-3063aec442",
-          "name": "Benfica vs Moreirense | 00:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3063aec442",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3063aec442",
-                  "name": "Benfica vs Moreirense",
-                  "streams": [
-                    {
-                      "id": "st-3063aec442",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ee2ce9faa",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/3bd31273cac26340b24aba116ecb04fa/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ffa2463ffe",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69eced4536517_145611/index.m3u8?expire=1777739717",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0545b8c18f",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69eced4536517_145611/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Benfica",
-            "team_b": "Moreirense",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/78360445c12fa3fdc8b489486fff4eb6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ee5b1bcc98e7232350988a477974fb26.png",
-            "time": "00:00 26/04",
-            "blv": "GIÀNG A NÚI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3063aec442_70538c29.png?v=70538c29",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-4c95e34775",
           "name": "Toronto FC vs Atlanta United | 00:10 26/04",
           "type": "single",
@@ -513,40 +59,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-e4c6c46793",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ece68b36517_146781/index.m3u8?expire=1777737995",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b8e94b579d",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ece68b36517_146781/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -570,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4c95e34775_0c46b0a5.png?v=0c46b0a5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4c95e34775_c0c825b7.png?v=c0c825b7",
             "width": 1600,
             "height": 1200
           }
@@ -618,40 +130,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-0ef3df9c32",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ecfe0a36517_145169/index.m3u8?expire=1777744010",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5b0401c058",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecfe0a36517_145169/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -675,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a367ec9c5d_a1a36e4c.png?v=a1a36e4c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a367ec9c5d_7f81cdcd.png?v=7f81cdcd",
             "width": 1600,
             "height": 1200
           }
@@ -723,40 +201,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-315e02a9d2",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed01c94841d_145407/index.m3u8?expire=1777744969",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ba711ea5a2",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed01c94841d_145407/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -780,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-cf1b8cafa8_68ec38c7.png?v=68ec38c7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-cf1b8cafa8_9e6a1015.png?v=9e6a1015",
             "width": 1600,
             "height": 1200
           }
@@ -828,40 +272,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-e018fc5549",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed02754841d_145178/index.m3u8?expire=1777745141",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bcb7b75744",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed02754841d_145178/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -885,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f7bee2d955_ea5c3d44.png?v=ea5c3d44",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f7bee2d955_2bd5f089.png?v=2bd5f089",
             "width": 1600,
             "height": 1200
           }
@@ -950,57 +360,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-95734d1396",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed056d4841d_145689/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f39f3f2503",
-                          "name": "Link 4",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed094436517_145698/index.m3u8?expire=1777746884",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7ae6628997",
-                          "name": "Link 5",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed094436517_145698/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -1024,7 +383,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-32be28f2e6_4f86562d.png?v=4f86562d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-32be28f2e6_21d8d199.png?v=21d8d199",
             "width": 1600,
             "height": 1200
           }
@@ -1095,7 +454,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5d35e57107_0bab6a69.png?v=0bab6a69",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5d35e57107_1066f823.png?v=1066f823",
             "width": 1600,
             "height": 1200
           }
@@ -1108,10 +467,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1126,7 +485,42 @@
                     {
                       "id": "st-4fa7488375",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f917a3acf",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/70752f8f662eecfd603a9d8e9d0ec2cd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e2b45a38f5",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed081b4841d_145821/index.m3u8?expire=1777746587",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1141,14 +535,14 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/abbb31d42c55612737713aac6567a226.png",
             "time": "02:00 26/04",
             "blv": "GIÀNG A NGAO, GIÀNG A RON",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fa7488375_edf5ce69.png?v=edf5ce69",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fa7488375_13ca12ff.png?v=13ca12ff",
             "width": 1600,
             "height": 1200
           }
@@ -1161,10 +555,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1179,7 +573,25 @@
                     {
                       "id": "st-bb2c0ad5f9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0181f7c966",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/4d43c25afa6b8aedbd87bbc1304237e9/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1194,14 +606,14 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
             "time": "02:00 26/04",
             "blv": "GIÀNG A XOÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bb2c0ad5f9_f811dada.png?v=f811dada",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bb2c0ad5f9_b1b8f04c.png?v=b1b8f04c",
             "width": 1600,
             "height": 1200
           }
@@ -1214,10 +626,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1232,7 +644,25 @@
                     {
                       "id": "st-884495a7c3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-888bec6e6a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/1ea0c3d3e3787e5e43ac797b354c649c/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1247,14 +677,14 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/b7f3a068b301edd82ad4c56496f41063.png",
             "time": "02:00 26/04",
             "blv": "GIÀNG A NÚI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-884495a7c3_7da454d5.png?v=7da454d5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-884495a7c3_b831da17.png?v=b831da17",
             "width": 1600,
             "height": 1200
           }
@@ -1307,7 +737,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72dc300e94_0a1fb82f.png?v=0a1fb82f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72dc300e94_4d03213e.png?v=4d03213e",
             "width": 1600,
             "height": 1200
           }
@@ -1360,7 +790,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-78894f8b1f_69e5dbf9.png?v=69e5dbf9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-78894f8b1f_e00c0bbc.png?v=e00c0bbc",
             "width": 1600,
             "height": 1200
           }
@@ -1413,7 +843,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-63a39a1362_c94fdf58.png?v=c94fdf58",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-63a39a1362_d6048fe9.png?v=d6048fe9",
             "width": 1600,
             "height": 1200
           }
@@ -1466,7 +896,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79b3414eae_c4b0de96.png?v=c4b0de96",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79b3414eae_898087cd.png?v=898087cd",
             "width": 1600,
             "height": 1200
           }
@@ -1519,7 +949,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72692104a6_06eb365c.png?v=06eb365c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72692104a6_8f81307d.png?v=8f81307d",
             "width": 1600,
             "height": 1200
           }
@@ -1572,7 +1002,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-46dce31ab1_e99ba00a.png?v=e99ba00a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-46dce31ab1_abb3c947.png?v=abb3c947",
             "width": 1600,
             "height": 1200
           }
@@ -1625,7 +1055,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8383d4f808_cc3bf8e3.png?v=cc3bf8e3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8383d4f808_3e57e91a.png?v=3e57e91a",
             "width": 1600,
             "height": 1200
           }
@@ -1678,7 +1108,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c84acce035_65b2643b.png?v=65b2643b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c84acce035_776e90bd.png?v=776e90bd",
             "width": 1600,
             "height": 1200
           }
@@ -1731,7 +1161,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-24e5890416_6a9b56ab.png?v=6a9b56ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-24e5890416_7b3273b0.png?v=7b3273b0",
             "width": 1600,
             "height": 1200
           }
@@ -1784,7 +1214,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bbc54691f1_94ae6e68.png?v=94ae6e68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bbc54691f1_6754f78c.png?v=6754f78c",
             "width": 1600,
             "height": 1200
           }
@@ -1837,7 +1267,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-37d4249f89_7c7367f9.png?v=7c7367f9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-37d4249f89_1e994b1f.png?v=1e994b1f",
             "width": 1600,
             "height": 1200
           }
@@ -1890,7 +1320,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-d0b1ef2323_b7569591.png?v=b7569591",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-d0b1ef2323_f9966d73.png?v=f9966d73",
             "width": 1600,
             "height": 1200
           }
@@ -1943,7 +1373,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-7b2df81b83_ef9c4a2e.png?v=ef9c4a2e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-7b2df81b83_b654dc49.png?v=b654dc49",
             "width": 1600,
             "height": 1200
           }
@@ -1996,7 +1426,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dff50ae205_7f95cdd5.png?v=7f95cdd5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dff50ae205_a64aab7a.png?v=a64aab7a",
             "width": 1600,
             "height": 1200
           }
@@ -2049,7 +1479,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-131a7b6242_4362d775.png?v=4362d775",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-131a7b6242_4bf54699.png?v=4bf54699",
             "width": 1600,
             "height": 1200
           }
@@ -2102,7 +1532,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-66d8acab58_676477d4.png?v=676477d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-66d8acab58_6f210e40.png?v=6f210e40",
             "width": 1600,
             "height": 1200
           }
@@ -2155,7 +1585,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-30b508df87_d3efcce1.png?v=d3efcce1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-30b508df87_c8b3a217.png?v=c8b3a217",
             "width": 1600,
             "height": 1200
           }
@@ -2208,7 +1638,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c13c9be989_68c6e202.png?v=68c6e202",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c13c9be989_6aa268d8.png?v=6aa268d8",
             "width": 1600,
             "height": 1200
           }
@@ -2261,7 +1691,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6032017189_9bc174d4.png?v=9bc174d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6032017189_64cbc208.png?v=64cbc208",
             "width": 1600,
             "height": 1200
           }
@@ -2314,7 +1744,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2569688656_b8864b4d.png?v=b8864b4d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2569688656_1901c037.png?v=1901c037",
             "width": 1600,
             "height": 1200
           }
@@ -2367,7 +1797,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-b75f423c86_17b9190a.png?v=17b9190a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-b75f423c86_2916d530.png?v=2916d530",
             "width": 1600,
             "height": 1200
           }
@@ -2420,7 +1850,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6392a19709_c9b171a3.png?v=c9b171a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6392a19709_af2f364c.png?v=af2f364c",
             "width": 1600,
             "height": 1200
           }
@@ -2473,7 +1903,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c71a023ede_0be497dd.png?v=0be497dd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c71a023ede_d9ef3d43.png?v=d9ef3d43",
             "width": 1600,
             "height": 1200
           }
@@ -2526,7 +1956,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-29b603c607_e2ae0d5e.png?v=e2ae0d5e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-29b603c607_58c0d368.png?v=58c0d368",
             "width": 1600,
             "height": 1200
           }
@@ -2579,7 +2009,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-66e00db158_0e07033b.png?v=0e07033b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-66e00db158_b20f76d1.png?v=b20f76d1",
             "width": 1600,
             "height": 1200
           }
@@ -2632,7 +2062,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6674d0b08a_06e01064.png?v=06e01064",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6674d0b08a_4bce8011.png?v=4bce8011",
             "width": 1600,
             "height": 1200
           }
@@ -2685,7 +2115,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-18a0f95353_92d421da.png?v=92d421da",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-18a0f95353_b70de977.png?v=b70de977",
             "width": 1600,
             "height": 1200
           }
@@ -2738,7 +2168,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f2d1a6ffa0_b417afc2.png?v=b417afc2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f2d1a6ffa0_3c2b664e.png?v=3c2b664e",
             "width": 1600,
             "height": 1200
           }
@@ -2791,7 +2221,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79e6ef4077_819fce0f.png?v=819fce0f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79e6ef4077_95748124.png?v=95748124",
             "width": 1600,
             "height": 1200
           }
@@ -2844,7 +2274,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c31602cc0d_1620b838.png?v=1620b838",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c31602cc0d_e25e3c61.png?v=e25e3c61",
             "width": 1600,
             "height": 1200
           }
@@ -2897,7 +2327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-716ace37a1_074a3b70.png?v=074a3b70",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-716ace37a1_962484dd.png?v=962484dd",
             "width": 1600,
             "height": 1200
           }
@@ -2950,7 +2380,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-000adfa06b_d357cc08.png?v=d357cc08",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-000adfa06b_e988dc0c.png?v=e988dc0c",
             "width": 1600,
             "height": 1200
           }
@@ -3003,7 +2433,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a24114747b_e21a76ac.png?v=e21a76ac",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a24114747b_20545556.png?v=20545556",
             "width": 1600,
             "height": 1200
           }
@@ -3056,7 +2486,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-042da903c4_8870d5d4.png?v=8870d5d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-042da903c4_468cc3f6.png?v=468cc3f6",
             "width": 1600,
             "height": 1200
           }
@@ -3109,7 +2539,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-503207be6f_d93efb7c.png?v=d93efb7c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-503207be6f_582123bf.png?v=582123bf",
             "width": 1600,
             "height": 1200
           }
@@ -3162,7 +2592,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9baccad1d3_ab4bfc12.png?v=ab4bfc12",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9baccad1d3_103624d4.png?v=103624d4",
             "width": 1600,
             "height": 1200
           }
@@ -3215,7 +2645,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0e1c0af948_25bd9d13.png?v=25bd9d13",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0e1c0af948_b14266f2.png?v=b14266f2",
             "width": 1600,
             "height": 1200
           }
@@ -3268,7 +2698,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-15effefcd8_28617059.png?v=28617059",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-15effefcd8_c8556ca8.png?v=c8556ca8",
             "width": 1600,
             "height": 1200
           }
@@ -3321,7 +2751,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72426952d0_df2043d9.png?v=df2043d9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72426952d0_866f467d.png?v=866f467d",
             "width": 1600,
             "height": 1200
           }
@@ -3374,7 +2804,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8cccf5473b_4bf9de2f.png?v=4bf9de2f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8cccf5473b_c0a22d64.png?v=c0a22d64",
             "width": 1600,
             "height": 1200
           }
@@ -3427,7 +2857,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c8defdda17_bb501b48.png?v=bb501b48",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c8defdda17_741c8871.png?v=741c8871",
             "width": 1600,
             "height": 1200
           }
@@ -3480,7 +2910,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff00c386ff_2459bef8.png?v=2459bef8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff00c386ff_5316d8c6.png?v=5316d8c6",
             "width": 1600,
             "height": 1200
           }
@@ -3533,7 +2963,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4dfdad82b0_d9343ee9.png?v=d9343ee9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4dfdad82b0_140460ee.png?v=140460ee",
             "width": 1600,
             "height": 1200
           }
@@ -3586,7 +3016,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c308b6410_e60b68b8.png?v=e60b68b8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c308b6410_30c74033.png?v=30c74033",
             "width": 1600,
             "height": 1200
           }
@@ -3639,7 +3069,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8a384a9565_98db0305.png?v=98db0305",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8a384a9565_0014c9c7.png?v=0014c9c7",
             "width": 1600,
             "height": 1200
           }
@@ -3692,7 +3122,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f4ae43acf1_11038e54.png?v=11038e54",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f4ae43acf1_e4754731.png?v=e4754731",
             "width": 1600,
             "height": 1200
           }
@@ -3745,7 +3175,113 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-810a4d9ad8_42d27774.png?v=42d27774",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-810a4d9ad8_1504eb71.png?v=1504eb71",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8354a07f8f",
+          "name": "Rayo Vallecano vs Real Sociedad | 19:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8354a07f8f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8354a07f8f",
+                  "name": "Rayo Vallecano vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-8354a07f8f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5005d8feab109ce64e40beb98073cc1f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/579db6e95905545973035e6eab8df2cd.png",
+            "time": "19:00 26/04",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8354a07f8f_1131265e.png?v=1131265e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2c54ee354a",
+          "name": "Henan FC vs Shanghai Shenhua FC | 19:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c54ee354a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2c54ee354a",
+                  "name": "Henan FC vs Shanghai Shenhua FC",
+                  "streams": [
+                    {
+                      "id": "st-2c54ee354a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Henan FC",
+            "team_b": "Shanghai Shenhua FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/f336520db254da6d6d5294b720d26d83.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e8327d4681b4a73c83be9fe087b30721.png",
+            "time": "19:00 26/04",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c54ee354a_ca61e652.png?v=ca61e652",
             "width": 1600,
             "height": 1200
           }
@@ -3807,7 +3343,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9b0cc2f39e_5ed3a3ff.png?v=5ed3a3ff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9b0cc2f39e_4b6df019.png?v=4b6df019",
             "width": 1600,
             "height": 1200
           }
@@ -3860,7 +3396,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff17f83717_5ed3a3ff.png?v=5ed3a3ff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff17f83717_4b6df019.png?v=4b6df019",
             "width": 1600,
             "height": 1200
           }
@@ -3917,23 +3453,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-b0b88b2db2",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecec0436517_145413/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -3957,7 +3476,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-58d3cddd5b_5f13f298.png?v=5f13f298",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-58d3cddd5b_ee08f103.png?v=ee08f103",
             "width": 1600,
             "height": 1200
           }
@@ -4010,7 +3529,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c0ba0cfacb_9b69f593.png?v=9b69f593",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c0ba0cfacb_4989e670.png?v=4989e670",
             "width": 1600,
             "height": 1200
           }
@@ -4067,40 +3586,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-870b14c620",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ecf12e4841d_145211/index.m3u8?expire=1777740718",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-dbabe8de0f",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecf12e4841d_145211/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -4124,7 +3609,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6ea5714488_3f8c3fcc.png?v=3f8c3fcc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6ea5714488_50a85517.png?v=50a85517",
             "width": 1600,
             "height": 1200
           }
@@ -4177,7 +3662,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3cd3f23a03_d05cf21a.png?v=d05cf21a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3cd3f23a03_03b524ff.png?v=03b524ff",
             "width": 1600,
             "height": 1200
           }
@@ -4230,7 +3715,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-fcf0f08bcc_e31211e0.png?v=e31211e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-fcf0f08bcc_4f576dda.png?v=4f576dda",
             "width": 1600,
             "height": 1200
           }
@@ -4283,7 +3768,69 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-275675a471_727970cd.png?v=727970cd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-275675a471_68d59f68.png?v=68d59f68",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_50",
+      "name": "🏐 Bóng chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-0d900ef2fa",
+          "name": "VTV Bình Điền Long An vs Binh chủng Thông tin | 19:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d900ef2fa",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0d900ef2fa",
+                  "name": "VTV Bình Điền Long An vs Binh chủng Thông tin",
+                  "streams": [
+                    {
+                      "id": "st-0d900ef2fa",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "giải bóng chuyền Cúp Hùng Vương 2026",
+            "team_a": "VTV Bình Điền Long An",
+            "team_b": "Binh chủng Thông tin",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8e3c40d01516ced46d883ba877044e29.jpg",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b7c9f1edc21be0e8cb9ad7abf9c8bfb6.jpg",
+            "time": "19:00 26/04",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0d900ef2fa_48c80257.png?v=48c80257",
             "width": 1600,
             "height": 1200
           }
@@ -4340,23 +3887,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-db2a856b36",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ece50b4841d_146208/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -4380,7 +3910,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c4a08f3f79_76a064c9.png?v=76a064c9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c4a08f3f79_ecded84d.png?v=ecded84d",
             "width": 1600,
             "height": 1200
           }
@@ -4428,23 +3958,6 @@
                               "value": "Mozilla/5.0"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-a0217cc6dd",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ece6fc4841d_145247/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -4468,7 +3981,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0cd10429c6_03a2aca0.png?v=03a2aca0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0cd10429c6_b164241c.png?v=b164241c",
             "width": 1600,
             "height": 1200
           }
@@ -4521,7 +4034,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f31b5888ba_784afd4b.png?v=784afd4b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f31b5888ba_f00790e3.png?v=f00790e3",
             "width": 1600,
             "height": 1200
           }
@@ -4574,7 +4087,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ac6525989d_1d585353.png?v=1d585353",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ac6525989d_8cb89ff5.png?v=8cb89ff5",
             "width": 1600,
             "height": 1200
           }
@@ -4627,7 +4140,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fd820f4be_d6acc857.png?v=d6acc857",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fd820f4be_794f0298.png?v=794f0298",
             "width": 1600,
             "height": 1200
           }
@@ -4680,7 +4193,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6f295a3e96_5c9ee475.png?v=5c9ee475",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6f295a3e96_d8796081.png?v=d8796081",
             "width": 1600,
             "height": 1200
           }
