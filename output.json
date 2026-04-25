@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "kaytee-b48a99d49d",
-          "name": "chinese-taipei-vs-sweden-1330-25-04-2026 (13:30 25/04)",
+          "name": "Chinese Taipei vs Sweden (13:30 25/04)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-b48a99d49d",
-                  "name": "chinese-taipei-vs-sweden-1330-25-04-2026",
+                  "name": "Chinese Taipei vs Sweden",
                   "streams": [
                     {
                       "id": "st-b48a99d49d",
@@ -86,10 +86,10 @@
           ],
           "org_metadata": {
             "league": "Thomas Cup",
-            "team_a": "Sweden",
-            "team_b": "",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2ac182a9d4f41b9cc59c7c4c8977528e.png",
-            "logo_b": "",
+            "team_a": "Chinese Taipei",
+            "team_b": "Sweden",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/0944da8c5a1191d26dcb846f93dfc491.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2ac182a9d4f41b9cc59c7c4c8977528e.png",
             "time": "13:30 25/04",
             "blv": "GIÀNG A NÚI",
             "is_live": true
@@ -2467,8 +2467,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Francisco Cerundolo",
             "team_b": "Yannick Hanfmann",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5b1c61a6d1cff0d2237ccaecc8c5a270.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/59bec17bbb0773687df6306b291438fb.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/5b1c61a6d1cff0d2237ccaecc8c5a270.png",
             "time": "16:00 25/04",
             "blv": "GIÀNG A LONG",
             "is_live": false
@@ -2608,7 +2608,7 @@
         },
         {
           "id": "kaytee-b47a6dd781",
-          "name": "malaysia-vs-england-1700-25-04-2026 (17:00 25/04)",
+          "name": "Malaysia vs England (17:00 25/04)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2627,7 +2627,7 @@
               "contents": [
                 {
                   "id": "ct-b47a6dd781",
-                  "name": "malaysia-vs-england-1700-25-04-2026",
+                  "name": "Malaysia vs England",
                   "streams": [
                     {
                       "id": "st-b47a6dd781",
@@ -2641,10 +2641,10 @@
           ],
           "org_metadata": {
             "league": "Thomas Cup",
-            "team_a": "England",
-            "team_b": "",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4ffc223b0e0bbd58f069c2d128298408.png",
-            "logo_b": "",
+            "team_a": "Malaysia",
+            "team_b": "England",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4ffc223b0e0bbd58f069c2d128298408.png",
             "time": "17:00 25/04",
             "blv": "GIÀNG A ĐỘ",
             "is_live": false
@@ -2731,8 +2731,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Juan Manuel Cerundolo",
             "team_b": "Luciano Darderi",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/614b17a5a67a65bb7d8eb65a7f442cf4.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/463db21072547cae2e9b28cf3662a592.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/614b17a5a67a65bb7d8eb65a7f442cf4.png",
             "time": "17:10 25/04",
             "blv": "GIÀNG A LONG",
             "is_live": false
@@ -3435,8 +3435,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Iga Swiatek",
             "team_b": "Ann Li",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5f10d2e029bdf6ff25acbb58765baa6c.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/5f10d2e029bdf6ff25acbb58765baa6c.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/75655aabfb5c910ac5b9c6d927e86122.png",
             "time": "19:10 25/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false
@@ -4060,7 +4060,7 @@
         },
         {
           "id": "kaytee-5058c828bb",
-          "name": "ha-noi-tasco-auto-vs-hoa-chat-duc-giang-lao-cai-21 (21:00 25/04)",
+          "name": "Hà Nội Tasco Auto vs Hóa chất Đức Giang Lào Cai (21:00 25/04)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4079,7 +4079,7 @@
               "contents": [
                 {
                   "id": "ct-5058c828bb",
-                  "name": "ha-noi-tasco-auto-vs-hoa-chat-duc-giang-lao-cai-21",
+                  "name": "Hà Nội Tasco Auto vs Hóa chất Đức Giang Lào Cai",
                   "streams": [
                     {
                       "id": "st-5058c828bb",
@@ -4093,10 +4093,10 @@
           ],
           "org_metadata": {
             "league": "giải bóng chuyền Cúp Hùng Vương 2026",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Hà Nội Tasco Auto",
+            "team_b": "Hóa chất Đức Giang Lào Cai",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/63137270ea406285200228c55bf99b73.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/ae090f8c6e487031566262f900a11338.png",
             "time": "21:00 25/04",
             "blv": "GIÀNG A LONG",
             "is_live": false
@@ -4588,7 +4588,7 @@
         },
         {
           "id": "kaytee-a3a7288237",
-          "name": "aljamain-sterling-vs-youssef-zalal-0400-26-04-2026 (04:00 26/04)",
+          "name": "Aljamain Sterling vs Youssef Zalal (04:00 26/04)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4607,7 +4607,7 @@
               "contents": [
                 {
                   "id": "ct-a3a7288237",
-                  "name": "aljamain-sterling-vs-youssef-zalal-0400-26-04-2026",
+                  "name": "Aljamain Sterling vs Youssef Zalal",
                   "streams": [
                     {
                       "id": "st-a3a7288237",
@@ -4621,10 +4621,10 @@
           ],
           "org_metadata": {
             "league": "UFC FIGHT NIGHT",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Aljamain Sterling",
+            "team_b": "Youssef Zalal",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/dd92f48c46ead1255a62dc36125a04d2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/897a33a94c9dae228d8ac2a7e2cf71be.png",
             "time": "04:00 26/04",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4632,7 +4632,7 @@
         },
         {
           "id": "kaytee-d94dca34a1",
-          "name": "rodtang-jitmuangnon-vs-takeru-segawa-1830-29-04-20 (18:30 29/04)",
+          "name": "Rodtang Jitmuangnon vs Takeru Segawa (18:30 29/04)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4651,7 +4651,7 @@
               "contents": [
                 {
                   "id": "ct-d94dca34a1",
-                  "name": "rodtang-jitmuangnon-vs-takeru-segawa-1830-29-04-20",
+                  "name": "Rodtang Jitmuangnon vs Takeru Segawa",
                   "streams": [
                     {
                       "id": "st-d94dca34a1",
@@ -4665,10 +4665,10 @@
           ],
           "org_metadata": {
             "league": "ONE SAMURAI",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Rodtang Jitmuangnon",
+            "team_b": "Takeru Segawa",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b761d70467f8e5049e6c252e4d66a6e3.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4dee9d022c5736aebf8c6117eae69f89.png",
             "time": "18:30 29/04",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4676,7 +4676,7 @@
         },
         {
           "id": "kaytee-8275855027",
-          "name": "jack-della-maddalena-vs-carlos-prates-1500-02-05-2 (15:00 02/05)",
+          "name": "Jack Della Maddalena vs Carlos Prates (15:00 02/05)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4695,7 +4695,7 @@
               "contents": [
                 {
                   "id": "ct-8275855027",
-                  "name": "jack-della-maddalena-vs-carlos-prates-1500-02-05-2",
+                  "name": "Jack Della Maddalena vs Carlos Prates",
                   "streams": [
                     {
                       "id": "st-8275855027",
@@ -4709,10 +4709,10 @@
           ],
           "org_metadata": {
             "league": "UFC FIGHT NIGHT",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Jack Della Maddalena",
+            "team_b": "Carlos Prates",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b9e31f1791c6ae88ad7fb2c0f3257346.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/55c3532f8fe1f442cc0542a7b4fd8513.png",
             "time": "15:00 02/05",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4720,7 +4720,7 @@
         },
         {
           "id": "kaytee-1b3c59374e",
-          "name": "khamzat-chimaev-vs-sean-strickland-0600-10-05-2026 (06:00 10/05)",
+          "name": "Khamzat Chimaev vs Sean Strickland (06:00 10/05)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4739,7 +4739,7 @@
               "contents": [
                 {
                   "id": "ct-1b3c59374e",
-                  "name": "khamzat-chimaev-vs-sean-strickland-0600-10-05-2026",
+                  "name": "Khamzat Chimaev vs Sean Strickland",
                   "streams": [
                     {
                       "id": "st-1b3c59374e",
@@ -4753,10 +4753,10 @@
           ],
           "org_metadata": {
             "league": "UFC 328",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Khamzat Chimaev",
+            "team_b": "Sean Strickland",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/206814caa73f8ab7af42423af4974bc8.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/769993415fdd8c3c645aeeb095f9d288.png",
             "time": "06:00 10/05",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4764,7 +4764,7 @@
         },
         {
           "id": "kaytee-8340783269",
-          "name": "arnold-allen-vs-melquizael-costa-1200-17-05-2026 (12:00 17/05)",
+          "name": "Arnold Allen vs Melquizael Costa (12:00 17/05)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4783,7 +4783,7 @@
               "contents": [
                 {
                   "id": "ct-8340783269",
-                  "name": "arnold-allen-vs-melquizael-costa-1200-17-05-2026",
+                  "name": "Arnold Allen vs Melquizael Costa",
                   "streams": [
                     {
                       "id": "st-8340783269",
@@ -4797,10 +4797,10 @@
           ],
           "org_metadata": {
             "league": "UFC FIGHT NIGHT",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Arnold Allen",
+            "team_b": "Melquizael Costa",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/5dfdcf5a9260fb89aec9f72fa755b097.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/e84809fe185803bd358448ab40116293.png",
             "time": "12:00 17/05",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4808,7 +4808,7 @@
         },
         {
           "id": "kaytee-3820515bd7",
-          "name": "song-yadong-vs-deiveson-figueiredo-1200-31-05-2026 (12:00 31/05)",
+          "name": "Song Yadong vs Deiveson Figueiredo (12:00 31/05)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4827,7 +4827,7 @@
               "contents": [
                 {
                   "id": "ct-3820515bd7",
-                  "name": "song-yadong-vs-deiveson-figueiredo-1200-31-05-2026",
+                  "name": "Song Yadong vs Deiveson Figueiredo",
                   "streams": [
                     {
                       "id": "st-3820515bd7",
@@ -4841,10 +4841,10 @@
           ],
           "org_metadata": {
             "league": "UFC FIGHT NIGHT",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Song Yadong",
+            "team_b": "Deiveson Figueiredo",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/6712d2804d58c929937defbfb7236483.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/de7f0731cb910ec55592975ad8b92de0.png",
             "time": "12:00 31/05",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4852,7 +4852,7 @@
         },
         {
           "id": "kaytee-41d031c28c",
-          "name": "belal-muhammad-vs-gabriel-bonfim-1200-07-06-2026 (12:00 07/06)",
+          "name": "Belal Muhammad vs Gabriel Bonfim (12:00 07/06)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4871,7 +4871,7 @@
               "contents": [
                 {
                   "id": "ct-41d031c28c",
-                  "name": "belal-muhammad-vs-gabriel-bonfim-1200-07-06-2026",
+                  "name": "Belal Muhammad vs Gabriel Bonfim",
                   "streams": [
                     {
                       "id": "st-41d031c28c",
@@ -4885,10 +4885,10 @@
           ],
           "org_metadata": {
             "league": "UFC FIGHT NIGHT",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Belal Muhammad",
+            "team_b": "Gabriel Bonfim",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9c48a1df5d9555618036207660c050fb.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/db03066deec3a84180dfa5c6ca515cc3.png",
             "time": "12:00 07/06",
             "blv": "Giàng A Dập",
             "is_live": false
@@ -4896,7 +4896,7 @@
         },
         {
           "id": "kaytee-40b035a597",
-          "name": "ilia-topuria-vs-justin-gaethje-1200-15-06-2026 (12:00 15/06)",
+          "name": "Ilia Topuria vs Justin Gaethje (12:00 15/06)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4915,7 +4915,7 @@
               "contents": [
                 {
                   "id": "ct-40b035a597",
-                  "name": "ilia-topuria-vs-justin-gaethje-1200-15-06-2026",
+                  "name": "Ilia Topuria vs Justin Gaethje",
                   "streams": [
                     {
                       "id": "st-40b035a597",
@@ -4929,10 +4929,10 @@
           ],
           "org_metadata": {
             "league": "UFC Freedom 250",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Ilia Topuria",
+            "team_b": "Justin Gaethje",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/d62b9186df9d3537a7737bbab48a2bdb.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b31b45207de55f1b0c971cb8614bbf2b.png",
             "time": "12:00 15/06",
             "blv": "Giàng A Dập",
             "is_live": false
