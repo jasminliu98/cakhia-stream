@@ -144,12 +144,23 @@ def build_channel(match, streams):
     label_text  = "● LIVE" if match["is_live"] else f"🕐 {match['time']}"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
+    # Thumbnail: dùng logo_a làm ảnh đại diện
+    thumb = match.get("logo_a", "")
+
     return {
         "id": uid,
         "name": display_name,
         "type": "single",
         "display": "thumbnail-only",
         "enable_detail": False,
+        "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": thumb,
+            "width": 1600,
+            "height": 1200
+        },
         "labels": [{"text": label_text, "position": "top-left",
                     "color": "#00000080", "text_color": label_color}],
         "sources": [{
