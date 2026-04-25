@@ -19,12 +19,15 @@ THUMBS_DIR = "thumbs"
 REPO_RAW = os.environ.get("REPO_RAW", "")
 
 # Map icon-cate sang tên môn (lấy từ HTML thực tế)
+# FIX 1: Thêm Billiards (4) và Bóng chuyền (50)
 CATE_MAP = {
     "1":  "⚽ Bóng Đá",
     "2":  "🥊 Võ Thuật",
+    "4":  "🎱 Billiards",
     "13": "🏸 Cầu Lông",
     "20": "🏀 Bóng Rổ",
     "27": "🎾 Tennis",
+    "50": "🏐 Bóng Chuyền",
 }
 
 def make_id(text, prefix):
@@ -40,7 +43,6 @@ def fetch_image(url):
 
 def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    # Dùng hash của logo_a+logo_b để tự động regenerate khi logo đổi
     logo_hash = hashlib.md5((match.get("logo_a","") + match.get("logo_b","")).encode()).hexdigest()[:8]
     out_path = f"{THUMBS_DIR}/{channel_id}_{logo_hash}.png"
 
@@ -68,8 +70,8 @@ def make_thumbnail(match, channel_id):
     except:
         font_vs = font_time = font_team = font_league = font_blv = ImageFont.load_default()
 
-    logo_size = 380
-    logo_y = 200
+    logo_size = 340  # FIX 4: thu nhỏ logo một chút để có chỗ cho thời gian
+    logo_y = 160     # FIX 4: dời logo lên cao hơn một chút
 
     # Logo A (trái)
     if match.get("logo_a"):
@@ -90,21 +92,23 @@ def make_thumbnail(match, channel_id):
     center_y = logo_y + logo_size//2
 
     # VS
-    draw.text((W//2, center_y - 50), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
+    draw.text((W//2, center_y - 30), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
 
-    # Giờ đấu
+    # FIX 4: Giờ đấu — màu TRẮNG, dời xuống dưới logo (không đè lên logo)
     if match.get("time"):
-        draw.text((W//2, center_y + 100), match["time"], fill=(234, 88, 12), font=font_time, anchor="mm")
+        time_y = logo_y + logo_size + 80  # dưới logo ~80px
+        draw.text((W//2, time_y), match["time"], fill=(255, 255, 255), font=font_time, anchor="mm",
+                  stroke_width=3, stroke_fill=(15, 23, 42))
 
     # Tên đội A
     if match.get("team_a"):
         name_a = match["team_a"][:20]
-        draw.text((W//4, logo_y + logo_size + 60), name_a, fill=(15,23,42), font=font_team, anchor="mm")
+        draw.text((W//4, logo_y + logo_size + 170), name_a, fill=(15,23,42), font=font_team, anchor="mm")
 
     # Tên đội B
     if match.get("team_b"):
         name_b = match["team_b"][:20]
-        draw.text((W*3//4, logo_y + logo_size + 60), name_b, fill=(15,23,42), font=font_team, anchor="mm")
+        draw.text((W*3//4, logo_y + logo_size + 170), name_b, fill=(15,23,42), font=font_team, anchor="mm")
 
     # Giải đấu (header)
     if match.get("league"):
@@ -118,14 +122,28 @@ def make_thumbnail(match, channel_id):
     return out_path
 
 def parse_time_sort(match_time):
-    """Chuyển '22:00 25/04' thành số để sort"""
+    """
+    FIX 2: Chuyển '22:00 25/04' thành số để sort đúng theo thời gian thực tế.
+    Sort key: ngày * 10000 + giờ * 100 + phút
+    Ví dụ: 23:30 25/04 -> 25*10000 + 23*100 + 30 = 252330
+            00:00 26/04 -> 26*10000 + 00*100 + 00 = 260000
+    => 260000 > 252330 => 26/04 00:00 xếp SAU 25/04 23:30 ✓
+    """
     try:
         parts = match_time.strip().split()
         hm = parts[0].split(":")
-        dm = parts[1].split("/") if len(parts) > 1 else ["25","04"]
-        return int(dm[1]) * 100000 + int(dm[0]) * 1000 + int(hm[0]) * 60 + int(hm[1])
+        hour = int(hm[0])
+        minute = int(hm[1])
+        if len(parts) > 1:
+            dm = parts[1].split("/")
+            day = int(dm[0])
+            month = int(dm[1]) if len(dm) > 1 else 1
+        else:
+            day, month = 25, 4
+        # Sort: tháng * 10000000 + ngày * 10000 + giờ * 100 + phút
+        return month * 10000000 + day * 10000 + hour * 100 + minute
     except:
-        return 999999
+        return 999999999
 
 def get_matches():
     res = requests.get(BASE_URL, headers=HEADERS, timeout=15)
@@ -192,7 +210,11 @@ def get_matches():
             if blv_id_m and blv_name:
                 blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
 
-        blv_names = ", ".join([b["name"] for b in blv_list]) if blv_list else ""
+        # FIX 3: Ẩn trận không có BLV — bỏ qua ngay tại đây
+        if not blv_list:
+            continue
+
+        blv_names = ", ".join([b["name"] for b in blv_list])
         name = f"{team_a} vs {team_b}" if team_a and team_b else href.split("/")[2][:50]
 
         matches.append({
@@ -221,10 +243,9 @@ def get_streams(match_id, blv_list):
     """Chỉ lấy stream từ BLV có tên, bỏ sóng quốc tế"""
     streams = []
 
-    # Chỉ dùng BLV có tên, không dùng channel_id=0
     named_blv = [b for b in blv_list if b["name"].strip()]
     if not named_blv:
-        return []  # Không có BLV thì bỏ qua
+        return []
 
     channel_ids = [b["id"] for b in named_blv]
 
@@ -328,7 +349,7 @@ def main():
     for i, match in enumerate(matches):
         cate_id = match["cate_id"]
         status = "LIVE" if match["is_live"] else "SAP"
-        print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']})")
+        print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['blv']}")
 
         streams = []
         if match["is_live"]:
@@ -336,8 +357,7 @@ def main():
             print(f"  stream: {len(streams)} link")
             if not streams:
                 print(f"  Bo qua - khong co stream")
-                # Vẫn thêm vào nhưng không có stream
-        
+
         uid = make_id(match["url"], "kaytee")
         thumb_path = make_thumbnail(match, uid)
         logo_hash = hashlib.md5((match.get("logo_a","") + match.get("logo_b","")).encode()).hexdigest()[:8]
@@ -354,10 +374,8 @@ def main():
     # Build groups theo môn
     groups = []
     for cate_id, channels in cate_channels.items():
-        # Lấy emoji từ CATE_MAP, tên thật từ HTML
-        cate_info = CATE_MAP.get(cate_id, "🏅")
+        cate_info = CATE_MAP.get(cate_id, "🏅 Thể Thao")
         emoji = cate_info.split(" ")[0]
-        # Lấy tên môn từ channel đầu tiên
         raw_name = channels[0].get("org_metadata",{}).get("cate_name","") if channels else ""
         if not raw_name:
             cate_name = cate_info
