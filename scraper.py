@@ -18,28 +18,13 @@ CBOX_URL = "https://cbox-v2.cakhiatv89.com/"
 THUMBS_DIR = "thumbs"
 REPO_RAW = os.environ.get("REPO_RAW", "")
 
-# Map icon-cate sang tên môn
+# Map icon-cate sang tên môn (lấy từ HTML thực tế)
 CATE_MAP = {
     "1":  "⚽ Bóng Đá",
-    "2":  "🏀 Bóng Rổ",
-    "3":  "🎾 Tennis",
-    "4":  "🏸 Cầu Lông",
-    "5":  "🎱 Billiards",
-    "6":  "🥊 Võ Thuật",
-    "7":  "🏐 Bóng Chuyền",
-    "8":  "🏓 Bóng Bàn",
-    "9":  "🏊 Bơi Lội",
-    "10": "⛳ Golf",
-    "11": "🏋️ Thể Hình",
-    "12": "🚴 Đua Xe",
+    "2":  "🥊 Võ Thuật",
     "13": "🏸 Cầu Lông",
-    "14": "🏊 Bơi Lội",
-    "15": "🤼 Vật",
-    "16": "🏇 Đua Ngựa",
-    "17": "🏒 Khúc Côn Cầu",
-    "18": "🎿 Trượt Tuyết",
-    "19": "🏊 Thể Thao Dưới Nước",
     "20": "🏀 Bóng Rổ",
+    "27": "🎾 Tennis",
 }
 
 def make_id(text, prefix):
@@ -55,7 +40,9 @@ def fetch_image(url):
 
 def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    out_path = f"{THUMBS_DIR}/{channel_id}.png"
+    # Dùng hash của logo_a+logo_b để tự động regenerate khi logo đổi
+    logo_hash = hashlib.md5((match.get("logo_a","") + match.get("logo_b","")).encode()).hexdigest()[:8]
+    out_path = f"{THUMBS_DIR}/{channel_id}_{logo_hash}.png"
 
     W, H = 1600, 1200
 
@@ -165,11 +152,16 @@ def get_matches():
         card_class = " ".join(card.get("class", []))
         is_live = "stream_m_live" in card_class
 
-        # Lấy cate_id từ class item_cate_XX
+        # Lấy cate_id + tên môn từ icon và class
         cate_id = "1"
+        cate_name_raw = ""
         cate_match = re.search(r'item_cate_(\d+)', card_class)
         if cate_match:
             cate_id = cate_match.group(1)
+        # Lấy tên môn từ alt của icon-cate
+        icon_img = card.select_one(f"img[src*='icon-cate-{cate_id}']")
+        if icon_img and icon_img.get("alt"):
+            cate_name_raw = icon_img.get("alt","")
 
         SKIP_ALTS = {"","Bóng đá","Bóng rổ","Cầu Lông","Tennis","Billiards",
                      "Võ Thuật","Bóng chuyền","Pickleball","Bóng Rổ"}
@@ -204,6 +196,7 @@ def get_matches():
         name = f"{team_a} vs {team_b}" if team_a and team_b else href.split("/")[2][:50]
 
         matches.append({
+            "cate_name_raw": cate_name_raw,
             "url": url,
             "match_id": match_id,
             "name": name,
@@ -225,15 +218,17 @@ def get_matches():
     return matches
 
 def get_streams(match_id, blv_list):
-    """Ưu tiên BLV có tên trước, sau đó mới thử channel mặc định"""
+    """Chỉ lấy stream từ BLV có tên, bỏ sóng quốc tế"""
     streams = []
 
-    # BLV có tên trước (ưu tiên cao)
+    # Chỉ dùng BLV có tên, không dùng channel_id=0
     named_blv = [b for b in blv_list if b["name"].strip()]
-    # Sau đó thử channel_id=0 (sóng nhà đài)
-    channel_ids = [b["id"] for b in named_blv] + ["0"]
+    if not named_blv:
+        return []  # Không có BLV thì bỏ qua
 
-    for ch_id in channel_ids[:4]:
+    channel_ids = [b["id"] for b in named_blv]
+
+    for ch_id in channel_ids[:3]:
         try:
             url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch_id}"
             res = requests.get(url, headers=HEADERS, timeout=10)
@@ -304,6 +299,7 @@ def build_channel(match, streams, thumb_url=""):
             "time": match.get("time", ""),
             "blv": match.get("blv", ""),
             "is_live": match["is_live"],
+            "cate_name": match.get("cate_name_raw", ""),
         }
     }
 
@@ -344,7 +340,8 @@ def main():
         
         uid = make_id(match["url"], "kaytee")
         thumb_path = make_thumbnail(match, uid)
-        thumb_url = f"{REPO_RAW}/{thumb_path}" if REPO_RAW else ""
+        logo_hash = hashlib.md5((match.get("logo_a","") + match.get("logo_b","")).encode()).hexdigest()[:8]
+        thumb_url = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
         channel = build_channel(match, streams, thumb_url)
 
@@ -357,7 +354,15 @@ def main():
     # Build groups theo môn
     groups = []
     for cate_id, channels in cate_channels.items():
-        cate_name = CATE_MAP.get(cate_id, f"🏅 Thể Thao {cate_id}")
+        # Lấy emoji từ CATE_MAP, tên thật từ HTML
+        cate_info = CATE_MAP.get(cate_id, "🏅")
+        emoji = cate_info.split(" ")[0]
+        # Lấy tên môn từ channel đầu tiên
+        raw_name = channels[0].get("org_metadata",{}).get("cate_name","") if channels else ""
+        if not raw_name:
+            cate_name = cate_info
+        else:
+            cate_name = f"{emoji} {raw_name}"
         groups.append({
             "id": f"cate_{cate_id}",
             "name": cate_name,
