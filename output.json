@@ -22,6 +22,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-dev/cms/0944da8c5a1191d26dcb846f93dfc491.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -101,6 +109,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/511ce5ccb966e3fd16d3a8c1b99cc01a.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -180,6 +196,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/da17b06c369d20a3d0912853d4698e4c.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -259,6 +283,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -355,6 +387,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/296c68ac5ad3ff621c10c6ebfb9954ca.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -451,6 +491,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -547,6 +595,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -643,6 +699,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -739,6 +803,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6d30d307275b4d34fed381fe7bee52ba.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -801,6 +873,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/be8db04362822881e9666163b564733e.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -863,6 +943,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/851663cc0ac3d6202c78c523eaf7a2f8.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -925,6 +1013,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/706def05df715f6e1a0c2e8e3cfcdc33.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -987,6 +1083,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/582d7f08840a43e28c42fb66b6c52f28.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1049,6 +1153,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1111,6 +1223,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59e4cef4d8fefff596b7e767878416c6.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1173,6 +1293,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f6a4d64897d33f8408f6d1e6829058.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1235,6 +1363,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1297,6 +1433,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aa09422ff0a12b45e53cf5ded9477875.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1359,6 +1503,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2970f9e0de8f7bf405535510b9e5e6f.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1421,6 +1573,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/718edfc8f37a1f76693b8c117bd41eb8.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1483,6 +1643,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d1f21b4d887417fa73a700b77d948f36.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1545,6 +1713,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/93b1b82a7c5646eb10ca93d7f7ab3a45.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "● LIVE",
@@ -1616,6 +1792,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -1660,6 +1844,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/479d859dacd00866ef0da188c0617234.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -1704,6 +1896,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -1748,6 +1948,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -1792,6 +2000,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/d71ebda5c7fbca9093a1c2978c46f619.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -1836,6 +2052,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -1880,6 +2104,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -1924,6 +2156,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -1968,6 +2208,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -2012,6 +2260,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -2056,6 +2312,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -2100,6 +2364,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/9fadd87d190982c8082dddf1567e0b9b.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:00 25/04",
@@ -2144,6 +2416,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/92fb3cf79ea2ba919b94b04668e13491.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:00 25/04",
@@ -2188,6 +2468,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/bd12298fc3920bc20b7ad43b16ad9624.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:00 25/04",
@@ -2232,6 +2520,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 00:00 26/04",
@@ -2276,6 +2572,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 02:00 26/04",
@@ -2320,6 +2624,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 02:05 26/04",
@@ -2364,6 +2676,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -2408,6 +2728,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 01:45 26/04",
@@ -2452,6 +2780,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/976fe1d29c112f4baeb844cdda2f04cb.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 06:30 26/04",
@@ -2496,6 +2832,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 15:30 25/04",
@@ -2540,6 +2884,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 16:00 25/04",
@@ -2584,6 +2936,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 16:30 25/04",
@@ -2628,6 +2988,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/9054259e823c101ccfe523cd527c2e5b.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 16:35 25/04",
@@ -2672,6 +3040,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -2716,6 +3092,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -2760,6 +3144,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 17:00 25/04",
@@ -2804,6 +3196,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/463db21072547cae2e9b28cf3662a592.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 17:10 25/04",
@@ -2848,6 +3248,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/3cd0dc57966a8b1f8536dd0016179664.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 17:15 25/04",
@@ -2892,6 +3300,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/1f74843bf2ffff474d23d387fa240102.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -2936,6 +3352,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/1d2fde8b4cbd9adc503dc5351e24513d.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -2980,6 +3404,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/ae31b6267a9286cee274ca2cd1fa8cb1.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3024,6 +3456,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/72e738f86c289330982cfdf225169768.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3068,6 +3508,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:00 25/04",
@@ -3112,6 +3560,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/c6a2a1ae9f05aeb030cd7578e4614386.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3156,6 +3612,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3200,6 +3664,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3244,6 +3716,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/5a15fbeafbace6653cf789b2a252615f.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3288,6 +3768,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 25/04",
@@ -3332,6 +3820,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/e7af298237651113dfeafc32ff734a24.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:35 25/04",
@@ -3376,6 +3872,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -3420,6 +3924,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/c4e143e537412003565cdb7c2d212538.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -3464,6 +3976,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/0bebca8b04365cbdf36703122a59189c.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 19:00 25/04",
@@ -3508,6 +4028,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5f10d2e029bdf6ff25acbb58765baa6c.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 19:10 25/04",
@@ -3552,6 +4080,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/3b19cae478679881554914e45d318742.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:00 25/04",
@@ -3596,6 +4132,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -3640,6 +4184,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -3684,6 +4236,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/887b7663a0d47031528921d9972ae3a6.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -3728,6 +4288,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 20:30 25/04",
@@ -3772,6 +4340,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/5759932ca2512c6701d86dfbd58380a7.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -3816,6 +4392,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -3860,6 +4444,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -3904,6 +4496,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -3948,6 +4548,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/008437c93501963e6ca1b2450994007a.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -3992,6 +4600,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/3d0191f6fe1e152222e4b19b3cc9316a.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4036,6 +4652,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4080,6 +4704,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4124,6 +4756,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/b0682ee168970ada040811b16fa9ade1.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4168,6 +4808,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/63137270ea406285200228c55bf99b73.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:00 25/04",
@@ -4212,6 +4860,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:15 25/04",
@@ -4256,6 +4912,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/44073f2d2c979a9388f98505ac3b754d.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:30 25/04",
@@ -4300,6 +4964,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 21:30 25/04",
@@ -4344,6 +5016,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -4388,6 +5068,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -4432,6 +5120,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:15 25/04",
@@ -4476,6 +5172,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -4520,6 +5224,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/81f8f9e258e6b73bc522bab06730720a.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -4564,6 +5276,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/3b54543c1a584e2e9948d655142996d3.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:30 25/04",
@@ -4608,6 +5328,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 23:45 25/04",
@@ -4652,6 +5380,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn.rapid-api.icu/football/team/da5997a60373a56628e684ae3c16f2c8.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 01:30 26/04",
@@ -4696,6 +5432,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/dd92f48c46ead1255a62dc36125a04d2.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 04:00 26/04",
@@ -4740,6 +5484,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b761d70467f8e5049e6c252e4d66a6e3.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 18:30 29/04",
@@ -4784,6 +5536,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b9e31f1791c6ae88ad7fb2c0f3257346.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 15:00 02/05",
@@ -4828,6 +5588,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/206814caa73f8ab7af42423af4974bc8.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 06:00 10/05",
@@ -4872,6 +5640,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/5dfdcf5a9260fb89aec9f72fa755b097.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 12:00 17/05",
@@ -4916,6 +5692,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/6712d2804d58c929937defbfb7236483.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 12:00 31/05",
@@ -4960,6 +5744,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9c48a1df5d9555618036207660c050fb.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 12:00 07/06",
@@ -5004,6 +5796,14 @@
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
+          "image": {
+            "padding": 4,
+            "background_color": "#0f172a",
+            "display": "contain",
+            "url": "https://cdn-static.cakhiatv89.com/live-tv89/cms/d62b9186df9d3537a7737bbab48a2bdb.png",
+            "width": 1600,
+            "height": 1200
+          },
           "labels": [
             {
               "text": "🕐 12:00 15/06",
