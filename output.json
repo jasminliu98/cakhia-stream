@@ -257,297 +257,6 @@
           }
         },
         {
-          "id": "kaytee-0015a62b66",
-          "name": "Urawa Red Diamonds vs Yokohama F. Marinos (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0015a62b66",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0015a62b66",
-                  "name": "Urawa Red Diamonds vs Yokohama F. Marinos",
-                  "streams": [
-                    {
-                      "id": "st-0015a62b66",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-333e95318c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/74e50535f00a018731913e90501e4731/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-48bfaeecc0",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec434e36517_145503/index.m3u8?expire=1777696206",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e71f3a89eb",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec434e36517_145503/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Urawa Red Diamonds",
-            "team_b": "Yokohama F. Marinos",
-            "logo": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "time": "12:00 25/04",
-            "blv": "GIÀNG A ĐỎ",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-d56abfa814",
-          "name": "Gangwon Football Club vs Football Club Seoul (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d56abfa814",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d56abfa814",
-                  "name": "Gangwon Football Club vs Football Club Seoul",
-                  "streams": [
-                    {
-                      "id": "st-d56abfa814",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-131e48ae63",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/b556bdcd4eafc95eb7a51dc94419a0e3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-91e445fe0d",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec434b36517_145428/index.m3u8?expire=1777696203",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33caa73faf",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec434b36517_145428/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Football Club Seoul",
-            "logo": "https://cdn.rapid-api.icu/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
-            "time": "12:00 25/04",
-            "blv": "GIÀNG A NẾP",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-d40e227f96",
-          "name": "Changwon LG Sakers vs Goyang Sono Skygunners (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d40e227f96",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d40e227f96",
-                  "name": "Changwon LG Sakers vs Goyang Sono Skygunners",
-                  "streams": [
-                    {
-                      "id": "st-d40e227f96",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-512a73986a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/2e2dc884bf695c3c2ba42f9fded0ea70/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3d94d837a9",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec4f2936517_145211/index.m3u8?expire=1777699241",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d477e57dba",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ec4f2936517_145211/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean Basketball League",
-            "team_a": "Changwon LG Sakers",
-            "team_b": "Goyang Sono Skygunners",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b3a61f88692a8a3836f3b93ba65b98da.png",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b3a61f88692a8a3836f3b93ba65b98da.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a5ba2f4b39c4cb6db259ed9fb916da1.png",
-            "time": "12:00 25/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true
-          }
-        },
-        {
           "id": "kaytee-a18757958c",
           "name": "Kawasaki Frontale vs JEF United Ichihara Chiba (13:00 25/04)",
           "type": "single",
@@ -645,8 +354,8 @@
           }
         },
         {
-          "id": "kaytee-2ec129df20",
-          "name": "Iwate Big Bulls vs Aomori Wat's (11:55 25/04)",
+          "id": "kaytee-e604b3b34a",
+          "name": "Sanfrecce Hiroshima vs Cerezo Osaka (14:00 25/04)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -660,23 +369,57 @@
           ],
           "sources": [
             {
-              "id": "src-2ec129df20",
+              "id": "src-e604b3b34a",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-2ec129df20",
-                  "name": "Iwate Big Bulls vs Aomori Wat's",
+                  "id": "ct-e604b3b34a",
+                  "name": "Sanfrecce Hiroshima vs Cerezo Osaka",
                   "streams": [
                     {
-                      "id": "st-2ec129df20",
+                      "id": "st-e604b3b34a",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-1edb789664",
+                          "id": "lnk-18c97eea8c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.alilicloud.com/live/9eea0afed4dd55fa0076a569e2db0417/playlist.m3u8",
+                          "url": "https://live.alilicloud.com/live/9e55c310cee7cc8ee871d046c8b358b2/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-249204d8d2",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ec60714841d_145467/index.m3u8?expire=1777703665",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-07bac59cdc",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ec60714841d_145467/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -696,77 +439,14 @@
             }
           ],
           "org_metadata": {
-            "league": "B2 League",
-            "team_a": "Iwate Big Bulls",
-            "team_b": "Aomori Wat's",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcb478f91fa9177647848bc08ccc209c.png",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcb478f91fa9177647848bc08ccc209c.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e068213e677beff386c919baef7131e2.png",
-            "time": "11:55 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-b8b6d9b86b",
-          "name": "Tochigi City vs Tochigi SC (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8b6d9b86b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b8b6d9b86b",
-                  "name": "Tochigi City vs Tochigi SC",
-                  "streams": [
-                    {
-                      "id": "st-b8b6d9b86b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8299f00a27",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/c679bcc4ca171ffcc26a7391bc136cb1/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 100 Year Vision League",
-            "team_a": "Tochigi City",
-            "team_b": "Tochigi SC",
-            "logo": "https://cdn.rapid-api.icu/football/team/0587c755424c4e6290e45f9c52fb7b13.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0587c755424c4e6290e45f9c52fb7b13.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/085e1ec0b3510610667169d0322bd17e.png",
-            "time": "12:00 25/04",
-            "blv": "",
+            "league": "Japanese J1 League",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Cerezo Osaka",
+            "logo": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ab10ee503e539e55a9a11a9ff202405a.png",
+            "time": "14:00 25/04",
+            "blv": "GIÀNG A KEN",
             "is_live": true
           }
         },
@@ -897,195 +577,6 @@
           }
         },
         {
-          "id": "kaytee-7e3bb761c9",
-          "name": "Tegevajaro Miyazaki vs Kagoshima United (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e3bb761c9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7e3bb761c9",
-                  "name": "Tegevajaro Miyazaki vs Kagoshima United",
-                  "streams": [
-                    {
-                      "id": "st-7e3bb761c9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7417deb370",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/f56249c64e9bde48ffe716364de2d83d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J2/J3 100 Year Vision League",
-            "team_a": "Tegevajaro Miyazaki",
-            "team_b": "Kagoshima United",
-            "logo": "https://cdn.rapid-api.icu/football/team/d212b444eb151871d8fbbcafa8e36658.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d212b444eb151871d8fbbcafa8e36658.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ee938da6f631119cd2995f69f067c44b.png",
-            "time": "12:00 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-21162ead27",
-          "name": "Paju Citizen FC vs Gyeongnam FC (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-21162ead27",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-21162ead27",
-                  "name": "Paju Citizen FC vs Gyeongnam FC",
-                  "streams": [
-                    {
-                      "id": "st-21162ead27",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ddbf9a9ae5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/61700682e273f06a66c9673328251266/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 2",
-            "team_a": "Paju Citizen FC",
-            "team_b": "Gyeongnam FC",
-            "logo": "https://cdn.rapid-api.icu/football/team/bba486a5a39fcc03df6ed029550b2acc.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/bba486a5a39fcc03df6ed029550b2acc.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/25a9ab8b2b697879c4b5bb1433922c54.png",
-            "time": "12:00 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-17dc7868ef",
-          "name": "Suwon Samsung Bluewings vs Busan I Park (12:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17dc7868ef",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-17dc7868ef",
-                  "name": "Suwon Samsung Bluewings vs Busan I Park",
-                  "streams": [
-                    {
-                      "id": "st-17dc7868ef",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc1f71aab6",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/5fc841786a9cf4184db8824211110cde/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 2",
-            "team_a": "Suwon Samsung Bluewings",
-            "team_b": "Busan I Park",
-            "logo": "https://cdn.rapid-api.icu/football/team/b7d71976c00a588ae7b9d077e6f94810.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b7d71976c00a588ae7b9d077e6f94810.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/70736255e34dd7eb2781203e3f454d52.png",
-            "time": "12:00 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
           "id": "kaytee-8852245b12",
           "name": "Sendai 89ers vs Yokohama B-Corsairs (12:05 25/04)",
           "type": "single",
@@ -1143,69 +634,6 @@
             "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/376b94805fa90a72346e9a92db2dd8eb.png",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/376b94805fa90a72346e9a92db2dd8eb.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0a84ca1946994fa91f8c159bf040b54f.png",
-            "time": "12:05 25/04",
-            "blv": "",
-            "is_live": true
-          }
-        },
-        {
-          "id": "kaytee-9fb9fa6314",
-          "name": "Chiba Jets vs Hiroshima Dragonflies (12:05 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9fb9fa6314",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9fb9fa6314",
-                  "name": "Chiba Jets vs Hiroshima Dragonflies",
-                  "streams": [
-                    {
-                      "id": "st-9fb9fa6314",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-947715305c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/5e48c849435ca6c6f0b8ba4e81aee397/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "B1 League",
-            "team_a": "Chiba Jets",
-            "team_b": "Hiroshima Dragonflies",
-            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/78966bd85f23715c200e909acd4f2780.png",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/78966bd85f23715c200e909acd4f2780.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/24080d2818e83e2d82c7a72f02db0ace.png",
             "time": "12:05 25/04",
             "blv": "",
             "is_live": true
@@ -1333,6 +761,573 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/be8db04362822881e9666163b564733e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/4bebf007f478e8cb2fbfa75fda9f6305.png",
             "time": "13:00 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-9bfcb9fb48",
+          "name": "Kumamoto Volters vs Kagoshima Rebnise (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bfcb9fb48",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9bfcb9fb48",
+                  "name": "Kumamoto Volters vs Kagoshima Rebnise",
+                  "streams": [
+                    {
+                      "id": "st-9bfcb9fb48",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-81e635c5d1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/20d2a3d2b5a3881ba6da6cb93ea8f088/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B2 League",
+            "team_a": "Kumamoto Volters",
+            "team_b": "Kagoshima Rebnise",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/851663cc0ac3d6202c78c523eaf7a2f8.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/851663cc0ac3d6202c78c523eaf7a2f8.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7d7e829e1d19b3f7e0a71d0a85ed8e97.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-cc0ad180bd",
+          "name": "Kyoto Hannaryz vs Osaka Evessa (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc0ad180bd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cc0ad180bd",
+                  "name": "Kyoto Hannaryz vs Osaka Evessa",
+                  "streams": [
+                    {
+                      "id": "st-cc0ad180bd",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b25ccfec4",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/3069030b3f3813133516bfddf2c890e1/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Kyoto Hannaryz",
+            "team_b": "Osaka Evessa",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/706def05df715f6e1a0c2e8e3cfcdc33.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/706def05df715f6e1a0c2e8e3cfcdc33.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e95a228bdd999c079555a3828bca03e.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-5a413d2070",
+          "name": "Shimane Susanoo Magic vs Ibaraki Robots (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a413d2070",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5a413d2070",
+                  "name": "Shimane Susanoo Magic vs Ibaraki Robots",
+                  "streams": [
+                    {
+                      "id": "st-5a413d2070",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c9166b328e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/26f22f24b27419665296b55b3f511f5b/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Shimane Susanoo Magic",
+            "team_b": "Ibaraki Robots",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/582d7f08840a43e28c42fb66b6c52f28.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/582d7f08840a43e28c42fb66b6c52f28.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ab5885f55b8ee6bfae8b65c8fe725694.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-d47c5d6609",
+          "name": "SeaHorses Mikawa vs San-en NeoPhoenix (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d47c5d6609",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d47c5d6609",
+                  "name": "SeaHorses Mikawa vs San-en NeoPhoenix",
+                  "streams": [
+                    {
+                      "id": "st-d47c5d6609",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3885cb5db",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/9a51b9f35db5aeb7af6997819931268b/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "SeaHorses Mikawa",
+            "team_b": "San-en NeoPhoenix",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/324cc01635a186046d31bddd15807528.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-c9021d85a2",
+          "name": "Toyama Grouses vs Akita Northern Happinets (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9021d85a2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c9021d85a2",
+                  "name": "Toyama Grouses vs Akita Northern Happinets",
+                  "streams": [
+                    {
+                      "id": "st-c9021d85a2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f768cf1aae",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/88d69e20b9609ccc8f241bf5fa4b0667/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Toyama Grouses",
+            "team_b": "Akita Northern Happinets",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59e4cef4d8fefff596b7e767878416c6.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59e4cef4d8fefff596b7e767878416c6.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/518fcabe90dafc4100d80de02554a004.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-87a9ed702b",
+          "name": "Yamagata Wyverns vs Kobe Storks (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87a9ed702b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-87a9ed702b",
+                  "name": "Yamagata Wyverns vs Kobe Storks",
+                  "streams": [
+                    {
+                      "id": "st-87a9ed702b",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-beb963a5e2",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/628cf486eef44a6c7c8b42147262cebf/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B2 League",
+            "team_a": "Yamagata Wyverns",
+            "team_b": "Kobe Storks",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f6a4d64897d33f8408f6d1e6829058.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f6a4d64897d33f8408f6d1e6829058.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5afe612c32412250878ab65ae82e4c3b.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-1a7cfdb65c",
+          "name": "Koshigaya Alphas vs Kawasaki Brave Thunders (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a7cfdb65c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1a7cfdb65c",
+                  "name": "Koshigaya Alphas vs Kawasaki Brave Thunders",
+                  "streams": [
+                    {
+                      "id": "st-1a7cfdb65c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ddc486ed77",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/8c9c60aa1666aba2440419bea2adafb4/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Koshigaya Alphas",
+            "team_b": "Kawasaki Brave Thunders",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e8edc9b94b7fd45ec9de586cacb1df6b.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-2535f69c92",
+          "name": "Levanga Hokkaido vs Gunma Crane Thunders (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2535f69c92",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2535f69c92",
+                  "name": "Levanga Hokkaido vs Gunma Crane Thunders",
+                  "streams": [
+                    {
+                      "id": "st-2535f69c92",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21e92dbd7f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/9e54c88e9371f5216ceb04f0620eb260/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Levanga Hokkaido",
+            "team_b": "Gunma Crane Thunders",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aa09422ff0a12b45e53cf5ded9477875.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aa09422ff0a12b45e53cf5ded9477875.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cee19ecfd84956bf744d0807e1817889.png",
+            "time": "13:05 25/04",
+            "blv": "",
+            "is_live": true
+          }
+        },
+        {
+          "id": "kaytee-16ed6459d3",
+          "name": "Fukui Blowinds vs Shinshu Brave Warriors (13:05 25/04)",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16ed6459d3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-16ed6459d3",
+                  "name": "Fukui Blowinds vs Shinshu Brave Warriors",
+                  "streams": [
+                    {
+                      "id": "st-16ed6459d3",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b42eaa685",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/982a38acafa3183a015e3b2a815e9ba6/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B2 League",
+            "team_a": "Fukui Blowinds",
+            "team_b": "Shinshu Brave Warriors",
+            "logo": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2970f9e0de8f7bf405535510b9e5e6f.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2970f9e0de8f7bf405535510b9e5e6f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d304b1c20b797f3a435ed2375ece319a.png",
+            "time": "13:05 25/04",
             "blv": "",
             "is_live": true
           }
@@ -2288,51 +2283,6 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/4295d4c9acc95550f5a4360f0ba0d93f.png",
             "time": "14:00 25/04",
             "blv": "GIÀNG A CÒI",
-            "is_live": false
-          }
-        },
-        {
-          "id": "kaytee-e604b3b34a",
-          "name": "Sanfrecce Hiroshima vs Cerezo Osaka (14:00 25/04)",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 14:00 25/04",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e604b3b34a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e604b3b34a",
-                  "name": "Sanfrecce Hiroshima vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-e604b3b34a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Cerezo Osaka",
-            "logo": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ab10ee503e539e55a9a11a9ff202405a.png",
-            "time": "14:00 25/04",
-            "blv": "GIÀNG A KEN",
             "is_live": false
           }
         },
