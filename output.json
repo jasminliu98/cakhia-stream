@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-a367ec9c5d",
-          "name": "NAC Breda vs AFC Ajax | 01:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a367ec9c5d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a367ec9c5d",
-                  "name": "NAC Breda vs AFC Ajax",
-                  "streams": [
-                    {
-                      "id": "st-a367ec9c5d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-067d154318",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ecfe0a36517_145169/index.m3u8?expire=1777744010",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b4070af37a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/79235b384e41c4eeeabb46f8e7475e87/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5b0401c058",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ecfe0a36517_145169/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "NAC Breda",
-            "team_b": "AFC Ajax",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6961986fd0e44c330328195328a39be4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/187929503752357480bce47813a9741f.png",
-            "time": "01:00 26/04",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a367ec9c5d_7f81cdcd.png?v=7f81cdcd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-cf1b8cafa8",
           "name": "SV Darmstadt 98 vs SV Elversberg | 01:30 26/04",
           "type": "single",
@@ -849,218 +744,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-78894f8b1f_e00c0bbc.png?v=e00c0bbc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-8383d4f808",
-          "name": "Botafogo RJ vs Internacional RS | 04:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8383d4f808",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8383d4f808",
-                  "name": "Botafogo RJ vs Internacional RS",
-                  "streams": [
-                    {
-                      "id": "st-8383d4f808",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Botafogo RJ",
-            "team_b": "Internacional RS",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5d83c47462e5afb6f1add0ad508c300b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7fc8831956b0f4fab51d0390a3957780.png",
-            "time": "04:30 26/04",
-            "blv": "GIÀNG A ĐÌNH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8383d4f808_3e57e91a.png?v=3e57e91a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c84acce035",
-          "name": "Remo Belem (PA) vs Cruzeiro Esporte Clube | 04:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c84acce035",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c84acce035",
-                  "name": "Remo Belem (PA) vs Cruzeiro Esporte Clube",
-                  "streams": [
-                    {
-                      "id": "st-c84acce035",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Remo Belem (PA)",
-            "team_b": "Cruzeiro Esporte Clube",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fb9a4cf4290646122b3afe17bd914737.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/3fe9281df0fdaf026741ff54ac24bdeb.png",
-            "time": "04:30 26/04",
-            "blv": "GIÀNG A SIK",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c84acce035_776e90bd.png?v=776e90bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-24e5890416",
-          "name": "Bahia vs Santos | 04:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24e5890416",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-24e5890416",
-                  "name": "Bahia vs Santos",
-                  "streams": [
-                    {
-                      "id": "st-24e5890416",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Bahia",
-            "team_b": "Santos",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/20456802ad5f8243dc282c4650c414e1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0840bace9b911b3f0dbadb710ea20316.png",
-            "time": "04:30 26/04",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-24e5890416_7b3273b0.png?v=7b3273b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-66d8acab58",
-          "name": "Sao Paulo vs Mirassol | 07:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66d8acab58",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-66d8acab58",
-                  "name": "Sao Paulo vs Mirassol",
-                  "streams": [
-                    {
-                      "id": "st-66d8acab58",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazilian Serie A",
-            "team_a": "Sao Paulo",
-            "team_b": "Mirassol",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/31f5171de0e1404fdebcef19cd7cd409.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b20645448c644b701286477f55b11e24.png",
-            "time": "07:00 26/04",
-            "blv": "GIÀNG A SIK",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-66d8acab58_6f210e40.png?v=6f210e40",
             "width": 1600,
             "height": 1200
           }
@@ -2280,6 +1963,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8d748b625a_912ebe35.png?v=912ebe35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-51b1a07811",
+          "name": "Genoa vs Como | 20:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51b1a07811",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-51b1a07811",
+                  "name": "Genoa vs Como",
+                  "streams": [
+                    {
+                      "id": "st-51b1a07811",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Genoa",
+            "team_b": "Como",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/51474fb68c7da46b9c20ebddccec7766.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5f7059f40965e5a2cc00987e6bac2f32.png",
+            "time": "20:00 26/04",
+            "blv": "GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-51b1a07811_91e28a6a.png?v=91e28a6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-dbd71d18f0",
+          "name": "Lorient vs RC Strasbourg Alsace | 20:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dbd71d18f0",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-dbd71d18f0",
+                  "name": "Lorient vs RC Strasbourg Alsace",
+                  "streams": [
+                    {
+                      "id": "st-dbd71d18f0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Lorient",
+            "team_b": "RC Strasbourg Alsace",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b593727321793084b1f7804aebedc31a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/998db478bf7c06d5817bf846987a0d0a.png",
+            "time": "20:00 26/04",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dbd71d18f0_b5cd8c18.png?v=b5cd8c18",
             "width": 1600,
             "height": 1200
           }
