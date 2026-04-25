@@ -47,6 +47,12 @@ EXCLUDE_LEAGUES_AMERICA = [
     "inter miami", "new england", "LA Galaxy", "NYCFC",
     "concacaf", "conmebol",
     "copa america", "copa sudamericana", "copa libertadores",
+    # Giải bổ sung
+    "jupiler", "pro league", "first division a", "belgian",  # Bỉ
+    "brasileirao", "brasileirão", "serie a brasil", "campeonato brasileiro", "copa do brasil",  # Brazil (đã có nhưng thêm chắc)
+    "categoria primera", "primera a",  # Colombia
+    "efbet league", "parva liga", "bulgarian",  # Bulgaria
+    "super lig", "tff", "turkish", "süper lig",  # Thổ Nhĩ Kỳ
 ]
 
 def is_america_league(league_name: str) -> bool:
@@ -452,9 +458,9 @@ def main():
         if match["is_live"]:
             streams = get_streams(match["match_id"], match["blv_list"])
             # Bóng đá: link[0] thường là sóng đài, link[1] mới là BLV — đảo lên đầu
-            if match["cate_id"] == "1" and len(streams) >= 2:
+            if match["cate_id"] in ("1", "20") and len(streams) >= 2:
                 streams = [streams[1], streams[0]] + streams[2:]
-                print(f"  [football] swapped link 1<->2")
+                print(f"  [{'football' if match['cate_id']=='1' else 'basketball'}] swapped link 1<->2")
             print(f"  stream: {len(streams)} link")
             if not streams:
                 print(f"  Bo qua - khong co stream")
