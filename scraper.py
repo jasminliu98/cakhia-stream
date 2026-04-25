@@ -41,42 +41,52 @@ def fetch_image(url):
     except:
         return None
 
-THUMB_VERSION = "v3"  # Tăng version này để force regenerate tất cả thumbnail cũ
+THUMB_VERSION = "v4"  # Tăng version này để force regenerate tất cả thumbnail cũ
 
 def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    # Dùng cả nội dung + version để cache bust khi layout thay đổi
     cache_key = match.get("logo_a","") + match.get("logo_b","") + THUMB_VERSION
     logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
     out_path = f"{THUMBS_DIR}/{channel_id}_{logo_hash}.png"
 
     W, H = 1600, 1200
 
-    # Nền trắng
     bg = Image.new("RGB", (W, H), (255, 255, 255))
     draw = ImageDraw.Draw(bg)
 
-    # Viền xám nhạt
     draw.rectangle([(0,0),(W-1,H-1)], outline=(220,220,220), width=4)
 
-    # Header: giải đấu (nền xanh đậm)
-    draw.rectangle([(0,0),(W,120)], fill=(15, 23, 42))
-
-    # Footer: BLV (nền xanh đậm)
-    draw.rectangle([(0, H-100),(W, H)], fill=(15, 23, 42))
+    HEADER_H = 120
+    FOOTER_H = 100
+    draw.rectangle([(0,0),(W, HEADER_H)], fill=(15, 23, 42))
+    draw.rectangle([(0, H - FOOTER_H),(W, H)], fill=(15, 23, 42))
 
     FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
     try:
-        font_vs    = ImageFont.truetype(FONT_BOLD, 130)
-        font_time  = ImageFont.truetype(FONT_BOLD, 80)
-        font_team  = ImageFont.truetype(FONT_BOLD, 55)
-        font_league= ImageFont.truetype(FONT_BOLD, 52)
-        font_blv   = ImageFont.truetype(FONT_BOLD, 52)  # Bold, cùng size league
+        font_vs    = ImageFont.truetype(FONT_BOLD, 120)
+        font_time  = ImageFont.truetype(FONT_BOLD, 85)
+        font_team  = ImageFont.truetype(FONT_BOLD, 52)
+        font_league= ImageFont.truetype(FONT_BOLD, 50)
+        font_blv   = ImageFont.truetype(FONT_BOLD, 50)
     except:
         font_vs = font_time = font_team = font_league = font_blv = ImageFont.load_default()
 
-    logo_size = 320
-    logo_y = 145  # sát header hơn để nhường chỗ phía dưới
+    # Vùng nội dung giữa header và footer
+    content_top = HEADER_H
+    content_bot = H - FOOTER_H
+    content_h   = content_bot - content_top  # 980px
+
+    logo_size = 310
+
+    # Chia vùng content thành 4 hàng:
+    # logo + VS: chiếm phần trên (~45%)
+    # tên đội: hàng 3 (~20%)
+    # giờ: hàng 4 (~20%)
+    # padding: còn lại
+
+    logo_y = content_top + int(content_h * 0.08)   # logo bắt đầu ở 8% từ header
+    name_y = logo_y + logo_size + 60               # tên đội dưới logo 60px
+    time_y = name_y + 80                           # giờ dưới tên đội 80px
 
     # Logo A (trái)
     if match.get("logo_a"):
@@ -94,37 +104,59 @@ def make_thumbnail(match, channel_id):
             x = W*3//4 - logo_size//2
             bg.paste(img_b, (x, logo_y), img_b)
 
-    center_y = logo_y + logo_size//2
+    # VS — căn giữa dọc theo logo
+    vs_y = logo_y + logo_size // 2
+    draw.text((W//2, vs_y), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
 
-    # VS (giữa 2 logo)
-    draw.text((W//2, center_y), "VS", fill=(15,23,42), font=font_vs, anchor="mm")
-
-    # Tên đội A — ngay dưới logo
-    name_y = logo_y + logo_size + 55
+    # Tên đội A
     if match.get("team_a"):
-        name_a = match["team_a"][:20]
-        draw.text((W//4, name_y), name_a, fill=(15,23,42), font=font_team, anchor="mm")
+        draw.text((W//4, name_y), match["team_a"][:20], fill=(15,23,42), font=font_team, anchor="mm")
 
-    # Tên đội B — ngay dưới logo
+    # Tên đội B
     if match.get("team_b"):
-        name_b = match["team_b"][:20]
-        draw.text((W*3//4, name_y), name_b, fill=(15,23,42), font=font_team, anchor="mm")
+        draw.text((W*3//4, name_y), match["team_b"][:20], fill=(15,23,42), font=font_team, anchor="mm")
 
-    # Giờ đấu — màu ĐEN, dưới tên đội
+    # Giờ đấu — đen đậm, dưới tên đội, căn giữa ngang
     if match.get("time"):
-        time_y = name_y + 90
         draw.text((W//2, time_y), match["time"], fill=(15, 23, 42), font=font_time, anchor="mm")
 
-    # Giải đấu (header) — trắng Bold
+    # Header: Giải đấu — trắng Bold
     if match.get("league"):
-        draw.text((W//2, 60), match["league"].upper(), fill=(255,255,255), font=font_league, anchor="mm")
+        draw.text((W//2, HEADER_H // 2), match["league"].upper(), fill=(255,255,255), font=font_league, anchor="mm")
 
-    # BLV (footer) — trắng Bold, cùng font/màu như header giải đấu
+    # Footer: BLV — trắng Bold, KHÔNG có emoji
     if match.get("blv"):
-        draw.text((W//2, H - 50), f"🎙 BLV: {match['blv']}", fill=(255,255,255), font=font_blv, anchor="mm")
+        draw.text((W//2, H - FOOTER_H // 2), f"BLV: {match['blv']}", fill=(255,255,255), font=font_blv, anchor="mm")
 
     bg.save(out_path, "PNG", optimize=True)
     return out_path
+
+def is_within_24h(match_time):
+    """
+    Trả về True nếu trận nằm trong khoảng từ bây giờ đến 24h tới.
+    Chấp nhận trận đã bắt đầu tối đa 3h trước (LIVE đang chạy).
+    """
+    from datetime import datetime, timedelta
+    try:
+        parts = match_time.strip().split()
+        hm = parts[0].split(":")
+        hour, minute = int(hm[0]), int(hm[1])
+        if len(parts) > 1:
+            dm = parts[1].split("/")
+            day, month = int(dm[0]), int(dm[1]) if len(dm) > 1 else 4
+        else:
+            return True
+        now = datetime.now()
+        year = now.year
+        try:
+            match_dt = datetime(year, month, day, hour, minute)
+        except ValueError:
+            return False
+        lower = now - timedelta(hours=3)
+        upper = now + timedelta(hours=24)
+        return lower <= match_dt <= upper
+    except:
+        return True
 
 def parse_time_sort(match_time):
     """
@@ -206,16 +238,38 @@ def get_matches():
         time_tag = card.select_one("span.font-mono")
         match_time = time_tag.get_text(strip=True) if time_tag else ""
 
-        # BLV: ưu tiên BLV online (có tên) lên trước
-        blv_list = []
-        for blv_a in card.select("a[href*='?blv=']"):
-            blv_href = blv_a.get("href", "")
-            blv_id_m = re.search(r'\?blv=(\d+)', blv_href)
-            blv_name = blv_a.get_text(strip=True)
-            if blv_id_m and blv_name:
-                blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
+        # Lọc 24h tới
+        if not is_within_24h(match_time):
+            continue
 
-        # FIX 3: Ẩn trận không có BLV — bỏ qua ngay tại đây
+        # BLV: CHỈ lấy BLV trong section "BLV ONLINE"
+        blv_list = []
+        blv_online_section = None
+        for el in card.find_all(string=re.compile(r'BLV\s+ONLINE', re.I)):
+            blv_online_section = el.parent
+            break
+
+        if blv_online_section:
+            search_scope = blv_online_section.parent or blv_online_section
+            for blv_a in search_scope.find_all("a", href=re.compile(r'\?blv=')):
+                blv_href = blv_a.get("href", "")
+                blv_id_m = re.search(r'\?blv=(\d+)', blv_href)
+                blv_name = blv_a.get_text(strip=True)
+                if blv_id_m and blv_name and blv_id_m.group(1) != "0":
+                    blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
+
+        # Fallback: BLV có avatar thật (không phải default)
+        if not blv_list:
+            for blv_a in card.select("a[href*='?blv=']"):
+                blv_href = blv_a.get("href", "")
+                blv_id_m = re.search(r'\?blv=(\d+)', blv_href)
+                blv_name = blv_a.get_text(strip=True)
+                blv_img = blv_a.find("img")
+                has_real_avatar = blv_img and "user-avatar" not in blv_img.get("src", "")
+                if blv_id_m and blv_name and blv_id_m.group(1) != "0" and has_real_avatar:
+                    blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
+
+        # Ẩn trận không có BLV online
         if not blv_list:
             continue
 
