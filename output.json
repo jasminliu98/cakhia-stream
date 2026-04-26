@@ -1254,11 +1254,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-db4abe7651",
+                          "id": "lnk-cc2bb29090",
                           "name": "GIÀNG A TÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee76ef36518_145413/index.m3u8?expire=1777840495",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b5501d9191",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1952cde22ceb28838a8429efea73fb8c/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1831,7 +1848,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1903,77 +1920,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f5fd54bfcf_706f9894.png?v=706f9894",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-0633883a9a",
-          "name": "Chinese Taipei (w) vs Canada Women | 23:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0633883a9a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0633883a9a",
-                  "name": "Chinese Taipei (w) vs Canada Women",
-                  "streams": [
-                    {
-                      "id": "st-0633883a9a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07269d9fad",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee3bba4841d_146208/index.m3u8?expire=1777825338",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uber Cup",
-            "team_a": "Chinese Taipei (w)",
-            "team_b": "Canada Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5dc99eeb1cd02138d05a47422f33fc30.png",
-            "time": "23:30 26/04",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0633883a9a_64b2289a.png?v=64b2289a",
             "width": 1600,
             "height": 1200
           }
