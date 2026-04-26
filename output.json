@@ -11,11 +11,859 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (0)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-cd90f89f58",
+          "name": "University Azzurri FC vs Garuda FC | 13:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd90f89f58",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cd90f89f58",
+                  "name": "University Azzurri FC vs Garuda FC",
+                  "streams": [
+                    {
+                      "id": "st-cd90f89f58",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia Darwin Premier League",
+            "team_a": "University Azzurri FC",
+            "team_b": "Garuda FC",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c9bf281eb0f1cf13975e39dbe45c4c5e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/693158668c5fde4bde8d2fa8ed4e089a.png",
+            "time": "13:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd90f89f58_707aa8d5.png?v=707aa8d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8af0a4202e",
+          "name": "A.P.I.A. Leichhardt Tigers vs St George Saints | 13:45 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8af0a4202e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8af0a4202e",
+                  "name": "A.P.I.A. Leichhardt Tigers vs St George Saints",
+                  "streams": [
+                    {
+                      "id": "st-8af0a4202e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia New South Wales Premier League",
+            "team_a": "A.P.I.A. Leichhardt Tigers",
+            "team_b": "St George Saints",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5e7f98b3e6dba2955758797b84e94868.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8467022e5f2d8204773bddb6cb7d8182.png",
+            "time": "13:45 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8af0a4202e_760c267b.png?v=760c267b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6c8cbde78e",
+          "name": "Brisbane City vs Brisbane Wolves | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c8cbde78e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6c8cbde78e",
+                  "name": "Brisbane City vs Brisbane Wolves",
+                  "streams": [
+                    {
+                      "id": "st-6c8cbde78e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia National Premier Leagues Queensland",
+            "team_a": "Brisbane City",
+            "team_b": "Brisbane Wolves",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/4d58ff44865806627c28fb2a96705515.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/62ee76fc01732a90a87f98940d031d6e.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6c8cbde78e_b1f9e343.png?v=b1f9e343",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6a878d672a",
+          "name": "Liaoning Tieren U20 vs Qingdao West Coast U21 | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a878d672a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6a878d672a",
+                  "name": "Liaoning Tieren U20 vs Qingdao West Coast U21",
+                  "streams": [
+                    {
+                      "id": "st-6a878d672a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Assorciation U-21 League",
+            "team_a": "Liaoning Tieren U20",
+            "team_b": "Qingdao West Coast U21",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e62242e53202dbd2a04f851180686cfc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5f753bd4daa2a854303b9d81e6b5495.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a878d672a_df790e38.png?v=df790e38",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5851db8c95",
+          "name": "Jiangxi Lushan U21 vs Tianjin Jinmen Tiger U21 | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5851db8c95",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5851db8c95",
+                  "name": "Jiangxi Lushan U21 vs Tianjin Jinmen Tiger U21",
+                  "streams": [
+                    {
+                      "id": "st-5851db8c95",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Assorciation U-21 League",
+            "team_a": "Jiangxi Lushan U21",
+            "team_b": "Tianjin Jinmen Tiger U21",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/9ee4c660401a22de14088549edd8cf1f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403b3d6f45cea2e1ae2060d0dd2f2a01.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5851db8c95_d252bb44.png?v=d252bb44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ecc9aeb94e",
+          "name": "Wuxi Wugou vs Shijiazhuang Gongfu | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecc9aeb94e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ecc9aeb94e",
+                  "name": "Wuxi Wugou vs Shijiazhuang Gongfu",
+                  "streams": [
+                    {
+                      "id": "st-ecc9aeb94e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football League 1",
+            "team_a": "Wuxi Wugou",
+            "team_b": "Shijiazhuang Gongfu",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/509b91468e833ffe3fd9edd04f06ddee.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0408f34aeb9005f8f65c4c2e80478235.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ecc9aeb94e_6565ad48.png?v=6565ad48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-63b7f4c51f",
+          "name": "Irkutsk vs Torpedo Vladimir | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63b7f4c51f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-63b7f4c51f",
+                  "name": "Irkutsk vs Torpedo Vladimir",
+                  "streams": [
+                    {
+                      "id": "st-63b7f4c51f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RUS D3B",
+            "team_a": "Irkutsk",
+            "team_b": "Torpedo Vladimir",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd461f24b9bff7f868e9b94d80978e10.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5ae0fcad6123148ac76b2f58efd2a43.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63b7f4c51f_d3eff426.png?v=d3eff426",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2a50d634cf",
+          "name": "Shanghai Shenhua U21 vs Wenzhou FC U20 | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a50d634cf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2a50d634cf",
+                  "name": "Shanghai Shenhua U21 vs Wenzhou FC U20",
+                  "streams": [
+                    {
+                      "id": "st-2a50d634cf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Assorciation U-21 League",
+            "team_a": "Shanghai Shenhua U21",
+            "team_b": "Wenzhou FC U20",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ed30322db3ad908bb673f25820ee0469.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ceeb67416035b7e243ab2b573a647c84.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a50d634cf_8b2090e4.png?v=8b2090e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6f6ae3465f",
+          "name": "Taizhou Team vs Wenzhou Team | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f6ae3465f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f6ae3465f",
+                  "name": "Taizhou Team vs Wenzhou Team",
+                  "streams": [
+                    {
+                      "id": "st-6f6ae3465f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Wuyue Cup",
+            "team_a": "Taizhou Team",
+            "team_b": "Wenzhou Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/acc45705184d57dd37b433402c0eeaf6.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0cbff83700a1dc79587793b1863b5e78.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f6ae3465f_957e180c.png?v=957e180c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8f2ee2ee5d",
+          "name": "Shaoxing Team vs Quzhou Team | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f2ee2ee5d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8f2ee2ee5d",
+                  "name": "Shaoxing Team vs Quzhou Team",
+                  "streams": [
+                    {
+                      "id": "st-8f2ee2ee5d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Wuyue Cup",
+            "team_a": "Shaoxing Team",
+            "team_b": "Quzhou Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0ff5955aede1e1ee79bde9114017de89.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/90bffb395e0ef21a9d532defb7be3128.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8f2ee2ee5d_fdb31e45.png?v=fdb31e45",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7193dab953",
+          "name": "Lishui Team vs Hangzhou Team | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7193dab953",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7193dab953",
+                  "name": "Lishui Team vs Hangzhou Team",
+                  "streams": [
+                    {
+                      "id": "st-7193dab953",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Wuyue Cup",
+            "team_a": "Lishui Team",
+            "team_b": "Hangzhou Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e1d882eba4df319ad0782567529d9438.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4f828ebf83578473f05b3e32108d670.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7193dab953_d9a3be05.png?v=d9a3be05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2cb9344552",
+          "name": "Yenisey Krasnoyarsk vs Neftekhimik Nizhnekamsk | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cb9344552",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2cb9344552",
+                  "name": "Yenisey Krasnoyarsk vs Neftekhimik Nizhnekamsk",
+                  "streams": [
+                    {
+                      "id": "st-2cb9344552",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian National Football League",
+            "team_a": "Yenisey Krasnoyarsk",
+            "team_b": "Neftekhimik Nizhnekamsk",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/4d95fbf6c8f3fcee43e522635455d60d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e37b8f1e34de8f18adbb25aebc3d09d9.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2cb9344552_93b2f5b2.png?v=93b2f5b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-fb278ce1a6",
+          "name": "Kwoon Chung Southern vs EnGenius Kowloon City | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb278ce1a6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fb278ce1a6",
+                  "name": "Kwoon Chung Southern vs EnGenius Kowloon City",
+                  "streams": [
+                    {
+                      "id": "st-fb278ce1a6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Hong Kong Premier League",
+            "team_a": "Kwoon Chung Southern",
+            "team_b": "EnGenius Kowloon City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/32f2ba807df5414fff97d85fe8221577.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f7f89db4df9b2fed5ebbda7b1b015873.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fb278ce1a6_8129e897.png?v=8129e897",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0217e3fceb",
+          "name": "Grange Thistle (w) vs Moreton Bay United (w) | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0217e3fceb",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0217e3fceb",
+                  "name": "Grange Thistle (w) vs Moreton Bay United (w)",
+                  "streams": [
+                    {
+                      "id": "st-0217e3fceb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia Queensland State Women's League",
+            "team_a": "Grange Thistle (w)",
+            "team_b": "Moreton Bay United (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/48d33f324032713de2fbd162751897aa.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3512ea2737cb5fdb50e5d9a451311532.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0217e3fceb_89c85878.png?v=89c85878",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-263bb91aff",
+          "name": "Illawarra Stingrays (w) vs Mt Druitt Town Rangers FC (W) | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-263bb91aff",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-263bb91aff",
+                  "name": "Illawarra Stingrays (w) vs Mt Druitt Town Rangers FC (W)",
+                  "streams": [
+                    {
+                      "id": "st-263bb91aff",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia New South Wales Women's League",
+            "team_a": "Illawarra Stingrays (w)",
+            "team_b": "Mt Druitt Town Rangers FC (W)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/dd8bc60a2465acd71c5975a879a9df5b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/bf6b25cdaa9034758545ed92c2bd0e36.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-263bb91aff_bb26471e.png?v=bb26471e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f2d4b5d020",
+          "name": "Gladesville Ravens (W) vs Bulls Academy (W) | 14:10 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2d4b5d020",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f2d4b5d020",
+                  "name": "Gladesville Ravens (W) vs Bulls Academy (W)",
+                  "streams": [
+                    {
+                      "id": "st-f2d4b5d020",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia New South Wales Women's League",
+            "team_a": "Gladesville Ravens (W)",
+            "team_b": "Bulls Academy (W)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1951a2cc90cb70313e9643d830e78bfc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a76c1969467081ca2167cc7d9993f29f.png",
+            "time": "14:10 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2d4b5d020_e0ff6c85.png?v=e0ff6c85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-f2d1a6ffa0",
           "name": "Melbourne City vs Adelaide United | 14:30 26/04",
@@ -24,10 +872,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +890,59 @@
                     {
                       "id": "st-f2d1a6ffa0",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-55ab4fd4ff",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/c2f7199227febc9a918712b14a358322/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f4484a8aa2",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69edb89936518_145476/index.m3u8?expire=1777791769",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e62c0eca59",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69edb89936518_145476/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,14 +957,14 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/a27d297d3cfaa7a71ce91a3fa0d40dbf.png",
             "time": "14:30 26/04",
             "blv": "GIÀNG A RICH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f2d1a6ffa0_ea75e9d5.png?v=ea75e9d5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2d1a6ffa0_ea75e9d5.png?v=ea75e9d5",
             "width": 1600,
             "height": 1200
           }
@@ -77,10 +977,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +995,59 @@
                     {
                       "id": "st-79e6ef4077",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-98ed1ddc16",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/5b3dbff66f773a635f3955e75343d9b3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1c16fe6c98",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69edba1136518_146331/index.m3u8?expire=1777792145",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-94a5d82f98",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69edba1136518_146331/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,14 +1062,14 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/090eeb1513e8f1d0cf6d8647d10b2eea.png",
             "time": "14:30 26/04",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79e6ef4077_5f18e827.png?v=5f18e827",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-79e6ef4077_5f18e827.png?v=5f18e827",
             "width": 1600,
             "height": 1200
           }
@@ -130,10 +1082,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +1100,59 @@
                     {
                       "id": "st-c31602cc0d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd72f1f963",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/2282a7ae8ce9e424ef2bdcb30a53a187/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a01d6541f0",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69edb9aa4841d_146847/index.m3u8?expire=1777792042",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-68b9130b11",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69edb9aa4841d_146847/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -163,6 +1167,748 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
             "time": "14:30 26/04",
             "blv": "GIÀNG A NA",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c31602cc0d_c01c1461.png?v=c01c1461",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-81ab8b2278",
+          "name": "Hang Yuen FC vs Taichung Futuro | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81ab8b2278",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-81ab8b2278",
+                  "name": "Hang Yuen FC vs Taichung Futuro",
+                  "streams": [
+                    {
+                      "id": "st-81ab8b2278",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Taipei Intercity League",
+            "team_a": "Hang Yuen FC",
+            "team_b": "Taichung Futuro",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/91e49a523ef52f9b264ce8c5a56d432b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/281687892ead577283b511ff3e2626be.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-81ab8b2278_631a86fa.png?v=631a86fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3c59481787",
+          "name": "Taichung Rock FC vs Taiwan Power Company FC | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c59481787",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3c59481787",
+                  "name": "Taichung Rock FC vs Taiwan Power Company FC",
+                  "streams": [
+                    {
+                      "id": "st-3c59481787",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Taipei Intercity League",
+            "team_a": "Taichung Rock FC",
+            "team_b": "Taiwan Power Company FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9a451473b1e838c66b49ef1871a74cd3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/49d6da5b0010a9d4f25c6cb71b8255cf.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3c59481787_48b4c331.png?v=48b4c331",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-af29b929b8",
+          "name": "Tainan City Steel vs Ming Chuan University | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af29b929b8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-af29b929b8",
+                  "name": "Tainan City Steel vs Ming Chuan University",
+                  "streams": [
+                    {
+                      "id": "st-af29b929b8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Taipei Intercity League",
+            "team_a": "Tainan City Steel",
+            "team_b": "Ming Chuan University",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/490ca64de18b8b5457c1f1079b30d1d1.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e679598142d74feb667563690b258476.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-af29b929b8_d7789e10.png?v=d7789e10",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5e8953ddca",
+          "name": "Chungbuk Cheongju FC vs Chungnam Asan | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e8953ddca",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5e8953ddca",
+                  "name": "Chungbuk Cheongju FC vs Chungnam Asan",
+                  "streams": [
+                    {
+                      "id": "st-5e8953ddca",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 2",
+            "team_a": "Chungbuk Cheongju FC",
+            "team_b": "Chungnam Asan",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a9c344b4196017fb183285a2fabd0b3f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/aa33d6919294509723e6cbdbbffb1ea5.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5e8953ddca_a66dc398.png?v=a66dc398",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a4b8d2786c",
+          "name": "Yongin FC vs Gimhae City | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4b8d2786c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a4b8d2786c",
+                  "name": "Yongin FC vs Gimhae City",
+                  "streams": [
+                    {
+                      "id": "st-a4b8d2786c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 2",
+            "team_a": "Yongin FC",
+            "team_b": "Gimhae City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e7d111087c495e5df19cddf6fc482553.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7eea57c1659c692ccb9a2586879bd804.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4b8d2786c_49eb26e3.png?v=49eb26e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c1c4ebb70f",
+          "name": "Changchun Yatai FC vs Guangdong Guangzhou Power | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1c4ebb70f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c1c4ebb70f",
+                  "name": "Changchun Yatai FC vs Guangdong Guangzhou Power",
+                  "streams": [
+                    {
+                      "id": "st-c1c4ebb70f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football League 1",
+            "team_a": "Changchun Yatai FC",
+            "team_b": "Guangdong Guangzhou Power",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/aa8cfda1c890f28a3a62fff6f1c6f6a0.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8c08e09f2c1d5628cf599b883fe999bf.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1c4ebb70f_ffac1b31.png?v=ffac1b31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-10d86e7b7b",
+          "name": "Qingyuan Team vs Shaoguan Team | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10d86e7b7b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-10d86e7b7b",
+                  "name": "Qingyuan Team vs Shaoguan Team",
+                  "streams": [
+                    {
+                      "id": "st-10d86e7b7b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Guangdong City Football League",
+            "team_a": "Qingyuan Team",
+            "team_b": "Shaoguan Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba0e98a0521dde1f97bb049f2210ec12.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/63e21edca6bc7a73d7ea175771d27fbe.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-10d86e7b7b_5385cb67.png?v=5385cb67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0ee1cb3713",
+          "name": "Maoming Team vs Yunfu Team | 14:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ee1cb3713",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0ee1cb3713",
+                  "name": "Maoming Team vs Yunfu Team",
+                  "streams": [
+                    {
+                      "id": "st-0ee1cb3713",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Guangdong City Football League",
+            "team_a": "Maoming Team",
+            "team_b": "Yunfu Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7807f52a81635ce45ee8e4f9384dd784.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/990ee8fdbfde08168a0038f6df3ed4df.png",
+            "time": "14:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0ee1cb3713_0ecf0ff1.png?v=0ecf0ff1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0a19a07645",
+          "name": "Capalaba (w) vs Brisbane City (w) | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a19a07645",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0a19a07645",
+                  "name": "Capalaba (w) vs Brisbane City (w)",
+                  "streams": [
+                    {
+                      "id": "st-0a19a07645",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia Queensland State Women's League",
+            "team_a": "Capalaba (w)",
+            "team_b": "Brisbane City (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/439b6ce751392e8c69194066ef6a9c10.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/997c0fee81e7a7889079c730e52e4692.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0a19a07645_6226cf80.png?v=6226cf80",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8321d9cfa7",
+          "name": "Huizhou Team vs Chaozhou Team | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8321d9cfa7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8321d9cfa7",
+                  "name": "Huizhou Team vs Chaozhou Team",
+                  "streams": [
+                    {
+                      "id": "st-8321d9cfa7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Guangdong City Football League",
+            "team_a": "Huizhou Team",
+            "team_b": "Chaozhou Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a3e486f6beb22821b02b1151e84bbbaf.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7d5ed35824383d8170116b8f0a5666ea.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8321d9cfa7_a627cab3.png?v=a627cab3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-06b32276ce",
+          "name": "Hefei City vs Nanjing Longsheng | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06b32276ce",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-06b32276ce",
+                  "name": "Hefei City vs Nanjing Longsheng",
+                  "streams": [
+                    {
+                      "id": "st-06b32276ce",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Association Member Association Champions League",
+            "team_a": "Hefei City",
+            "team_b": "Nanjing Longsheng",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1dacd9258c74a0f3c37c5ad568ae9299.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bb47b7b9e844a46b8a93ca36fcbf12.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-06b32276ce_9abe4a37.png?v=9abe4a37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-48e107936d",
+          "name": "Beijing(W) vs Zhejiang Hangzhou Bank(W) | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48e107936d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-48e107936d",
+                  "name": "Beijing(W) vs Zhejiang Hangzhou Bank(W)",
+                  "streams": [
+                    {
+                      "id": "st-48e107936d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Women's Super League",
+            "team_a": "Beijing(W)",
+            "team_b": "Zhejiang Hangzhou Bank(W)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/926a4e735eec88e50e764ece73fe4116.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/3d207b4769c8bad7233434ca82eae9ef.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48e107936d_e8a1c2a7.png?v=e8a1c2a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e5492051e1",
+          "name": "Shanghai RCB(W) vs Shaanxi(W) | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5492051e1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e5492051e1",
+                  "name": "Shanghai RCB(W) vs Shaanxi(W)",
+                  "streams": [
+                    {
+                      "id": "st-e5492051e1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Women's Super League",
+            "team_a": "Shanghai RCB(W)",
+            "team_b": "Shaanxi(W)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/196b3be69e30878dc643aa8fcc11203c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/30481e72d12bde49250fa363650fe8bc.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e5492051e1_fe3b683a.png?v=fe3b683a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ab32988fa4",
+          "name": "FK Chelyabinsk vs Ural Yekaterinburg | 15:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab32988fa4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ab32988fa4",
+                  "name": "FK Chelyabinsk vs Ural Yekaterinburg",
+                  "streams": [
+                    {
+                      "id": "st-ab32988fa4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian National Football League",
+            "team_a": "FK Chelyabinsk",
+            "team_b": "Ural Yekaterinburg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ad447efc200f864044a546c6c4811473.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c44580753ff5e1f47b7784d28b10af2f.png",
+            "time": "15:30 26/04",
+            "blv": "",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -170,7 +1916,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c31602cc0d_c01c1461.png?v=c01c1461",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ab32988fa4_719c2edf.png?v=719c2edf",
             "width": 1600,
             "height": 1200
           }
@@ -223,7 +1969,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-716ace37a1_30ecee1e.png?v=30ecee1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-716ace37a1_30ecee1e.png?v=30ecee1e",
             "width": 1600,
             "height": 1200
           }
@@ -276,7 +2022,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-000adfa06b_410dfa4c.png?v=410dfa4c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-000adfa06b_410dfa4c.png?v=410dfa4c",
             "width": 1600,
             "height": 1200
           }
@@ -329,7 +2075,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a24114747b_cb9086ed.png?v=cb9086ed",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a24114747b_cb9086ed.png?v=cb9086ed",
             "width": 1600,
             "height": 1200
           }
@@ -382,7 +2128,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-042da903c4_be989eb3.png?v=be989eb3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-042da903c4_be989eb3.png?v=be989eb3",
             "width": 1600,
             "height": 1200
           }
@@ -435,7 +2181,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-503207be6f_e367cb0e.png?v=e367cb0e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-503207be6f_e367cb0e.png?v=e367cb0e",
             "width": 1600,
             "height": 1200
           }
@@ -488,7 +2234,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9baccad1d3_ffa9fbc5.png?v=ffa9fbc5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9baccad1d3_ffa9fbc5.png?v=ffa9fbc5",
             "width": 1600,
             "height": 1200
           }
@@ -541,7 +2287,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0e1c0af948_5e8a270e.png?v=5e8a270e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e1c0af948_5e8a270e.png?v=5e8a270e",
             "width": 1600,
             "height": 1200
           }
@@ -594,7 +2340,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-15effefcd8_54878788.png?v=54878788",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15effefcd8_54878788.png?v=54878788",
             "width": 1600,
             "height": 1200
           }
@@ -647,7 +2393,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72426952d0_9049321d.png?v=9049321d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72426952d0_9049321d.png?v=9049321d",
             "width": 1600,
             "height": 1200
           }
@@ -700,7 +2446,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8cccf5473b_df31f876.png?v=df31f876",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8cccf5473b_df31f876.png?v=df31f876",
             "width": 1600,
             "height": 1200
           }
@@ -753,7 +2499,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c8defdda17_7971e74b.png?v=7971e74b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c8defdda17_7971e74b.png?v=7971e74b",
             "width": 1600,
             "height": 1200
           }
@@ -806,7 +2552,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff00c386ff_c93569a3.png?v=c93569a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ff00c386ff_c93569a3.png?v=c93569a3",
             "width": 1600,
             "height": 1200
           }
@@ -859,7 +2605,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4dfdad82b0_06a77516.png?v=06a77516",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4dfdad82b0_06a77516.png?v=06a77516",
             "width": 1600,
             "height": 1200
           }
@@ -912,7 +2658,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c308b6410_39834cda.png?v=39834cda",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2c308b6410_39834cda.png?v=39834cda",
             "width": 1600,
             "height": 1200
           }
@@ -965,7 +2711,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8a384a9565_8c589eb8.png?v=8c589eb8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8a384a9565_8c589eb8.png?v=8c589eb8",
             "width": 1600,
             "height": 1200
           }
@@ -1018,7 +2764,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f4ae43acf1_bbe186d7.png?v=bbe186d7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f4ae43acf1_bbe186d7.png?v=bbe186d7",
             "width": 1600,
             "height": 1200
           }
@@ -1071,7 +2817,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-810a4d9ad8_eb9b67f2.png?v=eb9b67f2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-810a4d9ad8_eb9b67f2.png?v=eb9b67f2",
             "width": 1600,
             "height": 1200
           }
@@ -1124,7 +2870,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8354a07f8f_81f9c68b.png?v=81f9c68b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8354a07f8f_81f9c68b.png?v=81f9c68b",
             "width": 1600,
             "height": 1200
           }
@@ -1177,7 +2923,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c54ee354a_bab3ca38.png?v=bab3ca38",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2c54ee354a_bab3ca38.png?v=bab3ca38",
             "width": 1600,
             "height": 1200
           }
@@ -1230,7 +2976,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-76665cc539_89bf8ab8.png?v=89bf8ab8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-76665cc539_89bf8ab8.png?v=89bf8ab8",
             "width": 1600,
             "height": 1200
           }
@@ -1283,7 +3029,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8d748b625a_6a9678ce.png?v=6a9678ce",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8d748b625a_6a9678ce.png?v=6a9678ce",
             "width": 1600,
             "height": 1200
           }
@@ -1336,7 +3082,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-51b1a07811_6ba53012.png?v=6ba53012",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-51b1a07811_6ba53012.png?v=6ba53012",
             "width": 1600,
             "height": 1200
           }
@@ -1389,7 +3135,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dbd71d18f0_6d26e1a9.png?v=6d26e1a9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dbd71d18f0_6d26e1a9.png?v=6d26e1a9",
             "width": 1600,
             "height": 1200
           }
@@ -1442,7 +3188,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8814677f93_8fbddae0.png?v=8fbddae0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8814677f93_8fbddae0.png?v=8fbddae0",
             "width": 1600,
             "height": 1200
           }
@@ -1495,7 +3241,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0babe04e9f_33c9f0ab.png?v=33c9f0ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0babe04e9f_33c9f0ab.png?v=33c9f0ab",
             "width": 1600,
             "height": 1200
           }
@@ -1548,7 +3294,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-de740e96b8_cff98ce9.png?v=cff98ce9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-de740e96b8_cff98ce9.png?v=cff98ce9",
             "width": 1600,
             "height": 1200
           }
@@ -1601,7 +3347,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1a3ee8a7b1_6b884b2b.png?v=6b884b2b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1a3ee8a7b1_6b884b2b.png?v=6b884b2b",
             "width": 1600,
             "height": 1200
           }
@@ -1654,7 +3400,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a3e5b8c363_2cd799e6.png?v=2cd799e6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a3e5b8c363_2cd799e6.png?v=2cd799e6",
             "width": 1600,
             "height": 1200
           }
@@ -1707,7 +3453,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-12f07b6fcb_8d398d07.png?v=8d398d07",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-12f07b6fcb_8d398d07.png?v=8d398d07",
             "width": 1600,
             "height": 1200
           }
@@ -1760,7 +3506,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-372a7698cf_9c28adff.png?v=9c28adff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-372a7698cf_9c28adff.png?v=9c28adff",
             "width": 1600,
             "height": 1200
           }
@@ -1813,7 +3559,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f3463cfcf5_a5700365.png?v=a5700365",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f3463cfcf5_a5700365.png?v=a5700365",
             "width": 1600,
             "height": 1200
           }
@@ -1866,7 +3612,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8539b1d217_603ea937.png?v=603ea937",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8539b1d217_603ea937.png?v=603ea937",
             "width": 1600,
             "height": 1200
           }
@@ -1919,7 +3665,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bdaebd80e3_34a582f3.png?v=34a582f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bdaebd80e3_34a582f3.png?v=34a582f3",
             "width": 1600,
             "height": 1200
           }
@@ -1972,7 +3718,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-571eda8d93_325239eb.png?v=325239eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-571eda8d93_325239eb.png?v=325239eb",
             "width": 1600,
             "height": 1200
           }
@@ -2025,7 +3771,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-63138af011_b06641b3.png?v=b06641b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63138af011_b06641b3.png?v=b06641b3",
             "width": 1600,
             "height": 1200
           }
@@ -2078,7 +3824,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-952dd72b14_dae7c37e.png?v=dae7c37e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-952dd72b14_dae7c37e.png?v=dae7c37e",
             "width": 1600,
             "height": 1200
           }
@@ -2131,7 +3877,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-622eee2fa0_4e109276.png?v=4e109276",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-622eee2fa0_4e109276.png?v=4e109276",
             "width": 1600,
             "height": 1200
           }
@@ -2184,7 +3930,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-26de23a275_111bc45c.png?v=111bc45c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-26de23a275_111bc45c.png?v=111bc45c",
             "width": 1600,
             "height": 1200
           }
@@ -2237,7 +3983,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-e348712423_e8a89863.png?v=e8a89863",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e348712423_e8a89863.png?v=e8a89863",
             "width": 1600,
             "height": 1200
           }
@@ -2290,7 +4036,767 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-175140738f_f3ff9a06.png?v=f3ff9a06",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-175140738f_f3ff9a06.png?v=f3ff9a06",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-2d24769577",
+          "name": "Huang Yujia vs Yuan Chengyiyi | 13:20 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d24769577",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2d24769577",
+                  "name": "Huang Yujia vs Yuan Chengyiyi",
+                  "streams": [
+                    {
+                      "id": "st-2d24769577",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 125K Huzhou, China Women Singles",
+            "team_a": "Huang Yujia",
+            "team_b": "Yuan Chengyiyi",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a290f53393c9ac4de76db7306bdecd8f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/34d65739e294449cacc514119b9a1331.png",
+            "time": "13:20 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d24769577_f946825f.png?v=f946825f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cccf821c15",
+          "name": "Dang Yiming vs Varvara Panshina | 13:40 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cccf821c15",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cccf821c15",
+                  "name": "Dang Yiming vs Varvara Panshina",
+                  "streams": [
+                    {
+                      "id": "st-cccf821c15",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 125K Huzhou, China Women Singles",
+            "team_a": "Dang Yiming",
+            "team_b": "Varvara Panshina",
+            "logo_a": "/img/soccer.svg",
+            "logo_b": "/img/soccer.svg",
+            "time": "13:40 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cccf821c15_2220978c.png?v=2220978c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5a7679f94c",
+          "name": "Sorana Cirstea vs Coco Gauff | 16:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a7679f94c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5a7679f94c",
+                  "name": "Sorana Cirstea vs Coco Gauff",
+                  "streams": [
+                    {
+                      "id": "st-5a7679f94c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Sorana Cirstea",
+            "team_b": "Coco Gauff",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/13a8a8371635efb726be117d6c809299.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FtOo4lXpad84ytb8c9aNzAQsGO2r",
+            "time": "16:00 26/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5a7679f94c_f6c0a93e.png?v=f6c0a93e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a50b2237c7",
+          "name": "Jiri Lehecka vs Alex Michelsen | 16:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a50b2237c7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a50b2237c7",
+                  "name": "Jiri Lehecka vs Alex Michelsen",
+                  "streams": [
+                    {
+                      "id": "st-a50b2237c7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Jiri Lehecka",
+            "team_b": "Alex Michelsen",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4fceacb058d51659814226487739ca66.png",
+            "time": "16:00 26/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a50b2237c7_74080617.png?v=74080617",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-37ea0e7500",
+          "name": "Tallon Griekspoor vs Lorenzo Musetti | 17:10 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37ea0e7500",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-37ea0e7500",
+                  "name": "Tallon Griekspoor vs Lorenzo Musetti",
+                  "streams": [
+                    {
+                      "id": "st-37ea0e7500",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Tallon Griekspoor",
+            "team_b": "Lorenzo Musetti",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f14047b2c4cc46ce45f10f9c533463d8.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
+            "time": "17:10 26/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-37ea0e7500_a7e97631.png?v=a7e97631",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-da87a810c7",
+          "name": "Jannik Sinner vs Elmer Moeller | 21:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da87a810c7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-da87a810c7",
+                  "name": "Jannik Sinner vs Elmer Moeller",
+                  "streams": [
+                    {
+                      "id": "st-da87a810c7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Jannik Sinner",
+            "team_b": "Elmer Moeller",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dad6eb07f8e8e5485705e74b4d083067.png",
+            "time": "21:00 26/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-da87a810c7_06832389.png?v=06832389",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-448f44938d",
+          "name": "Vit Kopriva vs Arthur Rinderknech | 00:00 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-448f44938d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-448f44938d",
+                  "name": "Vit Kopriva vs Arthur Rinderknech",
+                  "streams": [
+                    {
+                      "id": "st-448f44938d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Vit Kopriva",
+            "team_b": "Arthur Rinderknech",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51719c96ea521bcc7fb6dd2057d6dc6a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/baaf14ad11b1de312b2e7f44b20fe13b.png",
+            "time": "00:00 27/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-448f44938d_d3d70901.png?v=d3d70901",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_20",
+      "name": "🏀 Bóng rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-8308382ff8",
+          "name": "SeaHorses Mikawa vs San-en NeoPhoenix | 13:05 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8308382ff8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8308382ff8",
+                  "name": "SeaHorses Mikawa vs San-en NeoPhoenix",
+                  "streams": [
+                    {
+                      "id": "st-8308382ff8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "SeaHorses Mikawa",
+            "team_b": "San-en NeoPhoenix",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/324cc01635a186046d31bddd15807528.png",
+            "time": "13:05 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8308382ff8_4250b5e1.png?v=4250b5e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3befff22d9",
+          "name": "Alvark Tokyo vs Shiga Lakes | 13:05 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3befff22d9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3befff22d9",
+                  "name": "Alvark Tokyo vs Shiga Lakes",
+                  "streams": [
+                    {
+                      "id": "st-3befff22d9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Alvark Tokyo",
+            "team_b": "Shiga Lakes",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/89b38d35baabff51bf0bee892f9df289.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e9733af4efbd74a471741f187f60a216.png",
+            "time": "13:05 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3befff22d9_b19c06c5.png?v=b19c06c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-513e62238c",
+          "name": "Koshigaya Alphas vs Kawasaki Brave Thunders | 13:05 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-513e62238c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-513e62238c",
+                  "name": "Koshigaya Alphas vs Kawasaki Brave Thunders",
+                  "streams": [
+                    {
+                      "id": "st-513e62238c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Koshigaya Alphas",
+            "team_b": "Kawasaki Brave Thunders",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f41f13f4060b6acecd0ad5b4ff04886b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e8edc9b94b7fd45ec9de586cacb1df6b.png",
+            "time": "13:05 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-513e62238c_e947277a.png?v=e947277a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2a4264bec8",
+          "name": "Rizing Zephyr Fukuoka vs Veltex Shizuoka | 13:05 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a4264bec8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2a4264bec8",
+                  "name": "Rizing Zephyr Fukuoka vs Veltex Shizuoka",
+                  "streams": [
+                    {
+                      "id": "st-2a4264bec8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B2 League",
+            "team_a": "Rizing Zephyr Fukuoka",
+            "team_b": "Veltex Shizuoka",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/415a800dacdd5c7ccdb07cc012473882.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c8cc6d43c8c97ff1724a04c96388fae9.png",
+            "time": "13:05 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a4264bec8_30e7e03e.png?v=30e7e03e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4397d57b68",
+          "name": "Taiwan Beer Leopards vs Formosa Dreamers | 13:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4397d57b68",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4397d57b68",
+                  "name": "Taiwan Beer Leopards vs Formosa Dreamers",
+                  "streams": [
+                    {
+                      "id": "st-4397d57b68",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "China Taipei Professional Basketball League",
+            "team_a": "Taiwan Beer Leopards",
+            "team_b": "Formosa Dreamers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dc026ad9211e3f42bdc552d24dfd8342.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/9c0da8a9409a4e838274dd9efb06d5a1.png",
+            "time": "13:30 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4397d57b68_175406a4.png?v=175406a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6850d847f6",
+          "name": "Fighting Eagles Nagoya vs Nagasaki Velca | 13:35 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6850d847f6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6850d847f6",
+                  "name": "Fighting Eagles Nagoya vs Nagasaki Velca",
+                  "streams": [
+                    {
+                      "id": "st-6850d847f6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "B1 League",
+            "team_a": "Fighting Eagles Nagoya",
+            "team_b": "Nagasaki Velca",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5fd4c2782c645694211128efa12ce7cf.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d8df78ff3d3b135144b73fa48dc888fe.png",
+            "time": "13:35 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6850d847f6_a4fec436.png?v=a4fec436",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8b5f91339a",
+          "name": "CSU Science Bucharest vs Universitatea Cluj-Napoca | 14:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b5f91339a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8b5f91339a",
+                  "name": "CSU Science Bucharest vs Universitatea Cluj-Napoca",
+                  "streams": [
+                    {
+                      "id": "st-8b5f91339a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romania Liga 1",
+            "team_a": "CSU Science Bucharest",
+            "team_b": "Universitatea Cluj-Napoca",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8401dcda133949c4b3450a53b579b44b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a9ff1fc6a7e795367985e3880859c068.png",
+            "time": "14:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8b5f91339a_45b15c08.png?v=45b15c08",
             "width": 1600,
             "height": 1200
           }
@@ -2299,7 +4805,7 @@
     },
     {
       "id": "cate_4",
-      "name": "🎱 Billiards (1)",
+      "name": "🏅 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2387,281 +4893,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4bafeac62a_b4846ce6.png?v=b4846ce6",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_27",
-      "name": "🎾 Tennis (0)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-5a7679f94c",
-          "name": "Sorana Cirstea vs Coco Gauff | 16:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a7679f94c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5a7679f94c",
-                  "name": "Sorana Cirstea vs Coco Gauff",
-                  "streams": [
-                    {
-                      "id": "st-5a7679f94c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Madrid, Spain Women Singles",
-            "team_a": "Sorana Cirstea",
-            "team_b": "Coco Gauff",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/13a8a8371635efb726be117d6c809299.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FtOo4lXpad84ytb8c9aNzAQsGO2r",
-            "time": "16:00 26/04",
-            "blv": "GIÀNG A TÀI",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5a7679f94c_f6c0a93e.png?v=f6c0a93e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-a50b2237c7",
-          "name": "Jiri Lehecka vs Alex Michelsen | 16:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a50b2237c7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a50b2237c7",
-                  "name": "Jiri Lehecka vs Alex Michelsen",
-                  "streams": [
-                    {
-                      "id": "st-a50b2237c7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jiri Lehecka",
-            "team_b": "Alex Michelsen",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4fceacb058d51659814226487739ca66.png",
-            "time": "16:00 26/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a50b2237c7_74080617.png?v=74080617",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-37ea0e7500",
-          "name": "Tallon Griekspoor vs Lorenzo Musetti | 17:10 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37ea0e7500",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-37ea0e7500",
-                  "name": "Tallon Griekspoor vs Lorenzo Musetti",
-                  "streams": [
-                    {
-                      "id": "st-37ea0e7500",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Tallon Griekspoor",
-            "team_b": "Lorenzo Musetti",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f14047b2c4cc46ce45f10f9c533463d8.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
-            "time": "17:10 26/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-37ea0e7500_a7e97631.png?v=a7e97631",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-da87a810c7",
-          "name": "Jannik Sinner vs Elmer Moeller | 21:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da87a810c7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-da87a810c7",
-                  "name": "Jannik Sinner vs Elmer Moeller",
-                  "streams": [
-                    {
-                      "id": "st-da87a810c7",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Elmer Moeller",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dad6eb07f8e8e5485705e74b4d083067.png",
-            "time": "21:00 26/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-da87a810c7_06832389.png?v=06832389",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-448f44938d",
-          "name": "Vit Kopriva vs Arthur Rinderknech | 00:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-448f44938d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-448f44938d",
-                  "name": "Vit Kopriva vs Arthur Rinderknech",
-                  "streams": [
-                    {
-                      "id": "st-448f44938d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Vit Kopriva",
-            "team_b": "Arthur Rinderknech",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51719c96ea521bcc7fb6dd2057d6dc6a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/baaf14ad11b1de312b2e7f44b20fe13b.png",
-            "time": "00:00 27/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-448f44938d_d3d70901.png?v=d3d70901",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4bafeac62a_b4846ce6.png?v=b4846ce6",
             "width": 1600,
             "height": 1200
           }
@@ -2670,7 +4902,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (0)",
+      "name": "🏅 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2723,7 +4955,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0d900ef2fa_7928ac83.png?v=7928ac83",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0d900ef2fa_7928ac83.png?v=7928ac83",
             "width": 1600,
             "height": 1200
           }
@@ -2776,7 +5008,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2ac9ea9138_52e4bc75.png?v=52e4bc75",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2ac9ea9138_52e4bc75.png?v=52e4bc75",
             "width": 1600,
             "height": 1200
           }
@@ -2785,7 +5017,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (3)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2873,7 +5105,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f31b5888ba_822c802d.png?v=822c802d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f31b5888ba_822c802d.png?v=822c802d",
             "width": 1600,
             "height": 1200
           }
@@ -2961,7 +5193,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ac6525989d_4bae1d35.png?v=4bae1d35",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ac6525989d_4bae1d35.png?v=4bae1d35",
             "width": 1600,
             "height": 1200
           }
@@ -3049,7 +5281,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fd820f4be_a3352723.png?v=a3352723",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4fd820f4be_a3352723.png?v=a3352723",
             "width": 1600,
             "height": 1200
           }
@@ -3102,7 +5334,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6f295a3e96_9ced933c.png?v=9ced933c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f295a3e96_9ced933c.png?v=9ced933c",
             "width": 1600,
             "height": 1200
           }
@@ -3155,7 +5387,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f5fd54bfcf_3bd6e2aa.png?v=3bd6e2aa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f5fd54bfcf_3bd6e2aa.png?v=3bd6e2aa",
             "width": 1600,
             "height": 1200
           }
@@ -3208,7 +5440,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0633883a9a_61184c24.png?v=61184c24",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0633883a9a_61184c24.png?v=61184c24",
             "width": 1600,
             "height": 1200
           }
@@ -3217,7 +5449,7 @@
     },
     {
       "id": "cate_2",
-      "name": "🥊 Võ Thuật (0)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3270,7 +5502,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-d94dca34a1_4c8c558d.png?v=4c8c558d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d94dca34a1_4c8c558d.png?v=4c8c558d",
             "width": 1600,
             "height": 1200
           }
@@ -3323,7 +5555,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8275855027_8a6d2310.png?v=8a6d2310",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8275855027_8a6d2310.png?v=8a6d2310",
             "width": 1600,
             "height": 1200
           }
@@ -3376,7 +5608,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1b3c59374e_45c35bf3.png?v=45c35bf3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1b3c59374e_45c35bf3.png?v=45c35bf3",
             "width": 1600,
             "height": 1200
           }
@@ -3429,7 +5661,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8340783269_462c6bed.png?v=462c6bed",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8340783269_462c6bed.png?v=462c6bed",
             "width": 1600,
             "height": 1200
           }
@@ -3482,7 +5714,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3820515bd7_f19fbf15.png?v=f19fbf15",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3820515bd7_f19fbf15.png?v=f19fbf15",
             "width": 1600,
             "height": 1200
           }
@@ -3535,7 +5767,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-41d031c28c_81230c11.png?v=81230c11",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-41d031c28c_81230c11.png?v=81230c11",
             "width": 1600,
             "height": 1200
           }
@@ -3588,7 +5820,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-40b035a597_c04b9678.png?v=c04b9678",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-40b035a597_c04b9678.png?v=c04b9678",
             "width": 1600,
             "height": 1200
           }
