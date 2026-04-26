@@ -589,11 +589,32 @@ def main():
         "groups":      groups,
     }
 
-    with open("output.json", "w", encoding="utf-8") as f:
+    # Ghi vào staging trước
+    staging = "output_staging.json"
+    with open(staging, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     total = sum(len(g["channels"]) for g in groups)
-    print(f"\nXong! {total} kenh, {len(groups)} mon the thao -> output.json")
+
+    # So sánh với output.json hiện tại (bỏ qua expire= để tránh push thừa)
+    def normalize(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                d = json.load(f)
+            s = json.dumps(d, sort_keys=True, ensure_ascii=False)
+            return re.sub(r"\?expire=\d+", "", s)
+        except Exception:
+            return ""
+
+    old_norm = normalize("output.json")
+    new_norm = normalize(staging)
+
+    if old_norm != new_norm:
+        os.replace(staging, "output.json")  # atomic swap, app đang đọc không bị đứt
+        print(f"\nXong! {total} kenh, {len(groups)} mon the thao -> output.json (DA CAP NHAT)")
+    else:
+        os.remove(staging)
+        print(f"\nXong! {total} kenh, {len(groups)} mon the thao -> Khong co thay doi, giu nguyen output.json")
 
 
 if __name__ == "__main__":
