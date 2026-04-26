@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (33 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -42,7 +42,25 @@
                     {
                       "id": "st-cd90f89f58",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-326e74a654",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/f8d0d771859da44638cafda376ae4876/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -95,7 +113,25 @@
                     {
                       "id": "st-8af0a4202e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4633d07503",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/244f51e7187641110f2fffd987017d00/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -148,7 +184,25 @@
                     {
                       "id": "st-6c8cbde78e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3da646a884",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/f2f52611f238e65663709de86fd83723/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -201,7 +255,25 @@
                     {
                       "id": "st-6a878d672a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0777e06db6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/e0b61e39a40d37c157904dc4c17a4308/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -254,7 +326,25 @@
                     {
                       "id": "st-5851db8c95",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-35e0d3c8c7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/46f081fbe4251262a8f79895ae868798/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -307,7 +397,25 @@
                     {
                       "id": "st-ecc9aeb94e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6d741c48ef",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/86c2fd5a02f0546b06c74ae17542f6a2/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -360,7 +468,25 @@
                     {
                       "id": "st-63b7f4c51f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a7c868030",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/ec75a105d37f3caccac722a583ed0ab0/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -413,7 +539,25 @@
                     {
                       "id": "st-2a50d634cf",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6fa196e4c8",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/0e5ddaa6116715772bc49e018790c7e2/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -466,7 +610,25 @@
                     {
                       "id": "st-6f6ae3465f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a6f97d575",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/70667034aa46c9ca402cb24ff645fa52/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -519,7 +681,25 @@
                     {
                       "id": "st-8f2ee2ee5d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-dfb52ad4fa",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/bcf2ba7d7a6772d5ac036757dd0c11df/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -572,7 +752,25 @@
                     {
                       "id": "st-7193dab953",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-70dc103136",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/21592d31ebdeca91275ad5d7df14b718/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -625,7 +823,25 @@
                     {
                       "id": "st-2cb9344552",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8f89ce686a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/f9b97625c6a2ff110f01abd435fc2219/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -678,7 +894,25 @@
                     {
                       "id": "st-fb278ce1a6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5a76b9dd0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/440f138aaa0bef71beef59b432f3d4a2/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -731,7 +965,25 @@
                     {
                       "id": "st-0217e3fceb",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-85258c205c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/feaceebf2d0ac24ffbeb9f532fc43597/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -784,7 +1036,25 @@
                     {
                       "id": "st-263bb91aff",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-224cf8549e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/584a3fcc052a92ed53b43767818ddf53/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -837,7 +1107,25 @@
                     {
                       "id": "st-f2d4b5d020",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-90aa9b692d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/1245e6b86020028bd528a030b9f6b3ee/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1205,7 +1493,25 @@
                     {
                       "id": "st-81ab8b2278",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-35bebb6866",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/c3420895ceab1984321db3eef3bb3e97/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1258,7 +1564,25 @@
                     {
                       "id": "st-3c59481787",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ee61fd9e4",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/98e70ae9f71f09739d4b6213f54b65bf/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1311,7 +1635,25 @@
                     {
                       "id": "st-af29b929b8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5be030fb1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/672923f164c0cb017cab17d604d1dbd9/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1364,7 +1706,25 @@
                     {
                       "id": "st-5e8953ddca",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a772d23189",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/592d87be09fa9f60b9f2b85e55b12525/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1417,7 +1777,25 @@
                     {
                       "id": "st-a4b8d2786c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8d28c6491",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/d4b5c06d0132a03b4dc517db407e00b6/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1470,7 +1848,25 @@
                     {
                       "id": "st-c1c4ebb70f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1739ae2d6d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/158209594db96240c5c84900401dcd0f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1523,7 +1919,25 @@
                     {
                       "id": "st-10d86e7b7b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a6da7d901",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/7871b7944b6e5823e9ea9fbf3c2e7919/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1576,7 +1990,25 @@
                     {
                       "id": "st-0ee1cb3713",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-aba839908b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/414d8cf0d8f44a572845c089c7a6f749/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1629,7 +2061,25 @@
                     {
                       "id": "st-0a19a07645",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-86e5fcbc5c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/1a83de448f8407d059864342a1b2fec3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1682,7 +2132,25 @@
                     {
                       "id": "st-8321d9cfa7",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-345d22dcb5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/d4ebe6e767824b189303520f103ac02e/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1735,7 +2203,25 @@
                     {
                       "id": "st-06b32276ce",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e3741ed41",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/2843f2c02aa44b7a0aae137ef8794e25/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1788,7 +2274,25 @@
                     {
                       "id": "st-48e107936d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-61809eece9",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/001b45963dcdc6f00be579161fd3c52c/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1816,8 +2320,8 @@
           }
         },
         {
-          "id": "kaytee-e5492051e1",
-          "name": "Shanghai RCB(W) vs Shaanxi(W) | 15:00 26/04",
+          "id": "kaytee-b71f1b451e",
+          "name": "Heze Team vs Zaozhu | 15:30 26/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1831,17 +2335,35 @@
           ],
           "sources": [
             {
-              "id": "src-e5492051e1",
+              "id": "src-b71f1b451e",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-e5492051e1",
-                  "name": "Shanghai RCB(W) vs Shaanxi(W)",
+                  "id": "ct-b71f1b451e",
+                  "name": "Heze Team vs Zaozhu",
                   "streams": [
                     {
-                      "id": "st-e5492051e1",
+                      "id": "st-b71f1b451e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc858dd3bb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/200cce48f326c61b099c44c1eccd2187/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1849,12 +2371,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Chinese Women's Super League",
-            "team_a": "Shanghai RCB(W)",
-            "team_b": "Shaanxi(W)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/196b3be69e30878dc643aa8fcc11203c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/30481e72d12bde49250fa363650fe8bc.png",
-            "time": "15:00 26/04",
+            "league": "Shandong Qilu Football Super League",
+            "team_a": "Heze Team",
+            "team_b": "Zaozhu",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d3a124222d3f39d562ec98b6807be37a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a6fe61cb92ec910486f3aa3fc4c0dd82.png",
+            "time": "15:30 26/04",
             "blv": "",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -1863,38 +2385,56 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e5492051e1_fe3b683a.png?v=fe3b683a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b71f1b451e_5347692a.png?v=5347692a",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-ab32988fa4",
-          "name": "FK Chelyabinsk vs Ural Yekaterinburg | 15:30 26/04",
+          "id": "kaytee-6218ffd160",
+          "name": "Zhuhai Team vs Yangjiang Team | 15:30 26/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-ab32988fa4",
+              "id": "src-6218ffd160",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-ab32988fa4",
-                  "name": "FK Chelyabinsk vs Ural Yekaterinburg",
+                  "id": "ct-6218ffd160",
+                  "name": "Zhuhai Team vs Yangjiang Team",
                   "streams": [
                     {
-                      "id": "st-ab32988fa4",
+                      "id": "st-6218ffd160",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e56299023",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/a5dc619ed36175eddf89dd347c368eb9/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1902,21 +2442,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Russian National Football League",
-            "team_a": "FK Chelyabinsk",
-            "team_b": "Ural Yekaterinburg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ad447efc200f864044a546c6c4811473.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c44580753ff5e1f47b7784d28b10af2f.png",
+            "league": "Guangdong City Football League",
+            "team_a": "Zhuhai Team",
+            "team_b": "Yangjiang Team",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f9112a213b515b790c871b00efbd7a23.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/71fb93cad892f72b2ad3e47eaa858237.png",
             "time": "15:30 26/04",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ab32988fa4_719c2edf.png?v=719c2edf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6218ffd160_8dc8f986.png?v=8dc8f986",
             "width": 1600,
             "height": 1200
           }
@@ -4045,7 +4585,7 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4152,6 +4692,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cccf821c15_2220978c.png?v=2220978c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c9c65bbc32",
+          "name": "Diana Martynov vs Amandine Monnot | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9c65bbc32",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c9c65bbc32",
+                  "name": "Diana Martynov vs Amandine Monnot",
+                  "streams": [
+                    {
+                      "id": "st-c9c65bbc32",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 125 Saint-Malo, France, Women Singles",
+            "team_a": "Diana Martynov",
+            "team_b": "Amandine Monnot",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/41eea24387dd7cf2d2090c1331345406.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d08a9513ccccfb5a29e9ac6de58cdc15.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c9c65bbc32_4050f850.png?v=4050f850",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0602d22a46",
+          "name": "Carolina Meligeni Rodrigues Alves vs Weronika Falkowska | 15:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0602d22a46",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0602d22a46",
+                  "name": "Carolina Meligeni Rodrigues Alves vs Weronika Falkowska",
+                  "streams": [
+                    {
+                      "id": "st-0602d22a46",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 125 Saint-Malo, France, Women Singles",
+            "team_a": "Carolina Meligeni Rodrigues Alves",
+            "team_b": "Weronika Falkowska",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0da935c0529e077c285af51ac0cdbca9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/22f4304c81615a681b1e6a0d8825700b.png",
+            "time": "15:00 26/04",
+            "blv": "",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0602d22a46_37f9eac1.png?v=37f9eac1",
             "width": 1600,
             "height": 1200
           }
@@ -4425,117 +5071,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-8308382ff8",
-          "name": "SeaHorses Mikawa vs San-en NeoPhoenix | 13:05 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8308382ff8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8308382ff8",
-                  "name": "SeaHorses Mikawa vs San-en NeoPhoenix",
-                  "streams": [
-                    {
-                      "id": "st-8308382ff8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "B1 League",
-            "team_a": "SeaHorses Mikawa",
-            "team_b": "San-en NeoPhoenix",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1ffaffb3d06bd77e8ced734571675f17.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/324cc01635a186046d31bddd15807528.png",
-            "time": "13:05 26/04",
-            "blv": "",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8308382ff8_4250b5e1.png?v=4250b5e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-3befff22d9",
-          "name": "Alvark Tokyo vs Shiga Lakes | 13:05 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3befff22d9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3befff22d9",
-                  "name": "Alvark Tokyo vs Shiga Lakes",
-                  "streams": [
-                    {
-                      "id": "st-3befff22d9",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "B1 League",
-            "team_a": "Alvark Tokyo",
-            "team_b": "Shiga Lakes",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/89b38d35baabff51bf0bee892f9df289.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e9733af4efbd74a471741f187f60a216.png",
-            "time": "13:05 26/04",
-            "blv": "",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3befff22d9_b19c06c5.png?v=b19c06c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-513e62238c",
           "name": "Koshigaya Alphas vs Kawasaki Brave Thunders | 13:05 26/04",
@@ -4585,59 +5125,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-513e62238c_e947277a.png?v=e947277a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2a4264bec8",
-          "name": "Rizing Zephyr Fukuoka vs Veltex Shizuoka | 13:05 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a4264bec8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2a4264bec8",
-                  "name": "Rizing Zephyr Fukuoka vs Veltex Shizuoka",
-                  "streams": [
-                    {
-                      "id": "st-2a4264bec8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "B2 League",
-            "team_a": "Rizing Zephyr Fukuoka",
-            "team_b": "Veltex Shizuoka",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/415a800dacdd5c7ccdb07cc012473882.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c8cc6d43c8c97ff1724a04c96388fae9.png",
-            "time": "13:05 26/04",
-            "blv": "",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a4264bec8_30e7e03e.png?v=30e7e03e",
             "width": 1600,
             "height": 1200
           }
@@ -4805,7 +5292,7 @@
     },
     {
       "id": "cate_4",
-      "name": "🏅 Billiards",
+      "name": "🏅 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5017,7 +5504,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
