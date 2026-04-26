@@ -1605,6 +1605,324 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-372a7698cf",
+          "name": "Paris FC vs LOSC Lille | 22:15 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-372a7698cf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-372a7698cf",
+                  "name": "Paris FC vs LOSC Lille",
+                  "streams": [
+                    {
+                      "id": "st-372a7698cf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "LOSC Lille",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/83a982f8219a768e7cd29d1ac765b199.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/28e94925fdcc848f86a544a1cedcceed.png",
+            "time": "22:15 26/04",
+            "blv": "GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-372a7698cf_f7a1c4d2.png?v=f7a1c4d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f3463cfcf5",
+          "name": "Havre Athletic Club vs Metz | 22:15 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3463cfcf5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f3463cfcf5",
+                  "name": "Havre Athletic Club vs Metz",
+                  "streams": [
+                    {
+                      "id": "st-f3463cfcf5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Havre Athletic Club",
+            "team_b": "Metz",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/16fd214da24aef0bbb775e44fe7e79f2.png",
+            "time": "22:15 26/04",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f3463cfcf5_4e70c054.png?v=4e70c054",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8539b1d217",
+          "name": "Stade Rennais FC vs FC Nantes | 22:15 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8539b1d217",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8539b1d217",
+                  "name": "Stade Rennais FC vs FC Nantes",
+                  "streams": [
+                    {
+                      "id": "st-8539b1d217",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Stade Rennais FC",
+            "team_b": "FC Nantes",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/eab8f0e847742fd328bb581299bd99ca.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
+            "time": "22:15 26/04",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8539b1d217_b71138fe.png?v=b71138fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-bdaebd80e3",
+          "name": "Borussia Dortmund vs SC Freiburg | 22:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdaebd80e3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bdaebd80e3",
+                  "name": "Borussia Dortmund vs SC Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-bdaebd80e3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund",
+            "team_b": "SC Freiburg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bbfacbdbe67705172c6414d7e9c21b58.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
+            "time": "22:30 26/04",
+            "blv": "GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bdaebd80e3_1ffe1c85.png?v=1ffe1c85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-571eda8d93",
+          "name": "Torino vs Inter Milan | 23:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-571eda8d93",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-571eda8d93",
+                  "name": "Torino vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-571eda8d93",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Torino",
+            "team_b": "Inter Milan",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/aa2245702c40f77799a5ad4b119581a8.png",
+            "time": "23:00 26/04",
+            "blv": "GIÀNG A NGAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-571eda8d93_449e83c3.png?v=449e83c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-63138af011",
+          "name": "CA Osasuna vs Sevilla FC | 23:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63138af011",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-63138af011",
+                  "name": "CA Osasuna vs Sevilla FC",
+                  "streams": [
+                    {
+                      "id": "st-63138af011",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "CA Osasuna",
+            "team_b": "Sevilla FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c2050b940076df70b2ad0a6103c50df4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "time": "23:30 26/04",
+            "blv": "GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-63138af011_bc4bb2ad.png?v=bc4bb2ad",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1846,111 +2164,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-3cd3f23a03",
-          "name": "Phoenix Suns vs Oklahoma City Thunder | 02:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3cd3f23a03",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3cd3f23a03",
-                  "name": "Phoenix Suns vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-3cd3f23a03",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f70d468b1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed117636517_145247/index.m3u8?expire=1777748982",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e10a446708",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f1f4f60e89fc9409a03db51e35276a53/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d4e675a8da",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed117636517_145247/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Phoenix Suns",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/da3c882a7e0bc592b4c1ba9d8c5fb68d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
-            "time": "02:30 26/04",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3cd3f23a03_03b524ff.png?v=03b524ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-fcf0f08bcc",
           "name": "Atlanta Hawks vs New York Knicks | 05:00 26/04",
           "type": "single",
@@ -1976,7 +2189,59 @@
                     {
                       "id": "st-fcf0f08bcc",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c34a7699fe",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed38fe4841d_145241/index.m3u8?expire=1777759102",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a463cb3dec",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4a692b59d1d66dd9cddc5dc647fa8e09/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c3197de68c",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ed38fe4841d_145241/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2507,6 +2772,59 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-7f4ad36f25",
+          "name": "Aljamain Sterling vs Youssef Zalal | 07:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f4ad36f25",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7f4ad36f25",
+                  "name": "Aljamain Sterling vs Youssef Zalal",
+                  "streams": [
+                    {
+                      "id": "st-7f4ad36f25",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC FIGHT NIGHT",
+            "team_a": "Aljamain Sterling",
+            "team_b": "Youssef Zalal",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/dd92f48c46ead1255a62dc36125a04d2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/897a33a94c9dae228d8ac2a7e2cf71be.png",
+            "time": "07:00 26/04",
+            "blv": "GIÀNG A XẢ",
+            "is_live": false,
+            "cate_name": "Võ Thuật"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-7f4ad36f25_ba13b571.png?v=ba13b571",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-d94dca34a1",
           "name": "Rodtang Jitmuangnon vs Takeru Segawa | 18:30 29/04",
