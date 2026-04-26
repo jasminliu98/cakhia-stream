@@ -321,26 +321,63 @@ def get_matches() -> list[dict]:
 # SCRAPE STREAMS
 # ─────────────────────────────────────────────────────────────────────────────
 
-def get_streams(match_id: str, blv_list: list[dict]) -> list[str]:
-    """Lấy m3u8 từ cbox, chỉ dùng BLV có tên, bỏ sóng quốc tế."""
-    named_blv = [b for b in blv_list if b["name"].strip()]
-    if not named_blv:
+def _fetch_m3u8(match_id: str, channel_id: str) -> list[str]:
+    """Gọi cbox lấy m3u8 cho 1 channel_id cụ thể."""
+    try:
+        url = f"{CBOX_URL}?match_id={match_id}&channel_id={channel_id}"
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        links = []
+        for raw in re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', res.text):
+            clean = raw.replace("\\u0026", "&").replace("\\/", "/")
+            if clean not in links:
+                links.append(clean)
+        return links
+    except Exception as e:
+        print(f"    Lỗi cbox {match_id}/{channel_id}: {e}")
         return []
 
-    streams = []
-    for ch in named_blv[:3]:
-        try:
-            url = f"{CBOX_URL}?match_id={match_id}&channel_id={ch['id']}"
-            res = requests.get(url, headers=HEADERS, timeout=10)
-            for raw in re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', res.text):
-                clean = raw.replace("\\u0026", "&").replace("\\/", "/")
-                if clean not in streams:
-                    streams.append(clean)
-            if streams:
-                break
-        except Exception as e:
-            print(f"    Lỗi cbox {match_id}/{ch['id']}: {e}")
+
+def get_streams(match_id: str, blv_list: list[dict], cate_id: str = "1") -> list[str]:
+    """
+    Lấy stream links theo đúng logic gốc:
+
+    Bóng đá (cate_id == "1"):
+      - Link 0  = channel_id=0  (sóng quốc tế / không BLV)  → đặt đầu tiên
+      - Link 1+ = các BLV có tên (theo thứ tự blv_list)
+
+    Môn khác (bóng rổ, võ thuật, ...):
+      - Chỉ lấy BLV có tên, bỏ channel_id=0
+      - Không có BLV tên → trả về []
+    """
+    streams: list[str] = []
+    named_blv = [b for b in blv_list if b["name"].strip()]
+
+    if cate_id == "1":
+        # ── Bóng đá: channel_id=0 lên đầu ──────────────────────────────────
+        for lnk in _fetch_m3u8(match_id, "0"):
+            if lnk not in streams:
+                streams.append(lnk)
         time.sleep(0.2)
+
+        # Sau đó thêm BLV có tên (tối đa 3)
+        for blv in named_blv[:3]:
+            for lnk in _fetch_m3u8(match_id, blv["id"]):
+                if lnk not in streams:
+                    streams.append(lnk)
+            time.sleep(0.2)
+
+    else:
+        # ── Môn khác: chỉ BLV có tên ────────────────────────────────────────
+        if not named_blv:
+            return []
+        for blv in named_blv[:3]:
+            links = _fetch_m3u8(match_id, blv["id"])
+            for lnk in links:
+                if lnk not in streams:
+                    streams.append(lnk)
+            if streams:
+                break          # lấy được rồi thì dừng
+            time.sleep(0.2)
 
     return streams
 
@@ -448,7 +485,7 @@ def main() -> None:
 
         streams: list[str] = []
         if match["is_live"]:
-            streams = get_streams(match["match_id"], match["blv_list"])
+            streams = get_streams(match["match_id"], match["blv_list"], match["cate_id"])
             print(f"  stream: {len(streams)} link{'(s)' if streams else ' — bỏ qua'}")
 
         uid        = make_id(match["url"], "kaytee")
@@ -467,10 +504,15 @@ def main() -> None:
     # Build groups
     groups = []
     for cate_id, channels in cate_channels.items():
-        cate_info    = CATE_MAP.get(cate_id, "🏅")
-        emoji        = cate_info.split(" ")[0]
-        raw_name     = channels[0].get("org_metadata", {}).get("cate_name", "") if channels else ""
-        cate_name    = f"{emoji} {raw_name}" if raw_name else cate_info
+        cate_info = CATE_MAP.get(cate_id, "🏅")
+        emoji     = cate_info.split(" ")[0]
+        raw_name  = channels[0].get("org_metadata", {}).get("cate_name", "") if channels else ""
+        base_name = f"{emoji} {raw_name}" if raw_name else cate_info
+
+        # Đếm số trận đang LIVE trong group này
+        live_count = sum(1 for ch in channels if ch.get("org_metadata", {}).get("is_live", False))
+        cate_name  = f"{base_name} ({live_count} LIVE)" if live_count > 0 else base_name
+
         groups.append({
             "id":            f"cate_{cate_id}",
             "name":          cate_name,
