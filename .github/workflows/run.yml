@@ -2,10 +2,7 @@ name: Run Scraper
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/30 * * * *'
 
-# ← THÊM BLOCK NÀY
 permissions:
   contents: write
 
@@ -17,8 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # ← thêm dòng này
-          fetch-depth: 0                       # ← lấy full history tránh conflict
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
