@@ -3,7 +3,11 @@ name: Run Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'   # chạy mỗi 30 phút, tuỳ chỉnh
+    - cron: '*/30 * * * *'
+
+# ← THÊM BLOCK NÀY
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -11,19 +15,23 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5          # ← fix warning Node.js 20
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # ← thêm dòng này
+          fetch-depth: 0                       # ← lấy full history tránh conflict
 
       - name: Setup Python
-        uses: actions/setup-python@v6      # ← fix warning Node.js 20
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 Pillow
+        run: pip install requests beautifulsoup4 Pillow
 
       - name: Run scraper
         run: python scraper.py
+        env:
+          REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main
 
       - name: Commit output
         run: |
@@ -32,5 +40,3 @@ jobs:
           git add output.json thumbs/
           git diff --cached --quiet || git commit -m "Update output [skip ci]"
           git push
-        env:
-          REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main
