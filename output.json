@@ -1701,8 +1701,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Zheng Qinwen",
             "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/3a9ffdff25f3ec3b14e0e5a48cdd5962.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3a9ffdff25f3ec3b14e0e5a48cdd5962.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
             "time": "01:00 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
@@ -1712,7 +1712,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4792e1b14_3fc7b5d5.png?v=3fc7b5d5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4792e1b14_1b762a73.png?v=1b762a73",
             "width": 1600,
             "height": 1200
           }
@@ -1754,8 +1754,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Joao Fonseca",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/817bb3e0f0a60a3e04e82bcf0324d51c.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/817bb3e0f0a60a3e04e82bcf0324d51c.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
             "time": "03:10 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
@@ -1765,7 +1765,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3be70b4bfd_ff2f35ef.png?v=ff2f35ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3be70b4bfd_85a8f8b5.png?v=85a8f8b5",
             "width": 1600,
             "height": 1200
           }
