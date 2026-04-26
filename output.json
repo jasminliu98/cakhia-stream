@@ -359,11 +359,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-70d2c9abae",
+                          "id": "lnk-94580bd81b",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee5aa936518_145274/index.m3u8?expire=1777833257",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-609e94f120",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8f004036586c54559ead97df821ba935/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1607,99 +1624,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-a4792e1b14",
-          "name": "Zheng Qinwen vs Elena Rybakina | 01:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4792e1b14",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a4792e1b14",
-                  "name": "Zheng Qinwen vs Elena Rybakina",
-                  "streams": [
-                    {
-                      "id": "st-a4792e1b14",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7c3f9d228",
-                          "name": "GIÀNG A TÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee4e5a36518_145413/index.m3u8?expire=1777830106",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b3082c6258",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/50d5d3e13fc27c98377a2f4e7f740bfc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Madrid, Spain Women Singles",
-            "team_a": "Zheng Qinwen",
-            "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/3a9ffdff25f3ec3b14e0e5a48cdd5962.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsMFF3aWai0eb8lzeudAjwIjYgKI",
-            "time": "01:00 27/04",
-            "blv": "GIÀNG A TÀI",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4792e1b14_3fc7b5d5.png?v=3fc7b5d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-64fa087981",
           "name": "Joao Fonseca vs Rafael Jodar | 03:40 27/04",
@@ -1726,7 +1655,25 @@
                     {
                       "id": "st-64fa087981",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-db4abe7651",
+                          "name": "GIÀNG A TÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee76ef36518_145413/index.m3u8?expire=1777840495",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1737,8 +1684,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Joao Fonseca",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/817bb3e0f0a60a3e04e82bcf0324d51c.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/817bb3e0f0a60a3e04e82bcf0324d51c.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
             "time": "03:40 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
@@ -1748,7 +1695,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-64fa087981_ff2f35ef.png?v=ff2f35ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-64fa087981_85a8f8b5.png?v=85a8f8b5",
             "width": 1600,
             "height": 1200
           }
@@ -1790,8 +1737,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Alejandro Davidovich Fokina",
             "team_b": "Casper Ruud",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/1a7591c2e584ee248ed7ec3e3181adf2.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/74333a05a20c9c27863391ba5ba2024e.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1a7591c2e584ee248ed7ec3e3181adf2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
             "time": "16:00 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1801,7 +1748,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_c8055cc3.png?v=c8055cc3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_dd6765f0.png?v=dd6765f0",
             "width": 1600,
             "height": 1200
           }
@@ -1843,8 +1790,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Daniel Merida Aguilar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/dd9de97f2c17b8e1596699f5c780156d.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
             "time": "17:10 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1854,7 +1801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_c4a5f8b1.png?v=c4a5f8b1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_551e2247.png?v=551e2247",
             "width": 1600,
             "height": 1200
           }
@@ -1896,8 +1843,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "18:20 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1907,7 +1854,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_2d49aa62.png?v=2d49aa62",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_395c2d86.png?v=395c2d86",
             "width": 1600,
             "height": 1200
           }
