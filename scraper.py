@@ -165,14 +165,11 @@ def make_thumbnail(match, channel_id):
     return out_path
 
 def is_within_24h(match_time, cate_id="1"):
-    """
-    Với bóng đá (cate_id=1): chỉ hiển thị trận trong 24h tới (và tối đa 6h đã qua).
-    Với các môn khác: không lọc theo thời gian (trả về True luôn).
-    """
     if cate_id != "1":
-        return True  # môn khác không giới hạn 24h
-    from datetime import datetime, timedelta
+        return True
+    from datetime import datetime, timedelta, timezone
     try:
+        VN_TZ = timezone(timedelta(hours=7))  # UTC+7
         parts = match_time.strip().split()
         hm = parts[0].split(":")
         hour, minute = int(hm[0]), int(hm[1])
@@ -181,12 +178,8 @@ def is_within_24h(match_time, cate_id="1"):
             day, month = int(dm[0]), int(dm[1]) if len(dm) > 1 else 4
         else:
             return True
-        now = datetime.now()
-        year = now.year
-        try:
-            match_dt = datetime(year, month, day, hour, minute)
-        except ValueError:
-            return False
+        now = datetime.now(VN_TZ)  # Giờ VN hiện tại
+        match_dt = datetime(now.year, month, day, hour, minute, tzinfo=VN_TZ)
         lower = now - timedelta(hours=6)
         upper = now + timedelta(hours=24)
         return lower <= match_dt <= upper
