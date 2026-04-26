@@ -1,36 +1,36 @@
-name: Update Stream JSON
+name: Run Scraper
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
+  schedule:
+    - cron: '*/30 * * * *'   # chạy mỗi 30 phút, tuỳ chỉnh
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v5          # ← fix warning Node.js 20
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6      # ← fix warning Node.js 20
         with:
           python-version: '3.11'
 
-      - name: Install thu vien
-        run: pip install requests beautifulsoup4 Pillow
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 Pillow
 
-      - name: Chay scraper
-        env:
-          REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/main
+      - name: Run scraper
         run: python scraper.py
 
-      - name: Luu files vao repo
+      - name: Commit output
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output.json thumbs/
-          git diff --cached --quiet || git commit -m "Update $(date '+%H:%M %d/%m/%Y')"
+          git diff --cached --quiet || git commit -m "Update output [skip ci]"
           git push
+        env:
+          REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main
