@@ -11,204 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e348712423",
-          "name": "Villarreal CF vs RC Celta | 02:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e348712423",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e348712423",
-                  "name": "Villarreal CF vs RC Celta",
-                  "streams": [
-                    {
-                      "id": "st-e348712423",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6185495d59",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee53c14841d_146781/index.m3u8?expire=1777831489",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-99cc6d9dd3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d128c2d9ff7c4f2e41f76f3e39251a8c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-58a51d481e",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee5a9736518_145208/index.m3u8?expire=1777833239",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Villarreal CF",
-            "team_b": "RC Celta",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/aee62af96a956756cc29fe4831286357.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/fd954d083ee85a6f1a3f2471dc756242.png",
-            "time": "02:00 27/04",
-            "blv": "GIÀNG A BÉO, GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e348712423_2a170602.png?v=2a170602",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-df31b28ea0",
-          "name": "AD Ceuta vs Racing Santander | 02:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df31b28ea0",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-df31b28ea0",
-                  "name": "AD Ceuta vs Racing Santander",
-                  "streams": [
-                    {
-                      "id": "st-df31b28ea0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94580bd81b",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee5aa936518_145274/index.m3u8?expire=1777833257",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-609e94f120",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8f004036586c54559ead97df821ba935/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Segunda Division",
-            "team_a": "AD Ceuta",
-            "team_b": "Racing Santander",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cb76c8ffac95e7e5429aca574aab5deb.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8db7260a18b1be68e8710cfdbf6be3df.png",
-            "time": "02:00 27/04",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-df31b28ea0_756335ed.png?v=756335ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-db0531c72e",
           "name": "AVS Futebol SAD vs Sporting CP | 02:30 27/04",
@@ -1527,8 +1334,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Alejandro Davidovich Fokina",
             "team_b": "Casper Ruud",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1a7591c2e584ee248ed7ec3e3181adf2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1a7591c2e584ee248ed7ec3e3181adf2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/74333a05a20c9c27863391ba5ba2024e.png",
             "time": "16:00 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1538,7 +1345,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_dd6765f0.png?v=dd6765f0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_c8055cc3.png?v=c8055cc3",
             "width": 1600,
             "height": 1200
           }
@@ -1580,8 +1387,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Daniel Merida Aguilar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/dd9de97f2c17b8e1596699f5c780156d.png",
             "time": "17:10 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1591,7 +1398,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_551e2247.png?v=551e2247",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_c4a5f8b1.png?v=c4a5f8b1",
             "width": 1600,
             "height": 1200
           }
@@ -1633,8 +1440,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "18:20 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1644,7 +1451,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_2d49aa62.png?v=2d49aa62",
             "width": 1600,
             "height": 1200
           }
