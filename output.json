@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-db0531c72e",
-          "name": "AVS Futebol SAD vs Sporting CP | 02:30 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db0531c72e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-db0531c72e",
-                  "name": "AVS Futebol SAD vs Sporting CP",
-                  "streams": [
-                    {
-                      "id": "st-db0531c72e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09a3144818",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee62c636518_145698/index.m3u8?expire=1777835334",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a233a5ea0c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/151aa57ea21413d75c1629d6a93faffd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "AVS Futebol SAD",
-            "team_b": "Sporting CP",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/54a1c4ce61684e24789083f545049753.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6a5153c73922a32013b9bc6cfbc20b26.png",
-            "time": "02:30 27/04",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-db0531c72e_37bc35a9.png?v=37bc35a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-a1dacd2930",
           "name": "Bali United vs PSM Makassar | 15:30 27/04",
@@ -1298,8 +1210,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Joao Fonseca",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/817bb3e0f0a60a3e04e82bcf0324d51c.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/817bb3e0f0a60a3e04e82bcf0324d51c.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
             "time": "03:40 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
@@ -1309,7 +1221,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-64fa087981_ff2f35ef.png?v=ff2f35ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-64fa087981_85a8f8b5.png?v=85a8f8b5",
             "width": 1600,
             "height": 1200
           }
@@ -1351,8 +1263,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Alejandro Davidovich Fokina",
             "team_b": "Casper Ruud",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/1a7591c2e584ee248ed7ec3e3181adf2.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/74333a05a20c9c27863391ba5ba2024e.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1a7591c2e584ee248ed7ec3e3181adf2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
             "time": "16:00 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1362,7 +1274,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_c8055cc3.png?v=c8055cc3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_dd6765f0.png?v=dd6765f0",
             "width": 1600,
             "height": 1200
           }
@@ -1404,8 +1316,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Daniel Merida Aguilar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/dd9de97f2c17b8e1596699f5c780156d.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
             "time": "17:10 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1415,7 +1327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_c4a5f8b1.png?v=c4a5f8b1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_551e2247.png?v=551e2247",
             "width": 1600,
             "height": 1200
           }
@@ -1457,8 +1369,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "18:20 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1468,7 +1380,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_2d49aa62.png?v=2d49aa62",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_395c2d86.png?v=395c2d86",
             "width": 1600,
             "height": 1200
           }
