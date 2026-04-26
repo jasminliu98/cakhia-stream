@@ -524,8 +524,8 @@ def main():
         status  = "LIVE" if match["is_live"] else "SAP"
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['blv']}")
 
-       streams = []
-       if match["is_live"]:
+        streams = []
+        if match["is_live"]:
             streams = get_streams(match["match_id"], match["blv_list"])
 
             # Bóng đá, Bóng rổ, Tennis: swap link[0] ↔ link[1]
