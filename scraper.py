@@ -528,12 +528,11 @@ def main():
         if match["is_live"]:
             streams = get_streams(match["match_id"], match["blv_list"])
 
-            # Bóng đá & Bóng rổ: swap link[0] ↔ link[1]
-            # (link[0] từ cbox thường là sóng đài, link[1] mới là BLV VN)
-            if cate_id in ("1", "20") and len(streams) >= 2:
-                streams = [streams[1], streams[0]] + streams[2:]
-                label = "football" if cate_id == "1" else "basketball"
-                print(f"  [{label}] swapped link 1<->2")
+            # Bóng đá, Bóng rổ, Tennis: swap link[0] ↔ link[1]
+if cate_id in ("1", "20", "27") and len(streams) >= 2:
+    streams = [streams[1], streams[0]] + streams[2:]
+    label = {"1": "football", "20": "basketball", "27": "tennis"}.get(cate_id, cate_id)
+    print(f"  [{label}] swapped link 1<->2")
 
             print(f"  stream: {len(streams)} link")
             if not streams:
