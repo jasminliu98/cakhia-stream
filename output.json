@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-178ba68669",
-                          "name": "Link HD",
+                          "name": "GIÀNG A PHỦ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee3f584841d_145232/index.m3u8?expire=1777826264",
@@ -133,7 +133,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f51a23db28",
-                          "name": "Link HD",
+                          "name": "GIÀNG A LƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee4cbd4841d_145812/index.m3u8?expire=1777829693",
@@ -221,7 +221,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-26c9e6d8b5",
-                          "name": "Link HD",
+                          "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee540136518_145821/index.m3u8?expire=1777831553",
@@ -255,7 +255,7 @@
                         },
                         {
                           "id": "lnk-c2506672c6",
-                          "name": "Link HD",
+                          "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": false,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee57254841d_145689/index.m3u8?expire=1777832357",
@@ -326,7 +326,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-a93e4240dc",
-                          "name": "Link HD",
+                          "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee5aa536518_145419/index.m3u8?expire=1777833253",
@@ -360,7 +360,7 @@
                         },
                         {
                           "id": "lnk-f7bcc5129c",
-                          "name": "Link HD",
+                          "name": "GIÀNG A BẢNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee5a384841d_145205/index.m3u8?expire=1777833144",
@@ -431,7 +431,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-6185495d59",
-                          "name": "Link HD",
+                          "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee53c14841d_146781/index.m3u8?expire=1777831489",
@@ -465,7 +465,7 @@
                         },
                         {
                           "id": "lnk-58a51d481e",
-                          "name": "Link HD",
+                          "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": false,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee5a9736518_145208/index.m3u8?expire=1777833239",
@@ -535,11 +535,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-70d2c9abae",
-                          "name": "Link HD",
+                          "id": "lnk-94580bd81b",
+                          "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee5aa936518_145274/index.m3u8?expire=1777833257",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-609e94f120",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8f004036586c54559ead97df821ba935/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1799,7 +1816,7 @@
                         },
                         {
                           "id": "lnk-b0509a3a65",
-                          "name": "Link HD",
+                          "name": "GIÀNG A TÀI",
                           "type": "hls",
                           "default": false,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee4e5a36518_145413/index.m3u8?expire=1777830106",
@@ -1932,7 +1949,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-5e787760c1",
-                          "name": "Link HD",
+                          "name": "GIÀNG A CÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee3eba36518_145241/index.m3u8?expire=1777826106",
@@ -2356,7 +2373,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-fc0d4e6bb3",
-                          "name": "Link HD",
+                          "name": "GIÀNG A NÚI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee37af36518_145611/index.m3u8?expire=1777824303",
@@ -2427,7 +2444,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-07269d9fad",
-                          "name": "Link HD",
+                          "name": "GIÀNG A MU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee3bba4841d_146208/index.m3u8?expire=1777825338",
