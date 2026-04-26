@@ -45,18 +45,18 @@ def parse_kickoff(time_str: str) -> datetime | None:
     year  = today.year
 
     patterns = [
-        # "22:00 25/04/2025"
+        # "22:00 25/04/2025"  → groups: (hh, mm, dd, mo, yyyy)  index 0-4
         (r"(\d{1,2}):(\d{2})\s+(\d{1,2})/(\d{1,2})/(\d{4})",
-         lambda m: datetime(int(m[5]), int(m[4]), int(m[3]),
-                            int(m[1]), int(m[2]), tzinfo=VN_TZ)),
-        # "22:00 25/04"
+         lambda m: datetime(int(m[4]), int(m[3]), int(m[2]),
+                            int(m[0]), int(m[1]), tzinfo=VN_TZ)),
+        # "22:00 25/04"       → groups: (hh, mm, dd, mo)         index 0-3
         (r"(\d{1,2}):(\d{2})\s+(\d{1,2})/(\d{1,2})$",
-         lambda m: datetime(year, int(m[4]), int(m[3]),
-                            int(m[1]), int(m[2]), tzinfo=VN_TZ)),
-        # "22:00"
+         lambda m: datetime(year, int(m[3]), int(m[2]),
+                            int(m[0]), int(m[1]), tzinfo=VN_TZ)),
+        # "22:00"             → groups: (hh, mm)                  index 0-1
         (r"^(\d{1,2}):(\d{2})$",
          lambda m: datetime(today.year, today.month, today.day,
-                            int(m[1]), int(m[2]), tzinfo=VN_TZ)),
+                            int(m[0]), int(m[1]), tzinfo=VN_TZ)),
     ]
 
     for pattern, builder in patterns:
