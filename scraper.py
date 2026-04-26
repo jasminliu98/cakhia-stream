@@ -386,17 +386,30 @@ def get_streams(match_id, blv_list):
 # BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
-def label_stream(url: str) -> str | None:
+def label_stream(url: str, blv_name: str = "", hd_count: dict = None) -> str | None:
     """
-    Đặt tên link theo domain. Trả về None = ẩn link đó.
+    Đặt tên link theo domain + tên BLV nếu có.
+    Trả về None = ẩn link đó.
+
+    Logic:
+    - cdn-hls.cakhiatv89.com → tên BLV nếu có, fallback "Link HD" / "Link HD 2" nếu trùng
+    - live.alilicloud.com    → "Link nhà đài"
+    - bclive.zlylive.com     → ẩn
+    - domain khác            → ẩn
     """
     if "cdn-hls.cakhiatv89.com" in url:
+        if blv_name:
+            return blv_name
+        # Không có BLV → đánh số HD tránh trùng
+        if hd_count is not None:
+            hd_count["n"] = hd_count.get("n", 0) + 1
+            return "Link HD" if hd_count["n"] == 1 else f"Link HD {hd_count['n']}"
         return "Link HD"
     if "live.alilicloud.com" in url:
         return "Link nhà đài"
     if "bclive.zlylive.com" in url:
-        return None   # ẩn
-    return None       # domain lạ khác → ẩn luôn cho an toàn
+        return None
+    return None
 
 
 def build_channel(match, streams, thumb_url=""):
@@ -405,17 +418,34 @@ def build_channel(match, streams, thumb_url=""):
     ct_id  = make_id(match["url"], "ct")
     st_id  = make_id(match["url"], "st")
 
+    # Lấy danh sách tên BLV theo thứ tự để gán cho từng link HD
+    # Sau swap (bóng đá/bóng rổ): stream[0]=BLV1, stream[1]=BLV0_gốc
+    # blv_list giữ thứ tự gốc → dùng index để map
+    blv_list  = match.get("blv_list", [])
+    named_blv = [b["name"] for b in blv_list if b["name"].strip() and b.get("id") != "0"]
+
+    # Đếm riêng số link HD để đánh số nếu không có BLV map được
+    hd_count   = {"n": 0}
+    blv_cursor = 0   # trỏ vào named_blv theo thứ tự
+
     stream_links = []
     for i, s_url in enumerate(streams):
-        name = label_stream(s_url)
+        # Lấy tên BLV tương ứng nếu là link HD
+        blv_name = ""
+        if "cdn-hls.cakhiatv89.com" in s_url:
+            if blv_cursor < len(named_blv):
+                blv_name = named_blv[blv_cursor]
+                blv_cursor += 1
+
+        name = label_stream(s_url, blv_name, hd_count)
         if name is None:
-            continue   # ẩn link này
+            continue
         lnk_id = make_id(s_url + str(i), "lnk")
         stream_links.append({
             "id":      lnk_id,
             "name":    name,
             "type":    "hls",
-            "default": len(stream_links) == 0,  # link đầu tiên còn lại là default
+            "default": len(stream_links) == 0,
             "url":     s_url,
             "request_headers": [
                 {"key": "Referer",    "value": "https://cakhiatv247.net/"},
