@@ -11,221 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (0)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6674d0b08a",
-          "name": "Jeonbuk Hyundai Motors vs Pohang Steelers | 12:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6674d0b08a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6674d0b08a",
-                  "name": "Jeonbuk Hyundai Motors vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-6674d0b08a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-663d92a338",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed95ee36518_145428/index.m3u8?expire=1777782894",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2e6c2074d0",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/efc3ba6b8197969e7bf37d6d241caea9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2ca6549fa4",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed95ee36518_145428/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeonbuk Hyundai Motors",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6f05c460789939ac83282bd0686446f1.png",
-            "time": "12:00 26/04",
-            "blv": "GIÀNG A NẾP",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6674d0b08a_4bce8011.png?v=4bce8011",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-18a0f95353",
-          "name": "Sydney FC vs Auckland FC | 12:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18a0f95353",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-18a0f95353",
-                  "name": "Sydney FC vs Auckland FC",
-                  "streams": [
-                    {
-                      "id": "st-18a0f95353",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7e52feb12",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed93d736518_145467/index.m3u8?expire=1777782359",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33c8d21682",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b391acdba78f3a7ddce93de94f849bca/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3064a99f78",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed93d736518_145467/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia A-League",
-            "team_a": "Sydney FC",
-            "team_b": "Auckland FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a0c772584c00e1b6efd1c421344cd005.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6eae40b446299cfb06316430ae387475.png",
-            "time": "12:00 26/04",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-18a0f95353_b70de977.png?v=b70de977",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-f2d1a6ffa0",
           "name": "Melbourne City vs Adelaide United | 14:30 26/04",
@@ -274,7 +64,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f2d1a6ffa0_3c2b664e.png?v=3c2b664e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f2d1a6ffa0_ea75e9d5.png?v=ea75e9d5",
             "width": 1600,
             "height": 1200
           }
@@ -327,7 +117,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79e6ef4077_95748124.png?v=95748124",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-79e6ef4077_5f18e827.png?v=5f18e827",
             "width": 1600,
             "height": 1200
           }
@@ -380,7 +170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c31602cc0d_e25e3c61.png?v=e25e3c61",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c31602cc0d_c01c1461.png?v=c01c1461",
             "width": 1600,
             "height": 1200
           }
@@ -433,7 +223,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-716ace37a1_962484dd.png?v=962484dd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-716ace37a1_30ecee1e.png?v=30ecee1e",
             "width": 1600,
             "height": 1200
           }
@@ -486,7 +276,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-000adfa06b_e988dc0c.png?v=e988dc0c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-000adfa06b_410dfa4c.png?v=410dfa4c",
             "width": 1600,
             "height": 1200
           }
@@ -539,7 +329,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a24114747b_20545556.png?v=20545556",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a24114747b_cb9086ed.png?v=cb9086ed",
             "width": 1600,
             "height": 1200
           }
@@ -592,7 +382,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-042da903c4_468cc3f6.png?v=468cc3f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-042da903c4_be989eb3.png?v=be989eb3",
             "width": 1600,
             "height": 1200
           }
@@ -645,7 +435,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-503207be6f_582123bf.png?v=582123bf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-503207be6f_e367cb0e.png?v=e367cb0e",
             "width": 1600,
             "height": 1200
           }
@@ -698,7 +488,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9baccad1d3_103624d4.png?v=103624d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-9baccad1d3_ffa9fbc5.png?v=ffa9fbc5",
             "width": 1600,
             "height": 1200
           }
@@ -751,7 +541,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0e1c0af948_b14266f2.png?v=b14266f2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0e1c0af948_5e8a270e.png?v=5e8a270e",
             "width": 1600,
             "height": 1200
           }
@@ -804,7 +594,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-15effefcd8_c8556ca8.png?v=c8556ca8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-15effefcd8_54878788.png?v=54878788",
             "width": 1600,
             "height": 1200
           }
@@ -857,7 +647,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72426952d0_866f467d.png?v=866f467d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-72426952d0_9049321d.png?v=9049321d",
             "width": 1600,
             "height": 1200
           }
@@ -910,7 +700,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8cccf5473b_c0a22d64.png?v=c0a22d64",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8cccf5473b_df31f876.png?v=df31f876",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c8defdda17",
+          "name": "Slavia Sofia vs Botev Vratsa | 18:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8defdda17",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c8defdda17",
+                  "name": "Slavia Sofia vs Botev Vratsa",
+                  "streams": [
+                    {
+                      "id": "st-c8defdda17",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bulgarian First League",
+            "team_a": "Slavia Sofia",
+            "team_b": "Botev Vratsa",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e087c9b939975c0cb726253fc3c3e418.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2160cff8b0067605adb4e2d1ff213f3d.png",
+            "time": "18:00 26/04",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-c8defdda17_7971e74b.png?v=7971e74b",
             "width": 1600,
             "height": 1200
           }
@@ -963,7 +806,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff00c386ff_5316d8c6.png?v=5316d8c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ff00c386ff_c93569a3.png?v=c93569a3",
             "width": 1600,
             "height": 1200
           }
@@ -1016,7 +859,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4dfdad82b0_140460ee.png?v=140460ee",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4dfdad82b0_06a77516.png?v=06a77516",
             "width": 1600,
             "height": 1200
           }
@@ -1069,7 +912,113 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c308b6410_30c74033.png?v=30c74033",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c308b6410_39834cda.png?v=39834cda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8a384a9565",
+          "name": "Genclerbirligi vs Kocaelispor | 18:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a384a9565",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8a384a9565",
+                  "name": "Genclerbirligi vs Kocaelispor",
+                  "streams": [
+                    {
+                      "id": "st-8a384a9565",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish Super League",
+            "team_a": "Genclerbirligi",
+            "team_b": "Kocaelispor",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ec111e88997dce5a5f76c26b8e85d7f3.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cc07308e2f4326c6929fd8cece5668d1.png",
+            "time": "18:30 26/04",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8a384a9565_8c589eb8.png?v=8c589eb8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f4ae43acf1",
+          "name": "KAA Gent vs Club Brugge | 18:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4ae43acf1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f4ae43acf1",
+                  "name": "KAA Gent vs Club Brugge",
+                  "streams": [
+                    {
+                      "id": "st-f4ae43acf1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Belgian Pro League",
+            "team_a": "KAA Gent",
+            "team_b": "Club Brugge",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/59e9be1ed056bdc0025f6064316485fe.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2e9f652d28ec91e0b66c0b714bff8d78.png",
+            "time": "18:30 26/04",
+            "blv": "GIÀNG A ĐÌNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f4ae43acf1_bbe186d7.png?v=bbe186d7",
             "width": 1600,
             "height": 1200
           }
@@ -1122,7 +1071,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-810a4d9ad8_1504eb71.png?v=1504eb71",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-810a4d9ad8_eb9b67f2.png?v=eb9b67f2",
             "width": 1600,
             "height": 1200
           }
@@ -1175,7 +1124,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8354a07f8f_1131265e.png?v=1131265e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8354a07f8f_81f9c68b.png?v=81f9c68b",
             "width": 1600,
             "height": 1200
           }
@@ -1228,7 +1177,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c54ee354a_ca61e652.png?v=ca61e652",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2c54ee354a_bab3ca38.png?v=bab3ca38",
             "width": 1600,
             "height": 1200
           }
@@ -1281,7 +1230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-76665cc539_9aa899ef.png?v=9aa899ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-76665cc539_89bf8ab8.png?v=89bf8ab8",
             "width": 1600,
             "height": 1200
           }
@@ -1334,7 +1283,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8d748b625a_912ebe35.png?v=912ebe35",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8d748b625a_6a9678ce.png?v=6a9678ce",
             "width": 1600,
             "height": 1200
           }
@@ -1387,7 +1336,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-51b1a07811_91e28a6a.png?v=91e28a6a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-51b1a07811_6ba53012.png?v=6ba53012",
             "width": 1600,
             "height": 1200
           }
@@ -1440,7 +1389,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dbd71d18f0_b5cd8c18.png?v=b5cd8c18",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-dbd71d18f0_6d26e1a9.png?v=6d26e1a9",
             "width": 1600,
             "height": 1200
           }
@@ -1493,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8814677f93_1ea7fd27.png?v=1ea7fd27",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8814677f93_8fbddae0.png?v=8fbddae0",
             "width": 1600,
             "height": 1200
           }
@@ -1546,7 +1495,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0babe04e9f_9c6ae060.png?v=9c6ae060",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0babe04e9f_33c9f0ab.png?v=33c9f0ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-de740e96b8",
+          "name": "KV Mechelen vs Sint-Truidense | 21:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de740e96b8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-de740e96b8",
+                  "name": "KV Mechelen vs Sint-Truidense",
+                  "streams": [
+                    {
+                      "id": "st-de740e96b8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Belgian Pro League",
+            "team_a": "KV Mechelen",
+            "team_b": "Sint-Truidense",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/709f693365f30926be88929adfeae9f9.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/cd4b9f1063c75c9d151ccd545aed740c.png",
+            "time": "21:00 26/04",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-de740e96b8_cff98ce9.png?v=cff98ce9",
             "width": 1600,
             "height": 1200
           }
@@ -1599,7 +1601,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1a3ee8a7b1_1ef75510.png?v=1ef75510",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1a3ee8a7b1_6b884b2b.png?v=6b884b2b",
             "width": 1600,
             "height": 1200
           }
@@ -1652,7 +1654,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a3e5b8c363_03d32cc4.png?v=03d32cc4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a3e5b8c363_2cd799e6.png?v=2cd799e6",
             "width": 1600,
             "height": 1200
           }
@@ -1705,7 +1707,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-12f07b6fcb_49480380.png?v=49480380",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-12f07b6fcb_8d398d07.png?v=8d398d07",
             "width": 1600,
             "height": 1200
           }
@@ -1758,7 +1760,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-372a7698cf_f7a1c4d2.png?v=f7a1c4d2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-372a7698cf_9c28adff.png?v=9c28adff",
             "width": 1600,
             "height": 1200
           }
@@ -1811,7 +1813,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f3463cfcf5_4e70c054.png?v=4e70c054",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f3463cfcf5_a5700365.png?v=a5700365",
             "width": 1600,
             "height": 1200
           }
@@ -1864,7 +1866,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8539b1d217_b71138fe.png?v=b71138fe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8539b1d217_603ea937.png?v=603ea937",
             "width": 1600,
             "height": 1200
           }
@@ -1917,7 +1919,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bdaebd80e3_1ffe1c85.png?v=1ffe1c85",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-bdaebd80e3_34a582f3.png?v=34a582f3",
             "width": 1600,
             "height": 1200
           }
@@ -1970,7 +1972,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-571eda8d93_449e83c3.png?v=449e83c3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-571eda8d93_325239eb.png?v=325239eb",
             "width": 1600,
             "height": 1200
           }
@@ -2023,7 +2025,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-63138af011_bc4bb2ad.png?v=bc4bb2ad",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-63138af011_b06641b3.png?v=b06641b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-952dd72b14",
+          "name": "Anderlecht vs Union Saint-Gilloise | 23:30 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-952dd72b14",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-952dd72b14",
+                  "name": "Anderlecht vs Union Saint-Gilloise",
+                  "streams": [
+                    {
+                      "id": "st-952dd72b14",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Belgian Pro League",
+            "team_a": "Anderlecht",
+            "team_b": "Union Saint-Gilloise",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/314b79b01ab66f6cc42c405b64791498.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b796af8f1a3f43d5d56f4a4255b87260.png",
+            "time": "23:30 26/04",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-952dd72b14_dae7c37e.png?v=dae7c37e",
             "width": 1600,
             "height": 1200
           }
@@ -2076,7 +2131,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-622eee2fa0_c933a0e8.png?v=c933a0e8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-622eee2fa0_4e109276.png?v=4e109276",
             "width": 1600,
             "height": 1200
           }
@@ -2129,7 +2184,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-26de23a275_0352b2ff.png?v=0352b2ff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-26de23a275_111bc45c.png?v=111bc45c",
             "width": 1600,
             "height": 1200
           }
@@ -2182,7 +2237,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-e348712423_2a170602.png?v=2a170602",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-e348712423_e8a89863.png?v=e8a89863",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-175140738f",
+          "name": "Los Angeles Galaxy vs Real Salt Lake | 06:00 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-175140738f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-175140738f",
+                  "name": "Los Angeles Galaxy vs Real Salt Lake",
+                  "streams": [
+                    {
+                      "id": "st-175140738f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Major League Soccer",
+            "team_a": "Los Angeles Galaxy",
+            "team_b": "Real Salt Lake",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8ef755c4d2e1aed96dc5d291977c1043.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/88620f5162fd07e31d46b44f848bd9e5.png",
+            "time": "06:00 27/04",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-175140738f_f3ff9a06.png?v=f3ff9a06",
             "width": 1600,
             "height": 1200
           }
@@ -2191,7 +2299,7 @@
     },
     {
       "id": "cate_4",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2279,7 +2387,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4bafeac62a_107d2e07.png?v=107d2e07",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4bafeac62a_b4846ce6.png?v=b4846ce6",
             "width": 1600,
             "height": 1200
           }
@@ -2288,7 +2396,7 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (0)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2330,8 +2438,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Sorana Cirstea",
             "team_b": "Coco Gauff",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/13a8a8371635efb726be117d6c809299.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/FtOo4lXpad84ytb8c9aNzAQsGO2r",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/13a8a8371635efb726be117d6c809299.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FtOo4lXpad84ytb8c9aNzAQsGO2r",
             "time": "16:00 26/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -2341,7 +2449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5a7679f94c_024c79f7.png?v=024c79f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5a7679f94c_f6c0a93e.png?v=f6c0a93e",
             "width": 1600,
             "height": 1200
           }
@@ -2383,8 +2491,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jiri Lehecka",
             "team_b": "Alex Michelsen",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/e2d186170a9c0f8810834319a4543a66.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/4fceacb058d51659814226487739ca66.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4fceacb058d51659814226487739ca66.png",
             "time": "16:00 26/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2394,7 +2502,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a50b2237c7_9558a0ec.png?v=9558a0ec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a50b2237c7_74080617.png?v=74080617",
             "width": 1600,
             "height": 1200
           }
@@ -2436,8 +2544,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Tallon Griekspoor",
             "team_b": "Lorenzo Musetti",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f14047b2c4cc46ce45f10f9c533463d8.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/f4ca478e4a2bdf725584d92eccc72cb8.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f14047b2c4cc46ce45f10f9c533463d8.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
             "time": "17:10 26/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2447,7 +2555,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-37ea0e7500_8a95bf04.png?v=8a95bf04",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-37ea0e7500_a7e97631.png?v=a7e97631",
             "width": 1600,
             "height": 1200
           }
@@ -2489,8 +2597,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Elmer Moeller",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/dad6eb07f8e8e5485705e74b4d083067.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dad6eb07f8e8e5485705e74b4d083067.png",
             "time": "21:00 26/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2500,7 +2608,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-da87a810c7_3a6be681.png?v=3a6be681",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-da87a810c7_06832389.png?v=06832389",
             "width": 1600,
             "height": 1200
           }
@@ -2553,121 +2661,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-448f44938d_c71f9f19.png?v=c71f9f19",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_20",
-      "name": "🏀 Bóng rổ",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-10fe01ba65",
-          "name": "Anyang JungKwanJang Red Boosters vs Busan KCC Egis | 12:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10fe01ba65",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-10fe01ba65",
-                  "name": "Anyang JungKwanJang Red Boosters vs Busan KCC Egis",
-                  "streams": [
-                    {
-                      "id": "st-10fe01ba65",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f6a3eac09",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed97674841d_145211/index.m3u8?expire=1777783271",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a421276d57",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f1d8125ee982f5b8dddc97047896eb75/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b9e3d4f158",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed97674841d_145211/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean Basketball League",
-            "team_a": "Anyang JungKwanJang Red Boosters",
-            "team_b": "Busan KCC Egis",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
-            "time": "12:00 26/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-10fe01ba65_c93523da.png?v=c93523da",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-448f44938d_d3d70901.png?v=d3d70901",
             "width": 1600,
             "height": 1200
           }
@@ -2676,7 +2670,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (0)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2729,7 +2723,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0d900ef2fa_48c80257.png?v=48c80257",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0d900ef2fa_7928ac83.png?v=7928ac83",
             "width": 1600,
             "height": 1200
           }
@@ -2782,7 +2776,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2ac9ea9138_c9c9b4e0.png?v=c9c9b4e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-2ac9ea9138_52e4bc75.png?v=52e4bc75",
             "width": 1600,
             "height": 1200
           }
@@ -2791,7 +2785,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (3)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2879,7 +2873,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f31b5888ba_f00790e3.png?v=f00790e3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f31b5888ba_822c802d.png?v=822c802d",
             "width": 1600,
             "height": 1200
           }
@@ -2967,7 +2961,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ac6525989d_8cb89ff5.png?v=8cb89ff5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ac6525989d_4bae1d35.png?v=4bae1d35",
             "width": 1600,
             "height": 1200
           }
@@ -3055,7 +3049,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fd820f4be_794f0298.png?v=794f0298",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-4fd820f4be_a3352723.png?v=a3352723",
             "width": 1600,
             "height": 1200
           }
@@ -3108,7 +3102,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6f295a3e96_d8796081.png?v=d8796081",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-6f295a3e96_9ced933c.png?v=9ced933c",
             "width": 1600,
             "height": 1200
           }
@@ -3161,7 +3155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f5fd54bfcf_706f9894.png?v=706f9894",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-f5fd54bfcf_3bd6e2aa.png?v=3bd6e2aa",
             "width": 1600,
             "height": 1200
           }
@@ -3214,7 +3208,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0633883a9a_64b2289a.png?v=64b2289a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-0633883a9a_61184c24.png?v=61184c24",
             "width": 1600,
             "height": 1200
           }
@@ -3223,7 +3217,7 @@
     },
     {
       "id": "cate_2",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (0)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3276,7 +3270,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-d94dca34a1_8f2a7a7e.png?v=8f2a7a7e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-d94dca34a1_4c8c558d.png?v=4c8c558d",
             "width": 1600,
             "height": 1200
           }
@@ -3329,7 +3323,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8275855027_d223e8cf.png?v=d223e8cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8275855027_8a6d2310.png?v=8a6d2310",
             "width": 1600,
             "height": 1200
           }
@@ -3382,7 +3376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1b3c59374e_ddaf6ccb.png?v=ddaf6ccb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-1b3c59374e_45c35bf3.png?v=45c35bf3",
             "width": 1600,
             "height": 1200
           }
@@ -3435,7 +3429,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8340783269_54b97efc.png?v=54b97efc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-8340783269_462c6bed.png?v=462c6bed",
             "width": 1600,
             "height": 1200
           }
@@ -3488,7 +3482,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3820515bd7_739521a7.png?v=739521a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-3820515bd7_f19fbf15.png?v=f19fbf15",
             "width": 1600,
             "height": 1200
           }
@@ -3541,7 +3535,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-41d031c28c_1fbecc01.png?v=1fbecc01",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-41d031c28c_81230c11.png?v=81230c11",
             "width": 1600,
             "height": 1200
           }
@@ -3594,7 +3588,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-40b035a597_655896c5.png?v=655896c5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-40b035a597_c04b9678.png?v=c04b9678",
             "width": 1600,
             "height": 1200
           }
