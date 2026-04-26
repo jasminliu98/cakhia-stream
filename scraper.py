@@ -314,17 +314,7 @@ def get_matches():
                 if blv_id_m and blv_name and blv_id_m.group(1) != "0":
                     blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
 
-        # Fallback: BLV có avatar thật
-        if not blv_list:
-            for blv_a in card.select("a[href*='?blv=']"):
-                blv_id_m = re.search(r'\?blv=(\d+)', blv_a.get("href", ""))
-                blv_name = blv_a.get_text(strip=True)
-                blv_img  = blv_a.find("img")
-                has_real_avatar = blv_img and "user-avatar" not in blv_img.get("src", "")
-                if blv_id_m and blv_name and blv_id_m.group(1) != "0" and has_real_avatar:
-                    blv_list.append({"id": blv_id_m.group(1), "name": blv_name})
-
-        # Ẩn trận không có BLV online
+        # Ẩn trận không có BLV online — không fallback
         if not blv_list:
             continue
 
