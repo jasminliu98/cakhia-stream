@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,59 @@
                     {
                       "id": "st-6674d0b08a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-663d92a338",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed95ee36518_145428/index.m3u8?expire=1777782894",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2e6c2074d0",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/efc3ba6b8197969e7bf37d6d241caea9/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2ca6549fa4",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ed95ee36518_145428/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +109,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6f05c460789939ac83282bd0686446f1.png",
             "time": "12:00 26/04",
             "blv": "GIÀNG A NẾP",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -77,10 +129,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +147,59 @@
                     {
                       "id": "st-18a0f95353",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7e52feb12",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed93d736518_145467/index.m3u8?expire=1777782359",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-33c8d21682",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b391acdba78f3a7ddce93de94f849bca/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3064a99f78",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ed93d736518_145467/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,7 +214,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6eae40b446299cfb06316430ae387475.png",
             "time": "12:00 26/04",
             "blv": "GIÀNG A KEN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -692,7 +796,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/46a4867487152e47c4dc61984d0c58aa.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
             "time": "18:00 26/04",
-            "blv": "GIÀNG A MAO, GIÀNG A NÚI",
+            "blv": "GIÀNG A MAO, GIÀNG A RICH",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -798,7 +902,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/a3fa1f2bd7dbd79b0c531417b56647d6.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/40b7d679de613aedfb80bcaba85fa7e0.png",
             "time": "18:00 26/04",
-            "blv": "GIÀNG A ĐỎ",
+            "blv": "GIÀNG A KEN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1923,6 +2027,165 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-622eee2fa0",
+          "name": "AC Milan vs Juventus | 01:45 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-622eee2fa0",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-622eee2fa0",
+                  "name": "AC Milan vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-622eee2fa0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "AC Milan",
+            "team_b": "Juventus",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/643ef4101b017dc1495dbd9e9d5cce28.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/dc0e43b95c6676c54415bac168472aa4.png",
+            "time": "01:45 27/04",
+            "blv": "GIÀNG A NGAO, GIÀNG A MAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-622eee2fa0_c933a0e8.png?v=c933a0e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-26de23a275",
+          "name": "Marseille vs OGC Nice | 01:45 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26de23a275",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-26de23a275",
+                  "name": "Marseille vs OGC Nice",
+                  "streams": [
+                    {
+                      "id": "st-26de23a275",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Marseille",
+            "team_b": "OGC Nice",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ff8991853f7aabce7cb66f09cda0c58e.png",
+            "time": "01:45 27/04",
+            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-26de23a275_0352b2ff.png?v=0352b2ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e348712423",
+          "name": "Villarreal CF vs RC Celta | 02:00 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e348712423",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e348712423",
+                  "name": "Villarreal CF vs RC Celta",
+                  "streams": [
+                    {
+                      "id": "st-e348712423",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Villarreal CF",
+            "team_b": "RC Celta",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/aee62af96a956756cc29fe4831286357.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fd954d083ee85a6f1a3f2471dc756242.png",
+            "time": "02:00 27/04",
+            "blv": "GIÀNG A BÉO, GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-e348712423_2a170602.png?v=2a170602",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1934,112 +2197,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-ea95fc4e0e",
-          "name": "Chen Guoen vs Li Yao | 08:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea95fc4e0e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ea95fc4e0e",
-                  "name": "Chen Guoen vs Li Yao",
-                  "streams": [
-                    {
-                      "id": "st-ea95fc4e0e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBSA Peri Laili Cup",
-            "team_a": "Chen Guoen",
-            "team_b": "Li Yao",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7799c94b701d7d603e42c132d5400ff5.jpg",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4fae7cee95a2fbe01ecef0df3de69018.jpg",
-            "time": "08:00 26/04",
-            "blv": "GIÀNG A CÁO",
-            "is_live": false,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-ea95fc4e0e_a07cb49e.png?v=a07cb49e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-5cfc363c92",
-          "name": "Lê Quang Trung vs Sun Jie | 12:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5cfc363c92",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5cfc363c92",
-                  "name": "Lê Quang Trung vs Sun Jie",
-                  "streams": [
-                    {
-                      "id": "st-5cfc363c92",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBSA Peri Laili Cup",
-            "team_a": "Lê Quang Trung",
-            "team_b": "Sun Jie",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/be2ceaf5b2eb69d47b4ca08d5211a7c1.jpg",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/c1803f1f7085ce561db97914d8c20eb2.jpg",
-            "time": "12:30 26/04",
-            "blv": "GIÀNG A MÓM",
-            "is_live": false,
-            "cate_name": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-5cfc363c92_564ca722.png?v=564ca722",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-4bafeac62a",
           "name": "Nguyễn Anh Tuấn vs Mei Yifei | 12:30 26/04",
           "type": "single",
@@ -2047,10 +2204,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2065,7 +2222,42 @@
                     {
                       "id": "st-4bafeac62a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e94d1d9b43",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed9e7d36518_145575/index.m3u8?expire=1777785085",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a9f601d7b",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://bclive.zlylive.com/live/69ed9e7d36518_145575/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2080,7 +2272,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/ba3737339883b19387e6e609de01e4b9.jpg",
             "time": "12:30 26/04",
             "blv": "GIÀNG A NGỘ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Billiards"
           },
           "image": {
@@ -2153,6 +2345,218 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-a50b2237c7",
+          "name": "Jiri Lehecka vs Alex Michelsen | 16:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a50b2237c7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a50b2237c7",
+                  "name": "Jiri Lehecka vs Alex Michelsen",
+                  "streams": [
+                    {
+                      "id": "st-a50b2237c7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Jiri Lehecka",
+            "team_b": "Alex Michelsen",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4fceacb058d51659814226487739ca66.png",
+            "time": "16:00 26/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-a50b2237c7_35a174cf.png?v=35a174cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-37ea0e7500",
+          "name": "Tallon Griekspoor vs Lorenzo Musetti | 17:10 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37ea0e7500",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-37ea0e7500",
+                  "name": "Tallon Griekspoor vs Lorenzo Musetti",
+                  "streams": [
+                    {
+                      "id": "st-37ea0e7500",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Tallon Griekspoor",
+            "team_b": "Lorenzo Musetti",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f14047b2c4cc46ce45f10f9c533463d8.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
+            "time": "17:10 26/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-37ea0e7500_b1847777.png?v=b1847777",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-da87a810c7",
+          "name": "Jannik Sinner vs Elmer Moeller | 21:00 26/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da87a810c7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-da87a810c7",
+                  "name": "Jannik Sinner vs Elmer Moeller",
+                  "streams": [
+                    {
+                      "id": "st-da87a810c7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Jannik Sinner",
+            "team_b": "Elmer Moeller",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dad6eb07f8e8e5485705e74b4d083067.png",
+            "time": "21:00 26/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-da87a810c7_dd8404d8.png?v=dd8404d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-448f44938d",
+          "name": "Vit Kopriva vs Arthur Rinderknech | 00:00 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-448f44938d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-448f44938d",
+                  "name": "Vit Kopriva vs Arthur Rinderknech",
+                  "streams": [
+                    {
+                      "id": "st-448f44938d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Vit Kopriva",
+            "team_b": "Arthur Rinderknech",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51719c96ea521bcc7fb6dd2057d6dc6a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/baaf14ad11b1de312b2e7f44b20fe13b.png",
+            "time": "00:00 27/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-448f44938d_c71f9f19.png?v=c71f9f19",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2164,8 +2568,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-fcf0f08bcc",
-          "name": "Atlanta Hawks vs New York Knicks | 05:00 26/04",
+          "id": "kaytee-10fe01ba65",
+          "name": "Anyang JungKwanJang Red Boosters vs Busan KCC Egis | 12:00 26/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2179,23 +2583,23 @@
           ],
           "sources": [
             {
-              "id": "src-fcf0f08bcc",
+              "id": "src-10fe01ba65",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-fcf0f08bcc",
-                  "name": "Atlanta Hawks vs New York Knicks",
+                  "id": "ct-10fe01ba65",
+                  "name": "Anyang JungKwanJang Red Boosters vs Busan KCC Egis",
                   "streams": [
                     {
-                      "id": "st-fcf0f08bcc",
+                      "id": "st-10fe01ba65",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c34a7699fe",
+                          "id": "lnk-9f6a3eac09",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed38fe4841d_145241/index.m3u8?expire=1777759102",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ed97674841d_145211/index.m3u8?expire=1777783271",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2208,11 +2612,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-a463cb3dec",
+                          "id": "lnk-a421276d57",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.alilicloud.com/live/4a692b59d1d66dd9cddc5dc647fa8e09/playlist.m3u8",
+                          "url": "https://live.alilicloud.com/live/f1d8125ee982f5b8dddc97047896eb75/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2225,11 +2629,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c3197de68c",
+                          "id": "lnk-b9e3d4f158",
                           "name": "Link 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://bclive.zlylive.com/live/69ed38fe4841d_145241/playlist.m3u8",
+                          "url": "https://bclive.zlylive.com/live/69ed97674841d_145211/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2249,13 +2653,13 @@
             }
           ],
           "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Atlanta Hawks",
-            "team_b": "New York Knicks",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e67b14905a05af9e1bd04406bf8690f.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "time": "05:00 26/04",
-            "blv": "GIÀNG A CÁO",
+            "league": "Korean Basketball League",
+            "team_a": "Anyang JungKwanJang Red Boosters",
+            "team_b": "Busan KCC Egis",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "time": "12:00 26/04",
+            "blv": "GIÀNG A SÓC",
             "is_live": true,
             "cate_name": "Bóng rổ"
           },
@@ -2263,60 +2667,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-fcf0f08bcc_4f576dda.png?v=4f576dda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-275675a471",
-          "name": "Minnesota Timberwolves vs Denver Nuggets | 07:30 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-275675a471",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-275675a471",
-                  "name": "Minnesota Timberwolves vs Denver Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-275675a471",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Minnesota Timberwolves",
-            "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
-            "time": "07:30 26/04",
-            "blv": "GIÀNG A THỎ",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-275675a471_68d59f68.png?v=68d59f68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-10fe01ba65_c93523da.png?v=c93523da",
             "width": 1600,
             "height": 1200
           }
@@ -2772,59 +3123,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-7f4ad36f25",
-          "name": "Aljamain Sterling vs Youssef Zalal | 07:00 26/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f4ad36f25",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7f4ad36f25",
-                  "name": "Aljamain Sterling vs Youssef Zalal",
-                  "streams": [
-                    {
-                      "id": "st-7f4ad36f25",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC FIGHT NIGHT",
-            "team_a": "Aljamain Sterling",
-            "team_b": "Youssef Zalal",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/dd92f48c46ead1255a62dc36125a04d2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/897a33a94c9dae228d8ac2a7e2cf71be.png",
-            "time": "07:00 26/04",
-            "blv": "GIÀNG A XẢ",
-            "is_live": false,
-            "cate_name": "Võ Thuật"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/main/thumbs/kaytee-7f4ad36f25_ba13b571.png?v=ba13b571",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-d94dca34a1",
           "name": "Rodtang Jitmuangnon vs Takeru Segawa | 18:30 29/04",
