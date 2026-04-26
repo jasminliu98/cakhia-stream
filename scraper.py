@@ -386,6 +386,19 @@ def get_streams(match_id, blv_list):
 # BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
+def label_stream(url: str) -> str | None:
+    """
+    Đặt tên link theo domain. Trả về None = ẩn link đó.
+    """
+    if "cdn-hls.cakhiatv89.com" in url:
+        return "Link HD"
+    if "live.alilicloud.com" in url:
+        return "Link nhà đài"
+    if "bclive.zlylive.com" in url:
+        return None   # ẩn
+    return None       # domain lạ khác → ẩn luôn cho an toàn
+
+
 def build_channel(match, streams, thumb_url=""):
     uid    = make_id(match["url"], "kaytee")
     src_id = make_id(match["url"], "src")
@@ -394,12 +407,15 @@ def build_channel(match, streams, thumb_url=""):
 
     stream_links = []
     for i, s_url in enumerate(streams):
+        name = label_stream(s_url)
+        if name is None:
+            continue   # ẩn link này
         lnk_id = make_id(s_url + str(i), "lnk")
         stream_links.append({
             "id":      lnk_id,
-            "name":    f"Link {i+1}",
+            "name":    name,
             "type":    "hls",
-            "default": i == 0,
+            "default": len(stream_links) == 0,  # link đầu tiên còn lại là default
             "url":     s_url,
             "request_headers": [
                 {"key": "Referer",    "value": "https://cakhiatv247.net/"},
