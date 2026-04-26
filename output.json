@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-f18f604145",
-          "name": "Real Madrid (w) vs CDEF Logrono (w) | 00:30 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f18f604145",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f18f604145",
-                  "name": "Real Madrid (w) vs CDEF Logrono (w)",
-                  "streams": [
-                    {
-                      "id": "st-f18f604145",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-178ba68669",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee3f584841d_145232/index.m3u8?expire=1777826264",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-31e77a8416",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4f632fdad7905ef14f4eda0ba8f3b858/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Primera División de la Liga de Fútbol Femenino",
-            "team_a": "Real Madrid (w)",
-            "team_b": "CDEF Logrono (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/be7fe57ffae201d4d8e1f8a8bf33232f.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9fa50bd7e696195c7c6a6810b0acbc2c.png",
-            "time": "00:30 27/04",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f18f604145_d7593d72.png?v=d7593d72",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-bdd6cb95b1",
           "name": "Aarhus AGF vs Midtjylland | 01:00 27/04",
@@ -623,11 +535,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-9aa97099fb",
+                          "id": "lnk-09a3144818",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ee62c636518_145698/index.m3u8?expire=1777835334",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a233a5ea0c",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/151aa57ea21413d75c1629d6a93faffd/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1816,11 +1745,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-560a44f9b0",
-                          "name": "Link nhà đài",
+                          "id": "lnk-e7c3f9d228",
+                          "name": "GIÀNG A TÀI",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.alilicloud.com/live/50d5d3e13fc27c98377a2f4e7f740bfc/playlist.m3u8",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee4e5a36518_145413/index.m3u8?expire=1777830106",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1833,11 +1762,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b0509a3a65",
-                          "name": "GIÀNG A TÀI",
+                          "id": "lnk-b3082c6258",
+                          "name": "Link nhà đài",
                           "type": "hls",
                           "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ee4e5a36518_145413/index.m3u8?expire=1777830106",
+                          "url": "https://live.alilicloud.com/live/50d5d3e13fc27c98377a2f4e7f740bfc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1860,8 +1789,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Zheng Qinwen",
             "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/3a9ffdff25f3ec3b14e0e5a48cdd5962.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3a9ffdff25f3ec3b14e0e5a48cdd5962.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
             "time": "01:00 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
@@ -1871,14 +1800,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4792e1b14_3fc7b5d5.png?v=3fc7b5d5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4792e1b14_1b762a73.png?v=1b762a73",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-9b457aa40b",
-          "name": "Joao Fonseca vs Rafael Jodar | 02:40 27/04",
+          "id": "kaytee-24e7138103",
+          "name": "Joao Fonseca vs Rafael Jodar | 02:50 27/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1892,15 +1821,15 @@
           ],
           "sources": [
             {
-              "id": "src-9b457aa40b",
+              "id": "src-24e7138103",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-9b457aa40b",
+                  "id": "ct-24e7138103",
                   "name": "Joao Fonseca vs Rafael Jodar",
                   "streams": [
                     {
-                      "id": "st-9b457aa40b",
+                      "id": "st-24e7138103",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1913,9 +1842,9 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Joao Fonseca",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/817bb3e0f0a60a3e04e82bcf0324d51c.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
-            "time": "02:40 27/04",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/817bb3e0f0a60a3e04e82bcf0324d51c.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "time": "02:50 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1924,7 +1853,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b457aa40b_ff2f35ef.png?v=ff2f35ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-24e7138103_85a8f8b5.png?v=85a8f8b5",
             "width": 1600,
             "height": 1200
           }
