@@ -971,6 +971,59 @@
           }
         },
         {
+          "id": "kaytee-df521eead8",
+          "name": "FC Copenhagen vs Vejle | 00:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df521eead8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-df521eead8",
+                  "name": "FC Copenhagen vs Vejle",
+                  "streams": [
+                    {
+                      "id": "st-df521eead8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "FC Copenhagen",
+            "team_b": "Vejle",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/629b6f983d0ca3c33f2c4b50b3449314.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/79e72fe2ebbfdf6d205e91d321e04bca.png",
+            "time": "00:00 28/04",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-df521eead8_f26be57b.png?v=f26be57b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-c649097fd3",
           "name": "Lazio vs Udinese | 01:45 28/04",
           "type": "single",
@@ -1210,8 +1263,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Joao Fonseca",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/817bb3e0f0a60a3e04e82bcf0324d51c.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/817bb3e0f0a60a3e04e82bcf0324d51c.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
             "time": "03:40 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": true,
@@ -1221,7 +1274,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-64fa087981_85a8f8b5.png?v=85a8f8b5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-64fa087981_ff2f35ef.png?v=ff2f35ef",
             "width": 1600,
             "height": 1200
           }
@@ -1263,8 +1316,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Alejandro Davidovich Fokina",
             "team_b": "Casper Ruud",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1a7591c2e584ee248ed7ec3e3181adf2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1a7591c2e584ee248ed7ec3e3181adf2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/74333a05a20c9c27863391ba5ba2024e.png",
             "time": "16:00 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1274,7 +1327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_dd6765f0.png?v=dd6765f0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e029112f6_c8055cc3.png?v=c8055cc3",
             "width": 1600,
             "height": 1200
           }
@@ -1316,8 +1369,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Daniel Merida Aguilar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/dd9de97f2c17b8e1596699f5c780156d.png",
             "time": "17:10 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1327,7 +1380,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_551e2247.png?v=551e2247",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_c4a5f8b1.png?v=c4a5f8b1",
             "width": 1600,
             "height": 1200
           }
@@ -1369,8 +1422,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "18:20 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1380,7 +1433,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_2d49aa62.png?v=2d49aa62",
             "width": 1600,
             "height": 1200
           }
