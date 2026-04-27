@@ -11,451 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-83121eba39",
-          "name": "Al-Gharafa vs Al Shahaniya | 21:15 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83121eba39",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-83121eba39",
-                  "name": "Al-Gharafa vs Al Shahaniya",
-                  "streams": [
-                    {
-                      "id": "st-83121eba39",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15120702b3",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef69c936518_146331/index.m3u8?expire=1777902665",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-424b60a124",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/23d2edf9f098edc486a74c27bb1dcc39/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Al-Gharafa",
-            "team_b": "Al Shahaniya",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fcac1eae493c493061e66608158b40ef.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7e9f03a408f176192cac0fbe6185f2d6.png",
-            "time": "21:15 27/04",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83121eba39_8a535fd0.png?v=8a535fd0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-8b515c87be",
-          "name": "Al Rayyan vs Al-Arabi SC | 21:15 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b515c87be",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8b515c87be",
-                  "name": "Al Rayyan vs Al-Arabi SC",
-                  "streams": [
-                    {
-                      "id": "st-8b515c87be",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378c204b9a",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef698c36518_146847/index.m3u8?expire=1777902604",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ab1fad1002",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f70cbd7efdcca32dae47e22cfffa1cd7/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Al Rayyan",
-            "team_b": "Al-Arabi SC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d36d53da32742efb1d00f27e959603a0.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/00bb4a98ec1224af879bd139519ce3b7.png",
-            "time": "21:15 27/04",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8b515c87be_34dd6308.png?v=34dd6308",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-3d95c9f731",
-          "name": "Al-Wakra vs Al-Sailiya | 21:15 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d95c9f731",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3d95c9f731",
-                  "name": "Al-Wakra vs Al-Sailiya",
-                  "streams": [
-                    {
-                      "id": "st-3d95c9f731",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23c206598c",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef645d4841d_145187/index.m3u8?expire=1777901277",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-817e8345de",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/3d4f42fc21a24ceb1bc26d49ea7a5a79/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Al-Wakra",
-            "team_b": "Al-Sailiya",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c47e10954dc1d2b623ddf0d89d63c14d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png",
-            "time": "21:15 27/04",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3d95c9f731_77c954cd.png?v=77c954cd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-85daa9baa2",
-          "name": "Qatar SC vs Al Duhail | 21:15 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85daa9baa2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-85daa9baa2",
-                  "name": "Qatar SC vs Al Duhail",
-                  "streams": [
-                    {
-                      "id": "st-85daa9baa2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd406b0f1a",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef69344841d_145208/index.m3u8?expire=1777902516",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6cc8b7ab90",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/3566875e54418ee0aaf600b0ba40e389/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Qatar SC",
-            "team_b": "Al Duhail",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6bd99a31fd562a9e6b1db99d42d40b34.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5736b9d2b0cadc3c1ba779bf6787d878.png",
-            "time": "21:15 27/04",
-            "blv": "GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-85daa9baa2_11dd4490.png?v=11dd4490",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-33225fad00",
-          "name": "Umm Salal vs Al-Ahli Doha | 21:15 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33225fad00",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-33225fad00",
-                  "name": "Umm Salal vs Al-Ahli Doha",
-                  "streams": [
-                    {
-                      "id": "st-33225fad00",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e578510936",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef69464841d_145419/index.m3u8?expire=1777902534",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0e56f253ea",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/25691e0c2b2a18687464c29e1b163a16/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Umm Salal",
-            "team_b": "Al-Ahli Doha",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6e3e684c59aa7d549e002b289f5345dd.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/48feed47ac02cae502daed358319eec0.png",
-            "time": "21:15 27/04",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33225fad00_9fea4779.png?v=9fea4779",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4765b52403",
           "name": "BFC Daugavpils vs Super Nova | 22:00 27/04",
@@ -572,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c05ee29064",
+                          "id": "lnk-de29c0ea2e",
                           "name": "GIÀNG A PHỦ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef87954841d_145232/index.m3u8?expire=1777910293",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3c2553227a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ce7e6244df6d29d539e61d39a76128a4/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1117,10 +694,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1135,7 +712,25 @@
                     {
                       "id": "st-c28876976a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-447b691a15",
+                          "name": "GIÀNG A NGAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef889036518_145821/index.m3u8?expire=1777910544",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1150,7 +745,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/45c9647899b8bf2fb6f988c6c33b964c.png",
             "time": "23:30 27/04",
             "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1170,10 +765,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1188,7 +783,25 @@
                     {
                       "id": "st-cf53660382",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f45a7abdb",
+                          "name": "GIÀNG A NẾP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef893536518_145428/index.m3u8?expire=1777910709",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1203,7 +816,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/af47207f36a49c89502312138e54f6a7.png",
             "time": "23:30 27/04",
             "blv": "GIÀNG A NẾP",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1211,6 +824,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cf53660382_aa294bdb.png?v=aa294bdb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-97c6846ffd",
+          "name": "Hacken vs IK Sirius FK | 00:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97c6846ffd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-97c6846ffd",
+                  "name": "Hacken vs IK Sirius FK",
+                  "streams": [
+                    {
+                      "id": "st-97c6846ffd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "Hacken",
+            "team_b": "IK Sirius FK",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/93920efdf720a6e94d3ab5e43ae3b504.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/82a1ff2fa56077a25595288406888007.png",
+            "time": "00:00 28/04",
+            "blv": "GIÀNG A MÈN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-97c6846ffd_251ac7b2.png?v=251ac7b2",
             "width": 1600,
             "height": 1200
           }
@@ -1317,59 +983,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-75f23545da_17738feb.png?v=17738feb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-97c6846ffd",
-          "name": "Hacken vs IK Sirius FK | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97c6846ffd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-97c6846ffd",
-                  "name": "Hacken vs IK Sirius FK",
-                  "streams": [
-                    {
-                      "id": "st-97c6846ffd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Hacken",
-            "team_b": "IK Sirius FK",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/93920efdf720a6e94d3ab5e43ae3b504.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/82a1ff2fa56077a25595288406888007.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A MÈN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-97c6846ffd_251ac7b2.png?v=251ac7b2",
             "width": 1600,
             "height": 1200
           }
@@ -2819,6 +2432,227 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4632e67f2c_a10808b5.png?v=a10808b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c7b6a16c13",
+          "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters | 17:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7b6a16c13",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c7b6a16c13",
+                  "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters",
+                  "streams": [
+                    {
+                      "id": "st-c7b6a16c13",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean Basketball League",
+            "team_a": "Busan KCC Egis",
+            "team_b": "Anyang JungKwanJang Red Boosters",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
+            "time": "17:00 28/04",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_50",
+      "name": "🏐 Bóng chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-a50f7a3ab4",
+          "name": "Sibir Novosibirsk vs Zenit St. Petersburg | 19:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a50f7a3ab4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a50f7a3ab4",
+                  "name": "Sibir Novosibirsk vs Zenit St. Petersburg",
+                  "streams": [
+                    {
+                      "id": "st-a50f7a3ab4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superleague - Play-Offs - Quarterfinals",
+            "team_a": "Sibir Novosibirsk",
+            "team_b": "Zenit St. Petersburg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1c600a1f78e1360aa398c37ffe13dddb.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/19d5361bfdffa4bfc2f936cbb65fd317.png",
+            "time": "19:00 28/04",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a50f7a3ab4_6848fc70.png?v=6848fc70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-bb5757c7e3",
+          "name": "Uralochka-NTMK vs Zenit Petersburg | 20:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb5757c7e3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bb5757c7e3",
+                  "name": "Uralochka-NTMK vs Zenit Petersburg",
+                  "streams": [
+                    {
+                      "id": "st-bb5757c7e3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russia Cup",
+            "team_a": "Uralochka-NTMK",
+            "team_b": "Zenit Petersburg",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4144c4f55bf9b2c803a016df8c694f33.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a808b7cbfb8297339bc09fe35a6b148c.png",
+            "time": "20:00 28/04",
+            "blv": "GIÀNG A NẾP",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_4bfbe1b3.png?v=4bfbe1b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-752417be75",
+          "name": "Halkbank vs Spor Toto | 23:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-752417be75",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-752417be75",
+                  "name": "Halkbank vs Spor Toto",
+                  "streams": [
+                    {
+                      "id": "st-752417be75",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Efeler Ligi",
+            "team_a": "Halkbank",
+            "team_b": "Spor Toto",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/f55ae0dbd16b2ebfc8b4564b252d1b3a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/5036dcd562c51b702de87757ab9dbf76.png",
+            "time": "23:00 28/04",
+            "blv": "GIÀNG A NẾP",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-752417be75_d32342a4.png?v=d32342a4",
             "width": 1600,
             "height": 1200
           }
