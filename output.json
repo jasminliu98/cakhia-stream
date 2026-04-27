@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (17 LIVE)",
+      "name": "⚽ Bóng đá (16 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -276,94 +276,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4736bfbee5_4fb08cf6.png?v=4fb08cf6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c729f08664",
-          "name": "Ogre United vs Jelgava | 23:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c729f08664",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c729f08664",
-                  "name": "Ogre United vs Jelgava",
-                  "streams": [
-                    {
-                      "id": "st-c729f08664",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce27cec473",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8cea4841d_146331/index.m3u8?expire=1777911658",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8c0983481b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b57b5b2cb2cf0e9f0ae3366a6b65ccfe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Ogre United",
-            "team_b": "Jelgava",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c448d89be2d910901ba43cd76bde1267.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/277e5d1f01baffb84533c9236b05cbf8.png",
-            "time": "23:00 27/04",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c729f08664_475afa38.png?v=475afa38",
             "width": 1600,
             "height": 1200
           }
@@ -1452,11 +1364,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-54c6f8aec8",
+                          "id": "lnk-8751d9a4b3",
                           "name": "GIÀNG A NÚI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef9b734841d_145611/index.m3u8?expire=1777915379",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9eaf9101ce",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e889a7ba7b8c91513de4f8e933feb52d/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2453,7 +2382,7 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2466,10 +2395,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2484,7 +2413,25 @@
                     {
                       "id": "st-907bac3a44",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a1bce6c16",
+                          "name": "GIÀNG A TÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efa03c4841d_145413/index.m3u8?expire=1777916604",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2499,7 +2446,7 @@
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "01:00 28/04",
             "blv": "GIÀNG A TÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
