@@ -15,7 +15,6 @@ from io import BytesIO
 
 VN_TZ       = timezone(timedelta(hours=7))
 LIVE_BEFORE = timedelta(minutes=15)
-LIVE_AFTER  = timedelta(hours=2, minutes=30)
 
 
 def now_vn() -> datetime:
@@ -53,14 +52,19 @@ def parse_kickoff(time_str: str):
 
 
 def calc_is_live(html_flag: bool, time_str: str) -> bool:
-    """HTML flag OR cửa sổ [KO-15p, KO+2h30] theo giờ VN."""
+    """True nếu HTML flag live, HOẶC còn trong 15p trước KO trở đi."""
     if html_flag:
         return True
     kickoff = parse_kickoff(time_str)
     if kickoff is None:
         return False
     now = now_vn()
-    return (kickoff - LIVE_BEFORE) <= now <= (kickoff + LIVE_AFTER)
+    return now >= (kickoff - LIVE_BEFORE)
+
+
+def has_live_stream(streams: list) -> bool:
+    """Kiểm tra còn stream cdn-hls thực sự đang live không."""
+    return any("cdn-hls.cakhiatv89.com" in s for s in streams)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -321,7 +325,7 @@ def get_matches():
         blv_names = ", ".join(b["name"] for b in blv_list)
         name      = f"{team_a} vs {team_b}" if team_a and team_b else href.split("/")[2][:50]
 
-        # ── is_live: HTML flag + cửa sổ giờ VN ───────────────────────────────
+        # ── is_live: HTML flag + 15p trước KO trở đi ─────────────────────────
         html_live_flag = "stream_m_live" in card_class
         is_live_flag   = calc_is_live(html_live_flag, match_time)
 
@@ -528,6 +532,11 @@ def main():
         if match["is_live"]:
             streams = get_streams(match["match_id"], match["blv_list"])
 
+            # Nếu không còn cdn-hls stream → trận đã kết thúc, bỏ qua
+            if not has_live_stream(streams):
+                print(f"  Khong con stream cdn-hls → bo qua")
+                continue
+
             # Bóng đá, Bóng rổ, Tennis: swap link[0] ↔ link[1]
             # (link[0] từ cbox thường là sóng đài, link[1] mới là BLV VN)
             if cate_id in ("1", "20", "27") and len(streams) >= 2:
@@ -536,8 +545,6 @@ def main():
                 print(f"  [{label}] swapped link 1<->2")
 
             print(f"  stream: {len(streams)} link")
-            if not streams:
-                print(f"  Bo qua - khong co stream")
 
         uid       = make_id(match["url"], "kaytee")
         thumb_path = make_thumbnail(match, uid)
