@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -95,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -113,7 +113,25 @@
                     {
                       "id": "st-d5cfbb1f9b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9a58b89ff",
+                          "name": "GIÀNG A LƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef676336518_145812/index.m3u8?expire=1777902051",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -128,7 +146,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/78d040926970a0ccc54c3b1f13a6d568.png",
             "time": "21:00 27/04",
             "blv": "GIÀNG A LƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -194,59 +212,6 @@
           }
         },
         {
-          "id": "kaytee-3d95c9f731",
-          "name": "Al-Wakra vs Al-Sailiya | 21:15 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d95c9f731",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3d95c9f731",
-                  "name": "Al-Wakra vs Al-Sailiya",
-                  "streams": [
-                    {
-                      "id": "st-3d95c9f731",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Al-Wakra",
-            "team_b": "Al-Sailiya",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c47e10954dc1d2b623ddf0d89d63c14d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png",
-            "time": "21:15 27/04",
-            "blv": "GIÀNG A NÌ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3d95c9f731_77c954cd.png?v=77c954cd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-8b515c87be",
           "name": "Al Rayyan vs Al-Arabi SC | 21:15 27/04",
           "type": "single",
@@ -295,6 +260,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8b515c87be_34dd6308.png?v=34dd6308",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3d95c9f731",
+          "name": "Al-Wakra vs Al-Sailiya | 21:15 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d95c9f731",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3d95c9f731",
+                  "name": "Al-Wakra vs Al-Sailiya",
+                  "streams": [
+                    {
+                      "id": "st-3d95c9f731",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Qatar Stars League",
+            "team_a": "Al-Wakra",
+            "team_b": "Al-Sailiya",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c47e10954dc1d2b623ddf0d89d63c14d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png",
+            "time": "21:15 27/04",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3d95c9f731_77c954cd.png?v=77c954cd",
             "width": 1600,
             "height": 1200
           }
