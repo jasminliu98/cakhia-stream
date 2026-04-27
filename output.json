@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (16 LIVE)",
+      "name": "⚽ Bóng đá (17 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1432,10 +1432,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1450,7 +1450,25 @@
                     {
                       "id": "st-fa6d3da06e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-54c6f8aec8",
+                          "name": "GIÀNG A NÚI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef9b734841d_145611/index.m3u8?expire=1777915379",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1465,7 +1483,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6b326376b7791573f27a88fe9e9942a7.png",
             "time": "00:50 28/04",
             "blv": "GIÀNG A NÚI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2477,7 +2495,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Terence Atmane",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "01:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -2488,7 +2506,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_dadc8ed0.png?v=dadc8ed0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_849411d9.png?v=849411d9",
             "width": 1600,
             "height": 1200
           }
@@ -2530,8 +2548,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Anastasia Potapova",
             "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/3145531b797a9337f8d16557fbf9a6bc.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
             "time": "02:10 28/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -2541,7 +2559,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_931021cc.png?v=931021cc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_35ec9579.png?v=35ec9579",
             "width": 1600,
             "height": 1200
           }
@@ -2592,8 +2610,8 @@
             "league": "Argentinian Liga Nacional de Bosquetbol",
             "team_a": "Obras Sanitarias Buenos Aires",
             "team_b": "Instituto de Cordoba",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/18fe78c2f91e9dbb35a68389762d604b.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/a56c030e5340a515664fa166e94fef5c.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/18fe78c2f91e9dbb35a68389762d604b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a56c030e5340a515664fa166e94fef5c.png",
             "time": "06:30 28/04",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2603,7 +2621,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bee317f1d1_97dec70f.png?v=97dec70f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bee317f1d1_db73036f.png?v=db73036f",
             "width": 1600,
             "height": 1200
           }
@@ -2645,8 +2663,8 @@
             "league": "National Basketball Association",
             "team_a": "Orlando Magic",
             "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
             "time": "07:00 28/04",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2656,7 +2674,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7a948cf610_69ba8f42.png?v=69ba8f42",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7a948cf610_50a85517.png?v=50a85517",
             "width": 1600,
             "height": 1200
           }
@@ -2698,8 +2716,8 @@
             "league": "National Basketball Association",
             "team_a": "Phoenix Suns",
             "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/da3c882a7e0bc592b4c1ba9d8c5fb68d.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/da3c882a7e0bc592b4c1ba9d8c5fb68d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
             "time": "08:30 28/04",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2709,7 +2727,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-447c7c7267_97c3dea1.png?v=97c3dea1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-447c7c7267_03b524ff.png?v=03b524ff",
             "width": 1600,
             "height": 1200
           }
@@ -2751,8 +2769,8 @@
             "league": "National Basketball Association",
             "team_a": "Denver Nuggets",
             "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/403a12aa187f47045c18d137cd8103dc.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
             "time": "09:30 28/04",
             "blv": "GIÀNG A LƯƠN",
             "is_live": false,
@@ -2762,7 +2780,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4632e67f2c_a03f79ab.png?v=a03f79ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4632e67f2c_a10808b5.png?v=a10808b5",
             "width": 1600,
             "height": 1200
           }
@@ -2804,8 +2822,8 @@
             "league": "Korean Basketball League",
             "team_a": "Busan KCC Egis",
             "team_b": "Anyang JungKwanJang Red Boosters",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0add24fc964de3ea25e83417aa301f81.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/30683c359531664a5b97f129c047fcdc.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
             "time": "17:00 28/04",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2815,7 +2833,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_94df3433.png?v=94df3433",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
             "width": 1600,
             "height": 1200
           }
