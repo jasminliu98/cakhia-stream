@@ -1287,6 +1287,86 @@
       ]
     },
     {
+      "id": "cate_27",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-9cfa8c75c4",
+          "name": "Anastasia Potapova vs Elena Rybakina | 03:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9cfa8c75c4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9cfa8c75c4",
+                  "name": "Anastasia Potapova vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-9cfa8c75c4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e353fd52f",
+                          "name": "GIÀNG A TÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efbf114841d_145413/index.m3u8?expire=1777924497",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Anastasia Potapova",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "time": "03:00 28/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9cfa8c75c4_35ec9579.png?v=35ec9579",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_20",
       "name": "🏀 Bóng rổ",
       "display": "vertical",
