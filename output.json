@@ -1775,77 +1775,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-75aaf9f4b2",
-          "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar | 18:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75aaf9f4b2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-75aaf9f4b2",
-                  "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar",
-                  "streams": [
-                    {
-                      "id": "st-75aaf9f4b2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b98678d22c",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef3b8c4841d_146088/index.m3u8?expire=1777890828",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Stefanos Tsitsipas",
-            "team_b": "Daniel Merida Aguilar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
-            "time": "18:00 27/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-75aaf9f4b2_551e2247.png?v=551e2247",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-27d7762e54",
           "name": "Aryna Sabalenka vs Naomi Osaka | 18:00 27/04",
           "type": "single",
@@ -1934,8 +1863,79 @@
           }
         },
         {
-          "id": "kaytee-dd25f785bf",
-          "name": "Daniil Medvedev vs Nicolai Budkov Kjaer | 19:10 27/04",
+          "id": "kaytee-c51e5d3d5c",
+          "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar | 18:10 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c51e5d3d5c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c51e5d3d5c",
+                  "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar",
+                  "streams": [
+                    {
+                      "id": "st-c51e5d3d5c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b98678d22c",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef3b8c4841d_146088/index.m3u8?expire=1777890828",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Stefanos Tsitsipas",
+            "team_b": "Daniel Merida Aguilar",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
+            "time": "18:10 27/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c51e5d3d5c_551e2247.png?v=551e2247",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-bb2238e048",
+          "name": "Daniil Medvedev vs Nicolai Budkov Kjaer | 19:20 27/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1949,15 +1949,15 @@
           ],
           "sources": [
             {
-              "id": "src-dd25f785bf",
+              "id": "src-bb2238e048",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-dd25f785bf",
+                  "id": "ct-bb2238e048",
                   "name": "Daniil Medvedev vs Nicolai Budkov Kjaer",
                   "streams": [
                     {
-                      "id": "st-dd25f785bf",
+                      "id": "st-bb2238e048",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1972,7 +1972,7 @@
             "team_b": "Nicolai Budkov Kjaer",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
-            "time": "19:10 27/04",
+            "time": "19:20 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1981,7 +1981,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd25f785bf_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb2238e048_395c2d86.png?v=395c2d86",
             "width": 1600,
             "height": 1200
           }
