@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -941,11 +941,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-43b8c1a688",
+                          "id": "lnk-67b34f033f",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69efa73f36518_145407/index.m3u8?expire=1777918399",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-316897bafa",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c844b4ce8a03d3508aab45cd264116e2/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -992,10 +1009,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1010,7 +1027,42 @@
                     {
                       "id": "st-e8ebd0c7cb",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d817f95d8",
+                          "name": "GIÀNG A NGAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efab8a36518_145821/index.m3u8?expire=1777919498",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d77a13fe46",
+                          "name": "GIÀNG A TRỀ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efab074841d_145689/index.m3u8?expire=1777919367",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1025,7 +1077,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/60f1c7788be3148a370dbf59f914abfe.png",
             "time": "02:00 28/04",
             "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1045,10 +1097,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1063,7 +1115,42 @@
                     {
                       "id": "st-6ccf0ef947",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7373c569b6",
+                          "name": "GIÀNG A CÒI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efabba4841d_145208/index.m3u8?expire=1777919546",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-052a239278",
+                          "name": "GIÀNG A BẢNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efaa1c4841d_145205/index.m3u8?expire=1777919132",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1078,7 +1165,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png",
             "time": "02:00 28/04",
             "blv": "GIÀNG A CÒI, GIÀNG A BẢNH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
