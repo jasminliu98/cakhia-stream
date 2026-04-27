@@ -795,7 +795,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/dba65c184e03c860ed919ce192b86c5e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/45c9647899b8bf2fb6f988c6c33b964c.png",
             "time": "23:30 27/04",
-            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "blv": "GIÀNG A NGAO",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -892,6 +892,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cf53660382_aa294bdb.png?v=aa294bdb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-75f23545da",
+          "name": "AIK vs Malmo FF | 00:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75f23545da",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-75f23545da",
+                  "name": "AIK vs Malmo FF",
+                  "streams": [
+                    {
+                      "id": "st-75f23545da",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "AIK",
+            "team_b": "Malmo FF",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0cc49f3f48c86ed0c00a31c96962ecf3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/339c6acafe9c245dc5d8627c60528ca2.png",
+            "time": "00:00 28/04",
+            "blv": "GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-75f23545da_17738feb.png?v=17738feb",
             "width": 1600,
             "height": 1200
           }
@@ -1157,59 +1210,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eb04e26ae9_fc7e4204.png?v=fc7e4204",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-75f23545da",
-          "name": "AIK vs Malmo FF | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75f23545da",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-75f23545da",
-                  "name": "AIK vs Malmo FF",
-                  "streams": [
-                    {
-                      "id": "st-75f23545da",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "AIK",
-            "team_b": "Malmo FF",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0cc49f3f48c86ed0c00a31c96962ecf3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/339c6acafe9c245dc5d8627c60528ca2.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A SIK",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-75f23545da_17738feb.png?v=17738feb",
             "width": 1600,
             "height": 1200
           }
