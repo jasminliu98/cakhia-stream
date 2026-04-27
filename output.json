@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -117,94 +117,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c649097fd3_1369b6fd.png?v=1369b6fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-066ceccb90",
-          "name": "Boulogne vs USL Dunkerque | 01:45 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-066ceccb90",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-066ceccb90",
-                  "name": "Boulogne vs USL Dunkerque",
-                  "streams": [
-                    {
-                      "id": "st-066ceccb90",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67b34f033f",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69efa73f36518_145407/index.m3u8?expire=1777918399",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-316897bafa",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c844b4ce8a03d3508aab45cd264116e2/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 2",
-            "team_a": "Boulogne",
-            "team_b": "USL Dunkerque",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2c61be832465c05fe591b927e063c83f.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f029ed3d5dcf7f49a42c7f1474411a3c.png",
-            "time": "01:45 28/04",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-066ceccb90_c0259a59.png?v=c0259a59",
             "width": 1600,
             "height": 1200
           }
