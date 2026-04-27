@@ -44,11 +44,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d9a58b89ff",
+                          "id": "lnk-cc05d412fe",
                           "name": "GIÀNG A LƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef676336518_145812/index.m3u8?expire=1777902051",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f74620f749",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fdea524f0c8f5b28ca0969c4ea579dc8/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2096,8 +2113,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "20:25 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -2107,7 +2124,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-579a6127db_2d49aa62.png?v=2d49aa62",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-579a6127db_395c2d86.png?v=395c2d86",
             "width": 1600,
             "height": 1200
           }
