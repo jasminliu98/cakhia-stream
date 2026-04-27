@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-c649097fd3",
-          "name": "Lazio vs Udinese | 01:45 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c649097fd3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c649097fd3",
-                  "name": "Lazio vs Udinese",
-                  "streams": [
-                    {
-                      "id": "st-c649097fd3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1129edbf4",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69efa8cf36518_145419/index.m3u8?expire=1777918799",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c0d313a3d8",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/082a0c75dde67e7a6ebb41b10f1e7aed/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c1ff82e8a8",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef9fe636518_145199/index.m3u8?expire=1777916518",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Lazio",
-            "team_b": "Udinese",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
-            "time": "01:45 28/04",
-            "blv": "GIÀNG A DÂN, GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c649097fd3_1369b6fd.png?v=1369b6fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e8ebd0c7cb",
           "name": "Manchester United vs Brentford | 02:00 28/04",
@@ -1705,6 +1600,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d199c24902_a8fe188a.png?v=a8fe188a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4575b610cb",
+          "name": "Canada vs Australia | 15:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4575b610cb",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4575b610cb",
+                  "name": "Canada vs Australia",
+                  "streams": [
+                    {
+                      "id": "st-4575b610cb",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "Canada",
+            "team_b": "Australia",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f487d3215cf06247aa4be9e01c73e787.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd9304f60c2064bbee0b1554c32614fa.png",
+            "time": "15:00 28/04",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4575b610cb_2f1d4a0c.png?v=2f1d4a0c",
             "width": 1600,
             "height": 1200
           }
