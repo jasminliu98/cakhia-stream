@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,25 @@
                     {
                       "id": "st-0762c2fec9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e85850221",
+                          "name": "GIÀNG A ĐẬU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef49cb4841d_145169/index.m3u8?expire=1777894475",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/46e87ccb8a5cacc290719d822b9f8fe1.png",
             "time": "19:00 27/04",
             "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1863,8 +1881,8 @@
           }
         },
         {
-          "id": "kaytee-e90d095ff4",
-          "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar | 18:40 27/04",
+          "id": "kaytee-eec04cc96d",
+          "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar | 18:50 27/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1878,15 +1896,15 @@
           ],
           "sources": [
             {
-              "id": "src-e90d095ff4",
+              "id": "src-eec04cc96d",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-e90d095ff4",
+                  "id": "ct-eec04cc96d",
                   "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar",
                   "streams": [
                     {
-                      "id": "st-e90d095ff4",
+                      "id": "st-eec04cc96d",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1919,7 +1937,7 @@
             "team_b": "Daniel Merida Aguilar",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
-            "time": "18:40 27/04",
+            "time": "18:50 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1928,14 +1946,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e90d095ff4_551e2247.png?v=551e2247",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eec04cc96d_551e2247.png?v=551e2247",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-dd54bae6dc",
-          "name": "Daniil Medvedev vs Nicolai Budkov Kjaer | 19:50 27/04",
+          "id": "kaytee-1a12cf098c",
+          "name": "Daniil Medvedev vs Nicolai Budkov Kjaer | 20:00 27/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1949,15 +1967,15 @@
           ],
           "sources": [
             {
-              "id": "src-dd54bae6dc",
+              "id": "src-1a12cf098c",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-dd54bae6dc",
+                  "id": "ct-1a12cf098c",
                   "name": "Daniil Medvedev vs Nicolai Budkov Kjaer",
                   "streams": [
                     {
-                      "id": "st-dd54bae6dc",
+                      "id": "st-1a12cf098c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1972,7 +1990,7 @@
             "team_b": "Nicolai Budkov Kjaer",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
-            "time": "19:50 27/04",
+            "time": "20:00 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1981,7 +1999,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd54bae6dc_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1a12cf098c_395c2d86.png?v=395c2d86",
             "width": 1600,
             "height": 1200
           }
