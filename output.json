@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5fd55f3984",
-          "name": "Cadiz vs UD Las Palmas | 01:30 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fd55f3984",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5fd55f3984",
-                  "name": "Cadiz vs UD Las Palmas",
-                  "streams": [
-                    {
-                      "id": "st-5fd55f3984",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-523a2a299e",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69efa5614841d_146781/index.m3u8?expire=1777917921",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bc4d00b83c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/db354547c0b2d6072a360a86497f700d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Segunda Division",
-            "team_a": "Cadiz",
-            "team_b": "UD Las Palmas",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/13ad117ddb310052841244f0d1ed3c1e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/eff9bb17ae54a84068dfc3b9f1f628cb.png",
-            "time": "01:30 28/04",
-            "blv": "GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fd55f3984_8d1aa664.png?v=8d1aa664",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-c649097fd3",
           "name": "Lazio vs Udinese | 01:45 28/04",
