@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (12 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -978,11 +978,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8badc4db61",
+                          "id": "lnk-17e1c312a0",
                           "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef82754841d_145244/index.m3u8?expire=1777908981",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1faed260ed",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/bd125b62f7b0a36f18c8291ce8a6fbe6/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1029,10 +1046,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1047,7 +1064,25 @@
                     {
                       "id": "st-b482111b2c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-974a061a4f",
+                          "name": "GIÀNG A KEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef85454841d_145467/index.m3u8?expire=1777909701",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1062,7 +1097,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png",
             "time": "23:20 27/04",
             "blv": "GIÀNG A KEN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2395,6 +2430,510 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c927eee8bf_2a909bfc.png?v=2a909bfc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-31b31eca9e",
+          "name": "Al Zulfi vs Al-Tai | 23:10 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31b31eca9e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-31b31eca9e",
+                  "name": "Al Zulfi vs Al-Tai",
+                  "streams": [
+                    {
+                      "id": "st-31b31eca9e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Arabia Division 1",
+            "team_a": "Al Zulfi",
+            "team_b": "Al-Tai",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/13b5359a749536d5adb6ef17cd675219.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fdf42dd465f17ab274ec8a74cb4ef4e2.png",
+            "time": "23:10 28/04",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-31b31eca9e_5fab4f13.png?v=5fab4f13",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-907bac3a44",
+          "name": "Terence Atmane vs Alexander Zverev | 01:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-907bac3a44",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-907bac3a44",
+                  "name": "Terence Atmane vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-907bac3a44",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Terence Atmane",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
+            "time": "01:00 28/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_849411d9.png?v=849411d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3787e9cf32",
+          "name": "Anastasia Potapova vs Elena Rybakina | 02:10 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3787e9cf32",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3787e9cf32",
+                  "name": "Anastasia Potapova vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-3787e9cf32",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Anastasia Potapova",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "time": "02:10 28/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_35ec9579.png?v=35ec9579",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_20",
+      "name": "🏀 Bóng rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-bee317f1d1",
+          "name": "Obras Sanitarias Buenos Aires vs Instituto de Cordoba | 06:30 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bee317f1d1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bee317f1d1",
+                  "name": "Obras Sanitarias Buenos Aires vs Instituto de Cordoba",
+                  "streams": [
+                    {
+                      "id": "st-bee317f1d1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Argentinian Liga Nacional de Bosquetbol",
+            "team_a": "Obras Sanitarias Buenos Aires",
+            "team_b": "Instituto de Cordoba",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/18fe78c2f91e9dbb35a68389762d604b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a56c030e5340a515664fa166e94fef5c.png",
+            "time": "06:30 28/04",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bee317f1d1_db73036f.png?v=db73036f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7a948cf610",
+          "name": "Orlando Magic vs Detroit Pistons | 07:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a948cf610",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7a948cf610",
+                  "name": "Orlando Magic vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-7a948cf610",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Orlando Magic",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "time": "07:00 28/04",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7a948cf610_50a85517.png?v=50a85517",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-447c7c7267",
+          "name": "Phoenix Suns vs Oklahoma City Thunder | 08:30 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-447c7c7267",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-447c7c7267",
+                  "name": "Phoenix Suns vs Oklahoma City Thunder",
+                  "streams": [
+                    {
+                      "id": "st-447c7c7267",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Phoenix Suns",
+            "team_b": "Oklahoma City Thunder",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/da3c882a7e0bc592b4c1ba9d8c5fb68d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
+            "time": "08:30 28/04",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-447c7c7267_03b524ff.png?v=03b524ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4632e67f2c",
+          "name": "Denver Nuggets vs Minnesota Timberwolves | 09:30 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4632e67f2c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4632e67f2c",
+                  "name": "Denver Nuggets vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-4632e67f2c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Denver Nuggets",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "time": "09:30 28/04",
+            "blv": "GIÀNG A LƯƠN",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4632e67f2c_a10808b5.png?v=a10808b5",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_13",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-d199c24902",
+          "name": "Đài Bắc Trung Hoa vs Indonesia (Nữ) | 15:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d199c24902",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d199c24902",
+                  "name": "Đài Bắc Trung Hoa vs Indonesia (Nữ)",
+                  "streams": [
+                    {
+                      "id": "st-d199c24902",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "Đài Bắc Trung Hoa",
+            "team_b": "Indonesia (Nữ)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/74a860220ef9f465df98721141ba61b7.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/9e153886b19607f65d482df4805b1d7b.png",
+            "time": "15:00 28/04",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d199c24902_a8fe188a.png?v=a8fe188a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-82c36ad5f7",
+          "name": "Indonesia vs Pháp | 23:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82c36ad5f7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-82c36ad5f7",
+                  "name": "Indonesia vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-82c36ad5f7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "Indonesia",
+            "team_b": "Pháp",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f592cb409138b486af3530fd7af91911.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
+            "time": "23:00 28/04",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-82c36ad5f7_7bac5391.png?v=7bac5391",
             "width": 1600,
             "height": 1200
           }
