@@ -1281,8 +1281,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Daniel Merida Aguilar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/dd9de97f2c17b8e1596699f5c780156d.png",
             "time": "17:10 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1292,7 +1292,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_551e2247.png?v=551e2247",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_c4a5f8b1.png?v=c4a5f8b1",
             "width": 1600,
             "height": 1200
           }
@@ -1334,8 +1334,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Aryna Sabalenka",
             "team_b": "Naomi Osaka",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/02dafb75bfa38f4c3a711fed23dad19b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e160936f5090dd7e94edaa26aed010cd.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/02dafb75bfa38f4c3a711fed23dad19b.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/e160936f5090dd7e94edaa26aed010cd.png",
             "time": "18:00 27/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -1345,7 +1345,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-27d7762e54_e4be84d3.png?v=e4be84d3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-27d7762e54_5e1d00ba.png?v=5e1d00ba",
             "width": 1600,
             "height": 1200
           }
@@ -1387,8 +1387,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "18:20 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1398,7 +1398,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_2d49aa62.png?v=2d49aa62",
             "width": 1600,
             "height": 1200
           }
@@ -1452,7 +1452,7 @@
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f7acfa03ffa7ae779509b897dafdb61f.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/12e9ecb23853b22284862b0002431e14.png",
             "time": "12:00 27/04",
-            "blv": "GIÀNG A THỎ",
+            "blv": "GIÀNG A SÓC",
             "is_live": false,
             "cate_name": "Bóng rổ"
           },
