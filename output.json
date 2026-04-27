@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (12 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-b482111b2c",
-          "name": "Al-Jabalain vs Al-Adalah | 23:20 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b482111b2c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b482111b2c",
-                  "name": "Al-Jabalain vs Al-Adalah",
-                  "streams": [
-                    {
-                      "id": "st-b482111b2c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef2068cc0d",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef85454841d_145467/index.m3u8?expire=1777909701",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3375d7c522",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a1e7e164ebca5c3de1ea0947f1f8b0e3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Arabia Division 1",
-            "team_a": "Al-Jabalain",
-            "team_b": "Al-Adalah",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ff21a5b966039a14fa4cd721d29b40ee.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/56eaace9b1e134a8a019029f1fbaa0c5.png",
-            "time": "23:20 27/04",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b482111b2c_c19a86ad.png?v=c19a86ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-c28876976a",
           "name": "Cagliari vs Atalanta | 23:30 27/04",
@@ -1063,10 +975,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1081,7 +993,42 @@
                     {
                       "id": "st-c649097fd3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-381ab17eae",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efa8cf36518_145419/index.m3u8?expire=1777918799",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8f84b9552c",
+                          "name": "GIÀNG A RON",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef9fe636518_145199/index.m3u8?expire=1777916518",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1096,7 +1043,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
             "time": "01:45 28/04",
             "blv": "GIÀNG A DÂN, GIÀNG A RON",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1116,10 +1063,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1134,7 +1081,25 @@
                     {
                       "id": "st-066ceccb90",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-43b8c1a688",
+                          "name": "GIÀNG A BẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efa73f36518_145407/index.m3u8?expire=1777918399",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1149,7 +1114,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/f029ed3d5dcf7f49a42c7f1474411a3c.png",
             "time": "01:45 28/04",
             "blv": "GIÀNG A BẠC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1993,11 +1958,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-4a1bce6c16",
+                          "id": "lnk-24b7cf3a1f",
                           "name": "GIÀNG A TÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69efa03c4841d_145413/index.m3u8?expire=1777916604",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-85d5cd6e32",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/cc449c3e160a74589d38e3da37386ccc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2020,7 +2002,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Terence Atmane",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "01:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -2031,7 +2013,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_849411d9.png?v=849411d9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_dadc8ed0.png?v=dadc8ed0",
             "width": 1600,
             "height": 1200
           }
@@ -2073,8 +2055,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Anastasia Potapova",
             "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsMFF3aWai0eb8lzeudAjwIjYgKI",
             "time": "02:10 28/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -2084,7 +2066,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_35ec9579.png?v=35ec9579",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_931021cc.png?v=931021cc",
             "width": 1600,
             "height": 1200
           }
@@ -2347,8 +2329,8 @@
             "league": "Korean Basketball League",
             "team_a": "Busan KCC Egis",
             "team_b": "Anyang JungKwanJang Red Boosters",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/30683c359531664a5b97f129c047fcdc.png",
             "time": "17:00 28/04",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2358,7 +2340,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_94df3433.png?v=94df3433",
             "width": 1600,
             "height": 1200
           }
