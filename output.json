@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -591,6 +591,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6ccf0ef947_b8593304.png?v=b8593304",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-b624d164aa",
+          "name": "Gil Vicente vs Casa Pia AC | 02:15 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b624d164aa",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b624d164aa",
+                  "name": "Gil Vicente vs Casa Pia AC",
+                  "streams": [
+                    {
+                      "id": "st-b624d164aa",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6608879f7",
+                          "name": "GIÀNG A TÔM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69efb40036518_145920/index.m3u8?expire=1777921664",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Gil Vicente",
+            "team_b": "Casa Pia AC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6a2005d20c872db3173d2bf995768055.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
+            "time": "02:15 28/04",
+            "blv": "GIÀNG A TÔM",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b624d164aa_bd706cb6.png?v=bd706cb6",
             "width": 1600,
             "height": 1200
           }
