@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-0762c2fec9",
-          "name": "Persija Jakarta vs Persis Solo FC | 19:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0762c2fec9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0762c2fec9",
-                  "name": "Persija Jakarta vs Persis Solo FC",
-                  "streams": [
-                    {
-                      "id": "st-0762c2fec9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e85850221",
-                          "name": "GIÀNG A ĐẬU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef49cb4841d_145169/index.m3u8?expire=1777894475",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persija Jakarta",
-            "team_b": "Persis Solo FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/10db29eabad13994d9729d8983f8d21a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/46e87ccb8a5cacc290719d822b9f8fe1.png",
-            "time": "19:00 27/04",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0762c2fec9_3206c4c6.png?v=3206c4c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-d5cfbb1f9b",
           "name": "Turan Tovuz vs Zira FK | 21:00 27/04",
@@ -166,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -184,7 +113,25 @@
                     {
                       "id": "st-83121eba39",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-46057cc17c",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef69c936518_146331/index.m3u8?expire=1777902665",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -199,7 +146,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/7e9f03a408f176192cac0fbe6185f2d6.png",
             "time": "21:15 27/04",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -219,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -237,7 +184,25 @@
                     {
                       "id": "st-8b515c87be",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5253ae0500",
+                          "name": "GIÀNG A NA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef698c36518_146847/index.m3u8?expire=1777902604",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -252,7 +217,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/00bb4a98ec1224af879bd139519ce3b7.png",
             "time": "21:15 27/04",
             "blv": "GIÀNG A NA",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -272,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -290,7 +255,25 @@
                     {
                       "id": "st-3d95c9f731",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-22269b378c",
+                          "name": "GIÀNG A NÌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef645d4841d_145187/index.m3u8?expire=1777901277",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -305,7 +288,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png",
             "time": "21:15 27/04",
             "blv": "GIÀNG A NÌ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -325,10 +308,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -343,7 +326,25 @@
                     {
                       "id": "st-85daa9baa2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c7cdebdff",
+                          "name": "GIÀNG A CÒI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef69344841d_145208/index.m3u8?expire=1777902516",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -358,7 +359,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/5736b9d2b0cadc3c1ba779bf6787d878.png",
             "time": "21:15 27/04",
             "blv": "GIÀNG A CÒI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -378,10 +379,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -396,7 +397,25 @@
                     {
                       "id": "st-33225fad00",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc069854bd",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef69464841d_145419/index.m3u8?expire=1777902534",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -411,7 +430,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/48feed47ac02cae502daed358319eec0.png",
             "time": "21:15 27/04",
             "blv": "GIÀNG A DÂN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1906,6 +1925,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-2666dfe0d2",
+          "name": "ZED FC vs Pharco | 21:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2666dfe0d2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2666dfe0d2",
+                  "name": "ZED FC vs Pharco",
+                  "streams": [
+                    {
+                      "id": "st-2666dfe0d2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "ZED FC",
+            "team_b": "Pharco",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a08754ab96c283bacbf148154a50c7fc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/abc7123841c5174901b57ace767891ca.png",
+            "time": "21:00 28/04",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2666dfe0d2_cfba5f14.png?v=cfba5f14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0c1362b2ba",
+          "name": "Petrojet vs Ismaily SC | 21:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c1362b2ba",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0c1362b2ba",
+                  "name": "Petrojet vs Ismaily SC",
+                  "streams": [
+                    {
+                      "id": "st-0c1362b2ba",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Petrojet",
+            "team_b": "Ismaily SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/f81f7bb9cf129a0f1c66880d7fba5d7b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/3766cad0712ddc9181a091d2d78d61c8.png",
+            "time": "21:00 28/04",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0c1362b2ba_3e2fa374.png?v=3e2fa374",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1971,8 +2096,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
             "time": "20:25 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -1982,7 +2107,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-579a6127db_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-579a6127db_2d49aa62.png?v=2d49aa62",
             "width": 1600,
             "height": 1200
           }
