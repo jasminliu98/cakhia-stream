@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-b624d164aa",
-          "name": "Gil Vicente vs Casa Pia AC | 02:15 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b624d164aa",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b624d164aa",
-                  "name": "Gil Vicente vs Casa Pia AC",
-                  "streams": [
-                    {
-                      "id": "st-b624d164aa",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bba17e1b1f",
-                          "name": "GIÀNG A TÔM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69efb40036518_145920/index.m3u8?expire=1777921664",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-32100aa9da",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/135c0aee6ffd1e656a0f13940937b2a1/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Gil Vicente",
-            "team_b": "Casa Pia AC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6a2005d20c872db3173d2bf995768055.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
-            "time": "02:15 28/04",
-            "blv": "GIÀNG A TÔM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b624d164aa_bd706cb6.png?v=bd706cb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-7f25d6134c",
           "name": "Arema FC vs Persebaya Surabaya | 15:30 28/04",
@@ -211,8 +123,8 @@
           }
         },
         {
-          "id": "kaytee-9b1a0d7627",
-          "name": "Melaka FC vs Johor Darul Ta'zim FC | 19:15 28/04",
+          "id": "kaytee-ac40606523",
+          "name": "Melaka FC vs Johor Darul Ta'zim FC | 20:00 28/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -226,15 +138,15 @@
           ],
           "sources": [
             {
-              "id": "src-9b1a0d7627",
+              "id": "src-ac40606523",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-9b1a0d7627",
+                  "id": "ct-ac40606523",
                   "name": "Melaka FC vs Johor Darul Ta'zim FC",
                   "streams": [
                     {
-                      "id": "st-9b1a0d7627",
+                      "id": "st-ac40606523",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -249,7 +161,7 @@
             "team_b": "Johor Darul Ta'zim FC",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3f0555f143e8fbb10c32c68bd7714638.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/3ab85cf20a3ed001a60a9fcd8ec09afe.png",
-            "time": "19:15 28/04",
+            "time": "20:00 28/04",
             "blv": "GIÀNG A CƠ",
             "is_live": false,
             "cate_name": "Bóng đá"
@@ -258,7 +170,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b1a0d7627_6fceafed.png?v=6fceafed",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ac40606523_6fceafed.png?v=6fceafed",
             "width": 1600,
             "height": 1200
           }
