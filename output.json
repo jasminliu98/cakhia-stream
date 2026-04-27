@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (16 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-4765b52403",
-          "name": "BFC Daugavpils vs Super Nova | 22:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4765b52403",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4765b52403",
-                  "name": "BFC Daugavpils vs Super Nova",
-                  "streams": [
-                    {
-                      "id": "st-4765b52403",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6bc4d92ee5",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef737c36518_145223/index.m3u8?expire=1777905148",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6a5ea367c3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c7a98a34dd2a80a40d3705632942f43c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "BFC Daugavpils",
-            "team_b": "Super Nova",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/3be559332e6a0ca7c23f3f2a011a2ca2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6ecfe734e6971ff83a4a3808b669d059.png",
-            "time": "22:00 27/04",
-            "blv": "GIÀNG A MAO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4765b52403_fdd15d1f.png?v=fdd15d1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b8aeb0c867",
           "name": "Hoffenheim (w) vs Koln (w) | 23:00 27/04",
@@ -897,6 +809,77 @@
           }
         },
         {
+          "id": "kaytee-eb04e26ae9",
+          "name": "Baltika Kaliningrad vs Akron Togliatti | 00:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb04e26ae9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-eb04e26ae9",
+                  "name": "Baltika Kaliningrad vs Akron Togliatti",
+                  "streams": [
+                    {
+                      "id": "st-eb04e26ae9",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afabab43a4",
+                          "name": "GIÀNG A ĐẬU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef91d936518_145169/index.m3u8?expire=1777912921",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Premier League",
+            "team_a": "Baltika Kaliningrad",
+            "team_b": "Akron Togliatti",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d113e6038e09c80bc50d4b20871a2d06.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d5a6f7b99c55a87b8a47337e7fe64588.png",
+            "time": "00:00 28/04",
+            "blv": "GIÀNG A ĐẬU",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eb04e26ae9_fc7e4204.png?v=fc7e4204",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-75f23545da",
           "name": "AIK vs Malmo FF | 00:00 28/04",
           "type": "single",
@@ -904,10 +887,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -922,7 +905,25 @@
                     {
                       "id": "st-75f23545da",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a7c0ca97f",
+                          "name": "GIÀNG A SIK",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8f464841d_145268/index.m3u8?expire=1777912262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -937,7 +938,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/339c6acafe9c245dc5d8627c60528ca2.png",
             "time": "00:00 28/04",
             "blv": "GIÀNG A SIK",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -957,10 +958,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -975,7 +976,25 @@
                     {
                       "id": "st-97c6846ffd",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8fa620c7fb",
+                          "name": "GIÀNG A MÈN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8bf14841d_145178/index.m3u8?expire=1777911409",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -990,7 +1009,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/82a1ff2fa56077a25595288406888007.png",
             "time": "00:00 28/04",
             "blv": "GIÀNG A MÈN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1010,10 +1029,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1028,7 +1047,25 @@
                     {
                       "id": "st-f6218eb06b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d693f9269f",
+                          "name": "GIÀNG A RICH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e7d36518_145476/index.m3u8?expire=1777912061",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1043,7 +1080,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/d84614f172a18a18947a7567a9625b45.png",
             "time": "00:00 28/04",
             "blv": "GIÀNG A RICH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1063,10 +1100,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1081,7 +1118,25 @@
                     {
                       "id": "st-d0e892c633",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2e6ee4b39",
+                          "name": "GIÀNG A ĐỎ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e4e4841d_145503/index.m3u8?expire=1777912014",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1096,7 +1151,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/3935aabcfa443b64677197fdb20af7cd.png",
             "time": "00:00 28/04",
             "blv": "GIÀNG A ĐỎ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1116,10 +1171,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1134,7 +1189,25 @@
                     {
                       "id": "st-de64048224",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cba003093b",
+                          "name": "GIÀNG A NGỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e4036518_145575/index.m3u8?expire=1777912000",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1149,7 +1222,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/e40a14044c93d0e5e2f9d558aa1640fa.png",
             "time": "00:00 28/04",
             "blv": "GIÀNG A NGỘ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1162,59 +1235,6 @@
           }
         },
         {
-          "id": "kaytee-eb04e26ae9",
-          "name": "Baltika Kaliningrad vs Akron Togliatti | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb04e26ae9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-eb04e26ae9",
-                  "name": "Baltika Kaliningrad vs Akron Togliatti",
-                  "streams": [
-                    {
-                      "id": "st-eb04e26ae9",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Baltika Kaliningrad",
-            "team_b": "Akron Togliatti",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d113e6038e09c80bc50d4b20871a2d06.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d5a6f7b99c55a87b8a47337e7fe64588.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eb04e26ae9_fc7e4204.png?v=fc7e4204",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-df521eead8",
           "name": "FC Copenhagen vs Vejle | 00:00 28/04",
           "type": "single",
@@ -1222,10 +1242,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1255,7 +1275,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/79e72fe2ebbfdf6d205e91d321e04bca.png",
             "time": "00:00 28/04",
             "blv": "GIÀNG A MU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2164,6 +2184,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-51e21ebdcb_800a3bbd.png?v=800a3bbd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6f28424d50",
+          "name": "Roda JC vs RKC Waalwijk | 23:45 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f28424d50",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f28424d50",
+                  "name": "Roda JC vs RKC Waalwijk",
+                  "streams": [
+                    {
+                      "id": "st-6f28424d50",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eerste Divisie",
+            "team_a": "Roda JC",
+            "team_b": "RKC Waalwijk",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5b845b04c30db14bb40e1ec2efe70590.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/66fea185f2f39d205f96b5d1a41ae9f4.png",
+            "time": "23:45 28/04",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f28424d50_209aa6c9.png?v=209aa6c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4927f36a2d",
+          "name": "Neom SC vs Al-Hazm | 23:45 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4927f36a2d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4927f36a2d",
+                  "name": "Neom SC vs Al-Hazm",
+                  "streams": [
+                    {
+                      "id": "st-4927f36a2d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Neom SC",
+            "team_b": "Al-Hazm",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e5516d35314acec9169f33834a199842.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0459eff25f56626beed63c97e0e67dcf.png",
+            "time": "23:45 28/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4927f36a2d_116f74b4.png?v=116f74b4",
             "width": 1600,
             "height": 1200
           }
