@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-a1dacd2930",
-          "name": "Bali United vs PSM Makassar | 15:30 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1dacd2930",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a1dacd2930",
-                  "name": "Bali United vs PSM Makassar",
-                  "streams": [
-                    {
-                      "id": "st-a1dacd2930",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0972f19838",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef17024841d_145575/index.m3u8?expire=1777881474",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Bali United",
-            "team_b": "PSM Makassar",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/09fe2ecf88f68970da755f8655d5da8a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0d74d0d263697b29a9ad3bfc78a6cc46.png",
-            "time": "15:30 27/04",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1dacd2930_3411eed1.png?v=3411eed1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-0762c2fec9",
           "name": "Persija Jakarta vs Persis Solo FC | 19:00 27/04",
@@ -1917,8 +1846,8 @@
           }
         },
         {
-          "id": "kaytee-3945cbe57a",
-          "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar | 17:10 27/04",
+          "id": "kaytee-10eb943069",
+          "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar | 17:40 27/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1932,15 +1861,15 @@
           ],
           "sources": [
             {
-              "id": "src-3945cbe57a",
+              "id": "src-10eb943069",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-3945cbe57a",
+                  "id": "ct-10eb943069",
                   "name": "Stefanos Tsitsipas vs Daniel Merida Aguilar",
                   "streams": [
                     {
-                      "id": "st-3945cbe57a",
+                      "id": "st-10eb943069",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1955,7 +1884,7 @@
             "team_b": "Daniel Merida Aguilar",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/dd9de97f2c17b8e1596699f5c780156d.png",
-            "time": "17:10 27/04",
+            "time": "17:40 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1964,7 +1893,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3945cbe57a_551e2247.png?v=551e2247",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-10eb943069_551e2247.png?v=551e2247",
             "width": 1600,
             "height": 1200
           }
@@ -2023,8 +1952,8 @@
           }
         },
         {
-          "id": "kaytee-723ac58a87",
-          "name": "Daniil Medvedev vs Nicolai Budkov Kjaer | 18:20 27/04",
+          "id": "kaytee-864e78daa4",
+          "name": "Daniil Medvedev vs Nicolai Budkov Kjaer | 18:50 27/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2038,15 +1967,15 @@
           ],
           "sources": [
             {
-              "id": "src-723ac58a87",
+              "id": "src-864e78daa4",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-723ac58a87",
+                  "id": "ct-864e78daa4",
                   "name": "Daniil Medvedev vs Nicolai Budkov Kjaer",
                   "streams": [
                     {
-                      "id": "st-723ac58a87",
+                      "id": "st-864e78daa4",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2059,9 +1988,9 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Daniil Medvedev",
             "team_b": "Nicolai Budkov Kjaer",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38ff5f900772fc6de71f7cd43767f45a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd84485b426b12ed9a86829ae71c6208.png",
-            "time": "18:20 27/04",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/38ff5f900772fc6de71f7cd43767f45a.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd84485b426b12ed9a86829ae71c6208.png",
+            "time": "18:50 27/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2070,7 +1999,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-723ac58a87_395c2d86.png?v=395c2d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-864e78daa4_2d49aa62.png?v=2d49aa62",
             "width": 1600,
             "height": 1200
           }
