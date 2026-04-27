@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -640,10 +640,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -673,7 +673,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/e2e6e799ad65cbb26b77726a857967d8.png",
             "time": "23:00 27/04",
             "blv": "GIÀNG A PHỦ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -693,10 +693,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -711,7 +711,25 @@
                     {
                       "id": "st-7fb0d85758",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a418f6825c",
+                          "name": "GIÀNG A BẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef7ed34841d_145407/index.m3u8?expire=1777908051",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -726,7 +744,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/487a310ef1af87f7d99b52f507007ffc.png",
             "time": "23:00 27/04",
             "blv": "GIÀNG A BẠC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -746,10 +764,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -764,7 +782,25 @@
                     {
                       "id": "st-4736bfbee5",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f196e8ca17",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef7f554841d_146781/index.m3u8?expire=1777908181",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -779,7 +815,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/549d4646fcb8ca785a05d18da7a1c9b7.png",
             "time": "23:00 27/04",
             "blv": "GIÀNG A BÉO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -792,6 +828,77 @@
           }
         },
         {
+          "id": "kaytee-3130194704",
+          "name": "Sabah Baku vs Karvan Evlakh | 23:00 27/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3130194704",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3130194704",
+                  "name": "Sabah Baku vs Karvan Evlakh",
+                  "streams": [
+                    {
+                      "id": "st-3130194704",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ea0c5b355",
+                          "name": "GIÀNG A MÓM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef84144841d_145698/index.m3u8?expire=1777909396",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azerbaijan Premier League",
+            "team_a": "Sabah Baku",
+            "team_b": "Karvan Evlakh",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/44cc5a54d7859b9d062a6f56a39819f8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/aa6d9f240dd67791dd86ff4de072d846.png",
+            "time": "23:00 27/04",
+            "blv": "GIÀNG A MÓM",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3130194704_45efce5f.png?v=45efce5f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-c729f08664",
           "name": "Ogre United vs Jelgava | 23:00 27/04",
           "type": "single",
@@ -799,10 +906,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -832,7 +939,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/277e5d1f01baffb84533c9236b05cbf8.png",
             "time": "23:00 27/04",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -840,59 +947,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c729f08664_475afa38.png?v=475afa38",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-3130194704",
-          "name": "Sabah Baku vs Karvan Evlakh | 23:00 27/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3130194704",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3130194704",
-                  "name": "Sabah Baku vs Karvan Evlakh",
-                  "streams": [
-                    {
-                      "id": "st-3130194704",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Azerbaijan Premier League",
-            "team_a": "Sabah Baku",
-            "team_b": "Karvan Evlakh",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/44cc5a54d7859b9d062a6f56a39819f8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/aa6d9f240dd67791dd86ff4de072d846.png",
-            "time": "23:00 27/04",
-            "blv": "GIÀNG A MÓM",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3130194704_45efce5f.png?v=45efce5f",
             "width": 1600,
             "height": 1200
           }
