@@ -11,627 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-eb04e26ae9",
-          "name": "Baltika Kaliningrad vs Akron Togliatti | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb04e26ae9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-eb04e26ae9",
-                  "name": "Baltika Kaliningrad vs Akron Togliatti",
-                  "streams": [
-                    {
-                      "id": "st-eb04e26ae9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2fe1fa1f4",
-                          "name": "GIÀNG A ĐẬU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef91d936518_145169/index.m3u8?expire=1777912921",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-cb446a8256",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e812d8e482da354f66bcb19d9026f7a4/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Baltika Kaliningrad",
-            "team_b": "Akron Togliatti",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d113e6038e09c80bc50d4b20871a2d06.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d5a6f7b99c55a87b8a47337e7fe64588.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eb04e26ae9_fc7e4204.png?v=fc7e4204",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-75f23545da",
-          "name": "AIK vs Malmo FF | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75f23545da",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-75f23545da",
-                  "name": "AIK vs Malmo FF",
-                  "streams": [
-                    {
-                      "id": "st-75f23545da",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9faebb2616",
-                          "name": "GIÀNG A SIK",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8f464841d_145268/index.m3u8?expire=1777912262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-32f21f766a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1be1232ac9edc45ffb35b955ceda4894/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "AIK",
-            "team_b": "Malmo FF",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0cc49f3f48c86ed0c00a31c96962ecf3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/339c6acafe9c245dc5d8627c60528ca2.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A SIK",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-75f23545da_17738feb.png?v=17738feb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-97c6846ffd",
-          "name": "Hacken vs IK Sirius FK | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97c6846ffd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-97c6846ffd",
-                  "name": "Hacken vs IK Sirius FK",
-                  "streams": [
-                    {
-                      "id": "st-97c6846ffd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2a05665c0",
-                          "name": "GIÀNG A MÈN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8bf14841d_145178/index.m3u8?expire=1777911409",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ca5189fc25",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/ef17ec16cd4b7d936df26564c3ba9600/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Hacken",
-            "team_b": "IK Sirius FK",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/93920efdf720a6e94d3ab5e43ae3b504.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/82a1ff2fa56077a25595288406888007.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A MÈN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-97c6846ffd_251ac7b2.png?v=251ac7b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-f6218eb06b",
-          "name": "Mjallby AIF vs Halmstads | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6218eb06b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f6218eb06b",
-                  "name": "Mjallby AIF vs Halmstads",
-                  "streams": [
-                    {
-                      "id": "st-f6218eb06b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90a9862bb8",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e7d36518_145476/index.m3u8?expire=1777912061",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-64631f9a94",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e4e5aad9e23324f6b7d518e913fc751a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Mjallby AIF",
-            "team_b": "Halmstads",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0ffb7ffab7e1720c91427e75b4a50ace.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d84614f172a18a18947a7567a9625b45.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f6218eb06b_cbc2658f.png?v=cbc2658f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-d0e892c633",
-          "name": "Orgryte vs Degerfors IF | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d0e892c633",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d0e892c633",
-                  "name": "Orgryte vs Degerfors IF",
-                  "streams": [
-                    {
-                      "id": "st-d0e892c633",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f1ae2d866",
-                          "name": "GIÀNG A ĐỎ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e4e4841d_145503/index.m3u8?expire=1777912014",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-103e70e0d3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2c727805069997a0d0f2397803ff2110/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Orgryte",
-            "team_b": "Degerfors IF",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9dd02927b1bf3e324b62a3013c140382.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/3935aabcfa443b64677197fdb20af7cd.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A ĐỎ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d0e892c633_ad943d57.png?v=ad943d57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-df521eead8",
-          "name": "FC Copenhagen vs Vejle | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df521eead8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-df521eead8",
-                  "name": "FC Copenhagen vs Vejle",
-                  "streams": [
-                    {
-                      "id": "st-df521eead8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d10cecf3f5",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef950936518_146208/index.m3u8?expire=1777913737",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9dde508d93",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/11c96fba79b8f580bce8e9fc43c648a9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "FC Copenhagen",
-            "team_b": "Vejle",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/629b6f983d0ca3c33f2c4b50b3449314.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/79e72fe2ebbfdf6d205e91d321e04bca.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-df521eead8_f26be57b.png?v=f26be57b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-de64048224",
-          "name": "Pyramids FC vs Al Ahly FC | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de64048224",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-de64048224",
-                  "name": "Pyramids FC vs Al Ahly FC",
-                  "streams": [
-                    {
-                      "id": "st-de64048224",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a4fb64cb3",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e4036518_145575/index.m3u8?expire=1777912000",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d3f2f9decd",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/5ba3db7211cfae4328a028e7e0e7231a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pyramids FC",
-            "team_b": "Al Ahly FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0c750c05518db78eeabc97fb11574fed.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/e40a14044c93d0e5e2f9d558aa1640fa.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-de64048224_6e17a061.png?v=6e17a061",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-fa6d3da06e",
           "name": "Al-Jandal vs Al-Orubah | 00:50 28/04",
@@ -1029,7 +413,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7d817f95d8",
+                          "id": "lnk-7f9396d1bc",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -1046,7 +430,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-d77a13fe46",
+                          "id": "lnk-769b5a6cfb",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/5b5e4f47ad8913b0c9b8aecadc34fa5b/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-72ca79e5cd",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": false,
@@ -1117,7 +518,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7373c569b6",
+                          "id": "lnk-aeda87a57b",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": true,
@@ -1134,7 +535,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-052a239278",
+                          "id": "lnk-2ebbe9d7f4",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/a58a629d2640461afc969b958caf4a09/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-439be0ee95",
                           "name": "GIÀNG A BẢNH",
                           "type": "hls",
                           "default": false,
@@ -1173,59 +591,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6ccf0ef947_b8593304.png?v=b8593304",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-b624d164aa",
-          "name": "Gil Vicente vs Casa Pia AC | 02:15 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b624d164aa",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b624d164aa",
-                  "name": "Gil Vicente vs Casa Pia AC",
-                  "streams": [
-                    {
-                      "id": "st-b624d164aa",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Gil Vicente",
-            "team_b": "Casa Pia AC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6a2005d20c872db3173d2bf995768055.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
-            "time": "02:15 28/04",
-            "blv": "GIÀNG A TÔM",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b624d164aa_bd706cb6.png?v=bd706cb6",
             "width": 1600,
             "height": 1200
           }
@@ -1865,6 +1230,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-393da3af2e",
+          "name": "Paris Saint Germain vs FC Bayern Munich | 02:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-393da3af2e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-393da3af2e",
+                  "name": "Paris Saint Germain vs FC Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-393da3af2e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Paris Saint Germain",
+            "team_b": "FC Bayern Munich",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3b720f181ce9993f9422d276acf7b292.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "time": "02:00 29/04",
+            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-393da3af2e_dbe70fcb.png?v=dbe70fcb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1959,59 +1377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_849411d9.png?v=849411d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-3787e9cf32",
-          "name": "Anastasia Potapova vs Elena Rybakina | 02:10 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3787e9cf32",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3787e9cf32",
-                  "name": "Anastasia Potapova vs Elena Rybakina",
-                  "streams": [
-                    {
-                      "id": "st-3787e9cf32",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Madrid, Spain Women Singles",
-            "team_a": "Anastasia Potapova",
-            "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
-            "time": "02:10 28/04",
-            "blv": "GIÀNG A TÀI",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_35ec9579.png?v=35ec9579",
             "width": 1600,
             "height": 1200
           }
