@@ -824,7 +824,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -857,11 +857,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-40f10a7687",
+                          "id": "lnk-8679485e9a",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69efe44836518_145211/index.m3u8?expire=1777934024",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9af49b309e",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/3fa432acec6ff3716a32960782a0f171/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -908,10 +925,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -926,7 +943,25 @@
                     {
                       "id": "st-7a948cf610",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-33cd17c513",
+                          "name": "GIÀNG A CÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69eff5e84841d_145241/index.m3u8?expire=1777938536",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -941,7 +976,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
             "time": "07:00 28/04",
             "blv": "GIÀNG A CÁO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
