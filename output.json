@@ -836,11 +836,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-afabab43a4",
+                          "id": "lnk-f2fe1fa1f4",
                           "name": "GIÀNG A ĐẬU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef91d936518_145169/index.m3u8?expire=1777912921",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-cb446a8256",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e812d8e482da354f66bcb19d9026f7a4/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -907,11 +924,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-1a7c0ca97f",
+                          "id": "lnk-9faebb2616",
                           "name": "GIÀNG A SIK",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef8f464841d_145268/index.m3u8?expire=1777912262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-32f21f766a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1be1232ac9edc45ffb35b955ceda4894/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -978,11 +1012,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8fa620c7fb",
+                          "id": "lnk-c2a05665c0",
                           "name": "GIÀNG A MÈN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef8bf14841d_145178/index.m3u8?expire=1777911409",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ca5189fc25",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ef17ec16cd4b7d936df26564c3ba9600/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1049,11 +1100,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d693f9269f",
+                          "id": "lnk-90a9862bb8",
                           "name": "GIÀNG A RICH",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e7d36518_145476/index.m3u8?expire=1777912061",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-64631f9a94",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e4e5aad9e23324f6b7d518e913fc751a/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1120,11 +1188,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e2e6ee4b39",
+                          "id": "lnk-2f1ae2d866",
                           "name": "GIÀNG A ĐỎ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e4e4841d_145503/index.m3u8?expire=1777912014",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-103e70e0d3",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2c727805069997a0d0f2397803ff2110/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1164,6 +1249,94 @@
           }
         },
         {
+          "id": "kaytee-df521eead8",
+          "name": "FC Copenhagen vs Vejle | 00:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df521eead8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-df521eead8",
+                  "name": "FC Copenhagen vs Vejle",
+                  "streams": [
+                    {
+                      "id": "st-df521eead8",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d10cecf3f5",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69ef950936518_146208/index.m3u8?expire=1777913737",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9dde508d93",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/11c96fba79b8f580bce8e9fc43c648a9/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "FC Copenhagen",
+            "team_b": "Vejle",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/629b6f983d0ca3c33f2c4b50b3449314.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/79e72fe2ebbfdf6d205e91d321e04bca.png",
+            "time": "00:00 28/04",
+            "blv": "GIÀNG A MU",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-df521eead8_f26be57b.png?v=f26be57b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-de64048224",
           "name": "Pyramids FC vs Al Ahly FC | 00:00 28/04",
           "type": "single",
@@ -1191,11 +1364,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-cba003093b",
+                          "id": "lnk-9a4fb64cb3",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69ef8e4036518_145575/index.m3u8?expire=1777912000",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d3f2f9decd",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/5ba3db7211cfae4328a028e7e0e7231a/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1230,59 +1420,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-de64048224_6e17a061.png?v=6e17a061",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-df521eead8",
-          "name": "FC Copenhagen vs Vejle | 00:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df521eead8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-df521eead8",
-                  "name": "FC Copenhagen vs Vejle",
-                  "streams": [
-                    {
-                      "id": "st-df521eead8",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "FC Copenhagen",
-            "team_b": "Vejle",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/629b6f983d0ca3c33f2c4b50b3449314.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/79e72fe2ebbfdf6d205e91d321e04bca.png",
-            "time": "00:00 28/04",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-df521eead8_f26be57b.png?v=f26be57b",
             "width": 1600,
             "height": 1200
           }
@@ -2340,7 +2477,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Terence Atmane",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "01:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -2351,7 +2488,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_849411d9.png?v=849411d9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-907bac3a44_dadc8ed0.png?v=dadc8ed0",
             "width": 1600,
             "height": 1200
           }
@@ -2393,8 +2530,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Anastasia Potapova",
             "team_b": "Elena Rybakina",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsMFF3aWai0eb8lzeudAjwIjYgKI",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsMFF3aWai0eb8lzeudAjwIjYgKI",
             "time": "02:10 28/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -2404,7 +2541,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_35ec9579.png?v=35ec9579",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3787e9cf32_931021cc.png?v=931021cc",
             "width": 1600,
             "height": 1200
           }
@@ -2783,7 +2920,7 @@
             "team_a": "Uralochka-NTMK",
             "team_b": "Zenit Petersburg",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4144c4f55bf9b2c803a016df8c694f33.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a808b7cbfb8297339bc09fe35a6b148c.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/a808b7cbfb8297339bc09fe35a6b148c.png",
             "time": "20:00 28/04",
             "blv": "GIÀNG A NẾP",
             "is_live": false,
@@ -2793,7 +2930,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_4bfbe1b3.png?v=4bfbe1b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_9b533186.png?v=9b533186",
             "width": 1600,
             "height": 1200
           }
