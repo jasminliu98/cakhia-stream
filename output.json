@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-1ef414c433",
-          "name": "PSBS Biak Numfor  vs Malut United | 19:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ef414c433",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1ef414c433",
-                  "name": "PSBS Biak Numfor  vs Malut United",
-                  "streams": [
-                    {
-                      "id": "st-1ef414c433",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67ff8b0fa3",
-                          "name": "GIÀNG A LUNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f099604841d_145422/index.m3u8?expire=1777980384",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "PSBS Biak Numfor ",
-            "team_b": "Malut United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cbd5d35d354519a981a2a97f5c41bcbb.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
-            "time": "19:00 28/04",
-            "blv": "GIÀNG A LUNG",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1ef414c433_55a87f9b.png?v=55a87f9b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-ac40606523",
           "name": "Melaka FC vs Johor Darul Ta'zim FC | 20:00 28/04",
@@ -1946,99 +1875,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-44448d6e34",
-          "name": "Jiri Lehecka vs Lorenzo Musetti | 17:50 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44448d6e34",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-44448d6e34",
-                  "name": "Jiri Lehecka vs Lorenzo Musetti",
-                  "streams": [
-                    {
-                      "id": "st-44448d6e34",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fec0dea87e",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f08f644841d_146088/index.m3u8?expire=1777977828",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-037005e842",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1ab0ab8b692358fd9f33a396673c5ff0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jiri Lehecka",
-            "team_b": "Lorenzo Musetti",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
-            "time": "17:50 28/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-44448d6e34_bae1db0b.png?v=bae1db0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9850f9fc46",
           "name": "Leylah Fernandez vs Mirra Andreeva | 18:00 28/04",
