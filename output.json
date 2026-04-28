@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,25 @@
                     {
                       "id": "st-1ef414c433",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-67ff8b0fa3",
+                          "name": "GIÀNG A LUNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f099604841d_145422/index.m3u8?expire=1777980384",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
             "time": "19:00 28/04",
             "blv": "GIÀNG A LUNG",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -374,7 +392,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/db8fd6970f5d0ef940103db04fb8650a.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/a0fa07d4cd85aa708a6e887bbc55270e.png",
             "time": "23:00 28/04",
-            "blv": "GIÀNG A BÉO",
+            "blv": "GIÀNG A CƠ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2004,59 +2022,6 @@
           }
         },
         {
-          "id": "kaytee-0e756922e9",
-          "name": "Stefanos Tsitsipas vs Casper Ruud | 19:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e756922e9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0e756922e9",
-                  "name": "Stefanos Tsitsipas vs Casper Ruud",
-                  "streams": [
-                    {
-                      "id": "st-0e756922e9",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Stefanos Tsitsipas",
-            "team_b": "Casper Ruud",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
-            "time": "19:00 28/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e756922e9_0e00ce26.png?v=0e00ce26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-dd332893dd",
           "name": "Francisco Cerundolo vs Alexander Blockx | 00:00 29/04",
           "type": "single",
@@ -2210,7 +2175,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2223,10 +2188,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2241,7 +2206,25 @@
                     {
                       "id": "st-a50f7a3ab4",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7280f4815",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f09a2936518_145244/index.m3u8?expire=1777980585",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2256,7 +2239,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/19d5361bfdffa4bfc2f936cbb65fd317.png",
             "time": "19:00 28/04",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
