@@ -724,6 +724,59 @@
           }
         },
         {
+          "id": "kaytee-83e5c0b2d5",
+          "name": "Nashville vs Tigres UANL | 07:30 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83e5c0b2d5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-83e5c0b2d5",
+                  "name": "Nashville vs Tigres UANL",
+                  "streams": [
+                    {
+                      "id": "st-83e5c0b2d5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Nashville",
+            "team_b": "Tigres UANL",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/eafb707bc6f8028dc71923176915c8e3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
+            "time": "07:30 29/04",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83e5c0b2d5_079de63f.png?v=079de63f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-598fb49527",
           "name": "Shimizu S-Pulse vs V-Varen Nagasaki | 11:00 29/04",
           "type": "single",
