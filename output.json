@@ -1130,6 +1130,59 @@
           }
         },
         {
+          "id": "kaytee-feeea33bba",
+          "name": "Tokyo Verdy vs Kashima Antlers | 11:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-feeea33bba",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-feeea33bba",
+                  "name": "Tokyo Verdy vs Kashima Antlers",
+                  "streams": [
+                    {
+                      "id": "st-feeea33bba",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Tokyo Verdy",
+            "team_b": "Kashima Antlers",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2a8adb34e764602183a7bee8f51726e4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
+            "time": "11:00 29/04",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-feeea33bba_5f793ee3.png?v=5f793ee3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-e57369ec9c",
           "name": "JEF United Ichihara Chiba vs Yokohama F. Marinos | 12:00 29/04",
           "type": "single",
@@ -1231,6 +1284,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c8be5d59b5_59af1dae.png?v=59af1dae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0901621b38",
+          "name": "Vissel Kobe vs Cerezo Osaka | 12:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0901621b38",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0901621b38",
+                  "name": "Vissel Kobe vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-0901621b38",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d85cce27ab583e5b3cead155f02b098a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ab10ee503e539e55a9a11a9ff202405a.png",
+            "time": "12:00 29/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0901621b38_813c6cdd.png?v=813c6cdd",
             "width": 1600,
             "height": 1200
           }
@@ -1342,6 +1448,59 @@
           }
         },
         {
+          "id": "kaytee-1e44e6fe1f",
+          "name": "Kyoto Sanga vs Gamba Osaka | 13:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e44e6fe1f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1e44e6fe1f",
+                  "name": "Kyoto Sanga vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-1e44e6fe1f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/91008a96b5de8c75376d17057f89890e.png",
+            "time": "13:00 29/04",
+            "blv": "GIÀNG A LUNG",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1e44e6fe1f_fe29ec91.png?v=fe29ec91",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-8030c4b362",
           "name": "Kashiwa Reysol vs FC Tokyo | 14:00 29/04",
           "type": "single",
@@ -1404,8 +1563,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-e014d60855",
-          "name": "Jannik Sinner vs Cameron Norrie | 16:00 28/04",
+          "id": "kaytee-44448d6e34",
+          "name": "Jiri Lehecka vs Lorenzo Musetti | 17:50 28/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1419,128 +1578,23 @@
           ],
           "sources": [
             {
-              "id": "src-e014d60855",
+              "id": "src-44448d6e34",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-e014d60855",
-                  "name": "Jannik Sinner vs Cameron Norrie",
+                  "id": "ct-44448d6e34",
+                  "name": "Jiri Lehecka vs Lorenzo Musetti",
                   "streams": [
                     {
-                      "id": "st-e014d60855",
+                      "id": "st-44448d6e34",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-1c0c3edbb3",
-                          "name": "GIÀNG A TÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f077d936518_145413/index.m3u8?expire=1777971801",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4c95c4e08f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c834e9109a5f9fb4191cac10872b0505/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Cameron Norrie",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsxHdgjTDfC2zEJZ7LjMy0Iyi5yv",
-            "time": "16:00 28/04",
-            "blv": "GIÀNG A TÀI",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e014d60855_60a8e19d.png?v=60a8e19d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-7e59e1fa86",
-          "name": "Tomas Martin Etcheverry vs Arthur Fils | 16:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e59e1fa86",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7e59e1fa86",
-                  "name": "Tomas Martin Etcheverry vs Arthur Fils",
-                  "streams": [
-                    {
-                      "id": "st-7e59e1fa86",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2052824160",
+                          "id": "lnk-555c880444",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f073d14841d_146088/index.m3u8?expire=1777970769",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1663eb5783",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b8fd404ec69b1fae7937bcb4f8bd2d2b/playlist.m3u8",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f08f644841d_146088/index.m3u8?expire=1777977828",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1561,11 +1615,11 @@
           ],
           "org_metadata": {
             "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Tomas Martin Etcheverry",
-            "team_b": "Arthur Fils",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/551bebb7859d790bfb65a5a412c5efcd.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
-            "time": "16:00 28/04",
+            "team_a": "Jiri Lehecka",
+            "team_b": "Lorenzo Musetti",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
+            "time": "17:50 28/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1574,7 +1628,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7e59e1fa86_4f1d03bc.png?v=4f1d03bc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-44448d6e34_bae1db0b.png?v=bae1db0b",
             "width": 1600,
             "height": 1200
           }
@@ -1587,10 +1641,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1605,7 +1659,25 @@
                     {
                       "id": "st-9850f9fc46",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2816d1a8a6",
+                          "name": "GIÀNG A TÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f08fc64841d_145413/index.m3u8?expire=1777977926",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1620,7 +1692,7 @@
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "18:00 28/04",
             "blv": "GIÀNG A TÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
@@ -1633,8 +1705,8 @@
           }
         },
         {
-          "id": "kaytee-05729ba613",
-          "name": "Stefanos Tsitsipas vs Casper Ruud | 18:50 28/04",
+          "id": "kaytee-0e756922e9",
+          "name": "Stefanos Tsitsipas vs Casper Ruud | 19:00 28/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1648,15 +1720,15 @@
           ],
           "sources": [
             {
-              "id": "src-05729ba613",
+              "id": "src-0e756922e9",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-05729ba613",
+                  "id": "ct-0e756922e9",
                   "name": "Stefanos Tsitsipas vs Casper Ruud",
                   "streams": [
                     {
-                      "id": "st-05729ba613",
+                      "id": "st-0e756922e9",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1671,7 +1743,7 @@
             "team_b": "Casper Ruud",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
-            "time": "18:50 28/04",
+            "time": "19:00 28/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1680,7 +1752,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-05729ba613_0e00ce26.png?v=0e00ce26",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e756922e9_0e00ce26.png?v=0e00ce26",
             "width": 1600,
             "height": 1200
           }
