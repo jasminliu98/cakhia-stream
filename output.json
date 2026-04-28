@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-7f25d6134c",
-          "name": "Arema FC vs Persebaya Surabaya | 15:30 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f25d6134c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7f25d6134c",
-                  "name": "Arema FC vs Persebaya Surabaya",
-                  "streams": [
-                    {
-                      "id": "st-7f25d6134c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c12bac8ab5",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f069734841d_145467/index.m3u8?expire=1777968115",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Arema FC",
-            "team_b": "Persebaya Surabaya",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/55cba4a142146e2cdc317d21eb4daf76.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/66307444901ddb38c881129b7ea0105e.png",
-            "time": "15:30 28/04",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7f25d6134c_01a0489a.png?v=01a0489a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1ef414c433",
           "name": "PSBS Biak Numfor  vs Malut United | 19:00 28/04",
@@ -666,6 +595,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4927f36a2d_116f74b4.png?v=116f74b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-640d6ec9d6",
+          "name": "Rigas Futbola Skola vs Riga FC | 00:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-640d6ec9d6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-640d6ec9d6",
+                  "name": "Rigas Futbola Skola vs Riga FC",
+                  "streams": [
+                    {
+                      "id": "st-640d6ec9d6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Latvian Higher League",
+            "team_a": "Rigas Futbola Skola",
+            "team_b": "Riga FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/83a9f5e1089098a8df85932d23f74191.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b7413988c01bdaac56c8118536bdd073.png",
+            "time": "00:00 29/04",
+            "blv": "GIÀNG A ĐÌNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-640d6ec9d6_97e09531.png?v=97e09531",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-23c65fc683",
+          "name": "El Mokawloon El Arab vs Ghazl El Mahallah | 00:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23c65fc683",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-23c65fc683",
+                  "name": "El Mokawloon El Arab vs Ghazl El Mahallah",
+                  "streams": [
+                    {
+                      "id": "st-23c65fc683",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "El Mokawloon El Arab",
+            "team_b": "Ghazl El Mahallah",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/dc6da5d579f4ffcc2574f14a19ce7a98.png",
+            "time": "00:00 29/04",
+            "blv": "GIÀNG A TÔM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-23c65fc683_d035f96b.png?v=d035f96b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3a27aec79b",
+          "name": "Kahraba Ismailia vs Bank El Ahly | 00:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a27aec79b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3a27aec79b",
+                  "name": "Kahraba Ismailia vs Bank El Ahly",
+                  "streams": [
+                    {
+                      "id": "st-3a27aec79b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Kahraba Ismailia",
+            "team_b": "Bank El Ahly",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/710c1aec087466a2e2177fb812c87dc8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
+            "time": "00:00 29/04",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3a27aec79b_803a0c4e.png?v=803a0c4e",
             "width": 1600,
             "height": 1200
           }
@@ -1316,7 +1404,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Leylah Fernandez",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b4dc909b9fb4c1e4719692bae1113b05.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/b4dc909b9fb4c1e4719692bae1113b05.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "18:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -1327,14 +1415,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_116132c8.png?v=116132c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_6bbbaa24.png?v=6bbbaa24",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-22256b2ebd",
-          "name": "Stefanos Tsitsipas vs Casper Ruud | 18:20 28/04",
+          "id": "kaytee-05729ba613",
+          "name": "Stefanos Tsitsipas vs Casper Ruud | 18:50 28/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1348,15 +1436,15 @@
           ],
           "sources": [
             {
-              "id": "src-22256b2ebd",
+              "id": "src-05729ba613",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-22256b2ebd",
+                  "id": "ct-05729ba613",
                   "name": "Stefanos Tsitsipas vs Casper Ruud",
                   "streams": [
                     {
-                      "id": "st-22256b2ebd",
+                      "id": "st-05729ba613",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1369,9 +1457,9 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Casper Ruud",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
-            "time": "18:20 28/04",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/74333a05a20c9c27863391ba5ba2024e.png",
+            "time": "18:50 28/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1380,7 +1468,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-22256b2ebd_0e00ce26.png?v=0e00ce26",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-05729ba613_4ccc4219.png?v=4ccc4219",
             "width": 1600,
             "height": 1200
           }
