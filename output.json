@@ -1552,6 +1552,218 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-0cee7f991b",
+          "name": "Mito Hollyhock vs Machida Zelvia | 14:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cee7f991b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0cee7f991b",
+                  "name": "Mito Hollyhock vs Machida Zelvia",
+                  "streams": [
+                    {
+                      "id": "st-0cee7f991b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Mito Hollyhock",
+            "team_b": "Machida Zelvia",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9ead844240532c4e12d3eb45d2087924.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "time": "14:00 29/04",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0cee7f991b_2b7613f2.png?v=2b7613f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-73c820441b",
+          "name": "Persik Kediri vs Borneo FC | 15:30 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73c820441b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-73c820441b",
+                  "name": "Persik Kediri vs Borneo FC",
+                  "streams": [
+                    {
+                      "id": "st-73c820441b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persik Kediri",
+            "team_b": "Borneo FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c80d70c62b8f67dd121a1be0d574bfd5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
+            "time": "15:30 29/04",
+            "blv": "GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-73c820441b_45c354fa.png?v=45c354fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-48427f8a54",
+          "name": "Semen Padang vs Madura United | 15:30 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48427f8a54",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-48427f8a54",
+                  "name": "Semen Padang vs Madura United",
+                  "streams": [
+                    {
+                      "id": "st-48427f8a54",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Semen Padang",
+            "team_b": "Madura United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/84cbbc8bc40a15d27aafc116d775cd27.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
+            "time": "15:30 29/04",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48427f8a54_8213ef67.png?v=8213ef67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-403ce65c58",
+          "name": "Chiangrai United vs Ratchaburi Mitr Phol FC | 18:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-403ce65c58",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-403ce65c58",
+                  "name": "Chiangrai United vs Ratchaburi Mitr Phol FC",
+                  "streams": [
+                    {
+                      "id": "st-403ce65c58",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hilux Revo Thai League",
+            "team_a": "Chiangrai United",
+            "team_b": "Ratchaburi Mitr Phol FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72e738f86c289330982cfdf225169768.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ca2b8d70931647840c78209be51763a3.png",
+            "time": "18:00 29/04",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-403ce65c58_22fa4aca.png?v=22fa4aca",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1661,11 +1873,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-2816d1a8a6",
+                          "id": "lnk-b8a97ac77a",
                           "name": "GIÀNG A TÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f08fc64841d_145413/index.m3u8?expire=1777977926",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9a4ee07734",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/95e0f90896e268a3deebc2dd3b286f5e/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1891,8 +2120,8 @@
             "league": "Korean Basketball League",
             "team_a": "Busan KCC Egis",
             "team_b": "Anyang JungKwanJang Red Boosters",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/30683c359531664a5b97f129c047fcdc.png",
             "time": "17:00 28/04",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -1902,7 +2131,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_94df3433.png?v=94df3433",
             "width": 1600,
             "height": 1200
           }
@@ -2007,7 +2236,7 @@
             "team_a": "Uralochka-NTMK",
             "team_b": "Zenit Petersburg",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4144c4f55bf9b2c803a016df8c694f33.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a808b7cbfb8297339bc09fe35a6b148c.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/a808b7cbfb8297339bc09fe35a6b148c.png",
             "time": "20:00 28/04",
             "blv": "GIÀNG A NẾP",
             "is_live": false,
@@ -2017,7 +2246,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_4bfbe1b3.png?v=4bfbe1b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_9b533186.png?v=9b533186",
             "width": 1600,
             "height": 1200
           }
