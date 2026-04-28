@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-65492a07d3",
-          "name": "FK Liepaja vs Grobina | 22:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65492a07d3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-65492a07d3",
-                  "name": "FK Liepaja vs Grobina",
-                  "streams": [
-                    {
-                      "id": "st-65492a07d3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5fa11c59ea",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0c35b4841d_145575/index.m3u8?expire=1777991131",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4ae581d171",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/0cc2f33556f1a3c62a28f97b24865ba0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "FK Liepaja",
-            "team_b": "Grobina",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/066236dc007de501d84a4a146f7597a9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/aaa5f2303372acf85e4a24568b5855a0.png",
-            "time": "22:00 28/04",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-65492a07d3_2b2408d9.png?v=2b2408d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4d01e880dc",
           "name": "Al-Shabab FC vs Al-Fateh SC | 23:00 28/04",
@@ -291,11 +203,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-28ecebb383",
+                          "id": "lnk-83f025ab69",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0d57f4841d_145698/index.m3u8?expire=1777995775",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7989530333",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8c618fe976d6288209ee47d00e5cc941/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -450,11 +379,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-93d180a3cb",
+                          "id": "lnk-860fbe0bd5",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0dde94841d_145407/index.m3u8?expire=1777997929",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bdda4c6ce7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/d886f1fa5da216e658389ea9e022b2cc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -521,11 +467,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-aa89d5535e",
+                          "id": "lnk-8391ce24bf",
                           "name": "GIÀNG A TÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0ddb54841d_145413/index.m3u8?expire=1777997877",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a49f2dcd98",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/911ef2b2f290fd642d9f3ebb7d9439b3/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -572,10 +535,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -590,7 +553,25 @@
                     {
                       "id": "st-640d6ec9d6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa3c3a0987",
+                          "name": "GIÀNG A ĐÌNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0dfb136518_145347/index.m3u8?expire=1777998385",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -605,7 +586,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/b7413988c01bdaac56c8118536bdd073.png",
             "time": "00:00 29/04",
             "blv": "GIÀNG A ĐÌNH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -625,10 +606,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -643,7 +624,25 @@
                     {
                       "id": "st-23c65fc683",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-870a1a46c2",
+                          "name": "GIÀNG A TÔM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0df1136518_145920/index.m3u8?expire=1777998225",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -658,7 +657,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/dc6da5d579f4ffcc2574f14a19ce7a98.png",
             "time": "00:00 29/04",
             "blv": "GIÀNG A TÔM",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -678,10 +677,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -696,7 +695,25 @@
                     {
                       "id": "st-3a27aec79b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-dad438184a",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0e1144841d_145244/index.m3u8?expire=1777998740",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -711,7 +728,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
             "time": "00:00 29/04",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2100,12 +2117,65 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-15816776e3",
+          "name": "Den Bosch vs Almere City FC | 23:45 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15816776e3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-15816776e3",
+                  "name": "Den Bosch vs Almere City FC",
+                  "streams": [
+                    {
+                      "id": "st-15816776e3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eerste Divisie",
+            "team_a": "Den Bosch",
+            "team_b": "Almere City FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8b2d22b8802f8dc9942899365f5dd716.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6fc28fcf1969e983c6974c9f5b96b77c.PNG",
+            "time": "23:45 29/04",
+            "blv": "GIÀNG A NÚI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15816776e3_5ca4cc68.png?v=5ca4cc68",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2118,10 +2188,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2136,7 +2206,25 @@
                     {
                       "id": "st-dd332893dd",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a23fcd8139",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0e32e4841d_146088/index.m3u8?expire=1777999278",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2151,7 +2239,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
             "time": "00:00 29/04",
             "blv": "GIÀNG A LONG",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
