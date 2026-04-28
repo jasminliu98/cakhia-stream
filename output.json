@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-0bee2c9fe4",
-          "name": "PSBS Biak Numfor  vs Malut United | 19:30 28/04",
+          "id": "kaytee-1d2f912f71",
+          "name": "PSBS Biak Numfor  vs Malut United | 19:45 28/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,15 +32,15 @@
           ],
           "sources": [
             {
-              "id": "src-0bee2c9fe4",
+              "id": "src-1d2f912f71",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-0bee2c9fe4",
+                  "id": "ct-1d2f912f71",
                   "name": "PSBS Biak Numfor  vs Malut United",
                   "streams": [
                     {
-                      "id": "st-0bee2c9fe4",
+                      "id": "st-1d2f912f71",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -73,7 +73,7 @@
             "team_b": "Malut United",
             "logo_a": "https://cdn.rapid-api.icu/football/team/cbd5d35d354519a981a2a97f5c41bcbb.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
-            "time": "19:30 28/04",
+            "time": "19:45 28/04",
             "blv": "GIÀNG A LUNG",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0bee2c9fe4_55a87f9b.png?v=55a87f9b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1d2f912f71_55a87f9b.png?v=55a87f9b",
             "width": 1600,
             "height": 1200
           }
@@ -95,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -113,7 +113,25 @@
                     {
                       "id": "st-ac40606523",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b06c403419",
+                          "name": "GIÀNG A CƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0a8b34841d_145277/index.m3u8?expire=1777984307",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -128,7 +146,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/3ab85cf20a3ed001a60a9fcd8ec09afe.png",
             "time": "20:00 28/04",
             "blv": "GIÀNG A CƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2167,7 +2185,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2251,10 +2269,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2269,7 +2287,25 @@
                     {
                       "id": "st-bb5757c7e3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6081520607",
+                          "name": "GIÀNG A NẾP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0a9e44841d_145428/index.m3u8?expire=1777984612",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2284,7 +2320,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a808b7cbfb8297339bc09fe35a6b148c.png",
             "time": "20:00 28/04",
             "blv": "GIÀNG A NẾP",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
