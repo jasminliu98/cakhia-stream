@@ -1280,59 +1280,6 @@
           }
         },
         {
-          "id": "kaytee-e11a04bc4f",
-          "name": "Jiri Lehecka vs Lorenzo Musetti | 17:10 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e11a04bc4f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e11a04bc4f",
-                  "name": "Jiri Lehecka vs Lorenzo Musetti",
-                  "streams": [
-                    {
-                      "id": "st-e11a04bc4f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jiri Lehecka",
-            "team_b": "Lorenzo Musetti",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
-            "time": "17:10 28/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e11a04bc4f_bae1db0b.png?v=bae1db0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-9850f9fc46",
           "name": "Leylah Fernandez vs Mirra Andreeva | 18:00 28/04",
           "type": "single",
@@ -1487,6 +1434,103 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd332893dd_7124d64f.png?v=7124d64f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_20",
+      "name": "🏀 Bóng rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-c7b6a16c13",
+          "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters | 17:00 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7b6a16c13",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c7b6a16c13",
+                  "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters",
+                  "streams": [
+                    {
+                      "id": "st-c7b6a16c13",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbb4160ada",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f083dc36518_145211/index.m3u8?expire=1777974876",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4a6522bc5a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/bfc211ac512f2eb5c60d3184cd7daf07/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean Basketball League",
+            "team_a": "Busan KCC Egis",
+            "team_b": "Anyang JungKwanJang Red Boosters",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
+            "time": "17:00 28/04",
+            "blv": "GIÀNG A SÓC",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
             "width": 1600,
             "height": 1200
           }
