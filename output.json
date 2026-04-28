@@ -1404,8 +1404,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-d94dca34a1",
-          "name": "Rodtang Jitmuangnon vs Takeru Segawa | 18:30 29/04",
+          "id": "kaytee-069514d5c7",
+          "name": "Rodtang Jitmuangnon vs Takeru Segawa | 14:30 29/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1419,15 +1419,15 @@
           ],
           "sources": [
             {
-              "id": "src-d94dca34a1",
+              "id": "src-069514d5c7",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-d94dca34a1",
+                  "id": "ct-069514d5c7",
                   "name": "Rodtang Jitmuangnon vs Takeru Segawa",
                   "streams": [
                     {
-                      "id": "st-d94dca34a1",
+                      "id": "st-069514d5c7",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1442,7 +1442,7 @@
             "team_b": "Takeru Segawa",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b761d70467f8e5049e6c252e4d66a6e3.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4dee9d022c5736aebf8c6117eae69f89.png",
-            "time": "18:30 29/04",
+            "time": "14:30 29/04",
             "blv": "Giàng A Dập",
             "is_live": false,
             "cate_name": "Võ Thuật"
@@ -1451,7 +1451,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d94dca34a1_8f2a7a7e.png?v=8f2a7a7e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-069514d5c7_8f2a7a7e.png?v=8f2a7a7e",
             "width": 1600,
             "height": 1200
           }
