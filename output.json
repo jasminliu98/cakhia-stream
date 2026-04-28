@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-4d01e880dc",
-          "name": "Al-Shabab FC vs Al-Fateh SC | 23:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d01e880dc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4d01e880dc",
-                  "name": "Al-Shabab FC vs Al-Fateh SC",
-                  "streams": [
-                    {
-                      "id": "st-4d01e880dc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d135e3961",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0d2e036518_146091/index.m3u8?expire=1777995104",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7a35cc46a2",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d56847c9dec42c2e80933f3288e243f0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Shabab FC",
-            "team_b": "Al-Fateh SC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b16d1e3b04364c5cd64203d8b4ef76e2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/625f099ab7eeec5bde434ec68723fdff.png",
-            "time": "23:00 28/04",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4d01e880dc_69d20e29.png?v=69d20e29",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-c927eee8bf",
           "name": "Hapoel Bnei Sakhnin FC vs Ashdod MS | 23:00 28/04",
           "type": "single",
@@ -819,11 +731,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-af66dd5c07",
+                          "id": "lnk-132c18990b",
                           "name": "GIÀNG A KEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0ecd44841d_145467/index.m3u8?expire=1778001748",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-6c2eeef7ec",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/084a35ee0bd7b068c8ca911843e36e44/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -858,6 +787,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-298af394f2_0551e468.png?v=0551e468",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cbb5bdb78e",
+          "name": "Al Khaleej Club vs Al Najma(KSA) | 01:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbb5bdb78e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cbb5bdb78e",
+                  "name": "Al Khaleej Club vs Al Najma(KSA)",
+                  "streams": [
+                    {
+                      "id": "st-cbb5bdb78e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40db5bb0ef",
+                          "name": "GIÀNG A XOÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0f57d4841d_146091/index.m3u8?expire=1778003965",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Khaleej Club",
+            "team_b": "Al Najma(KSA)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6d48cbd483dee74ed9aef387bb082d64.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
+            "time": "01:00 29/04",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb5bdb78e_02627156.png?v=02627156",
             "width": 1600,
             "height": 1200
           }
@@ -2322,11 +2322,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-78bd5c6203",
+                          "id": "lnk-dd8b9dd8d3",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0f1ab36518_145211/index.m3u8?expire=1778002987",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-86a14b7bed",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fcb46d530bd215dd4190bb29cf20ebcc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
