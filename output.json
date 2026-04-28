@@ -704,6 +704,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-598fb49527",
+          "name": "Shimizu S-Pulse vs V-Varen Nagasaki | 11:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-598fb49527",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-598fb49527",
+                  "name": "Shimizu S-Pulse vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-598fb49527",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fa4105f0408ef893d941e70ae003ab4c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
+            "time": "11:00 29/04",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-598fb49527_28ac1749.png?v=28ac1749",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -751,8 +804,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Cameron Norrie",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsxHdgjTDfC2zEJZ7LjMy0Iyi5yv",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsxHdgjTDfC2zEJZ7LjMy0Iyi5yv",
             "time": "16:00 28/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -762,7 +815,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e014d60855_60a8e19d.png?v=60a8e19d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e014d60855_5a29f0cc.png?v=5a29f0cc",
             "width": 1600,
             "height": 1200
           }
@@ -804,7 +857,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Leylah Fernandez",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b4dc909b9fb4c1e4719692bae1113b05.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/b4dc909b9fb4c1e4719692bae1113b05.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "18:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -815,7 +868,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_116132c8.png?v=116132c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_6bbbaa24.png?v=6bbbaa24",
             "width": 1600,
             "height": 1200
           }
