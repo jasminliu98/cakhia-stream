@@ -1175,8 +1175,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jiri Lehecka",
             "team_b": "Lorenzo Musetti",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/e2d186170a9c0f8810834319a4543a66.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/f4ca478e4a2bdf725584d92eccc72cb8.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f4ca478e4a2bdf725584d92eccc72cb8.png",
             "time": "17:10 28/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1186,7 +1186,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e11a04bc4f_89c79409.png?v=89c79409",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e11a04bc4f_bae1db0b.png?v=bae1db0b",
             "width": 1600,
             "height": 1200
           }
@@ -1228,7 +1228,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Leylah Fernandez",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/b4dc909b9fb4c1e4719692bae1113b05.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b4dc909b9fb4c1e4719692bae1113b05.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "18:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -1239,7 +1239,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_6bbbaa24.png?v=6bbbaa24",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_116132c8.png?v=116132c8",
             "width": 1600,
             "height": 1200
           }
@@ -1281,8 +1281,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Stefanos Tsitsipas",
             "team_b": "Casper Ruud",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/a799928704aee05cfc140d600ac3ceb0.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/74333a05a20c9c27863391ba5ba2024e.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
             "time": "18:20 28/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1292,7 +1292,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-22256b2ebd_4ccc4219.png?v=4ccc4219",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-22256b2ebd_0e00ce26.png?v=0e00ce26",
             "width": 1600,
             "height": 1200
           }
@@ -1629,7 +1629,7 @@
             "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/74a860220ef9f465df98721141ba61b7.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/9e153886b19607f65d482df4805b1d7b.png",
             "time": "15:00 28/04",
-            "blv": "GIÀNG A ĐỘ",
+            "blv": "GIÀNG A GIÀ",
             "is_live": false,
             "cate_name": "Cầu Lông"
           },
