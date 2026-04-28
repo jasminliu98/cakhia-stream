@@ -845,59 +845,6 @@
           }
         },
         {
-          "id": "kaytee-cbb5bdb78e",
-          "name": "Al Khaleej Club vs Al Najma(KSA) | 01:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cbb5bdb78e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cbb5bdb78e",
-                  "name": "Al Khaleej Club vs Al Najma(KSA)",
-                  "streams": [
-                    {
-                      "id": "st-cbb5bdb78e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Khaleej Club",
-            "team_b": "Al Najma(KSA)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6d48cbd483dee74ed9aef387bb082d64.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
-            "time": "01:00 29/04",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb5bdb78e_02627156.png?v=02627156",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-83b3f8ab62",
           "name": "Al Hilal vs Damac | 01:00 29/04",
           "type": "single",
@@ -946,6 +893,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83b3f8ab62_d8429d00.png?v=d8429d00",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cbb5bdb78e",
+          "name": "Al Khaleej Club vs Al Najma(KSA) | 01:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbb5bdb78e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cbb5bdb78e",
+                  "name": "Al Khaleej Club vs Al Najma(KSA)",
+                  "streams": [
+                    {
+                      "id": "st-cbb5bdb78e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Khaleej Club",
+            "team_b": "Al Najma(KSA)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6d48cbd483dee74ed9aef387bb082d64.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
+            "time": "01:00 29/04",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb5bdb78e_02627156.png?v=02627156",
             "width": 1600,
             "height": 1200
           }
@@ -2311,59 +2311,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5a394fd4f5",
-          "name": "Fenerbahçe Beko Istanbul vs Zalgiris Kaunas | 00:45 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a394fd4f5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5a394fd4f5",
-                  "name": "Fenerbahçe Beko Istanbul vs Zalgiris Kaunas",
-                  "streams": [
-                    {
-                      "id": "st-5a394fd4f5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EuroLeague",
-            "team_a": "Fenerbahçe Beko Istanbul",
-            "team_b": "Zalgiris Kaunas",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/9b0fab2fcb670f18c7b275159b44cb48.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2d05b2c06841b4f3e6df084479f08594.png",
-            "time": "00:45 29/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5a394fd4f5_5988353e.png?v=5988353e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-cd8ac4c0b7",
           "name": "Boston Celtics vs Philadelphia 76ers | 06:00 29/04",
