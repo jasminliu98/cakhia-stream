@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-1d2f912f71",
-          "name": "PSBS Biak Numfor  vs Malut United | 19:45 28/04",
+          "id": "kaytee-68732baf2a",
+          "name": "PSBS Biak Numfor  vs Malut United | 19:50 28/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,15 +32,15 @@
           ],
           "sources": [
             {
-              "id": "src-1d2f912f71",
+              "id": "src-68732baf2a",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-1d2f912f71",
+                  "id": "ct-68732baf2a",
                   "name": "PSBS Biak Numfor  vs Malut United",
                   "streams": [
                     {
-                      "id": "st-1d2f912f71",
+                      "id": "st-68732baf2a",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -73,7 +73,7 @@
             "team_b": "Malut United",
             "logo_a": "https://cdn.rapid-api.icu/football/team/cbd5d35d354519a981a2a97f5c41bcbb.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
-            "time": "19:45 28/04",
+            "time": "19:50 28/04",
             "blv": "GIÀNG A LUNG",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1d2f912f71_55a87f9b.png?v=55a87f9b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68732baf2a_55a87f9b.png?v=55a87f9b",
             "width": 1600,
             "height": 1200
           }
@@ -1964,99 +1964,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9850f9fc46",
-          "name": "Leylah Fernandez vs Mirra Andreeva | 18:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9850f9fc46",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9850f9fc46",
-                  "name": "Leylah Fernandez vs Mirra Andreeva",
-                  "streams": [
-                    {
-                      "id": "st-9850f9fc46",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8a97ac77a",
-                          "name": "GIÀNG A TÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f08fc64841d_145413/index.m3u8?expire=1777977926",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9a4ee07734",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/95e0f90896e268a3deebc2dd3b286f5e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Madrid, Spain Women Singles",
-            "team_a": "Leylah Fernandez",
-            "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b4dc909b9fb4c1e4719692bae1113b05.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "time": "18:00 28/04",
-            "blv": "GIÀNG A TÀI",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_116132c8.png?v=116132c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-7e8324d21b",
           "name": "Stefanos Tsitsipas vs Casper Ruud | 19:25 28/04",
@@ -2085,11 +1997,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f8684cb921",
+                          "id": "lnk-bf0e292af4",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0a7c636518_146088/index.m3u8?expire=1777984070",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-80dd5d2ee9",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2f242cf5af2a6ac494fd22cefffdebd7/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
