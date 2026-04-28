@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-640d6ec9d6",
-          "name": "Rigas Futbola Skola vs Riga FC | 00:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-640d6ec9d6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-640d6ec9d6",
-                  "name": "Rigas Futbola Skola vs Riga FC",
-                  "streams": [
-                    {
-                      "id": "st-640d6ec9d6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b047ed765",
-                          "name": "GIÀNG A ĐÌNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0dfb136518_145347/index.m3u8?expire=1777998385",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4569a86e1f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/9d0382a27afaf5cfde948ecfb05b5b7e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Rigas Futbola Skola",
-            "team_b": "Riga FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/83a9f5e1089098a8df85932d23f74191.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b7413988c01bdaac56c8118536bdd073.png",
-            "time": "00:00 29/04",
-            "blv": "GIÀNG A ĐÌNH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-640d6ec9d6_97e09531.png?v=97e09531",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-23c65fc683",
           "name": "El Mokawloon El Arab vs Ghazl El Mahallah | 00:00 29/04",
@@ -188,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-23c65fc683_d035f96b.png?v=d035f96b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-3a27aec79b",
-          "name": "Kahraba Ismailia vs Bank El Ahly | 00:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a27aec79b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3a27aec79b",
-                  "name": "Kahraba Ismailia vs Bank El Ahly",
-                  "streams": [
-                    {
-                      "id": "st-3a27aec79b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17419b7302",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0e1144841d_145244/index.m3u8?expire=1777998740",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d011a417ca",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/eb4d24c6e2ed8dc70ce760ea171f4ad0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Kahraba Ismailia",
-            "team_b": "Bank El Ahly",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/710c1aec087466a2e2177fb812c87dc8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
-            "time": "00:00 29/04",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3a27aec79b_803a0c4e.png?v=803a0c4e",
             "width": 1600,
             "height": 1200
           }
@@ -660,7 +484,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-058acb8ce9",
+                          "id": "lnk-5edc6eb1d8",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -677,7 +501,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-5af6d44e34",
+                          "id": "lnk-f1a107a23e",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/39e27db71318ed9a6f20378ef3aeb11e/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-596ce2ce51",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": false,
@@ -1882,86 +1723,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15816776e3_5ca4cc68.png?v=5ca4cc68",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-dd332893dd",
-          "name": "Francisco Cerundolo vs Alexander Blockx | 00:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dd332893dd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-dd332893dd",
-                  "name": "Francisco Cerundolo vs Alexander Blockx",
-                  "streams": [
-                    {
-                      "id": "st-dd332893dd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a23fcd8139",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0e32e4841d_146088/index.m3u8?expire=1777999278",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Francisco Cerundolo",
-            "team_b": "Alexander Blockx",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
-            "time": "00:00 29/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd332893dd_7124d64f.png?v=7124d64f",
             "width": 1600,
             "height": 1200
           }
