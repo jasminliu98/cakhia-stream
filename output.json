@@ -983,99 +983,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-4632e67f2c",
-          "name": "Denver Nuggets vs Minnesota Timberwolves | 09:30 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4632e67f2c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4632e67f2c",
-                  "name": "Denver Nuggets vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-4632e67f2c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c391dbcb1c",
-                          "name": "GIÀNG A CÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0224836518_145241/index.m3u8?expire=1777949896",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c3a6835af8",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c07330b138bf5694cc79a130c639977a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Denver Nuggets",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
-            "time": "09:30 28/04",
-            "blv": "GIÀNG A CÁO",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4632e67f2c_a10808b5.png?v=a10808b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-c7b6a16c13",
           "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters | 17:00 28/04",
