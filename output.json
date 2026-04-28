@@ -877,99 +877,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-447c7c7267",
-          "name": "Phoenix Suns vs Oklahoma City Thunder | 08:30 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-447c7c7267",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-447c7c7267",
-                  "name": "Phoenix Suns vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-447c7c7267",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c01c6e0d51",
-                          "name": "GIÀNG A SÓC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0085e36518_145211/index.m3u8?expire=1777943262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-50b036970d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4aee2b7226ad814366b798740884c5f0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Phoenix Suns",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/da3c882a7e0bc592b4c1ba9d8c5fb68d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
-            "time": "08:30 28/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-447c7c7267_03b524ff.png?v=03b524ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4632e67f2c",
           "name": "Denver Nuggets vs Minnesota Timberwolves | 09:30 28/04",
