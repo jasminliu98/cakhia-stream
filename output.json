@@ -757,6 +757,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-e57369ec9c",
+          "name": "JEF United Ichihara Chiba vs Yokohama F. Marinos | 12:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e57369ec9c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e57369ec9c",
+                  "name": "JEF United Ichihara Chiba vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-e57369ec9c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "JEF United Ichihara Chiba",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "time": "12:00 29/04",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e57369ec9c_f0825bdb.png?v=f0825bdb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c8be5d59b5",
+          "name": "Avispa Fukuoka vs Sanfrecce Hiroshima | 12:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8be5d59b5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c8be5d59b5",
+                  "name": "Avispa Fukuoka vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-c8be5d59b5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "time": "12:00 29/04",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c8be5d59b5_59af1dae.png?v=59af1dae",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -804,8 +910,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Cameron Norrie",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/FsxHdgjTDfC2zEJZ7LjMy0Iyi5yv",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/FsxHdgjTDfC2zEJZ7LjMy0Iyi5yv",
             "time": "16:00 28/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -815,7 +921,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e014d60855_60a8e19d.png?v=60a8e19d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e014d60855_5a29f0cc.png?v=5a29f0cc",
             "width": 1600,
             "height": 1200
           }
@@ -857,7 +963,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Leylah Fernandez",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b4dc909b9fb4c1e4719692bae1113b05.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/b4dc909b9fb4c1e4719692bae1113b05.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "18:00 28/04",
             "blv": "GIÀNG A TÀI",
@@ -868,7 +974,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_116132c8.png?v=116132c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_6bbbaa24.png?v=6bbbaa24",
             "width": 1600,
             "height": 1200
           }
@@ -1123,7 +1229,7 @@
             "team_a": "Uralochka-NTMK",
             "team_b": "Zenit Petersburg",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4144c4f55bf9b2c803a016df8c694f33.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a808b7cbfb8297339bc09fe35a6b148c.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/a808b7cbfb8297339bc09fe35a6b148c.png",
             "time": "20:00 28/04",
             "blv": "GIÀNG A NẾP",
             "is_live": false,
@@ -1133,7 +1239,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_4bfbe1b3.png?v=4bfbe1b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_9b533186.png?v=9b533186",
             "width": 1600,
             "height": 1200
           }
