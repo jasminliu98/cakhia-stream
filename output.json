@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6f28424d50",
-          "name": "Roda JC vs RKC Waalwijk | 23:45 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f28424d50",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6f28424d50",
-                  "name": "Roda JC vs RKC Waalwijk",
-                  "streams": [
-                    {
-                      "id": "st-6f28424d50",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-860fbe0bd5",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0dde94841d_145407/index.m3u8?expire=1777997929",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bdda4c6ce7",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d886f1fa5da216e658389ea9e022b2cc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eerste Divisie",
-            "team_a": "Roda JC",
-            "team_b": "RKC Waalwijk",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5b845b04c30db14bb40e1ec2efe70590.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/66fea185f2f39d205f96b5d1a41ae9f4.png",
-            "time": "23:45 28/04",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f28424d50_209aa6c9.png?v=209aa6c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4927f36a2d",
           "name": "Neom SC vs Al-Hazm | 23:45 28/04",
@@ -2003,8 +1915,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Francisco Cerundolo",
             "team_b": "Alexander Blockx",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/59bec17bbb0773687df6306b291438fb.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/c071d420407817f1ae8548b0f5e89b3c.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
             "time": "00:00 29/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -2014,7 +1926,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd332893dd_009e5988.png?v=009e5988",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd332893dd_7124d64f.png?v=7124d64f",
             "width": 1600,
             "height": 1200
           }
@@ -2153,8 +2065,8 @@
             "league": "National Basketball Association",
             "team_a": "Boston Celtics",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "06:00 29/04",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2164,7 +2076,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd8ac4c0b7_30855ef3.png?v=30855ef3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd8ac4c0b7_bc4e97b9.png?v=bc4e97b9",
             "width": 1600,
             "height": 1200
           }
@@ -2206,8 +2118,8 @@
             "league": "National Basketball Association",
             "team_a": "New York Knicks",
             "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e67b14905a05af9e1bd04406bf8690f.png",
             "time": "07:00 29/04",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2217,7 +2129,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03552fa55f_503587bf.png?v=503587bf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03552fa55f_15130025.png?v=15130025",
             "width": 1600,
             "height": 1200
           }
@@ -2259,8 +2171,8 @@
             "league": "Dominican Republic Liga Nacional Basketball",
             "team_a": "Indios de San Francisco",
             "team_b": "Leones de Santo Domingo",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0a8433ba3826a83f11b17bc5ba2709bc.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/2af9687d3d970a4b9d072bc9a8f893de.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0a8433ba3826a83f11b17bc5ba2709bc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2af9687d3d970a4b9d072bc9a8f893de.png",
             "time": "07:30 29/04",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -2270,7 +2182,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d634080c2_27c2fffd.png?v=27c2fffd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d634080c2_c413ee5c.png?v=c413ee5c",
             "width": 1600,
             "height": 1200
           }
@@ -2312,8 +2224,8 @@
             "league": "National Basketball Association",
             "team_a": "San Antonio Spurs",
             "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5305d1a7b721b5bef418041eff53ba82.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/4512175b1415f69816e816160093bcc0.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4512175b1415f69816e816160093bcc0.png",
             "time": "08:30 29/04",
             "blv": "GIÀNG A LƯƠN",
             "is_live": false,
@@ -2323,87 +2235,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_7651946a.png?v=7651946a",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-752417be75",
-          "name": "Halkbank vs Spor Toto | 23:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-752417be75",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-752417be75",
-                  "name": "Halkbank vs Spor Toto",
-                  "streams": [
-                    {
-                      "id": "st-752417be75",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7150000596",
-                          "name": "GIÀNG A NẾP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0d3a24841d_145428/index.m3u8?expire=1777995298",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Efeler Ligi",
-            "team_a": "Halkbank",
-            "team_b": "Spor Toto",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/f55ae0dbd16b2ebfc8b4564b252d1b3a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/5036dcd562c51b702de87757ab9dbf76.png",
-            "time": "23:00 28/04",
-            "blv": "GIÀNG A NẾP",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-752417be75_d32342a4.png?v=d32342a4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_e9a89b77.png?v=e9a89b77",
             "width": 1600,
             "height": 1200
           }
