@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-0bee2c9fe4",
+          "name": "PSBS Biak Numfor  vs Malut United | 19:30 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bee2c9fe4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0bee2c9fe4",
+                  "name": "PSBS Biak Numfor  vs Malut United",
+                  "streams": [
+                    {
+                      "id": "st-0bee2c9fe4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67ff8b0fa3",
+                          "name": "GIÀNG A LUNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f099604841d_145422/index.m3u8?expire=1777980384",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "PSBS Biak Numfor ",
+            "team_b": "Malut United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/cbd5d35d354519a981a2a97f5c41bcbb.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
+            "time": "19:30 28/04",
+            "blv": "GIÀNG A LUNG",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0bee2c9fe4_55a87f9b.png?v=55a87f9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-ac40606523",
           "name": "Melaka FC vs Johor Darul Ta'zim FC | 20:00 28/04",
@@ -1875,7 +1946,7 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1964,6 +2035,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9850f9fc46_116132c8.png?v=116132c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-dd2a5abe6a",
+          "name": "Stefanos Tsitsipas vs Casper Ruud | 19:20 28/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd2a5abe6a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-dd2a5abe6a",
+                  "name": "Stefanos Tsitsipas vs Casper Ruud",
+                  "streams": [
+                    {
+                      "id": "st-dd2a5abe6a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8684cb921",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0a7c636518_146088/index.m3u8?expire=1777984070",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Stefanos Tsitsipas",
+            "team_b": "Casper Ruud",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a799928704aee05cfc140d600ac3ceb0.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74333a05a20c9c27863391ba5ba2024e.png",
+            "time": "19:20 28/04",
+            "blv": "GIÀNG A LONG",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd2a5abe6a_0e00ce26.png?v=0e00ce26",
             "width": 1600,
             "height": 1200
           }
