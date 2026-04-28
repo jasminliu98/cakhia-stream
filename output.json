@@ -1802,11 +1802,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-555c880444",
+                          "id": "lnk-fec0dea87e",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f08f644841d_146088/index.m3u8?expire=1777977828",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-037005e842",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1ab0ab8b692358fd9f33a396673c5ff0/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2120,8 +2137,8 @@
             "league": "Korean Basketball League",
             "team_a": "Busan KCC Egis",
             "team_b": "Anyang JungKwanJang Red Boosters",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0add24fc964de3ea25e83417aa301f81.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/30683c359531664a5b97f129c047fcdc.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
             "time": "17:00 28/04",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -2131,7 +2148,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_94df3433.png?v=94df3433",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
             "width": 1600,
             "height": 1200
           }
@@ -2236,7 +2253,7 @@
             "team_a": "Uralochka-NTMK",
             "team_b": "Zenit Petersburg",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4144c4f55bf9b2c803a016df8c694f33.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/a808b7cbfb8297339bc09fe35a6b148c.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a808b7cbfb8297339bc09fe35a6b148c.png",
             "time": "20:00 28/04",
             "blv": "GIÀNG A NẾP",
             "is_live": false,
@@ -2246,7 +2263,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_9b533186.png?v=9b533186",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb5757c7e3_4bfbe1b3.png?v=4bfbe1b3",
             "width": 1600,
             "height": 1200
           }
@@ -2308,7 +2325,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2380,77 +2397,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d199c24902_a8fe188a.png?v=a8fe188a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-4575b610cb",
-          "name": "Canada vs Australia | 15:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4575b610cb",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4575b610cb",
-                  "name": "Canada vs Australia",
-                  "streams": [
-                    {
-                      "id": "st-4575b610cb",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fee9aea634",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0622836518_146208/index.m3u8?expire=1777966248",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uber Cup",
-            "team_a": "Canada",
-            "team_b": "Australia",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f487d3215cf06247aa4be9e01c73e787.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd9304f60c2064bbee0b1554c32614fa.png",
-            "time": "15:00 28/04",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4575b610cb_2f1d4a0c.png?v=2f1d4a0c",
             "width": 1600,
             "height": 1200
           }
