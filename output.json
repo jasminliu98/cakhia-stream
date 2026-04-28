@@ -1494,68 +1494,6 @@
       ]
     },
     {
-      "id": "cate_20",
-      "name": "🏀 Bóng rổ",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-c7b6a16c13",
-          "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters | 17:00 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c7b6a16c13",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c7b6a16c13",
-                  "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters",
-                  "streams": [
-                    {
-                      "id": "st-c7b6a16c13",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean Basketball League",
-            "team_a": "Busan KCC Egis",
-            "team_b": "Anyang JungKwanJang Red Boosters",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
-            "time": "17:00 28/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c7b6a16c13_28611b25.png?v=28611b25",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_50",
       "name": "🏐 Bóng chuyền",
       "display": "vertical",
