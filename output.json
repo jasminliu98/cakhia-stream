@@ -291,28 +291,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-83f025ab69",
+                          "id": "lnk-28ecebb383",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0d57f4841d_145698/index.m3u8?expire=1777995775",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7989530333",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8c618fe976d6288209ee47d00e5cc941/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -379,11 +362,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-5165098d3e",
+                          "id": "lnk-6d7132a0ac",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f0cbf24841d_145274/index.m3u8?expire=1777993330",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-90e6be8472",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8a1f148bc0dd9512a4a3641635d41352/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
