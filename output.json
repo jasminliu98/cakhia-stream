@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-51e21ebdcb",
-          "name": "Maccabi Tel Aviv vs Hapoel Beer Sheva | 23:30 28/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-51e21ebdcb",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-51e21ebdcb",
-                  "name": "Maccabi Tel Aviv vs Hapoel Beer Sheva",
-                  "streams": [
-                    {
-                      "id": "st-51e21ebdcb",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d7132a0ac",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f0cbf24841d_145274/index.m3u8?expire=1777993330",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-90e6be8472",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8a1f148bc0dd9512a4a3641635d41352/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Israel Premier League",
-            "team_a": "Maccabi Tel Aviv",
-            "team_b": "Hapoel Beer Sheva",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a5b0ae972c3c595300e4eea67145a460.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8ec7fbdf73ede9a83738f1382bcc1353.png",
-            "time": "23:30 28/04",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-51e21ebdcb_800a3bbd.png?v=800a3bbd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-6f28424d50",
           "name": "Roda JC vs RKC Waalwijk | 23:45 28/04",
@@ -804,59 +716,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83b3f8ab62_d8429d00.png?v=d8429d00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-776c0c4821",
-          "name": "Southampton vs Ipswich Town | 01:45 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-776c0c4821",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-776c0c4821",
-                  "name": "Southampton vs Ipswich Town",
-                  "streams": [
-                    {
-                      "id": "st-776c0c4821",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Southampton",
-            "team_b": "Ipswich Town",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
-            "time": "01:45 29/04",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-776c0c4821_cd9e6707.png?v=cd9e6707",
             "width": 1600,
             "height": 1200
           }
@@ -2144,8 +2003,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Francisco Cerundolo",
             "team_b": "Alexander Blockx",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/59bec17bbb0773687df6306b291438fb.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c071d420407817f1ae8548b0f5e89b3c.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/59bec17bbb0773687df6306b291438fb.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/c071d420407817f1ae8548b0f5e89b3c.png",
             "time": "00:00 29/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -2155,7 +2014,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd332893dd_7124d64f.png?v=7124d64f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd332893dd_009e5988.png?v=009e5988",
             "width": 1600,
             "height": 1200
           }
@@ -2294,8 +2153,8 @@
             "league": "National Basketball Association",
             "team_a": "Boston Celtics",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "06:00 29/04",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2305,7 +2164,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd8ac4c0b7_bc4e97b9.png?v=bc4e97b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd8ac4c0b7_30855ef3.png?v=30855ef3",
             "width": 1600,
             "height": 1200
           }
@@ -2347,8 +2206,8 @@
             "league": "National Basketball Association",
             "team_a": "New York Knicks",
             "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e67b14905a05af9e1bd04406bf8690f.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png",
             "time": "07:00 29/04",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2358,7 +2217,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03552fa55f_15130025.png?v=15130025",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03552fa55f_503587bf.png?v=503587bf",
             "width": 1600,
             "height": 1200
           }
@@ -2400,8 +2259,8 @@
             "league": "Dominican Republic Liga Nacional Basketball",
             "team_a": "Indios de San Francisco",
             "team_b": "Leones de Santo Domingo",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0a8433ba3826a83f11b17bc5ba2709bc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2af9687d3d970a4b9d072bc9a8f893de.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0a8433ba3826a83f11b17bc5ba2709bc.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/2af9687d3d970a4b9d072bc9a8f893de.png",
             "time": "07:30 29/04",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -2411,7 +2270,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d634080c2_c413ee5c.png?v=c413ee5c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d634080c2_27c2fffd.png?v=27c2fffd",
             "width": 1600,
             "height": 1200
           }
@@ -2453,8 +2312,8 @@
             "league": "National Basketball Association",
             "team_a": "San Antonio Spurs",
             "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4512175b1415f69816e816160093bcc0.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/4512175b1415f69816e816160093bcc0.png",
             "time": "08:30 29/04",
             "blv": "GIÀNG A LƯƠN",
             "is_live": false,
@@ -2464,7 +2323,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_e9a89b77.png?v=e9a89b77",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_7651946a.png?v=7651946a",
             "width": 1600,
             "height": 1200
           }
