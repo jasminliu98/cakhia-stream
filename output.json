@@ -733,59 +733,6 @@
           }
         },
         {
-          "id": "kaytee-ad16ab6422",
-          "name": "Hàn quốc vs Thụy Điển | 23:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad16ab6422",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ad16ab6422",
-                  "name": "Hàn quốc vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-ad16ab6422",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "Hàn quốc",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1310e9b84361338f6cd5f210def84708.webp",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/9d1c0a08bdd6f14e40ead10ea47db71f.png",
-            "time": "23:00 29/04",
-            "blv": "GIÀNG A BÚN",
-            "is_live": false,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ad16ab6422_ad25c517.png?v=ad25c517",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-a1374ad306",
           "name": "England vs Finland | 23:00 29/04",
           "type": "single",
@@ -834,6 +781,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1374ad306_cf3ea6a2.png?v=cf3ea6a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ad16ab6422",
+          "name": "Hàn quốc vs Thụy Điển | 23:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad16ab6422",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ad16ab6422",
+                  "name": "Hàn quốc vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-ad16ab6422",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "Hàn quốc",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1310e9b84361338f6cd5f210def84708.webp",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/9d1c0a08bdd6f14e40ead10ea47db71f.png",
+            "time": "23:00 29/04",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ad16ab6422_ad25c517.png?v=ad25c517",
             "width": 1600,
             "height": 1200
           }
