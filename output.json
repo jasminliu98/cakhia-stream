@@ -44,11 +44,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3cb22680ff",
+                          "id": "lnk-3527ab845a",
                           "name": "GIÀNG A GIÀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f149b736518_145238/index.m3u8?expire=1778025527",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-699990f813",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/0253e05cda3e2787bda4b31cf69c4d7f/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1372,99 +1389,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-03552fa55f",
-          "name": "New York Knicks vs Atlanta Hawks | 07:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03552fa55f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-03552fa55f",
-                  "name": "New York Knicks vs Atlanta Hawks",
-                  "streams": [
-                    {
-                      "id": "st-03552fa55f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-649441b4ec",
-                          "name": "GIÀNG A SÓC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1472236518_145211/index.m3u8?expire=1778024866",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4d7d4e97a4",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8e2aa6b2b57b1702ae53de00d69f3059/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "New York Knicks",
-            "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e67b14905a05af9e1bd04406bf8690f.png",
-            "time": "07:00 29/04",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03552fa55f_15130025.png?v=15130025",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-cd7526ff5e",
           "name": "San Antonio Spurs vs Portland Trail Blazers | 08:30 29/04",
