@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-73c820441b",
-          "name": "Persik Kediri vs Borneo FC | 15:30 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73c820441b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-73c820441b",
-                  "name": "Persik Kediri vs Borneo FC",
-                  "streams": [
-                    {
-                      "id": "st-73c820441b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e621e3df32",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1bce44841d_145419/index.m3u8?expire=1778055012",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persik Kediri",
-            "team_b": "Borneo FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c80d70c62b8f67dd121a1be0d574bfd5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
-            "time": "15:30 29/04",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-73c820441b_45c354fa.png?v=45c354fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-48427f8a54",
-          "name": "Semen Padang vs Madura United | 15:30 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48427f8a54",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-48427f8a54",
-                  "name": "Semen Padang vs Madura United",
-                  "streams": [
-                    {
-                      "id": "st-48427f8a54",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-115ac02edc",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1bb394841d_146331/index.m3u8?expire=1778054585",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Semen Padang",
-            "team_b": "Madura United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/84cbbc8bc40a15d27aafc116d775cd27.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
-            "time": "15:30 29/04",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48427f8a54_8213ef67.png?v=8213ef67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-403ce65c58",
           "name": "Chiangrai United vs Ratchaburi Mitr Phol FC | 18:00 29/04",
@@ -840,8 +698,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Karolina Pliskova",
             "team_b": "Anastasia Potapova",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/12358f730f230e69ab40634f6b5988d7.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/12358f730f230e69ab40634f6b5988d7.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/3145531b797a9337f8d16557fbf9a6bc.png",
             "time": "18:00 29/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -851,7 +709,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f6c003283a_c60d8252.png?v=c60d8252",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f6c003283a_14faa14f.png?v=14faa14f",
             "width": 1600,
             "height": 1200
           }
@@ -946,8 +804,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
             "time": "21:00 29/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -957,7 +815,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_f452333d.png?v=f452333d",
             "width": 1600,
             "height": 1200
           }
