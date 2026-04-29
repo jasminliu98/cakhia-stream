@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9a470998f1",
-          "name": "Wadi Degla SC vs Ittihad Alexandria SC | 00:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a470998f1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9a470998f1",
-                  "name": "Wadi Degla SC vs Ittihad Alexandria SC",
-                  "streams": [
-                    {
-                      "id": "st-9a470998f1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6b2ab752f",
-                          "name": "GIÀNG A MÈN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f2306336518_145178/index.m3u8?expire=1778084579",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c298351ca0",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b19010dc178f87fee91e42ad99ada538/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Wadi Degla SC",
-            "team_b": "Ittihad Alexandria SC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0b565bf79378453da0982dfcf95ccc98.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/56484f26eac26f8e279ea2172c48632d.png",
-            "time": "00:00 30/04",
-            "blv": "GIÀNG A MÈN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a470998f1_a2f1a16f.png?v=a2f1a16f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-13843296c5",
           "name": "Al Nassr FC vs Al-Ahli SFC | 01:00 30/04",
@@ -1610,6 +1522,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0057cac009_9e57f901.png?v=9e57f901",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2b818fb386",
+          "name": "St. Petersburg W vs Dynamo Kazan W | 20:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b818fb386",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2b818fb386",
+                  "name": "St. Petersburg W vs Dynamo Kazan W",
+                  "streams": [
+                    {
+                      "id": "st-2b818fb386",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Women's Cup",
+            "team_a": "St. Petersburg W",
+            "team_b": "Dynamo Kazan W",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/d2d825448785abf1dd2d20b280374025.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/6eead7279cce1f0418a83c35aef03efb.png",
+            "time": "20:00 30/04",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2b818fb386_3ac455cf.png?v=3ac455cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-52339bc328",
+          "name": "Stal Rzeszow vs Projekt Warszawa | 22:30 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52339bc328",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-52339bc328",
+                  "name": "Stal Rzeszow vs Projekt Warszawa",
+                  "streams": [
+                    {
+                      "id": "st-52339bc328",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PlusLiga",
+            "team_a": "Stal Rzeszow",
+            "team_b": "Projekt Warszawa",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6cb472c188ada87e4625956550b052bc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/0b41ff289f5b4b2b6444aa725b1f1c66.png",
+            "time": "22:30 30/04",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-52339bc328_4fb9b610.png?v=4fb9b610",
             "width": 1600,
             "height": 1200
           }
