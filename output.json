@@ -44,28 +44,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3527ab845a",
+                          "id": "lnk-3cb22680ff",
                           "name": "GIÀNG A GIÀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f149b736518_145238/index.m3u8?expire=1778025527",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-699990f813",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/0253e05cda3e2787bda4b31cf69c4d7f/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1369,8 +1352,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
             "time": "21:00 29/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -1380,7 +1363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_f452333d.png?v=f452333d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
             "width": 1600,
             "height": 1200
           }
@@ -1389,7 +1372,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (3 LIVE)",
+      "name": "🏀 Bóng rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1478,94 +1461,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03552fa55f_15130025.png?v=15130025",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2d634080c2",
-          "name": "Indios de San Francisco vs Leones de Santo Domingo | 07:30 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d634080c2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2d634080c2",
-                  "name": "Indios de San Francisco vs Leones de Santo Domingo",
-                  "streams": [
-                    {
-                      "id": "st-2d634080c2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0801a6e7cc",
-                          "name": "GIÀNG A THỎ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f14be84841d_145163/index.m3u8?expire=1778026088",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fe4ac17253",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c2ec875f9e81acde1d5565e616de312c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Dominican Republic Liga Nacional Basketball",
-            "team_a": "Indios de San Francisco",
-            "team_b": "Leones de Santo Domingo",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0a8433ba3826a83f11b17bc5ba2709bc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2af9687d3d970a4b9d072bc9a8f893de.png",
-            "time": "07:30 29/04",
-            "blv": "GIÀNG A THỎ",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d634080c2_c413ee5c.png?v=c413ee5c",
             "width": 1600,
             "height": 1200
           }
