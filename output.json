@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -220,11 +220,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ed7dc02a44",
+                          "id": "lnk-e87f9169db",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f28ae74841d_145274/index.m3u8?expire=1778107751",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-387453dbd9",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/377b36b4ef10e1210af635b0e278be54/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -271,10 +288,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -289,7 +306,25 @@
                     {
                       "id": "st-bcf64b4408",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ffc41ee4e",
+                          "name": "GIÀNG A ĐỎ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f2941b36518_145503/index.m3u8?expire=1778110107",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -304,7 +339,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/8adf954bc3f72a6287b83d3b946b7d0b.png",
             "time": "07:00 30/04",
             "blv": "GIÀNG A ĐỎ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -945,7 +980,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -956,7 +991,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
             "width": 1600,
             "height": 1200
           }
