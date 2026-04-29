@@ -220,28 +220,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e87f9169db",
+                          "id": "lnk-ed7dc02a44",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f28ae74841d_145274/index.m3u8?expire=1778107751",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-387453dbd9",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/377b36b4ef10e1210af635b0e278be54/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
