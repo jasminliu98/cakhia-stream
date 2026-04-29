@@ -457,59 +457,6 @@
           }
         },
         {
-          "id": "kaytee-44d74e92dc",
-          "name": "Urawa Red Diamonds vs Kawasaki Frontale | 13:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44d74e92dc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-44d74e92dc",
-                  "name": "Urawa Red Diamonds vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-44d74e92dc",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Urawa Red Diamonds",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-            "time": "13:00 29/04",
-            "blv": "GIÀNG A TRỀ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-44d74e92dc_5f6d9c31.png?v=5f6d9c31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-836e1cd143",
           "name": "Nagoya Grampus vs Fagiano Okayama | 13:00 29/04",
           "type": "single",
@@ -558,6 +505,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-836e1cd143_0627c6bd.png?v=0627c6bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-44d74e92dc",
+          "name": "Urawa Red Diamonds vs Kawasaki Frontale | 13:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44d74e92dc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-44d74e92dc",
+                  "name": "Urawa Red Diamonds vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-44d74e92dc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Urawa Red Diamonds",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
+            "time": "13:00 29/04",
+            "blv": "GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-44d74e92dc_5f6d9c31.png?v=5f6d9c31",
             "width": 1600,
             "height": 1200
           }
@@ -1918,7 +1918,7 @@
     },
     {
       "id": "cate_2",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1931,10 +1931,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1949,7 +1949,25 @@
                     {
                       "id": "st-98acadf5cf",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a82711aee",
+                          "name": "Giàng A Dập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f18ffc4841d_145509/index.m3u8?expire=1778043516",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1964,7 +1982,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4dee9d022c5736aebf8c6117eae69f89.png",
             "time": "12:30 29/04",
             "blv": "Giàng A Dập",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Võ Thuật"
           },
           "image": {
