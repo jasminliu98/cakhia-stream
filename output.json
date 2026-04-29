@@ -386,6 +386,59 @@
           }
         },
         {
+          "id": "kaytee-5abc3fbf48",
+          "name": "Jalapa vs Walter Ferretti | 05:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5abc3fbf48",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5abc3fbf48",
+                  "name": "Jalapa vs Walter Ferretti",
+                  "streams": [
+                    {
+                      "id": "st-5abc3fbf48",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nicaragua Liga Primera",
+            "team_a": "Jalapa",
+            "team_b": "Walter Ferretti",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/23c5c842bfed8a5c6d7d9a713e94852e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4b15809cca6fda3511bc0efb52122dd2.png",
+            "time": "05:00 30/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5abc3fbf48_cd74a4b7.png?v=cd74a4b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-6f7627bac3",
           "name": "New York Red Bulls vs New York City FC | 06:00 30/04",
           "type": "single",
