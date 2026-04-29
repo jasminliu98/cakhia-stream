@@ -1244,8 +1244,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Arthur Fils",
             "team_b": "Jiri Lehecka",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
             "time": "02:30 30/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1255,7 +1255,60 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b83d6c42fe_e508e47d.png?v=e508e47d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b83d6c42fe_b196878d.png?v=b196878d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a53da54b4e",
+          "name": "Hailey Baptiste vs Mirra Andreeva | 21:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a53da54b4e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a53da54b4e",
+                  "name": "Hailey Baptiste vs Mirra Andreeva",
+                  "streams": [
+                    {
+                      "id": "st-a53da54b4e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Hailey Baptiste",
+            "team_b": "Mirra Andreeva",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
+            "time": "21:00 30/04",
+            "blv": "GIÀNG A TÀI",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
             "width": 1600,
             "height": 1200
           }
@@ -1424,6 +1477,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e1cc60b2e_db9cb010.png?v=db9cb010",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-b8817deca8",
+          "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters | 17:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8817deca8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b8817deca8",
+                  "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters",
+                  "streams": [
+                    {
+                      "id": "st-b8817deca8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean Basketball League",
+            "team_a": "Busan KCC Egis",
+            "team_b": "Anyang JungKwanJang Red Boosters",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/30683c359531664a5b97f129c047fcdc.png",
+            "time": "17:00 30/04",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b8817deca8_28611b25.png?v=28611b25",
             "width": 1600,
             "height": 1200
           }
