@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-0cee7f991b",
-          "name": "Mito Hollyhock vs Machida Zelvia | 14:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0cee7f991b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0cee7f991b",
-                  "name": "Mito Hollyhock vs Machida Zelvia",
-                  "streams": [
-                    {
-                      "id": "st-0cee7f991b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a642da2e0d",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1a6be4841d_145698/index.m3u8?expire=1778049342",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-008440d323",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/26a41be2d550bbb54faa77d7cf55432c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Machida Zelvia",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9ead844240532c4e12d3eb45d2087924.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "time": "14:00 29/04",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0cee7f991b_2b7613f2.png?v=2b7613f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-73c820441b",
           "name": "Persik Kediri vs Borneo FC | 15:30 29/04",
@@ -875,8 +787,8 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Karolina Pliskova",
             "team_b": "Anastasia Potapova",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/12358f730f230e69ab40634f6b5988d7.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/3145531b797a9337f8d16557fbf9a6bc.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/12358f730f230e69ab40634f6b5988d7.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3145531b797a9337f8d16557fbf9a6bc.png",
             "time": "18:00 29/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -886,7 +798,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f6c003283a_14faa14f.png?v=14faa14f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f6c003283a_c60d8252.png?v=c60d8252",
             "width": 1600,
             "height": 1200
           }
@@ -981,8 +893,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
             "time": "21:00 29/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -992,7 +904,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_f452333d.png?v=f452333d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
             "width": 1600,
             "height": 1200
           }
