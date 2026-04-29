@@ -723,6 +723,59 @@
           }
         },
         {
+          "id": "kaytee-fc0147c9ef",
+          "name": "Los Angeles FC vs Toluca | 09:30 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc0147c9ef",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fc0147c9ef",
+                  "name": "Los Angeles FC vs Toluca",
+                  "streams": [
+                    {
+                      "id": "st-fc0147c9ef",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Los Angeles FC",
+            "team_b": "Toluca",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9c5ad5227377e12b87f77790d3d88c1c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/725ccd5793be6b4f8dd917170dd17d04.png",
+            "time": "09:30 30/04",
+            "blv": "GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fc0147c9ef_862035e5.png?v=862035e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-a66aad7ddc",
           "name": "PSIM Yogyakarta vs Persita Tangerang | 15:30 30/04",
           "type": "single",
@@ -877,86 +930,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eb0e3369c3_ace0cdc1.png?v=ace0cdc1",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-9c0f1a656b",
-          "name": "Jannik Sinner vs Rafael Jodar | 21:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c0f1a656b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9c0f1a656b",
-                  "name": "Jannik Sinner vs Rafael Jodar",
-                  "streams": [
-                    {
-                      "id": "st-9c0f1a656b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9955c6524",
-                          "name": "GIÀNG A TÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f208fb36518_145413/index.m3u8?expire=1778074491",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
-            "time": "21:00 29/04",
-            "blv": "GIÀNG A TÀI",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
             "width": 1600,
             "height": 1200
           }
