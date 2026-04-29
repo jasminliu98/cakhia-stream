@@ -1369,8 +1369,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
             "time": "21:00 29/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -1380,7 +1380,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_f452333d.png?v=f452333d",
             "width": 1600,
             "height": 1200
           }
@@ -2110,8 +2110,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-069514d5c7",
-          "name": "Rodtang Jitmuangnon vs Takeru Segawa | 14:30 29/04",
+          "id": "kaytee-98acadf5cf",
+          "name": "Rodtang Jitmuangnon vs Takeru Segawa | 12:30 29/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2125,15 +2125,15 @@
           ],
           "sources": [
             {
-              "id": "src-069514d5c7",
+              "id": "src-98acadf5cf",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-069514d5c7",
+                  "id": "ct-98acadf5cf",
                   "name": "Rodtang Jitmuangnon vs Takeru Segawa",
                   "streams": [
                     {
-                      "id": "st-069514d5c7",
+                      "id": "st-98acadf5cf",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2148,7 +2148,7 @@
             "team_b": "Takeru Segawa",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b761d70467f8e5049e6c252e4d66a6e3.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/4dee9d022c5736aebf8c6117eae69f89.png",
-            "time": "14:30 29/04",
+            "time": "12:30 29/04",
             "blv": "Giàng A Dập",
             "is_live": false,
             "cate_name": "Võ Thuật"
@@ -2157,7 +2157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-069514d5c7_8f2a7a7e.png?v=8f2a7a7e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-98acadf5cf_8f2a7a7e.png?v=8f2a7a7e",
             "width": 1600,
             "height": 1200
           }
