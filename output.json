@@ -325,11 +325,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ae022632ce",
+                          "id": "lnk-7dff06cef7",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f2524b36518_145274/index.m3u8?expire=1778093259",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-dd0de40b5b",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e9c1c0c1f0fcf27877ddf472e3a8098e/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1646,6 +1663,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-52339bc328_4fb9b610.png?v=4fb9b610",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6e8133ff86",
+          "name": "Akaa vs Savo | 22:30 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e8133ff86",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6e8133ff86",
+                  "name": "Akaa vs Savo",
+                  "streams": [
+                    {
+                      "id": "st-6e8133ff86",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mestaruusliiga",
+            "team_a": "Akaa",
+            "team_b": "Savo",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/25ba9e3248cf7508ece473dd3f73efdc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b21e74f0ac9affd94d6ec1ec06f63d3d.png",
+            "time": "22:30 30/04",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e8133ff86_83852acc.png?v=83852acc",
             "width": 1600,
             "height": 1200
           }
