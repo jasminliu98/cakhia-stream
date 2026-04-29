@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -464,10 +464,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -482,7 +482,25 @@
                     {
                       "id": "st-836e1cd143",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c5ead5c37",
+                          "name": "GIÀNG A NGỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f194ee36518_145575/index.m3u8?expire=1778044782",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -497,7 +515,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
             "time": "13:00 29/04",
             "blv": "GIÀNG A NGỘ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -510,59 +528,6 @@
           }
         },
         {
-          "id": "kaytee-44d74e92dc",
-          "name": "Urawa Red Diamonds vs Kawasaki Frontale | 13:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44d74e92dc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-44d74e92dc",
-                  "name": "Urawa Red Diamonds vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-44d74e92dc",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Urawa Red Diamonds",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-            "time": "13:00 29/04",
-            "blv": "GIÀNG A TRỀ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-44d74e92dc_5f6d9c31.png?v=5f6d9c31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-1e44e6fe1f",
           "name": "Kyoto Sanga vs Gamba Osaka | 13:00 29/04",
           "type": "single",
@@ -570,10 +535,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -588,7 +553,25 @@
                     {
                       "id": "st-1e44e6fe1f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9508ab8948",
+                          "name": "GIÀNG A LUNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f197804841d_145422/index.m3u8?expire=1778045440",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -603,7 +586,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/91008a96b5de8c75376d17057f89890e.png",
             "time": "13:00 29/04",
             "blv": "GIÀNG A LUNG",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
