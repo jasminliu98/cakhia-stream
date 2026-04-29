@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,42 @@
                     {
                       "id": "st-598fb49527",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5a9ed8fad2",
+                          "name": "GIÀNG A KEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f17b094841d_145467/index.m3u8?expire=1778038153",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-737ead2ca2",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/6e425ef4474517f171db7187351e8663/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +92,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
             "time": "11:00 29/04",
             "blv": "GIÀNG A KEN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -77,10 +112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +130,42 @@
                     {
                       "id": "st-feeea33bba",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e9319d527",
+                          "name": "GIÀNG A BẢNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f17af64841d_145205/index.m3u8?expire=1778038134",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e983fb0062",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/a8a89dba05134907af05e47a5dfaa9b3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,7 +180,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
             "time": "11:00 29/04",
             "blv": "GIÀNG A BẢNH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1281,8 +1351,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Rafael Jodar",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6df68e87ef33da480611d1b13a603a21.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/6df68e87ef33da480611d1b13a603a21.png",
             "time": "21:00 29/04",
             "blv": "GIÀNG A TÀI",
             "is_live": false,
@@ -1292,7 +1362,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_f452333d.png?v=f452333d",
             "width": 1600,
             "height": 1200
           }
@@ -1379,7 +1449,7 @@
             "team_a": "San Antonio Spurs",
             "team_b": "Portland Trail Blazers",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4512175b1415f69816e816160093bcc0.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/4512175b1415f69816e816160093bcc0.png",
             "time": "08:30 29/04",
             "blv": "GIÀNG A CÁO",
             "is_live": true,
@@ -1389,7 +1459,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_e9a89b77.png?v=e9a89b77",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_f8fc44e5.png?v=f8fc44e5",
             "width": 1600,
             "height": 1200
           }
