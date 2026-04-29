@@ -11,11 +11,99 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-b296c5277a",
+          "name": "Nashville vs Tigres UANL | 08:30 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b296c5277a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b296c5277a",
+                  "name": "Nashville vs Tigres UANL",
+                  "streams": [
+                    {
+                      "id": "st-b296c5277a",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3527ab845a",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f149b736518_145238/index.m3u8?expire=1778025527",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-699990f813",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/0253e05cda3e2787bda4b31cf69c4d7f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Nashville",
+            "team_b": "Tigres UANL",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/eafb707bc6f8028dc71923176915c8e3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
+            "time": "08:30 29/04",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b296c5277a_079de63f.png?v=079de63f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-598fb49527",
           "name": "Shimizu S-Pulse vs V-Varen Nagasaki | 11:00 29/04",
@@ -1307,94 +1395,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-cd8ac4c0b7",
-          "name": "Boston Celtics vs Philadelphia 76ers | 06:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd8ac4c0b7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cd8ac4c0b7",
-                  "name": "Boston Celtics vs Philadelphia 76ers",
-                  "streams": [
-                    {
-                      "id": "st-cd8ac4c0b7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68e0fec519",
-                          "name": "GIÀNG A CÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1388736518_145241/index.m3u8?expire=1778021127",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b600278e8e",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2c5495bfe006735010b1c41644ca5caa/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Boston Celtics",
-            "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
-            "time": "06:00 29/04",
-            "blv": "GIÀNG A CÁO",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd8ac4c0b7_bc4e97b9.png?v=bc4e97b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-03552fa55f",
           "name": "New York Knicks vs Atlanta Hawks | 07:00 29/04",
           "type": "single",
@@ -1566,6 +1566,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2d634080c2_c413ee5c.png?v=c413ee5c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cd7526ff5e",
+          "name": "San Antonio Spurs vs Portland Trail Blazers | 08:30 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd7526ff5e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cd7526ff5e",
+                  "name": "San Antonio Spurs vs Portland Trail Blazers",
+                  "streams": [
+                    {
+                      "id": "st-cd7526ff5e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5f17bbba5",
+                          "name": "GIÀNG A CÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f15f594841d_145241/index.m3u8?expire=1778031065",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-45c22ea450",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ef3b61bada212b4ad02ac7831c401e38/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Portland Trail Blazers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4512175b1415f69816e816160093bcc0.png",
+            "time": "08:30 29/04",
+            "blv": "GIÀNG A CÁO",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd7526ff5e_e9a89b77.png?v=e9a89b77",
             "width": 1600,
             "height": 1200
           }
