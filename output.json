@@ -17,182 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-836e1cd143",
-          "name": "Nagoya Grampus vs Fagiano Okayama | 13:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-836e1cd143",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-836e1cd143",
-                  "name": "Nagoya Grampus vs Fagiano Okayama",
-                  "streams": [
-                    {
-                      "id": "st-836e1cd143",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e4b1a341e",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f194ee36518_145575/index.m3u8?expire=1778044782",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ffc63dbf16",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/24bc71c03e7a36b11a8a80f53534fc09/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Nagoya Grampus",
-            "team_b": "Fagiano Okayama",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/32aa68e1fa3d62dad572d19b21a09353.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "time": "13:00 29/04",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-836e1cd143_0627c6bd.png?v=0627c6bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-1e44e6fe1f",
-          "name": "Kyoto Sanga vs Gamba Osaka | 13:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e44e6fe1f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1e44e6fe1f",
-                  "name": "Kyoto Sanga vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-1e44e6fe1f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fab9881ce6",
-                          "name": "GIÀNG A LUNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f197804841d_145422/index.m3u8?expire=1778045440",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fd8b5a9415",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/9e460520515bf8485498277b9f38dc4e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kyoto Sanga",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7d6fa50ea67cde7d66612a8189897ba5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/91008a96b5de8c75376d17057f89890e.png",
-            "time": "13:00 29/04",
-            "blv": "GIÀNG A LUNG",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1e44e6fe1f_fe29ec91.png?v=fe29ec91",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-8030c4b362",
           "name": "Kashiwa Reysol vs FC Tokyo | 14:00 29/04",
           "type": "single",
@@ -376,10 +200,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -394,7 +218,25 @@
                     {
                       "id": "st-73c820441b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e621e3df32",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1bce44841d_145419/index.m3u8?expire=1778055012",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -409,7 +251,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
             "time": "15:30 29/04",
             "blv": "GIÀNG A DÂN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -429,10 +271,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -447,7 +289,25 @@
                     {
                       "id": "st-48427f8a54",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-115ac02edc",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1bb394841d_146331/index.m3u8?expire=1778054585",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -462,7 +322,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
             "time": "15:30 29/04",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
