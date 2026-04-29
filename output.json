@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-b296c5277a",
-          "name": "Nashville vs Tigres UANL | 08:30 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b296c5277a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b296c5277a",
-                  "name": "Nashville vs Tigres UANL",
-                  "streams": [
-                    {
-                      "id": "st-b296c5277a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3527ab845a",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f149b736518_145238/index.m3u8?expire=1778025527",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-699990f813",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/0253e05cda3e2787bda4b31cf69c4d7f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CNCF CHL",
-            "team_a": "Nashville",
-            "team_b": "Tigres UANL",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/eafb707bc6f8028dc71923176915c8e3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
-            "time": "08:30 29/04",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b296c5277a_079de63f.png?v=079de63f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-598fb49527",
           "name": "Shimizu S-Pulse vs V-Varen Nagasaki | 11:00 29/04",
@@ -144,7 +56,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/fa4105f0408ef893d941e70ae003ab4c.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
             "time": "11:00 29/04",
-            "blv": "GIÀNG A BÁO",
+            "blv": "GIÀNG A KEN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
