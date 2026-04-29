@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-0e2a601205",
-          "name": "Atletico Madrid vs Arsenal | 02:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e2a601205",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0e2a601205",
-                  "name": "Atletico Madrid vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-0e2a601205",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da8f5e2546",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f24cc14841d_145821/index.m3u8?expire=1778091841",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6b92a46b5b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b1dc42800d4d77ec38f5f8d0adc370ed/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-366b60f5c7",
-                          "name": "GIÀNG A BẢNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f24d544841d_145205/index.m3u8?expire=1778091988",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Atletico Madrid",
-            "team_b": "Arsenal",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
-            "time": "02:00 30/04",
-            "blv": "GIÀNG A NGAO, GIÀNG A BẢNH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e2a601205_ad6d2229.png?v=ad6d2229",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-260047a506",
           "name": "Sporting CP vs CD Tondela | 02:15 30/04",
           "type": "single",
@@ -205,6 +100,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-260047a506_a74739ac.png?v=a74739ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-23cc5b3c2e",
+          "name": "Coban Imperial vs Deportivo Mixco | 04:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23cc5b3c2e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-23cc5b3c2e",
+                  "name": "Coban Imperial vs Deportivo Mixco",
+                  "streams": [
+                    {
+                      "id": "st-23cc5b3c2e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-382fb3a714",
+                          "name": "GIÀNG A KEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f270bd36518_145467/index.m3u8?expire=1778101053",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Guatemala Liga Nacional",
+            "team_a": "Coban Imperial",
+            "team_b": "Deportivo Mixco",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3a31c79c215989b231a8219c016ad8ae.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2c9efa7a61b37c74ca94129850f4d5a6.png",
+            "time": "04:00 30/04",
+            "blv": "GIÀNG A KEN",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-23cc5b3c2e_41a9c50a.png?v=41a9c50a",
             "width": 1600,
             "height": 1200
           }
