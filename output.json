@@ -1114,82 +1114,11 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e0af618ab2",
-          "name": "Trung Quốc vs Ấn Độ | 15:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0af618ab2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e0af618ab2",
-                  "name": "Trung Quốc vs Ấn Độ",
-                  "streams": [
-                    {
-                      "id": "st-e0af618ab2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50415eff30",
-                          "name": "GIÀNG A ĐỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1b3a536518_145247/index.m3u8?expire=1778052645",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "Trung Quốc",
-            "team_b": "Ấn Độ",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/b0e6066ae39c19e46d25e122d0d1efcf.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/d14fdcc47f163ec65bf8806f0bff9c4b.jpg",
-            "time": "15:00 29/04",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e0af618ab2_7142c0c4.png?v=7142c0c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-868af7b717",
           "name": "Chinese Taipei vs Đan Mạch | 23:00 29/04",
