@@ -1371,6 +1371,227 @@
       ]
     },
     {
+      "id": "cate_13",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-6f83f8fc9d",
+          "name": "China Women vs Malaysia (Nữ) | 15:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f83f8fc9d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f83f8fc9d",
+                  "name": "China Women vs Malaysia (Nữ)",
+                  "streams": [
+                    {
+                      "id": "st-6f83f8fc9d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "China Women",
+            "team_b": "Malaysia (Nữ)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/4e98f1510ad15c2c6e9c6ccc366ac36b.png",
+            "time": "15:00 30/04",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f83f8fc9d_f9cf0d0e.png?v=f9cf0d0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ca596ef121",
+          "name": "Japan Women vs Thailand (w) | 15:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca596ef121",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ca596ef121",
+                  "name": "Japan Women vs Thailand (w)",
+                  "streams": [
+                    {
+                      "id": "st-ca596ef121",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "Japan Women",
+            "team_b": "Thailand (w)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/965601fc071268ebae05471ca5cd61c3.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/34621472e8529e712eef23a19ebdffc9.png",
+            "time": "15:00 30/04",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ca596ef121_5f861fcf.png?v=5f861fcf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9697f8dd16",
+          "name": "Denmark Women vs Indonesia Women | 23:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9697f8dd16",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9697f8dd16",
+                  "name": "Denmark Women vs Indonesia Women",
+                  "streams": [
+                    {
+                      "id": "st-9697f8dd16",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "Denmark Women",
+            "team_b": "Indonesia Women",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aaaf5868ef0b3cf4c6feab48c877d3ad.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8838b764fed0d75323e2db1b3098b775.png",
+            "time": "23:00 30/04",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9697f8dd16_56d167f1.png?v=56d167f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c281abf8a2",
+          "name": "Chinese Taipei (w) vs South Korea Women | 23:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c281abf8a2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c281abf8a2",
+                  "name": "Chinese Taipei (w) vs South Korea Women",
+                  "streams": [
+                    {
+                      "id": "st-c281abf8a2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "Chinese Taipei (w)",
+            "team_b": "South Korea Women",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6815c4937ea1796c0a6c182f10185c40.png",
+            "time": "23:00 30/04",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c281abf8a2_fc157494.png?v=fc157494",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_2",
       "name": "🥊 Võ Thuật",
       "display": "vertical",
