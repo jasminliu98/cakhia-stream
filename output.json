@@ -1191,8 +1191,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Arthur Fils",
             "team_b": "Jiri Lehecka",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/e2d186170a9c0f8810834319a4543a66.png",
             "time": "02:30 30/04",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1202,7 +1202,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b83d6c42fe_b196878d.png?v=b196878d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b83d6c42fe_e508e47d.png?v=e508e47d",
             "width": 1600,
             "height": 1200
           }
