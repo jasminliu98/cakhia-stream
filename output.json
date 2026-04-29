@@ -132,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e92afa6fc9",
+                          "id": "lnk-79d600fac6",
                           "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f1e0f14841d_146781/index.m3u8?expire=1778064241",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-082d3959e3",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/536f5720c177047f973b72deb6fa940f/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -171,59 +188,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-98d50d46df_d33ea640.png?v=d33ea640",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-e2726bb29e",
-          "name": "Rayong FC vs Buriram United | 19:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2726bb29e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e2726bb29e",
-                  "name": "Rayong FC vs Buriram United",
-                  "streams": [
-                    {
-                      "id": "st-e2726bb29e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hilux Revo Thai League",
-            "team_a": "Rayong FC",
-            "team_b": "Buriram United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e968db5c732912f533c10dd5eb9da8fd.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/649a85f258f62ec83a62983488e4b347.png",
-            "time": "19:00 29/04",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e2726bb29e_0990eb65.png?v=0990eb65",
             "width": 1600,
             "height": 1200
           }
@@ -277,6 +241,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5ca2f743f2_9f0689ed.png?v=9f0689ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e2726bb29e",
+          "name": "Rayong FC vs Buriram United | 19:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2726bb29e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e2726bb29e",
+                  "name": "Rayong FC vs Buriram United",
+                  "streams": [
+                    {
+                      "id": "st-e2726bb29e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hilux Revo Thai League",
+            "team_a": "Rayong FC",
+            "team_b": "Buriram United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e968db5c732912f533c10dd5eb9da8fd.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/649a85f258f62ec83a62983488e4b347.png",
+            "time": "19:00 29/04",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e2726bb29e_0990eb65.png?v=0990eb65",
             "width": 1600,
             "height": 1200
           }
