@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -200,10 +200,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -218,7 +218,25 @@
                     {
                       "id": "st-d7c9ab0129",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed7dc02a44",
+                          "name": "GIÀNG A BÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f28ae74841d_145274/index.m3u8?expire=1778107751",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -233,7 +251,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/b4ad649e6c6a9a6cf91493bf5e92ffbe.png",
             "time": "06:30 30/04",
             "blv": "GIÀNG A BÁO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -927,7 +945,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -938,7 +956,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
             "width": 1600,
             "height": 1200
           }
@@ -947,7 +965,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1048,10 +1066,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1066,7 +1084,25 @@
                     {
                       "id": "st-77b319f919",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2790015560",
+                          "name": "GIÀNG A LƯƠN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f28f714841d_145791/index.m3u8?expire=1778108913",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1081,7 +1117,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
             "time": "06:30 30/04",
             "blv": "GIÀNG A LƯƠN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
