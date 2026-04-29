@@ -886,82 +886,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-a1914b5cb9",
-          "name": "Arthur Fils vs Jiri Lehecka | 02:50 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1914b5cb9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a1914b5cb9",
-                  "name": "Arthur Fils vs Jiri Lehecka",
-                  "streams": [
-                    {
-                      "id": "st-a1914b5cb9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d3a1daaa6",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f258224841d_146088/index.m3u8?expire=1778094754",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Arthur Fils",
-            "team_b": "Jiri Lehecka",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/e2d186170a9c0f8810834319a4543a66.png",
-            "time": "02:50 30/04",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1914b5cb9_e508e47d.png?v=e508e47d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-a53da54b4e",
           "name": "Hailey Baptiste vs Mirra Andreeva | 21:00 30/04",
@@ -999,7 +928,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -1010,7 +939,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
             "width": 1600,
             "height": 1200
           }
