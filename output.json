@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-c8be5d59b5",
-          "name": "Avispa Fukuoka vs Sanfrecce Hiroshima | 12:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8be5d59b5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c8be5d59b5",
-                  "name": "Avispa Fukuoka vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-c8be5d59b5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-862e96b5cc",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f1876336518_145187/index.m3u8?expire=1778041315",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-09b1988df2",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a7d81bbb390072da363070119258f8ff/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "time": "12:00 29/04",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c8be5d59b5_59af1dae.png?v=59af1dae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-836e1cd143",
           "name": "Nagoya Grampus vs Fagiano Okayama | 13:00 29/04",
