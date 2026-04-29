@@ -44,11 +44,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-36e1907152",
+                          "id": "lnk-d31f1f2678",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f2248d36518_145575/index.m3u8?expire=1778081549",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e46daf79f4",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fcbc8a778263432ce0ae8b66846afc26/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -115,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d0e9bb2203",
+                          "id": "lnk-f2ee76c871",
                           "name": "GIÀNG A GIÀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f2266236518_145238/index.m3u8?expire=1778082018",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4b17a08707",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/9395b1e2840d7b3e4d92ea7e118eaaa6/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -472,6 +506,218 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e2a601205_ad6d2229.png?v=ad6d2229",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-260047a506",
+          "name": "Sporting CP vs CD Tondela | 02:15 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-260047a506",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-260047a506",
+                  "name": "Sporting CP vs CD Tondela",
+                  "streams": [
+                    {
+                      "id": "st-260047a506",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Sporting CP",
+            "team_b": "CD Tondela",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6a5153c73922a32013b9bc6cfbc20b26.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
+            "time": "02:15 30/04",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-260047a506_a74739ac.png?v=a74739ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6f7627bac3",
+          "name": "New York Red Bulls vs New York City FC | 06:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f7627bac3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f7627bac3",
+                  "name": "New York Red Bulls vs New York City FC",
+                  "streams": [
+                    {
+                      "id": "st-6f7627bac3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Open Cup",
+            "team_a": "New York Red Bulls",
+            "team_b": "New York City FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8b8fe90668461b90ddc20516b0e6796d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f5bbc8573e1b019164b11b13c49598bd.png",
+            "time": "06:00 30/04",
+            "blv": "GIÀNG A NẾP",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f7627bac3_fb3db9bd.png?v=fb3db9bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d7c9ab0129",
+          "name": "New England Revolution vs Orlando City | 06:30 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7c9ab0129",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d7c9ab0129",
+                  "name": "New England Revolution vs Orlando City",
+                  "streams": [
+                    {
+                      "id": "st-d7c9ab0129",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Open Cup",
+            "team_a": "New England Revolution",
+            "team_b": "Orlando City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/f1b7c49790e05778f194ed436515b240.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b4ad649e6c6a9a6cf91493bf5e92ffbe.png",
+            "time": "06:30 30/04",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d7c9ab0129_93050f85.png?v=93050f85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-bcf64b4408",
+          "name": "Chicago Fire vs St. Louis City SC | 07:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcf64b4408",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bcf64b4408",
+                  "name": "Chicago Fire vs St. Louis City SC",
+                  "streams": [
+                    {
+                      "id": "st-bcf64b4408",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "United States Open Cup",
+            "team_a": "Chicago Fire",
+            "team_b": "St. Louis City SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/929fe1b737e458218cbe8ce00a55a05c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8adf954bc3f72a6287b83d3b946b7d0b.png",
+            "time": "07:00 30/04",
+            "blv": "GIÀNG A ĐỎ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bcf64b4408_9942006a.png?v=9942006a",
             "width": 1600,
             "height": 1200
           }
