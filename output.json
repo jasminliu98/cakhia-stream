@@ -740,6 +740,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-a66aad7ddc",
+          "name": "PSIM Yogyakarta vs Persita Tangerang | 15:30 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a66aad7ddc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a66aad7ddc",
+                  "name": "PSIM Yogyakarta vs Persita Tangerang",
+                  "streams": [
+                    {
+                      "id": "st-a66aad7ddc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "PSIM Yogyakarta",
+            "team_b": "Persita Tangerang",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1a64731cd883e9d734e29a83301ea849.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/da85ffb03146e72ce9928729dcabda51.png",
+            "time": "15:30 30/04",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a66aad7ddc_bbc1f4b8.png?v=bbc1f4b8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
