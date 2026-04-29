@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9b3d9308bc",
-          "name": "El Gounah vs Haras El Hodood | 21:00 29/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b3d9308bc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9b3d9308bc",
-                  "name": "El Gounah vs Haras El Hodood",
-                  "streams": [
-                    {
-                      "id": "st-9b3d9308bc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-358216d10d",
-                          "name": "GIÀNG A NẾP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f2093b36518_145428/index.m3u8?expire=1778074555",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2b39cf95fe",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/71b67dbf223584d05af77b5745b259b5/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "El Gounah",
-            "team_b": "Haras El Hodood",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/35e665fa4086e183fda582249d625c2b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7dc80ef40b717d99f9aafeaf024f7e8c.png",
-            "time": "21:00 29/04",
-            "blv": "GIÀNG A NẾP",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b3d9308bc_dc7c1e27.png?v=dc7c1e27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-db657598d1",
           "name": "Werder Bremen (w) vs Bayern Munchen (w) | 23:00 29/04",
@@ -300,6 +212,112 @@
           }
         },
         {
+          "id": "kaytee-0b7fc8bf3a",
+          "name": "Modern Sport FC vs Tala'ea El Gaish | 00:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b7fc8bf3a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0b7fc8bf3a",
+                  "name": "Modern Sport FC vs Tala'ea El Gaish",
+                  "streams": [
+                    {
+                      "id": "st-0b7fc8bf3a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Modern Sport FC",
+            "team_b": "Tala'ea El Gaish",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/bacc15441ed99eaad038d4ceb86751d6.png",
+            "time": "00:00 30/04",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0b7fc8bf3a_e14eead6.png?v=e14eead6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9a470998f1",
+          "name": "Wadi Degla SC vs Ittihad Alexandria SC | 00:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a470998f1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9a470998f1",
+                  "name": "Wadi Degla SC vs Ittihad Alexandria SC",
+                  "streams": [
+                    {
+                      "id": "st-9a470998f1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Wadi Degla SC",
+            "team_b": "Ittihad Alexandria SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0b565bf79378453da0982dfcf95ccc98.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/56484f26eac26f8e279ea2172c48632d.png",
+            "time": "00:00 30/04",
+            "blv": "GIÀNG A MÈN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a470998f1_a2f1a16f.png?v=a2f1a16f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-13843296c5",
           "name": "Al Nassr FC vs Al-Ahli SFC | 01:00 30/04",
           "type": "single",
@@ -348,6 +366,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-13843296c5_1b6c7c3d.png?v=1b6c7c3d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0c5589534c",
+          "name": "Arsenal (w) vs Leicester City (w) | 01:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c5589534c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0c5589534c",
+                  "name": "Arsenal (w) vs Leicester City (w)",
+                  "streams": [
+                    {
+                      "id": "st-0c5589534c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English FA Women's Super League",
+            "team_a": "Arsenal (w)",
+            "team_b": "Leicester City (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b61190e348449a746ef3f802e7ebc701.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2060916574e1571329e8e82bf4107f51.png",
+            "time": "01:00 30/04",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0c5589534c_3baf9e1c.png?v=3baf9e1c",
             "width": 1600,
             "height": 1200
           }
@@ -510,6 +581,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-eb0e3369c3",
+          "name": "FC Neftci Baku vs Qarabag | 23:00 30/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb0e3369c3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-eb0e3369c3",
+                  "name": "FC Neftci Baku vs Qarabag",
+                  "streams": [
+                    {
+                      "id": "st-eb0e3369c3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azerbaijan Premier League",
+            "team_a": "FC Neftci Baku",
+            "team_b": "Qarabag",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2d9ea2234c3ada82b3d0355791c45669.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7f7d00906d511bcf48f9a600580ff953.png",
+            "time": "23:00 30/04",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eb0e3369c3_ace0cdc1.png?v=ace0cdc1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -587,6 +711,86 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c0f1a656b_106ab5f7.png?v=106ab5f7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_50",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-53b8efa92e",
+          "name": "Tulitsa W vs Odintsovo W | 23:00 29/04",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53b8efa92e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-53b8efa92e",
+                  "name": "Tulitsa W vs Odintsovo W",
+                  "streams": [
+                    {
+                      "id": "st-53b8efa92e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8dbf45e8c4",
+                          "name": "GIÀNG A NẾP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f22ad736518_145428/index.m3u8?expire=1778083159",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Women's Cup",
+            "team_a": "Tulitsa W",
+            "team_b": "Odintsovo W",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8a5fd54867c8d1598eaabb9922a68bf4.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/325e3f62369a3286d8dd1fca2659ca37.png",
+            "time": "23:00 29/04",
+            "blv": "GIÀNG A NẾP",
+            "is_live": true,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b8efa92e_16a12da9.png?v=16a12da9",
             "width": 1600,
             "height": 1200
           }
