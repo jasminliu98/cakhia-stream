@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -117,77 +117,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-13843296c5_1b6c7c3d.png?v=1b6c7c3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-0c5589534c",
-          "name": "Arsenal (w) vs Leicester City (w) | 01:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c5589534c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0c5589534c",
-                  "name": "Arsenal (w) vs Leicester City (w)",
-                  "streams": [
-                    {
-                      "id": "st-0c5589534c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ca172a52c",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f239764841d_145232/index.m3u8?expire=1778086902",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English FA Women's Super League",
-            "team_a": "Arsenal (w)",
-            "team_b": "Leicester City (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b61190e348449a746ef3f802e7ebc701.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2060916574e1571329e8e82bf4107f51.png",
-            "time": "01:00 30/04",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0c5589534c_3baf9e1c.png?v=3baf9e1c",
             "width": 1600,
             "height": 1200
           }
@@ -1244,8 +1173,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Arthur Fils",
             "team_b": "Jiri Lehecka",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/e2d186170a9c0f8810834319a4543a66.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e2d186170a9c0f8810834319a4543a66.png",
             "time": "02:50 30/04",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -1255,7 +1184,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1914b5cb9_e508e47d.png?v=e508e47d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1914b5cb9_b196878d.png?v=b196878d",
             "width": 1600,
             "height": 1200
           }
@@ -1297,7 +1226,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -1308,7 +1237,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
             "width": 1600,
             "height": 1200
           }
