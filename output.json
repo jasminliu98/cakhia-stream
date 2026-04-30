@@ -598,6 +598,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-f47e0645a1",
+          "name": "Thailand U17 Women vs Vietnam U17 Women | 14:30 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f47e0645a1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f47e0645a1",
+                  "name": "Thailand U17 Women vs Vietnam U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-f47e0645a1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Thailand U17 Women",
+            "team_b": "Vietnam U17 Women",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "time": "14:30 01/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f47e0645a1_1d85837b.png?v=1d85837b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
