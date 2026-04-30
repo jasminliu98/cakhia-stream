@@ -612,99 +612,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-0e1cc60b2e",
-          "name": "Los Angeles Lakers vs Houston Rockets | 09:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e1cc60b2e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0e1cc60b2e",
-                  "name": "Los Angeles Lakers vs Houston Rockets",
-                  "streams": [
-                    {
-                      "id": "st-0e1cc60b2e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76716c94c8",
-                          "name": "GIÀNG A LƯƠN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f2b72f4841d_145791/index.m3u8?expire=1778119087",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-05bb85315f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/ed38bbbfee9897f8c539b2e816dd751d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Los Angeles Lakers",
-            "team_b": "Houston Rockets",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcfe797437f18526ff4e62177021f638.png",
-            "time": "09:00 30/04",
-            "blv": "GIÀNG A LƯƠN",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e1cc60b2e_db9cb010.png?v=db9cb010",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b8817deca8",
           "name": "Busan KCC Egis vs Anyang JungKwanJang Red Boosters | 17:00 30/04",
