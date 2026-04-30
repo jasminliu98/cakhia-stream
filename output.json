@@ -1513,11 +1513,99 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-7b138e6da4",
+          "name": "Atlanta Hawks vs New York Knicks | 06:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b138e6da4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7b138e6da4",
+                  "name": "Atlanta Hawks vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-7b138e6da4",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cff20e07f",
+                          "name": "GIÀNG A CÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3df904841e_145241/index.m3u8?expire=1778194960",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ad2b95f219",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b9120775e6578f2ccef3ac61f1046694/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Atlanta Hawks",
+            "team_b": "New York Knicks",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4e67b14905a05af9e1bd04406bf8690f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
+            "time": "06:00 01/05",
+            "blv": "GIÀNG A CÁO",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7b138e6da4_4f576dda.png?v=4f576dda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-ac7c2866c7",
           "name": "Philadelphia 76ers vs Boston Celtics | 07:00 01/05",
@@ -1555,8 +1643,8 @@
             "league": "National Basketball Association",
             "team_a": "Philadelphia 76ers",
             "team_b": "Boston Celtics",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
             "time": "07:00 01/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -1566,7 +1654,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ac7c2866c7_ee0c30b6.png?v=ee0c30b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ac7c2866c7_d43b5b7d.png?v=d43b5b7d",
             "width": 1600,
             "height": 1200
           }
@@ -1608,8 +1696,8 @@
             "league": "National Basketball Association",
             "team_a": "Minnesota Timberwolves",
             "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/403a12aa187f47045c18d137cd8103dc.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
             "time": "08:30 01/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -1619,7 +1707,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-665a8b3017_6eb39bfa.png?v=6eb39bfa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-665a8b3017_68d59f68.png?v=68d59f68",
             "width": 1600,
             "height": 1200
           }
