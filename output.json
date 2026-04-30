@@ -1493,8 +1493,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1504,7 +1504,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_286e6be3.png?v=286e6be3",
             "width": 1600,
             "height": 1200
           }
@@ -1680,57 +1680,39 @@
       ]
     },
     {
-      "id": "cate_13",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "id": "cate_50",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-9697f8dd16",
-          "name": "Denmark Women vs Indonesia Women | 23:00 30/04",
+          "id": "kaytee-9c7c18d7ae",
+          "name": "Bayer Leverkusen (w) vs Union Berlin (w) | 21:00 01/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-9697f8dd16",
+              "id": "src-9c7c18d7ae",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-9697f8dd16",
-                  "name": "Denmark Women vs Indonesia Women",
+                  "id": "ct-9c7c18d7ae",
+                  "name": "Bayer Leverkusen (w) vs Union Berlin (w)",
                   "streams": [
                     {
-                      "id": "st-9697f8dd16",
+                      "id": "st-9c7c18d7ae",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de47155068",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3743c36518_145698/index.m3u8?expire=1778167484",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1738,25 +1720,34 @@
             }
           ],
           "org_metadata": {
-            "league": "Uber Cup",
-            "team_a": "Denmark Women",
-            "team_b": "Indonesia Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aaaf5868ef0b3cf4c6feab48c877d3ad.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8838b764fed0d75323e2db1b3098b775.png",
-            "time": "23:00 30/04",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
+            "league": "Bundesliga",
+            "team_a": "Bayer Leverkusen (w)",
+            "team_b": "Union Berlin (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a27b039192b7b72a31a1c3f9c93fe731.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/470e63e2f9ed2b556aab332b1645c4a1.png",
+            "time": "21:00 01/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9697f8dd16_56d167f1.png?v=56d167f1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c7c18d7ae_a8f07007.png?v=a8f07007",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_13",
+      "name": "🏸 Cầu Lông",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "kaytee-68163ff25c",
           "name": "China vs Malaysia | 15:00 01/05",
@@ -1859,6 +1850,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1071e53813_c47543c3.png?v=c47543c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-de6e67a605",
+          "name": "Thailand vs Denmark | 23:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de6e67a605",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-de6e67a605",
+                  "name": "Thailand vs Denmark",
+                  "streams": [
+                    {
+                      "id": "st-de6e67a605",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "Thailand",
+            "team_b": "Denmark",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d4c55c5dad7e0ab17fecc33d1fe08e57.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
+            "time": "23:00 01/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-de6e67a605_49847e3a.png?v=49847e3a",
             "width": 1600,
             "height": 1200
           }
