@@ -1039,6 +1039,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-85b68c398e",
+          "name": "Al-Arabi(KSA) vs Jubail | 23:10 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85b68c398e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-85b68c398e",
+                  "name": "Al-Arabi(KSA) vs Jubail",
+                  "streams": [
+                    {
+                      "id": "st-85b68c398e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Arabia Division 1",
+            "team_a": "Al-Arabi(KSA)",
+            "team_b": "Jubail",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/59390e2ab3fa6e830410f9f08f9cb27d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/00129e8735dd8739c51b58f2f81367a1.png",
+            "time": "23:10 01/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-85b68c398e_7c5214c7.png?v=7c5214c7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
