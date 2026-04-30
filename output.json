@@ -987,6 +987,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-fa8ec5c58a",
+          "name": "Pyramids FC vs Enppi | 21:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa8ec5c58a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fa8ec5c58a",
+                  "name": "Pyramids FC vs Enppi",
+                  "streams": [
+                    {
+                      "id": "st-fa8ec5c58a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Pyramids FC",
+            "team_b": "Enppi",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0c750c05518db78eeabc97fb11574fed.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1bd9415259f9b04af4c6164660af9a48.png",
+            "time": "21:00 01/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fa8ec5c58a_c5f54a95.png?v=c5f54a95",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1052,7 +1105,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -1063,7 +1116,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
             "width": 1600,
             "height": 1200
           }
