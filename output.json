@@ -272,7 +272,7 @@
                         },
                         {
                           "id": "lnk-6166a0acf5",
-                          "name": "BLV Simon",
+                          "name": "Link HD",
                           "type": "hls",
                           "default": false,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f3a08c4841e_147411/index.m3u8?expire=1778178828",
@@ -301,7 +301,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/1fe75f826dab40e6e89cbe961c7e9116.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
             "time": "02:00 01/05",
-            "blv": "GIÀNG A CÒI, BLV Simon",
+            "blv": "GIÀNG A CÒI",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
