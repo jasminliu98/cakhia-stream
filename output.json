@@ -447,11 +447,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-81e7e795de",
+                          "id": "lnk-a61158904e",
                           "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f3a0de36518_145244/index.m3u8?expire=1778178910",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-128f0fe5c5",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b379ae76f25f9f13f27725e09f8900e9/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1811,6 +1828,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9d76e720cc_b627a90f.png?v=b627a90f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e161153ddc",
+          "name": "Leeds United vs Burnley | 02:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e161153ddc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e161153ddc",
+                  "name": "Leeds United vs Burnley",
+                  "streams": [
+                    {
+                      "id": "st-e161153ddc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Leeds United",
+            "team_b": "Burnley",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/cd46d2ed1d364308dc206c97b48ce556.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1091af5aa9fc4a30411785954edb9159.png",
+            "time": "02:00 02/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e161153ddc_43b35a22.png?v=43b35a22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4cc7232ced",
+          "name": "Girona FC vs RCD Mallorca | 02:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4cc7232ced",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4cc7232ced",
+                  "name": "Girona FC vs RCD Mallorca",
+                  "streams": [
+                    {
+                      "id": "st-4cc7232ced",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Girona FC",
+            "team_b": "RCD Mallorca",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/006ce259b33ef72dd5570cfa8dc39f38.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fdef90456d2a2eee09976c558457aec7.png",
+            "time": "02:00 02/05",
+            "blv": "GIÀNG A DÂN, GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4cc7232ced_74dfa8aa.png?v=74dfa8aa",
             "width": 1600,
             "height": 1200
           }
