@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6f7627bac3",
-          "name": "New York Red Bulls vs New York City FC | 06:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f7627bac3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6f7627bac3",
-                  "name": "New York Red Bulls vs New York City FC",
-                  "streams": [
-                    {
-                      "id": "st-6f7627bac3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39ed0490fb",
-                          "name": "GIÀNG A NẾP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f287454841d_145428/index.m3u8?expire=1778106821",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-aabfa13b16",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7cc7c59f31d0808266cdccc04c596181/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Open Cup",
-            "team_a": "New York Red Bulls",
-            "team_b": "New York City FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/8b8fe90668461b90ddc20516b0e6796d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f5bbc8573e1b019164b11b13c49598bd.png",
-            "time": "06:00 30/04",
-            "blv": "GIÀNG A NẾP",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f7627bac3_fb3db9bd.png?v=fb3db9bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-d7c9ab0129",
           "name": "New England Revolution vs Orlando City | 06:30 30/04",
@@ -875,7 +787,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -886,7 +798,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
             "width": 1600,
             "height": 1200
           }
