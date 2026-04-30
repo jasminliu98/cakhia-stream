@@ -916,6 +916,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-850ed34a41",
+          "name": "Muang Thong United vs BG Pathum United | 19:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-850ed34a41",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-850ed34a41",
+                  "name": "Muang Thong United vs BG Pathum United",
+                  "streams": [
+                    {
+                      "id": "st-850ed34a41",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hilux Revo Thai League",
+            "team_a": "Muang Thong United",
+            "team_b": "BG Pathum United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3304b66faaa7843336b931db14e7fbc7.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
+            "time": "19:00 01/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-850ed34a41_7037ce42.png?v=7037ce42",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
