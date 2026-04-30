@@ -444,7 +444,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/1fe75f826dab40e6e89cbe961c7e9116.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
             "time": "02:00 01/05",
-            "blv": "GIÀNG A CÒI",
+            "blv": "GIÀNG A CÒI, BLV Simon",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -506,6 +506,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-687af1af1b_789b36e4.png?v=789b36e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9a4efb738c",
+          "name": "Incheon Hyundai Steel Red Angels (w) vs Sejong Gumi Sportstoto (w) | 12:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a4efb738c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9a4efb738c",
+                  "name": "Incheon Hyundai Steel Red Angels (w) vs Sejong Gumi Sportstoto (w)",
+                  "streams": [
+                    {
+                      "id": "st-9a4efb738c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean WK League",
+            "team_a": "Incheon Hyundai Steel Red Angels (w)",
+            "team_b": "Sejong Gumi Sportstoto (w)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51bbefa8069e06c0e2911f4c690feb29.png",
+            "time": "12:00 01/05",
+            "blv": "GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a4efb738c_b1646fcb.png?v=b1646fcb",
             "width": 1600,
             "height": 1200
           }
