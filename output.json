@@ -1071,7 +1071,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1155,10 +1155,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1173,7 +1173,25 @@
                     {
                       "id": "st-6e8133ff86",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b1f5364dc",
+                          "name": "GIÀNG A LEX",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f36c8a4841e_145875/index.m3u8?expire=1778165514",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1188,7 +1206,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b21e74f0ac9affd94d6ec1ec06f63d3d.png",
             "time": "22:30 30/04",
             "blv": "GIÀNG A LEX",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
@@ -1196,59 +1214,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e8133ff86_83852acc.png?v=83852acc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-52339bc328",
-          "name": "Stal Rzeszow vs Projekt Warszawa | 22:30 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52339bc328",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-52339bc328",
-                  "name": "Stal Rzeszow vs Projekt Warszawa",
-                  "streams": [
-                    {
-                      "id": "st-52339bc328",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PlusLiga",
-            "team_a": "Stal Rzeszow",
-            "team_b": "Projekt Warszawa",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6cb472c188ada87e4625956550b052bc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/0b41ff289f5b4b2b6444aa725b1f1c66.png",
-            "time": "22:30 30/04",
-            "blv": "GIÀNG A CAY",
-            "is_live": false,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-52339bc328_4fb9b610.png?v=4fb9b610",
             "width": 1600,
             "height": 1200
           }
