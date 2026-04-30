@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-d7c9ab0129",
-          "name": "New England Revolution vs Orlando City | 06:30 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7c9ab0129",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d7c9ab0129",
-                  "name": "New England Revolution vs Orlando City",
-                  "streams": [
-                    {
-                      "id": "st-d7c9ab0129",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed7dc02a44",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f28ae74841d_145274/index.m3u8?expire=1778107751",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States Open Cup",
-            "team_a": "New England Revolution",
-            "team_b": "Orlando City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/f1b7c49790e05778f194ed436515b240.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b4ad649e6c6a9a6cf91493bf5e92ffbe.png",
-            "time": "06:30 30/04",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d7c9ab0129_93050f85.png?v=93050f85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-bcf64b4408",
           "name": "Chicago Fire vs St. Louis City SC | 07:00 30/04",
