@@ -969,6 +969,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-214932b9b5",
+          "name": "TT Hanoi vs SHB Da Nang | 19:15 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-214932b9b5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-214932b9b5",
+                  "name": "TT Hanoi vs SHB Da Nang",
+                  "streams": [
+                    {
+                      "id": "st-214932b9b5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "TT Hanoi",
+            "team_b": "SHB Da Nang",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/46a4867487152e47c4dc61984d0c58aa.png",
+            "time": "19:15 01/05",
+            "blv": "GIÀNG A GIÀ, GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-214932b9b5_a61c0809.png?v=a61c0809",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
