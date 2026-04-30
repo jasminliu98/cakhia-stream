@@ -158,6 +158,59 @@
           }
         },
         {
+          "id": "kaytee-15c54c1032",
+          "name": "Sporting Braga vs SC Freiburg | 02:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15c54c1032",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-15c54c1032",
+                  "name": "Sporting Braga vs SC Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-15c54c1032",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Sporting Braga",
+            "team_b": "SC Freiburg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1fe75f826dab40e6e89cbe961c7e9116.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
+            "time": "02:00 01/05",
+            "blv": "GIÀNG A CÒI, BLV Simon",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15c54c1032_2338d758.png?v=2338d758",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-45eaeafbb5",
           "name": "Nottingham Forest vs Aston Villa | 02:00 01/05",
           "type": "single",
@@ -259,59 +312,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-54dc226e9e_16dbe695.png?v=16dbe695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-15c54c1032",
-          "name": "Sporting Braga vs SC Freiburg | 02:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15c54c1032",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-15c54c1032",
-                  "name": "Sporting Braga vs SC Freiburg",
-                  "streams": [
-                    {
-                      "id": "st-15c54c1032",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Sporting Braga",
-            "team_b": "SC Freiburg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
-            "time": "02:00 01/05",
-            "blv": "GIÀNG A CÒI, BLV Simon",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15c54c1032_2338d758.png?v=2338d758",
             "width": 1600,
             "height": 1200
           }
