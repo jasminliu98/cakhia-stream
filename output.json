@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,25 @@
                     {
                       "id": "st-eb0e3369c3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-92dc1ad71d",
+                          "name": "GIÀNG A NA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f376c236518_146847/index.m3u8?expire=1778168130",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/7f7d00906d511bcf48f9a600580ff953.png",
             "time": "23:00 30/04",
             "blv": "GIÀNG A NA",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -77,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +113,25 @@
                     {
                       "id": "st-f786857afb",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-23459344f2",
+                          "name": "GIÀNG A SIK",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f375c636518_145268/index.m3u8?expire=1778167878",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,7 +146,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/381dd852484f06350b771097612cf08e.png",
             "time": "23:00 30/04",
             "blv": "GIÀNG A SIK",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1071,7 +1107,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (2 LIVE)",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1146,10 +1182,19 @@
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_13",
+      "name": "🏸 Cầu Lông (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
-          "id": "kaytee-6e8133ff86",
-          "name": "Akaa vs Savo | 22:30 30/04",
+          "id": "kaytee-9697f8dd16",
+          "name": "Denmark Women vs Indonesia Women | 23:00 30/04",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1163,23 +1208,23 @@
           ],
           "sources": [
             {
-              "id": "src-6e8133ff86",
+              "id": "src-9697f8dd16",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-6e8133ff86",
-                  "name": "Akaa vs Savo",
+                  "id": "ct-9697f8dd16",
+                  "name": "Denmark Women vs Indonesia Women",
                   "streams": [
                     {
-                      "id": "st-6e8133ff86",
+                      "id": "st-9697f8dd16",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0b1f5364dc",
-                          "name": "GIÀNG A LEX",
+                          "id": "lnk-de47155068",
+                          "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f36c8a4841e_145875/index.m3u8?expire=1778165514",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3743c36518_145698/index.m3u8?expire=1778167484",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1199,68 +1244,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Mestaruusliiga",
-            "team_a": "Akaa",
-            "team_b": "Savo",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/25ba9e3248cf7508ece473dd3f73efdc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b21e74f0ac9affd94d6ec1ec06f63d3d.png",
-            "time": "22:30 30/04",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e8133ff86_83852acc.png?v=83852acc",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_13",
-      "name": "🏸 Cầu Lông",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-9697f8dd16",
-          "name": "Denmark Women vs Indonesia Women | 23:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9697f8dd16",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9697f8dd16",
-                  "name": "Denmark Women vs Indonesia Women",
-                  "streams": [
-                    {
-                      "id": "st-9697f8dd16",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Uber Cup",
             "team_a": "Denmark Women",
             "team_b": "Indonesia Women",
@@ -1268,7 +1251,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8838b764fed0d75323e2db1b3098b775.png",
             "time": "23:00 30/04",
             "blv": "GIÀNG A MÓM",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
@@ -1288,10 +1271,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1306,7 +1289,25 @@
                     {
                       "id": "st-c281abf8a2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-74ee611549",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3725d36518_145238/index.m3u8?expire=1778167005",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1321,7 +1322,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6815c4937ea1796c0a6c182f10185c40.png",
             "time": "23:00 30/04",
             "blv": "GIÀNG A GIÀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
