@@ -352,59 +352,6 @@
           }
         },
         {
-          "id": "kaytee-54dc226e9e",
-          "name": "Rayo Vallecano vs RC Strasbourg Alsace | 02:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54dc226e9e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-54dc226e9e",
-                  "name": "Rayo Vallecano vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-54dc226e9e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "Rayo Vallecano",
-            "team_b": "RC Strasbourg Alsace",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5005d8feab109ce64e40beb98073cc1f.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/998db478bf7c06d5817bf846987a0d0a.png",
-            "time": "02:00 01/05",
-            "blv": "GIÀNG A BÉO",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-54dc226e9e_16dbe695.png?v=16dbe695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-15c54c1032",
           "name": "Sporting Braga vs SC Freiburg | 02:00 01/05",
           "type": "single",
