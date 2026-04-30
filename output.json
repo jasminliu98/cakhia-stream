@@ -1837,7 +1837,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1909,77 +1909,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9697f8dd16_56d167f1.png?v=56d167f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c281abf8a2",
-          "name": "Chinese Taipei (w) vs South Korea Women | 23:00 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c281abf8a2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c281abf8a2",
-                  "name": "Chinese Taipei (w) vs South Korea Women",
-                  "streams": [
-                    {
-                      "id": "st-c281abf8a2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74ee611549",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3725d36518_145238/index.m3u8?expire=1778167005",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uber Cup",
-            "team_a": "Chinese Taipei (w)",
-            "team_b": "South Korea Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/74eb0c64d3d5eb724d982a8b150d8943.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6815c4937ea1796c0a6c182f10185c40.png",
-            "time": "23:00 30/04",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c281abf8a2_fc157494.png?v=fc157494",
             "width": 1600,
             "height": 1200
           }
