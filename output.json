@@ -1024,59 +1024,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-98de71891c",
-          "name": "Arthur Chardain vs Dion Hoegen | 14:30 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98de71891c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-98de71891c",
-                  "name": "Arthur Chardain vs Dion Hoegen",
-                  "streams": [
-                    {
-                      "id": "st-98de71891c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Luxembourg Open",
-            "team_a": "Arthur Chardain",
-            "team_b": "Dion Hoegen",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-tv89/cms/d2a3fa1b7226f1643c29a9e1acfb9ea9.jpg",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/cec036ddbea7be9e9816d114c9413b2d.jpg",
-            "time": "14:30 30/04",
-            "blv": "GIÀNG A MÓM",
-            "is_live": false,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-98de71891c_0f1dc12d.png?v=0f1dc12d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-6f83f8fc9d",
           "name": "China Women vs Malaysia (Nữ) | 15:00 30/04",
           "type": "single",
