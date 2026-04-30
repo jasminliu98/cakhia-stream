@@ -1732,6 +1732,86 @@
       ]
     },
     {
+      "id": "cate_20",
+      "name": "🏀 Bóng rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-a5a0787aa2",
+          "name": "Fenerbahçe Beko Istanbul vs Zalgiris Kaunas | 00:45 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5a0787aa2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a5a0787aa2",
+                  "name": "Fenerbahçe Beko Istanbul vs Zalgiris Kaunas",
+                  "streams": [
+                    {
+                      "id": "st-a5a0787aa2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-272cf798ad",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f391ff36518_145211/index.m3u8?expire=1778175103",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EuroLeague",
+            "team_a": "Fenerbahçe Beko Istanbul",
+            "team_b": "Zalgiris Kaunas",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/9b0fab2fcb670f18c7b275159b44cb48.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/2d05b2c06841b4f3e6df084479f08594.png",
+            "time": "00:45 01/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a5a0787aa2_5988353e.png?v=5988353e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_50",
       "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
