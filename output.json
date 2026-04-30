@@ -663,7 +663,7 @@
             "league": "WTA Madrid, Spain Women Singles",
             "team_a": "Hailey Baptiste",
             "team_b": "Mirra Andreeva",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/23df05ffaff10b36eb76b50c4ba70958.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/23df05ffaff10b36eb76b50c4ba70958.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
             "time": "21:00 30/04",
             "blv": "GIÀNG A TÀI",
@@ -674,7 +674,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_be0421cf.png?v=be0421cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a53da54b4e_38a772d1.png?v=38a772d1",
             "width": 1600,
             "height": 1200
           }
@@ -683,99 +683,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-77b319f919",
-          "name": "Cleveland Cavaliers vs Toronto Raptors | 06:30 30/04",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-77b319f919",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-77b319f919",
-                  "name": "Cleveland Cavaliers vs Toronto Raptors",
-                  "streams": [
-                    {
-                      "id": "st-77b319f919",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-caf2729158",
-                          "name": "GIÀNG A LƯƠN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f28f714841d_145791/index.m3u8?expire=1778108913",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-87882d5a99",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e8b65614189b66bdc6d5c39e0fbf0351/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Cleveland Cavaliers",
-            "team_b": "Toronto Raptors",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
-            "time": "06:30 30/04",
-            "blv": "GIÀNG A LƯƠN",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-77b319f919_2f855f79.png?v=2f855f79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-0e1cc60b2e",
           "name": "Los Angeles Lakers vs Houston Rockets | 09:00 30/04",
