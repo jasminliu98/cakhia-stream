@@ -193,59 +193,6 @@
           }
         },
         {
-          "id": "kaytee-7f3d036dd1",
-          "name": "Al Kholood vs Al-Fayha | 01:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f3d036dd1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7f3d036dd1",
-                  "name": "Al Kholood vs Al-Fayha",
-                  "streams": [
-                    {
-                      "id": "st-7f3d036dd1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Kholood",
-            "team_b": "Al-Fayha",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2b0b85fcec97994a4758002512957d7a.png",
-            "time": "01:00 01/05",
-            "blv": "GIÀNG A TÔM",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7f3d036dd1_e193e941.png?v=e193e941",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-1a685d8b32",
           "name": "FC Shakhtar Donetsk vs Crystal Palace | 02:00 01/05",
           "type": "single",
