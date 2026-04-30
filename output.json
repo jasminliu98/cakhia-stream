@@ -812,6 +812,59 @@
           }
         },
         {
+          "id": "kaytee-32226aa12d",
+          "name": "Dalian Yingbo FC vs Chongqing Tongliangloong FC | 18:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32226aa12d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-32226aa12d",
+                  "name": "Dalian Yingbo FC vs Chongqing Tongliangloong FC",
+                  "streams": [
+                    {
+                      "id": "st-32226aa12d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Dalian Yingbo FC",
+            "team_b": "Chongqing Tongliangloong FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0e5467034917e26c6e60a7162711c150.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5be93c1a6628d27de6d39fde9ea94b7a.png",
+            "time": "18:00 01/05",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-32226aa12d_7de61c1d.png?v=7de61c1d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-bdb35611e9",
           "name": "China U17 Women vs Myanmar U17 Women | 18:30 01/05",
           "type": "single",
@@ -1089,7 +1142,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1102,10 +1155,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1120,7 +1173,25 @@
                     {
                       "id": "st-2b818fb386",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-724383f980",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f34cc74841e_145244/index.m3u8?expire=1778157383",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1135,7 +1206,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/6eead7279cce1f0418a83c35aef03efb.png",
             "time": "20:00 30/04",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
