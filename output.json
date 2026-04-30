@@ -132,7 +132,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b414723714",
+                          "id": "lnk-f63d103967",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": true,
@@ -149,7 +149,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-eca6b20121",
+                          "id": "lnk-85735c79f2",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/d7722c003fe0ccda111f6a73b1afa31b/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-531af4417c",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": false,
@@ -220,7 +237,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-26a035e13a",
+                          "id": "lnk-c6629c5a3d",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": true,
@@ -237,7 +254,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-a74a090b42",
+                          "id": "lnk-f7f1854500",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/95feb8aa8137640dc5153dd205f94761/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-6166a0acf5",
                           "name": "BLV Simon",
                           "type": "hls",
                           "default": false,
@@ -308,7 +342,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7daee4c9fd",
+                          "id": "lnk-30f44d2b76",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -325,7 +359,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-d4bf47604c",
+                          "id": "lnk-f542452778",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/065020978e4aa92ce00815f87484d433/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-de8b5ffd2c",
                           "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": false,
