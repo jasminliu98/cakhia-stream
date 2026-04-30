@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-54dc226e9e",
-          "name": "Rayo Vallecano vs RC Strasbourg Alsace | 02:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54dc226e9e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-54dc226e9e",
-                  "name": "Rayo Vallecano vs RC Strasbourg Alsace",
-                  "streams": [
-                    {
-                      "id": "st-54dc226e9e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a61158904e",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3a0de36518_145244/index.m3u8?expire=1778178910",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-128f0fe5c5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b379ae76f25f9f13f27725e09f8900e9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Conference League",
-            "team_a": "Rayo Vallecano",
-            "team_b": "RC Strasbourg Alsace",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5005d8feab109ce64e40beb98073cc1f.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/998db478bf7c06d5817bf846987a0d0a.png",
-            "time": "02:00 01/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-54dc226e9e_16dbe695.png?v=16dbe695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-687af1af1b",
           "name": "Suwon FMC (w) vs Changnyeong (w) | 12:00 01/05",
@@ -1649,6 +1561,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-665a8b3017",
+          "name": "Minnesota Timberwolves vs Denver Nuggets | 08:30 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-665a8b3017",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-665a8b3017",
+                  "name": "Minnesota Timberwolves vs Denver Nuggets",
+                  "streams": [
+                    {
+                      "id": "st-665a8b3017",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Minnesota Timberwolves",
+            "team_b": "Denver Nuggets",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
+            "time": "08:30 01/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-665a8b3017_68d59f68.png?v=68d59f68",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1726,6 +1691,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9697f8dd16_56d167f1.png?v=56d167f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-68163ff25c",
+          "name": "China vs Malaysia | 15:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-68163ff25c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-68163ff25c",
+                  "name": "China vs Malaysia",
+                  "streams": [
+                    {
+                      "id": "st-68163ff25c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "China",
+            "team_b": "Malaysia",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
+            "time": "15:00 01/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68163ff25c_b23d23bc.png?v=b23d23bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-1071e53813",
+          "name": "India vs Chinese Taipei | 15:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1071e53813",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1071e53813",
+                  "name": "India vs Chinese Taipei",
+                  "streams": [
+                    {
+                      "id": "st-1071e53813",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "India",
+            "team_b": "Chinese Taipei",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/a301c16925dae59e81982f56cf387856.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/0944da8c5a1191d26dcb846f93dfc491.png",
+            "time": "15:00 01/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1071e53813_c47543c3.png?v=c47543c3",
             "width": 1600,
             "height": 1200
           }
