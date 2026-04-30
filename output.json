@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -188,6 +188,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f786857afb_6648215a.png?v=6648215a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7f3d036dd1",
+          "name": "Al Kholood vs Al-Fayha | 01:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f3d036dd1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7f3d036dd1",
+                  "name": "Al Kholood vs Al-Fayha",
+                  "streams": [
+                    {
+                      "id": "st-7f3d036dd1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-913f6c2f8d",
+                          "name": "GIÀNG A TÔM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f395944841e_145920/index.m3u8?expire=1778176020",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Kholood",
+            "team_b": "Al-Fayha",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2b0b85fcec97994a4758002512957d7a.png",
+            "time": "01:00 01/05",
+            "blv": "GIÀNG A TÔM",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7f3d036dd1_e193e941.png?v=e193e941",
             "width": 1600,
             "height": 1200
           }
@@ -1713,11 +1784,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-272cf798ad",
+                          "id": "lnk-7cdb677ca1",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f391ff36518_145211/index.m3u8?expire=1778175103",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d6f8af86c5",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e8f8dc880cfa24162a8c8feaee0748d8/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
