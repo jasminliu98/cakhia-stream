@@ -172,7 +172,8 @@ def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
     logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
-    out_path  = f"{THUMBS_DIR}/{channel_id}_{logo_hash}.png"
+    date_str  = now_vn().strftime("%Y%m%d")           # ← thêm ngày vào tên
+    out_path  = f"{THUMBS_DIR}/{channel_id}_{logo_hash}_{date_str}.png"
 
     if os.path.exists(out_path):
         return out_path
@@ -320,18 +321,23 @@ def make_thumbnail(match, channel_id):
     return out_path
 
 def cleanup_old_thumbs(days: int = 3):
-    """Xóa thumbnail cũ hơn `days` ngày."""
     if not os.path.exists(THUMBS_DIR):
         return
-    now = time.time()
-    cutoff = days * 86400
+    cutoff = now_vn() - timedelta(days=days)
     removed = 0
     for fname in os.listdir(THUMBS_DIR):
         if not fname.endswith(".png"):
             continue
-        fpath = os.path.join(THUMBS_DIR, fname)
-        age = now - os.path.getmtime(fpath)
-        if age > cutoff:
+        # Lấy ngày từ tên file: xxx_xxxxxxxx_20250425.png
+        m = re.search(r'_(\d{8})\.png$', fname)
+        if not m:
+            continue
+        try:
+            file_date = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ)
+        except ValueError:
+            continue
+        if file_date < cutoff:
+            fpath = os.path.join(THUMBS_DIR, fname)
             try:
                 os.remove(fpath)
                 removed += 1
