@@ -387,59 +387,6 @@
           }
         },
         {
-          "id": "kaytee-06b79b22bc",
-          "name": "Kuching City FC vs Terengganu FC | 18:30 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06b79b22bc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-06b79b22bc",
-                  "name": "Kuching City FC vs Terengganu FC",
-                  "streams": [
-                    {
-                      "id": "st-06b79b22bc",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Malaysian Super League",
-            "team_a": "Kuching City FC",
-            "team_b": "Terengganu FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4e7cc12589531b2559e0f7c5632a38db.png",
-            "time": "18:30 01/05",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-06b79b22bc_ad5a7072.png?v=ad5a7072",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-9f1dc79066",
           "name": "Tianjin Jinmen Tiger FC vs Wuhan Three Towns FC | 18:35 01/05",
           "type": "single",
@@ -700,6 +647,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-214932b9b5_a61c0809.png?v=a61c0809",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a4c934201a",
+          "name": "Kuching City FC vs Terengganu FC | 19:15 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4c934201a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a4c934201a",
+                  "name": "Kuching City FC vs Terengganu FC",
+                  "streams": [
+                    {
+                      "id": "st-a4c934201a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysian Super League",
+            "team_a": "Kuching City FC",
+            "team_b": "Terengganu FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4e7cc12589531b2559e0f7c5632a38db.png",
+            "time": "19:15 01/05",
+            "blv": "GIÀNG A ĐẬU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4c934201a_ad5a7072.png?v=ad5a7072",
             "width": 1600,
             "height": 1200
           }
@@ -1704,8 +1704,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1715,7 +1715,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_286e6be3.png?v=286e6be3",
             "width": 1600,
             "height": 1200
           }
@@ -1839,7 +1839,7 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1852,10 +1852,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1870,7 +1870,25 @@
                     {
                       "id": "st-68163ff25c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a951b2b99d",
+                          "name": "GIÀNG A ĐỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4560436518_145247/index.m3u8?expire=1778225284",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1885,7 +1903,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
             "time": "15:00 01/05",
             "blv": "GIÀNG A ĐỘ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
@@ -1905,10 +1923,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1923,7 +1941,25 @@
                     {
                       "id": "st-1071e53813",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d07f49a43e",
+                          "name": "GIÀNG A LEX",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f454bd4841e_145875/index.m3u8?expire=1778224957",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1938,7 +1974,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/0944da8c5a1191d26dcb846f93dfc491.png",
             "time": "15:00 01/05",
             "blv": "GIÀNG A LEX",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Cầu Lông"
           },
           "image": {
