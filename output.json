@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-bdb35611e9",
-          "name": "China U17 Women vs Myanmar U17 Women | 18:30 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdb35611e9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-bdb35611e9",
-                  "name": "China U17 Women vs Myanmar U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-bdb35611e9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e8f1f4ab7",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f487264841e_145223/index.m3u8?expire=1778237862",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b4e979f6b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/6527967369b0db55a06f5a452e15bad8/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "China U17 Women",
-            "team_b": "Myanmar U17 Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2bb2cd4e6d0219b11dcbda441a825b50.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0eff6ce301fcd86f8793b5b859ea050f.png",
-            "time": "18:30 01/05",
-            "blv": "GIÀNG A MAO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bdb35611e9_f6cc6ebd.png?v=f6cc6ebd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9f1dc79066",
           "name": "Tianjin Jinmen Tiger FC vs Wuhan Three Towns FC | 18:35 01/05",
