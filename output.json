@@ -17,59 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-687af1af1b",
-          "name": "Suwon FMC (w) vs Changnyeong (w) | 12:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-687af1af1b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-687af1af1b",
-                  "name": "Suwon FMC (w) vs Changnyeong (w)",
-                  "streams": [
-                    {
-                      "id": "st-687af1af1b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean WK League",
-            "team_a": "Suwon FMC (w)",
-            "team_b": "Changnyeong (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7c2bd5703358c6c32683e2897f1100df.png",
-            "time": "12:00 01/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-687af1af1b_789b36e4.png?v=789b36e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-9a4efb738c",
           "name": "Incheon Hyundai Steel Red Angels (w) vs Sejong Gumi Sportstoto (w) | 12:00 01/05",
           "type": "single",
@@ -118,6 +65,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a4efb738c_b1646fcb.png?v=b1646fcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-687af1af1b",
+          "name": "Suwon FMC (w) vs Changnyeong (w) | 12:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-687af1af1b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-687af1af1b",
+                  "name": "Suwon FMC (w) vs Changnyeong (w)",
+                  "streams": [
+                    {
+                      "id": "st-687af1af1b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean WK League",
+            "team_a": "Suwon FMC (w)",
+            "team_b": "Changnyeong (w)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7c2bd5703358c6c32683e2897f1100df.png",
+            "time": "12:00 01/05",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-687af1af1b_789b36e4.png?v=789b36e4",
             "width": 1600,
             "height": 1200
           }
@@ -1546,8 +1546,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1557,7 +1557,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_286e6be3.png?v=286e6be3",
             "width": 1600,
             "height": 1200
           }
