@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-4765f09a7a",
-          "name": "Super Nova vs FK Auda Riga | 22:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4765f09a7a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4765f09a7a",
-                  "name": "Super Nova vs FK Auda Riga",
-                  "streams": [
-                    {
-                      "id": "st-4765f09a7a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6bf944258",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4b83336518_145199/index.m3u8?expire=1778250419",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3fe6d94c3c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/144731fa8fadfceef04059f61caadac9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Super Nova",
-            "team_b": "FK Auda Riga",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6ecfe734e6971ff83a4a3808b669d059.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ff4a0a80377b1a3739e702710c9488be.png",
-            "time": "22:00 01/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4765f09a7a_42399fc6.png?v=42399fc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-85b68c398e",
           "name": "Al-Arabi(KSA) vs Jubail | 23:10 01/05",
@@ -1778,6 +1690,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_86962048.png?v=86962048",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9f525ce7bd",
+          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f525ce7bd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9f525ce7bd",
+                  "name": "Ipswich Town vs Queens Park Rangers",
+                  "streams": [
+                    {
+                      "id": "st-9f525ce7bd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Ipswich Town",
+            "team_b": "Queens Park Rangers",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_ae7e73f9.png?v=ae7e73f9",
             "width": 1600,
             "height": 1200
           }
