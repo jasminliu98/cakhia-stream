@@ -1493,8 +1493,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1504,7 +1504,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_286e6be3.png?v=286e6be3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
             "width": 1600,
             "height": 1200
           }
@@ -1678,8 +1678,8 @@
             "league": "National Basketball Association",
             "team_a": "Minnesota Timberwolves",
             "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/403a12aa187f47045c18d137cd8103dc.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
             "time": "08:30 01/05",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -1689,7 +1689,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-665a8b3017_6eb39bfa.png?v=6eb39bfa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-665a8b3017_68d59f68.png?v=68d59f68",
             "width": 1600,
             "height": 1200
           }
