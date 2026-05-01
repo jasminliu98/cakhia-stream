@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e161153ddc",
-          "name": "Leeds United vs Burnley | 02:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e161153ddc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e161153ddc",
-                  "name": "Leeds United vs Burnley",
-                  "streams": [
-                    {
-                      "id": "st-e161153ddc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b80cfe1cc",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4f00c36518_145689/index.m3u8?expire=1778264716",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e2761154e4",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f1ba36a5165cf1258a45b3666a90d781/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Leeds United",
-            "team_b": "Burnley",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cd46d2ed1d364308dc206c97b48ce556.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/1091af5aa9fc4a30411785954edb9159.png",
-            "time": "02:00 02/05",
-            "blv": "GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e161153ddc_43b35a22.png?v=43b35a22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-5c428ac370",
           "name": "Real Zaragoza vs Granada CF | 02:00 02/05",
@@ -1195,6 +1107,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_86962048.png?v=86962048",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-453359c865",
+          "name": "Holstein Kiel vs Eintracht Braunschweig | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-453359c865",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-453359c865",
+                  "name": "Holstein Kiel vs Eintracht Braunschweig",
+                  "streams": [
+                    {
+                      "id": "st-453359c865",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "Holstein Kiel",
+            "team_b": "Eintracht Braunschweig",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a285cb29d36e8d0e6fb35def1fbf442c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0a38b45c20a019398526a4944553f8e6.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-453359c865_b6b66668.png?v=b6b66668",
             "width": 1600,
             "height": 1200
           }
