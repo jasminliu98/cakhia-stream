@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9388bdc51f",
-          "name": "Hamburger SV (w) vs Union Berlin (w) | 20:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9388bdc51f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9388bdc51f",
-                  "name": "Hamburger SV (w) vs Union Berlin (w)",
-                  "streams": [
-                    {
-                      "id": "st-9388bdc51f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b58976324",
-                          "name": "GIÀNG A NÚI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f49e4c4841e_145611/index.m3u8?expire=1778243788",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-03280e8645",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f71d15531c4f5a33cafe98d41e3ce2a0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Frauen Bundesliga",
-            "team_a": "Hamburger SV (w)",
-            "team_b": "Union Berlin (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/616bc7a67d5a805972ecf3389aca3226.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/470e63e2f9ed2b556aab332b1645c4a1.png",
-            "time": "20:00 01/05",
-            "blv": "GIÀNG A NÚI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9388bdc51f_bda550a6.png?v=bda550a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1beb6b8499",
           "name": "Krylya Sovetov vs Spartak Moscow | 21:00 01/05",
@@ -1548,6 +1460,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e70dff66ec_b46b6233.png?v=b46b6233",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-06233319c2",
+          "name": "Paris Saint Germain vs Lorient | 22:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06233319c2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-06233319c2",
+                  "name": "Paris Saint Germain vs Lorient",
+                  "streams": [
+                    {
+                      "id": "st-06233319c2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Lorient",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3b720f181ce9993f9422d276acf7b292.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b593727321793084b1f7804aebedc31a.png",
+            "time": "22:00 02/05",
+            "blv": "GIÀNG A BẢNH, GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-06233319c2_e0eaf693.png?v=e0eaf693",
             "width": 1600,
             "height": 1200
           }
