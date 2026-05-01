@@ -1503,6 +1503,68 @@
       ]
     },
     {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-5874a1574a",
+          "name": "Mirra Andreeva vs Marta Kostyuk | 22:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5874a1574a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5874a1574a",
+                  "name": "Mirra Andreeva vs Marta Kostyuk",
+                  "streams": [
+                    {
+                      "id": "st-5874a1574a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Madrid, Spain Women Singles",
+            "team_a": "Mirra Andreeva",
+            "team_b": "Marta Kostyuk",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "time": "22:00 02/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_97ca83c6.png?v=97ca83c6",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_20",
       "name": "🏀 Bóng rổ",
       "display": "vertical",
@@ -1787,82 +1849,11 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-082ffb6d1e",
-          "name": "Pháp vs Nhật Bản | 23:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-082ffb6d1e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-082ffb6d1e",
-                  "name": "Pháp vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-082ffb6d1e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f372aa49d4",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4c70b4841e_146208/index.m3u8?expire=1778254219",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "Pháp",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/c3409751c10e3c3fd1b81c67003ddc1a.webp",
-            "time": "23:00 01/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-082ffb6d1e_d9fa5efe.png?v=d9fa5efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-de6e67a605",
           "name": "Thailand vs Denmark | 23:00 01/05",
@@ -1930,6 +1921,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-de6e67a605_49847e3a.png?v=49847e3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6f5efa39b8",
+          "name": "China vs Japan | 15:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f5efa39b8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f5efa39b8",
+                  "name": "China vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-6f5efa39b8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "China",
+            "team_b": "Japan",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7070cf22d837e76af1fe0fe6e01d4bcd.png",
+            "time": "15:00 02/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f5efa39b8_5cd9f6e0.png?v=5cd9f6e0",
             "width": 1600,
             "height": 1200
           }
