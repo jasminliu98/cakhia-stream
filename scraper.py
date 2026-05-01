@@ -331,6 +331,12 @@ def cleanup_old_thumbs(days: int = 3):
         # Lấy ngày từ tên file: xxx_xxxxxxxx_20250425.png
         m = re.search(r'_(\d{8})\.png$', fname)
         if not m:
+            fpath = os.path.join(THUMBS_DIR, fname)
+            try:
+                os.remove(fpath)
+                removed += 1
+            except Exception as e:
+                print(f"  Loi xoa thumb {fname}: {e}")
             continue
         try:
             file_date = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ)
