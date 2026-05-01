@@ -1956,6 +1956,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-a69917ac04",
+          "name": "Udinese vs Torino | 20:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a69917ac04",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a69917ac04",
+                  "name": "Udinese vs Torino",
+                  "streams": [
+                    {
+                      "id": "st-a69917ac04",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Udinese",
+            "team_b": "Torino",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "time": "20:00 02/05",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a69917ac04_0445ac87.png?v=0445ac87",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
