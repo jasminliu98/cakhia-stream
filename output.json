@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-1beb6b8499",
-          "name": "Krylya Sovetov vs Spartak Moscow | 21:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1beb6b8499",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1beb6b8499",
-                  "name": "Krylya Sovetov vs Spartak Moscow",
-                  "streams": [
-                    {
-                      "id": "st-1beb6b8499",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91bab2aff3",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4ad2d36518_145232/index.m3u8?expire=1778247597",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5fe85d3a24",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c4b637cbbfbac78c03de0493418a3f25/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Krylya Sovetov",
-            "team_b": "Spartak Moscow",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b7782a595f2f82ed8daca72fd1f102de.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b989806732eaf15246ab56e07d0b8a2e.png",
-            "time": "21:00 01/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1beb6b8499_882c0969.png?v=882c0969",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4fdd2d53a0",
           "name": "Andorra CF vs Albacete Balompié SAD | 21:15 01/05",
@@ -771,6 +683,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4cc7232ced_74dfa8aa.png?v=74dfa8aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5c428ac370",
+          "name": "Real Zaragoza vs Granada CF | 02:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c428ac370",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5c428ac370",
+                  "name": "Real Zaragoza vs Granada CF",
+                  "streams": [
+                    {
+                      "id": "st-5c428ac370",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish Segunda Division",
+            "team_a": "Real Zaragoza",
+            "team_b": "Granada CF",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d81e653da8227acbde05b1bb265930eb.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f8ac17559f204d139563929dc7eeedeb.png",
+            "time": "02:00 02/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5c428ac370_983fd032.png?v=983fd032",
             "width": 1600,
             "height": 1200
           }
