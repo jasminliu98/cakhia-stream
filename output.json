@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-687af1af1b",
-          "name": "Suwon FMC (w) vs Changnyeong (w) | 12:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-687af1af1b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-687af1af1b",
-                  "name": "Suwon FMC (w) vs Changnyeong (w)",
-                  "streams": [
-                    {
-                      "id": "st-687af1af1b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01966b1a7a",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f42af036518_145238/index.m3u8?expire=1778214256",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c299b14928",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/72e6735c58b4f07c4e2d83b23a6eb8f9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean WK League",
-            "team_a": "Suwon FMC (w)",
-            "team_b": "Changnyeong (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7c2bd5703358c6c32683e2897f1100df.png",
-            "time": "12:00 01/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-687af1af1b_789b36e4.png?v=789b36e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-f47e0645a1",
           "name": "Thailand U17 Women vs Vietnam U17 Women | 14:30 01/05",
