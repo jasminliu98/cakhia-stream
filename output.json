@@ -1822,82 +1822,11 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-68163ff25c",
-          "name": "China vs Malaysia | 15:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68163ff25c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-68163ff25c",
-                  "name": "China vs Malaysia",
-                  "streams": [
-                    {
-                      "id": "st-68163ff25c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a951b2b99d",
-                          "name": "GIÀNG A ĐỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4560436518_145247/index.m3u8?expire=1778225284",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "China",
-            "team_b": "Malaysia",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
-            "time": "15:00 01/05",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68163ff25c_b23d23bc.png?v=b23d23bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1071e53813",
           "name": "India vs Chinese Taipei | 15:00 01/05",
