@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-214932b9b5_a61c0809.png?v=a61c0809",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-a4c934201a",
-          "name": "Kuching City FC vs Terengganu FC | 19:15 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4c934201a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a4c934201a",
-                  "name": "Kuching City FC vs Terengganu FC",
-                  "streams": [
-                    {
-                      "id": "st-a4c934201a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d2c31d616",
-                          "name": "GIÀNG A ĐẬU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f491f94841e_145169/index.m3u8?expire=1778240633",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9ec2060f95",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/41bc0755b3d46a8540ea61017ebacee3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Malaysian Super League",
-            "team_a": "Kuching City FC",
-            "team_b": "Terengganu FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4e7cc12589531b2559e0f7c5632a38db.png",
-            "time": "19:15 01/05",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a4c934201a_ad5a7072.png?v=ad5a7072",
             "width": 1600,
             "height": 1200
           }
@@ -1793,7 +1705,7 @@
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -1803,7 +1715,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_77818f22.png?v=77818f22",
             "width": 1600,
             "height": 1200
           }
