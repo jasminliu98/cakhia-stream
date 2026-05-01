@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9bd2865144",
-          "name": "RKC Waalwijk vs Roda JC | 01:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9bd2865144",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9bd2865144",
-                  "name": "RKC Waalwijk vs Roda JC",
-                  "streams": [
-                    {
-                      "id": "st-9bd2865144",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a34d13e91",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4ddff36518_145575/index.m3u8?expire=1778260095",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-20582eac48",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/553475bb00939d45c6517a6d34b02166/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eerste Divisie",
-            "team_a": "RKC Waalwijk",
-            "team_b": "Roda JC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/66fea185f2f39d205f96b5d1a41ae9f4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5b845b04c30db14bb40e1ec2efe70590.png",
-            "time": "01:00 02/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9bd2865144_edc7544e.png?v=edc7544e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9d76e720cc",
           "name": "Pisa vs Lecce | 01:45 02/05",
@@ -1730,7 +1642,7 @@
             "team_a": "FC Nantes",
             "team_b": "Marseille",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0dc4b45524350a50a4d3276a2525693f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
             "time": "20:00 02/05",
             "blv": "GIÀNG A MAO",
             "is_live": false,
@@ -1740,7 +1652,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_fa9dd078.png?v=fa9dd078",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_72befe7a.png?v=72befe7a",
             "width": 1600,
             "height": 1200
           }
