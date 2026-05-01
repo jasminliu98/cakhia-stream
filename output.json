@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -376,10 +376,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -394,7 +394,25 @@
                     {
                       "id": "st-85b68c398e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ad4cc38cb",
+                          "name": "GIÀNG A LƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4ca0d36518_145812/index.m3u8?expire=1778254989",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -409,7 +427,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/00129e8735dd8739c51b58f2f81367a1.png",
             "time": "23:10 01/05",
             "blv": "GIÀNG A LƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1530,6 +1548,68 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-06233319c2_e0eaf693.png?v=e0eaf693",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_20",
+      "name": "🏀 Bóng rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-ee40000abc",
+          "name": "Real Madrid vs Hapoel Tel Aviv | 01:45 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee40000abc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ee40000abc",
+                  "name": "Real Madrid vs Hapoel Tel Aviv",
+                  "streams": [
+                    {
+                      "id": "st-ee40000abc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EuroLeague",
+            "team_a": "Real Madrid",
+            "team_b": "Hapoel Tel Aviv",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
+            "time": "01:45 02/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ee40000abc_6624e7be.png?v=6624e7be",
             "width": 1600,
             "height": 1200
           }
