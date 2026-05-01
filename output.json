@@ -220,11 +220,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-bf583f0144",
+                          "id": "lnk-68c69de1db",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4cccd36518_145698/index.m3u8?expire=1778255693",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fa2c4e4450",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8df6ecc152d4dda1fd5fe6d96320ae14/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -291,11 +308,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-305cac7570",
+                          "id": "lnk-7c7bd7aaa3",
                           "name": "GIÀNG A PHỦ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4cee54841e_145232/index.m3u8?expire=1778256229",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d665562d63",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/048c621f05860a3acf84afe5c988ddea/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -807,6 +841,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-34e705821f_f133b2d2.png?v=f133b2d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7879f280cf",
+          "name": "Ulsan HD FC vs Pohang Steelers | 12:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7879f280cf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7879f280cf",
+                  "name": "Ulsan HD FC vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-7879f280cf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Ulsan HD FC",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fe07fb888ebcb282192332cb8aed21b1.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6f05c460789939ac83282bd0686446f1.png",
+            "time": "12:00 02/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7879f280cf_a651d7e2.png?v=a651d7e2",
             "width": 1600,
             "height": 1200
           }
@@ -1499,6 +1586,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-068d3965bc",
+          "name": "Arsenal vs Fulham | 23:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-068d3965bc",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-068d3965bc",
+                  "name": "Arsenal vs Fulham",
+                  "streams": [
+                    {
+                      "id": "st-068d3965bc",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Arsenal",
+            "team_b": "Fulham",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
+            "time": "23:30 02/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-068d3965bc_406c0bbd.png?v=406c0bbd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4af755c29a",
+          "name": "Deportivo Alavés vs Athletic Club | 23:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4af755c29a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4af755c29a",
+                  "name": "Deportivo Alavés vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-4af755c29a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Deportivo Alavés",
+            "team_b": "Athletic Club",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/abbb31d42c55612737713aac6567a226.png",
+            "time": "23:30 02/05",
+            "blv": "GIÀNG A RON, GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4af755c29a_56282345.png?v=56282345",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1844,16 +2037,140 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-8d66a0f55a",
+          "name": "Zenit St. Petersburg vs Sibir Novosibirsk | 23:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d66a0f55a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8d66a0f55a",
+                  "name": "Zenit St. Petersburg vs Sibir Novosibirsk",
+                  "streams": [
+                    {
+                      "id": "st-8d66a0f55a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Super Cup",
+            "team_a": "Zenit St. Petersburg",
+            "team_b": "Sibir Novosibirsk",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/19d5361bfdffa4bfc2f936cbb65fd317.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1c600a1f78e1360aa398c37ffe13dddb.png",
+            "time": "23:00 02/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8d66a0f55a_829c28cc.png?v=829c28cc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-082ffb6d1e",
+          "name": "Pháp vs Nhật Bản | 23:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-082ffb6d1e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-082ffb6d1e",
+                  "name": "Pháp vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-082ffb6d1e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f372aa49d4",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4c70b4841e_146208/index.m3u8?expire=1778254219",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "Pháp",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/c3409751c10e3c3fd1b81c67003ddc1a.webp",
+            "time": "23:00 01/05",
+            "blv": "GIÀNG A MU",
+            "is_live": true,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-082ffb6d1e_d9fa5efe.png?v=d9fa5efe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-de6e67a605",
           "name": "Thailand vs Denmark | 23:00 01/05",
