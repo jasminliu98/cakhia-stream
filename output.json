@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -276,77 +276,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3340c8a377_f9f8a7fd.png?v=f9f8a7fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-5631513190",
-          "name": "Brondby IF vs Nordsjaelland | 00:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5631513190",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5631513190",
-                  "name": "Brondby IF vs Nordsjaelland",
-                  "streams": [
-                    {
-                      "id": "st-5631513190",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d1fee2d17",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4d56c4841e_146331/index.m3u8?expire=1778257900",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Brondby IF",
-            "team_b": "Nordsjaelland",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/625f6bad4acc37546d2f2373b89b7c89.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d63099fdff083541d1ebef9beae90f63.png",
-            "time": "00:00 02/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5631513190_a5284aed.png?v=a5284aed",
             "width": 1600,
             "height": 1200
           }
@@ -1695,59 +1624,6 @@
           }
         },
         {
-          "id": "kaytee-9f525ce7bd",
-          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f525ce7bd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9f525ce7bd",
-                  "name": "Ipswich Town vs Queens Park Rangers",
-                  "streams": [
-                    {
-                      "id": "st-9f525ce7bd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Ipswich Town",
-            "team_b": "Queens Park Rangers",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_ae7e73f9.png?v=ae7e73f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-eda56528d6",
           "name": "Wrexham vs Middlesbrough | 18:30 02/05",
           "type": "single",
@@ -1796,6 +1672,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eda56528d6_98a2d0df.png?v=98a2d0df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9f525ce7bd",
+          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f525ce7bd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9f525ce7bd",
+                  "name": "Ipswich Town vs Queens Park Rangers",
+                  "streams": [
+                    {
+                      "id": "st-9f525ce7bd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Ipswich Town",
+            "team_b": "Queens Park Rangers",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_ae7e73f9.png?v=ae7e73f9",
             "width": 1600,
             "height": 1200
           }
@@ -1907,6 +1836,59 @@
           }
         },
         {
+          "id": "kaytee-ebefc34e65",
+          "name": "FC Nantes vs Marseille | 20:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebefc34e65",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ebefc34e65",
+                  "name": "FC Nantes vs Marseille",
+                  "streams": [
+                    {
+                      "id": "st-ebefc34e65",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "FC Nantes",
+            "team_b": "Marseille",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0dc4b45524350a50a4d3276a2525693f.png",
+            "time": "20:00 02/05",
+            "blv": "GIÀNG A MAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_fa9dd078.png?v=fa9dd078",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-978580de0c",
           "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
           "type": "single",
@@ -1955,6 +1937,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-978580de0c_d790a4af.png?v=d790a4af",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e4dd3f8593",
+          "name": "Eintracht Frankfurt vs Hamburger SV | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e4dd3f8593",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e4dd3f8593",
+                  "name": "Eintracht Frankfurt vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-e4dd3f8593",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Eintracht Frankfurt",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fe636189a2f3db78d0554c34f0bdaae6.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/81f8f9e258e6b73bc522bab06730720a.png",
+            "time": "20:30 02/05",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4dd3f8593_a3687cc3.png?v=a3687cc3",
             "width": 1600,
             "height": 1200
           }
