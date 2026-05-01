@@ -812,6 +812,59 @@
           }
         },
         {
+          "id": "kaytee-5b837f4b1a",
+          "name": "Football Club Seoul vs Gimcheon Sangmu Football Club | 12:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b837f4b1a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5b837f4b1a",
+                  "name": "Football Club Seoul vs Gimcheon Sangmu Football Club",
+                  "streams": [
+                    {
+                      "id": "st-5b837f4b1a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Football Club Seoul",
+            "team_b": "Gimcheon Sangmu Football Club",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4a3e50e90ab721c1782568a287bd5358.png",
+            "time": "12:00 02/05",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5b837f4b1a_31b0323f.png?v=31b0323f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-5254828cb2",
           "name": "Urawa Red Diamonds vs JEF United Ichihara Chiba | 14:00 02/05",
           "type": "single",
