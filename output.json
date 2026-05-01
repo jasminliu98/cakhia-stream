@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-03f17c8fad",
-          "name": "Lokomotiv Moscow vs Dynamo Moscow | 23:30 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03f17c8fad",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-03f17c8fad",
-                  "name": "Lokomotiv Moscow vs Dynamo Moscow",
-                  "streams": [
-                    {
-                      "id": "st-03f17c8fad",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68c69de1db",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4cccd36518_145698/index.m3u8?expire=1778255693",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fa2c4e4450",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8df6ecc152d4dda1fd5fe6d96320ae14/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Lokomotiv Moscow",
-            "team_b": "Dynamo Moscow",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5517b8865aa5280667bd899f6810d466.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4f2e51a4694f68360a19648b651b30ca.png",
-            "time": "23:30 01/05",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03f17c8fad_df265ac6.png?v=df265ac6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-3340c8a377",
           "name": "Deportivo La Coruna vs CD Leganes | 23:30 01/05",
           "type": "single",
@@ -464,10 +376,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -482,7 +394,25 @@
                     {
                       "id": "st-9d76e720cc",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b15fa834ef",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4edac4841e_145238/index.m3u8?expire=1778264108",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -497,7 +427,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/777d0840066313da8c0f85977e9178be.png",
             "time": "01:45 02/05",
             "blv": "GIÀNG A GIÀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -3100,7 +3030,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -3110,7 +3040,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_97ca83c6.png?v=97ca83c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_c96863a5.png?v=c96863a5",
             "width": 1600,
             "height": 1200
           }
@@ -3119,7 +3049,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3132,10 +3062,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3150,7 +3080,25 @@
                     {
                       "id": "st-ee40000abc",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4b91a65de",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4e88136518_145211/index.m3u8?expire=1778262785",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3161,18 +3109,18 @@
             "league": "EuroLeague",
             "team_a": "Real Madrid",
             "team_b": "Hapoel Tel Aviv",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/64da3b30721ca7c898892c6baec2ec4e.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/ca224b11d94be0f26e2043aa8584db09.png",
             "time": "01:45 02/05",
             "blv": "GIÀNG A SÓC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ee40000abc_6624e7be.png?v=6624e7be",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ee40000abc_cdc7c00a.png?v=cdc7c00a",
             "width": 1600,
             "height": 1200
           }
@@ -3214,8 +3162,8 @@
             "league": "National Basketball Association",
             "team_a": "Orlando Magic",
             "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
             "time": "06:00 02/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -3225,7 +3173,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-132d6342f9_50a85517.png?v=50a85517",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-132d6342f9_69ba8f42.png?v=69ba8f42",
             "width": 1600,
             "height": 1200
           }
@@ -3267,8 +3215,8 @@
             "league": "National Basketball Association",
             "team_a": "Toronto Raptors",
             "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
             "time": "06:30 02/05",
             "blv": "GIÀNG A ĐỘ",
             "is_live": false,
@@ -3278,7 +3226,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e395df0fb5_7c171f5c.png?v=7c171f5c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e395df0fb5_79f7d84b.png?v=79f7d84b",
             "width": 1600,
             "height": 1200
           }
@@ -3320,8 +3268,8 @@
             "league": "National Basketball Association",
             "team_a": "Houston Rockets",
             "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcfe797437f18526ff4e62177021f638.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/bcfe797437f18526ff4e62177021f638.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/fa6f985041ec3f9729172380ae9cebf8.png",
             "time": "08:30 02/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -3331,7 +3279,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_68d5dfc8.png?v=68d5dfc8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_8054f662.png?v=8054f662",
             "width": 1600,
             "height": 1200
           }
@@ -3373,8 +3321,8 @@
             "league": "B1 League",
             "team_a": "Chiba Jets",
             "team_b": "Altiri Chiba",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/78966bd85f23715c200e909acd4f2780.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/401f46c4f2c7b56e0086cfea64072bbf.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/78966bd85f23715c200e909acd4f2780.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/401f46c4f2c7b56e0086cfea64072bbf.png",
             "time": "12:05 02/05",
             "blv": "GIÀNG A RICH",
             "is_live": false,
@@ -3384,7 +3332,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-517d7df2e0_ac2b253e.png?v=ac2b253e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-517d7df2e0_c041f6ad.png?v=c041f6ad",
             "width": 1600,
             "height": 1200
           }
