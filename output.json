@@ -1446,6 +1446,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-bfed503aea",
+          "name": "Fagiano Okayama vs Sanfrecce Hiroshima | 10:55 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bfed503aea",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bfed503aea",
+                  "name": "Fagiano Okayama vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-bfed503aea",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Fagiano Okayama",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "time": "10:55 02/05",
+            "blv": "GIÀNG A NÚI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bfed503aea_da27a2f1.png?v=da27a2f1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
