@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -112,10 +112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -130,7 +130,42 @@
                     {
                       "id": "st-3b8041c4b7",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c309be7d3",
+                          "name": "GIÀNG A BẢNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f47fd64841e_145205/index.m3u8?expire=1778235990",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b334ba7309",
+                          "name": "GIÀNG A CÒI",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f481bb4841e_145208/index.m3u8?expire=1778236475",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -145,7 +180,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/99dd3ac7267c0e3870d9ad785e6f9661.png",
             "time": "18:00 01/05",
             "blv": "GIÀNG A BẢNH, GIÀNG A CÒI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -165,10 +200,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -183,7 +218,25 @@
                     {
                       "id": "st-a73086f45e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a48fb65055",
+                          "name": "GIÀNG A MÈN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f47dd136518_145178/index.m3u8?expire=1778235473",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -198,7 +251,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
             "time": "18:00 01/05",
             "blv": "GIÀNG A MÈN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -206,59 +259,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a73086f45e_88c3160e.png?v=88c3160e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-32226aa12d",
-          "name": "Dalian Yingbo FC vs Chongqing Tongliangloong FC | 18:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32226aa12d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-32226aa12d",
-                  "name": "Dalian Yingbo FC vs Chongqing Tongliangloong FC",
-                  "streams": [
-                    {
-                      "id": "st-32226aa12d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Dalian Yingbo FC",
-            "team_b": "Chongqing Tongliangloong FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0e5467034917e26c6e60a7162711c150.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5be93c1a6628d27de6d39fde9ea94b7a.png",
-            "time": "18:00 01/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-32226aa12d_7de61c1d.png?v=7de61c1d",
             "width": 1600,
             "height": 1200
           }
@@ -1687,8 +1687,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1698,7 +1698,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_286e6be3.png?v=286e6be3",
             "width": 1600,
             "height": 1200
           }
