@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5d56de14fc",
-          "name": "Tukums-2000 vs Jelgava | 20:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d56de14fc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5d56de14fc",
-                  "name": "Tukums-2000 vs Jelgava",
-                  "streams": [
-                    {
-                      "id": "st-5d56de14fc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f4009cf23",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f49ee436518_146331/index.m3u8?expire=1778243940",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b121716838",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8420f5091c1c48ade3a95be70b6e248b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Latvian Higher League",
-            "team_a": "Tukums-2000",
-            "team_b": "Jelgava",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/81b70b4f4179ca979f173ceae24222c4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/277e5d1f01baffb84533c9236b05cbf8.png",
-            "time": "20:00 01/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5d56de14fc_6abb3b17.png?v=6abb3b17",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9388bdc51f",
           "name": "Hamburger SV (w) vs Union Berlin (w) | 20:00 01/05",
@@ -735,6 +647,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5631513190_a5284aed.png?v=a5284aed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-01fa218799",
+          "name": "Zamalek SC vs Al Ahly FC | 00:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01fa218799",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-01fa218799",
+                  "name": "Zamalek SC vs Al Ahly FC",
+                  "streams": [
+                    {
+                      "id": "st-01fa218799",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Zamalek SC",
+            "team_b": "Al Ahly FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6ad4e821a96f050ba29f431fbf57801e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e40a14044c93d0e5e2f9d558aa1640fa.png",
+            "time": "00:00 02/05",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-01fa218799_0faef039.png?v=0faef039",
             "width": 1600,
             "height": 1200
           }
