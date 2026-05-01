@@ -149,11 +149,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6e372075a0",
+                          "id": "lnk-ce531504df",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4630a4841e_145223/index.m3u8?expire=1778228618",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9338e82a5a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/cb3a733d90f3418fdb3c96d6c1509743/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1675,6 +1692,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-c91de7f07d",
+          "name": "Dong Tam Long An vs Than Quang Ninh | 16:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c91de7f07d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c91de7f07d",
+                  "name": "Dong Tam Long An vs Than Quang Ninh",
+                  "streams": [
+                    {
+                      "id": "st-c91de7f07d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Dong Tam Long An",
+            "team_b": "Than Quang Ninh",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/347d428c24e85dbda67f7817e7d80ebf.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/479d859dacd00866ef0da188c0617234.png",
+            "time": "16:00 02/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c91de7f07d_6abd8f4f.png?v=6abd8f4f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1722,8 +1792,8 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Arthur Fils",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/26729b5ab038740aa369e56857894c23.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/26729b5ab038740aa369e56857894c23.png",
             "time": "21:00 01/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1733,7 +1803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_ff95488d.png?v=ff95488d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6a70f37054_286e6be3.png?v=286e6be3",
             "width": 1600,
             "height": 1200
           }
