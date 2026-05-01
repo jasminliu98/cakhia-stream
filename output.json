@@ -484,7 +484,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-9645343fe1",
+                          "id": "lnk-6cd4218b56",
                           "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": true,
@@ -501,24 +501,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-eead50cfab",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2ba5fe9c484c59c2b059063cf81f2c99/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b59f3742c8",
+                          "id": "lnk-667e0de001",
                           "name": "GIÀNG A KEN",
                           "type": "hls",
                           "default": false,
@@ -677,11 +660,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-359c0afca4",
+                          "id": "lnk-1f4009cf23",
                           "name": "GIÀNG A BÚN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f49ee436518_146331/index.m3u8?expire=1778243940",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b121716838",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8420f5091c1c48ade3a95be70b6e248b/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -748,11 +748,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b70f815985",
+                          "id": "lnk-8b58976324",
                           "name": "GIÀNG A NÚI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f49e4c4841e_145611/index.m3u8?expire=1778243788",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-03280e8645",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f71d15531c4f5a33cafe98d41e3ce2a0/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
