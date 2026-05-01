@@ -1359,6 +1359,59 @@
           }
         },
         {
+          "id": "kaytee-5631513190",
+          "name": "Brondby IF vs Nordsjaelland | 00:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5631513190",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5631513190",
+                  "name": "Brondby IF vs Nordsjaelland",
+                  "streams": [
+                    {
+                      "id": "st-5631513190",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Brondby IF",
+            "team_b": "Nordsjaelland",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/625f6bad4acc37546d2f2373b89b7c89.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d63099fdff083541d1ebef9beae90f63.png",
+            "time": "00:00 02/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5631513190_a5284aed.png?v=a5284aed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-9d76e720cc",
           "name": "Pisa vs Lecce | 01:45 02/05",
           "type": "single",
