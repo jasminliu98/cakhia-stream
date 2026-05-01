@@ -319,6 +319,27 @@ def make_thumbnail(match, channel_id):
     bg.save(out_path, "PNG", optimize=True)
     return out_path
 
+def cleanup_old_thumbs(days: int = 3):
+    """Xóa thumbnail cũ hơn `days` ngày."""
+    if not os.path.exists(THUMBS_DIR):
+        return
+    now = time.time()
+    cutoff = days * 86400
+    removed = 0
+    for fname in os.listdir(THUMBS_DIR):
+        if not fname.endswith(".png"):
+            continue
+        fpath = os.path.join(THUMBS_DIR, fname)
+        age = now - os.path.getmtime(fpath)
+        if age > cutoff:
+            try:
+                os.remove(fpath)
+                removed += 1
+            except Exception as e:
+                print(f"  Loi xoa thumb {fname}: {e}")
+    if removed:
+        print(f"Da xoa {removed} thumbnail cu (>{days} ngay)")
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SCRAPE MATCHES
@@ -597,6 +618,7 @@ def build_channel(match, streams, thumb_url=""):
 
 def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
+    cleanup_old_thumbs(days=3)
     print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
     print("Lay danh sach tran tu cakhiatv247...")
     matches = get_matches()
