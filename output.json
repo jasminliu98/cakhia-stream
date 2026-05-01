@@ -1703,59 +1703,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-082ffb6d1e",
-          "name": "Pháp vs Nhật Bản | 23:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-082ffb6d1e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-082ffb6d1e",
-                  "name": "Pháp vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-082ffb6d1e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "Pháp",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/c3409751c10e3c3fd1b81c67003ddc1a.webp",
-            "time": "23:00 01/05",
-            "blv": "GIÀNG A MU",
-            "is_live": false,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-082ffb6d1e_d9fa5efe.png?v=d9fa5efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-de6e67a605",
           "name": "Thailand vs Denmark | 23:00 01/05",
           "type": "single",
@@ -1804,6 +1751,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-de6e67a605_49847e3a.png?v=49847e3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-082ffb6d1e",
+          "name": "Pháp vs Nhật Bản | 23:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-082ffb6d1e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-082ffb6d1e",
+                  "name": "Pháp vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-082ffb6d1e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "Pháp",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/c3409751c10e3c3fd1b81c67003ddc1a.webp",
+            "time": "23:00 01/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-082ffb6d1e_d9fa5efe.png?v=d9fa5efe",
             "width": 1600,
             "height": 1200
           }
