@@ -1513,7 +1513,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1702,10 +1702,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1720,7 +1720,25 @@
                     {
                       "id": "st-665a8b3017",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a9313d1b22",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f3f9f64841e_145211/index.m3u8?expire=1778201718",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1735,7 +1753,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/403a12aa187f47045c18d137cd8103dc.png",
             "time": "08:30 01/05",
             "blv": "GIÀNG A SÓC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
