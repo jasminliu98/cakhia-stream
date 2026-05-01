@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f1dc79066_92c5bbba.png?v=92c5bbba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c4188f7372",
-          "name": "Shandong Taishan FC vs Qingdao West Coast FC | 18:35 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4188f7372",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c4188f7372",
-                  "name": "Shandong Taishan FC vs Qingdao West Coast FC",
-                  "streams": [
-                    {
-                      "id": "st-c4188f7372",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d127e2347f",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48a2436518_145407/index.m3u8?expire=1778238628",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-239d72c75e",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/16b11a68907d2f0cde5ce154bf2fbd0f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Shandong Taishan FC",
-            "team_b": "Qingdao West Coast FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/85c080cf02a7161687ddd5b5800dc303.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/383d42e0d0843463b538bc3367d0c4c9.png",
-            "time": "18:35 01/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c4188f7372_75fe2f60.png?v=75fe2f60",
             "width": 1600,
             "height": 1200
           }
@@ -774,59 +686,6 @@
           }
         },
         {
-          "id": "kaytee-1beb6b8499",
-          "name": "Krylya Sovetov vs Spartak Moscow | 21:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1beb6b8499",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1beb6b8499",
-                  "name": "Krylya Sovetov vs Spartak Moscow",
-                  "streams": [
-                    {
-                      "id": "st-1beb6b8499",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "Krylya Sovetov",
-            "team_b": "Spartak Moscow",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b7782a595f2f82ed8daca72fd1f102de.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b989806732eaf15246ab56e07d0b8a2e.png",
-            "time": "21:00 01/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1beb6b8499_882c0969.png?v=882c0969",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-1455818c89",
           "name": "Ceramica Cleopatra FC vs Al Masry | 21:00 01/05",
           "type": "single",
@@ -875,6 +734,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1455818c89_c3021678.png?v=c3021678",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-1beb6b8499",
+          "name": "Krylya Sovetov vs Spartak Moscow | 21:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1beb6b8499",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1beb6b8499",
+                  "name": "Krylya Sovetov vs Spartak Moscow",
+                  "streams": [
+                    {
+                      "id": "st-1beb6b8499",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Premier League",
+            "team_a": "Krylya Sovetov",
+            "team_b": "Spartak Moscow",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b7782a595f2f82ed8daca72fd1f102de.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b989806732eaf15246ab56e07d0b8a2e.png",
+            "time": "21:00 01/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1beb6b8499_882c0969.png?v=882c0969",
             "width": 1600,
             "height": 1200
           }
@@ -1935,6 +1847,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a69917ac04_0445ac87.png?v=0445ac87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-978580de0c",
+          "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-978580de0c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-978580de0c",
+                  "name": "FC Bayern Munich vs 1. FC Heidenheim 1846",
+                  "streams": [
+                    {
+                      "id": "st-978580de0c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC Bayern Munich",
+            "team_b": "1. FC Heidenheim 1846",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
+            "time": "20:30 02/05",
+            "blv": "GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-978580de0c_d790a4af.png?v=d790a4af",
             "width": 1600,
             "height": 1200
           }
