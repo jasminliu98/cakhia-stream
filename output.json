@@ -1587,6 +1587,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-5254828cb2",
+          "name": "Urawa Red Diamonds vs JEF United Ichihara Chiba | 14:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5254828cb2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5254828cb2",
+                  "name": "Urawa Red Diamonds vs JEF United Ichihara Chiba",
+                  "streams": [
+                    {
+                      "id": "st-5254828cb2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Urawa Red Diamonds",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "14:00 02/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5254828cb2_885567b9.png?v=885567b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-31ff62967a",
+          "name": "Melbourne Victory (w) vs Melbourne City Women | 14:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31ff62967a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-31ff62967a",
+                  "name": "Melbourne Victory (w) vs Melbourne City Women",
+                  "streams": [
+                    {
+                      "id": "st-31ff62967a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia W-League",
+            "team_a": "Melbourne Victory (w)",
+            "team_b": "Melbourne City Women",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9404836370542c222032ecea12e9b641.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6d2cab607ba1b908c2c71225581b06ee.png",
+            "time": "14:00 02/05",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-31ff62967a_6d6eaba5.png?v=6d6eaba5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
