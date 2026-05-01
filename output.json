@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-850ed34a41",
-          "name": "Muang Thong United vs BG Pathum United | 19:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-850ed34a41",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-850ed34a41",
-                  "name": "Muang Thong United vs BG Pathum United",
-                  "streams": [
-                    {
-                      "id": "st-850ed34a41",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9b6678e94",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48d7036518_145274/index.m3u8?expire=1778239472",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3de40dfffd",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2cab755c83e80db8b35d21dbe544113d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hilux Revo Thai League",
-            "team_a": "Muang Thong United",
-            "team_b": "BG Pathum United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/3304b66faaa7843336b931db14e7fbc7.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/12fe4d3ee5c01134d48584015c4646f3.png",
-            "time": "19:00 01/05",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-850ed34a41_7037ce42.png?v=7037ce42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-710ebf0288",
           "name": "Shanghai Shenhua FC vs Chengdu Rongcheng FC | 19:00 01/05",
