@@ -88,8 +88,8 @@
             "league": "Korean WK League",
             "team_a": "Incheon Hyundai Steel Red Angels (w)",
             "team_b": "Sejong Gumi Sportstoto (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51bbefa8069e06c0e2911f4c690feb29.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/51bbefa8069e06c0e2911f4c690feb29.png",
             "time": "12:00 01/05",
             "blv": "GIÀNG A RON",
             "is_live": true,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a4efb738c_b1646fcb.png?v=b1646fcb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a4efb738c_df30ba81.png?v=df30ba81",
             "width": 1600,
             "height": 1200
           }
@@ -176,8 +176,8 @@
             "league": "Korean WK League",
             "team_a": "Suwon FMC (w)",
             "team_b": "Changnyeong (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7c2bd5703358c6c32683e2897f1100df.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8de91d390f36c35944456e8eb51346b3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7c2bd5703358c6c32683e2897f1100df.png",
             "time": "12:00 01/05",
             "blv": "GIÀNG A GIÀ",
             "is_live": true,
@@ -187,7 +187,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-687af1af1b_789b36e4.png?v=789b36e4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-687af1af1b_52e34995.png?v=52e34995",
             "width": 1600,
             "height": 1200
           }
@@ -229,8 +229,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Thailand U17 Women",
             "team_b": "Vietnam U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/f5c29f4d0153b28ef8802fe964122c65.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0062546fba2350caff9e4b31101550c4.png",
             "time": "14:30 01/05",
             "blv": "GIÀNG A NGAO, GIÀNG A DÂN",
             "is_live": false,
@@ -240,7 +240,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f47e0645a1_1d85837b.png?v=1d85837b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f47e0645a1_fa119e99.png?v=fa119e99",
             "width": 1600,
             "height": 1200
           }
