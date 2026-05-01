@@ -44,11 +44,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0f6a09a272",
+                          "id": "lnk-374b0fe90d",
                           "name": "GIÀNG A RON",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f427314841e_145199/index.m3u8?expire=1778213297",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-24234ac6a1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/bdf52fcaf8d552363ebee6e7e8fed305/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -115,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-acf0e30ae0",
+                          "id": "lnk-01966b1a7a",
                           "name": "GIÀNG A GIÀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f42af036518_145238/index.m3u8?expire=1778214256",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c299b14928",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/72e6735c58b4f07c4e2d83b23a6eb8f9/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1532,6 +1566,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bfed503aea_da27a2f1.png?v=da27a2f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-34e705821f",
+          "name": "FC Tokyo vs Kawasaki Frontale | 12:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34e705821f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-34e705821f",
+                  "name": "FC Tokyo vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-34e705821f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
+            "time": "12:00 02/05",
+            "blv": "GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-34e705821f_f133b2d2.png?v=f133b2d2",
             "width": 1600,
             "height": 1200
           }
