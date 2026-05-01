@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -484,11 +484,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e95ac19b27",
+                          "id": "lnk-91bab2aff3",
                           "name": "GIÀNG A PHỦ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4ad2d36518_145232/index.m3u8?expire=1778247597",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5fe85d3a24",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c4b637cbbfbac78c03de0493418a3f25/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -555,11 +572,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b13ce83f68",
+                          "id": "lnk-f2cb6c69d9",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4a9d14841e_145689/index.m3u8?expire=1778246737",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-90ad39c812",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/bffce056a940bb6cd1a11882efba08f0/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -606,10 +640,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -624,7 +658,25 @@
                     {
                       "id": "st-4fdd2d53a0",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0d1b0901d",
+                          "name": "GIÀNG A BÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4b14636518_145274/index.m3u8?expire=1778248646",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -639,7 +691,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/a2f731e9147f64082f22b9a561425308.png",
             "time": "21:15 01/05",
             "blv": "GIÀNG A BÁO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1707,6 +1759,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-978580de0c_d790a4af.png?v=d790a4af",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e70dff66ec",
+          "name": "Wolverhampton Wanderers vs Sunderland | 21:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e70dff66ec",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e70dff66ec",
+                  "name": "Wolverhampton Wanderers vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "st-e70dff66ec",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Wolverhampton Wanderers",
+            "team_b": "Sunderland",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5759932ca2512c6701d86dfbd58380a7.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/957bdc50c307e2a9b526b34b3792da1a.png",
+            "time": "21:00 02/05",
+            "blv": "GIÀNG A NGAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e70dff66ec_b46b6233.png?v=b46b6233",
             "width": 1600,
             "height": 1200
           }
