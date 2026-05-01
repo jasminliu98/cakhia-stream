@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -376,10 +376,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -394,7 +394,25 @@
                     {
                       "id": "st-5631513190",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d1fee2d17",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4d56c4841e_146331/index.m3u8?expire=1778257900",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -409,7 +427,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/d63099fdff083541d1ebef9beae90f63.png",
             "time": "00:00 02/05",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -429,10 +447,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -447,7 +465,25 @@
                     {
                       "id": "st-01fa218799",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c7fa18db9",
+                          "name": "GIÀNG A XOÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4d58d4841e_146091/index.m3u8?expire=1778257933",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -462,7 +498,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/e40a14044c93d0e5e2f9d558aa1640fa.png",
             "time": "00:00 02/05",
             "blv": "GIÀNG A XOÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1318,6 +1354,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-65c28cc158_9530deed.png?v=9530deed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8e2bafdb1b",
+          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors | 14:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e2bafdb1b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8e2bafdb1b",
+                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-8e2bafdb1b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeju SK FC",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
+            "time": "14:30 02/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e2bafdb1b_2b9c13e1.png?v=2b9c13e1",
             "width": 1600,
             "height": 1200
           }
