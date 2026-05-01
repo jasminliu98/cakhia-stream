@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-214932b9b5",
-          "name": "TT Hanoi vs SHB Da Nang | 19:15 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-214932b9b5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-214932b9b5",
-                  "name": "TT Hanoi vs SHB Da Nang",
-                  "streams": [
-                    {
-                      "id": "st-214932b9b5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6cd4218b56",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48f734841e_146781/index.m3u8?expire=1778239987",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-667e0de001",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48ec74841e_145467/index.m3u8?expire=1778239815",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "TT Hanoi",
-            "team_b": "SHB Da Nang",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/46a4867487152e47c4dc61984d0c58aa.png",
-            "time": "19:15 01/05",
-            "blv": "GIÀNG A BÉO, GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-214932b9b5_a61c0809.png?v=a61c0809",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-5d56de14fc",
           "name": "Tukums-2000 vs Jelgava | 20:00 01/05",
@@ -484,11 +396,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a0d1b0901d",
+                          "id": "lnk-f2a40282e5",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4b14636518_145274/index.m3u8?expire=1778248646",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-003fcadba6",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/5ac681d126cef267a6d82ee0bc76e006/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
