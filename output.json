@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -352,7 +352,7 @@
             "league": "Chinese Football Super League",
             "team_a": "Tianjin Jinmen Tiger FC",
             "team_b": "Wuhan Three Towns FC",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c1786665c81e5dba734d5a8c2346d69e.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c1786665c81e5dba734d5a8c2346d69e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/9d520898f49a46e0a00feef82240cb80.png",
             "time": "18:35 01/05",
             "blv": "GIÀNG A NA",
@@ -363,7 +363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f1dc79066_92c5bbba.png?v=92c5bbba",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f1dc79066_0c6cfa45.png?v=0c6cfa45",
             "width": 1600,
             "height": 1200
           }
@@ -623,10 +623,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -641,7 +641,59 @@
                     {
                       "id": "st-214932b9b5",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9645343fe1",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48f734841e_146781/index.m3u8?expire=1778239987",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-eead50cfab",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2ba5fe9c484c59c2b059063cf81f2c99/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b59f3742c8",
+                          "name": "GIÀNG A KEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48ec74841e_145467/index.m3u8?expire=1778239815",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -656,7 +708,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/46a4867487152e47c4dc61984d0c58aa.png",
             "time": "19:15 01/05",
             "blv": "GIÀNG A BÉO, GIÀNG A KEN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -676,10 +728,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -694,7 +746,42 @@
                     {
                       "id": "st-a4c934201a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d2c31d616",
+                          "name": "GIÀNG A ĐẬU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f491f94841e_145169/index.m3u8?expire=1778240633",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9ec2060f95",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/41bc0755b3d46a8540ea61017ebacee3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -709,7 +796,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/4e7cc12589531b2559e0f7c5632a38db.png",
             "time": "19:15 01/05",
             "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1883,6 +1970,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_86962048.png?v=86962048",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-48d82cdee2",
+          "name": "Villarreal CF vs Levante | 19:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48d82cdee2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-48d82cdee2",
+                  "name": "Villarreal CF vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-48d82cdee2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Villarreal CF",
+            "team_b": "Levante",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/aee62af96a956756cc29fe4831286357.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png",
+            "time": "19:00 02/05",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48d82cdee2_44434265.png?v=44434265",
             "width": 1600,
             "height": 1200
           }
