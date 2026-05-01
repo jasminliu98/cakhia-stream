@@ -1635,82 +1635,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9c7c18d7ae",
-          "name": "Bayer Leverkusen (w) vs Union Berlin (w) | 21:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c7c18d7ae",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9c7c18d7ae",
-                  "name": "Bayer Leverkusen (w) vs Union Berlin (w)",
-                  "streams": [
-                    {
-                      "id": "st-9c7c18d7ae",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a40144086d",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4a95c4841e_145875/index.m3u8?expire=1778246620",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayer Leverkusen (w)",
-            "team_b": "Union Berlin (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a27b039192b7b72a31a1c3f9c93fe731.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/470e63e2f9ed2b556aab332b1645c4a1.png",
-            "time": "21:00 01/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9c7c18d7ae_a8f07007.png?v=a8f07007",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-7be2d4a507",
           "name": "T Thunders vs nagoya | 13:05 02/05",
