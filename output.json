@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9d76e720cc",
-          "name": "Pisa vs Lecce | 01:45 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d76e720cc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9d76e720cc",
-                  "name": "Pisa vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-9d76e720cc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-92d635a3c1",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4edac4841e_145238/index.m3u8?expire=1778264108",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-cd13e5f368",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/ad48fe45aa1cc9cb5547d6cf07242b01/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Pisa",
-            "team_b": "Lecce",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7ca5de14056c7290f6787e0943aa11ad.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/777d0840066313da8c0f85977e9178be.png",
-            "time": "01:45 02/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9d76e720cc_b627a90f.png?v=b627a90f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e161153ddc",
           "name": "Leeds United vs Burnley | 02:00 02/05",
