@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-4fdd2d53a0",
-          "name": "Andorra CF vs Albacete Balompié SAD | 21:15 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fdd2d53a0",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4fdd2d53a0",
-                  "name": "Andorra CF vs Albacete Balompié SAD",
-                  "streams": [
-                    {
-                      "id": "st-4fdd2d53a0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2a40282e5",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4b14636518_145274/index.m3u8?expire=1778248646",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-003fcadba6",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/5ac681d126cef267a6d82ee0bc76e006/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Segunda Division",
-            "team_a": "Andorra CF",
-            "team_b": "Albacete Balompié SAD",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/87b05db9f90fc41e0faa409474ada50c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a2f731e9147f64082f22b9a561425308.png",
-            "time": "21:15 01/05",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4fdd2d53a0_4b401b7a.png?v=4b401b7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4765f09a7a",
           "name": "Super Nova vs FK Auda Riga | 22:00 01/05",
@@ -220,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-5ad4cc38cb",
+                          "id": "lnk-99e8ab92f3",
                           "name": "GIÀNG A LƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4ca0d36518_145812/index.m3u8?expire=1778254989",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e0a7b3724a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ae0ab7b5f372e91d19fa3819e23f45b3/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -271,10 +200,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -289,7 +218,25 @@
                     {
                       "id": "st-03f17c8fad",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf583f0144",
+                          "name": "GIÀNG A MÓM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4cccd36518_145698/index.m3u8?expire=1778255693",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -304,7 +251,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/4f2e51a4694f68360a19648b651b30ca.png",
             "time": "23:30 01/05",
             "blv": "GIÀNG A MÓM",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -324,10 +271,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -342,7 +289,25 @@
                     {
                       "id": "st-3340c8a377",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-305cac7570",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4cee54841e_145232/index.m3u8?expire=1778256229",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -357,7 +322,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/b6728832f1504989e57f8a43479429ec.png",
             "time": "23:30 01/05",
             "blv": "GIÀNG A PHỦ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
