@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-ca939f20c5",
-          "name": "Van Hien University vs TDTT Bac Ninh | 16:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca939f20c5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ca939f20c5",
-                  "name": "Van Hien University vs TDTT Bac Ninh",
-                  "streams": [
-                    {
-                      "id": "st-ca939f20c5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce531504df",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4630a4841e_145223/index.m3u8?expire=1778228618",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9338e82a5a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/cb3a733d90f3418fdb3c96d6c1509743/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Van Hien University",
-            "team_b": "TDTT Bac Ninh",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9610ddd41e9e46f5db6a61850e1e0183.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/40b7d679de613aedfb80bcaba85fa7e0.png",
-            "time": "16:00 01/05",
-            "blv": "GIÀNG A MAO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ca939f20c5_1512a193.png?v=1512a193",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3b8041c4b7",
           "name": "Nam Dinh FC vs Ho Chi Minh City FC | 18:00 01/05",
@@ -220,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a48fb65055",
+                          "id": "lnk-7dfa613a1c",
                           "name": "GIÀNG A MÈN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f47dd136518_145178/index.m3u8?expire=1778235473",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-86e79fe2dd",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/19b8775f720377524863823ddaa69c76/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1640,6 +1569,165 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-b9a777c2ec",
+          "name": "Becamex Binh Duong vs CLB Thanh Hoa | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9a777c2ec",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b9a777c2ec",
+                  "name": "Becamex Binh Duong vs CLB Thanh Hoa",
+                  "streams": [
+                    {
+                      "id": "st-b9a777c2ec",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Becamex Binh Duong",
+            "team_b": "CLB Thanh Hoa",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b9a777c2ec_8462c9f3.png?v=8462c9f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-66fa64b3d8",
+          "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66fa64b3d8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-66fa64b3d8",
+                  "name": "PVF CAND vs Hong Linh Ha Tinh",
+                  "streams": [
+                    {
+                      "id": "st-66fa64b3d8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "PVF CAND",
+            "team_b": "Hong Linh Ha Tinh",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/16b802abec41440eb4996fc68f16125b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/83dd94c5ca68e8f9a3980f036afcb511.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A MAO, GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-66fa64b3d8_76594ca3.png?v=76594ca3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f1901b757e",
+          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1901b757e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f1901b757e",
+                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
+                  "streams": [
+                    {
+                      "id": "st-f1901b757e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "XM Hai Phong FC",
+            "team_b": "Cong An Ha Noi FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f3dde7370cf875e4e657b4331b1b4a31.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A DÂN, GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_86962048.png?v=86962048",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1822,82 +1910,11 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-68163ff25c",
-          "name": "China vs Malaysia | 15:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68163ff25c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-68163ff25c",
-                  "name": "China vs Malaysia",
-                  "streams": [
-                    {
-                      "id": "st-68163ff25c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a951b2b99d",
-                          "name": "GIÀNG A ĐỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4560436518_145247/index.m3u8?expire=1778225284",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "China",
-            "team_b": "Malaysia",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
-            "time": "15:00 01/05",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68163ff25c_b23d23bc.png?v=b23d23bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1071e53813",
           "name": "India vs Chinese Taipei | 15:00 01/05",
