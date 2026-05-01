@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -281,6 +281,94 @@
           }
         },
         {
+          "id": "kaytee-5631513190",
+          "name": "Brondby IF vs Nordsjaelland | 00:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5631513190",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5631513190",
+                  "name": "Brondby IF vs Nordsjaelland",
+                  "streams": [
+                    {
+                      "id": "st-5631513190",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb3a0fef46",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4de634841e_146331/index.m3u8?expire=1778260195",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8d139c9cf4",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ef55e1079b9ec6cf4095c0cacfb4b5ac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Brondby IF",
+            "team_b": "Nordsjaelland",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/625f6bad4acc37546d2f2373b89b7c89.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d63099fdff083541d1ebef9beae90f63.png",
+            "time": "00:00 02/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5631513190_a5284aed.png?v=a5284aed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-01fa218799",
           "name": "Zamalek SC vs Al Ahly FC | 00:00 02/05",
           "type": "single",
@@ -308,11 +396,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6c7fa18db9",
+                          "id": "lnk-292317f259",
                           "name": "GIÀNG A XOÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4d58d4841e_146091/index.m3u8?expire=1778257933",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fcab18b2c9",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ff4f6b6f0b422758d5dba165f65ab738/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1873,7 +1978,7 @@
             "team_a": "FC Nantes",
             "team_b": "Marseille",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0dc4b45524350a50a4d3276a2525693f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
             "time": "20:00 02/05",
             "blv": "GIÀNG A MAO",
             "is_live": false,
@@ -1883,7 +1988,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_fa9dd078.png?v=fa9dd078",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_72befe7a.png?v=72befe7a",
             "width": 1600,
             "height": 1200
           }
@@ -1990,6 +2095,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4dd3f8593_a3687cc3.png?v=a3687cc3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a9458ca93b",
+          "name": "1. FC Union Berlin vs FC Köln | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9458ca93b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a9458ca93b",
+                  "name": "1. FC Union Berlin vs FC Köln",
+                  "streams": [
+                    {
+                      "id": "st-a9458ca93b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "1. FC Union Berlin",
+            "team_b": "FC Köln",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/45ab4c846b0d4df5b002c571b16112dc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/887b7663a0d47031528921d9972ae3a6.png",
+            "time": "20:30 02/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a9458ca93b_5e251c30.png?v=5e251c30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-674d98d19c",
+          "name": "SV Werder Bremen vs FC Augsburg | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-674d98d19c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-674d98d19c",
+                  "name": "SV Werder Bremen vs FC Augsburg",
+                  "streams": [
+                    {
+                      "id": "st-674d98d19c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SV Werder Bremen",
+            "team_b": "FC Augsburg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
+            "time": "20:30 02/05",
+            "blv": "GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-674d98d19c_2232d706.png?v=2232d706",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d088cc89a0",
+          "name": "TSG Hoffenheim vs VfB Stuttgart | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d088cc89a0",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d088cc89a0",
+                  "name": "TSG Hoffenheim vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-d088cc89a0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "TSG Hoffenheim",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/bfdd500484330d63a723cbc396df762c.png",
+            "time": "20:30 02/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d088cc89a0_1471f511.png?v=1471f511",
             "width": 1600,
             "height": 1200
           }
