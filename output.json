@@ -467,10 +467,44 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-87b9a66fc7",
+                          "id": "lnk-1f8f5bf4c4",
                           "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4f65f36518_145419/index.m3u8?expire=1778266335",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0f97d39364",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/76e3e20ceb87a4987dddcb8b121e0a95/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8dea1ca348",
+                          "name": "GIÀNG A MÓM",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f4f0dd36518_145698/index.m3u8?expire=1778264925",
                           "request_headers": [
                             {
@@ -3032,82 +3066,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-ee40000abc",
-          "name": "Real Madrid vs Hapoel Tel Aviv | 01:45 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee40000abc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ee40000abc",
-                  "name": "Real Madrid vs Hapoel Tel Aviv",
-                  "streams": [
-                    {
-                      "id": "st-ee40000abc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4b91a65de",
-                          "name": "GIÀNG A SÓC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4e88136518_145211/index.m3u8?expire=1778262785",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EuroLeague",
-            "team_a": "Real Madrid",
-            "team_b": "Hapoel Tel Aviv",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
-            "time": "01:45 02/05",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ee40000abc_6624e7be.png?v=6624e7be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-132d6342f9",
           "name": "Orlando Magic vs Detroit Pistons | 06:00 02/05",
