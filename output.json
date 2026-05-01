@@ -1828,59 +1828,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-68163ff25c",
-          "name": "China vs Malaysia | 15:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68163ff25c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-68163ff25c",
-                  "name": "China vs Malaysia",
-                  "streams": [
-                    {
-                      "id": "st-68163ff25c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "China",
-            "team_b": "Malaysia",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
-            "time": "15:00 01/05",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": false,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68163ff25c_b23d23bc.png?v=b23d23bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-1071e53813",
           "name": "India vs Chinese Taipei | 15:00 01/05",
           "type": "single",
@@ -1929,6 +1876,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1071e53813_c47543c3.png?v=c47543c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-68163ff25c",
+          "name": "China vs Malaysia | 15:00 01/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-68163ff25c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-68163ff25c",
+                  "name": "China vs Malaysia",
+                  "streams": [
+                    {
+                      "id": "st-68163ff25c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "China",
+            "team_b": "Malaysia",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/bff7c453d46440550a862a70055a91a0.png",
+            "time": "15:00 01/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68163ff25c_b23d23bc.png?v=b23d23bc",
             "width": 1600,
             "height": 1200
           }
