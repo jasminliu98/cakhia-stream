@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-710ebf0288",
-          "name": "Shanghai Shenhua FC vs Chengdu Rongcheng FC | 19:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-710ebf0288",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-710ebf0288",
-                  "name": "Shanghai Shenhua FC vs Chengdu Rongcheng FC",
-                  "streams": [
-                    {
-                      "id": "st-710ebf0288",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ea3858ee3",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f48e6c4841e_145199/index.m3u8?expire=1778239724",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f4255a0372",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8677409f1eb594b915f7a1518660c9bf/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Shanghai Shenhua FC",
-            "team_b": "Chengdu Rongcheng FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e8327d4681b4a73c83be9fe087b30721.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
-            "time": "19:00 01/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-710ebf0288_8bc3bccf.png?v=8bc3bccf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-214932b9b5",
           "name": "TT Hanoi vs SHB Da Nang | 19:15 01/05",
