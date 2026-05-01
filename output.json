@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1beb6b8499_882c0969.png?v=882c0969",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-1455818c89",
-          "name": "Ceramica Cleopatra FC vs Al Masry | 21:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1455818c89",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1455818c89",
-                  "name": "Ceramica Cleopatra FC vs Al Masry",
-                  "streams": [
-                    {
-                      "id": "st-1455818c89",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2cb6c69d9",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4a9d14841e_145689/index.m3u8?expire=1778246737",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-90ad39c812",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/bffce056a940bb6cd1a11882efba08f0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Ceramica Cleopatra FC",
-            "team_b": "Al Masry",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/8dee40fb1b26ee38a0d8e8a8333f89a8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/1e724366f6bee2eb1e7dd707a3f7f671.png",
-            "time": "21:00 01/05",
-            "blv": "GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1455818c89_c3021678.png?v=c3021678",
             "width": 1600,
             "height": 1200
           }
@@ -647,6 +559,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-01fa218799_0faef039.png?v=0faef039",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9bd2865144",
+          "name": "RKC Waalwijk vs Roda JC | 01:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bd2865144",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9bd2865144",
+                  "name": "RKC Waalwijk vs Roda JC",
+                  "streams": [
+                    {
+                      "id": "st-9bd2865144",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eerste Divisie",
+            "team_a": "RKC Waalwijk",
+            "team_b": "Roda JC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/66fea185f2f39d205f96b5d1a41ae9f4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5b845b04c30db14bb40e1ec2efe70590.png",
+            "time": "01:00 02/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9bd2865144_edc7544e.png?v=edc7544e",
             "width": 1600,
             "height": 1200
           }
@@ -1610,6 +1575,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ee40000abc_6624e7be.png?v=6624e7be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-132d6342f9",
+          "name": "Orlando Magic vs Detroit Pistons | 06:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-132d6342f9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-132d6342f9",
+                  "name": "Orlando Magic vs Detroit Pistons",
+                  "streams": [
+                    {
+                      "id": "st-132d6342f9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Orlando Magic",
+            "team_b": "Detroit Pistons",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "time": "06:00 02/05",
+            "blv": "GIÀNG A THỎ",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-132d6342f9_50a85517.png?v=50a85517",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e395df0fb5",
+          "name": "Toronto Raptors vs Cleveland Cavaliers | 06:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e395df0fb5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e395df0fb5",
+                  "name": "Toronto Raptors vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-e395df0fb5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Toronto Raptors",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "time": "06:30 02/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e395df0fb5_7c171f5c.png?v=7c171f5c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3af1a3add5",
+          "name": "Houston Rockets vs Los Angeles Lakers | 08:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3af1a3add5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3af1a3add5",
+                  "name": "Houston Rockets vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-3af1a3add5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Houston Rockets",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcfe797437f18526ff4e62177021f638.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "time": "08:30 02/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_68d5dfc8.png?v=68d5dfc8",
             "width": 1600,
             "height": 1200
           }
