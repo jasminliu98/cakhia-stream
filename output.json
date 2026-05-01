@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9a4efb738c",
-          "name": "Incheon Hyundai Steel Red Angels (w) vs Sejong Gumi Sportstoto (w) | 12:00 01/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a4efb738c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9a4efb738c",
-                  "name": "Incheon Hyundai Steel Red Angels (w) vs Sejong Gumi Sportstoto (w)",
-                  "streams": [
-                    {
-                      "id": "st-9a4efb738c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-374b0fe90d",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f427314841e_145199/index.m3u8?expire=1778213297",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24234ac6a1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/bdf52fcaf8d552363ebee6e7e8fed305/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean WK League",
-            "team_a": "Incheon Hyundai Steel Red Angels (w)",
-            "team_b": "Sejong Gumi Sportstoto (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51bbefa8069e06c0e2911f4c690feb29.png",
-            "time": "12:00 01/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9a4efb738c_b1646fcb.png?v=b1646fcb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-687af1af1b",
           "name": "Suwon FMC (w) vs Changnyeong (w) | 12:00 01/05",
