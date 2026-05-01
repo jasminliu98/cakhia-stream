@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5c428ac370",
-          "name": "Real Zaragoza vs Granada CF | 02:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5c428ac370",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5c428ac370",
-                  "name": "Real Zaragoza vs Granada CF",
-                  "streams": [
-                    {
-                      "id": "st-5c428ac370",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2bbf75ee1f",
-                          "name": "GIÀNG A LƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f4f1ba4841e_145812/index.m3u8?expire=1778265146",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-554f1bd466",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a84b1803f7d4335eb4098bb1610581fe/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Segunda Division",
-            "team_a": "Real Zaragoza",
-            "team_b": "Granada CF",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d81e653da8227acbde05b1bb265930eb.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f8ac17559f204d139563929dc7eeedeb.png",
-            "time": "02:00 02/05",
-            "blv": "GIÀNG A LƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5c428ac370_983fd032.png?v=983fd032",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-bfed503aea",
           "name": "Fagiano Okayama vs Sanfrecce Hiroshima | 10:55 02/05",
@@ -1059,59 +971,6 @@
           }
         },
         {
-          "id": "kaytee-f1901b757e",
-          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1901b757e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f1901b757e",
-                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
-                  "streams": [
-                    {
-                      "id": "st-f1901b757e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "XM Hai Phong FC",
-            "team_b": "Cong An Ha Noi FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f3dde7370cf875e4e657b4331b1b4a31.png",
-            "time": "18:00 02/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A CÒI",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_86962048.png?v=86962048",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-453359c865",
           "name": "Holstein Kiel vs Eintracht Braunschweig | 18:00 02/05",
           "type": "single",
@@ -1160,6 +1019,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-453359c865_b6b66668.png?v=b6b66668",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f1901b757e",
+          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1901b757e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f1901b757e",
+                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
+                  "streams": [
+                    {
+                      "id": "st-f1901b757e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "XM Hai Phong FC",
+            "team_b": "Cong An Ha Noi FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f3dde7370cf875e4e657b4331b1b4a31.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A DÂN, GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_86962048.png?v=86962048",
             "width": 1600,
             "height": 1200
           }
