@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48d82cdee2_d10d5028_20260502.png?v=d10d5028",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-384bc8eb98",
-          "name": "Almere City FC vs Den Bosch | 19:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-384bc8eb98",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-384bc8eb98",
-                  "name": "Almere City FC vs Den Bosch",
-                  "streams": [
-                    {
-                      "id": "st-384bc8eb98",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0444047c21",
-                          "name": "GIÀNG A MÈN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5df204841e_145178/index.m3u8?expire=1778325920",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4a512d81d9",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/5b21c2eba25bd7c06bbc9bae42e92d5c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eerste Divisie",
-            "team_a": "Almere City FC",
-            "team_b": "Den Bosch",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6fc28fcf1969e983c6974c9f5b96b77c.PNG",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8b2d22b8802f8dc9942899365f5dd716.png",
-            "time": "19:00 02/05",
-            "blv": "GIÀNG A MÈN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-384bc8eb98_19fadb15_20260502.png?v=19fadb15",
             "width": 1600,
             "height": 1200
           }
