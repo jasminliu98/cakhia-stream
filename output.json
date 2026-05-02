@@ -606,11 +606,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-630aca52ff",
+                          "id": "lnk-e017281f2e",
                           "name": "GIÀNG A ĐẬU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f634cc36518_145169/index.m3u8?expire=1778347852",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-53816dbcbb",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c2fb243f2ad76ea6fad102d1c4c28d6c/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -677,11 +694,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-4e8d8d4744",
+                          "id": "lnk-26a4a26eb8",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f63bba4841e_145274/index.m3u8?expire=1778349626",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d98df70749",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2c5ba32082db1542e06f8d6b31932294/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2995,6 +3029,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e55df4d687_880564f9_20260503.png?v=880564f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-95c733150d",
+          "name": "Al-Shabab FC vs Al-Taawoun | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95c733150d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-95c733150d",
+                  "name": "Al-Shabab FC vs Al-Taawoun",
+                  "streams": [
+                    {
+                      "id": "st-95c733150d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Shabab FC",
+            "team_b": "Al-Taawoun",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b16d1e3b04364c5cd64203d8b4ef76e2.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/440da1fad5d16ada9a9742bf5d14c98e.png",
+            "time": "23:00 03/05",
+            "blv": "GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-95c733150d_f91b43c7_20260503.png?v=f91b43c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-354cebce78",
+          "name": "Aarhus AGF vs Sonderjyske | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-354cebce78",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-354cebce78",
+                  "name": "Aarhus AGF vs Sonderjyske",
+                  "streams": [
+                    {
+                      "id": "st-354cebce78",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Aarhus AGF",
+            "team_b": "Sonderjyske",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a0da10be11be5910b71c5ca79af53350.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2a247b5fb7ff72e24a051b71a796d71b.png",
+            "time": "23:00 03/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-354cebce78_0d2afd74_20260503.png?v=0d2afd74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3a3c47226e",
+          "name": "Real Betis vs Real Oviedo | 23:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a3c47226e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3a3c47226e",
+                  "name": "Real Betis vs Real Oviedo",
+                  "streams": [
+                    {
+                      "id": "st-3a3c47226e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Real Oviedo",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/018e260ad68bdad741c61e3171c4c608.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/21551996567bcd206ee574043d509a84.png",
+            "time": "23:30 03/05",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3a3c47226e_9edd1b26_20260503.png?v=9edd1b26",
             "width": 1600,
             "height": 1200
           }
