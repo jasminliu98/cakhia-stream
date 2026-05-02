@@ -11,275 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-2ef3e0d083",
-          "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ef3e0d083",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2ef3e0d083",
-                  "name": "Sheffield Wednesday vs West Bromwich Albion",
-                  "streams": [
-                    {
-                      "id": "st-2ef3e0d083",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73693ab619",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dab24841e_145244/index.m3u8?expire=1778324786",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c28516604f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/82b4dac83c6bb926e73e145a78fa5902/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Sheffield Wednesday",
-            "team_b": "West Bromwich Albion",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/967493e73d52e5d6f1dda29b7b76eaa2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2ef3e0d083_50fe5ea3_20260502.png?v=50fe5ea3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2cec6bdaec",
-          "name": "Derby County vs Sheffield United | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cec6bdaec",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2cec6bdaec",
-                  "name": "Derby County vs Sheffield United",
-                  "streams": [
-                    {
-                      "id": "st-2cec6bdaec",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4cb35f9fed",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5ddb94841e_145575/index.m3u8?expire=1778325561",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-90734b286b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/9c82aba6b0b36fde83f0d78461cade02/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Derby County",
-            "team_b": "Sheffield United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/31cb07e323671e2442b8cb2a2e26693d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/008437c93501963e6ca1b2450994007a.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2cec6bdaec_e915d789_20260502.png?v=e915d789",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-79df36fc26",
-          "name": "Hull City vs Norwich City | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79df36fc26",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-79df36fc26",
-                  "name": "Hull City vs Norwich City",
-                  "streams": [
-                    {
-                      "id": "st-79df36fc26",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86ee403636",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5cef836518_145232/index.m3u8?expire=1778321784",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1856790a11",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7edbded00c914d9be49770d63639896b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Hull City",
-            "team_b": "Norwich City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/262691204102d2200797f0ac34efb316.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-79df36fc26_9e550473_20260502.png?v=9e550473",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-48d82cdee2",
           "name": "Villarreal CF vs Levante | 19:00 02/05",
@@ -1231,59 +967,6 @@
           }
         },
         {
-          "id": "kaytee-adf2b0f742",
-          "name": "Newcastle United vs Brighton Hove Albion | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-adf2b0f742",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-adf2b0f742",
-                  "name": "Newcastle United vs Brighton Hove Albion",
-                  "streams": [
-                    {
-                      "id": "st-adf2b0f742",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Newcastle United",
-            "team_b": "Brighton Hove Albion",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5dbe320855e3ba772dbce54f940c6fa5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "time": "21:00 02/05",
-            "blv": "GIÀNG A DÂN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-adf2b0f742_40b4e372_20260502.png?v=40b4e372",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-934e41e1ec",
           "name": "Brentford vs West Ham United | 21:00 02/05",
           "type": "single",
@@ -1332,6 +1015,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-934e41e1ec_438bf505_20260502.png?v=438bf505",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-adf2b0f742",
+          "name": "Newcastle United vs Brighton Hove Albion | 21:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-adf2b0f742",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-adf2b0f742",
+                  "name": "Newcastle United vs Brighton Hove Albion",
+                  "streams": [
+                    {
+                      "id": "st-adf2b0f742",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Newcastle United",
+            "team_b": "Brighton Hove Albion",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5dbe320855e3ba772dbce54f940c6fa5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/9b43a690d5a09f1e319f036821e8e1d3.png",
+            "time": "21:00 02/05",
+            "blv": "GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-adf2b0f742_40b4e372_20260502.png?v=40b4e372",
             "width": 1600,
             "height": 1200
           }
