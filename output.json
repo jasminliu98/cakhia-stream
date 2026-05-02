@@ -2997,6 +2997,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-bddf6a359e",
+          "name": "Metz vs AS Monaco | 00:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bddf6a359e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bddf6a359e",
+                  "name": "Metz vs AS Monaco",
+                  "streams": [
+                    {
+                      "id": "st-bddf6a359e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Metz",
+            "team_b": "AS Monaco",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/16fd214da24aef0bbb775e44fe7e79f2.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/693af0d277fe3179594695614dce8666.png",
+            "time": "00:00 03/05",
+            "blv": "GIÀNG A BÉO, GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bddf6a359e_654d0019_20260502.png?v=654d0019",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2a711d0e0d",
+          "name": "FC Famalicao vs Benfica | 00:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a711d0e0d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2a711d0e0d",
+                  "name": "FC Famalicao vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-2a711d0e0d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "FC Famalicao",
+            "team_b": "Benfica",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/abd59f62f69ef9f59a8121c3baadd882.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/78360445c12fa3fdc8b489486fff4eb6.png",
+            "time": "00:00 03/05",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a711d0e0d_00d00e0e_20260502.png?v=00d00e0e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
