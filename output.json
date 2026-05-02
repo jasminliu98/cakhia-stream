@@ -227,94 +227,6 @@
           }
         },
         {
-          "id": "kaytee-d75205ad95",
-          "name": "Bayer 04 Leverkusen vs RB Leipzig | 23:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d75205ad95",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d75205ad95",
-                  "name": "Bayer 04 Leverkusen vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-d75205ad95",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a7643f522",
-                          "name": "GIÀNG A MÈN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6298e36518_145178/index.m3u8?expire=1778344974",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b24a438149",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/62b54f0cb47bb6ea32680a16aa6afbf9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayer 04 Leverkusen",
-            "team_b": "RB Leipzig",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d3205f3ddca07dc01c822ea0de24a0e7.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/26a59fe5653a96ba72f4f1e4e08b6d4b.png",
-            "time": "23:30 02/05",
-            "blv": "GIÀNG A MÈN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d75205ad95_20f9754d_20260503.png?v=20f9754d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-19cea37d06",
           "name": "Groningen vs Excelsior SBV | 23:45 02/05",
           "type": "single",
@@ -750,6 +662,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c804db5b71_326e7f40_20260503.png?v=326e7f40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0dd7a1dfb3",
+          "name": "Schalke 04 vs Fortuna Dusseldorf | 01:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0dd7a1dfb3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0dd7a1dfb3",
+                  "name": "Schalke 04 vs Fortuna Dusseldorf",
+                  "streams": [
+                    {
+                      "id": "st-0dd7a1dfb3",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-de96ea18bd",
+                          "name": "GIÀNG A MÈN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6419c36518_145178/index.m3u8?expire=1778351132",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "Schalke 04",
+            "team_b": "Fortuna Dusseldorf",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/4533ab7ef9ad5e53c981f7ea7bea7033.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/15820ab793d530ee9d101bde619a013f.png",
+            "time": "01:30 03/05",
+            "blv": "GIÀNG A MÈN",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0dd7a1dfb3_533dcb6a_20260503.png?v=533dcb6a",
             "width": 1600,
             "height": 1200
           }
