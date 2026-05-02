@@ -501,11 +501,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e32fabdd59",
+                          "id": "lnk-03ed00ed15",
                           "name": "GIÀNG A SIK",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d9954841e_145268/index.m3u8?expire=1778324501",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-111198f55f",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/acb84a0001e0f71eaf517ece359ff7b3/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1012,11 +1029,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b89cb9e6c9",
+                          "id": "lnk-a4ba7d9446",
                           "name": "GIÀNG A CƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5dbb636518_145277/index.m3u8?expire=1778325046",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8ad5eb5ad2",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/8703658c5573a02b7b296e901c74a70c/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1259,11 +1293,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0a68253aeb",
+                          "id": "lnk-4ed5417380",
                           "name": "GIÀNG A ĐẬU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d8b236518_145169/index.m3u8?expire=1778324274",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-10bbfafe9a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/d5fe336e60ecb5332e24ff8ec661a87b/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1562,112 +1613,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9639c76705_e018be34_20260502.png?v=e018be34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-a69917ac04",
-          "name": "Udinese vs Torino | 20:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a69917ac04",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a69917ac04",
-                  "name": "Udinese vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-a69917ac04",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Udinese",
-            "team_b": "Torino",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "time": "20:00 02/05",
-            "blv": "GIÀNG A RON",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a69917ac04_aac7f155_20260502.png?v=aac7f155",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-ebefc34e65",
-          "name": "FC Nantes vs Marseille | 20:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebefc34e65",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ebefc34e65",
-                  "name": "FC Nantes vs Marseille",
-                  "streams": [
-                    {
-                      "id": "st-ebefc34e65",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "FC Nantes",
-            "team_b": "Marseille",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
-            "time": "20:00 02/05",
-            "blv": "GIÀNG A MAO",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_45712926_20260502.png?v=45712926",
             "width": 1600,
             "height": 1200
           }
@@ -3150,7 +3095,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -3160,7 +3105,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
