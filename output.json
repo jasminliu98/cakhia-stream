@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -572,7 +572,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-80ca7f97e7",
+                          "id": "lnk-6196dc3cf5",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -589,24 +589,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-22941ea00c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/08c152a2c87886e6d3e1e939b2d06d5f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-368c4ae750",
+                          "id": "lnk-2e5e9c339b",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": false,
@@ -650,6 +633,77 @@
           }
         },
         {
+          "id": "kaytee-f355376ff1",
+          "name": "NEC Nijmegen vs SC Telstar | 02:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f355376ff1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f355376ff1",
+                  "name": "NEC Nijmegen vs SC Telstar",
+                  "streams": [
+                    {
+                      "id": "st-f355376ff1",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69ca678281",
+                          "name": "GIÀNG A NGỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f646494841e_145575/index.m3u8?expire=1778352329",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eredivisie",
+            "team_a": "NEC Nijmegen",
+            "team_b": "SC Telstar",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f2e98454cf2fc81dea92c1401521eac1.png",
+            "time": "02:00 03/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f355376ff1_01fae8da_20260503.png?v=01fae8da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-154c6a053c",
           "name": "OGC Nice vs RC Lens | 02:05 03/05",
           "type": "single",
@@ -657,10 +711,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -675,7 +729,42 @@
                     {
                       "id": "st-154c6a053c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-98a0d7f792",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6439e4841e_146781/index.m3u8?expire=1778351646",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2ba88c17b1",
+                          "name": "GIÀNG A MÓM",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6440c36518_145698/index.m3u8?expire=1778351756",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -690,7 +779,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/b8c5038ebb0e21b09a72008b7cb6219f.png",
             "time": "02:05 03/05",
             "blv": "GIÀNG A BÉO, GIÀNG A MÓM",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -3036,8 +3125,8 @@
             "league": "National Basketball Association",
             "team_a": "Boston Celtics",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "06:30 03/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -3047,7 +3136,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_55739afe_20260503.png?v=55739afe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_7672b8a7_20260503.png?v=7672b8a7",
             "width": 1600,
             "height": 1200
           }
@@ -3089,8 +3178,8 @@
             "league": "New Zealand National Basketball League",
             "team_a": "Canterbury Rams",
             "team_b": "Otago Nuggets",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/256e715800fb8321f7cf1dacce3aa35e.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5682b443934d64c12f41e5abfc6e2f8a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/256e715800fb8321f7cf1dacce3aa35e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5682b443934d64c12f41e5abfc6e2f8a.png",
             "time": "10:00 03/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -3100,7 +3189,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_f78aa6a7_20260503.png?v=f78aa6a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_abe76ec7_20260503.png?v=abe76ec7",
             "width": 1600,
             "height": 1200
           }
@@ -3142,8 +3231,8 @@
             "league": "New Zealand National Basketball League",
             "team_a": "Southland Sharks",
             "team_b": "Manawatu Jets",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/6edfa328515596217d7fa6c628272f34.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/8f06ac7835bf0ddf790691efc2d39aab.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6edfa328515596217d7fa6c628272f34.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8f06ac7835bf0ddf790691efc2d39aab.png",
             "time": "13:00 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -3153,7 +3242,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_2f989800_20260503.png?v=2f989800",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_dabb2632_20260503.png?v=dabb2632",
             "width": 1600,
             "height": 1200
           }
@@ -3220,6 +3309,59 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-55b058afc8",
+          "name": "Bielsko-Biala vs GKS Katowice | 17:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55b058afc8",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-55b058afc8",
+                  "name": "Bielsko-Biala vs GKS Katowice",
+                  "streams": [
+                    {
+                      "id": "st-55b058afc8",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "I. Liga",
+            "team_a": "Bielsko-Biala",
+            "team_b": "GKS Katowice",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9ac72d7d69a7ded1bd3302fd5c5e8229.jpg",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
+            "time": "17:30 03/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-55b058afc8_512db943_20260503.png?v=512db943",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-63c54b9fee",
           "name": "Bielsko-Biala vs GKS Katowice | 17:30 03/05",
@@ -3349,6 +3491,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-62e6225d54_0551b103_20260503.png?v=0551b103",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-724b93c7a4",
+          "name": "China Women vs South Korea Women | 15:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-724b93c7a4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-724b93c7a4",
+                  "name": "China Women vs South Korea Women",
+                  "streams": [
+                    {
+                      "id": "st-724b93c7a4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uber Cup",
+            "team_a": "China Women",
+            "team_b": "South Korea Women",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d7284374f0dbd15edab5227f4dd34db5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6815c4937ea1796c0a6c182f10185c40.png",
+            "time": "15:00 03/05",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-724b93c7a4_0ec98fb2_20260503.png?v=0ec98fb2",
             "width": 1600,
             "height": 1200
           }
