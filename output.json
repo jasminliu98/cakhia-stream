@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (17 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -308,11 +308,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-cff1a93df9",
-                          "name": "GIÀNG A BẢNH",
+                          "id": "lnk-af9d49299a",
+                          "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d25f36518_145205/index.m3u8?expire=1778322655",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dcb136518_145208/index.m3u8?expire=1778325297",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -355,7 +355,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
             "time": "18:00 02/05",
-            "blv": "GIÀNG A BẢNH",
+            "blv": "GIÀNG A CÒI",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -364,6 +364,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b9a777c2ec_ddd804eb_20260502.png?v=ddd804eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f1901b757e",
+          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1901b757e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f1901b757e",
+                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
+                  "streams": [
+                    {
+                      "id": "st-f1901b757e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bd79d30c1",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d27736518_145419/index.m3u8?expire=1778322679",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-11665b2f80",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/9a5ec8b869c7123d6f55f07ac8f66260/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "XM Hai Phong FC",
+            "team_b": "Cong An Ha Noi FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fed18f35e0d187fb4c812f24a97c3e6a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f3dde7370cf875e4e657b4331b1b4a31.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A DÂN",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_84b417c6_20260502.png?v=84b417c6",
             "width": 1600,
             "height": 1200
           }
@@ -562,8 +650,8 @@
           }
         },
         {
-          "id": "kaytee-f1901b757e",
-          "name": "XM Hai Phong FC vs Cong An Ha Noi FC | 18:00 02/05",
+          "id": "kaytee-2ef3e0d083",
+          "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -577,57 +665,23 @@
           ],
           "sources": [
             {
-              "id": "src-f1901b757e",
+              "id": "src-2ef3e0d083",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-f1901b757e",
-                  "name": "XM Hai Phong FC vs Cong An Ha Noi FC",
+                  "id": "ct-2ef3e0d083",
+                  "name": "Sheffield Wednesday vs West Bromwich Albion",
                   "streams": [
                     {
-                      "id": "st-f1901b757e",
+                      "id": "st-2ef3e0d083",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-5bd79d30c1",
-                          "name": "GIÀNG A DÂN",
+                          "id": "lnk-6bc668323c",
+                          "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d27736518_145419/index.m3u8?expire=1778322679",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-11665b2f80",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/9a5ec8b869c7123d6f55f07ac8f66260/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ff5422718f",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d3ad4841e_145208/index.m3u8?expire=1778322989",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dab24841e_145244/index.m3u8?expire=1778324786",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -647,59 +701,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "XM Hai Phong FC",
-            "team_b": "Cong An Ha Noi FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fed18f35e0d187fb4c812f24a97c3e6a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f3dde7370cf875e4e657b4331b1b4a31.png",
-            "time": "18:00 02/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_84b417c6_20260502.png?v=84b417c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2ef3e0d083",
-          "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ef3e0d083",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2ef3e0d083",
-                  "name": "Sheffield Wednesday vs West Bromwich Albion",
-                  "streams": [
-                    {
-                      "id": "st-2ef3e0d083",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "English Football League Championship",
             "team_a": "Sheffield Wednesday",
             "team_b": "West Bromwich Albion",
@@ -707,7 +708,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -727,10 +728,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -745,7 +746,25 @@
                     {
                       "id": "st-edae81d980",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e32fabdd59",
+                          "name": "GIÀNG A SIK",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d9954841e_145268/index.m3u8?expire=1778324501",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -760,7 +779,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/759f19ccaecadd33a5c09b535e543410.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A SIK",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -780,10 +799,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -798,7 +817,25 @@
                     {
                       "id": "st-5002bf2071",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c265823945",
+                          "name": "GIÀNG A BÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d8454841e_145274/index.m3u8?expire=1778324165",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -813,7 +850,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/a18a24058618b5ef80eec61300f85999.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A BÁO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -833,10 +870,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -851,7 +888,25 @@
                     {
                       "id": "st-511777b261",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-81cd3d6c6b",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5da624841e_146208/index.m3u8?expire=1778324706",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -866,7 +921,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A MU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -879,6 +934,77 @@
           }
         },
         {
+          "id": "kaytee-93b47472e2",
+          "name": "Bristol City vs Stoke City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93b47472e2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-93b47472e2",
+                  "name": "Bristol City vs Stoke City",
+                  "streams": [
+                    {
+                      "id": "st-93b47472e2",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b20982f25",
+                          "name": "GIÀNG A RICH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dbd64841e_145476/index.m3u8?expire=1778325078",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Bristol City",
+            "team_b": "Stoke City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e76b7c07aa13158e4041c101a87578dc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-93b47472e2_68946f31_20260502.png?v=68946f31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-79df36fc26",
           "name": "Hull City vs Norwich City | 18:30 02/05",
           "type": "single",
@@ -886,10 +1012,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -904,7 +1030,25 @@
                     {
                       "id": "st-79df36fc26",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1737acc920",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5cef836518_145232/index.m3u8?expire=1778321784",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -919,7 +1063,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A PHỦ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -932,6 +1076,77 @@
           }
         },
         {
+          "id": "kaytee-9f525ce7bd",
+          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f525ce7bd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9f525ce7bd",
+                  "name": "Ipswich Town vs Queens Park Rangers",
+                  "streams": [
+                    {
+                      "id": "st-9f525ce7bd",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b89cb9e6c9",
+                          "name": "GIÀNG A CƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dbb636518_145277/index.m3u8?expire=1778325046",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Ipswich Town",
+            "team_b": "Queens Park Rangers",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_dedcd82c_20260502.png?v=dedcd82c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-b44f4a671f",
           "name": "Millwall vs Oxford United | 18:30 02/05",
           "type": "single",
@@ -939,10 +1154,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -957,7 +1172,25 @@
                     {
                       "id": "st-b44f4a671f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a096f71913",
+                          "name": "GIÀNG A NÌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d60336518_145187/index.m3u8?expire=1778323587",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -972,7 +1205,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A NÌ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -992,10 +1225,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1010,7 +1243,25 @@
                     {
                       "id": "st-24965f8737",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3283accd5f",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dad636518_146331/index.m3u8?expire=1778324822",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1025,7 +1276,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1045,10 +1296,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1063,7 +1314,25 @@
                     {
                       "id": "st-cea0f6f778",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a68253aeb",
+                          "name": "GIÀNG A ĐẬU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d8b236518_145169/index.m3u8?expire=1778324274",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1078,7 +1347,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1086,271 +1355,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cea0f6f778_b09ef6dc_20260502.png?v=b09ef6dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-eda56528d6",
-          "name": "Wrexham vs Middlesbrough | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eda56528d6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-eda56528d6",
-                  "name": "Wrexham vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-eda56528d6",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Wrexham",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6ee72ef6dd0d994c0fd5fb7d82d5acc9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A LUNG",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eda56528d6_c85e0c7f_20260502.png?v=c85e0c7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-ce31cb6a79",
-          "name": "Blackburn Rovers vs Leicester City | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce31cb6a79",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ce31cb6a79",
-                  "name": "Blackburn Rovers vs Leicester City",
-                  "streams": [
-                    {
-                      "id": "st-ce31cb6a79",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Blackburn Rovers",
-            "team_b": "Leicester City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d8ae192476c8c5883682978c994ebe5b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/37aec5cf94aa5fa74a012b5413d52d06.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A LƠ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce31cb6a79_b8e51b6a_20260502.png?v=b8e51b6a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-93b47472e2",
-          "name": "Bristol City vs Stoke City | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93b47472e2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-93b47472e2",
-                  "name": "Bristol City vs Stoke City",
-                  "streams": [
-                    {
-                      "id": "st-93b47472e2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Bristol City",
-            "team_b": "Stoke City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e76b7c07aa13158e4041c101a87578dc.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-93b47472e2_68946f31_20260502.png?v=68946f31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2cec6bdaec",
-          "name": "Derby County vs Sheffield United | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cec6bdaec",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2cec6bdaec",
-                  "name": "Derby County vs Sheffield United",
-                  "streams": [
-                    {
-                      "id": "st-2cec6bdaec",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Derby County",
-            "team_b": "Sheffield United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/31cb07e323671e2442b8cb2a2e26693d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/008437c93501963e6ca1b2450994007a.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2cec6bdaec_e915d789_20260502.png?v=e915d789",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-9f525ce7bd",
-          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f525ce7bd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9f525ce7bd",
-                  "name": "Ipswich Town vs Queens Park Rangers",
-                  "streams": [
-                    {
-                      "id": "st-9f525ce7bd",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Ipswich Town",
-            "team_b": "Queens Park Rangers",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_dedcd82c_20260502.png?v=dedcd82c",
             "width": 1600,
             "height": 1200
           }
@@ -2939,7 +2943,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2949,7 +2953,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
