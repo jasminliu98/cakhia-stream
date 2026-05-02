@@ -589,11 +589,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-69ca678281",
+                          "id": "lnk-0da1b40c84",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f646494841e_145575/index.m3u8?expire=1778352329",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-68ea15443a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f7acb5c3bd42c9aa23de67d485311c68/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -660,7 +677,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-98a0d7f792",
+                          "id": "lnk-da31d891d5",
                           "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": true,
@@ -677,7 +694,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-2ba88c17b1",
+                          "id": "lnk-7fcf7f6aea",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4abb1ebb47a3ceadc33c877c2c2b2082/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b4e1192f83",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": false,
@@ -813,7 +847,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/2a8adb34e764602183a7bee8f51726e4.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/d272859d78eb8ca7a14753f4293fbf45.png",
             "time": "12:00 03/05",
-            "blv": "GIÀNG A ĐỎ",
+            "blv": "GIÀNG A KEN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2939,8 +2973,8 @@
             "league": "WTA 125K Huzhou, China Women Singles",
             "team_a": "Veronika Erjavec",
             "team_b": "Katarzyna Kawa",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/0414d8785883f880647881e0dfc8759e.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/f2893a17c227b934a35d41e3074fcec1.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0414d8785883f880647881e0dfc8759e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2893a17c227b934a35d41e3074fcec1.png",
             "time": "13:10 03/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2950,7 +2984,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0409f8714d_af2cdd85_20260503.png?v=af2cdd85",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0409f8714d_a268d742_20260503.png?v=a268d742",
             "width": 1600,
             "height": 1200
           }
@@ -2992,7 +3026,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "GIÀNG A LONG",
@@ -3003,7 +3037,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_67c156cd_20260503.png?v=67c156cd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
             "width": 1600,
             "height": 1200
           }
@@ -3054,8 +3088,8 @@
             "league": "National Basketball Association",
             "team_a": "Boston Celtics",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "06:30 03/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -3065,7 +3099,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_55739afe_20260503.png?v=55739afe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_7672b8a7_20260503.png?v=7672b8a7",
             "width": 1600,
             "height": 1200
           }
@@ -3107,8 +3141,8 @@
             "league": "New Zealand National Basketball League",
             "team_a": "Canterbury Rams",
             "team_b": "Otago Nuggets",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/256e715800fb8321f7cf1dacce3aa35e.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5682b443934d64c12f41e5abfc6e2f8a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/256e715800fb8321f7cf1dacce3aa35e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5682b443934d64c12f41e5abfc6e2f8a.png",
             "time": "10:00 03/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -3118,7 +3152,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_f78aa6a7_20260503.png?v=f78aa6a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_abe76ec7_20260503.png?v=abe76ec7",
             "width": 1600,
             "height": 1200
           }
@@ -3160,8 +3194,8 @@
             "league": "New Zealand National Basketball League",
             "team_a": "Southland Sharks",
             "team_b": "Manawatu Jets",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/6edfa328515596217d7fa6c628272f34.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/8f06ac7835bf0ddf790691efc2d39aab.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6edfa328515596217d7fa6c628272f34.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8f06ac7835bf0ddf790691efc2d39aab.png",
             "time": "13:00 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -3171,7 +3205,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_2f989800_20260503.png?v=2f989800",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_dabb2632_20260503.png?v=dabb2632",
             "width": 1600,
             "height": 1200
           }
@@ -3213,8 +3247,8 @@
             "league": "Chinese Basketball Association",
             "team_a": "Guangdong Southern Tigers",
             "team_b": "Guangzhou Loong Lions",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5689743705f1852f10597c559323f04a.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/858cde8d2c075296f24e7ee61929fbeb.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5689743705f1852f10597c559323f04a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/858cde8d2c075296f24e7ee61929fbeb.png",
             "time": "18:35 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -3224,7 +3258,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_2353258d_20260503.png?v=2353258d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_753c20ae_20260503.png?v=753c20ae",
             "width": 1600,
             "height": 1200
           }
@@ -3454,82 +3488,11 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (1 LIVE)",
+      "name": "🏸 Cầu Lông",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-62e6225d54",
-          "name": "China vs Denmark | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62e6225d54",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-62e6225d54",
-                  "name": "China vs Denmark",
-                  "streams": [
-                    {
-                      "id": "st-62e6225d54",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6a124d5f9",
-                          "name": "GIÀNG A CÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f61ac44841e_145241/index.m3u8?expire=1778341188",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "China",
-            "team_b": "Denmark",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/602b5c241c8e2f7f6d29e030dfd78b6d.png",
-            "time": "23:00 02/05",
-            "blv": "GIÀNG A CÁO",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-62e6225d54_0551b103_20260503.png?v=0551b103",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-724b93c7a4",
           "name": "China Women vs South Korea Women | 15:00 03/05",
