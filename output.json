@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (17 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2ef3e0d083_50fe5ea3_20260502.png?v=50fe5ea3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-eda56528d6",
-          "name": "Wrexham vs Middlesbrough | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eda56528d6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-eda56528d6",
-                  "name": "Wrexham vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-eda56528d6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60b2a8d989",
-                          "name": "GIÀNG A LUNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5e07236518_145422/index.m3u8?expire=1778326258",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-76fac85e23",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1ab99bb72a9a215a7052397836880de2/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Wrexham",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6ee72ef6dd0d994c0fd5fb7d82d5acc9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A LUNG",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eda56528d6_c85e0c7f_20260502.png?v=c85e0c7f",
             "width": 1600,
             "height": 1200
           }
@@ -364,358 +276,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-79df36fc26_9e550473_20260502.png?v=9e550473",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-9f525ce7bd",
-          "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f525ce7bd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9f525ce7bd",
-                  "name": "Ipswich Town vs Queens Park Rangers",
-                  "streams": [
-                    {
-                      "id": "st-9f525ce7bd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4ba7d9446",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5dbb636518_145277/index.m3u8?expire=1778325046",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8ad5eb5ad2",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8703658c5573a02b7b296e901c74a70c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Ipswich Town",
-            "team_b": "Queens Park Rangers",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cec3eaaa5271c1f2f036469593ecbcd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/701e0713c180fa36266b425447d2f9c0.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_dedcd82c_20260502.png?v=dedcd82c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-b44f4a671f",
-          "name": "Millwall vs Oxford United | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b44f4a671f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b44f4a671f",
-                  "name": "Millwall vs Oxford United",
-                  "streams": [
-                    {
-                      "id": "st-b44f4a671f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b166a7a74",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d60336518_145187/index.m3u8?expire=1778323587",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-be491f05be",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c1c1f7ea9df9c7aeb15e7d2b99911f17/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Millwall",
-            "team_b": "Oxford United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b44f4a671f_9a9b82e3_20260502.png?v=9a9b82e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-cea0f6f778",
-          "name": "Preston North End vs Southampton | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cea0f6f778",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cea0f6f778",
-                  "name": "Preston North End vs Southampton",
-                  "streams": [
-                    {
-                      "id": "st-cea0f6f778",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ed5417380",
-                          "name": "GIÀNG A ĐẬU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d8b236518_145169/index.m3u8?expire=1778324274",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-10bbfafe9a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d5fe336e60ecb5332e24ff8ec661a87b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Preston North End",
-            "team_b": "Southampton",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/dbad1348304545f3d121cfd3e59395ab.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cea0f6f778_b09ef6dc_20260502.png?v=b09ef6dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-511777b261",
-          "name": "North Korea Women U17 vs Chinese Taipei U17 Women | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-511777b261",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-511777b261",
-                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-511777b261",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c305df6b29",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5da624841e_146208/index.m3u8?expire=1778324706",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3ecd542760",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4825a734ced920189d5eb6d28d50ec24/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_e37a55ad_20260502.png?v=e37a55ad",
             "width": 1600,
             "height": 1200
           }
@@ -1525,6 +1085,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-674d98d19c_04a5b402_20260502.png?v=04a5b402",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d088cc89a0",
+          "name": "TSG Hoffenheim vs VfB Stuttgart | 20:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d088cc89a0",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d088cc89a0",
+                  "name": "TSG Hoffenheim vs VfB Stuttgart",
+                  "streams": [
+                    {
+                      "id": "st-d088cc89a0",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8eb52ab82",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5fc8436518_145232/index.m3u8?expire=1778333444",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2ebdc4f91a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/d3463f9587c2ae5c36617f34ce2c9d24/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "TSG Hoffenheim",
+            "team_b": "VfB Stuttgart",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/72ab7862a610b350aef7650ec0e06e06.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/bfdd500484330d63a723cbc396df762c.png",
+            "time": "20:30 02/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d088cc89a0_2300e8ef_20260502.png?v=2300e8ef",
             "width": 1600,
             "height": 1200
           }
