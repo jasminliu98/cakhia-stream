@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-19cea37d06",
-          "name": "Groningen vs Excelsior SBV | 23:45 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19cea37d06",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-19cea37d06",
-                  "name": "Groningen vs Excelsior SBV",
-                  "streams": [
-                    {
-                      "id": "st-19cea37d06",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01cbc171f3",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6268e36518_145277/index.m3u8?expire=1778344206",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8658b000b1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1c433fbc92b8f5ceefa43c9af721d1c9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "Groningen",
-            "team_b": "Excelsior SBV",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/57b4c68789a8bedcb43174f5f4eb164a.png",
-            "time": "23:45 02/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-19cea37d06_13133dde_20260503.png?v=13133dde",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-bddf6a359e",
           "name": "Metz vs AS Monaco | 00:00 03/05",
           "type": "single",
@@ -572,11 +484,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7098f454fc",
+                          "id": "lnk-a04a1fa64a",
                           "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f63ef136518_145419/index.m3u8?expire=1778350449",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d7e555e3f9",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b9424587fc8c516dd0ce557ac488f0a4/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -623,10 +552,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -641,7 +570,59 @@
                     {
                       "id": "st-3e223e4121",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-80ca7f97e7",
+                          "name": "GIÀNG A NGAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6428d4841e_145821/index.m3u8?expire=1778351373",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-22941ea00c",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/08c152a2c87886e6d3e1e939b2d06d5f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-368c4ae750",
+                          "name": "GIÀNG A TRỀ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f643084841e_145689/index.m3u8?expire=1778351496",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -656,7 +637,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/f378eb1ea04e53999b89051aa3244de6.png",
             "time": "02:00 03/05",
             "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -664,59 +645,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3e223e4121_f5cd04f9_20260503.png?v=f5cd04f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-f355376ff1",
-          "name": "NEC Nijmegen vs SC Telstar | 02:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f355376ff1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f355376ff1",
-                  "name": "NEC Nijmegen vs SC Telstar",
-                  "streams": [
-                    {
-                      "id": "st-f355376ff1",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "NEC Nijmegen",
-            "team_b": "SC Telstar",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f2e98454cf2fc81dea92c1401521eac1.png",
-            "time": "02:00 03/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f355376ff1_01fae8da_20260503.png?v=01fae8da",
             "width": 1600,
             "height": 1200
           }
@@ -2950,6 +2878,121 @@
       ]
     },
     {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-0409f8714d",
+          "name": "Veronika Erjavec vs Katarzyna Kawa | 13:10 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0409f8714d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0409f8714d",
+                  "name": "Veronika Erjavec vs Katarzyna Kawa",
+                  "streams": [
+                    {
+                      "id": "st-0409f8714d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 125K Huzhou, China Women Singles",
+            "team_a": "Veronika Erjavec",
+            "team_b": "Katarzyna Kawa",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0414d8785883f880647881e0dfc8759e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2893a17c227b934a35d41e3074fcec1.png",
+            "time": "13:10 03/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0409f8714d_a268d742_20260503.png?v=a268d742",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d97c2e664a",
+          "name": "Jannik Sinner vs Alexander Zverev | 22:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d97c2e664a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d97c2e664a",
+                  "name": "Jannik Sinner vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-d97c2e664a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Madrid, Spain Men Singles",
+            "team_a": "Jannik Sinner",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
+            "time": "22:00 03/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_20",
       "name": "🏀 Bóng rổ",
       "display": "vertical",
@@ -2993,8 +3036,8 @@
             "league": "National Basketball Association",
             "team_a": "Boston Celtics",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "06:30 03/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -3004,7 +3047,166 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_7672b8a7_20260503.png?v=7672b8a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_55739afe_20260503.png?v=55739afe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c747d5f66c",
+          "name": "Canterbury Rams vs Otago Nuggets | 10:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c747d5f66c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c747d5f66c",
+                  "name": "Canterbury Rams vs Otago Nuggets",
+                  "streams": [
+                    {
+                      "id": "st-c747d5f66c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "New Zealand National Basketball League",
+            "team_a": "Canterbury Rams",
+            "team_b": "Otago Nuggets",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/256e715800fb8321f7cf1dacce3aa35e.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5682b443934d64c12f41e5abfc6e2f8a.png",
+            "time": "10:00 03/05",
+            "blv": "GIÀNG A THỎ",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_f78aa6a7_20260503.png?v=f78aa6a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-895ef8176e",
+          "name": "Southland Sharks vs Manawatu Jets | 13:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-895ef8176e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-895ef8176e",
+                  "name": "Southland Sharks vs Manawatu Jets",
+                  "streams": [
+                    {
+                      "id": "st-895ef8176e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "New Zealand National Basketball League",
+            "team_a": "Southland Sharks",
+            "team_b": "Manawatu Jets",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/6edfa328515596217d7fa6c628272f34.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/8f06ac7835bf0ddf790691efc2d39aab.png",
+            "time": "13:00 03/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_2f989800_20260503.png?v=2f989800",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f8512c991e",
+          "name": "Guangdong Southern Tigers vs Guangzhou Loong Lions | 18:35 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8512c991e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f8512c991e",
+                  "name": "Guangdong Southern Tigers vs Guangzhou Loong Lions",
+                  "streams": [
+                    {
+                      "id": "st-f8512c991e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Guangdong Southern Tigers",
+            "team_b": "Guangzhou Loong Lions",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5689743705f1852f10597c559323f04a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/858cde8d2c075296f24e7ee61929fbeb.png",
+            "time": "18:35 03/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_753c20ae_20260503.png?v=753c20ae",
             "width": 1600,
             "height": 1200
           }
@@ -3075,82 +3277,11 @@
     },
     {
       "id": "cate_13",
-      "name": "🏸 Cầu Lông (2 LIVE)",
+      "name": "🏸 Cầu Lông (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9b40ac1ad1",
-          "name": "Pháp vs Ấn Độ | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b40ac1ad1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9b40ac1ad1",
-                  "name": "Pháp vs Ấn Độ",
-                  "streams": [
-                    {
-                      "id": "st-9b40ac1ad1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-38434ca361",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6163436518_145875/index.m3u8?expire=1778340020",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thomas Cup",
-            "team_a": "Pháp",
-            "team_b": "Ấn Độ",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/d14fdcc47f163ec65bf8806f0bff9c4b.jpg",
-            "time": "23:00 02/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Cầu Lông"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b40ac1ad1_e9b6525b_20260503.png?v=e9b6525b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-62e6225d54",
           "name": "China vs Denmark | 23:00 02/05",
