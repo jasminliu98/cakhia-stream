@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-11c9ca42a2",
-          "name": "Atalanta vs Genoa | 01:45 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11c9ca42a2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-11c9ca42a2",
-                  "name": "Atalanta vs Genoa",
-                  "streams": [
-                    {
-                      "id": "st-11c9ca42a2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a04a1fa64a",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f63ef136518_145419/index.m3u8?expire=1778350449",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d7e555e3f9",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b9424587fc8c516dd0ce557ac488f0a4/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Atalanta",
-            "team_b": "Genoa",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/45c9647899b8bf2fb6f988c6c33b964c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/51474fb68c7da46b9c20ebddccec7766.png",
-            "time": "01:45 03/05",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-11c9ca42a2_3ea4827e_20260503.png?v=3ea4827e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3e223e4121",
           "name": "CA Osasuna vs FC Barcelona | 02:00 03/05",
