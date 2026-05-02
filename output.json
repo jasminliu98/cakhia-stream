@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-3c2047ad03",
-          "name": "FC Porto vs Alverca | 02:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c2047ad03",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3c2047ad03",
-                  "name": "FC Porto vs Alverca",
-                  "streams": [
-                    {
-                      "id": "st-3c2047ad03",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d054e6b90",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f65c504841e_146091/index.m3u8?expire=1778357968",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ae3dc84882",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c92823ae00ec739732014d8be4366982/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Porto",
-            "team_b": "Alverca",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/83aa826e3c45d5047a8c917fb0b41a5e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ff35a6067c000b629b84e648d8a2d2de.png",
-            "time": "02:30 03/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3c2047ad03_f22b49fb_20260503.png?v=f22b49fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9b0e355d35",
           "name": "Tokyo Verdy vs Kashiwa Reysol | 12:00 03/05",
