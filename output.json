@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -105,94 +105,6 @@
           }
         },
         {
-          "id": "kaytee-4389aff827",
-          "name": "FC Arouca vs Santa Clara | 21:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4389aff827",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4389aff827",
-                  "name": "FC Arouca vs Santa Clara",
-                  "streams": [
-                    {
-                      "id": "st-4389aff827",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e21e7391a7",
-                          "name": "GIÀNG A ĐỎ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f604e736518_145503/index.m3u8?expire=1778335591",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a4450c4937",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fe78fef03461204529b2c7d8bbf34da6/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "FC Arouca",
-            "team_b": "Santa Clara",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/04de5924a46acce3fb629534c4e039be.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0c5162e7f8371cb6972ca6413bf228e8.png",
-            "time": "21:30 02/05",
-            "blv": "GIÀNG A ĐỎ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4389aff827_08a2859f_20260502.png?v=08a2859f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-acd4817b69",
           "name": "Moreirense vs CF Estrela Amadora SAD | 21:30 02/05",
           "type": "single",
@@ -276,94 +188,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-acd4817b69_ed3f86fd_20260502.png?v=ed3f86fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-e6eeb3113b",
-          "name": "Nacional da Madeira vs AVS Futebol SAD | 21:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6eeb3113b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e6eeb3113b",
-                  "name": "Nacional da Madeira vs AVS Futebol SAD",
-                  "streams": [
-                    {
-                      "id": "st-e6eeb3113b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c34bef600e",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f605424841e_145277/index.m3u8?expire=1778335682",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24daf60e0d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7945b31cc89d47cd7e44241b952f7dd8/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Nacional da Madeira",
-            "team_b": "AVS Futebol SAD",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/783ce34336f24424a273c5c2403a3cb1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/54a1c4ce61684e24789083f545049753.png",
-            "time": "21:30 02/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e6eeb3113b_d8dde2c6_20260502.png?v=d8dde2c6",
             "width": 1600,
             "height": 1200
           }
@@ -955,10 +779,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -973,7 +797,25 @@
                     {
                       "id": "st-19cea37d06",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0464993f5e",
+                          "name": "GIÀNG A CƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6268e36518_145277/index.m3u8?expire=1778344206",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -988,7 +830,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/57b4c68789a8bedcb43174f5f4eb164a.png",
             "time": "23:45 02/05",
             "blv": "GIÀNG A CƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2089,7 +1931,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:10 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -2099,7 +1941,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3e5615ebb6_edfac4f6_20260502.png?v=edfac4f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3e5615ebb6_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
