@@ -792,6 +792,59 @@
           }
         },
         {
+          "id": "kaytee-721c39489b",
+          "name": "Gwangju Football Club vs Daejeon Citizen | 17:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-721c39489b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-721c39489b",
+                  "name": "Gwangju Football Club vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-721c39489b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gwangju Football Club",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "time": "17:00 02/05",
+            "blv": "GIÀNG A LUNG",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-721c39489b_14ffd9c3_20260502.png?v=14ffd9c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-22073b2fa6",
           "name": "FC Anyang vs Bucheon FC 1995 | 17:00 02/05",
           "type": "single",
@@ -831,7 +884,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
             "time": "17:00 02/05",
-            "blv": "GIÀNG A LUNG",
+            "blv": "GIÀNG A KEN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
