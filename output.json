@@ -3471,7 +3471,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -3481,7 +3481,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
             "width": 1600,
             "height": 1200
           }
@@ -3490,82 +3490,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-7be2d4a507",
-          "name": "T Thunders vs nagoya | 13:05 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7be2d4a507",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7be2d4a507",
-                  "name": "T Thunders vs nagoya",
-                  "streams": [
-                    {
-                      "id": "st-7be2d4a507",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c7028b527",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f58d7736518_145244/index.m3u8?expire=1778305015",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SV.League",
-            "team_a": "T Thunders",
-            "team_b": "nagoya",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1cbab5fc14d3d561a3557309e67c3b29.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/c208362f4a51dd45f1e06affe7e669c3.png",
-            "time": "13:05 02/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7be2d4a507_74e0e47b_20260502.png?v=74e0e47b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-8d66a0f55a",
           "name": "Zenit St. Petersburg vs Sibir Novosibirsk | 23:00 02/05",
