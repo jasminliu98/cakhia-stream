@@ -2679,99 +2679,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (3 LIVE)",
+      "name": "🏀 Bóng rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-132d6342f9",
-          "name": "Orlando Magic vs Detroit Pistons | 06:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-132d6342f9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-132d6342f9",
-                  "name": "Orlando Magic vs Detroit Pistons",
-                  "streams": [
-                    {
-                      "id": "st-132d6342f9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12c397bff0",
-                          "name": "GIÀNG A THỎ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f529f84841e_145163/index.m3u8?expire=1778279544",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-64ca8da0fb",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a80af3a17e3cf0393b7c921cda966622/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Orlando Magic",
-            "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "time": "06:00 02/05",
-            "blv": "GIÀNG A THỎ",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-132d6342f9_1abbb788_20260502.png?v=1abbb788",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e395df0fb5",
           "name": "Toronto Raptors vs Cleveland Cavaliers | 06:30 02/05",
