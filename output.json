@@ -1428,6 +1428,59 @@
           }
         },
         {
+          "id": "kaytee-edae81d980",
+          "name": "Watford vs Coventry City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edae81d980",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-edae81d980",
+                  "name": "Watford vs Coventry City",
+                  "streams": [
+                    {
+                      "id": "st-edae81d980",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Watford",
+            "team_b": "Coventry City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/31f7d5503f385d972d51ec447809a8a4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/759f19ccaecadd33a5c09b535e543410.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-edae81d980_66a31266_20260502.png?v=66a31266",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-eda56528d6",
           "name": "Wrexham vs Middlesbrough | 18:30 02/05",
           "type": "single",
@@ -2059,6 +2112,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48d82cdee2_d10d5028_20260502.png?v=d10d5028",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d5926eecce",
+          "name": "Malut United vs Persis Solo FC | 19:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5926eecce",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d5926eecce",
+                  "name": "Malut United vs Persis Solo FC",
+                  "streams": [
+                    {
+                      "id": "st-d5926eecce",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Malut United",
+            "team_b": "Persis Solo FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/46e87ccb8a5cacc290719d822b9f8fe1.png",
+            "time": "19:00 02/05",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d5926eecce_3018390b_20260502.png?v=3018390b",
             "width": 1600,
             "height": 1200
           }
