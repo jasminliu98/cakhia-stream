@@ -487,11 +487,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-bd15feff92",
+                          "id": "lnk-b517de2f73",
                           "name": "GIÀNG A KEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f57c264841e_145467/index.m3u8?expire=1778300582",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5c325090ae",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/153a9d0600a973de47e3e77eb3792653/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1109,6 +1126,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-66fa64b3d8_a5731f08_20260502.png?v=a5731f08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-66bd610cb3",
+          "name": "Arminia Bielefeld vs VfL Bochum 1848 | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66bd610cb3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-66bd610cb3",
+                  "name": "Arminia Bielefeld vs VfL Bochum 1848",
+                  "streams": [
+                    {
+                      "id": "st-66bd610cb3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "Arminia Bielefeld",
+            "team_b": "VfL Bochum 1848",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8739d9ef9a67d757cc8ef67d12c58f62.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-66bd610cb3_2149ac2d_20260502.png?v=2149ac2d",
             "width": 1600,
             "height": 1200
           }
