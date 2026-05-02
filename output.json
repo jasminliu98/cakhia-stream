@@ -11,275 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (12 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e70dff66ec",
-          "name": "Wolverhampton Wanderers vs Sunderland | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e70dff66ec",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e70dff66ec",
-                  "name": "Wolverhampton Wanderers vs Sunderland",
-                  "streams": [
-                    {
-                      "id": "st-e70dff66ec",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ea6e660d1",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5fc3e36518_145821/index.m3u8?expire=1778333374",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-cc2129048c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a46ceeba85676b50f94ae56645109107/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Wolverhampton Wanderers",
-            "team_b": "Sunderland",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5759932ca2512c6701d86dfbd58380a7.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/957bdc50c307e2a9b526b34b3792da1a.png",
-            "time": "21:00 02/05",
-            "blv": "GIÀNG A NGAO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e70dff66ec_28947f2f_20260502.png?v=28947f2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-934e41e1ec",
-          "name": "Brentford vs West Ham United | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-934e41e1ec",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-934e41e1ec",
-                  "name": "Brentford vs West Ham United",
-                  "streams": [
-                    {
-                      "id": "st-934e41e1ec",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5c07c357b",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5fd1636518_145208/index.m3u8?expire=1778333590",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4d5fa9740d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fc5bc160faa413798ed9564adebe6996/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Brentford",
-            "team_b": "West Ham United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/60f1c7788be3148a370dbf59f914abfe.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d71ebda5c7fbca9093a1c2978c46f619.png",
-            "time": "21:00 02/05",
-            "blv": "GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-934e41e1ec_438bf505_20260502.png?v=438bf505",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-adf2b0f742",
-          "name": "Newcastle United vs Brighton Hove Albion | 21:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-adf2b0f742",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-adf2b0f742",
-                  "name": "Newcastle United vs Brighton Hove Albion",
-                  "streams": [
-                    {
-                      "id": "st-adf2b0f742",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f92cc3938a",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5f6ef36518_145419/index.m3u8?expire=1778332015",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9b62ab8b43",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/3c87982743b291d10327c27d03c0789e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Newcastle United",
-            "team_b": "Brighton Hove Albion",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5dbe320855e3ba772dbce54f940c6fa5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9b43a690d5a09f1e319f036821e8e1d3.png",
-            "time": "21:00 02/05",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-adf2b0f742_40b4e372_20260502.png?v=40b4e372",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-c55f4a4e01",
           "name": "Valencia CF vs Atletico Madrid | 21:15 02/05",
@@ -396,28 +132,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-4970ddf3ca",
+                          "id": "lnk-d870d92c48",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f603204841e_145187/index.m3u8?expire=1778335136",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8fe4b8ae04",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/62b0442a50e9ed5c755e2c0720105865/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -484,28 +203,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e21e7391a7",
+                          "id": "lnk-677f66c9ed",
                           "name": "GIÀNG A ĐỎ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f604e736518_145503/index.m3u8?expire=1778335591",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a4450c4937",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fe78fef03461204529b2c7d8bbf34da6/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -572,28 +274,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-5f764e3313",
+                          "id": "lnk-73c7e07bbd",
                           "name": "GIÀNG A NA",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f605264841e_146847/index.m3u8?expire=1778335654",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33d5b870b5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d37e4253c0858b9ffab4711cf3cda525/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -660,28 +345,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c34bef600e",
+                          "id": "lnk-44220ba8de",
                           "name": "GIÀNG A CƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f605424841e_145277/index.m3u8?expire=1778335682",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24daf60e0d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7945b31cc89d47cd7e44241b952f7dd8/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1969,6 +1637,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a6b66b5dc2_77bf7482_20260502.png?v=77bf7482",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9bd3805ed3",
+          "name": "Bologna vs Cagliari | 17:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9bd3805ed3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9bd3805ed3",
+                  "name": "Bologna vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-9bd3805ed3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Bologna",
+            "team_b": "Cagliari",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bd12298fc3920bc20b7ad43b16ad9624.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/dba65c184e03c860ed919ce192b86c5e.png",
+            "time": "17:30 03/05",
+            "blv": "GIÀNG A MAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9bd3805ed3_56cecbb5_20260502.png?v=56cecbb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-68bf7d9261",
+          "name": "Song Lam Nghe An vs Hoang Anh Gia Lai | 18:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-68bf7d9261",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-68bf7d9261",
+                  "name": "Song Lam Nghe An vs Hoang Anh Gia Lai",
+                  "streams": [
+                    {
+                      "id": "st-68bf7d9261",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Song Lam Nghe An",
+            "team_b": "Hoang Anh Gia Lai",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/7f95b001711ce3978d498602e1d2c9fd.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/df2ae58b9e658494b940b0bd782901b8.png",
+            "time": "18:00 03/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68bf7d9261_08e10ef1_20260502.png?v=08e10ef1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9077847718",
+          "name": "RC Celta vs Elche | 19:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9077847718",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9077847718",
+                  "name": "RC Celta vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-9077847718",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "RC Celta",
+            "team_b": "Elche",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fd954d083ee85a6f1a3f2471dc756242.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e5ecd0553885f1a3af731758dddce2ec.png",
+            "time": "19:00 03/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9077847718_d4567b96_20260502.png?v=d4567b96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-32d2f1bc88",
+          "name": "Sassuolo vs AC Milan | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32d2f1bc88",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-32d2f1bc88",
+                  "name": "Sassuolo vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-32d2f1bc88",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "AC Milan",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/616bf242a532f72e970648f2ead423cf.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/643ef4101b017dc1495dbd9e9d5cce28.png",
+            "time": "20:00 03/05",
+            "blv": "GIÀNG A MAO, GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-32d2f1bc88_21c614c5_20260502.png?v=21c614c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5a53938f72",
+          "name": "Bournemouth AFC vs Crystal Palace | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a53938f72",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5a53938f72",
+                  "name": "Bournemouth AFC vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-5a53938f72",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Bournemouth AFC",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/240b30d333c97d293752ab7afd77ccd6.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/42396d18444156e640c37476c2b41b93.png",
+            "time": "20:00 03/05",
+            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5a53938f72_a4f4c03a_20260502.png?v=a4f4c03a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-036f236c03",
+          "name": "Manchester United vs Liverpool | 21:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-036f236c03",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-036f236c03",
+                  "name": "Manchester United vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-036f236c03",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Manchester United",
+            "team_b": "Liverpool",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d39ce586fd7278342dde33b3090b3f75.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
+            "time": "21:30 03/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-036f236c03_55d2e7f5_20260502.png?v=55d2e7f5",
             "width": 1600,
             "height": 1200
           }
