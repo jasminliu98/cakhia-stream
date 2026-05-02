@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (19 LIVE)",
+      "name": "⚽ Bóng đá (18 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -44,28 +44,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-af9d49299a",
+                          "id": "lnk-59afc1dfc7",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5dcb136518_145208/index.m3u8?expire=1778325297",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-54bba9405a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/992b1ccf948ce9a7e1353ffc7afa3060/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -721,8 +704,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "North Korea Women U17",
             "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/cd279f680e9b1ecac849d401582cc1d3.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A MU",
             "is_live": true,
@@ -732,7 +715,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_d655adce_20260502.png?v=d655adce",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_e37a55ad_20260502.png?v=e37a55ad",
             "width": 1600,
             "height": 1200
           }
@@ -1117,28 +1100,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0b166a7a74",
+                          "id": "lnk-a096f71913",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d60336518_145187/index.m3u8?expire=1778323587",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-be491f05be",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c1c1f7ea9df9c7aeb15e7d2b99911f17/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1442,77 +1408,6 @@
           }
         },
         {
-          "id": "kaytee-d5926eecce",
-          "name": "Malut United vs Persis Solo FC | 19:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5926eecce",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d5926eecce",
-                  "name": "Malut United vs Persis Solo FC",
-                  "streams": [
-                    {
-                      "id": "st-d5926eecce",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f48a99f29b",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5e22d36518_146847/index.m3u8?expire=1778326701",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Malut United",
-            "team_b": "Persis Solo FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2a0ed6cd242323e53d426715a55aedc0.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/46e87ccb8a5cacc290719d822b9f8fe1.png",
-            "time": "19:00 02/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d5926eecce_3018390b_20260502.png?v=3018390b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-384bc8eb98",
           "name": "Almere City FC vs Den Bosch | 19:00 02/05",
           "type": "single",
@@ -1628,11 +1523,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a7da67cb90",
+                          "id": "lnk-3712b4f8b9",
                           "name": "GIÀNG A ĐỎ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5e44236518_145503/index.m3u8?expire=1778327234",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c7792abca3",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1136499f0eb97df3111d06b7e5b43e6f/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3045,6 +2957,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a711d0e0d_00d00e0e_20260502.png?v=00d00e0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-061600ebfa",
+          "name": "AFC Ajax vs PSV Eindhoven | 01:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-061600ebfa",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-061600ebfa",
+                  "name": "AFC Ajax vs PSV Eindhoven",
+                  "streams": [
+                    {
+                      "id": "st-061600ebfa",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eredivisie",
+            "team_a": "AFC Ajax",
+            "team_b": "PSV Eindhoven",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/187929503752357480bce47813a9741f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png",
+            "time": "01:00 03/05",
+            "blv": "GIÀNG A ĐẬU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-061600ebfa_45147369_20260502.png?v=45147369",
             "width": 1600,
             "height": 1200
           }
