@@ -660,28 +660,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a88c73a458",
+                          "id": "lnk-147227fc89",
                           "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5984c36518_145419/index.m3u8?expire=1778307788",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7299d56c34",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/27c80d5e1924b4f9fdfd190aef4c60e3/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -822,6 +805,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e2bafdb1b_3499023d_20260502.png?v=3499023d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a084d0ae47",
+          "name": "Japan (w) U17 vs Lebanon U17 Women | 14:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a084d0ae47",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a084d0ae47",
+                  "name": "Japan (w) U17 vs Lebanon U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-a084d0ae47",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Japan (w) U17",
+            "team_b": "Lebanon U17 Women",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "time": "14:30 02/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_7a14778e_20260502.png?v=7a14778e",
             "width": 1600,
             "height": 1200
           }
