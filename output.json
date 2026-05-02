@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-b4c0a25d69",
-          "name": "NEC Nijmegen vs SC Telstar | 02:10 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c0a25d69",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b4c0a25d69",
-                  "name": "NEC Nijmegen vs SC Telstar",
-                  "streams": [
-                    {
-                      "id": "st-b4c0a25d69",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69ca678281",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f646494841e_145575/index.m3u8?expire=1778352329",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "NEC Nijmegen",
-            "team_b": "SC Telstar",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f2e98454cf2fc81dea92c1401521eac1.png",
-            "time": "02:10 03/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b4c0a25d69_01fae8da_20260503.png?v=01fae8da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3c2047ad03",
           "name": "FC Porto vs Alverca | 02:30 03/05",
