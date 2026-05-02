@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-48d82cdee2",
-          "name": "Villarreal CF vs Levante | 19:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48d82cdee2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-48d82cdee2",
-                  "name": "Villarreal CF vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-48d82cdee2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2729fe0d7",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5df974841e_145238/index.m3u8?expire=1778326039",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c63b724af3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fb43a8e21991a939e3c8815e0bcf2c8d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Villarreal CF",
-            "team_b": "Levante",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/aee62af96a956756cc29fe4831286357.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png",
-            "time": "19:00 02/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48d82cdee2_d10d5028_20260502.png?v=d10d5028",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9639c76705",
           "name": "Binh Phuoc vs TP Ho Chi Minh II | 19:15 02/05",
