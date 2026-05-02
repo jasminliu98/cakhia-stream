@@ -836,11 +836,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f09a988f35",
+                          "id": "lnk-10407d01d1",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f61a8c4841e_145407/index.m3u8?expire=1778341132",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-96c2cba753",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b86b1d072041973defeb29c9b7f6c1f5/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -907,7 +924,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-4d6c173131",
+                          "id": "lnk-eca808e1d4",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
@@ -924,7 +941,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-50dfec5bd8",
+                          "id": "lnk-626c531687",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/06d97a3f86c8c96fb371c040bedd6b6d/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d236ac5333",
                           "name": "GIÀNG A BÁO",
                           "type": "hls",
                           "default": false,
@@ -968,8 +1002,8 @@
           }
         },
         {
-          "id": "kaytee-2f1ee72e78",
-          "name": "CSKA Moscow vs Zenit St. Petersburg | 23:00 02/05",
+          "id": "kaytee-4f0731fb38",
+          "name": "Damac vs Al Khaleej Club | 23:10 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -983,23 +1017,23 @@
           ],
           "sources": [
             {
-              "id": "src-2f1ee72e78",
+              "id": "src-4f0731fb38",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-2f1ee72e78",
-                  "name": "CSKA Moscow vs Zenit St. Petersburg",
+                  "id": "ct-4f0731fb38",
+                  "name": "Damac vs Al Khaleej Club",
                   "streams": [
                     {
-                      "id": "st-2f1ee72e78",
+                      "id": "st-4f0731fb38",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f8bf73cad0",
-                          "name": "GIÀNG A ĐẬU",
+                          "id": "lnk-31bd5aa352",
+                          "name": "GIÀNG A LUNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f618ac4841e_145169/index.m3u8?expire=1778340652",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5eb9236518_145422/index.m3u8?expire=1778329106",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1019,59 +1053,6 @@
             }
           ],
           "org_metadata": {
-            "league": "Russian Premier League",
-            "team_a": "CSKA Moscow",
-            "team_b": "Zenit St. Petersburg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1eae81e51945df5660e24dc6f0ea353c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/19d5361bfdffa4bfc2f936cbb65fd317.png",
-            "time": "23:00 02/05",
-            "blv": "GIÀNG A ĐẬU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2f1ee72e78_ffc5e1fc_20260502.png?v=ffc5e1fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-4f0731fb38",
-          "name": "Damac vs Al Khaleej Club | 23:10 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4f0731fb38",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4f0731fb38",
-                  "name": "Damac vs Al Khaleej Club",
-                  "streams": [
-                    {
-                      "id": "st-4f0731fb38",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "Saudi Professional League",
             "team_a": "Damac",
             "team_b": "Al Khaleej Club",
@@ -1079,7 +1060,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6d48cbd483dee74ed9aef387bb082d64.png",
             "time": "23:10 02/05",
             "blv": "GIÀNG A LUNG",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1829,6 +1810,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3c2047ad03_f22b49fb_20260502.png?v=f22b49fb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3a17a5e4af",
+          "name": "Dong Thap vs PVF-CAND B | 16:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a17a5e4af",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3a17a5e4af",
+                  "name": "Dong Thap vs PVF-CAND B",
+                  "streams": [
+                    {
+                      "id": "st-3a17a5e4af",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Dong Thap",
+            "team_b": "PVF-CAND B",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/aaf7ff777567dba636caf52a05a45c31.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7d3a984bcf764b1e85663cdfaafce243.png",
+            "time": "16:00 03/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3a17a5e4af_fced116f_20260502.png?v=fced116f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ad787526d7",
+          "name": "Ba Ria Vung Tau FC vs Quy Nhơn United | 16:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad787526d7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ad787526d7",
+                  "name": "Ba Ria Vung Tau FC vs Quy Nhơn United",
+                  "streams": [
+                    {
+                      "id": "st-ad787526d7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Ba Ria Vung Tau FC",
+            "team_b": "Quy Nhơn United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5e40ed1f6779e1fcfb55c259e36746da.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
+            "time": "16:00 03/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ad787526d7_85517aad_20260502.png?v=85517aad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a6b66b5dc2",
+          "name": "Khatoco Khanh Hoa vs Xuân Thiện Phú Thọ | 17:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6b66b5dc2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a6b66b5dc2",
+                  "name": "Khatoco Khanh Hoa vs Xuân Thiện Phú Thọ",
+                  "streams": [
+                    {
+                      "id": "st-a6b66b5dc2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Khatoco Khanh Hoa",
+            "team_b": "Xuân Thiện Phú Thọ",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6d4c74bfc709d561f3bed627af4218f3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a3fa1f2bd7dbd79b0c531417b56647d6.png",
+            "time": "17:00 03/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a6b66b5dc2_77bf7482_20260502.png?v=77bf7482",
             "width": 1600,
             "height": 1200
           }
