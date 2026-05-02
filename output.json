@@ -11,275 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-65c28cc158",
-          "name": "Incheon United Club vs Gangwon Football Club | 14:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65c28cc158",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-65c28cc158",
-                  "name": "Incheon United Club vs Gangwon Football Club",
-                  "streams": [
-                    {
-                      "id": "st-65c28cc158",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59315bd489",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f59d8a4841e_146781/index.m3u8?expire=1778309130",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9ee5ca34fa",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fa1ed26f980f1fb856396147bd6a3116/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Incheon United Club",
-            "team_b": "Gangwon Football Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "time": "14:30 02/05",
-            "blv": "GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-65c28cc158_230cdb1f_20260502.png?v=230cdb1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-8e2bafdb1b",
-          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors | 14:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e2bafdb1b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8e2bafdb1b",
-                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-8e2bafdb1b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-faf81ebc57",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5a22636518_146331/index.m3u8?expire=1778310310",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-16a5f5ab27",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/344ea52edec44c598fa8dbf51ea0d11b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeju SK FC",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
-            "time": "14:30 02/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e2bafdb1b_3499023d_20260502.png?v=3499023d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-d2bf8ea9d5",
-          "name": "Korea Rep. (w) U17 vs Philippines U17 Women | 14:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2bf8ea9d5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d2bf8ea9d5",
-                  "name": "Korea Rep. (w) U17 vs Philippines U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-d2bf8ea9d5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80a184104b",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5a1204841e_146091/index.m3u8?expire=1778310048",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b37b201399",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4bf08d6fc777e2407cf2a0a1153b5507/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Korea Rep. (w) U17",
-            "team_b": "Philippines U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "time": "14:30 02/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2bf8ea9d5_d52a6b2f_20260502.png?v=d52a6b2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-0e1bb610b5",
           "name": "Persebaya Surabaya vs PSBS Biak Numfor  | 15:30 02/05",
@@ -435,6 +171,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c91de7f07d_658d710f_20260502.png?v=658d710f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-41ca50538c",
+          "name": "Melbourne Victory vs Sydney FC | 16:40 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41ca50538c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-41ca50538c",
+                  "name": "Melbourne Victory vs Sydney FC",
+                  "streams": [
+                    {
+                      "id": "st-41ca50538c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c700d29ab0",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5c33b36518_146781/index.m3u8?expire=1778318779",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia A-League",
+            "team_a": "Melbourne Victory",
+            "team_b": "Sydney FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c540f8f279c09a2a3df1cbbfe82d7184.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a0c772584c00e1b6efd1c421344cd005.png",
+            "time": "16:40 02/05",
+            "blv": "GIÀNG A BÉO",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-41ca50538c_7c455a01_20260502.png?v=7c455a01",
             "width": 1600,
             "height": 1200
           }
