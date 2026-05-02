@@ -599,6 +599,59 @@
           }
         },
         {
+          "id": "kaytee-edae81d980",
+          "name": "Watford vs Coventry City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edae81d980",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-edae81d980",
+                  "name": "Watford vs Coventry City",
+                  "streams": [
+                    {
+                      "id": "st-edae81d980",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Watford",
+            "team_b": "Coventry City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/31f7d5503f385d972d51ec447809a8a4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/759f19ccaecadd33a5c09b535e543410.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-edae81d980_66a31266_20260502.png?v=66a31266",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-5002bf2071",
           "name": "Australia Women U17 vs India (w) U17 | 18:30 02/05",
           "type": "single",
@@ -647,6 +700,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5002bf2071_e3539074_20260502.png?v=e3539074",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-511777b261",
+          "name": "North Korea Women U17 vs Chinese Taipei U17 Women | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-511777b261",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-511777b261",
+                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-511777b261",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_e37a55ad_20260502.png?v=e37a55ad",
             "width": 1600,
             "height": 1200
           }
@@ -864,59 +970,6 @@
           }
         },
         {
-          "id": "kaytee-edae81d980",
-          "name": "Watford vs Coventry City | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edae81d980",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-edae81d980",
-                  "name": "Watford vs Coventry City",
-                  "streams": [
-                    {
-                      "id": "st-edae81d980",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Watford",
-            "team_b": "Coventry City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/31f7d5503f385d972d51ec447809a8a4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/759f19ccaecadd33a5c09b535e543410.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A SIK",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-edae81d980_66a31266_20260502.png?v=66a31266",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-eda56528d6",
           "name": "Wrexham vs Middlesbrough | 18:30 02/05",
           "type": "single",
@@ -965,59 +1018,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eda56528d6_c85e0c7f_20260502.png?v=c85e0c7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-511777b261",
-          "name": "North Korea Women U17 vs Chinese Taipei U17 Women | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-511777b261",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-511777b261",
-                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-511777b261",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "North Korea Women U17",
-            "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A MU",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_e37a55ad_20260502.png?v=e37a55ad",
             "width": 1600,
             "height": 1200
           }
@@ -1698,7 +1698,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/ef19a84a6745fe57aa786873d2b18e8a.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
             "time": "20:30 02/05",
-            "blv": "GIÀNG A TRỀ",
+            "blv": "GIÀNG A TRỀ, BLV Simon",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
