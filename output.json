@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-2faeceaca7",
-          "name": "Como vs Napoli | 23:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2faeceaca7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2faeceaca7",
-                  "name": "Como vs Napoli",
-                  "streams": [
-                    {
-                      "id": "st-2faeceaca7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eca808e1d4",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6105f36518_145223/index.m3u8?expire=1778338527",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-626c531687",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/06d97a3f86c8c96fb371c040bedd6b6d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d236ac5333",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f60bdf36518_145274/index.m3u8?expire=1778337375",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Como",
-            "team_b": "Napoli",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5f7059f40965e5a2cc00987e6bac2f32.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/37ed13d27edccd30e053167962c02b3a.png",
-            "time": "23:00 02/05",
-            "blv": "GIÀNG A MAO, GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2faeceaca7_89820e92_20260503.png?v=89820e92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-068d3965bc",
           "name": "Arsenal vs Fulham | 23:30 02/05",
           "type": "single",
@@ -750,6 +645,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-061600ebfa_45147369_20260503.png?v=45147369",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c804db5b71",
+          "name": "Al-Hazm vs Al Hilal | 01:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c804db5b71",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c804db5b71",
+                  "name": "Al-Hazm vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-c804db5b71",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e8d8d4744",
+                          "name": "GIÀNG A BÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f63bba4841e_145274/index.m3u8?expire=1778349626",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Hazm",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0459eff25f56626beed63c97e0e67dcf.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/07a555616afab7be32e00150eacf4197.png",
+            "time": "01:00 03/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c804db5b71_326e7f40_20260503.png?v=326e7f40",
             "width": 1600,
             "height": 1200
           }
@@ -2398,6 +2364,112 @@
           }
         },
         {
+          "id": "kaytee-cb1775aca7",
+          "name": "FC St. Pauli vs 1. FSV Mainz 05 | 20:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb1775aca7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cb1775aca7",
+                  "name": "FC St. Pauli vs 1. FSV Mainz 05",
+                  "streams": [
+                    {
+                      "id": "st-cb1775aca7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "FC St. Pauli",
+            "team_b": "1. FSV Mainz 05",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/65503b155488a643de688e8dfa849b1f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
+            "time": "20:30 03/05",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cb1775aca7_88a84d6e_20260503.png?v=88a84d6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5fb9d6b26d",
+          "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fb9d6b26d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5fb9d6b26d",
+                  "name": "Getafe vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-5fb9d6b26d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Getafe",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5005d8feab109ce64e40beb98073cc1f.png",
+            "time": "21:15 03/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fb9d6b26d_25d45d2a_20260503.png?v=25d45d2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-036f236c03",
           "name": "Manchester United vs Liverpool | 21:30 03/05",
           "type": "single",
@@ -2446,6 +2518,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-036f236c03_55d2e7f5_20260503.png?v=55d2e7f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-985816d130",
+          "name": "Casa Pia AC vs CD Tondela | 21:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-985816d130",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-985816d130",
+                  "name": "Casa Pia AC vs CD Tondela",
+                  "streams": [
+                    {
+                      "id": "st-985816d130",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Casa Pia AC",
+            "team_b": "CD Tondela",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
+            "time": "21:30 03/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-985816d130_38d6ed5c_20260503.png?v=38d6ed5c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e4bf7bad7c",
+          "name": "Barcelona (w) vs Bayern Munchen (w) | 21:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e4bf7bad7c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e4bf7bad7c",
+                  "name": "Barcelona (w) vs Bayern Munchen (w)",
+                  "streams": [
+                    {
+                      "id": "st-e4bf7bad7c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Barcelona (w)",
+            "team_b": "Bayern Munchen (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
+            "time": "21:30 03/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4bf7bad7c_6d04c362_20260503.png?v=6d04c362",
             "width": 1600,
             "height": 1200
           }
