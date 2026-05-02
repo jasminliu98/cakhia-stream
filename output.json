@@ -1428,6 +1428,218 @@
           }
         },
         {
+          "id": "kaytee-5002bf2071",
+          "name": "Australia Women U17 vs India (w) U17 | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5002bf2071",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5002bf2071",
+                  "name": "Australia Women U17 vs India (w) U17",
+                  "streams": [
+                    {
+                      "id": "st-5002bf2071",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Australia Women U17",
+            "team_b": "India (w) U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a18a24058618b5ef80eec61300f85999.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5002bf2071_e3539074_20260502.png?v=e3539074",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-511777b261",
+          "name": "North Korea Women U17 vs Chinese Taipei U17 Women | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-511777b261",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-511777b261",
+                  "name": "North Korea Women U17 vs Chinese Taipei U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-511777b261",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "North Korea Women U17",
+            "team_b": "Chinese Taipei U17 Women",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A NÚI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_e37a55ad_20260502.png?v=e37a55ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ce31cb6a79",
+          "name": "Blackburn Rovers vs Leicester City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce31cb6a79",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ce31cb6a79",
+                  "name": "Blackburn Rovers vs Leicester City",
+                  "streams": [
+                    {
+                      "id": "st-ce31cb6a79",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Blackburn Rovers",
+            "team_b": "Leicester City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d8ae192476c8c5883682978c994ebe5b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/37aec5cf94aa5fa74a012b5413d52d06.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce31cb6a79_b8e51b6a_20260502.png?v=b8e51b6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-93b47472e2",
+          "name": "Bristol City vs Stoke City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93b47472e2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-93b47472e2",
+                  "name": "Bristol City vs Stoke City",
+                  "streams": [
+                    {
+                      "id": "st-93b47472e2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Bristol City",
+            "team_b": "Stoke City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e76b7c07aa13158e4041c101a87578dc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6a4f2c8cdb5a0e6516d7dea8e17f320b.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-93b47472e2_68946f31_20260502.png?v=68946f31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-9f525ce7bd",
           "name": "Ipswich Town vs Queens Park Rangers | 18:30 02/05",
           "type": "single",
@@ -1730,7 +1942,7 @@
             "team_a": "FC Nantes",
             "team_b": "Marseille",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0dc4b45524350a50a4d3276a2525693f.png",
             "time": "20:00 02/05",
             "blv": "GIÀNG A MAO",
             "is_live": false,
@@ -1740,7 +1952,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_45712926_20260502.png?v=45712926",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_ea33b6be_20260502.png?v=ea33b6be",
             "width": 1600,
             "height": 1200
           }
