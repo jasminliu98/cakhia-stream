@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (12 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1097,10 +1097,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1115,7 +1115,42 @@
                     {
                       "id": "st-c55f4a4e01",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ccc9e7dd6",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f601d936518_145238/index.m3u8?expire=1778334809",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-75bbc6792f",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/982a70da05abde270a0f84d88a43f5f3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1130,7 +1165,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
             "time": "21:15 02/05",
             "blv": "GIÀNG A GIÀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2498,153 +2533,11 @@
     },
     {
       "id": "cate_2",
-      "name": "🥊 Võ Thuật (2 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-8275855027",
-          "name": "Jack Della Maddalena vs Carlos Prates | 15:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8275855027",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8275855027",
-                  "name": "Jack Della Maddalena vs Carlos Prates",
-                  "streams": [
-                    {
-                      "id": "st-8275855027",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-547c5a6dce",
-                          "name": "GIÀNG A XẢ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5a65f36518_146055/index.m3u8?expire=1778311391",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC FIGHT NIGHT",
-            "team_a": "Jack Della Maddalena",
-            "team_b": "Carlos Prates",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/b9e31f1791c6ae88ad7fb2c0f3257346.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/55c3532f8fe1f442cc0542a7b4fd8513.png",
-            "time": "15:00 02/05",
-            "blv": "GIÀNG A XẢ",
-            "is_live": true,
-            "cate_name": "Võ Thuật"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8275855027_054a48a0_20260502.png?v=054a48a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-1320998d9d",
-          "name": "Naoya Inoue vs Junto Nakatani | 17:40 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1320998d9d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1320998d9d",
-                  "name": "Naoya Inoue vs Junto Nakatani",
-                  "streams": [
-                    {
-                      "id": "st-1320998d9d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8196e0384e",
-                          "name": "Giàng A Dập",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5cf3236518_145509/index.m3u8?expire=1778321842",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super Bantamweight Men IBF/WBC/WBO Titles",
-            "team_a": "Naoya Inoue",
-            "team_b": "Junto Nakatani",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/6e6dcf3d1742a04294493e0415e0586f.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/e38230f2fada00ee53851d6b02ec9807.png",
-            "time": "17:40 02/05",
-            "blv": "Giàng A Dập",
-            "is_live": true,
-            "cate_name": "Võ Thuật"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1320998d9d_1dc8bffc_20260502.png?v=1dc8bffc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1b3c59374e",
           "name": "Khamzat Chimaev vs Sean Strickland | 06:00 10/05",
