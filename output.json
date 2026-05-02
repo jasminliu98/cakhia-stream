@@ -11,221 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-068d3965bc",
-          "name": "Arsenal vs Fulham | 23:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-068d3965bc",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-068d3965bc",
-                  "name": "Arsenal vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-068d3965bc",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c67406bd2",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f61e3a4841e_145821/index.m3u8?expire=1778342074",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b5228bc645",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/ad9b5d68fcbbd0bc813eec6387dad113/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a27885dc61",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f61f9036518_145689/index.m3u8?expire=1778342416",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Arsenal",
-            "team_b": "Fulham",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/29982511f1ea861967c3e6478d6a8a68.png",
-            "time": "23:30 02/05",
-            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-068d3965bc_b2f88f40_20260503.png?v=b2f88f40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-4af755c29a",
-          "name": "Deportivo Alavés vs Athletic Club | 23:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4af755c29a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4af755c29a",
-                  "name": "Deportivo Alavés vs Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-4af755c29a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a554f1edf",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6202236518_145199/index.m3u8?expire=1778342562",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-17cb0dca91",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2645834090892f69ca8918b51e36ac05/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-131946793f",
-                          "name": "GIÀNG A SIK",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f61ee736518_145268/index.m3u8?expire=1778342247",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Deportivo Alavés",
-            "team_b": "Athletic Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/abbb31d42c55612737713aac6567a226.png",
-            "time": "23:30 02/05",
-            "blv": "GIÀNG A RON, GIÀNG A SIK",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4af755c29a_326a9f27_20260503.png?v=326a9f27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-19cea37d06",
           "name": "Groningen vs Excelsior SBV | 23:45 02/05",
@@ -745,10 +535,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -763,7 +553,25 @@
                     {
                       "id": "st-11c9ca42a2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7098f454fc",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f63ef136518_145419/index.m3u8?expire=1778350449",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -778,7 +586,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/51474fb68c7da46b9c20ebddccec7766.png",
             "time": "01:45 03/05",
             "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -3168,8 +2976,8 @@
             "league": "National Basketball Association",
             "team_a": "Boston Celtics",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/884c1c1f5db46c170df3c34a8e213ec9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/884c1c1f5db46c170df3c34a8e213ec9.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "06:30 03/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -3179,7 +2987,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_7672b8a7_20260503.png?v=7672b8a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1abfb8bd4_55739afe_20260503.png?v=55739afe",
             "width": 1600,
             "height": 1200
           }
