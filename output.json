@@ -589,11 +589,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8cb5c006c2",
+                          "id": "lnk-60b2a8d989",
                           "name": "GIÀNG A LUNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5e07236518_145422/index.m3u8?expire=1778326258",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-76fac85e23",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1ab99bb72a9a215a7052397836880de2/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -704,8 +721,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "North Korea Women U17",
             "team_b": "Chinese Taipei U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/702d8e982ec231766ec875424c555d0e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/cd279f680e9b1ecac849d401582cc1d3.png",
             "time": "18:30 02/05",
             "blv": "GIÀNG A MU",
             "is_live": true,
@@ -715,7 +732,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_e37a55ad_20260502.png?v=e37a55ad",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-511777b261_d655adce_20260502.png?v=d655adce",
             "width": 1600,
             "height": 1200
           }
@@ -1100,11 +1117,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a096f71913",
+                          "id": "lnk-0b166a7a74",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d60336518_145187/index.m3u8?expire=1778323587",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-be491f05be",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c1c1f7ea9df9c7aeb15e7d2b99911f17/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
