@@ -3297,7 +3297,7 @@
     },
     {
       "id": "cate_2",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3381,10 +3381,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3399,7 +3399,25 @@
                     {
                       "id": "st-1320998d9d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8196e0384e",
+                          "name": "Giàng A Dập",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5cf3236518_145509/index.m3u8?expire=1778321842",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -3414,7 +3432,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/e38230f2fada00ee53851d6b02ec9807.png",
             "time": "17:40 02/05",
             "blv": "Giàng A Dập",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Võ Thuật"
           },
           "image": {
