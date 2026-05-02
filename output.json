@@ -1626,7 +1626,7 @@
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
             "time": "18:30 02/05",
-            "blv": "GIÀNG A NÚI",
+            "blv": "GIÀNG A MU",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -3738,6 +3738,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8d66a0f55a_5eb26a15_20260502.png?v=5eb26a15",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-63c54b9fee",
+          "name": "Bielsko-Biala vs GKS Katowice | 17:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63c54b9fee",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-63c54b9fee",
+                  "name": "Bielsko-Biala vs GKS Katowice",
+                  "streams": [
+                    {
+                      "id": "st-63c54b9fee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "I. Liga",
+            "team_a": "Bielsko-Biala",
+            "team_b": "GKS Katowice",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9ac72d7d69a7ded1bd3302fd5c5e8229.jpg",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
+            "time": "17:30 03/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63c54b9fee_512db943_20260502.png?v=512db943",
             "width": 1600,
             "height": 1200
           }
