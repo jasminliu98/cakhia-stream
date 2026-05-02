@@ -1375,6 +1375,59 @@
           }
         },
         {
+          "id": "kaytee-2ef3e0d083",
+          "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ef3e0d083",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2ef3e0d083",
+                  "name": "Sheffield Wednesday vs West Bromwich Albion",
+                  "streams": [
+                    {
+                      "id": "st-2ef3e0d083",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Sheffield Wednesday",
+            "team_b": "West Bromwich Albion",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/967493e73d52e5d6f1dda29b7b76eaa2.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2ef3e0d083_50fe5ea3_20260502.png?v=50fe5ea3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-eda56528d6",
           "name": "Wrexham vs Middlesbrough | 18:30 02/05",
           "type": "single",
