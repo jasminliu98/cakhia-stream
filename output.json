@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -469,94 +469,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3e223e4121_f5cd04f9_20260503.png?v=f5cd04f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-f355376ff1",
-          "name": "NEC Nijmegen vs SC Telstar | 02:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f355376ff1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f355376ff1",
-                  "name": "NEC Nijmegen vs SC Telstar",
-                  "streams": [
-                    {
-                      "id": "st-f355376ff1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0da1b40c84",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f646494841e_145575/index.m3u8?expire=1778352329",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-68ea15443a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f7acb5c3bd42c9aa23de67d485311c68/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "NEC Nijmegen",
-            "team_b": "SC Telstar",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f2e98454cf2fc81dea92c1401521eac1.png",
-            "time": "02:00 03/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f355376ff1_01fae8da_20260503.png?v=01fae8da",
             "width": 1600,
             "height": 1200
           }
