@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-061600ebfa_45147369_20260503.png?v=45147369",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c804db5b71",
-          "name": "Al-Hazm vs Al Hilal | 01:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c804db5b71",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c804db5b71",
-                  "name": "Al-Hazm vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-c804db5b71",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26a4a26eb8",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f63bba4841e_145274/index.m3u8?expire=1778349626",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d98df70749",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2c5ba32082db1542e06f8d6b31932294/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Hazm",
-            "team_b": "Al Hilal",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0459eff25f56626beed63c97e0e67dcf.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/07a555616afab7be32e00150eacf4197.png",
-            "time": "01:00 03/05",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c804db5b71_326e7f40_20260503.png?v=326e7f40",
             "width": 1600,
             "height": 1200
           }
