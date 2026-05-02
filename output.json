@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-154c6a053c",
-          "name": "OGC Nice vs RC Lens | 02:05 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-154c6a053c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-154c6a053c",
-                  "name": "OGC Nice vs RC Lens",
-                  "streams": [
-                    {
-                      "id": "st-154c6a053c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da31d891d5",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6439e4841e_146781/index.m3u8?expire=1778351646",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7fcf7f6aea",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4abb1ebb47a3ceadc33c877c2c2b2082/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b4e1192f83",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6440c36518_145698/index.m3u8?expire=1778351756",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "OGC Nice",
-            "team_b": "RC Lens",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ff8991853f7aabce7cb66f09cda0c58e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b8c5038ebb0e21b09a72008b7cb6219f.png",
-            "time": "02:05 03/05",
-            "blv": "GIÀNG A BÉO, GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-154c6a053c_d25e167f_20260503.png?v=d25e167f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b4c0a25d69",
           "name": "NEC Nijmegen vs SC Telstar | 02:10 03/05",
@@ -2413,6 +2308,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3a3c47226e_9edd1b26_20260503.png?v=9edd1b26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3bfa4baf50",
+          "name": "SC Freiburg vs VfL Wolfsburg | 00:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3bfa4baf50",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3bfa4baf50",
+                  "name": "SC Freiburg vs VfL Wolfsburg",
+                  "streams": [
+                    {
+                      "id": "st-3bfa4baf50",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SC Freiburg",
+            "team_b": "VfL Wolfsburg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
+            "time": "00:30 04/05",
+            "blv": "GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3bfa4baf50_349e7fb3_20260503.png?v=349e7fb3",
             "width": 1600,
             "height": 1200
           }
