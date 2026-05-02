@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-bfed503aea",
-          "name": "Fagiano Okayama vs Sanfrecce Hiroshima | 10:55 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bfed503aea",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-bfed503aea",
-                  "name": "Fagiano Okayama vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-bfed503aea",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01bc0d5776",
-                          "name": "GIÀNG A NÚI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f56e9636518_145611/index.m3u8?expire=1778297110",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f5751ba3cc",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d8894b077cdc5d45a723a308a84a31df/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Fagiano Okayama",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
-            "time": "10:55 02/05",
-            "blv": "GIÀNG A NÚI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bfed503aea_35783a31_20260502.png?v=35783a31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-34e705821f",
           "name": "FC Tokyo vs Kawasaki Frontale | 12:00 02/05",
@@ -660,11 +572,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-5e5fdeb90a",
+                          "id": "lnk-a0d6d2a590",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f58d6b4841e_145208/index.m3u8?expire=1778305003",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b8e37a868",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b40d9884b826e7a37b4039c8832f6656/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
