@@ -1183,6 +1183,59 @@
           }
         },
         {
+          "id": "kaytee-24965f8737",
+          "name": "Portsmouth vs Birmingham City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-24965f8737",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-24965f8737",
+                  "name": "Portsmouth vs Birmingham City",
+                  "streams": [
+                    {
+                      "id": "st-24965f8737",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Portsmouth",
+            "team_b": "Birmingham City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2f360e96a024fd54255d0ed941e9075e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-24965f8737_d6c833d5_20260502.png?v=d6c833d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-48d82cdee2",
           "name": "Villarreal CF vs Levante | 19:00 02/05",
           "type": "single",
@@ -1231,6 +1284,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-48d82cdee2_d10d5028_20260502.png?v=d10d5028",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-384bc8eb98",
+          "name": "Almere City FC vs Den Bosch | 19:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-384bc8eb98",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-384bc8eb98",
+                  "name": "Almere City FC vs Den Bosch",
+                  "streams": [
+                    {
+                      "id": "st-384bc8eb98",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eerste Divisie",
+            "team_a": "Almere City FC",
+            "team_b": "Den Bosch",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6fc28fcf1969e983c6974c9f5b96b77c.PNG",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8b2d22b8802f8dc9942899365f5dd716.png",
+            "time": "19:00 02/05",
+            "blv": "GIÀNG A MÈN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-384bc8eb98_19fadb15_20260502.png?v=19fadb15",
             "width": 1600,
             "height": 1200
           }
