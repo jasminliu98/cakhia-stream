@@ -1799,6 +1799,59 @@
           }
         },
         {
+          "id": "kaytee-b44f4a671f",
+          "name": "Millwall vs Oxford United | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b44f4a671f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b44f4a671f",
+                  "name": "Millwall vs Oxford United",
+                  "streams": [
+                    {
+                      "id": "st-b44f4a671f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Millwall",
+            "team_b": "Oxford United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/61f530e22493ace89b5a47e2c6c045c5.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b44f4a671f_9a9b82e3_20260502.png?v=9a9b82e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-24965f8737",
           "name": "Portsmouth vs Birmingham City | 18:30 02/05",
           "type": "single",
@@ -1847,6 +1900,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-24965f8737_d6c833d5_20260502.png?v=d6c833d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cea0f6f778",
+          "name": "Preston North End vs Southampton | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cea0f6f778",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cea0f6f778",
+                  "name": "Preston North End vs Southampton",
+                  "streams": [
+                    {
+                      "id": "st-cea0f6f778",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Preston North End",
+            "team_b": "Southampton",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/dbad1348304545f3d121cfd3e59395ab.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A ĐẬU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cea0f6f778_b09ef6dc_20260502.png?v=b09ef6dc",
             "width": 1600,
             "height": 1200
           }
