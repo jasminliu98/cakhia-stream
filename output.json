@@ -2679,99 +2679,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e395df0fb5",
-          "name": "Toronto Raptors vs Cleveland Cavaliers | 06:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e395df0fb5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e395df0fb5",
-                  "name": "Toronto Raptors vs Cleveland Cavaliers",
-                  "streams": [
-                    {
-                      "id": "st-e395df0fb5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd3ab86797",
-                          "name": "GIÀNG A ĐỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f52c234841e_145247/index.m3u8?expire=1778280099",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-95fbb54de9",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d84fc9f095fbbdbaa85b106d693cf9a0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Toronto Raptors",
-            "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "time": "06:30 02/05",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e395df0fb5_659aa650_20260502.png?v=659aa650",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3af1a3add5",
           "name": "Houston Rockets vs Los Angeles Lakers | 08:30 02/05",
