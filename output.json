@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-1a4ac620e1",
-          "name": "Gamba Osaka vs Vissel Kobe | 13:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a4ac620e1",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1a4ac620e1",
-                  "name": "Gamba Osaka vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-1a4ac620e1",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0d6d2a590",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f58d6b4841e_145208/index.m3u8?expire=1778305003",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b8e37a868",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b40d9884b826e7a37b4039c8832f6656/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Gamba Osaka",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/91008a96b5de8c75376d17057f89890e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d85cce27ab583e5b3cead155f02b098a.png",
-            "time": "13:00 02/05",
-            "blv": "GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1a4ac620e1_2da6c1e5_20260502.png?v=2da6c1e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-65c28cc158",
           "name": "Incheon United Club vs Gangwon Football Club | 14:30 02/05",
@@ -353,7 +265,7 @@
             "team_a": "Japan (w) U17",
             "team_b": "Lebanon U17 Women",
             "logo_a": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
             "time": "14:30 02/05",
             "blv": "GIÀNG A MU",
             "is_live": true,
@@ -363,7 +275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_e087b2ab_20260502.png?v=e087b2ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_7a14778e_20260502.png?v=7a14778e",
             "width": 1600,
             "height": 1200
           }
@@ -440,8 +352,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Korea Rep. (w) U17",
             "team_b": "Philippines U17 Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
             "time": "14:30 02/05",
             "blv": "GIÀNG A XOÀI",
             "is_live": true,
@@ -451,7 +363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2bf8ea9d5_8920e49d_20260502.png?v=8920e49d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2bf8ea9d5_d52a6b2f_20260502.png?v=d52a6b2f",
             "width": 1600,
             "height": 1200
           }
