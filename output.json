@@ -1594,28 +1594,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3712b4f8b9",
+                          "id": "lnk-a7da67cb90",
                           "name": "GIÀNG A ĐỎ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5e44236518_145503/index.m3u8?expire=1778327234",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c7792abca3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1136499f0eb97df3111d06b7e5b43e6f/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1703,59 +1686,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a69917ac04_aac7f155_20260502.png?v=aac7f155",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c1ea088c15",
-          "name": "Lyon (w) vs Arsenal (w) | 20:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1ea088c15",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c1ea088c15",
-                  "name": "Lyon (w) vs Arsenal (w)",
-                  "streams": [
-                    {
-                      "id": "st-c1ea088c15",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Lyon (w)",
-            "team_b": "Arsenal (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/99415c256a9adec98819ca588bfa8974.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b61190e348449a746ef3f802e7ebc701.png",
-            "time": "20:00 02/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1ea088c15_1930abe2_20260502.png?v=1930abe2",
             "width": 1600,
             "height": 1200
           }
@@ -2012,7 +1942,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png",
             "time": "20:30 02/05",
-            "blv": "GIÀNG A RON",
+            "blv": "GIÀNG A KEN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
