@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-93654f2c3e_71fbe43b_20260502.png?v=71fbe43b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-acd4817b69",
-          "name": "Moreirense vs CF Estrela Amadora SAD | 21:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-acd4817b69",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-acd4817b69",
-                  "name": "Moreirense vs CF Estrela Amadora SAD",
-                  "streams": [
-                    {
-                      "id": "st-acd4817b69",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5f764e3313",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f605264841e_146847/index.m3u8?expire=1778335654",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33d5b870b5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d37e4253c0858b9ffab4711cf3cda525/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Moreirense",
-            "team_b": "CF Estrela Amadora SAD",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ee5b1bcc98e7232350988a477974fb26.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/606eca9e363f1c1e62542f8b23fdc71a.png",
-            "time": "21:30 02/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-acd4817b69_ed3f86fd_20260502.png?v=ed3f86fd",
             "width": 1600,
             "height": 1200
           }
@@ -1845,103 +1757,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-036f236c03_55d2e7f5_20260502.png?v=55d2e7f5",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-3e5615ebb6",
-          "name": "Mirra Andreeva vs Marta Kostyuk | 22:10 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e5615ebb6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3e5615ebb6",
-                  "name": "Mirra Andreeva vs Marta Kostyuk",
-                  "streams": [
-                    {
-                      "id": "st-3e5615ebb6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66beffddca",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f60d1436518_146088/index.m3u8?expire=1778337684",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0e76fb01df",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/6983d49e4bdd4b579bf3faf9902f6379/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Madrid, Spain Women Singles",
-            "team_a": "Mirra Andreeva",
-            "team_b": "Marta Kostyuk",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
-            "time": "22:10 02/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3e5615ebb6_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
