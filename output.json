@@ -1117,11 +1117,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a096f71913",
+                          "id": "lnk-0b166a7a74",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d60336518_145187/index.m3u8?expire=1778323587",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-be491f05be",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c1c1f7ea9df9c7aeb15e7d2b99911f17/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3030,6 +3047,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-c804db5b71",
+          "name": "Al-Hazm vs Al Hilal | 01:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c804db5b71",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c804db5b71",
+                  "name": "Al-Hazm vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-c804db5b71",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Hazm",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0459eff25f56626beed63c97e0e67dcf.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/07a555616afab7be32e00150eacf4197.png",
+            "time": "01:00 03/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c804db5b71_326e7f40_20260502.png?v=326e7f40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0dd7a1dfb3",
+          "name": "Schalke 04 vs Fortuna Dusseldorf | 01:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0dd7a1dfb3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0dd7a1dfb3",
+                  "name": "Schalke 04 vs Fortuna Dusseldorf",
+                  "streams": [
+                    {
+                      "id": "st-0dd7a1dfb3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "Schalke 04",
+            "team_b": "Fortuna Dusseldorf",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/4533ab7ef9ad5e53c981f7ea7bea7033.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/15820ab793d530ee9d101bde619a013f.png",
+            "time": "01:30 03/05",
+            "blv": "GIÀNG A MÈN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0dd7a1dfb3_533dcb6a_20260502.png?v=533dcb6a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3078,7 +3201,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -3088,7 +3211,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
