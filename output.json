@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (12 LIVE)",
+      "name": "⚽ Bóng đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9639c76705",
-          "name": "Binh Phuoc vs TP Ho Chi Minh II | 19:15 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9639c76705",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9639c76705",
-                  "name": "Binh Phuoc vs TP Ho Chi Minh II",
-                  "streams": [
-                    {
-                      "id": "st-9639c76705",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3712b4f8b9",
-                          "name": "GIÀNG A ĐỎ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5e44236518_145503/index.m3u8?expire=1778327234",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c7792abca3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1136499f0eb97df3111d06b7e5b43e6f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Binh Phuoc",
-            "team_b": "TP Ho Chi Minh II",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a9741c7972e214b1c312092c8b51acd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d6c94af253f905993d3aaf89b1c10415.png",
-            "time": "19:15 02/05",
-            "blv": "GIÀNG A ĐỎ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9639c76705_e018be34_20260502.png?v=e018be34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-a69917ac04",
           "name": "Udinese vs Torino | 20:00 02/05",
