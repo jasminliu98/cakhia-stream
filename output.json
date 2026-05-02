@@ -533,7 +533,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/9404836370542c222032ecea12e9b641.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/6d2cab607ba1b908c2c71225581b06ee.png",
             "time": "14:00 02/05",
-            "blv": "GIÀNG A MÓM",
+            "blv": "GIÀNG A DÂN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1867,6 +1867,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-93654f2c3e_71fbe43b_20260502.png?v=71fbe43b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-4389aff827",
+          "name": "FC Arouca vs Santa Clara | 21:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4389aff827",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4389aff827",
+                  "name": "FC Arouca vs Santa Clara",
+                  "streams": [
+                    {
+                      "id": "st-4389aff827",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "FC Arouca",
+            "team_b": "Santa Clara",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/04de5924a46acce3fb629534c4e039be.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0c5162e7f8371cb6972ca6413bf228e8.png",
+            "time": "21:30 02/05",
+            "blv": "GIÀNG A ĐỎ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4389aff827_08a2859f_20260502.png?v=08a2859f",
             "width": 1600,
             "height": 1200
           }
