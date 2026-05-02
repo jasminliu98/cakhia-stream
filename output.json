@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -640,10 +640,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -658,7 +658,25 @@
                     {
                       "id": "st-1a4ac620e1",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e5fdeb90a",
+                          "name": "GIÀNG A CÒI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f58d6b4841e_145208/index.m3u8?expire=1778305003",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -673,7 +691,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/d85cce27ab583e5b3cead155f02b098a.png",
             "time": "13:00 02/05",
             "blv": "GIÀNG A CÒI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1370,6 +1388,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_84b417c6_20260502.png?v=84b417c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-edf28b93f3",
+          "name": "Binh Phuoc vs TP Ho Chi Minh II | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edf28b93f3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-edf28b93f3",
+                  "name": "Binh Phuoc vs TP Ho Chi Minh II",
+                  "streams": [
+                    {
+                      "id": "st-edf28b93f3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Binh Phuoc",
+            "team_b": "TP Ho Chi Minh II",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a9741c7972e214b1c312092c8b51acd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d6c94af253f905993d3aaf89b1c10415.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A ĐỎ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-edf28b93f3_e018be34_20260502.png?v=e018be34",
             "width": 1600,
             "height": 1200
           }
@@ -2223,59 +2294,6 @@
           }
         },
         {
-          "id": "kaytee-9639c76705",
-          "name": "Binh Phuoc vs TP Ho Chi Minh II | 19:15 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9639c76705",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9639c76705",
-                  "name": "Binh Phuoc vs TP Ho Chi Minh II",
-                  "streams": [
-                    {
-                      "id": "st-9639c76705",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Binh Phuoc",
-            "team_b": "TP Ho Chi Minh II",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a9741c7972e214b1c312092c8b51acd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d6c94af253f905993d3aaf89b1c10415.png",
-            "time": "19:15 02/05",
-            "blv": "GIÀNG A ĐỎ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9639c76705_e018be34_20260502.png?v=e018be34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-a69917ac04",
           "name": "Udinese vs Torino | 20:00 02/05",
           "type": "single",
@@ -2329,6 +2347,59 @@
           }
         },
         {
+          "id": "kaytee-c1ea088c15",
+          "name": "Lyon (w) vs Arsenal (w) | 20:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1ea088c15",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c1ea088c15",
+                  "name": "Lyon (w) vs Arsenal (w)",
+                  "streams": [
+                    {
+                      "id": "st-c1ea088c15",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Lyon (w)",
+            "team_b": "Arsenal (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/99415c256a9adec98819ca588bfa8974.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b61190e348449a746ef3f802e7ebc701.png",
+            "time": "20:00 02/05",
+            "blv": "GIÀNG A KEN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c1ea088c15_1930abe2_20260502.png?v=1930abe2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-ebefc34e65",
           "name": "FC Nantes vs Marseille | 20:00 02/05",
           "type": "single",
@@ -2366,7 +2437,7 @@
             "team_a": "FC Nantes",
             "team_b": "Marseille",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0dc4b45524350a50a4d3276a2525693f.png",
             "time": "20:00 02/05",
             "blv": "GIÀNG A MAO",
             "is_live": false,
@@ -2376,7 +2447,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_45712926_20260502.png?v=45712926",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_ea33b6be_20260502.png?v=ea33b6be",
             "width": 1600,
             "height": 1200
           }
