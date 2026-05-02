@@ -572,7 +572,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6196dc3cf5",
+                          "id": "lnk-80ca7f97e7",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -589,7 +589,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-2e5e9c339b",
+                          "id": "lnk-22941ea00c",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/08c152a2c87886e6d3e1e939b2d06d5f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-368c4ae750",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": false,
@@ -3411,6 +3428,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63c54b9fee_512db943_20260503.png?v=512db943",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-fc5d19c8b5",
+          "name": "Minas vs Praia Clube | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc5d19c8b5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fc5d19c8b5",
+                  "name": "Minas vs Praia Clube",
+                  "streams": [
+                    {
+                      "id": "st-fc5d19c8b5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serbian Super liga",
+            "team_a": "Minas",
+            "team_b": "Praia Clube",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/3c7b81c382c8db8d4b80a565caed2f22.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/d2ab78e2097fe7ef9199b4b00a869c74.png",
+            "time": "20:00 03/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fc5d19c8b5_b487ca40_20260503.png?v=b487ca40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-460071f851",
+          "name": "Lube Civitanova vs Perugia | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-460071f851",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-460071f851",
+                  "name": "Lube Civitanova vs Perugia",
+                  "streams": [
+                    {
+                      "id": "st-460071f851",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superleague - Play-Offs - Quarterfinals",
+            "team_a": "Lube Civitanova",
+            "team_b": "Perugia",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1f197236ecdb06cc631fd907928d0014.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/9b7fc379f630acc2c9d58391e0ec3707.png",
+            "time": "23:00 03/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-460071f851_f5bc67c4_20260503.png?v=f5bc67c4",
             "width": 1600,
             "height": 1200
           }
