@@ -705,6 +705,59 @@
           }
         },
         {
+          "id": "kaytee-79df36fc26",
+          "name": "Hull City vs Norwich City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79df36fc26",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-79df36fc26",
+                  "name": "Hull City vs Norwich City",
+                  "streams": [
+                    {
+                      "id": "st-79df36fc26",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Hull City",
+            "team_b": "Norwich City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/262691204102d2200797f0ac34efb316.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-79df36fc26_9e550473_20260502.png?v=9e550473",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-2ef3e0d083",
           "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
           "type": "single",
@@ -1124,59 +1177,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2cec6bdaec_e915d789_20260502.png?v=e915d789",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-79df36fc26",
-          "name": "Hull City vs Norwich City | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79df36fc26",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-79df36fc26",
-                  "name": "Hull City vs Norwich City",
-                  "streams": [
-                    {
-                      "id": "st-79df36fc26",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Hull City",
-            "team_b": "Norwich City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/262691204102d2200797f0ac34efb316.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/86e6dba4cdc98b1dda1d25ea7d9eebfe.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-79df36fc26_9e550473_20260502.png?v=9e550473",
             "width": 1600,
             "height": 1200
           }
@@ -2977,7 +2977,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2987,7 +2987,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
             "width": 1600,
             "height": 1200
           }
