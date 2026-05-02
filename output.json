@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,182 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1a4ac620e1_2da6c1e5_20260502.png?v=2da6c1e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-5254828cb2",
-          "name": "Urawa Red Diamonds vs JEF United Ichihara Chiba | 14:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5254828cb2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5254828cb2",
-                  "name": "Urawa Red Diamonds vs JEF United Ichihara Chiba",
-                  "streams": [
-                    {
-                      "id": "st-5254828cb2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-622954ad8f",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5a30b36518_145476/index.m3u8?expire=1778310539",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8db6ac4827",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1c0e735ad44541931c60e2d949a6f4f3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Urawa Red Diamonds",
-            "team_b": "JEF United Ichihara Chiba",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-            "time": "14:00 02/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5254828cb2_cda2434e_20260502.png?v=cda2434e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-31ff62967a",
-          "name": "Melbourne Victory (w) vs Melbourne City Women | 14:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31ff62967a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-31ff62967a",
-                  "name": "Melbourne Victory (w) vs Melbourne City Women",
-                  "streams": [
-                    {
-                      "id": "st-31ff62967a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a88c73a458",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5984c36518_145419/index.m3u8?expire=1778307788",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7299d56c34",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/27c80d5e1924b4f9fdfd190aef4c60e3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia W-League",
-            "team_a": "Melbourne Victory (w)",
-            "team_b": "Melbourne City Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9404836370542c222032ecea12e9b641.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6d2cab607ba1b908c2c71225581b06ee.png",
-            "time": "14:00 02/05",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-31ff62967a_2310ed43_20260502.png?v=2310ed43",
             "width": 1600,
             "height": 1200
           }
@@ -529,7 +353,7 @@
             "team_a": "Japan (w) U17",
             "team_b": "Lebanon U17 Women",
             "logo_a": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5d0c20971b46597973cbf23b9bb0771b.png",
             "time": "14:30 02/05",
             "blv": "GIÀNG A MU",
             "is_live": true,
@@ -539,7 +363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_7a14778e_20260502.png?v=7a14778e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_e087b2ab_20260502.png?v=e087b2ab",
             "width": 1600,
             "height": 1200
           }
@@ -616,8 +440,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Korea Rep. (w) U17",
             "team_b": "Philippines U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ba5a270beff01e94d4c372e5283ee654.png",
             "time": "14:30 02/05",
             "blv": "GIÀNG A XOÀI",
             "is_live": true,
@@ -627,7 +451,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2bf8ea9d5_d52a6b2f_20260502.png?v=d52a6b2f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2bf8ea9d5_8920e49d_20260502.png?v=8920e49d",
             "width": 1600,
             "height": 1200
           }
@@ -731,28 +555,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d54047aaac",
+                          "id": "lnk-65c43f87ce",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5b6404841e_145575/index.m3u8?expire=1778315456",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e961e86ffd",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/9ed08bd34c17ddbbcd4af7399af5bbfc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
