@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (20 LIVE)",
+      "name": "⚽ Bóng đá (19 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-22073b2fa6",
-          "name": "FC Anyang vs Bucheon FC 1995 | 17:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22073b2fa6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-22073b2fa6",
-                  "name": "FC Anyang vs Bucheon FC 1995",
-                  "streams": [
-                    {
-                      "id": "st-22073b2fa6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-abeaf5e3ac",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5c50a36518_145467/index.m3u8?expire=1778319242",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-541bdf57e3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8cf0df6897187cc711e9e22b52649f52/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "FC Anyang",
-            "team_b": "Bucheon FC 1995",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/640f8c62cb294e1cc308a44ed2a62891.png",
-            "time": "17:00 02/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-22073b2fa6_23f669d7_20260502.png?v=23f669d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b9a777c2ec",
           "name": "Becamex Binh Duong vs CLB Thanh Hoa | 18:00 02/05",
@@ -1782,7 +1694,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/f0856c1b16c32245a8d2c702ffe89ac5.png",
             "time": "20:00 02/05",
-            "blv": "GIÀNG A BẢNH",
+            "blv": "GIÀNG A RON",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
