@@ -2276,6 +2276,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-6f70183e13",
+          "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f70183e13",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f70183e13",
+                  "name": "Aston Villa vs Tottenham Hotspur",
+                  "streams": [
+                    {
+                      "id": "st-6f70183e13",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Tottenham Hotspur",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a3c32d6a906083118cac2cb796edaab3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8b22ab4041e666b996a2d96f20dea707.png",
+            "time": "01:00 04/05",
+            "blv": "GIÀNG A MAO, GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f70183e13_5db88ee7_20260503.png?v=5db88ee7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6ab502d33c",
+          "name": "Al-Qadsiah vs Al Nassr FC | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ab502d33c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6ab502d33c",
+                  "name": "Al-Qadsiah vs Al Nassr FC",
+                  "streams": [
+                    {
+                      "id": "st-6ab502d33c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Qadsiah",
+            "team_b": "Al Nassr FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bc74439d19c8bbaa17c57406b120b86d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
+            "time": "01:00 04/05",
+            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6ab502d33c_937e39d2_20260503.png?v=937e39d2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
