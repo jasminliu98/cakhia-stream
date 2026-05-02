@@ -1450,7 +1450,7 @@
             "team_a": "FC Nantes",
             "team_b": "Marseille",
             "logo_a": "https://cdn.rapid-api.icu/football/team/3e8ecd181a512ff663ff60ec85c8bed1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0dc4b45524350a50a4d3276a2525693f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc4b45524350a50a4d3276a2525693f.png",
             "time": "20:00 02/05",
             "blv": "GIÀNG A MAO",
             "is_live": false,
@@ -1460,7 +1460,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_ea33b6be_20260502.png?v=ea33b6be",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ebefc34e65_45712926_20260502.png?v=45712926",
             "width": 1600,
             "height": 1200
           }
@@ -2774,8 +2774,8 @@
             "league": "National Basketball Association",
             "team_a": "Houston Rockets",
             "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/bcfe797437f18526ff4e62177021f638.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/fa6f985041ec3f9729172380ae9cebf8.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcfe797437f18526ff4e62177021f638.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
             "time": "08:30 02/05",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -2785,60 +2785,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_56d8d676_20260502.png?v=56d8d676",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-517d7df2e0",
-          "name": "Chiba Jets vs Altiri Chiba | 12:05 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-517d7df2e0",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-517d7df2e0",
-                  "name": "Chiba Jets vs Altiri Chiba",
-                  "streams": [
-                    {
-                      "id": "st-517d7df2e0",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "B1 League",
-            "team_a": "Chiba Jets",
-            "team_b": "Altiri Chiba",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/78966bd85f23715c200e909acd4f2780.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/401f46c4f2c7b56e0086cfea64072bbf.png",
-            "time": "12:05 02/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-517d7df2e0_6be35ae0_20260502.png?v=6be35ae0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_a4797175_20260502.png?v=a4797175",
             "width": 1600,
             "height": 1200
           }
