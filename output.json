@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (15 LIVE)",
+      "name": "⚽ Bóng đá (14 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-a69917ac04",
-          "name": "Udinese vs Torino | 20:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a69917ac04",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a69917ac04",
-                  "name": "Udinese vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-a69917ac04",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d9b6a9ece",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5f3b836518_145199/index.m3u8?expire=1778331192",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c031c3a144",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/3fe8ef40f039b475043133cb43994fce/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Udinese",
-            "team_b": "Torino",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f0856c1b16c32245a8d2c702ffe89ac5.png",
-            "time": "20:00 02/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a69917ac04_aac7f155_20260502.png?v=aac7f155",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-978580de0c",
           "name": "FC Bayern Munich vs 1. FC Heidenheim 1846 | 20:30 02/05",
