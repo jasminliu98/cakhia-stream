@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-34e705821f",
-          "name": "FC Tokyo vs Kawasaki Frontale | 12:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34e705821f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-34e705821f",
-                  "name": "FC Tokyo vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-34e705821f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c69531ade",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f57df236518_146781/index.m3u8?expire=1778301042",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7763b9960b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/63e01bdceb4dd2deafd216d0ddd93259/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/333df39860930a21cf72b4e9664723ab.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
-            "time": "12:00 02/05",
-            "blv": "GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-34e705821f_46c57e55_20260502.png?v=46c57e55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-f9309328b2",
-          "name": "Yokohama F. Marinos vs Mito Hollyhock | 12:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9309328b2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f9309328b2",
-                  "name": "Yokohama F. Marinos vs Mito Hollyhock",
-                  "streams": [
-                    {
-                      "id": "st-f9309328b2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-386e97cb93",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f57fa24841e_145575/index.m3u8?expire=1778301474",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-eb3af9b9e5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/cf04f196009ff37114ec281db34b3c2b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Yokohama F. Marinos",
-            "team_b": "Mito Hollyhock",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9ead844240532c4e12d3eb45d2087924.png",
-            "time": "12:00 02/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f9309328b2_e7efb1ea_20260502.png?v=e7efb1ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e9752df214",
           "name": "Kyoto Sanga vs Shimizu S-Pulse | 12:00 02/05",
@@ -281,8 +105,8 @@
           }
         },
         {
-          "id": "kaytee-7879f280cf",
-          "name": "Ulsan HD FC vs Pohang Steelers | 12:00 02/05",
+          "id": "kaytee-f9309328b2",
+          "name": "Yokohama F. Marinos vs Mito Hollyhock | 12:00 02/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -296,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-7879f280cf",
+              "id": "src-f9309328b2",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-7879f280cf",
-                  "name": "Ulsan HD FC vs Pohang Steelers",
+                  "id": "ct-f9309328b2",
+                  "name": "Yokohama F. Marinos vs Mito Hollyhock",
                   "streams": [
                     {
-                      "id": "st-7879f280cf",
+                      "id": "st-f9309328b2",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e14c16dbee",
-                          "name": "GIÀNG A MU",
+                          "id": "lnk-386e97cb93",
+                          "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f57e0936518_146208/index.m3u8?expire=1778301065",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f57fa24841e_145575/index.m3u8?expire=1778301474",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -325,11 +149,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-9ff9b61603",
+                          "id": "lnk-eb3af9b9e5",
                           "name": "Link nhà đài",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.alilicloud.com/live/464f4ff4c64141eb688106922aa4bc73/playlist.m3u8",
+                          "url": "https://live.alilicloud.com/live/cf04f196009ff37114ec281db34b3c2b/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -349,13 +173,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Ulsan HD FC",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fe07fb888ebcb282192332cb8aed21b1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6f05c460789939ac83282bd0686446f1.png",
+            "league": "Japanese J1 League",
+            "team_a": "Yokohama F. Marinos",
+            "team_b": "Mito Hollyhock",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/9ead844240532c4e12d3eb45d2087924.png",
             "time": "12:00 02/05",
-            "blv": "GIÀNG A MU",
+            "blv": "GIÀNG A NGỘ",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -363,183 +187,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7879f280cf_cfc6e569_20260502.png?v=cfc6e569",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-5b837f4b1a",
-          "name": "Football Club Seoul vs Gimcheon Sangmu Football Club | 12:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b837f4b1a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5b837f4b1a",
-                  "name": "Football Club Seoul vs Gimcheon Sangmu Football Club",
-                  "streams": [
-                    {
-                      "id": "st-5b837f4b1a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d943cfa25",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f57e3136518_146091/index.m3u8?expire=1778301105",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ad540e99bb",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f06b184be9ecb43d309083f32dfc819e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Football Club Seoul",
-            "team_b": "Gimcheon Sangmu Football Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4a3e50e90ab721c1782568a287bd5358.png",
-            "time": "12:00 02/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5b837f4b1a_fc84ac07_20260502.png?v=fc84ac07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-fc478698d7",
-          "name": "Auckland FC vs Melbourne City | 12:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc478698d7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-fc478698d7",
-                  "name": "Auckland FC vs Melbourne City",
-                  "streams": [
-                    {
-                      "id": "st-fc478698d7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b517de2f73",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f57c264841e_145467/index.m3u8?expire=1778300582",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5c325090ae",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/153a9d0600a973de47e3e77eb3792653/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia A-League",
-            "team_a": "Auckland FC",
-            "team_b": "Melbourne City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6eae40b446299cfb06316430ae387475.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c24f327d053d80fe6584b4c42d5cca13.png",
-            "time": "12:00 02/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fc478698d7_ceac5633_20260502.png?v=ceac5633",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f9309328b2_e7efb1ea_20260502.png?v=e7efb1ea",
             "width": 1600,
             "height": 1200
           }
@@ -757,59 +405,6 @@
           }
         },
         {
-          "id": "kaytee-8e2bafdb1b",
-          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors | 14:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e2bafdb1b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8e2bafdb1b",
-                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-8e2bafdb1b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeju SK FC",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
-            "time": "14:30 02/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e2bafdb1b_3499023d_20260502.png?v=3499023d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-a084d0ae47",
           "name": "Japan (w) U17 vs Lebanon U17 Women | 14:30 02/05",
           "type": "single",
@@ -858,6 +453,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_7a14778e_20260502.png?v=7a14778e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8e2bafdb1b",
+          "name": "Jeju SK FC vs Jeonbuk Hyundai Motors | 14:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e2bafdb1b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8e2bafdb1b",
+                  "name": "Jeju SK FC vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-8e2bafdb1b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeju SK FC",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
+            "time": "14:30 02/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e2bafdb1b_3499023d_20260502.png?v=3499023d",
             "width": 1600,
             "height": 1200
           }
@@ -3665,7 +3313,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -3675,7 +3323,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
