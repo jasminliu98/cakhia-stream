@@ -2660,7 +2660,7 @@
             "team_a": "Mirra Andreeva",
             "team_b": "Marta Kostyuk",
             "logo_a": "https://cdn.rapid-api.icu/v2/team/FlcfQXTgyJLpMlfaM8meo1muGKad",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd9af771af3da4b55056d96c8515b907.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/bd9af771af3da4b55056d96c8515b907.png",
             "time": "22:00 02/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2670,7 +2670,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_edfac4f6_20260502.png?v=edfac4f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5874a1574a_206b3277_20260502.png?v=206b3277",
             "width": 1600,
             "height": 1200
           }
@@ -2679,7 +2679,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2756,8 +2756,8 @@
             "league": "National Basketball Association",
             "team_a": "Orlando Magic",
             "team_b": "Detroit Pistons",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
             "time": "06:00 02/05",
             "blv": "GIÀNG A THỎ",
             "is_live": true,
@@ -2767,7 +2767,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-132d6342f9_1abbb788_20260502.png?v=1abbb788",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-132d6342f9_0dc5b0ca_20260502.png?v=0dc5b0ca",
             "width": 1600,
             "height": 1200
           }
@@ -2844,8 +2844,8 @@
             "league": "National Basketball Association",
             "team_a": "Toronto Raptors",
             "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
             "time": "06:30 02/05",
             "blv": "GIÀNG A ĐỘ",
             "is_live": true,
@@ -2855,7 +2855,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e395df0fb5_659aa650_20260502.png?v=659aa650",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e395df0fb5_9c998ffd_20260502.png?v=9c998ffd",
             "width": 1600,
             "height": 1200
           }
@@ -2868,10 +2868,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2886,7 +2886,25 @@
                     {
                       "id": "st-3af1a3add5",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-563a69d991",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f54f7a36518_145211/index.m3u8?expire=1778289146",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2897,18 +2915,18 @@
             "league": "National Basketball Association",
             "team_a": "Houston Rockets",
             "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bcfe797437f18526ff4e62177021f638.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/bcfe797437f18526ff4e62177021f638.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/fa6f985041ec3f9729172380ae9cebf8.png",
             "time": "08:30 02/05",
             "blv": "GIÀNG A SÓC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_a4797175_20260502.png?v=a4797175",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af1a3add5_56d8d676_20260502.png?v=56d8d676",
             "width": 1600,
             "height": 1200
           }
@@ -2950,8 +2968,8 @@
             "league": "B1 League",
             "team_a": "Chiba Jets",
             "team_b": "Altiri Chiba",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/78966bd85f23715c200e909acd4f2780.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/401f46c4f2c7b56e0086cfea64072bbf.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/78966bd85f23715c200e909acd4f2780.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/401f46c4f2c7b56e0086cfea64072bbf.png",
             "time": "12:05 02/05",
             "blv": "GIÀNG A RICH",
             "is_live": false,
@@ -2961,7 +2979,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-517d7df2e0_d5207f0e_20260502.png?v=d5207f0e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-517d7df2e0_6be35ae0_20260502.png?v=6be35ae0",
             "width": 1600,
             "height": 1200
           }
