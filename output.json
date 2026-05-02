@@ -308,11 +308,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b5316b14b2",
+                          "id": "lnk-cff1a93df9",
                           "name": "GIÀNG A BẢNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d25f36518_145205/index.m3u8?expire=1778322655",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-54bba9405a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/992b1ccf948ce9a7e1353ffc7afa3060/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -379,7 +396,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-43a78c4b8e",
+                          "id": "lnk-0e6bc2b220",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
@@ -396,7 +413,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-cc15e36b8d",
+                          "id": "lnk-80ddda9ee1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/a9d1af7ecbe5d91f70d9cf23f90f160e/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-30fc7fe588",
                           "name": "GIÀNG A RON",
                           "type": "hls",
                           "default": false,
@@ -467,11 +501,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-826ad567b9",
+                          "id": "lnk-61ce5cac3e",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d19c4841e_145407/index.m3u8?expire=1778322460",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-362c1ad5c7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f69fc79ceb3fcc7446a23a46cf96d5d7/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -538,7 +589,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3989ab6d03",
+                          "id": "lnk-5bd79d30c1",
                           "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
@@ -555,7 +606,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-68ccbdfc28",
+                          "id": "lnk-11665b2f80",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/9a5ec8b869c7123d6f55f07ac8f66260/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ff5422718f",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": false,
@@ -594,6 +662,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1901b757e_84b417c6_20260502.png?v=84b417c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2ef3e0d083",
+          "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ef3e0d083",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2ef3e0d083",
+                  "name": "Sheffield Wednesday vs West Bromwich Albion",
+                  "streams": [
+                    {
+                      "id": "st-2ef3e0d083",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Sheffield Wednesday",
+            "team_b": "West Bromwich Albion",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/967493e73d52e5d6f1dda29b7b76eaa2.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2ef3e0d083_50fe5ea3_20260502.png?v=50fe5ea3",
             "width": 1600,
             "height": 1200
           }
@@ -864,6 +985,59 @@
           }
         },
         {
+          "id": "kaytee-24965f8737",
+          "name": "Portsmouth vs Birmingham City | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-24965f8737",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-24965f8737",
+                  "name": "Portsmouth vs Birmingham City",
+                  "streams": [
+                    {
+                      "id": "st-24965f8737",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Portsmouth",
+            "team_b": "Birmingham City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2f360e96a024fd54255d0ed941e9075e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-24965f8737_d6c833d5_20260502.png?v=d6c833d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-cea0f6f778",
           "name": "Preston North End vs Southampton | 18:30 02/05",
           "type": "single",
@@ -912,59 +1086,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cea0f6f778_b09ef6dc_20260502.png?v=b09ef6dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2ef3e0d083",
-          "name": "Sheffield Wednesday vs West Bromwich Albion | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ef3e0d083",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2ef3e0d083",
-                  "name": "Sheffield Wednesday vs West Bromwich Albion",
-                  "streams": [
-                    {
-                      "id": "st-2ef3e0d083",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Sheffield Wednesday",
-            "team_b": "West Bromwich Albion",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/967493e73d52e5d6f1dda29b7b76eaa2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8663a7bedcf20394242d069637e67219.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2ef3e0d083_50fe5ea3_20260502.png?v=50fe5ea3",
             "width": 1600,
             "height": 1200
           }
@@ -1230,59 +1351,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f525ce7bd_dedcd82c_20260502.png?v=dedcd82c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-24965f8737",
-          "name": "Portsmouth vs Birmingham City | 18:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24965f8737",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-24965f8737",
-                  "name": "Portsmouth vs Birmingham City",
-                  "streams": [
-                    {
-                      "id": "st-24965f8737",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Football League Championship",
-            "team_a": "Portsmouth",
-            "team_b": "Birmingham City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2f360e96a024fd54255d0ed941e9075e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2acb7fc9250a5b52c5e6248039d25d2e.png",
-            "time": "18:30 02/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-24965f8737_d6c833d5_20260502.png?v=d6c833d5",
             "width": 1600,
             "height": 1200
           }
