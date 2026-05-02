@@ -193,111 +193,6 @@
           }
         },
         {
-          "id": "kaytee-66fa64b3d8",
-          "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66fa64b3d8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-66fa64b3d8",
-                  "name": "PVF CAND vs Hong Linh Ha Tinh",
-                  "streams": [
-                    {
-                      "id": "st-66fa64b3d8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e6bc2b220",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d19e4841e_145223/index.m3u8?expire=1778322462",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-80ddda9ee1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a9d1af7ecbe5d91f70d9cf23f90f160e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-30fc7fe588",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5d28f4841e_145199/index.m3u8?expire=1778322703",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "PVF CAND",
-            "team_b": "Hong Linh Ha Tinh",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/16b802abec41440eb4996fc68f16125b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/83dd94c5ca68e8f9a3980f036afcb511.png",
-            "time": "18:00 02/05",
-            "blv": "GIÀNG A MAO, GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-66fa64b3d8_a5731f08_20260502.png?v=a5731f08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-66bd610cb3",
           "name": "Arminia Bielefeld vs VfL Bochum 1848 | 18:00 02/05",
           "type": "single",
@@ -1117,28 +1012,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0b166a7a74",
+                          "id": "lnk-a096f71913",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5d60336518_145187/index.m3u8?expire=1778323587",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-be491f05be",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c1c1f7ea9df9c7aeb15e7d2b99911f17/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1613,6 +1491,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9639c76705_e018be34_20260502.png?v=e018be34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-a69917ac04",
+          "name": "Udinese vs Torino | 20:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a69917ac04",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a69917ac04",
+                  "name": "Udinese vs Torino",
+                  "streams": [
+                    {
+                      "id": "st-a69917ac04",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d9b6a9ece",
+                          "name": "GIÀNG A RON",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5f3b836518_145199/index.m3u8?expire=1778331192",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c031c3a144",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/3fe8ef40f039b475043133cb43994fce/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Udinese",
+            "team_b": "Torino",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c7140efe06d93642fcc9805077c49aa5.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f0856c1b16c32245a8d2c702ffe89ac5.png",
+            "time": "20:00 02/05",
+            "blv": "GIÀNG A RON",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a69917ac04_aac7f155_20260502.png?v=aac7f155",
             "width": 1600,
             "height": 1200
           }
