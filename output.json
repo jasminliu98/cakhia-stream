@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -809,6 +809,77 @@
           }
         },
         {
+          "id": "kaytee-315e8313ae",
+          "name": "Al-Fateh SC vs Neom SC | 22:50 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-315e8313ae",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-315e8313ae",
+                  "name": "Al-Fateh SC vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-315e8313ae",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f09a988f35",
+                          "name": "GIÀNG A BẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f61a8c4841e_145407/index.m3u8?expire=1778341132",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Fateh SC",
+            "team_b": "Neom SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/625f099ab7eeec5bde434ec68723fdff.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e5516d35314acec9169f33834a199842.png",
+            "time": "22:50 02/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-315e8313ae_f93bb1c9_20260502.png?v=f93bb1c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-2faeceaca7",
           "name": "Como vs Napoli | 23:00 02/05",
           "type": "single",
@@ -1551,6 +1622,59 @@
           }
         },
         {
+          "id": "kaytee-f355376ff1",
+          "name": "NEC Nijmegen vs SC Telstar | 02:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f355376ff1",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f355376ff1",
+                  "name": "NEC Nijmegen vs SC Telstar",
+                  "streams": [
+                    {
+                      "id": "st-f355376ff1",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eredivisie",
+            "team_a": "NEC Nijmegen",
+            "team_b": "SC Telstar",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d22de494a1ff648e90892c249c5aed12.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f2e98454cf2fc81dea92c1401521eac1.png",
+            "time": "02:00 03/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f355376ff1_01fae8da_20260502.png?v=01fae8da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-154c6a053c",
           "name": "OGC Nice vs RC Lens | 02:05 03/05",
           "type": "single",
@@ -1599,6 +1723,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-154c6a053c_d25e167f_20260502.png?v=d25e167f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-3c2047ad03",
+          "name": "FC Porto vs Alverca | 02:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c2047ad03",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-3c2047ad03",
+                  "name": "FC Porto vs Alverca",
+                  "streams": [
+                    {
+                      "id": "st-3c2047ad03",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "FC Porto",
+            "team_b": "Alverca",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/83aa826e3c45d5047a8c917fb0b41a5e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ff35a6067c000b629b84e648d8a2d2de.png",
+            "time": "02:30 03/05",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3c2047ad03_f22b49fb_20260502.png?v=f22b49fb",
             "width": 1600,
             "height": 1200
           }
