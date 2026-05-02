@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -188,94 +188,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e2bafdb1b_3499023d_20260502.png?v=3499023d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-a084d0ae47",
-          "name": "Japan (w) U17 vs Lebanon U17 Women | 14:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a084d0ae47",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a084d0ae47",
-                  "name": "Japan (w) U17 vs Lebanon U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-a084d0ae47",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08ef09fcc7",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5a0614841e_146208/index.m3u8?expire=1778309857",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5b1b9a57da",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2c1b236afc3010183829b3317b24735a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Japan (w) U17",
-            "team_b": "Lebanon U17 Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "time": "14:30 02/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a084d0ae47_7a14778e_20260502.png?v=7a14778e",
             "width": 1600,
             "height": 1200
           }
@@ -523,59 +435,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c91de7f07d_658d710f_20260502.png?v=658d710f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-41ca50538c",
-          "name": "Melbourne Victory vs Sydney FC | 16:40 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41ca50538c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-41ca50538c",
-                  "name": "Melbourne Victory vs Sydney FC",
-                  "streams": [
-                    {
-                      "id": "st-41ca50538c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia A-League",
-            "team_a": "Melbourne Victory",
-            "team_b": "Sydney FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c540f8f279c09a2a3df1cbbfe82d7184.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a0c772584c00e1b6efd1c421344cd005.png",
-            "time": "16:40 02/05",
-            "blv": "GIÀNG A BÉO",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-41ca50538c_7c455a01_20260502.png?v=7c455a01",
             "width": 1600,
             "height": 1200
           }
