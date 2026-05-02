@@ -308,11 +308,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-062ee6e1cf",
+                          "id": "lnk-59315bd489",
                           "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f59d8a4841e_146781/index.m3u8?expire=1778309130",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9ee5ca34fa",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fa1ed26f980f1fb856396147bd6a3116/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -379,11 +396,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-25bd0f0ed5",
+                          "id": "lnk-faf81ebc57",
                           "name": "GIÀNG A BÚN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5a22636518_146331/index.m3u8?expire=1778310310",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-16a5f5ab27",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/344ea52edec44c598fa8dbf51ea0d11b/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -450,11 +484,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7f7230f78f",
+                          "id": "lnk-08ef09fcc7",
                           "name": "GIÀNG A MU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f5a0614841e_146208/index.m3u8?expire=1778309857",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5b1b9a57da",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2c1b236afc3010183829b3317b24735a/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
