@@ -2133,11 +2133,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-36721490d3",
+                          "id": "lnk-66beffddca",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f60d1436518_146088/index.m3u8?expire=1778337684",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0e76fb01df",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/6983d49e4bdd4b579bf3faf9902f6379/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
