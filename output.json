@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-93654f2c3e",
-          "name": "FC Utrecht vs NAC Breda | 21:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93654f2c3e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-93654f2c3e",
-                  "name": "FC Utrecht vs NAC Breda",
-                  "streams": [
-                    {
-                      "id": "st-93654f2c3e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4970ddf3ca",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f603204841e_145187/index.m3u8?expire=1778335136",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8fe4b8ae04",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/62b0442a50e9ed5c755e2c0720105865/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "FC Utrecht",
-            "team_b": "NAC Breda",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/181ee8709b75f543a1cf4c943ae3304b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6961986fd0e44c330328195328a39be4.png",
-            "time": "21:30 02/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-93654f2c3e_71fbe43b_20260502.png?v=71fbe43b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-06233319c2",
           "name": "Paris Saint Germain vs Lorient | 22:00 02/05",
