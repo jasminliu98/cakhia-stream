@@ -2888,11 +2888,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-563a69d991",
+                          "id": "lnk-c96391afaf",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f54f7a36518_145211/index.m3u8?expire=1778289146",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7d386ec41a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f27047481d0255ecb169df8362851999/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
