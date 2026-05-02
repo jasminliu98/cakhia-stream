@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-0e1bb610b5",
-          "name": "Persebaya Surabaya vs PSBS Biak Numfor  | 15:30 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e1bb610b5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0e1bb610b5",
-                  "name": "Persebaya Surabaya vs PSBS Biak Numfor ",
-                  "streams": [
-                    {
-                      "id": "st-0e1bb610b5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-034ce888d4",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5b1354841e_146847/index.m3u8?expire=1778314165",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persebaya Surabaya",
-            "team_b": "PSBS Biak Numfor ",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/66307444901ddb38c881129b7ea0105e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/cbd5d35d354519a981a2a97f5c41bcbb.png",
-            "time": "15:30 02/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0e1bb610b5_f9e9a42d_20260502.png?v=f9e9a42d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-c91de7f07d",
           "name": "Dong Tam Long An vs Than Quang Ninh | 16:00 02/05",
@@ -440,59 +369,6 @@
           }
         },
         {
-          "id": "kaytee-b9a777c2ec",
-          "name": "Becamex Binh Duong vs CLB Thanh Hoa | 18:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9a777c2ec",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b9a777c2ec",
-                  "name": "Becamex Binh Duong vs CLB Thanh Hoa",
-                  "streams": [
-                    {
-                      "id": "st-b9a777c2ec",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Becamex Binh Duong",
-            "team_b": "CLB Thanh Hoa",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
-            "time": "18:00 02/05",
-            "blv": "GIÀNG A BẢNH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b9a777c2ec_ddd804eb_20260502.png?v=ddd804eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-66fa64b3d8",
           "name": "PVF CAND vs Hong Linh Ha Tinh | 18:00 02/05",
           "type": "single",
@@ -541,6 +417,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-66fa64b3d8_a5731f08_20260502.png?v=a5731f08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-b9a777c2ec",
+          "name": "Becamex Binh Duong vs CLB Thanh Hoa | 18:00 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9a777c2ec",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b9a777c2ec",
+                  "name": "Becamex Binh Duong vs CLB Thanh Hoa",
+                  "streams": [
+                    {
+                      "id": "st-b9a777c2ec",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "Becamex Binh Duong",
+            "team_b": "CLB Thanh Hoa",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8781d3f729c7f3a9baacbee4385f7c84.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c6c3cf855ef4fd3a0385d34606a858ab.png",
+            "time": "18:00 02/05",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b9a777c2ec_ddd804eb_20260502.png?v=ddd804eb",
             "width": 1600,
             "height": 1200
           }
