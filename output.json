@@ -105,94 +105,6 @@
           }
         },
         {
-          "id": "kaytee-721c39489b",
-          "name": "Gwangju Football Club vs Daejeon Citizen | 17:00 02/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-721c39489b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-721c39489b",
-                  "name": "Gwangju Football Club vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-721c39489b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d75c4b58fb",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5c36c36518_146091/index.m3u8?expire=1778318828",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5a7ac419e2",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/0ce42c5e2517c3093e794d71e48ab48d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gwangju Football Club",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "time": "17:00 02/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-721c39489b_14ffd9c3_20260502.png?v=14ffd9c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-22073b2fa6",
           "name": "FC Anyang vs Bucheon FC 1995 | 17:00 02/05",
           "type": "single",
@@ -787,6 +699,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-edae81d980_66a31266_20260502.png?v=66a31266",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-eda56528d6",
+          "name": "Wrexham vs Middlesbrough | 18:30 02/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eda56528d6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-eda56528d6",
+                  "name": "Wrexham vs Middlesbrough",
+                  "streams": [
+                    {
+                      "id": "st-eda56528d6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cb5c006c2",
+                          "name": "GIÀNG A LUNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f5e07236518_145422/index.m3u8?expire=1778326258",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Football League Championship",
+            "team_a": "Wrexham",
+            "team_b": "Middlesbrough",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6ee72ef6dd0d994c0fd5fb7d82d5acc9.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f08f87259dc2abc1449b67081e8b7f83.png",
+            "time": "18:30 02/05",
+            "blv": "GIÀNG A LUNG",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eda56528d6_c85e0c7f_20260502.png?v=c85e0c7f",
             "width": 1600,
             "height": 1200
           }
