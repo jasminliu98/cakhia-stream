@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-3e223e4121",
-          "name": "CA Osasuna vs FC Barcelona | 02:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e223e4121",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3e223e4121",
-                  "name": "CA Osasuna vs FC Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-3e223e4121",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a37f197b0",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f643084841e_145689/index.m3u8?expire=1778351496",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-22941ea00c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/08c152a2c87886e6d3e1e939b2d06d5f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c2ecb3844b",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6428d4841e_145821/index.m3u8?expire=1778351373",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "CA Osasuna",
-            "team_b": "FC Barcelona",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c2050b940076df70b2ad0a6103c50df4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f378eb1ea04e53999b89051aa3244de6.png",
-            "time": "02:00 03/05",
-            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3e223e4121_f5cd04f9_20260503.png?v=f5cd04f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-154c6a053c",
           "name": "OGC Nice vs RC Lens | 02:05 03/05",
