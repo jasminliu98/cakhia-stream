@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (14 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-68bf7d9261",
-          "name": "Song Lam Nghe An vs Hoang Anh Gia Lai | 18:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68bf7d9261",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-68bf7d9261",
-                  "name": "Song Lam Nghe An vs Hoang Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-68bf7d9261",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-908bce9024",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f723764841e_145821/index.m3u8?expire=1778408950",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fd82d88af5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/48b8916f9f47a438c3b732444c041862/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f0ee05e64e",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7228d36519_145689/index.m3u8?expire=1778408717",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Song Lam Nghe An",
-            "team_b": "Hoang Anh Gia Lai",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7f95b001711ce3978d498602e1d2c9fd.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/df2ae58b9e658494b940b0bd782901b8.png",
-            "time": "18:00 03/05",
-            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-68bf7d9261_08e10ef1_20260503.png?v=08e10ef1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e7fd0783f3",
           "name": "SV Elversberg vs SC Paderborn 07 | 18:30 03/05",
@@ -1029,7 +924,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-609a85df1e",
+                          "id": "lnk-44e41a49cd",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
@@ -1046,7 +941,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-1e1f00bffb",
+                          "id": "lnk-4379107931",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/54bf6c99c94adbbd9e5c306ae5630b48/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1cdd1302ed",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": false,
@@ -1117,11 +1029,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f612fdaebf",
+                          "id": "lnk-3b141abbf5",
                           "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f73de34841e_145419/index.m3u8?expire=1778415715",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-283c3279de",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/073b9114f75cb2f91e4f89091424ef3c/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1188,11 +1117,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-da9c168315",
+                          "id": "lnk-ac3be6f0ea",
                           "name": "GIÀNG A CƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f73f8036519_145277/index.m3u8?expire=1778416128",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-de81e05872",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f23b1a2c4e53038ff38fb2339ff99617/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2764,6 +2710,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_a3a93c8d_20260503.png?v=a3a93c8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-751f6fa8b7",
+          "name": "Persib Bandung vs PSIM Yogyakarta | 15:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-751f6fa8b7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-751f6fa8b7",
+                  "name": "Persib Bandung vs PSIM Yogyakarta",
+                  "streams": [
+                    {
+                      "id": "st-751f6fa8b7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persib Bandung",
+            "team_b": "PSIM Yogyakarta",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b2004093bf25a5a8d1768970d6e49d71.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1a64731cd883e9d734e29a83301ea849.png",
+            "time": "15:30 04/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-751f6fa8b7_49dace5c_20260503.png?v=49dace5c",
             "width": 1600,
             "height": 1200
           }
