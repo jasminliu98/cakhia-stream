@@ -1292,82 +1292,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-abb2cab775",
-          "name": "Alianza Lima vs San Martin de Perez Millan | 05:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abb2cab775",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-abb2cab775",
-                  "name": "Alianza Lima vs San Martin de Perez Millan",
-                  "streams": [
-                    {
-                      "id": "st-abb2cab775",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f36a90a1ea",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7bdde36519_145875/index.m3u8?expire=1778448478",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Peru Campeonato Nacional Women",
-            "team_a": "Alianza Lima",
-            "team_b": "San Martin de Perez Millan",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/8941e026a8debbd82633b019552e1515.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/a75e4b7d5a840c89053a7662ecb6a5da.png",
-            "time": "05:00 04/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-abb2cab775_3bb476c9_20260504.png?v=3bb476c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-a98d3dd237",
           "name": "Aral Akademiya vs Nizhnevartovsk | 21:00 04/05",
