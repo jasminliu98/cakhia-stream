@@ -2631,6 +2631,59 @@
           }
         },
         {
+          "id": "kaytee-951b80170e",
+          "name": "Lyon vs Stade Rennais FC | 01:45 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-951b80170e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-951b80170e",
+                  "name": "Lyon vs Stade Rennais FC",
+                  "streams": [
+                    {
+                      "id": "st-951b80170e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Stade Rennais FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/92fb3cf79ea2ba919b94b04668e13491.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/eab8f0e847742fd328bb581299bd99ca.png",
+            "time": "01:45 04/05",
+            "blv": "GIÀNG A MÓM",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-951b80170e_5c3464cf_20260503.png?v=5c3464cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-1e970559b1",
           "name": "RCD Espanyol de Barcelona vs Real Madrid | 02:00 04/05",
           "type": "single",
