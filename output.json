@@ -2520,99 +2520,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-c747d5f66c",
-          "name": "Canterbury Rams vs Otago Nuggets | 10:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c747d5f66c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c747d5f66c",
-                  "name": "Canterbury Rams vs Otago Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-c747d5f66c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2fccf53d5",
-                          "name": "GIÀNG A THỎ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6b3684841e_145163/index.m3u8?expire=1778380264",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d35fd366ea",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b1c43cdf04f1d9dc3195efa8ad8197c4/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "New Zealand National Basketball League",
-            "team_a": "Canterbury Rams",
-            "team_b": "Otago Nuggets",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/256e715800fb8321f7cf1dacce3aa35e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5682b443934d64c12f41e5abfc6e2f8a.png",
-            "time": "10:00 03/05",
-            "blv": "GIÀNG A THỎ",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_abe76ec7_20260503.png?v=abe76ec7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-895ef8176e",
           "name": "Southland Sharks vs Manawatu Jets | 13:00 03/05",
