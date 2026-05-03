@@ -467,11 +467,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a1e38a5bfb",
+                          "id": "lnk-e8807407ea",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f71b884841e_145223/index.m3u8?expire=1778406920",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-332fdbf9d7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/7dc2577dcf776327ba9a2d2f99ea9979/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
