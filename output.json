@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -762,10 +762,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -780,7 +780,59 @@
                     {
                       "id": "st-036f236c03",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d49ddd002",
+                          "name": "GIÀNG A NGAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7544a36519_145821/index.m3u8?expire=1778421450",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1bc632f5f0",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f8867e8a9503c230372531cfef7e67e8/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-20bf9421cc",
+                          "name": "GIÀNG A TRỀ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f753a94841e_145689/index.m3u8?expire=1778421289",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -795,7 +847,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
             "time": "21:30 03/05",
             "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -815,10 +867,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -833,7 +885,42 @@
                     {
                       "id": "st-985816d130",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-54b20cb9e0",
+                          "name": "GIÀNG A RICH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f755a54841e_145476/index.m3u8?expire=1778421797",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fc9bc6c477",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/d908c9809c5c6d57472b513f269b05f7/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -848,7 +935,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
             "time": "21:30 03/05",
             "blv": "GIÀNG A RICH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -856,59 +943,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-985816d130_38d6ed5c_20260503.png?v=38d6ed5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-e4bf7bad7c",
-          "name": "Barcelona (w) vs Bayern Munchen (w) | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e4bf7bad7c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e4bf7bad7c",
-                  "name": "Barcelona (w) vs Bayern Munchen (w)",
-                  "streams": [
-                    {
-                      "id": "st-e4bf7bad7c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Barcelona (w)",
-            "team_b": "Bayern Munchen (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
-            "time": "21:30 03/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4bf7bad7c_6d04c362_20260503.png?v=6d04c362",
             "width": 1600,
             "height": 1200
           }
