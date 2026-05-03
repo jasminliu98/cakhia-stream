@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5fb7519189",
-          "name": "Sparta Rotterdam vs Go Ahead Eagles | 21:45 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fb7519189",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5fb7519189",
-                  "name": "Sparta Rotterdam vs Go Ahead Eagles",
-                  "streams": [
-                    {
-                      "id": "st-5fb7519189",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df4f5cd12b",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75aff36519_146847/index.m3u8?expire=1778423167",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4a1addfa30",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/14b9597e0800ca74b33c2e55e9b8fd4a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "Sparta Rotterdam",
-            "team_b": "Go Ahead Eagles",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/73a60eae399442123eeb6f90b70cee8e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/acc42732b97d91016e37952666003417.png",
-            "time": "21:45 03/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fb7519189_31f1d5ce_20260503.png?v=31f1d5ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-8e365405a6",
           "name": "AJ Auxerre vs Angers SCO | 22:15 03/05",
@@ -369,8 +281,8 @@
           }
         },
         {
-          "id": "kaytee-1d4b22fb1d",
-          "name": "Borussia Monchengladbach vs Borussia Dortmund | 22:40 03/05",
+          "id": "kaytee-dc461cd58c",
+          "name": "Borussia Monchengladbach vs Borussia Dortmund | 22:30 03/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -384,15 +296,15 @@
           ],
           "sources": [
             {
-              "id": "src-1d4b22fb1d",
+              "id": "src-dc461cd58c",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-1d4b22fb1d",
+                  "id": "ct-dc461cd58c",
                   "name": "Borussia Monchengladbach vs Borussia Dortmund",
                   "streams": [
                     {
-                      "id": "st-1d4b22fb1d",
+                      "id": "st-dc461cd58c",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -442,7 +354,7 @@
             "team_b": "Borussia Dortmund",
             "logo_a": "https://cdn.rapid-api.icu/football/team/89cdadf6cf1eb6f8d2507de1e01f806c.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/bbfacbdbe67705172c6414d7e9c21b58.png",
-            "time": "22:40 03/05",
+            "time": "22:30 03/05",
             "blv": "GIÀNG A RON",
             "is_live": true,
             "cate_name": "Bóng đá"
@@ -451,7 +363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1d4b22fb1d_47fd32ee_20260503.png?v=47fd32ee",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dc461cd58c_47fd32ee_20260503.png?v=47fd32ee",
             "width": 1600,
             "height": 1200
           }
@@ -833,10 +745,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -851,7 +763,25 @@
                     {
                       "id": "st-7a2935de0e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0cba43856",
+                          "name": "GIÀNG A XOÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f775d436519_146091/index.m3u8?expire=1778430036",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -866,7 +796,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/faeceacffbf35e28b7e71a5f90b6efdc.png",
             "time": "00:00 04/05",
             "blv": "GIÀNG A XOÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -886,10 +816,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -904,7 +834,25 @@
                     {
                       "id": "st-0b3b7943c2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-da9c777aff",
+                          "name": "GIÀNG A BẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7799c4841e_145407/index.m3u8?expire=1778431004",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -919,7 +867,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/3766cad0712ddc9181a091d2d78d61c8.png",
             "time": "00:00 04/05",
             "blv": "GIÀNG A BẠC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -939,10 +887,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -957,7 +905,25 @@
                     {
                       "id": "st-5d03dd5638",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-27528fc163",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f778f436519_146208/index.m3u8?expire=1778430836",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -972,7 +938,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
             "time": "00:00 04/05",
             "blv": "GIÀNG A MU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2207,7 +2173,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2220,10 +2186,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2238,7 +2204,25 @@
                     {
                       "id": "st-fab27f1a9e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ec24090ed",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f775c536519_145211/index.m3u8?expire=1778430021",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2253,7 +2237,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa25991caba39db79962bb7d7fd20cb3.png",
             "time": "00:00 04/05",
             "blv": "GIÀNG A SÓC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
