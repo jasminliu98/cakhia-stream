@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-31dbe08822",
-          "name": "Volendam vs SC Heerenveen | 17:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31dbe08822",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-31dbe08822",
-                  "name": "Volendam vs SC Heerenveen",
-                  "streams": [
-                    {
-                      "id": "st-31dbe08822",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d180aa642",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f719b736519_145277/index.m3u8?expire=1778406455",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-68485e8c91",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/06d3c9bd22174640b5f554d84f77bd67/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "Volendam",
-            "team_b": "SC Heerenveen",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6eaa9b83973c9befbf920823a42ba94c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png",
-            "time": "17:15 03/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-31dbe08822_164d6773_20260503.png?v=164d6773",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9bd3805ed3",
           "name": "Bologna vs Cagliari | 17:30 03/05",
@@ -992,10 +904,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1010,7 +922,42 @@
                     {
                       "id": "st-1ce5690066",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-42391aef4e",
+                          "name": "GIÀNG A NÌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7363936519_145187/index.m3u8?expire=1778413753",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a1d4a5830c",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/29efdcedcd05d83d61498c2240befb7c/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1025,7 +972,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/44073f2d2c979a9388f98505ac3b754d.png",
             "time": "19:30 03/05",
             "blv": "GIÀNG A NÌ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1045,10 +992,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1063,7 +1010,42 @@
                     {
                       "id": "st-22264b7eb2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-504a17d7b3",
+                          "name": "GIÀNG A NA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f73a7e36519_146847/index.m3u8?expire=1778414846",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a5d2067a0a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/07ba8af2b4fa6d786c170af99688042d/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1078,7 +1060,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/baca74685739dc7e17413a4806b06fa5.png",
             "time": "19:30 03/05",
             "blv": "GIÀNG A NA",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2876,8 +2858,8 @@
             "league": "Chinese Basketball Association",
             "team_a": "Guangdong Southern Tigers",
             "team_b": "Guangzhou Loong Lions",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5689743705f1852f10597c559323f04a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/858cde8d2c075296f24e7ee61929fbeb.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5689743705f1852f10597c559323f04a.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/858cde8d2c075296f24e7ee61929fbeb.png",
             "time": "18:35 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -2887,7 +2869,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_753c20ae_20260503.png?v=753c20ae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_2353258d_20260503.png?v=2353258d",
             "width": 1600,
             "height": 1200
           }
