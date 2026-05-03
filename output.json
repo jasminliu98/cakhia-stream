@@ -1175,11 +1175,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-9459fbf1a9",
+                          "id": "lnk-db1a97db82",
                           "name": "GIÀNG A CÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f7d4be36519_145241/index.m3u8?expire=1778454334",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7763603816",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ce2f2f57d9b8f2a0c76829b0ee7ce471/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
