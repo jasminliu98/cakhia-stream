@@ -2325,6 +2325,165 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-b49bd02968",
+          "name": "HJK Helsinki vs Lahti | 23:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b49bd02968",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b49bd02968",
+                  "name": "HJK Helsinki vs Lahti",
+                  "streams": [
+                    {
+                      "id": "st-b49bd02968",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finnish Veikkausliiga",
+            "team_a": "HJK Helsinki",
+            "team_b": "Lahti",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fd1a9c51505300dec9c26e5847114851.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0ab1b8407086bab060a396f244a28cd6.png",
+            "time": "23:00 04/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b49bd02968_7978ebc8_20260503.png?v=7978ebc8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-fdf7d31c88",
+          "name": "Eintracht Frankfurt (w) vs Nurnberg (w) | 23:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fdf7d31c88",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fdf7d31c88",
+                  "name": "Eintracht Frankfurt (w) vs Nurnberg (w)",
+                  "streams": [
+                    {
+                      "id": "st-fdf7d31c88",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Frauen Bundesliga",
+            "team_a": "Eintracht Frankfurt (w)",
+            "team_b": "Nurnberg (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9ebd79de8504a6573dce8c419ff16b10.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7e2a65e9804e89abf1a9aa4c1c0bdfb3.png",
+            "time": "23:00 04/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdf7d31c88_17281a42_20260503.png?v=17281a42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0da890ab30",
+          "name": "NK Istra 1961 vs Slaven Belupo | 23:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0da890ab30",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0da890ab30",
+                  "name": "NK Istra 1961 vs Slaven Belupo",
+                  "streams": [
+                    {
+                      "id": "st-0da890ab30",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Croatian Football League",
+            "team_a": "NK Istra 1961",
+            "team_b": "Slaven Belupo",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/487a310ef1af87f7d99b52f507007ffc.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a491b4d6a330910fa354ff60a65bb615.png",
+            "time": "23:00 04/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0da890ab30_c0c9cbe7_20260503.png?v=c0c9cbe7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
