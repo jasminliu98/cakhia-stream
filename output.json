@@ -941,11 +941,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3232b1e419",
+                          "id": "lnk-f5a585e452",
                           "name": "GIÀNG A RON",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f7634636519_145199/index.m3u8?expire=1778425286",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e82e8c10db",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2cb6884c63ecd7921a0fd341baec86c1/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
