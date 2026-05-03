@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-cfe229a4fe",
-          "name": "Persik Kediri vs Arema FC | 15:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfe229a4fe",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cfe229a4fe",
-                  "name": "Persik Kediri vs Arema FC",
-                  "streams": [
-                    {
-                      "id": "st-cfe229a4fe",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48ab94f954",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7028f4841e_146847/index.m3u8?expire=1778400527",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persik Kediri",
-            "team_b": "Arema FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/c80d70c62b8f67dd121a1be0d574bfd5.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/55cba4a142146e2cdc317d21eb4daf76.png",
-            "time": "15:30 03/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cfe229a4fe_4c5de072_20260503.png?v=4c5de072",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3a17a5e4af",
           "name": "Dong Thap vs PVF-CAND B | 16:00 03/05",
