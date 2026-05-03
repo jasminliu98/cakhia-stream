@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-cb1775aca7",
-          "name": "FC St. Pauli vs 1. FSV Mainz 05 | 20:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb1775aca7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cb1775aca7",
-                  "name": "FC St. Pauli vs 1. FSV Mainz 05",
-                  "streams": [
-                    {
-                      "id": "st-cb1775aca7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04946c3a46",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f72f184841e_145698/index.m3u8?expire=1778411928",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a276d700bc",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e0e95f266182007c5eff130bf307eb4e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "FC St. Pauli",
-            "team_b": "1. FSV Mainz 05",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/65503b155488a643de688e8dfa849b1f.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/903089d338485f6c68fbc5da690a0628.png",
-            "time": "20:30 03/05",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cb1775aca7_88a84d6e_20260503.png?v=88a84d6e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-5fb9d6b26d",
           "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
@@ -2269,6 +2181,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ba61323c77_885ba392_20260503.png?v=885ba392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-84af325609",
+          "name": "Qarabag vs Turan Tovuz | 22:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84af325609",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-84af325609",
+                  "name": "Qarabag vs Turan Tovuz",
+                  "streams": [
+                    {
+                      "id": "st-84af325609",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azerbaijan Premier League",
+            "team_a": "Qarabag",
+            "team_b": "Turan Tovuz",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/7f7d00906d511bcf48f9a600580ff953.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/14215ad91a839ba1b4f216001eb02d91.png",
+            "time": "22:30 04/05",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-84af325609_b124f16e_20260503.png?v=b124f16e",
             "width": 1600,
             "height": 1200
           }
