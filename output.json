@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-3bfa4baf50",
-          "name": "SC Freiburg vs VfL Wolfsburg | 00:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3bfa4baf50",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3bfa4baf50",
-                  "name": "SC Freiburg vs VfL Wolfsburg",
-                  "streams": [
-                    {
-                      "id": "st-3bfa4baf50",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a51a0dec89",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f77b9636519_146781/index.m3u8?expire=1778431510",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-825b513c76",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1ae0335305f0883cd8a5561bdbe5a768/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "SC Freiburg",
-            "team_b": "VfL Wolfsburg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6508946c9a5fe22a8784b905b25e8c79.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
-            "time": "00:30 04/05",
-            "blv": "GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3bfa4baf50_349e7fb3_20260504.png?v=349e7fb3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-6ab502d33c",
           "name": "Al-Qadsiah vs Al Nassr FC | 01:00 04/05",
