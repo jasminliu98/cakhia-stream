@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-a6b66b5dc2",
-          "name": "Khatoco Khanh Hoa vs Xuân Thiện Phú Thọ | 17:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6b66b5dc2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a6b66b5dc2",
-                  "name": "Khatoco Khanh Hoa vs Xuân Thiện Phú Thọ",
-                  "streams": [
-                    {
-                      "id": "st-a6b66b5dc2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f65020734b",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f715e14841e_146208/index.m3u8?expire=1778405473",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4e4b828865",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/eec65170f3047a7baf81c20dde421922/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Khatoco Khanh Hoa",
-            "team_b": "Xuân Thiện Phú Thọ",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6d4c74bfc709d561f3bed627af4218f3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a3fa1f2bd7dbd79b0c531417b56647d6.png",
-            "time": "17:00 03/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a6b66b5dc2_77bf7482_20260503.png?v=77bf7482",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-31dbe08822",
           "name": "Volendam vs SC Heerenveen | 17:15 03/05",
           "type": "single",
@@ -992,10 +904,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1010,7 +922,59 @@
                     {
                       "id": "st-1f4f9b6ae7",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff10f63054",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f733334841e_145238/index.m3u8?expire=1778412979",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-93a659bdb7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b025d2a6a3d0422c4e81074a4102bbf0/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-718a8f96b6",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f72aa84841e_146781/index.m3u8?expire=1778410792",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1025,7 +989,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/5452226660be0829fdb40967dd4b0b77.png",
             "time": "19:15 03/05",
             "blv": "GIÀNG A GIÀ, GIÀNG A BÉO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1236,7 +1200,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/240b30d333c97d293752ab7afd77ccd6.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/42396d18444156e640c37476c2b41b93.png",
             "time": "20:00 03/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
+            "blv": "GIÀNG A DÂN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
