@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -222,94 +222,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f70183e13_5db88ee7_20260504.png?v=5db88ee7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-6fe8ef7961",
-          "name": "Al-Ahli SFC vs Al-Okhdood | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fe8ef7961",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6fe8ef7961",
-                  "name": "Al-Ahli SFC vs Al-Okhdood",
-                  "streams": [
-                    {
-                      "id": "st-6fe8ef7961",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5b6db99e7",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7873c36519_145199/index.m3u8?expire=1778434492",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5e78529eac",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7ce204c496053adcaa373ca0fc97dd09/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Ahli SFC",
-            "team_b": "Al-Okhdood",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/47edbc8776467d4a14314c82b25344ab.png",
-            "time": "01:00 04/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6fe8ef7961_bc347826_20260504.png?v=bc347826",
             "width": 1600,
             "height": 1200
           }
