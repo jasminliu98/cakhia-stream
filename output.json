@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (14 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1202,10 +1202,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1220,7 +1220,42 @@
                     {
                       "id": "st-3a3c47226e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd2861568b",
+                          "name": "GIÀNG A MÓM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7712c4841e_145698/index.m3u8?expire=1778428844",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-591f163c30",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fea4efb1e6ebd62a36d357a63a2396cd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1235,7 +1270,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/21551996567bcd206ee574043d509a84.png",
             "time": "23:30 03/05",
             "blv": "GIÀNG A MÓM",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2568,103 +2603,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5cebabcffd_b99ee881_20260503.png?v=b99ee881",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-d97c2e664a",
-          "name": "Jannik Sinner vs Alexander Zverev | 22:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d97c2e664a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d97c2e664a",
-                  "name": "Jannik Sinner vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-d97c2e664a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2546be868",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75d0b4841e_146088/index.m3u8?expire=1778423691",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-423d045b94",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8809ecca543ada3e7d3db7cd215ce205/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Madrid, Spain Men Singles",
-            "team_a": "Jannik Sinner",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
-            "time": "22:00 03/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
             "width": 1600,
             "height": 1200
           }
