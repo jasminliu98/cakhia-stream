@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -833,10 +833,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -851,7 +851,25 @@
                     {
                       "id": "st-9077847718",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-da4c45537f",
+                          "name": "GIÀNG A LƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7325836519_145812/index.m3u8?expire=1778412760",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -866,7 +884,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/e5ecd0553885f1a3af731758dddce2ec.png",
             "time": "19:00 03/05",
             "blv": "GIÀNG A LƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -886,10 +904,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -904,7 +922,25 @@
                     {
                       "id": "st-c347c3a44b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-db2455247c",
+                          "name": "GIÀNG A XOÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f730d14841e_146091/index.m3u8?expire=1778412369",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -919,7 +955,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/84cbbc8bc40a15d27aafc116d775cd27.png",
             "time": "19:00 03/05",
             "blv": "GIÀNG A XOÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2779,7 +2815,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "GIÀNG A LONG",
@@ -2790,7 +2826,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_67c156cd_20260503.png?v=67c156cd",
             "width": 1600,
             "height": 1200
           }
@@ -2832,11 +2868,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-23f0086f49",
+                          "id": "lnk-03dcfe6191",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f72df74841e_145211/index.m3u8?expire=1778411639",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-25b31a03ae",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f6e46d469eb578e2ab8d0c980dcb59ef/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
