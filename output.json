@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6ab502d33c",
-          "name": "Al-Qadsiah vs Al Nassr FC | 01:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ab502d33c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6ab502d33c",
-                  "name": "Al-Qadsiah vs Al Nassr FC",
-                  "streams": [
-                    {
-                      "id": "st-6ab502d33c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c10a003589",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f78c354841e_145205/index.m3u8?expire=1778435765",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b79403bc35",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a0e7190e06581c9ffe1311772e5a018a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-cbcd8ddbfc",
-                          "name": "GIÀNG A BẢNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f78c424841e_145419/index.m3u8?expire=1778435778",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Qadsiah",
-            "team_b": "Al Nassr FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/bc74439d19c8bbaa17c57406b120b86d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
-            "time": "01:00 04/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6ab502d33c_937e39d2_20260504.png?v=937e39d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-fe476df070",
           "name": "Inter Milan vs Parma | 01:45 04/05",
