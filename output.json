@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-efb20e9b77",
-          "name": "Kashima Antlers vs Machida Zelvia | 14:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efb20e9b77",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-efb20e9b77",
-                  "name": "Kashima Antlers vs Machida Zelvia",
-                  "streams": [
-                    {
-                      "id": "st-efb20e9b77",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5a9d3976f",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6ec9336519_145575/index.m3u8?expire=1778394899",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec80064e3f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4cb5438aee16355017c8f8e0b2b30a96/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Kashima Antlers",
-            "team_b": "Machida Zelvia",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
-            "time": "14:00 03/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efb20e9b77_87cb51c8_20260503.png?v=87cb51c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b22fa845da",
           "name": "V-Varen Nagasaki vs Nagoya Grampus | 15:00 03/05",
@@ -2879,8 +2791,8 @@
             "league": "Chinese Basketball Association",
             "team_a": "Guangdong Southern Tigers",
             "team_b": "Guangzhou Loong Lions",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5689743705f1852f10597c559323f04a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/858cde8d2c075296f24e7ee61929fbeb.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5689743705f1852f10597c559323f04a.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/858cde8d2c075296f24e7ee61929fbeb.png",
             "time": "18:35 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2890,7 +2802,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_753c20ae_20260503.png?v=753c20ae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_2353258d_20260503.png?v=2353258d",
             "width": 1600,
             "height": 1200
           }
