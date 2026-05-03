@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -667,94 +667,6 @@
           }
         },
         {
-          "id": "kaytee-e4bf7bad7c",
-          "name": "Barcelona (w) vs Bayern Munchen (w) | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e4bf7bad7c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e4bf7bad7c",
-                  "name": "Barcelona (w) vs Bayern Munchen (w)",
-                  "streams": [
-                    {
-                      "id": "st-e4bf7bad7c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a834c6989",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f758974841e_145244/index.m3u8?expire=1778422551",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e70b461bef",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d4950510c3b7763122cb0733ed2bd357/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Barcelona (w)",
-            "team_b": "Bayern Munchen (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
-            "time": "21:30 03/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4bf7bad7c_6d04c362_20260503.png?v=6d04c362",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-5fb7519189",
           "name": "Sparta Rotterdam vs Go Ahead Eagles | 21:45 03/05",
           "type": "single",
@@ -870,28 +782,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-23373845ab",
+                          "id": "lnk-f0de5c2551",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f75ca036519_145187/index.m3u8?expire=1778423584",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e8c1d3694d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4c6c5ee15a327eae4bea026213f87118/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2418,7 +2313,7 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2431,10 +2326,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2449,7 +2344,25 @@
                     {
                       "id": "st-d97c2e664a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-68082ffb19",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75d0b4841e_146088/index.m3u8?expire=1778423691",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2460,18 +2373,18 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "GIÀNG A LONG",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_67c156cd_20260503.png?v=67c156cd",
             "width": 1600,
             "height": 1200
           }
