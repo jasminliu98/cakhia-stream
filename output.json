@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-1ce5690066",
-          "name": "Fortuna Sittard vs Feyenoord | 19:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ce5690066",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1ce5690066",
-                  "name": "Fortuna Sittard vs Feyenoord",
-                  "streams": [
-                    {
-                      "id": "st-1ce5690066",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-42391aef4e",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7363936519_145187/index.m3u8?expire=1778413753",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a1d4a5830c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/29efdcedcd05d83d61498c2240befb7c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "Fortuna Sittard",
-            "team_b": "Feyenoord",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/622951cb622289cb656f2a1a05edcb13.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/44073f2d2c979a9388f98505ac3b754d.png",
-            "time": "19:30 03/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1ce5690066_81244f28_20260503.png?v=81244f28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-32d2f1bc88",
           "name": "Sassuolo vs AC Milan | 20:00 03/05",
           "type": "single",
@@ -909,6 +821,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fb7519189_31f1d5ce_20260503.png?v=31f1d5ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-afa7a2d1ea",
+          "name": "AZ Alkmaar vs FC Twente Enschede | 21:45 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afa7a2d1ea",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-afa7a2d1ea",
+                  "name": "AZ Alkmaar vs FC Twente Enschede",
+                  "streams": [
+                    {
+                      "id": "st-afa7a2d1ea",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23373845ab",
+                          "name": "GIÀNG A NÌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75ca036519_145187/index.m3u8?expire=1778423584",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e8c1d3694d",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4c6c5ee15a327eae4bea026213f87118/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eredivisie",
+            "team_a": "AZ Alkmaar",
+            "team_b": "FC Twente Enschede",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e52b745126bbb6bdddc90b91b44413ae.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7a2d0c79dd5d8589167c88684ac55aca.png",
+            "time": "21:45 03/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afa7a2d1ea_d953aa21_20260503.png?v=d953aa21",
             "width": 1600,
             "height": 1200
           }
@@ -2181,6 +2181,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33a921963a_f4312c3b_20260503.png?v=f4312c3b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6f8dfc9265",
+          "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f8dfc9265",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f8dfc9265",
+                  "name": "Persijap Jepara vs Persija Jakarta",
+                  "streams": [
+                    {
+                      "id": "st-6f8dfc9265",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Persijap Jepara",
+            "team_b": "Persija Jakarta",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/f4bd932b7d276a93696f4491f334c932.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/10db29eabad13994d9729d8983f8d21a.png",
+            "time": "19:00 04/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f8dfc9265_1b25025b_20260503.png?v=1b25025b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-023e0adef3",
+          "name": "Aston Villa (w) vs West Ham United (w) | 19:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-023e0adef3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-023e0adef3",
+                  "name": "Aston Villa (w) vs West Ham United (w)",
+                  "streams": [
+                    {
+                      "id": "st-023e0adef3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English FA Women's Super League",
+            "team_a": "Aston Villa (w)",
+            "team_b": "West Ham United (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9786e02491cd73bef33d48d5f1b2ad51.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f6fd9013a1e10442708bc6e9d09ee236.png",
+            "time": "19:00 04/05",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-023e0adef3_7c9fe5a0_20260503.png?v=7c9fe5a0",
             "width": 1600,
             "height": 1200
           }
