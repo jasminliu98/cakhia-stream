@@ -545,59 +545,6 @@
           }
         },
         {
-          "id": "kaytee-ec188dce95",
-          "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg | 18:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ec188dce95",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ec188dce95",
-                  "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg",
-                  "streams": [
-                    {
-                      "id": "st-ec188dce95",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Bundesliga 2",
-            "team_a": "SpVgg Greuther Fürth",
-            "team_b": "1. FC Nürnberg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fb6a5a8355f76699d49ce7b6446885ef.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/895a263ae5237d0edbaf850a907a59b0.png",
-            "time": "18:30 03/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ec188dce95_fb49a304_20260503.png?v=fb49a304",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-7201b8e43d",
           "name": "1. FC Magdeburg vs Hertha Berlin | 18:30 03/05",
           "type": "single",
@@ -646,6 +593,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7201b8e43d_bc424a73_20260503.png?v=bc424a73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ec188dce95",
+          "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg | 18:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec188dce95",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ec188dce95",
+                  "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg",
+                  "streams": [
+                    {
+                      "id": "st-ec188dce95",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "SpVgg Greuther Fürth",
+            "team_b": "1. FC Nürnberg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fb6a5a8355f76699d49ce7b6446885ef.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/895a263ae5237d0edbaf850a907a59b0.png",
+            "time": "18:30 03/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ec188dce95_fb49a304_20260503.png?v=fb49a304",
             "width": 1600,
             "height": 1200
           }
@@ -2633,82 +2633,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (2 LIVE)",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-55b058afc8",
-          "name": "Bielsko-Biala vs GKS Katowice | 17:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-55b058afc8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-55b058afc8",
-                  "name": "Bielsko-Biala vs GKS Katowice",
-                  "streams": [
-                    {
-                      "id": "st-55b058afc8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3187921e1",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f71bf036519_145244/index.m3u8?expire=1778407024",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "I. Liga",
-            "team_a": "Bielsko-Biala",
-            "team_b": "GKS Katowice",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9ac72d7d69a7ded1bd3302fd5c5e8229.jpg",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
-            "time": "17:30 03/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-55b058afc8_512db943_20260503.png?v=512db943",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-63c54b9fee",
           "name": "Bielsko-Biala vs GKS Katowice | 17:30 03/05",
