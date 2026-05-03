@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-ad787526d7",
-          "name": "Ba Ria Vung Tau FC vs Quy Nhơn United | 16:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad787526d7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ad787526d7",
-                  "name": "Ba Ria Vung Tau FC vs Quy Nhơn United",
-                  "streams": [
-                    {
-                      "id": "st-ad787526d7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-142e241213",
-                          "name": "GIÀNG A LƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7086036519_145812/index.m3u8?expire=1778402016",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-bcb22ed84a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f8eeb7ea080fdae5dd7ec6b0acf4eef7/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Ba Ria Vung Tau FC",
-            "team_b": "Quy Nhơn United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5e40ed1f6779e1fcfb55c259e36746da.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
-            "time": "16:00 03/05",
-            "blv": "GIÀNG A LƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ad787526d7_85517aad_20260503.png?v=85517aad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-a6b66b5dc2",
           "name": "Khatoco Khanh Hoa vs Xuân Thiện Phú Thọ | 17:00 03/05",
@@ -396,7 +308,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3d42879a0c",
+                          "id": "lnk-908bce9024",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -413,7 +325,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-7c2420d3d6",
+                          "id": "lnk-fd82d88af5",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/48b8916f9f47a438c3b732444c041862/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f0ee05e64e",
                           "name": "GIÀNG A TRỀ",
                           "type": "hls",
                           "default": false,
@@ -505,59 +434,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e7fd0783f3_58e21150_20260503.png?v=58e21150",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-ec188dce95",
-          "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg | 18:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ec188dce95",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ec188dce95",
-                  "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg",
-                  "streams": [
-                    {
-                      "id": "st-ec188dce95",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Bundesliga 2",
-            "team_a": "SpVgg Greuther Fürth",
-            "team_b": "1. FC Nürnberg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fb6a5a8355f76699d49ce7b6446885ef.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/895a263ae5237d0edbaf850a907a59b0.png",
-            "time": "18:30 03/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ec188dce95_fb49a304_20260503.png?v=fb49a304",
             "width": 1600,
             "height": 1200
           }
@@ -664,6 +540,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-14094e08f0_14ea33df_20260503.png?v=14ea33df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ec188dce95",
+          "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg | 18:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec188dce95",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ec188dce95",
+                  "name": "SpVgg Greuther Fürth vs 1. FC Nürnberg",
+                  "streams": [
+                    {
+                      "id": "st-ec188dce95",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "SpVgg Greuther Fürth",
+            "team_b": "1. FC Nürnberg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fb6a5a8355f76699d49ce7b6446885ef.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/895a263ae5237d0edbaf850a907a59b0.png",
+            "time": "18:30 03/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ec188dce95_fb49a304_20260503.png?v=fb49a304",
             "width": 1600,
             "height": 1200
           }
