@@ -2475,11 +2475,82 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-0409f8714d",
+          "name": "Veronika Erjavec vs Katarzyna Kawa | 13:10 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0409f8714d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0409f8714d",
+                  "name": "Veronika Erjavec vs Katarzyna Kawa",
+                  "streams": [
+                    {
+                      "id": "st-0409f8714d",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a966be07a8",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6e6c44841e_146088/index.m3u8?expire=1778393412",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA 125K Huzhou, China Women Singles",
+            "team_a": "Veronika Erjavec",
+            "team_b": "Katarzyna Kawa",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0414d8785883f880647881e0dfc8759e.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2893a17c227b934a35d41e3074fcec1.png",
+            "time": "13:10 03/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0409f8714d_a268d742_20260503.png?v=a268d742",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-d97c2e664a",
           "name": "Jannik Sinner vs Alexander Zverev | 22:00 03/05",
