@@ -11,170 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9077847718",
-          "name": "RC Celta vs Elche | 19:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9077847718",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9077847718",
-                  "name": "RC Celta vs Elche",
-                  "streams": [
-                    {
-                      "id": "st-9077847718",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c9571e70c",
-                          "name": "GIÀNG A LƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7325836519_145812/index.m3u8?expire=1778412760",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-465b65abd2",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/04ad43abf9cd144eea07841eabad582b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "RC Celta",
-            "team_b": "Elche",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fd954d083ee85a6f1a3f2471dc756242.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/e5ecd0553885f1a3af731758dddce2ec.png",
-            "time": "19:00 03/05",
-            "blv": "GIÀNG A LƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9077847718_d4567b96_20260503.png?v=d4567b96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-c347c3a44b",
-          "name": "Dewa United FC vs Semen Padang | 19:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c347c3a44b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c347c3a44b",
-                  "name": "Dewa United FC vs Semen Padang",
-                  "streams": [
-                    {
-                      "id": "st-c347c3a44b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db2455247c",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f730d14841e_146091/index.m3u8?expire=1778412369",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Dewa United FC",
-            "team_b": "Semen Padang",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/76db1148a0e8a7c8e98ab05814cab691.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/84cbbc8bc40a15d27aafc116d775cd27.png",
-            "time": "19:00 03/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c347c3a44b_c4a0928a_20260503.png?v=c4a0928a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1f4f9b6ae7",
           "name": "Viettel FC vs TTBD Phu Dong | 19:15 03/05",
@@ -833,10 +674,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -851,7 +692,25 @@
                     {
                       "id": "st-5fb9d6b26d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c6ea9af326",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7524136519_145232/index.m3u8?expire=1778420929",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -866,7 +725,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/5005d8feab109ce64e40beb98073cc1f.png",
             "time": "21:15 03/05",
             "blv": "GIÀNG A PHỦ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2411,6 +2270,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33a921963a_f4312c3b_20260503.png?v=f4312c3b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-883b0204a4",
+          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-883b0204a4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-883b0204a4",
+                  "name": "Chelsea vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-883b0204a4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Chelsea",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/62572999d107f777efa4aeb907443527.png",
+            "time": "21:00 04/05",
+            "blv": "GIÀNG A TRỀ, GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-883b0204a4_13c2e6df_20260503.png?v=13c2e6df",
             "width": 1600,
             "height": 1200
           }
