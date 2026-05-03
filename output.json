@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-b22fa845da",
-          "name": "V-Varen Nagasaki vs Nagoya Grampus | 15:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b22fa845da",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b22fa845da",
-                  "name": "V-Varen Nagasaki vs Nagoya Grampus",
-                  "streams": [
-                    {
-                      "id": "st-b22fa845da",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-662402dff8",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6f8f84841e_145187/index.m3u8?expire=1778398072",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2653564c93",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a140760c86fed5cc020531643dce686a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "V-Varen Nagasaki",
-            "team_b": "Nagoya Grampus",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/32aa68e1fa3d62dad572d19b21a09353.png",
-            "time": "15:00 03/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b22fa845da_d86d7ff2_20260503.png?v=d86d7ff2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-cfe229a4fe",
           "name": "Persik Kediri vs Arema FC | 15:30 03/05",
           "type": "single",
@@ -379,28 +291,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-f65020734b",
+                          "id": "lnk-e191a76146",
                           "name": "GIÀNG A MU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f715e14841e_146208/index.m3u8?expire=1778405473",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4e4b828865",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/eec65170f3047a7baf81c20dde421922/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -447,10 +342,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -465,7 +360,25 @@
                     {
                       "id": "st-31dbe08822",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-737970640c",
+                          "name": "GIÀNG A CƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f719b736519_145277/index.m3u8?expire=1778406455",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -480,7 +393,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png",
             "time": "17:15 03/05",
             "blv": "GIÀNG A CƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
