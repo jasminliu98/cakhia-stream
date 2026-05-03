@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-3a17a5e4af",
-          "name": "Dong Thap vs PVF-CAND B | 16:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a17a5e4af",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-3a17a5e4af",
-                  "name": "Dong Thap vs PVF-CAND B",
-                  "streams": [
-                    {
-                      "id": "st-3a17a5e4af",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d152ff434",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f708c74841e_146331/index.m3u8?expire=1778402119",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9aac3edb65",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/57b28e07d65d605265e60d153acbc64d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Dong Thap",
-            "team_b": "PVF-CAND B",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/aaf7ff777567dba636caf52a05a45c31.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7d3a984bcf764b1e85663cdfaafce243.png",
-            "time": "16:00 03/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3a17a5e4af_fced116f_20260503.png?v=fced116f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-ad787526d7",
           "name": "Ba Ria Vung Tau FC vs Quy Nhơn United | 16:00 03/05",
