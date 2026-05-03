@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (14 LIVE)",
+      "name": "⚽ Bóng đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5fb9d6b26d",
-          "name": "Getafe vs Rayo Vallecano | 21:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fb9d6b26d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5fb9d6b26d",
-                  "name": "Getafe vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-5fb9d6b26d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-132e501151",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7524136519_145232/index.m3u8?expire=1778420929",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3fd994fdcd",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b3cafc546c5fe9837f20d7e6ad0cdcd2/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Getafe",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/36bf5bf0c8fdf08c1270124808f060e1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5005d8feab109ce64e40beb98073cc1f.png",
-            "time": "21:15 03/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fb9d6b26d_25d45d2a_20260503.png?v=25d45d2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-036f236c03",
           "name": "Manchester United vs Liverpool | 21:30 03/05",
