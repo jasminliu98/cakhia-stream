@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-8e365405a6",
-          "name": "AJ Auxerre vs Angers SCO | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e365405a6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8e365405a6",
-                  "name": "AJ Auxerre vs Angers SCO",
-                  "streams": [
-                    {
-                      "id": "st-8e365405a6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5273c4eb05",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75d4936519_145238/index.m3u8?expire=1778423753",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-019e713e00",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e413d3ae816aabf893b317fc0ccb1774/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "AJ Auxerre",
-            "team_b": "Angers SCO",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/8c03e57af9e8bec20a3ed2f5aaddf78b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
-            "time": "22:15 03/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e365405a6_f9700bbc_20260504.png?v=f9700bbc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-bfeadbdb71",
-          "name": "RC Strasbourg Alsace vs Toulouse FC | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bfeadbdb71",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-bfeadbdb71",
-                  "name": "RC Strasbourg Alsace vs Toulouse FC",
-                  "streams": [
-                    {
-                      "id": "st-bfeadbdb71",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f9118f7321",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f763264841e_145208/index.m3u8?expire=1778425254",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8371e94df1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a7f63992ec5a68508c13803e4c1385c2/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Toulouse FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
-            "time": "22:15 03/05",
-            "blv": "GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bfeadbdb71_14e73453_20260504.png?v=14e73453",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-dc461cd58c",
           "name": "Borussia Monchengladbach vs Borussia Dortmund | 22:30 03/05",
@@ -677,11 +501,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e0cba43856",
+                          "id": "lnk-088cbafece",
                           "name": "GIÀNG A XOÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f775d436519_146091/index.m3u8?expire=1778430036",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a3955abf30",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c56e1ac9319e894fbf272faa61a2995c/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -904,10 +745,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -922,7 +763,25 @@
                     {
                       "id": "st-3bfa4baf50",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d39b62e98e",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f77b9636519_146781/index.m3u8?expire=1778431510",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -937,7 +796,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/03645e9c1d7fd2c48705622f52fd901e.png",
             "time": "00:30 04/05",
             "blv": "GIÀNG A BÉO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2152,28 +2011,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-880b133178",
+                          "id": "lnk-6ec24090ed",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f775c536519_145211/index.m3u8?expire=1778430021",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-28808d44eb",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/cf677173aa2213b1c1e61eb2c38f48f3/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
