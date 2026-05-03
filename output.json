@@ -2518,6 +2518,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-9b135daf07",
+          "name": "Cremonese vs Lazio | 23:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b135daf07",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9b135daf07",
+                  "name": "Cremonese vs Lazio",
+                  "streams": [
+                    {
+                      "id": "st-9b135daf07",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Cremonese",
+            "team_b": "Lazio",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0b0e25267dabd15c405070329df5fbdb.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png",
+            "time": "23:30 04/05",
+            "blv": "GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b135daf07_cae95e68_20260503.png?v=cae95e68",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2763,6 +2816,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-460071f851_f5bc67c4_20260503.png?v=f5bc67c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-abb2cab775",
+          "name": "Alianza Lima vs San Martin de Perez Millan | 05:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abb2cab775",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-abb2cab775",
+                  "name": "Alianza Lima vs San Martin de Perez Millan",
+                  "streams": [
+                    {
+                      "id": "st-abb2cab775",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Peru Campeonato Nacional Women",
+            "team_a": "Alianza Lima",
+            "team_b": "San Martin de Perez Millan",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8941e026a8debbd82633b019552e1515.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/a75e4b7d5a840c89053a7662ecb6a5da.png",
+            "time": "05:00 04/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-abb2cab775_3bb476c9_20260503.png?v=3bb476c9",
             "width": 1600,
             "height": 1200
           }
