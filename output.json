@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -738,77 +738,6 @@
           }
         },
         {
-          "id": "kaytee-c74d6ecd58",
-          "name": "AL-Rbeea Jeddah vs Al Zulfi | 00:50 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c74d6ecd58",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c74d6ecd58",
-                  "name": "AL-Rbeea Jeddah vs Al Zulfi",
-                  "streams": [
-                    {
-                      "id": "st-c74d6ecd58",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-597a7605d6",
-                          "name": "GIÀNG A NÚI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f784c24841e_145611/index.m3u8?expire=1778433858",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Arabia Division 1",
-            "team_a": "AL-Rbeea Jeddah",
-            "team_b": "Al Zulfi",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ad6d65af610226d028067171bfb6839d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/13b5359a749536d5adb6ef17cd675219.png",
-            "time": "00:50 04/05",
-            "blv": "GIÀNG A NÚI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c74d6ecd58_504e81d9_20260504.png?v=504e81d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-6f70183e13",
           "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
           "type": "single",
@@ -836,7 +765,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-2f25c7624b",
+                          "id": "lnk-454339f6f1",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
@@ -853,24 +782,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-30b032e7e1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2f247b5c4ec4f5f51277ad6756e86044/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-12f258fae2",
+                          "id": "lnk-af3ac92e0f",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": false,
@@ -941,28 +853,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a5b6db99e7",
+                          "id": "lnk-e45be9f1ff",
                           "name": "GIÀNG A RON",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f7873c36519_145199/index.m3u8?expire=1778434492",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5e78529eac",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7ce204c496053adcaa373ca0fc97dd09/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
