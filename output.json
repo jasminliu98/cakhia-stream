@@ -2366,6 +2366,59 @@
           }
         },
         {
+          "id": "kaytee-c74d6ecd58",
+          "name": "AL-Rbeea Jeddah vs Al Zulfi | 00:50 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c74d6ecd58",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c74d6ecd58",
+                  "name": "AL-Rbeea Jeddah vs Al Zulfi",
+                  "streams": [
+                    {
+                      "id": "st-c74d6ecd58",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Arabia Division 1",
+            "team_a": "AL-Rbeea Jeddah",
+            "team_b": "Al Zulfi",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ad6d65af610226d028067171bfb6839d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/13b5359a749536d5adb6ef17cd675219.png",
+            "time": "00:50 04/05",
+            "blv": "GIÀNG A NÚI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c74d6ecd58_504e81d9_20260503.png?v=504e81d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-6f70183e13",
           "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
           "type": "single",
@@ -2467,6 +2520,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6ab502d33c_937e39d2_20260503.png?v=937e39d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6fe8ef7961",
+          "name": "Al-Ahli SFC vs Al-Okhdood | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fe8ef7961",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6fe8ef7961",
+                  "name": "Al-Ahli SFC vs Al-Okhdood",
+                  "streams": [
+                    {
+                      "id": "st-6fe8ef7961",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Ahli SFC",
+            "team_b": "Al-Okhdood",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a0a227a6100628d3213e1fc321acd4f2.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/47edbc8776467d4a14314c82b25344ab.png",
+            "time": "01:00 04/05",
+            "blv": "GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6fe8ef7961_bc347826_20260503.png?v=bc347826",
             "width": 1600,
             "height": 1200
           }
@@ -2676,7 +2782,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "GIÀNG A LONG",
@@ -2687,7 +2793,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_67c156cd_20260503.png?v=67c156cd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
             "width": 1600,
             "height": 1200
           }
@@ -2738,8 +2844,8 @@
             "league": "Chinese Basketball Association",
             "team_a": "Guangdong Southern Tigers",
             "team_b": "Guangzhou Loong Lions",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5689743705f1852f10597c559323f04a.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/858cde8d2c075296f24e7ee61929fbeb.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5689743705f1852f10597c559323f04a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/858cde8d2c075296f24e7ee61929fbeb.png",
             "time": "18:35 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2749,7 +2855,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_2353258d_20260503.png?v=2353258d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_753c20ae_20260503.png?v=753c20ae",
             "width": 1600,
             "height": 1200
           }
