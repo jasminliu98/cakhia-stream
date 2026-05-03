@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -850,10 +850,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -868,7 +868,25 @@
                     {
                       "id": "st-5fb7519189",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-49520fb8bf",
+                          "name": "GIÀNG A NA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75aff36519_146847/index.m3u8?expire=1778423167",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -883,7 +901,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/acc42732b97d91016e37952666003417.png",
             "time": "21:45 03/05",
             "blv": "GIÀNG A NA",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -891,59 +909,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fb7519189_31f1d5ce_20260503.png?v=31f1d5ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-afa7a2d1ea",
-          "name": "AZ Alkmaar vs FC Twente Enschede | 21:45 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afa7a2d1ea",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-afa7a2d1ea",
-                  "name": "AZ Alkmaar vs FC Twente Enschede",
-                  "streams": [
-                    {
-                      "id": "st-afa7a2d1ea",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "AZ Alkmaar",
-            "team_b": "FC Twente Enschede",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e52b745126bbb6bdddc90b91b44413ae.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7a2d0c79dd5d8589167c88684ac55aca.png",
-            "time": "21:45 03/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afa7a2d1ea_d953aa21_20260503.png?v=d953aa21",
             "width": 1600,
             "height": 1200
           }
