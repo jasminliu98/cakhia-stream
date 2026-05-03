@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1ce5690066_81244f28_20260503.png?v=81244f28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-22264b7eb2",
-          "name": "PEC Zwolle vs Heracles Almelo | 19:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22264b7eb2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-22264b7eb2",
-                  "name": "PEC Zwolle vs Heracles Almelo",
-                  "streams": [
-                    {
-                      "id": "st-22264b7eb2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-504a17d7b3",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f73a7e36519_146847/index.m3u8?expire=1778414846",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a5d2067a0a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/07ba8af2b4fa6d786c170af99688042d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "PEC Zwolle",
-            "team_b": "Heracles Almelo",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/4e806cd5495e72600ef1123c1c138aa0.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/baca74685739dc7e17413a4806b06fa5.png",
-            "time": "19:30 03/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-22264b7eb2_7f7a0876_20260503.png?v=7f7a0876",
             "width": 1600,
             "height": 1200
           }
@@ -870,11 +782,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-50e7f6c709",
+                          "id": "lnk-7a834c6989",
                           "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f758974841e_145244/index.m3u8?expire=1778422551",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e70b461bef",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/d4950510c3b7763122cb0733ed2bd357/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
