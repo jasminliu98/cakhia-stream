@@ -1801,7 +1801,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/89cdadf6cf1eb6f8d2507de1e01f806c.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/bbfacbdbe67705172c6414d7e9c21b58.png",
             "time": "22:30 03/05",
-            "blv": "GIÀNG A BẢNH",
+            "blv": "GIÀNG A RON",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1854,7 +1854,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/dc0e43b95c6676c54415bac168472aa4.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
             "time": "23:00 03/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A RON",
+            "blv": "GIÀNG A DÂN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2384,7 +2384,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/bc74439d19c8bbaa17c57406b120b86d.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
             "time": "01:00 04/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
+            "blv": "GIÀNG A DÂN",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
