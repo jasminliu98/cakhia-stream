@@ -1459,6 +1459,165 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-e433dfbc41",
+          "name": "AS Roma vs Fiorentina | 01:45 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e433dfbc41",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e433dfbc41",
+                  "name": "AS Roma vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "st-e433dfbc41",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "AS Roma",
+            "team_b": "Fiorentina",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/7a192686d30c1ad031d2fb605eaf2f2a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/858d87ded0cce014bae0c9681af48524.png",
+            "time": "01:45 05/05",
+            "blv": "GIÀNG A BẢNH, GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e433dfbc41_b69548a6_20260504.png?v=b69548a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7ed0c1b412",
+          "name": "Everton vs Manchester City | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ed0c1b412",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7ed0c1b412",
+                  "name": "Everton vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-7ed0c1b412",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Everton",
+            "team_b": "Manchester City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9592d1e0be6375b9e6c5ef169b7aa864.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "time": "02:00 05/05",
+            "blv": "GIÀNG A TRỀ, GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ed0c1b412_9d601fe9_20260504.png?v=9d601fe9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-f1d9c7ce2a",
+          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1d9c7ce2a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f1d9c7ce2a",
+                  "name": "Sevilla FC vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-f1d9c7ce2a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish La Liga",
+            "team_a": "Sevilla FC",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/579db6e95905545973035e6eab8df2cd.png",
+            "time": "02:00 05/05",
+            "blv": "GIÀNG A MAO, GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1d9c7ce2a_dbf709bb_20260504.png?v=dbf709bb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
