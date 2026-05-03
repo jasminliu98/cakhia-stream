@@ -11,292 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e55df4d687",
-          "name": "Juventus vs Hellas Verona | 23:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e55df4d687",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e55df4d687",
-                  "name": "Juventus vs Hellas Verona",
-                  "streams": [
-                    {
-                      "id": "st-e55df4d687",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a576a219c",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f76b984841e_145205/index.m3u8?expire=1778427416",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a9133b25b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e1592ebfc6903cda8238096fadc6101b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f4eaee85b0",
-                          "name": "GIÀNG A BẢNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7650c36519_145419/index.m3u8?expire=1778425740",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Juventus",
-            "team_b": "Hellas Verona",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/dc0e43b95c6676c54415bac168472aa4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/b8e39abb18bb1c69396c59ff73ecf124.png",
-            "time": "23:00 03/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e55df4d687_880564f9_20260504.png?v=880564f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-95c733150d",
-          "name": "Al-Shabab FC vs Al-Taawoun | 23:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-95c733150d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-95c733150d",
-                  "name": "Al-Shabab FC vs Al-Taawoun",
-                  "streams": [
-                    {
-                      "id": "st-95c733150d",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-beda1afb9d",
-                          "name": "GIÀNG A SIK",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f76a5336519_145268/index.m3u8?expire=1778427091",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c39a3496ac",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7fb8cd95d2477de8c9b14374a2a35e18/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Shabab FC",
-            "team_b": "Al-Taawoun",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b16d1e3b04364c5cd64203d8b4ef76e2.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/440da1fad5d16ada9a9742bf5d14c98e.png",
-            "time": "23:00 03/05",
-            "blv": "GIÀNG A SIK",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-95c733150d_f91b43c7_20260504.png?v=f91b43c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-354cebce78",
-          "name": "Aarhus AGF vs Sonderjyske | 23:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-354cebce78",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-354cebce78",
-                  "name": "Aarhus AGF vs Sonderjyske",
-                  "streams": [
-                    {
-                      "id": "st-354cebce78",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ccbfd70b1d",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f76bb64841e_145277/index.m3u8?expire=1778427446",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-aef4649530",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/693aafccfb4372be630d4bae73168e65/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Aarhus AGF",
-            "team_b": "Sonderjyske",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a0da10be11be5910b71c5ca79af53350.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2a247b5fb7ff72e24a051b71a796d71b.png",
-            "time": "23:00 03/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-354cebce78_0d2afd74_20260504.png?v=0d2afd74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3a3c47226e",
           "name": "Real Betis vs Real Oviedo | 23:30 03/05",
@@ -738,6 +457,111 @@
           }
         },
         {
+          "id": "kaytee-6ab502d33c",
+          "name": "Al-Qadsiah vs Al Nassr FC | 01:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ab502d33c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6ab502d33c",
+                  "name": "Al-Qadsiah vs Al Nassr FC",
+                  "streams": [
+                    {
+                      "id": "st-6ab502d33c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c10a003589",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f78c354841e_145205/index.m3u8?expire=1778435765",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b79403bc35",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/a0e7190e06581c9ffe1311772e5a018a/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-cbcd8ddbfc",
+                          "name": "GIÀNG A BẢNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f78c424841e_145419/index.m3u8?expire=1778435778",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Qadsiah",
+            "team_b": "Al Nassr FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bc74439d19c8bbaa17c57406b120b86d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0d9975f7e846a1ecb099f4cd62d1b8f7.png",
+            "time": "01:00 04/05",
+            "blv": "GIÀNG A DÂN, GIÀNG A BẢNH",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6ab502d33c_937e39d2_20260504.png?v=937e39d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-6f70183e13",
           "name": "Aston Villa vs Tottenham Hotspur | 01:00 04/05",
           "type": "single",
@@ -765,7 +589,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-454339f6f1",
+                          "id": "lnk-2f25c7624b",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
@@ -782,7 +606,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-af3ac92e0f",
+                          "id": "lnk-30b032e7e1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2f247b5c4ec4f5f51277ad6756e86044/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-12f258fae2",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": false,
@@ -853,11 +694,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e45be9f1ff",
+                          "id": "lnk-a5b6db99e7",
                           "name": "GIÀNG A RON",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f7873c36519_145199/index.m3u8?expire=1778434492",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5e78529eac",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/7ce204c496053adcaa373ca0fc97dd09/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1853,6 +1711,121 @@
       ]
     },
     {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-f616a2a4ae",
+          "name": "Andre Ilagan vs Hiroki Moriya | 11:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f616a2a4ae",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f616a2a4ae",
+                  "name": "Andre Ilagan vs Hiroki Moriya",
+                  "streams": [
+                    {
+                      "id": "st-f616a2a4ae",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Andre Ilagan",
+            "team_b": "Hiroki Moriya",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1c81cee2970609a3e12f0a6658b98ce5.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/d2f0b4d5353f1f18f657f4d1080dedc4.png",
+            "time": "11:00 04/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f616a2a4ae_9ca01a94_20260504.png?v=9ca01a94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-28d2f688fd",
+          "name": "Luca Castelnuovo vs Evan Zhu | 12:10 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28d2f688fd",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-28d2f688fd",
+                  "name": "Luca Castelnuovo vs Evan Zhu",
+                  "streams": [
+                    {
+                      "id": "st-28d2f688fd",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Luca Castelnuovo",
+            "team_b": "Evan Zhu",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/b0dc2cf567e0c7ef1d4d372c802b0b90.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/195a5883f53893cfd0c65430a64df28b.png",
+            "time": "12:10 04/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-28d2f688fd_ad6edcab_20260504.png?v=ad6edcab",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_20",
       "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
@@ -2020,8 +1993,8 @@
             "league": "National Basketball Association",
             "team_a": "Cleveland Cavaliers",
             "team_b": "Toronto Raptors",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png",
             "time": "06:30 04/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2031,7 +2004,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1758736171_ad8013e5_20260504.png?v=ad8013e5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1758736171_86a09cb2_20260504.png?v=86a09cb2",
             "width": 1600,
             "height": 1200
           }
