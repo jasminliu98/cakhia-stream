@@ -2224,6 +2224,112 @@
           }
         },
         {
+          "id": "kaytee-0b3b7943c2",
+          "name": "Ghazl El Mahallah vs Ismaily SC | 00:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b3b7943c2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0b3b7943c2",
+                  "name": "Ghazl El Mahallah vs Ismaily SC",
+                  "streams": [
+                    {
+                      "id": "st-0b3b7943c2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Ghazl El Mahallah",
+            "team_b": "Ismaily SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/dc6da5d579f4ffcc2574f14a19ce7a98.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/3766cad0712ddc9181a091d2d78d61c8.png",
+            "time": "00:00 04/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0b3b7943c2_550433ae_20260503.png?v=550433ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5d03dd5638",
+          "name": "Bank El Ahly vs Modern Sport FC | 00:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d03dd5638",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5d03dd5638",
+                  "name": "Bank El Ahly vs Modern Sport FC",
+                  "streams": [
+                    {
+                      "id": "st-5d03dd5638",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Bank El Ahly",
+            "team_b": "Modern Sport FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
+            "time": "00:00 04/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5d03dd5638_98570717_20260503.png?v=98570717",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-3bfa4baf50",
           "name": "SC Freiburg vs VfL Wolfsburg | 00:30 04/05",
           "type": "single",
@@ -2962,6 +3068,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-724b93c7a4_0ec98fb2_20260503.png?v=0ec98fb2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-2a06efcf13",
+          "name": "China vs Pháp | 23:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a06efcf13",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-2a06efcf13",
+                  "name": "China vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-2a06efcf13",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thomas Cup",
+            "team_a": "China",
+            "team_b": "Pháp",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7592d899a3a3143fa21955a9a4584716.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-dev/cms/1229090bfd797d31c51d581b2e91acc9.png",
+            "time": "23:00 03/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Cầu Lông"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a06efcf13_b69c419e_20260503.png?v=b69c419e",
             "width": 1600,
             "height": 1200
           }
