@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efb20e9b77_87cb51c8_20260503.png?v=87cb51c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-fdbef4c3ef",
-          "name": "Brisbane Roar Women vs Wellington Phoenix Women | 14:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdbef4c3ef",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-fdbef4c3ef",
-                  "name": "Brisbane Roar Women vs Wellington Phoenix Women",
-                  "streams": [
-                    {
-                      "id": "st-fdbef4c3ef",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8496b00bdb",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6ea304841e_145476/index.m3u8?expire=1778394288",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a8c46e0f2",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f25f984fcae111ec5d581c7578d06bab/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia W-League",
-            "team_a": "Brisbane Roar Women",
-            "team_b": "Wellington Phoenix Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/acf9aab5d7335ccbbcff0e253ad35da0.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c548bc71feff7cc3f6da3184d0f8da14.png",
-            "time": "14:00 03/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdbef4c3ef_0aaee8ca_20260503.png?v=0aaee8ca",
             "width": 1600,
             "height": 1200
           }
