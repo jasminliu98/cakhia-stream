@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9b0e355d35",
-          "name": "Tokyo Verdy vs Kashiwa Reysol | 12:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b0e355d35",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9b0e355d35",
-                  "name": "Tokyo Verdy vs Kashiwa Reysol",
-                  "streams": [
-                    {
-                      "id": "st-9b0e355d35",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb9de55a8b",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6cef036519_145467/index.m3u8?expire=1778387312",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f0553772c9",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/943545bf78285edb2f7e1d98f61f6336/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japanese J1 League",
-            "team_a": "Tokyo Verdy",
-            "team_b": "Kashiwa Reysol",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2a8adb34e764602183a7bee8f51726e4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d272859d78eb8ca7a14753f4293fbf45.png",
-            "time": "12:00 03/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b0e355d35_f72f29ed_20260503.png?v=f72f29ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4c86bd41ba",
           "name": "Cerezo Osaka vs Avispa Fukuoka | 13:00 03/05",
@@ -2694,11 +2606,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e259ed1ea7",
+                          "id": "lnk-10716d65ac",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f6e3004841e_145211/index.m3u8?expire=1778392448",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-069fec78dd",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4f5e82e52e18abed27982a2d229d2cab/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
