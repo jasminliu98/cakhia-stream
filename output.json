@@ -836,7 +836,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-5eee592e69",
+                          "id": "lnk-ff10f63054",
                           "name": "GIÀNG A GIÀ",
                           "type": "hls",
                           "default": true,
@@ -853,7 +853,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-630623ca7c",
+                          "id": "lnk-93a659bdb7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b025d2a6a3d0422c4e81074a4102bbf0/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-718a8f96b6",
                           "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": false,
@@ -924,28 +941,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-42391aef4e",
+                          "id": "lnk-6e8a61d436",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f7363936519_145187/index.m3u8?expire=1778413753",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a1d4a5830c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/29efdcedcd05d83d61498c2240befb7c/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1012,28 +1012,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-504a17d7b3",
+                          "id": "lnk-5f812bbd81",
                           "name": "GIÀNG A NA",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f73a7e36519_146847/index.m3u8?expire=1778414846",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a5d2067a0a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/07ba8af2b4fa6d786c170af99688042d/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1068,59 +1051,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-22264b7eb2_7f7a0876_20260503.png?v=7f7a0876",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-32d2f1bc88",
-          "name": "Sassuolo vs AC Milan | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32d2f1bc88",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-32d2f1bc88",
-                  "name": "Sassuolo vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-32d2f1bc88",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Sassuolo",
-            "team_b": "AC Milan",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/616bf242a532f72e970648f2ead423cf.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/643ef4101b017dc1495dbd9e9d5cce28.png",
-            "time": "20:00 03/05",
-            "blv": "GIÀNG A MAO, GIÀNG A CÒI",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-32d2f1bc88_21c614c5_20260503.png?v=21c614c5",
             "width": 1600,
             "height": 1200
           }
@@ -1174,6 +1104,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5a53938f72_a4f4c03a_20260503.png?v=a4f4c03a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-32d2f1bc88",
+          "name": "Sassuolo vs AC Milan | 20:00 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32d2f1bc88",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-32d2f1bc88",
+                  "name": "Sassuolo vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-32d2f1bc88",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italian Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "AC Milan",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/616bf242a532f72e970648f2ead423cf.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/643ef4101b017dc1495dbd9e9d5cce28.png",
+            "time": "20:00 03/05",
+            "blv": "GIÀNG A MAO, GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-32d2f1bc88_21c614c5_20260503.png?v=21c614c5",
             "width": 1600,
             "height": 1200
           }
