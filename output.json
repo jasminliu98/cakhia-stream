@@ -413,11 +413,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-619849dd4f",
+                          "id": "lnk-732e2b0703",
                           "name": "GIÀNG A BÚN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f72ab036519_146331/index.m3u8?expire=1778410800",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1a9f81183e",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e9f394e270caf844221cd21811f1120e/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -484,11 +501,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d7d26c1752",
+                          "id": "lnk-8386cf7aad",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f72c934841e_145407/index.m3u8?expire=1778411283",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f4e002f083",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f3a80d8a5e9b52bd675e086793d1ba73/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -555,11 +589,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c513a8cc48",
+                          "id": "lnk-35e49ed1f8",
                           "name": "GIÀNG A LUNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f729bb36519_145422/index.m3u8?expire=1778410555",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9d66680396",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1ee2d0fcea0b4fd506a46180ae1f75ce/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -626,11 +677,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c8dc45e2ed",
+                          "id": "lnk-773c786020",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f72a4a36519_145575/index.m3u8?expire=1778410698",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-88351a5b85",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4ef59a4f8e0ad08e1843889e2dcdf698/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2594,6 +2662,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-33a921963a",
+          "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33a921963a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-33a921963a",
+                  "name": "Vietnam U17 Women vs China U17 Women",
+                  "streams": [
+                    {
+                      "id": "st-33a921963a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Vietnam U17 Women",
+            "team_b": "China U17 Women",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2bb2cd4e6d0219b11dcbda441a825b50.png",
+            "time": "18:30 04/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A MAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33a921963a_f4312c3b_20260503.png?v=f4312c3b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2694,28 +2815,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-03dcfe6191",
+                          "id": "lnk-23f0086f49",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f72df74841e_145211/index.m3u8?expire=1778411639",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-25b31a03ae",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f6e46d469eb578e2ab8d0c980dcb59ef/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
