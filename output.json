@@ -782,11 +782,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-49520fb8bf",
+                          "id": "lnk-df4f5cd12b",
                           "name": "GIÀNG A NA",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f75aff36519_146847/index.m3u8?expire=1778423167",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4a1addfa30",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/14b9597e0800ca74b33c2e55e9b8fd4a/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2340,6 +2357,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-883b0204a4_13c2e6df_20260503.png?v=13c2e6df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ba61323c77",
+          "name": "Pharco vs El Mokawloon El Arab | 21:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba61323c77",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ba61323c77",
+                  "name": "Pharco vs El Mokawloon El Arab",
+                  "streams": [
+                    {
+                      "id": "st-ba61323c77",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Pharco",
+            "team_b": "El Mokawloon El Arab",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/abc7123841c5174901b57ace767891ca.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
+            "time": "21:00 04/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ba61323c77_885ba392_20260503.png?v=885ba392",
             "width": 1600,
             "height": 1200
           }
