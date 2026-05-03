@@ -2520,7 +2520,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2533,10 +2533,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2551,7 +2551,25 @@
                     {
                       "id": "st-c747d5f66c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2bb834f28",
+                          "name": "GIÀNG A THỎ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f6b3684841e_145163/index.m3u8?expire=1778380264",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2562,18 +2580,18 @@
             "league": "New Zealand National Basketball League",
             "team_a": "Canterbury Rams",
             "team_b": "Otago Nuggets",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/256e715800fb8321f7cf1dacce3aa35e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5682b443934d64c12f41e5abfc6e2f8a.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/256e715800fb8321f7cf1dacce3aa35e.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5682b443934d64c12f41e5abfc6e2f8a.png",
             "time": "10:00 03/05",
             "blv": "GIÀNG A THỎ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_abe76ec7_20260503.png?v=abe76ec7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c747d5f66c_f78aa6a7_20260503.png?v=f78aa6a7",
             "width": 1600,
             "height": 1200
           }
@@ -2615,8 +2633,8 @@
             "league": "New Zealand National Basketball League",
             "team_a": "Southland Sharks",
             "team_b": "Manawatu Jets",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6edfa328515596217d7fa6c628272f34.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8f06ac7835bf0ddf790691efc2d39aab.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/6edfa328515596217d7fa6c628272f34.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/8f06ac7835bf0ddf790691efc2d39aab.png",
             "time": "13:00 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2626,7 +2644,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_dabb2632_20260503.png?v=dabb2632",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-895ef8176e_2f989800_20260503.png?v=2f989800",
             "width": 1600,
             "height": 1200
           }
@@ -2668,8 +2686,8 @@
             "league": "Chinese Basketball Association",
             "team_a": "Guangdong Southern Tigers",
             "team_b": "Guangzhou Loong Lions",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5689743705f1852f10597c559323f04a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/858cde8d2c075296f24e7ee61929fbeb.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5689743705f1852f10597c559323f04a.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/858cde8d2c075296f24e7ee61929fbeb.png",
             "time": "18:35 03/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2679,7 +2697,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_753c20ae_20260503.png?v=753c20ae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f8512c991e_2353258d_20260503.png?v=2353258d",
             "width": 1600,
             "height": 1200
           }
