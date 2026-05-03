@@ -772,59 +772,6 @@
           }
         },
         {
-          "id": "kaytee-999589518e",
-          "name": "Rio Ave vs Gil Vicente | 02:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-999589518e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-999589518e",
-                  "name": "Rio Ave vs Gil Vicente",
-                  "streams": [
-                    {
-                      "id": "st-999589518e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Rio Ave",
-            "team_b": "Gil Vicente",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e83b163c8501f897012bcc29adfae2b9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6a2005d20c872db3173d2bf995768055.png",
-            "time": "02:30 04/05",
-            "blv": "GIÀNG A BÉO",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-999589518e_cfeacf5b_20260504.png?v=cfeacf5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-ade149401b",
           "name": "Myanmar U17 Women vs Thailand U17 Women | 14:30 04/05",
           "type": "single",
@@ -967,7 +914,7 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Vietnam U17 Women",
             "team_b": "China U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0062546fba2350caff9e4b31101550c4.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/2bb2cd4e6d0219b11dcbda441a825b50.png",
             "time": "18:30 04/05",
             "blv": "GIÀNG A NGAO, GIÀNG A MAO",
@@ -978,7 +925,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33a921963a_f4312c3b_20260504.png?v=f4312c3b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33a921963a_47505fd9_20260504.png?v=47505fd9",
             "width": 1600,
             "height": 1200
           }
@@ -1339,7 +1286,7 @@
             "team_a": "Eintracht Frankfurt (w)",
             "team_b": "Nurnberg (w)",
             "logo_a": "https://cdn.rapid-api.icu/football/team/9ebd79de8504a6573dce8c419ff16b10.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7e2a65e9804e89abf1a9aa4c1c0bdfb3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7e2a65e9804e89abf1a9aa4c1c0bdfb3.png",
             "time": "23:00 04/05",
             "blv": "GIÀNG A PHỦ",
             "is_live": false,
@@ -1349,7 +1296,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdf7d31c88_17281a42_20260504.png?v=17281a42",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdf7d31c88_b329b4c7_20260504.png?v=b329b4c7",
             "width": 1600,
             "height": 1200
           }
@@ -1559,8 +1506,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Andre Ilagan",
             "team_b": "Hiroki Moriya",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1c81cee2970609a3e12f0a6658b98ce5.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2f0b4d5353f1f18f657f4d1080dedc4.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1c81cee2970609a3e12f0a6658b98ce5.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/d2f0b4d5353f1f18f657f4d1080dedc4.png",
             "time": "11:00 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1570,7 +1517,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f616a2a4ae_685b615e_20260504.png?v=685b615e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f616a2a4ae_9ca01a94_20260504.png?v=9ca01a94",
             "width": 1600,
             "height": 1200
           }
@@ -1612,8 +1559,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Luca Castelnuovo",
             "team_b": "Evan Zhu",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b0dc2cf567e0c7ef1d4d372c802b0b90.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/195a5883f53893cfd0c65430a64df28b.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/b0dc2cf567e0c7ef1d4d372c802b0b90.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/195a5883f53893cfd0c65430a64df28b.png",
             "time": "12:10 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1623,7 +1570,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-28d2f688fd_6623c37e_20260504.png?v=6623c37e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-28d2f688fd_ad6edcab_20260504.png?v=ad6edcab",
             "width": 1600,
             "height": 1200
           }
@@ -1665,8 +1612,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Hayato Matsuoka",
             "team_b": "Yusuke Takahashi",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06ced81e28f51f9fadc2fd76af0a2949.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b87190a20612926a4cab534392627f10.jpg",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/06ced81e28f51f9fadc2fd76af0a2949.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/b87190a20612926a4cab534392627f10.jpg",
             "time": "12:10 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1676,7 +1623,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0489d50c46_d593cb91_20260504.png?v=d593cb91",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0489d50c46_868905ff_20260504.png?v=868905ff",
             "width": 1600,
             "height": 1200
           }
@@ -1718,8 +1665,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Mikhail Kukushkin",
             "team_b": "Zhang Tianhui",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75b1af047d9890dba3158e890f0f9244.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aba47629cf9f84588a744afeb355422f.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/75b1af047d9890dba3158e890f0f9244.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/aba47629cf9f84588a744afeb355422f.png",
             "time": "13:30 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1729,7 +1676,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2d01d0dff_8c66e30d_20260504.png?v=8c66e30d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d2d01d0dff_be9a3aa7_20260504.png?v=be9a3aa7",
             "width": 1600,
             "height": 1200
           }
@@ -1771,8 +1718,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Cui Jie",
             "team_b": "Alexis Galarneau",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1d544c72cef6d33b5f97f4a09448ed25.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/852f589419313208735f0e8402ce179e.png",
             "time": "13:30 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1782,7 +1729,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b9c0bd34e4_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b9c0bd34e4_04504040_20260504.png?v=04504040",
             "width": 1600,
             "height": 1200
           }
@@ -1791,7 +1738,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1804,10 +1751,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1822,7 +1769,25 @@
                     {
                       "id": "st-4cfc8a7e71",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2a9731f3c",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f798a836519_145211/index.m3u8?expire=1778438952",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1833,18 +1798,18 @@
             "league": "National Basketball Association",
             "team_a": "Detroit Pistons",
             "team_b": "Orlando Magic",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0dc24d08ef0b5584e0b70f967db64b36.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
             "time": "02:30 04/05",
             "blv": "GIÀNG A SÓC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4cfc8a7e71_58764c29_20260504.png?v=58764c29",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4cfc8a7e71_a74507b4_20260504.png?v=a74507b4",
             "width": 1600,
             "height": 1200
           }
@@ -1886,8 +1851,8 @@
             "league": "National Basketball Association",
             "team_a": "Cleveland Cavaliers",
             "team_b": "Toronto Raptors",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e299ddecec93dc5c8db83b1761e2fa1f.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png",
             "time": "06:30 04/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -1897,7 +1862,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1758736171_ad8013e5_20260504.png?v=ad8013e5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1758736171_86a09cb2_20260504.png?v=86a09cb2",
             "width": 1600,
             "height": 1200
           }
