@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-0b3b7943c2",
-          "name": "Ghazl El Mahallah vs Ismaily SC | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b3b7943c2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0b3b7943c2",
-                  "name": "Ghazl El Mahallah vs Ismaily SC",
-                  "streams": [
-                    {
-                      "id": "st-0b3b7943c2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-979572b1c5",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7799c4841e_145407/index.m3u8?expire=1778431004",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-071d1ed729",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/6329da430ee211adbcd7160759fedec2/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Ghazl El Mahallah",
-            "team_b": "Ismaily SC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/dc6da5d579f4ffcc2574f14a19ce7a98.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/3766cad0712ddc9181a091d2d78d61c8.png",
-            "time": "00:00 04/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0b3b7943c2_550433ae_20260504.png?v=550433ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-5d03dd5638",
-          "name": "Bank El Ahly vs Modern Sport FC | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d03dd5638",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5d03dd5638",
-                  "name": "Bank El Ahly vs Modern Sport FC",
-                  "streams": [
-                    {
-                      "id": "st-5d03dd5638",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a37329cada",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f778f436519_146208/index.m3u8?expire=1778430836",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-68d8c0c335",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/5ddfc83c40736c7385a94c50a9943c06/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Bank El Ahly",
-            "team_b": "Modern Sport FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
-            "time": "00:00 04/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5d03dd5638_98570717_20260504.png?v=98570717",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-3bfa4baf50",
           "name": "SC Freiburg vs VfL Wolfsburg | 00:30 04/05",
@@ -887,11 +711,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-14fef84973",
+                          "id": "lnk-205e444260",
                           "name": "GIÀNG A ĐẬU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f7967e4841e_145169/index.m3u8?expire=1778438398",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-47bae783a7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/b56a74811a6dd4820eb6aecae872c613/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
