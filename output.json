@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -767,6 +767,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1d6d9a1a46_76238ea4_20260504.png?v=76238ea4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-999589518e",
+          "name": "Rio Ave vs Gil Vicente | 02:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-999589518e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-999589518e",
+                  "name": "Rio Ave vs Gil Vicente",
+                  "streams": [
+                    {
+                      "id": "st-999589518e",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e48b776fc5",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7a0f54841e_146781/index.m3u8?expire=1778441077",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Rio Ave",
+            "team_b": "Gil Vicente",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e83b163c8501f897012bcc29adfae2b9.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6a2005d20c872db3173d2bf995768055.png",
+            "time": "02:30 04/05",
+            "blv": "GIÀNG A BÉO",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-999589518e_cfeacf5b_20260504.png?v=cfeacf5b",
             "width": 1600,
             "height": 1200
           }
@@ -1771,11 +1842,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a2a9731f3c",
+                          "id": "lnk-75a7ab2e6e",
                           "name": "GIÀNG A SÓC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f798a836519_145211/index.m3u8?expire=1778438952",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5083d97327",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4899cf8e05047224e9bf98584c3fd570/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
