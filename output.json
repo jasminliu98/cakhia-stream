@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-1f4f9b6ae7",
-          "name": "Viettel FC vs TTBD Phu Dong | 19:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f4f9b6ae7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-1f4f9b6ae7",
-                  "name": "Viettel FC vs TTBD Phu Dong",
-                  "streams": [
-                    {
-                      "id": "st-1f4f9b6ae7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff10f63054",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f733334841e_145238/index.m3u8?expire=1778412979",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-93a659bdb7",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/b025d2a6a3d0422c4e81074a4102bbf0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-718a8f96b6",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f72aa84841e_146781/index.m3u8?expire=1778410792",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Viettel FC",
-            "team_b": "TTBD Phu Dong",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/840e2d7165cf2a34ec6c65a1fd9b58a9.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5452226660be0829fdb40967dd4b0b77.png",
-            "time": "19:15 03/05",
-            "blv": "GIÀNG A GIÀ, GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1f4f9b6ae7_5259653d_20260503.png?v=5259653d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-1ce5690066",
           "name": "Fortuna Sittard vs Feyenoord | 19:30 03/05",
           "type": "single",
@@ -943,6 +838,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-985816d130_38d6ed5c_20260503.png?v=38d6ed5c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-e4bf7bad7c",
+          "name": "Barcelona (w) vs Bayern Munchen (w) | 21:30 03/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e4bf7bad7c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e4bf7bad7c",
+                  "name": "Barcelona (w) vs Bayern Munchen (w)",
+                  "streams": [
+                    {
+                      "id": "st-e4bf7bad7c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50e7f6c709",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f758974841e_145244/index.m3u8?expire=1778422551",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Barcelona (w)",
+            "team_b": "Bayern Munchen (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
+            "time": "21:30 03/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4bf7bad7c_6d04c362_20260503.png?v=6d04c362",
             "width": 1600,
             "height": 1200
           }
