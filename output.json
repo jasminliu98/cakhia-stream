@@ -11,292 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-32d2f1bc88",
-          "name": "Sassuolo vs AC Milan | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32d2f1bc88",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-32d2f1bc88",
-                  "name": "Sassuolo vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-32d2f1bc88",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-44e41a49cd",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f740bf36519_145223/index.m3u8?expire=1778416447",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4379107931",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/54bf6c99c94adbbd9e5c306ae5630b48/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1cdd1302ed",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7402c4841e_145208/index.m3u8?expire=1778416300",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Sassuolo",
-            "team_b": "AC Milan",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/616bf242a532f72e970648f2ead423cf.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/643ef4101b017dc1495dbd9e9d5cce28.png",
-            "time": "20:00 03/05",
-            "blv": "GIÀNG A MAO, GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-32d2f1bc88_21c614c5_20260503.png?v=21c614c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-5a53938f72",
-          "name": "Bournemouth AFC vs Crystal Palace | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a53938f72",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5a53938f72",
-                  "name": "Bournemouth AFC vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-5a53938f72",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b141abbf5",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f73de34841e_145419/index.m3u8?expire=1778415715",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-283c3279de",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/073b9114f75cb2f91e4f89091424ef3c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Bournemouth AFC",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/240b30d333c97d293752ab7afd77ccd6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/42396d18444156e640c37476c2b41b93.png",
-            "time": "20:00 03/05",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5a53938f72_a4f4c03a_20260503.png?v=a4f4c03a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-150a15439e",
-          "name": "LOSC Lille vs Havre Athletic Club | 20:00 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-150a15439e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-150a15439e",
-                  "name": "LOSC Lille vs Havre Athletic Club",
-                  "streams": [
-                    {
-                      "id": "st-150a15439e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ac3be6f0ea",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f73f8036519_145277/index.m3u8?expire=1778416128",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-de81e05872",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f23b1a2c4e53038ff38fb2339ff99617/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "LOSC Lille",
-            "team_b": "Havre Athletic Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/28e94925fdcc848f86a544a1cedcceed.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8fd50a53dad5ea4fd2d32bd3ce727f58.png",
-            "time": "20:00 03/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-150a15439e_49b8ba5d_20260503.png?v=49b8ba5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-cb1775aca7",
           "name": "FC St. Pauli vs 1. FSV Mainz 05 | 20:30 03/05",
@@ -921,10 +640,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -939,7 +658,42 @@
                     {
                       "id": "st-8e365405a6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5273c4eb05",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75d4936519_145238/index.m3u8?expire=1778423753",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-019e713e00",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e413d3ae816aabf893b317fc0ccb1774/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -954,7 +708,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/526150064f4f983d670deb33fa6385b6.png",
             "time": "22:15 03/05",
             "blv": "GIÀNG A GIÀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -974,10 +728,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -992,7 +746,25 @@
                     {
                       "id": "st-2790af30a2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bebf9d6848",
+                          "name": "GIÀNG A MAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7627436519_145223/index.m3u8?expire=1778425076",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1007,7 +779,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/bb7e6346a3860008e4ff266ba3b655e8.png",
             "time": "22:15 03/05",
             "blv": "GIÀNG A MAO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1015,59 +787,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2790af30a2_234140e3_20260503.png?v=234140e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-bfeadbdb71",
-          "name": "RC Strasbourg Alsace vs Toulouse FC | 22:15 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bfeadbdb71",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-bfeadbdb71",
-                  "name": "RC Strasbourg Alsace vs Toulouse FC",
-                  "streams": [
-                    {
-                      "id": "st-bfeadbdb71",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "French Ligue 1",
-            "team_a": "RC Strasbourg Alsace",
-            "team_b": "Toulouse FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/998db478bf7c06d5817bf846987a0d0a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2947fe2f42551a5b7eccca7fc948f879.png",
-            "time": "22:15 03/05",
-            "blv": "GIÀNG A CÒI",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bfeadbdb71_14e73453_20260503.png?v=14e73453",
             "width": 1600,
             "height": 1200
           }
@@ -2461,7 +2180,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "GIÀNG A LONG",
@@ -2472,7 +2191,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_67c156cd_20260503.png?v=67c156cd",
             "width": 1600,
             "height": 1200
           }
