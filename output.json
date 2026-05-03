@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -379,11 +379,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-737970640c",
+                          "id": "lnk-1d180aa642",
                           "name": "GIÀNG A CƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f719b736519_145277/index.m3u8?expire=1778406455",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-68485e8c91",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/06d3c9bd22174640b5f554d84f77bd67/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -430,10 +447,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -448,7 +465,25 @@
                     {
                       "id": "st-9bd3805ed3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1e38a5bfb",
+                          "name": "GIÀNG A MAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f71b884841e_145223/index.m3u8?expire=1778406920",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -463,7 +498,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/dba65c184e03c860ed919ce192b86c5e.png",
             "time": "17:30 03/05",
             "blv": "GIÀNG A MAO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2694,7 +2729,7 @@
             "league": "ATP Madrid, Spain Men Singles",
             "team_a": "Jannik Sinner",
             "team_b": "Alexander Zverev",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f2db269e5f9220206ef3f4e9e851f33d.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/f2db269e5f9220206ef3f4e9e851f33d.png",
             "logo_b": "https://cdn.rapid-api.icu/v2/team/Fs2AoS8fSPu9qB9HdwSDwQVAICOz",
             "time": "22:00 03/05",
             "blv": "GIÀNG A LONG",
@@ -2705,7 +2740,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_7e885173_20260503.png?v=7e885173",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d97c2e664a_67c156cd_20260503.png?v=67c156cd",
             "width": 1600,
             "height": 1200
           }
@@ -2776,7 +2811,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2789,10 +2824,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2807,7 +2842,25 @@
                     {
                       "id": "st-55b058afc8",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3187921e1",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f71bf036519_145244/index.m3u8?expire=1778407024",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2822,7 +2875,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
             "time": "17:30 03/05",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
@@ -2842,10 +2895,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2860,7 +2913,25 @@
                     {
                       "id": "st-63c54b9fee",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3187921e1",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f71bf036519_145244/index.m3u8?expire=1778407024",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2875,7 +2946,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
             "time": "17:30 03/05",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
