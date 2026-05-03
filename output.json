@@ -11,292 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (13 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-036f236c03",
-          "name": "Manchester United vs Liverpool | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-036f236c03",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-036f236c03",
-                  "name": "Manchester United vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-036f236c03",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d49ddd002",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7544a36519_145821/index.m3u8?expire=1778421450",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1bc632f5f0",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f8867e8a9503c230372531cfef7e67e8/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-20bf9421cc",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f753a94841e_145689/index.m3u8?expire=1778421289",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Manchester United",
-            "team_b": "Liverpool",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d39ce586fd7278342dde33b3090b3f75.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png",
-            "time": "21:30 03/05",
-            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-036f236c03_55d2e7f5_20260503.png?v=55d2e7f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-985816d130",
-          "name": "Casa Pia AC vs CD Tondela | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-985816d130",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-985816d130",
-                  "name": "Casa Pia AC vs CD Tondela",
-                  "streams": [
-                    {
-                      "id": "st-985816d130",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54b20cb9e0",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f755a54841e_145476/index.m3u8?expire=1778421797",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc9bc6c477",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d908c9809c5c6d57472b513f269b05f7/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Casa Pia AC",
-            "team_b": "CD Tondela",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0ee6b6e8c21275bb7a79e64c4baf90c1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/4640a8c2881298c36b5c67927ce820f8.png",
-            "time": "21:30 03/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-985816d130_38d6ed5c_20260503.png?v=38d6ed5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-e4bf7bad7c",
-          "name": "Barcelona (w) vs Bayern Munchen (w) | 21:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e4bf7bad7c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e4bf7bad7c",
-                  "name": "Barcelona (w) vs Bayern Munchen (w)",
-                  "streams": [
-                    {
-                      "id": "st-e4bf7bad7c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a834c6989",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f758974841e_145244/index.m3u8?expire=1778422551",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e70b461bef",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d4950510c3b7763122cb0733ed2bd357/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Barcelona (w)",
-            "team_b": "Bayern Munchen (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
-            "time": "21:30 03/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e4bf7bad7c_6d04c362_20260503.png?v=6d04c362",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-5fb7519189",
           "name": "Sparta Rotterdam vs Go Ahead Eagles | 21:45 03/05",
@@ -1248,59 +967,6 @@
           }
         },
         {
-          "id": "kaytee-0b3b7943c2",
-          "name": "Ghazl El Mahallah vs Ismaily SC | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b3b7943c2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0b3b7943c2",
-                  "name": "Ghazl El Mahallah vs Ismaily SC",
-                  "streams": [
-                    {
-                      "id": "st-0b3b7943c2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Ghazl El Mahallah",
-            "team_b": "Ismaily SC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/dc6da5d579f4ffcc2574f14a19ce7a98.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/3766cad0712ddc9181a091d2d78d61c8.png",
-            "time": "00:00 04/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0b3b7943c2_550433ae_20260503.png?v=550433ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-5d03dd5638",
           "name": "Bank El Ahly vs Modern Sport FC | 00:00 04/05",
           "type": "single",
@@ -1349,6 +1015,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5d03dd5638_98570717_20260503.png?v=98570717",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0b3b7943c2",
+          "name": "Ghazl El Mahallah vs Ismaily SC | 00:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b3b7943c2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0b3b7943c2",
+                  "name": "Ghazl El Mahallah vs Ismaily SC",
+                  "streams": [
+                    {
+                      "id": "st-0b3b7943c2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Ghazl El Mahallah",
+            "team_b": "Ismaily SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/dc6da5d579f4ffcc2574f14a19ce7a98.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/3766cad0712ddc9181a091d2d78d61c8.png",
+            "time": "00:00 04/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0b3b7943c2_550433ae_20260503.png?v=550433ae",
             "width": 1600,
             "height": 1200
           }
