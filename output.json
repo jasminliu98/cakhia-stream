@@ -17,94 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-dc461cd58c",
-          "name": "Borussia Monchengladbach vs Borussia Dortmund | 22:30 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc461cd58c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-dc461cd58c",
-                  "name": "Borussia Monchengladbach vs Borussia Dortmund",
-                  "streams": [
-                    {
-                      "id": "st-dc461cd58c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5a585e452",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f7634636519_145199/index.m3u8?expire=1778425286",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e82e8c10db",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2cb6884c63ecd7921a0fd341baec86c1/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Monchengladbach",
-            "team_b": "Borussia Dortmund",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/89cdadf6cf1eb6f8d2507de1e01f806c.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/bbfacbdbe67705172c6414d7e9c21b58.png",
-            "time": "22:30 03/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dc461cd58c_47fd32ee_20260504.png?v=47fd32ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-e55df4d687",
           "name": "Juventus vs Hellas Verona | 23:00 03/05",
           "type": "single",
@@ -833,10 +745,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -851,7 +763,42 @@
                     {
                       "id": "st-c74d6ecd58",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e4045a11c8",
+                          "name": "GIÀNG A NÚI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f784c24841e_145611/index.m3u8?expire=1778433858",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7ad84e6db6",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fd7e9eec96c967307f44fd55c567dded/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -866,7 +813,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/13b5359a749536d5adb6ef17cd675219.png",
             "time": "00:50 04/05",
             "blv": "GIÀNG A NÚI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
