@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5fb7519189_31f1d5ce_20260503.png?v=31f1d5ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-afa7a2d1ea",
-          "name": "AZ Alkmaar vs FC Twente Enschede | 21:45 03/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afa7a2d1ea",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-afa7a2d1ea",
-                  "name": "AZ Alkmaar vs FC Twente Enschede",
-                  "streams": [
-                    {
-                      "id": "st-afa7a2d1ea",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23373845ab",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f75ca036519_145187/index.m3u8?expire=1778423584",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e8c1d3694d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4c6c5ee15a327eae4bea026213f87118/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie",
-            "team_a": "AZ Alkmaar",
-            "team_b": "FC Twente Enschede",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/e52b745126bbb6bdddc90b91b44413ae.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7a2d0c79dd5d8589167c88684ac55aca.png",
-            "time": "21:45 03/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afa7a2d1ea_d953aa21_20260503.png?v=d953aa21",
             "width": 1600,
             "height": 1200
           }
@@ -967,59 +879,6 @@
           }
         },
         {
-          "id": "kaytee-5d03dd5638",
-          "name": "Bank El Ahly vs Modern Sport FC | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d03dd5638",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5d03dd5638",
-                  "name": "Bank El Ahly vs Modern Sport FC",
-                  "streams": [
-                    {
-                      "id": "st-5d03dd5638",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Bank El Ahly",
-            "team_b": "Modern Sport FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
-            "time": "00:00 04/05",
-            "blv": "GIÀNG A MU",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5d03dd5638_98570717_20260503.png?v=98570717",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-0b3b7943c2",
           "name": "Ghazl El Mahallah vs Ismaily SC | 00:00 04/05",
           "type": "single",
@@ -1068,6 +927,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0b3b7943c2_550433ae_20260503.png?v=550433ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-5d03dd5638",
+          "name": "Bank El Ahly vs Modern Sport FC | 00:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d03dd5638",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5d03dd5638",
+                  "name": "Bank El Ahly vs Modern Sport FC",
+                  "streams": [
+                    {
+                      "id": "st-5d03dd5638",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Bank El Ahly",
+            "team_b": "Modern Sport FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/31f3149a6e207008059cd6bb40a4a423.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/53f4bc55c48cd39be78fa4fa69645f31.png",
+            "time": "00:00 04/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5d03dd5638_98570717_20260503.png?v=98570717",
             "width": 1600,
             "height": 1200
           }
