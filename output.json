@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-7a2935de0e",
-          "name": "Sporting Braga vs Estoril | 00:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a2935de0e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7a2935de0e",
-                  "name": "Sporting Braga vs Estoril",
-                  "streams": [
-                    {
-                      "id": "st-7a2935de0e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-088cbafece",
-                          "name": "GIÀNG A XOÀI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f775d436519_146091/index.m3u8?expire=1778430036",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a3955abf30",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c56e1ac9319e894fbf272faa61a2995c/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Sporting Braga",
-            "team_b": "Estoril",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1fe75f826dab40e6e89cbe961c7e9116.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/faeceacffbf35e28b7e71a5f90b6efdc.png",
-            "time": "00:00 04/05",
-            "blv": "GIÀNG A XOÀI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7a2935de0e_521fccf4_20260504.png?v=521fccf4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-0b3b7943c2",
           "name": "Ghazl El Mahallah vs Ismaily SC | 00:00 04/05",
