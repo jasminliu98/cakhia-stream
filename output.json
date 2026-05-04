@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-efa48280f9",
-          "name": "Sporting CP vs Vitoria Guimaraes | 02:15 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efa48280f9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-efa48280f9",
-                  "name": "Sporting CP vs Vitoria Guimaraes",
-                  "streams": [
-                    {
-                      "id": "st-efa48280f9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecd3d89fcf",
-                          "name": "GIÀNG A NGỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8e50136519_145575/index.m3u8?expire=1778524033",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ee4d263ffe",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fa7a0b88ddf33a1502e86ed293578f80/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese Primera Liga",
-            "team_a": "Sporting CP",
-            "team_b": "Vitoria Guimaraes",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6a5153c73922a32013b9bc6cfbc20b26.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/ad97b71fe0d8df0e60f7c534fee24132.png",
-            "time": "02:15 05/05",
-            "blv": "GIÀNG A NGỘ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa48280f9_e570b580_20260505.png?v=e570b580",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-7b3685b033",
           "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
@@ -830,8 +742,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Philippines U17 Women",
             "team_b": "North Korea Women U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/702d8e982ec231766ec875424c555d0e.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A RON",
             "is_live": false,
@@ -841,7 +753,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260505.png?v=317a1ed2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_e6430fba_20260505.png?v=e6430fba",
             "width": 1600,
             "height": 1200
           }
@@ -1201,8 +1113,8 @@
             "league": "AFC U17 Asian Cup",
             "team_a": "Japan U17",
             "team_b": "Qatar U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3c4d97fd12b32034eecb81ef51583b26.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8583e166d6e955dd01525d25b53b4439.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A NÚI",
             "is_live": false,
@@ -1212,7 +1124,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260505.png?v=6c8704f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_66d22b64_20260505.png?v=66d22b64",
             "width": 1600,
             "height": 1200
           }
@@ -2129,8 +2041,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "Pitagoras Minas",
             "team_b": "Corinthians",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a57fc26c284481a12c3346c700d029aa.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1c1ff4e13d3e4f0884af9cf1c779850a.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/a57fc26c284481a12c3346c700d029aa.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/1c1ff4e13d3e4f0884af9cf1c779850a.png",
             "time": "05:00 05/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2140,7 +2052,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_a0ddcbae_20260505.png?v=a0ddcbae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_83edda79_20260505.png?v=83edda79",
             "width": 1600,
             "height": 1200
           }
@@ -2182,8 +2094,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "E.c. Pinheiros Sao Paolo",
             "team_b": "Paulistano Amil",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/16955cfd2097843a95e93a128e3d5b21.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/16955cfd2097843a95e93a128e3d5b21.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
             "time": "06:00 05/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2193,7 +2105,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260505.png?v=65fab3c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_4b89cdd5_20260505.png?v=4b89cdd5",
             "width": 1600,
             "height": 1200
           }
@@ -2235,8 +2147,8 @@
             "league": "National Basketball Association",
             "team_a": "New York Knicks",
             "team_b": "Philadelphia 76ers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/06e7bde6cca98873fe971fad4e67a9b6.png",
             "time": "07:00 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2246,7 +2158,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-16e2542f3b_e8d9ae3d_20260505.png?v=e8d9ae3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-16e2542f3b_0e21df5a_20260505.png?v=0e21df5a",
             "width": 1600,
             "height": 1200
           }
@@ -2288,8 +2200,8 @@
             "league": "National Basketball Association",
             "team_a": "San Antonio Spurs",
             "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/38794d0ac418d8f2d03bd17a2623f3ed.png",
             "time": "08:30 05/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2299,7 +2211,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83c97c9ba6_f5d9ef10_20260505.png?v=f5d9ef10",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83c97c9ba6_1e6c031a_20260505.png?v=1e6c031a",
             "width": 1600,
             "height": 1200
           }
@@ -2341,8 +2253,8 @@
             "league": "Korean Basketball League",
             "team_a": "Goyang Sono Skygunners",
             "team_b": "Busan KCC Egis",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a5ba2f4b39c4cb6db259ed9fb916da1.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/4a5ba2f4b39c4cb6db259ed9fb916da1.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/0add24fc964de3ea25e83417aa301f81.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A ĐỘ",
             "is_live": false,
@@ -2352,7 +2264,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_c317242e_20260505.png?v=c317242e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_9059d2fc_20260505.png?v=9059d2fc",
             "width": 1600,
             "height": 1200
           }
@@ -2394,8 +2306,8 @@
             "league": "EuroLeague",
             "team_a": "Hapoel Tel Aviv",
             "team_b": "Real Madrid",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/ca224b11d94be0f26e2043aa8584db09.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/64da3b30721ca7c898892c6baec2ec4e.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A ĐỘ",
             "is_live": false,
@@ -2405,7 +2317,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_3624fd6a_20260505.png?v=3624fd6a",
             "width": 1600,
             "height": 1200
           }
