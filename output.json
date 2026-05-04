@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -188,6 +188,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260505.png?v=13219748",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d324ce3bb6",
+          "name": "Midtjylland vs Viborg | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d324ce3bb6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d324ce3bb6",
+                  "name": "Midtjylland vs Viborg",
+                  "streams": [
+                    {
+                      "id": "st-d324ce3bb6",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3a442122b",
+                          "name": "GIÀNG A SIK",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8ca1536519_145268/index.m3u8?expire=1778517141",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-115557f00b",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/61abe187490bb95f2e660fad503d5ac0/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Midtjylland",
+            "team_b": "Viborg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/870815ca7c7545f7dc8c0716eecdb708.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c5beffcdc88a77f8494e85108b306062.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A SIK",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d324ce3bb6_3715821f_20260505.png?v=3715821f",
             "width": 1600,
             "height": 1200
           }
@@ -721,59 +809,6 @@
           }
         },
         {
-          "id": "kaytee-7ed0c1b412",
-          "name": "Everton vs Manchester City | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7ed0c1b412",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7ed0c1b412",
-                  "name": "Everton vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-7ed0c1b412",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Everton",
-            "team_b": "Manchester City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9592d1e0be6375b9e6c5ef169b7aa864.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "time": "02:00 05/05",
-            "blv": "GIÀNG A TRỀ, GIÀNG A DÂN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ed0c1b412_9d601fe9_20260505.png?v=9d601fe9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-f1d9c7ce2a",
           "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
           "type": "single",
@@ -822,6 +857,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1d9c7ce2a_dbf709bb_20260505.png?v=dbf709bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7ed0c1b412",
+          "name": "Everton vs Manchester City | 02:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ed0c1b412",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7ed0c1b412",
+                  "name": "Everton vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-7ed0c1b412",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Everton",
+            "team_b": "Manchester City",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9592d1e0be6375b9e6c5ef169b7aa864.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "time": "02:00 05/05",
+            "blv": "GIÀNG A TRỀ, GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ed0c1b412_9d601fe9_20260505.png?v=9d601fe9",
             "width": 1600,
             "height": 1200
           }
