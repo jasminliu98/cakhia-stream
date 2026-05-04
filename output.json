@@ -1952,8 +1952,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Mark Lajal",
             "team_b": "Renta Tokuda",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/80ee86bf534e983258c8c9b7e7bda64b.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/4c019fe7aec0288a7387d2bfca806708.png",
             "time": "16:15 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": true,
@@ -1963,7 +1963,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa3690855_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa3690855_9d8e0dce_20260504.png?v=9d8e0dce",
             "width": 1600,
             "height": 1200
           }
