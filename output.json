@@ -874,8 +874,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-28d2f688fd",
-          "name": "Luca Castelnuovo vs Evan Zhu | 12:10 04/05",
+          "id": "kaytee-878dc2c698",
+          "name": "Luca Castelnuovo vs Evan Zhu | 12:15 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -889,15 +889,15 @@
           ],
           "sources": [
             {
-              "id": "src-28d2f688fd",
+              "id": "src-878dc2c698",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-28d2f688fd",
+                  "id": "ct-878dc2c698",
                   "name": "Luca Castelnuovo vs Evan Zhu",
                   "streams": [
                     {
-                      "id": "st-28d2f688fd",
+                      "id": "st-878dc2c698",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -912,7 +912,7 @@
             "team_b": "Evan Zhu",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b0dc2cf567e0c7ef1d4d372c802b0b90.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/195a5883f53893cfd0c65430a64df28b.png",
-            "time": "12:10 04/05",
+            "time": "12:15 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
             "cate_name": "Tennis"
@@ -921,14 +921,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-28d2f688fd_6623c37e_20260504.png?v=6623c37e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-878dc2c698_6623c37e_20260504.png?v=6623c37e",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-0489d50c46",
-          "name": "Hayato Matsuoka vs Yusuke Takahashi | 12:10 04/05",
+          "id": "kaytee-e0510e999e",
+          "name": "Hayato Matsuoka vs Yusuke Takahashi | 12:15 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -942,15 +942,15 @@
           ],
           "sources": [
             {
-              "id": "src-0489d50c46",
+              "id": "src-e0510e999e",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-0489d50c46",
+                  "id": "ct-e0510e999e",
                   "name": "Hayato Matsuoka vs Yusuke Takahashi",
                   "streams": [
                     {
-                      "id": "st-0489d50c46",
+                      "id": "st-e0510e999e",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -965,7 +965,7 @@
             "team_b": "Yusuke Takahashi",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06ced81e28f51f9fadc2fd76af0a2949.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b87190a20612926a4cab534392627f10.jpg",
-            "time": "12:10 04/05",
+            "time": "12:15 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -974,7 +974,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0489d50c46_d593cb91_20260504.png?v=d593cb91",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e0510e999e_d593cb91_20260504.png?v=d593cb91",
             "width": 1600,
             "height": 1200
           }
