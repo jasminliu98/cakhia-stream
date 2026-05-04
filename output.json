@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -217,10 +217,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -235,7 +235,25 @@
                     {
                       "id": "st-84af325609",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-678b98964f",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8b4e036519_145238/index.m3u8?expire=1778511712",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -250,7 +268,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/14215ad91a839ba1b4f216001eb02d91.png",
             "time": "22:30 04/05",
             "blv": "GIÀNG A GIÀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -528,59 +546,6 @@
           }
         },
         {
-          "id": "kaytee-cbb727071a",
-          "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cbb727071a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cbb727071a",
-                  "name": "Djurgardens vs IFK Goteborg",
-                  "streams": [
-                    {
-                      "id": "st-cbb727071a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Djurgardens",
-            "team_b": "IFK Goteborg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-071aca865f",
           "name": "Halmstads vs Brommapojkarna | 00:00 05/05",
           "type": "single",
@@ -629,6 +594,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260504.png?v=13219748",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cbb727071a",
+          "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbb727071a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cbb727071a",
+                  "name": "Djurgardens vs IFK Goteborg",
+                  "streams": [
+                    {
+                      "id": "st-cbb727071a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "Djurgardens",
+            "team_b": "IFK Goteborg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
             "width": 1600,
             "height": 1200
           }
@@ -1106,6 +1124,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1d9c7ce2a_dbf709bb_20260504.png?v=dbf709bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-efa48280f9",
+          "name": "Sporting CP vs Vitoria Guimaraes | 02:15 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efa48280f9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-efa48280f9",
+                  "name": "Sporting CP vs Vitoria Guimaraes",
+                  "streams": [
+                    {
+                      "id": "st-efa48280f9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese Primera Liga",
+            "team_a": "Sporting CP",
+            "team_b": "Vitoria Guimaraes",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6a5153c73922a32013b9bc6cfbc20b26.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ad97b71fe0d8df0e60f7c534fee24132.png",
+            "time": "02:15 05/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa48280f9_e570b580_20260504.png?v=e570b580",
             "width": 1600,
             "height": 1200
           }
