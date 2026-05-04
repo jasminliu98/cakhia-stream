@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -552,10 +552,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -570,7 +570,25 @@
                     {
                       "id": "st-cbb727071a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-44c673b26e",
+                          "name": "GIÀNG A RICH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c5a136519_145476/index.m3u8?expire=1778516001",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -585,7 +603,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
             "time": "00:00 05/05",
             "blv": "GIÀNG A RICH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -605,10 +623,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -623,7 +641,25 @@
                     {
                       "id": "st-071aca865f",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ce1b2daf1",
+                          "name": "GIÀNG A BÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c2a836519_145274/index.m3u8?expire=1778515240",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -638,7 +674,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/61603b48126b6e023af5811bf43354b2.png",
             "time": "00:00 05/05",
             "blv": "GIÀNG A BÁO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -658,10 +694,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -676,7 +712,25 @@
                     {
                       "id": "st-d324ce3bb6",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e78b37bb18",
+                          "name": "GIÀNG A SIK",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8ca1536519_145268/index.m3u8?expire=1778517141",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -691,7 +745,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/c5beffcdc88a77f8494e85108b306062.png",
             "time": "00:00 05/05",
             "blv": "GIÀNG A SIK",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -711,10 +765,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -729,7 +783,25 @@
                     {
                       "id": "st-018e32bbf7",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-82b95a4c32",
+                          "name": "GIÀNG A ĐẬU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8cb394841e_145169/index.m3u8?expire=1778517433",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -744,7 +816,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/f81f7bb9cf129a0f1c66880d7fba5d7b.png",
             "time": "00:00 05/05",
             "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -764,10 +836,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -782,7 +854,25 @@
                     {
                       "id": "st-7eb04c5981",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cfb35e4a7",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8caf54841e_145244/index.m3u8?expire=1778517365",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -797,7 +887,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/710c1aec087466a2e2177fb812c87dc8.png",
             "time": "00:00 05/05",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2451,6 +2541,227 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-125869e570",
+          "name": "RKC Waalwijk vs Willem II | 23:45 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-125869e570",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-125869e570",
+                  "name": "RKC Waalwijk vs Willem II",
+                  "streams": [
+                    {
+                      "id": "st-125869e570",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eerste Divisie",
+            "team_a": "RKC Waalwijk",
+            "team_b": "Willem II",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/66fea185f2f39d205f96b5d1a41ae9f4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7b10a020a3acd1ed95d783a1dfa3498e.png",
+            "time": "23:45 05/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-125869e570_45aaf344_20260504.png?v=45aaf344",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_27",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-8a2a64270e",
+          "name": "Kwon Soon-woo vs Kaichi Uchida | 11:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a2a64270e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8a2a64270e",
+                  "name": "Kwon Soon-woo vs Kaichi Uchida",
+                  "streams": [
+                    {
+                      "id": "st-8a2a64270e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Kwon Soon-woo",
+            "team_b": "Kaichi Uchida",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce9295b333a346304c3141e49b7aad7a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f306bb21a3a1b049bc617000def6c0c9.png",
+            "time": "11:00 05/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8a2a64270e_49c6e90c_20260504.png?v=49c6e90c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9573cf2a3e",
+          "name": "Alex Bolt vs Sun Fajing | 12:10 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9573cf2a3e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9573cf2a3e",
+                  "name": "Alex Bolt vs Sun Fajing",
+                  "streams": [
+                    {
+                      "id": "st-9573cf2a3e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Alex Bolt",
+            "team_b": "Sun Fajing",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cccf89a7f94d22cbba4394a66bf00895.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/58d94844bb87afa2e5248a11e3d86f6f.png",
+            "time": "12:10 05/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9573cf2a3e_35971ed8_20260504.png?v=35971ed8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8dd42ea651",
+          "name": "Keegan Smith vs Bu Yunchaokete | 13:20 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8dd42ea651",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8dd42ea651",
+                  "name": "Keegan Smith vs Bu Yunchaokete",
+                  "streams": [
+                    {
+                      "id": "st-8dd42ea651",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Keegan Smith",
+            "team_b": "Bu Yunchaokete",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
+            "time": "13:20 05/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8dd42ea651_65ba6a09_20260504.png?v=65ba6a09",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2461,6 +2772,59 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-4816d78645",
+          "name": "Pitagoras Minas vs Corinthians | 05:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4816d78645",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4816d78645",
+                  "name": "Pitagoras Minas vs Corinthians",
+                  "streams": [
+                    {
+                      "id": "st-4816d78645",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Novo Basquete Brasil",
+            "team_a": "Pitagoras Minas",
+            "team_b": "Corinthians",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a57fc26c284481a12c3346c700d029aa.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1c1ff4e13d3e4f0884af9cf1c779850a.png",
+            "time": "05:00 05/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_a0ddcbae_20260504.png?v=a0ddcbae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-facd321dd0",
           "name": "E.c. Pinheiros Sao Paolo vs Paulistano Amil | 06:00 05/05",
@@ -2513,12 +2877,224 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-16e2542f3b",
+          "name": "New York Knicks vs Philadelphia 76ers | 07:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16e2542f3b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-16e2542f3b",
+                  "name": "New York Knicks vs Philadelphia 76ers",
+                  "streams": [
+                    {
+                      "id": "st-16e2542f3b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "New York Knicks",
+            "team_b": "Philadelphia 76ers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/49f8b0ef2ed529b44dba6ebb99a0d5ff.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06e7bde6cca98873fe971fad4e67a9b6.png",
+            "time": "07:00 05/05",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-16e2542f3b_e8d9ae3d_20260504.png?v=e8d9ae3d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-83c97c9ba6",
+          "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83c97c9ba6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-83c97c9ba6",
+                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
+                  "streams": [
+                    {
+                      "id": "st-83c97c9ba6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "San Antonio Spurs",
+            "team_b": "Minnesota Timberwolves",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
+            "time": "08:30 05/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83c97c9ba6_f5d9ef10_20260504.png?v=f5d9ef10",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9f87e854c5",
+          "name": "Goyang Sono Skygunners vs Busan KCC Egis | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f87e854c5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9f87e854c5",
+                  "name": "Goyang Sono Skygunners vs Busan KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-9f87e854c5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean Basketball League",
+            "team_a": "Goyang Sono Skygunners",
+            "team_b": "Busan KCC Egis",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a5ba2f4b39c4cb6db259ed9fb916da1.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "time": "12:00 05/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_c317242e_20260504.png?v=c317242e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-916197fc12",
+          "name": "Hapoel Tel Aviv vs Real Madrid | 23:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-916197fc12",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-916197fc12",
+                  "name": "Hapoel Tel Aviv vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-916197fc12",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EuroLeague",
+            "team_a": "Hapoel Tel Aviv",
+            "team_b": "Real Madrid",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
+            "time": "23:00 05/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260504.png?v=8d587113",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2531,10 +3107,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2549,7 +3125,25 @@
                     {
                       "id": "st-f5e2ba583e",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5500b4f28",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c2cf36519_146208/index.m3u8?expire=1778515279",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2564,7 +3158,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74f72fe038f2317e6d9e76b5ec9a0267.png",
             "time": "00:00 05/05",
             "blv": "GIÀNG A MU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
