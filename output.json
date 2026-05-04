@@ -1342,11 +1342,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-328a06cb1a",
+                          "id": "lnk-d5c10374d7",
                           "name": "GIÀNG A LEX",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f837f836519_145875/index.m3u8?expire=1778479736",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-96e720abe1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f0e9a847a833829bdf30f156cdb88827/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
