@@ -515,7 +515,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/fd1a9c51505300dec9c26e5847114851.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/0ab1b8407086bab060a396f244a28cd6.png",
             "time": "23:00 04/05",
-            "blv": "GIÀNG A BÁO",
+            "blv": "GIÀNG A MAO",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1310,7 +1310,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/579db6e95905545973035e6eab8df2cd.png",
             "time": "02:00 05/05",
-            "blv": "GIÀNG A MAO, GIÀNG A CÒI",
+            "blv": "GIÀNG A CÒI, GIÀNG A BÁO",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
