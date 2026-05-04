@@ -1181,6 +1181,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-c42936de17",
+          "name": "Madura United vs Bali United | 15:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c42936de17",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c42936de17",
+                  "name": "Madura United vs Bali United",
+                  "streams": [
+                    {
+                      "id": "st-c42936de17",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Madura United",
+            "team_b": "Bali United",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/09fe2ecf88f68970da755f8655d5da8a.png",
+            "time": "15:30 05/05",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c42936de17_a4029d2c_20260504.png?v=a4029d2c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1280,8 +1333,8 @@
           }
         },
         {
-          "id": "kaytee-bc9eb5d45f",
-          "name": "Cui Jie vs Alexis Galarneau | 15:20 04/05",
+          "id": "kaytee-2a310e83f6",
+          "name": "Cui Jie vs Alexis Galarneau | 15:40 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1295,23 +1348,40 @@
           ],
           "sources": [
             {
-              "id": "src-bc9eb5d45f",
+              "id": "src-2a310e83f6",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-bc9eb5d45f",
+                  "id": "ct-2a310e83f6",
                   "name": "Cui Jie vs Alexis Galarneau",
                   "streams": [
                     {
-                      "id": "st-bc9eb5d45f",
+                      "id": "st-2a310e83f6",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-328a06cb1a",
+                          "id": "lnk-d5c10374d7",
                           "name": "GIÀNG A LEX",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f837f836519_145875/index.m3u8?expire=1778479736",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-96e720abe1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f0e9a847a833829bdf30f156cdb88827/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1336,7 +1406,7 @@
             "team_b": "Alexis Galarneau",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "15:20 04/05",
+            "time": "15:40 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1345,14 +1415,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bc9eb5d45f_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a310e83f6_b3cd3bb1_20260504.png?v=b3cd3bb1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-59ac4d9ee9",
-          "name": "Mark Lajal vs Renta Tokuda | 16:30 04/05",
+          "id": "kaytee-fa944dec2f",
+          "name": "Mark Lajal vs Renta Tokuda | 16:50 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1366,15 +1436,15 @@
           ],
           "sources": [
             {
-              "id": "src-59ac4d9ee9",
+              "id": "src-fa944dec2f",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-59ac4d9ee9",
+                  "id": "ct-fa944dec2f",
                   "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-59ac4d9ee9",
+                      "id": "st-fa944dec2f",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1389,7 +1459,7 @@
             "team_b": "Renta Tokuda",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "16:30 04/05",
+            "time": "16:50 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1398,7 +1468,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-59ac4d9ee9_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fa944dec2f_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
