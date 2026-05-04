@@ -325,11 +325,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e5af74f25d",
+                          "id": "lnk-6113dce325",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8b9c736519_145223/index.m3u8?expire=1778512967",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-151f142daf",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/85f9fba932fc23f942a6b676e014980d/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -396,11 +413,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-30058efec1",
+                          "id": "lnk-00ca117d43",
                           "name": "GIÀNG A PHỦ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8b94a36519_145232/index.m3u8?expire=1778512842",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ce9e5ad311",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e3f9eed22c272d0515c579f025a7f1f9/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -467,11 +501,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c22b7e34a5",
+                          "id": "lnk-36f56ea24d",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8bcf14841e_145407/index.m3u8?expire=1778513777",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-acf3512eeb",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/17150a951c3067b7547760ef7774ba60/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -635,59 +686,6 @@
           }
         },
         {
-          "id": "kaytee-cbb727071a",
-          "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cbb727071a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cbb727071a",
-                  "name": "Djurgardens vs IFK Goteborg",
-                  "streams": [
-                    {
-                      "id": "st-cbb727071a",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Djurgardens",
-            "team_b": "IFK Goteborg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-071aca865f",
           "name": "Halmstads vs Brommapojkarna | 00:00 05/05",
           "type": "single",
@@ -736,6 +734,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260504.png?v=13219748",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cbb727071a",
+          "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbb727071a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cbb727071a",
+                  "name": "Djurgardens vs IFK Goteborg",
+                  "streams": [
+                    {
+                      "id": "st-cbb727071a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "Djurgardens",
+            "team_b": "IFK Goteborg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
             "width": 1600,
             "height": 1200
           }
@@ -2485,6 +2536,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-50c455e063_42963d4e_20260504.png?v=42963d4e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_20",
+      "name": "🏀 Bóng rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-facd321dd0",
+          "name": "E.c. Pinheiros Sao Paolo vs Paulistano Amil | 06:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-facd321dd0",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-facd321dd0",
+                  "name": "E.c. Pinheiros Sao Paolo vs Paulistano Amil",
+                  "streams": [
+                    {
+                      "id": "st-facd321dd0",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Novo Basquete Brasil",
+            "team_a": "E.c. Pinheiros Sao Paolo",
+            "team_b": "Paulistano Amil",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/16955cfd2097843a95e93a128e3d5b21.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
+            "time": "06:00 05/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260504.png?v=65fab3c6",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_50",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "kaytee-9b240290ed",
+          "name": "Radnicki Nis vs Vojvodina | 23:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b240290ed",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9b240290ed",
+                  "name": "Radnicki Nis vs Vojvodina",
+                  "streams": [
+                    {
+                      "id": "st-9b240290ed",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5500b4f28",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c2cf36519_146208/index.m3u8?expire=1778515279",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superleague - Play-Offs - Quarterfinals",
+            "team_a": "Radnicki Nis",
+            "team_b": "Vojvodina",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/20130824120715.jpg",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74f72fe038f2317e6d9e76b5ec9a0267.png",
+            "time": "23:00 04/05",
+            "blv": "GIÀNG A MU",
+            "is_live": true,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b240290ed_2ff2fa47_20260504.png?v=2ff2fa47",
             "width": 1600,
             "height": 1200
           }
