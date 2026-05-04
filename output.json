@@ -874,59 +874,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-f616a2a4ae",
-          "name": "Andre Ilagan vs Hiroki Moriya | 11:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f616a2a4ae",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f616a2a4ae",
-                  "name": "Andre Ilagan vs Hiroki Moriya",
-                  "streams": [
-                    {
-                      "id": "st-f616a2a4ae",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Andre Ilagan",
-            "team_b": "Hiroki Moriya",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1c81cee2970609a3e12f0a6658b98ce5.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d2f0b4d5353f1f18f657f4d1080dedc4.png",
-            "time": "11:00 04/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f616a2a4ae_685b615e_20260504.png?v=685b615e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-28d2f688fd",
           "name": "Luca Castelnuovo vs Evan Zhu | 12:10 04/05",
           "type": "single",
