@@ -484,11 +484,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8ca1a7569f",
+                          "id": "lnk-8da3f73d36",
                           "name": "GIÀNG A CÒI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8c36636519_145208/index.m3u8?expire=1778515430",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-742dd75997",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/0d753a06ab1b1c5701cba52e37abaf0a/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2378,6 +2395,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-50c455e063_42963d4e_20260504.png?v=42963d4e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-69dcae1430",
+          "name": "Indonesia U17 vs China U17 | 23:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69dcae1430",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-69dcae1430",
+                  "name": "Indonesia U17 vs China U17",
+                  "streams": [
+                    {
+                      "id": "st-69dcae1430",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Indonesia U17",
+            "team_b": "China U17",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a222bcd619abdcee951b28cae8d1cce6.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/56b46dcd3e801a496ca783ab0bd0f44d.png",
+            "time": "23:30 05/05",
+            "blv": "GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-69dcae1430_c781c66b_20260504.png?v=c781c66b",
             "width": 1600,
             "height": 1200
           }
