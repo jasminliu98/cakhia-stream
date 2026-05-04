@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6f8dfc9265",
-          "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f8dfc9265",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6f8dfc9265",
-                  "name": "Persijap Jepara vs Persija Jakarta",
-                  "streams": [
-                    {
-                      "id": "st-6f8dfc9265",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-600feb4f73",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f883b936519_145277/index.m3u8?expire=1778499129",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persijap Jepara",
-            "team_b": "Persija Jakarta",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/f4bd932b7d276a93696f4491f334c932.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/10db29eabad13994d9729d8983f8d21a.png",
-            "time": "19:00 04/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f8dfc9265_1b25025b_20260504.png?v=1b25025b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-883b0204a4",
           "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
