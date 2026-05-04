@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-149ef7df69",
-          "name": "Al-Ittihad Club vs Al Kholood | 01:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-149ef7df69",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-149ef7df69",
-                  "name": "Al-Ittihad Club vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-149ef7df69",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46e0daa15c",
-                          "name": "GIÀNG A NẾP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8d7a14841e_145428/index.m3u8?expire=1778520609",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0847eb833b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f5fbd002b7b6f4b2eef62b17e899ba13/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Ittihad Club",
-            "team_b": "Al Kholood",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/dea986d20115216c05d1a45ba9a6162e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png",
-            "time": "01:00 05/05",
-            "blv": "GIÀNG A NẾP",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-149ef7df69_71bae981_20260505.png?v=71bae981",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-20b01531bf",
           "name": "Almeria vs Mirandes | 01:30 05/05",
