@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-84af325609_b124f16e_20260504.png?v=b124f16e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-84af325609_b124f16e_20260505.png?v=b124f16e",
             "width": 1600,
             "height": 1200
           }
@@ -187,95 +187,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b49bd02968_7978ebc8_20260504.png?v=7978ebc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-fdf7d31c88",
-          "name": "Eintracht Frankfurt (w) vs Nurnberg (w) | 23:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdf7d31c88",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-fdf7d31c88",
-                  "name": "Eintracht Frankfurt (w) vs Nurnberg (w)",
-                  "streams": [
-                    {
-                      "id": "st-fdf7d31c88",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00ca117d43",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8b94a36519_145232/index.m3u8?expire=1778512842",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ce9e5ad311",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e3f9eed22c272d0515c579f025a7f1f9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Frauen Bundesliga",
-            "team_a": "Eintracht Frankfurt (w)",
-            "team_b": "Nurnberg (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9ebd79de8504a6573dce8c419ff16b10.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7e2a65e9804e89abf1a9aa4c1c0bdfb3.png",
-            "time": "23:00 04/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdf7d31c88_17281a42_20260504.png?v=17281a42",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b49bd02968_7978ebc8_20260505.png?v=7978ebc8",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0da890ab30_c0c9cbe7_20260504.png?v=c0c9cbe7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0da890ab30_c0c9cbe7_20260505.png?v=c0c9cbe7",
             "width": 1600,
             "height": 1200
           }
@@ -451,7 +363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5cebabcffd_b99ee881_20260504.png?v=b99ee881",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5cebabcffd_b99ee881_20260505.png?v=b99ee881",
             "width": 1600,
             "height": 1200
           }
@@ -539,7 +451,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b135daf07_cae95e68_20260504.png?v=cae95e68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b135daf07_cae95e68_20260505.png?v=cae95e68",
             "width": 1600,
             "height": 1200
           }
@@ -610,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260505.png?v=eac31a1b",
             "width": 1600,
             "height": 1200
           }
@@ -681,7 +593,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260504.png?v=13219748",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260505.png?v=13219748",
             "width": 1600,
             "height": 1200
           }
@@ -752,7 +664,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d324ce3bb6_3715821f_20260504.png?v=3715821f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d324ce3bb6_3715821f_20260505.png?v=3715821f",
             "width": 1600,
             "height": 1200
           }
@@ -823,7 +735,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-018e32bbf7_8d47c18e_20260504.png?v=8d47c18e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-018e32bbf7_8d47c18e_20260505.png?v=8d47c18e",
             "width": 1600,
             "height": 1200
           }
@@ -894,7 +806,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7eb04c5981_50754d21_20260504.png?v=50754d21",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7eb04c5981_50754d21_20260505.png?v=50754d21",
             "width": 1600,
             "height": 1200
           }
@@ -947,7 +859,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-149ef7df69_71bae981_20260504.png?v=71bae981",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-149ef7df69_71bae981_20260505.png?v=71bae981",
             "width": 1600,
             "height": 1200
           }
@@ -992,7 +904,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/381dd852484f06350b771097612cf08e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
             "time": "01:00 05/05",
-            "blv": "GIÀNG A LUNG",
+            "blv": "GIÀNG A BẠC",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1000,7 +912,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d854f1dc65_cde3c319_20260504.png?v=cde3c319",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d854f1dc65_cde3c319_20260505.png?v=cde3c319",
             "width": 1600,
             "height": 1200
           }
@@ -1053,7 +965,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-20b01531bf_cf7791cc_20260504.png?v=cf7791cc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-20b01531bf_cf7791cc_20260505.png?v=cf7791cc",
             "width": 1600,
             "height": 1200
           }
@@ -1106,7 +1018,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e433dfbc41_b69548a6_20260504.png?v=b69548a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e433dfbc41_b69548a6_20260505.png?v=b69548a6",
             "width": 1600,
             "height": 1200
           }
@@ -1159,7 +1071,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ed0c1b412_9d601fe9_20260504.png?v=9d601fe9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ed0c1b412_9d601fe9_20260505.png?v=9d601fe9",
             "width": 1600,
             "height": 1200
           }
@@ -1212,7 +1124,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1d9c7ce2a_dbf709bb_20260504.png?v=dbf709bb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1d9c7ce2a_dbf709bb_20260505.png?v=dbf709bb",
             "width": 1600,
             "height": 1200
           }
@@ -1265,7 +1177,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa48280f9_e570b580_20260504.png?v=e570b580",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa48280f9_e570b580_20260505.png?v=e570b580",
             "width": 1600,
             "height": 1200
           }
@@ -1318,7 +1230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7b3685b033_93ea190a_20260504.png?v=93ea190a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7b3685b033_93ea190a_20260505.png?v=93ea190a",
             "width": 1600,
             "height": 1200
           }
@@ -1371,7 +1283,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-616e39086d_a6d59c6f_20260504.png?v=a6d59c6f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-616e39086d_a6d59c6f_20260505.png?v=a6d59c6f",
             "width": 1600,
             "height": 1200
           }
@@ -1424,7 +1336,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-259d5957ee_01d38251_20260504.png?v=01d38251",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-259d5957ee_01d38251_20260505.png?v=01d38251",
             "width": 1600,
             "height": 1200
           }
@@ -1477,7 +1389,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_02e2649d_20260504.png?v=02e2649d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_02e2649d_20260505.png?v=02e2649d",
             "width": 1600,
             "height": 1200
           }
@@ -1530,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260504.png?v=ec765b68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260505.png?v=ec765b68",
             "width": 1600,
             "height": 1200
           }
@@ -1583,7 +1495,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e234f86a63_69611e9a_20260504.png?v=69611e9a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e234f86a63_69611e9a_20260505.png?v=69611e9a",
             "width": 1600,
             "height": 1200
           }
@@ -1636,7 +1548,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-be9d6c3541_f5566b22_20260504.png?v=f5566b22",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-be9d6c3541_f5566b22_20260505.png?v=f5566b22",
             "width": 1600,
             "height": 1200
           }
@@ -1689,7 +1601,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-99677ae09b_fafa1d5b_20260504.png?v=fafa1d5b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-99677ae09b_fafa1d5b_20260505.png?v=fafa1d5b",
             "width": 1600,
             "height": 1200
           }
@@ -1742,7 +1654,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-13372d9147_b70691eb_20260504.png?v=b70691eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-13372d9147_b70691eb_20260505.png?v=b70691eb",
             "width": 1600,
             "height": 1200
           }
@@ -1795,7 +1707,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e3a574617_a7f244ab_20260504.png?v=a7f244ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e3a574617_a7f244ab_20260505.png?v=a7f244ab",
             "width": 1600,
             "height": 1200
           }
@@ -1848,7 +1760,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cadf148a73_3b157b4e_20260504.png?v=3b157b4e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cadf148a73_3b157b4e_20260505.png?v=3b157b4e",
             "width": 1600,
             "height": 1200
           }
@@ -1901,7 +1813,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c42936de17_a4029d2c_20260504.png?v=a4029d2c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c42936de17_a4029d2c_20260505.png?v=a4029d2c",
             "width": 1600,
             "height": 1200
           }
@@ -1954,7 +1866,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-909f978853_84884005_20260504.png?v=84884005",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-909f978853_84884005_20260505.png?v=84884005",
             "width": 1600,
             "height": 1200
           }
@@ -2007,7 +1919,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce41369b5c_d865e8c2_20260504.png?v=d865e8c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce41369b5c_d865e8c2_20260505.png?v=d865e8c2",
             "width": 1600,
             "height": 1200
           }
@@ -2060,7 +1972,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260504.png?v=317a1ed2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260505.png?v=317a1ed2",
             "width": 1600,
             "height": 1200
           }
@@ -2113,7 +2025,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-db5c3bf0c5_4bb01695_20260504.png?v=4bb01695",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-db5c3bf0c5_4bb01695_20260505.png?v=4bb01695",
             "width": 1600,
             "height": 1200
           }
@@ -2166,7 +2078,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260504.png?v=a1d33704",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
             "width": 1600,
             "height": 1200
           }
@@ -2219,7 +2131,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260504.png?v=1c12c471",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
             "width": 1600,
             "height": 1200
           }
@@ -2272,7 +2184,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260504.png?v=73d08fc0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260505.png?v=73d08fc0",
             "width": 1600,
             "height": 1200
           }
@@ -2325,7 +2237,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-666af2c91a_472d237d_20260504.png?v=472d237d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-666af2c91a_472d237d_20260505.png?v=472d237d",
             "width": 1600,
             "height": 1200
           }
@@ -2378,7 +2290,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260504.png?v=b4649b6a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260505.png?v=b4649b6a",
             "width": 1600,
             "height": 1200
           }
@@ -2431,7 +2343,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260504.png?v=6c8704f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260505.png?v=6c8704f3",
             "width": 1600,
             "height": 1200
           }
@@ -2484,7 +2396,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-50c455e063_42963d4e_20260504.png?v=42963d4e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-50c455e063_42963d4e_20260505.png?v=42963d4e",
             "width": 1600,
             "height": 1200
           }
@@ -2537,7 +2449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-69dcae1430_c781c66b_20260504.png?v=c781c66b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-69dcae1430_c781c66b_20260505.png?v=c781c66b",
             "width": 1600,
             "height": 1200
           }
@@ -2590,7 +2502,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-125869e570_45aaf344_20260504.png?v=45aaf344",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-125869e570_45aaf344_20260505.png?v=45aaf344",
             "width": 1600,
             "height": 1200
           }
@@ -2641,8 +2553,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Kwon Soon-woo",
             "team_b": "Kaichi Uchida",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce9295b333a346304c3141e49b7aad7a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f306bb21a3a1b049bc617000def6c0c9.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/ce9295b333a346304c3141e49b7aad7a.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/f306bb21a3a1b049bc617000def6c0c9.png",
             "time": "11:00 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2652,7 +2564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8a2a64270e_49c6e90c_20260504.png?v=49c6e90c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8a2a64270e_b23dbb11_20260505.png?v=b23dbb11",
             "width": 1600,
             "height": 1200
           }
@@ -2694,8 +2606,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Alex Bolt",
             "team_b": "Sun Fajing",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cccf89a7f94d22cbba4394a66bf00895.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/58d94844bb87afa2e5248a11e3d86f6f.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/cccf89a7f94d22cbba4394a66bf00895.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/58d94844bb87afa2e5248a11e3d86f6f.png",
             "time": "12:10 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2705,7 +2617,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9573cf2a3e_35971ed8_20260504.png?v=35971ed8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9573cf2a3e_f8d2f34f_20260505.png?v=f8d2f34f",
             "width": 1600,
             "height": 1200
           }
@@ -2747,8 +2659,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Keegan Smith",
             "team_b": "Bu Yunchaokete",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/a812670d717d895e5cb5bddb7b192268.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/6f80307b9ca4b5961fbeee2f6194000a.png",
             "time": "13:20 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2758,7 +2670,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8dd42ea651_65ba6a09_20260504.png?v=65ba6a09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8dd42ea651_7f30f8c6_20260505.png?v=7f30f8c6",
             "width": 1600,
             "height": 1200
           }
@@ -2820,7 +2732,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_a0ddcbae_20260504.png?v=a0ddcbae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_a0ddcbae_20260505.png?v=a0ddcbae",
             "width": 1600,
             "height": 1200
           }
@@ -2873,7 +2785,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260504.png?v=65fab3c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260505.png?v=65fab3c6",
             "width": 1600,
             "height": 1200
           }
@@ -2926,7 +2838,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-16e2542f3b_e8d9ae3d_20260504.png?v=e8d9ae3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-16e2542f3b_e8d9ae3d_20260505.png?v=e8d9ae3d",
             "width": 1600,
             "height": 1200
           }
@@ -2979,7 +2891,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83c97c9ba6_f5d9ef10_20260504.png?v=f5d9ef10",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83c97c9ba6_f5d9ef10_20260505.png?v=f5d9ef10",
             "width": 1600,
             "height": 1200
           }
@@ -3032,7 +2944,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_c317242e_20260504.png?v=c317242e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_c317242e_20260505.png?v=c317242e",
             "width": 1600,
             "height": 1200
           }
@@ -3085,7 +2997,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260504.png?v=8d587113",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
             "width": 1600,
             "height": 1200
           }
@@ -3165,7 +3077,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f5e2ba583e_2ff2fa47_20260504.png?v=2ff2fa47",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f5e2ba583e_2ff2fa47_20260505.png?v=2ff2fa47",
             "width": 1600,
             "height": 1200
           }
@@ -3227,7 +3139,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1b3c59374e_5452b42d_20260504.png?v=5452b42d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1b3c59374e_5452b42d_20260505.png?v=5452b42d",
             "width": 1600,
             "height": 1200
           }
@@ -3280,7 +3192,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8340783269_f64d1807_20260504.png?v=f64d1807",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8340783269_f64d1807_20260505.png?v=f64d1807",
             "width": 1600,
             "height": 1200
           }
@@ -3333,7 +3245,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eea6c6b05e_ff5362e5_20260504.png?v=ff5362e5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-eea6c6b05e_ff5362e5_20260505.png?v=ff5362e5",
             "width": 1600,
             "height": 1200
           }
@@ -3386,7 +3298,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3820515bd7_158c9a8e_20260504.png?v=158c9a8e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3820515bd7_158c9a8e_20260505.png?v=158c9a8e",
             "width": 1600,
             "height": 1200
           }
@@ -3439,7 +3351,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-41d031c28c_43fd99b4_20260504.png?v=43fd99b4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-41d031c28c_43fd99b4_20260505.png?v=43fd99b4",
             "width": 1600,
             "height": 1200
           }
@@ -3492,7 +3404,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-40b035a597_dd151ddb_20260504.png?v=dd151ddb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-40b035a597_dd151ddb_20260505.png?v=dd151ddb",
             "width": 1600,
             "height": 1200
           }
