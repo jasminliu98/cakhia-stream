@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9b135daf07",
-          "name": "Cremonese vs Lazio | 23:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b135daf07",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9b135daf07",
-                  "name": "Cremonese vs Lazio",
-                  "streams": [
-                    {
-                      "id": "st-9b135daf07",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8da3f73d36",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c36636519_145208/index.m3u8?expire=1778515430",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-742dd75997",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/0d753a06ab1b1c5701cba52e37abaf0a/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "Cremonese",
-            "team_b": "Lazio",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0b0e25267dabd15c405070329df5fbdb.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png",
-            "time": "23:30 04/05",
-            "blv": "GIÀNG A CÒI",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b135daf07_cae95e68_20260505.png?v=cae95e68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-cbb727071a",
           "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
@@ -276,94 +188,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260505.png?v=13219748",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-d324ce3bb6",
-          "name": "Midtjylland vs Viborg | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d324ce3bb6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d324ce3bb6",
-                  "name": "Midtjylland vs Viborg",
-                  "streams": [
-                    {
-                      "id": "st-d324ce3bb6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d3a442122b",
-                          "name": "GIÀNG A SIK",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8ca1536519_145268/index.m3u8?expire=1778517141",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-115557f00b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/61abe187490bb95f2e660fad503d5ac0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Danish Superliga",
-            "team_a": "Midtjylland",
-            "team_b": "Viborg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/870815ca7c7545f7dc8c0716eecdb708.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c5beffcdc88a77f8494e85108b306062.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A SIK",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d324ce3bb6_3715821f_20260505.png?v=3715821f",
             "width": 1600,
             "height": 1200
           }
@@ -748,11 +572,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ec7fab38ca",
+                          "id": "lnk-a6ed8b4a8e",
                           "name": "GIÀNG A KEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8df8e36519_145467/index.m3u8?expire=1778522638",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1ad44dcde7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/3f271ca16cd7a1e00ccd1507656d60ea/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +640,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -817,7 +658,42 @@
                     {
                       "id": "st-e433dfbc41",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-912f0dc9f1",
+                          "name": "GIÀNG A BẢNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8e2964841e_145205/index.m3u8?expire=1778523414",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-de85ec03bf",
+                          "name": "GIÀNG A BÉO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8dff44841e_146781/index.m3u8?expire=1778522740",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -832,7 +708,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/858d87ded0cce014bae0c9681af48524.png",
             "time": "01:45 05/05",
             "blv": "GIÀNG A BẢNH, GIÀNG A BÉO",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2766,86 +2642,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "kaytee-f5e2ba583e",
-          "name": "Radnicki Nis vs Vojvodina | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5e2ba583e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f5e2ba583e",
-                  "name": "Radnicki Nis vs Vojvodina",
-                  "streams": [
-                    {
-                      "id": "st-f5e2ba583e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5500b4f28",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c2cf36519_146208/index.m3u8?expire=1778515279",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superleague - Play-Offs - Quarterfinals",
-            "team_a": "Radnicki Nis",
-            "team_b": "Vojvodina",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/20130824120715.jpg",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74f72fe038f2317e6d9e76b5ec9a0267.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f5e2ba583e_2ff2fa47_20260505.png?v=2ff2fa47",
             "width": 1600,
             "height": 1200
           }
