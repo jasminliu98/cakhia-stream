@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-33a921963a",
-          "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33a921963a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-33a921963a",
-                  "name": "Vietnam U17 Women vs China U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-33a921963a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22d6bb47c3",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f87b504841e_145821/index.m3u8?expire=1778496976",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-18ffc733c1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/50787808a2d9cd44c981798a9eac3dff/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-00996487f5",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f87ad136519_145223/index.m3u8?expire=1778496849",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Vietnam U17 Women",
-            "team_b": "China U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0062546fba2350caff9e4b31101550c4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2bb2cd4e6d0219b11dcbda441a825b50.png",
-            "time": "18:30 04/05",
-            "blv": "GIÀNG A NGAO, GIÀNG A MAO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33a921963a_f4312c3b_20260504.png?v=f4312c3b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-7df3814b47",
           "name": "Albirex Niigata FC vs Young Lions | 18:30 04/05",
@@ -149,28 +44,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-cc0dac6172",
+                          "id": "lnk-fd28fc76ec",
                           "name": "GIÀNG A NA",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f87ed336519_146847/index.m3u8?expire=1778497875",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5064770a39",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/65acdad8272a7f25196115835bbd3db5/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
