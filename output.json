@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-5cebabcffd",
-          "name": "Al-Fayha vs Al-Riyadh | 23:10 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5cebabcffd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-5cebabcffd",
-                  "name": "Al-Fayha vs Al-Riyadh",
-                  "streams": [
-                    {
-                      "id": "st-5cebabcffd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98eccfa96e",
-                          "name": "GIÀNG A CƠ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8bf2036519_145277/index.m3u8?expire=1778514336",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-91b84ae4b1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1de18369be575e298c6ad908b8d2c3b0/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Fayha",
-            "team_b": "Al-Riyadh",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2b0b85fcec97994a4758002512957d7a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/aa2d8e24a68822387257f31d692c4297.png",
-            "time": "23:10 04/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5cebabcffd_b99ee881_20260505.png?v=b99ee881",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9b135daf07",
           "name": "Cremonese vs Lazio | 23:30 04/05",
