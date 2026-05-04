@@ -2059,8 +2059,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "Pitagoras Minas",
             "team_b": "Corinthians",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/a57fc26c284481a12c3346c700d029aa.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/1c1ff4e13d3e4f0884af9cf1c779850a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a57fc26c284481a12c3346c700d029aa.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1c1ff4e13d3e4f0884af9cf1c779850a.png",
             "time": "05:00 05/05",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -2070,7 +2070,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_83edda79_20260505.png?v=83edda79",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_a0ddcbae_20260505.png?v=a0ddcbae",
             "width": 1600,
             "height": 1200
           }
@@ -2112,8 +2112,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "E.c. Pinheiros Sao Paolo",
             "team_b": "Paulistano Amil",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/16955cfd2097843a95e93a128e3d5b21.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/16955cfd2097843a95e93a128e3d5b21.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
             "time": "06:00 05/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2123,7 +2123,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_4b89cdd5_20260505.png?v=4b89cdd5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260505.png?v=65fab3c6",
             "width": 1600,
             "height": 1200
           }
