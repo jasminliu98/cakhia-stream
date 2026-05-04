@@ -70,6 +70,59 @@
           }
         },
         {
+          "id": "kaytee-7df3814b47",
+          "name": "Albirex Niigata FC vs Young Lions | 18:30 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7df3814b47",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7df3814b47",
+                  "name": "Albirex Niigata FC vs Young Lions",
+                  "streams": [
+                    {
+                      "id": "st-7df3814b47",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Singapore Premier League",
+            "team_a": "Albirex Niigata FC",
+            "team_b": "Young Lions",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1bc138bc13d186569590f57f9d9127cd.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/9208155f7204354ad78a72594ff7b13c.png",
+            "time": "18:30 04/05",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7df3814b47_fcff3e86_20260504.png?v=fcff3e86",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-6f8dfc9265",
           "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
           "type": "single",
