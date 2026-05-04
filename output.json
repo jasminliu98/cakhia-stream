@@ -1999,7 +1999,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2012,10 +2012,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2030,7 +2030,25 @@
                     {
                       "id": "st-4816d78645",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e781a3bbbe",
+                          "name": "GIÀNG A SÓC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f909744841e_145211/index.m3u8?expire=1778533364",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2041,18 +2059,18 @@
             "league": "Novo Basquete Brasil",
             "team_a": "Pitagoras Minas",
             "team_b": "Corinthians",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a57fc26c284481a12c3346c700d029aa.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1c1ff4e13d3e4f0884af9cf1c779850a.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/a57fc26c284481a12c3346c700d029aa.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/1c1ff4e13d3e4f0884af9cf1c779850a.png",
             "time": "05:00 05/05",
             "blv": "GIÀNG A SÓC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_a0ddcbae_20260505.png?v=a0ddcbae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4816d78645_83edda79_20260505.png?v=83edda79",
             "width": 1600,
             "height": 1200
           }
@@ -2094,8 +2112,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "E.c. Pinheiros Sao Paolo",
             "team_b": "Paulistano Amil",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/16955cfd2097843a95e93a128e3d5b21.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/16955cfd2097843a95e93a128e3d5b21.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
             "time": "06:00 05/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2105,7 +2123,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260505.png?v=65fab3c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_4b89cdd5_20260505.png?v=4b89cdd5",
             "width": 1600,
             "height": 1200
           }
