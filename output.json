@@ -953,6 +953,59 @@
           }
         },
         {
+          "id": "kaytee-149ef7df69",
+          "name": "Al-Ittihad Club vs Al Kholood | 01:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-149ef7df69",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-149ef7df69",
+                  "name": "Al-Ittihad Club vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-149ef7df69",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Ittihad Club",
+            "team_b": "Al Kholood",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/dea986d20115216c05d1a45ba9a6162e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png",
+            "time": "01:00 05/05",
+            "blv": "GIÀNG A NẾP",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-149ef7df69_71bae981_20260504.png?v=71bae981",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-d854f1dc65",
           "name": "Al-Ettifaq FC vs Al Najma(KSA) | 01:00 05/05",
           "type": "single",
@@ -1001,6 +1054,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d854f1dc65_cde3c319_20260504.png?v=cde3c319",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-20b01531bf",
+          "name": "Almeria vs Mirandes | 01:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20b01531bf",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-20b01531bf",
+                  "name": "Almeria vs Mirandes",
+                  "streams": [
+                    {
+                      "id": "st-20b01531bf",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish Segunda Division",
+            "team_a": "Almeria",
+            "team_b": "Mirandes",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d019943fa39f97f70cf49601cccbfa4b.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1b64e442df24728c214ea6e741a6d0bc.png",
+            "time": "01:30 05/05",
+            "blv": "GIÀNG A KEN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-20b01531bf_cf7791cc_20260504.png?v=cf7791cc",
             "width": 1600,
             "height": 1200
           }
