@@ -2315,82 +2315,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-a98d3dd237",
-          "name": "Aral Akademiya vs Nizhnevartovsk | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a98d3dd237",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-a98d3dd237",
-                  "name": "Aral Akademiya vs Nizhnevartovsk",
-                  "streams": [
-                    {
-                      "id": "st-a98d3dd237",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dff362d3f6",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f89f6536519_145875/index.m3u8?expire=1778506213",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vysshaya League A",
-            "team_a": "Aral Akademiya",
-            "team_b": "Nizhnevartovsk",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/e4dfc5228fb09d59fcb0c11ea89e3f61.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/0dc59affe67cecda183052acbbde8ad9.jpg",
-            "time": "21:00 04/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a98d3dd237_d55f41c4_20260504.png?v=d55f41c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9b240290ed",
           "name": "Radnicki Nis vs Vojvodina | 23:00 04/05",
