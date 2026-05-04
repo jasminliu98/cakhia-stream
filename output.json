@@ -1121,8 +1121,8 @@
           }
         },
         {
-          "id": "kaytee-5e1b7af065",
-          "name": "Cui Jie vs Alexis Galarneau | 14:20 04/05",
+          "id": "kaytee-04f31ac893",
+          "name": "Cui Jie vs Alexis Galarneau | 14:30 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1136,15 +1136,15 @@
           ],
           "sources": [
             {
-              "id": "src-5e1b7af065",
+              "id": "src-04f31ac893",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-5e1b7af065",
+                  "id": "ct-04f31ac893",
                   "name": "Cui Jie vs Alexis Galarneau",
                   "streams": [
                     {
-                      "id": "st-5e1b7af065",
+                      "id": "st-04f31ac893",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1159,7 +1159,7 @@
             "team_b": "Alexis Galarneau",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "14:20 04/05",
+            "time": "14:30 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1168,7 +1168,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5e1b7af065_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-04f31ac893_b3cd3bb1_20260504.png?v=b3cd3bb1",
             "width": 1600,
             "height": 1200
           }
