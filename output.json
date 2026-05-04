@@ -2120,11 +2120,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ec535fd75f",
+                          "id": "lnk-6b11a0ae0b",
                           "name": "GIÀNG A MU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f91e5a4841e_146208/index.m3u8?expire=1778538714",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-074781c1e0",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/6b06a3c34ebd0a4efdab9b2ab1ab5bb5/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
