@@ -1121,59 +1121,6 @@
           }
         },
         {
-          "id": "kaytee-b6acbbf174",
-          "name": "Mikhail Kukushkin vs Zhang Tianhui | 13:55 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b6acbbf174",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b6acbbf174",
-                  "name": "Mikhail Kukushkin vs Zhang Tianhui",
-                  "streams": [
-                    {
-                      "id": "st-b6acbbf174",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Mikhail Kukushkin",
-            "team_b": "Zhang Tianhui",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75b1af047d9890dba3158e890f0f9244.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aba47629cf9f84588a744afeb355422f.png",
-            "time": "13:55 04/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b6acbbf174_8c66e30d_20260504.png?v=8c66e30d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-04f31ac893",
           "name": "Cui Jie vs Alexis Galarneau | 14:30 04/05",
           "type": "single",
