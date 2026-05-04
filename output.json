@@ -17,111 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-883b0204a4",
-          "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-883b0204a4",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-883b0204a4",
-                  "name": "Chelsea vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-883b0204a4",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7542f4674f",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f89d1636519_145689/index.m3u8?expire=1778505622",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-774e660f86",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/60e9200e2a8ad6a0a53750189d212875/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0576bbe036",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8a33736519_145199/index.m3u8?expire=1778507191",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Chelsea",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b365ad0e85e2b1bcbf63f7a0f2f70a79.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/62572999d107f777efa4aeb907443527.png",
-            "time": "21:00 04/05",
-            "blv": "GIÀNG A TRỀ, GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-883b0204a4_13c2e6df_20260504.png?v=13c2e6df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-84af325609",
           "name": "Qarabag vs Turan Tovuz | 22:30 04/05",
           "type": "single",
@@ -501,11 +396,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b8c7d1dc9c",
+                          "id": "lnk-98eccfa96e",
                           "name": "GIÀNG A CƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8bf2036519_145277/index.m3u8?expire=1778514336",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-91b84ae4b1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1de18369be575e298c6ad908b8d2c3b0/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -552,10 +464,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -570,7 +482,25 @@
                     {
                       "id": "st-9b135daf07",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ca1a7569f",
+                          "name": "GIÀNG A CÒI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c36636519_145208/index.m3u8?expire=1778515430",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -585,7 +515,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png",
             "time": "23:30 04/05",
             "blv": "GIÀNG A CÒI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -593,59 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b135daf07_cae95e68_20260504.png?v=cae95e68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-071aca865f",
-          "name": "Halmstads vs Brommapojkarna | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-071aca865f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-071aca865f",
-                  "name": "Halmstads vs Brommapojkarna",
-                  "streams": [
-                    {
-                      "id": "st-071aca865f",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Halmstads",
-            "team_b": "Brommapojkarna",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d84614f172a18a18947a7567a9625b45.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/61603b48126b6e023af5811bf43354b2.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A BÁO",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260504.png?v=13219748",
             "width": 1600,
             "height": 1200
           }
@@ -699,6 +576,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-071aca865f",
+          "name": "Halmstads vs Brommapojkarna | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-071aca865f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-071aca865f",
+                  "name": "Halmstads vs Brommapojkarna",
+                  "streams": [
+                    {
+                      "id": "st-071aca865f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "Halmstads",
+            "team_b": "Brommapojkarna",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d84614f172a18a18947a7567a9625b45.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/61603b48126b6e023af5811bf43354b2.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260504.png?v=13219748",
             "width": 1600,
             "height": 1200
           }
