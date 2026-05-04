@@ -308,11 +308,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-af21dab0a4",
+                          "id": "lnk-054f09602a",
                           "name": "GIÀNG A SIK",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f883d536519_145268/index.m3u8?expire=1778499157",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-101921322b",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/47c17be3eed63e6a425674b690a56428/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2308,6 +2325,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260504.png?v=1c12c471",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0eedc05a5c",
+          "name": "Borneo FC vs Persita Tangerang | 19:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0eedc05a5c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0eedc05a5c",
+                  "name": "Borneo FC vs Persita Tangerang",
+                  "streams": [
+                    {
+                      "id": "st-0eedc05a5c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Borneo FC",
+            "team_b": "Persita Tangerang",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/da85ffb03146e72ce9928729dcabda51.png",
+            "time": "19:00 05/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260504.png?v=73d08fc0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-666af2c91a",
+          "name": "Chongqing Tongliangloong FC vs Henan FC | 19:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-666af2c91a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-666af2c91a",
+                  "name": "Chongqing Tongliangloong FC vs Henan FC",
+                  "streams": [
+                    {
+                      "id": "st-666af2c91a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Chongqing Tongliangloong FC",
+            "team_b": "Henan FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5be93c1a6628d27de6d39fde9ea94b7a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f336520db254da6d6d5294b720d26d83.png",
+            "time": "19:00 05/05",
+            "blv": "GIÀNG A KEN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-666af2c91a_472d237d_20260504.png?v=472d237d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-768ed365a2",
+          "name": "Karvan Evlakh vs FC Neftci Baku | 19:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-768ed365a2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-768ed365a2",
+                  "name": "Karvan Evlakh vs FC Neftci Baku",
+                  "streams": [
+                    {
+                      "id": "st-768ed365a2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azerbaijan Premier League",
+            "team_a": "Karvan Evlakh",
+            "team_b": "FC Neftci Baku",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/aa6d9f240dd67791dd86ff4de072d846.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2d9ea2234c3ada82b3d0355791c45669.png",
+            "time": "19:00 05/05",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260504.png?v=b4649b6a",
             "width": 1600,
             "height": 1200
           }
