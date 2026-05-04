@@ -2169,6 +2169,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-6283cd70d2",
+          "name": "Shandong Taishan FC vs Shanghai Shenhua FC | 18:35 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6283cd70d2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6283cd70d2",
+                  "name": "Shandong Taishan FC vs Shanghai Shenhua FC",
+                  "streams": [
+                    {
+                      "id": "st-6283cd70d2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Shandong Taishan FC",
+            "team_b": "Shanghai Shenhua FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/85c080cf02a7161687ddd5b5800dc303.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e8327d4681b4a73c83be9fe087b30721.png",
+            "time": "18:35 05/05",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260504.png?v=a1d33704",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-53b4f8059c",
+          "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53b4f8059c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-53b4f8059c",
+                  "name": "Liaoning Tieren vs Chengdu Rongcheng FC",
+                  "streams": [
+                    {
+                      "id": "st-53b4f8059c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Liaoning Tieren",
+            "team_b": "Chengdu Rongcheng FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
+            "time": "18:35 05/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260504.png?v=1c12c471",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
