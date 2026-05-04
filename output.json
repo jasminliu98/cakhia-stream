@@ -980,8 +980,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-a5d1c4506b",
-          "name": "Hayato Matsuoka vs Yusuke Takahashi | 12:50 04/05",
+          "id": "kaytee-dd93678205",
+          "name": "Hayato Matsuoka vs Yusuke Takahashi | 12:45 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -995,15 +995,15 @@
           ],
           "sources": [
             {
-              "id": "src-a5d1c4506b",
+              "id": "src-dd93678205",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-a5d1c4506b",
+                  "id": "ct-dd93678205",
                   "name": "Hayato Matsuoka vs Yusuke Takahashi",
                   "streams": [
                     {
-                      "id": "st-a5d1c4506b",
+                      "id": "st-dd93678205",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1053,7 +1053,7 @@
             "team_b": "Yusuke Takahashi",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06ced81e28f51f9fadc2fd76af0a2949.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b87190a20612926a4cab534392627f10.jpg",
-            "time": "12:50 04/05",
+            "time": "12:45 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1062,14 +1062,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a5d1c4506b_d593cb91_20260504.png?v=d593cb91",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd93678205_d593cb91_20260504.png?v=d593cb91",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-c203bc7eb5",
-          "name": "Mikhail Kukushkin vs Zhang Tianhui | 14:00 04/05",
+          "id": "kaytee-b6acbbf174",
+          "name": "Mikhail Kukushkin vs Zhang Tianhui | 13:55 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1083,15 +1083,15 @@
           ],
           "sources": [
             {
-              "id": "src-c203bc7eb5",
+              "id": "src-b6acbbf174",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-c203bc7eb5",
+                  "id": "ct-b6acbbf174",
                   "name": "Mikhail Kukushkin vs Zhang Tianhui",
                   "streams": [
                     {
-                      "id": "st-c203bc7eb5",
+                      "id": "st-b6acbbf174",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1106,7 +1106,7 @@
             "team_b": "Zhang Tianhui",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75b1af047d9890dba3158e890f0f9244.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aba47629cf9f84588a744afeb355422f.png",
-            "time": "14:00 04/05",
+            "time": "13:55 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1115,14 +1115,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c203bc7eb5_8c66e30d_20260504.png?v=8c66e30d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b6acbbf174_8c66e30d_20260504.png?v=8c66e30d",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-52b08cbaa1",
-          "name": "Cui Jie vs Alexis Galarneau | 14:10 04/05",
+          "id": "kaytee-5e1b7af065",
+          "name": "Cui Jie vs Alexis Galarneau | 14:20 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1136,15 +1136,15 @@
           ],
           "sources": [
             {
-              "id": "src-52b08cbaa1",
+              "id": "src-5e1b7af065",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-52b08cbaa1",
+                  "id": "ct-5e1b7af065",
                   "name": "Cui Jie vs Alexis Galarneau",
                   "streams": [
                     {
-                      "id": "st-52b08cbaa1",
+                      "id": "st-5e1b7af065",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1159,7 +1159,7 @@
             "team_b": "Alexis Galarneau",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "14:10 04/05",
+            "time": "14:20 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1168,14 +1168,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-52b08cbaa1_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5e1b7af065_b3cd3bb1_20260504.png?v=b3cd3bb1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-8f00ad5eff",
-          "name": "Mark Lajal vs Renta Tokuda | 15:10 04/05",
+          "id": "kaytee-e0cb32f3cd",
+          "name": "Mark Lajal vs Renta Tokuda | 15:05 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1189,15 +1189,15 @@
           ],
           "sources": [
             {
-              "id": "src-8f00ad5eff",
+              "id": "src-e0cb32f3cd",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-8f00ad5eff",
+                  "id": "ct-e0cb32f3cd",
                   "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-8f00ad5eff",
+                      "id": "st-e0cb32f3cd",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1212,7 +1212,7 @@
             "team_b": "Renta Tokuda",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "15:10 04/05",
+            "time": "15:05 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1221,7 +1221,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8f00ad5eff_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e0cb32f3cd_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
