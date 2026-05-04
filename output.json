@@ -317,59 +317,6 @@
           }
         },
         {
-          "id": "kaytee-023e0adef3",
-          "name": "Aston Villa (w) vs West Ham United (w) | 19:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-023e0adef3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-023e0adef3",
-                  "name": "Aston Villa (w) vs West Ham United (w)",
-                  "streams": [
-                    {
-                      "id": "st-023e0adef3",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English FA Women's Super League",
-            "team_a": "Aston Villa (w)",
-            "team_b": "West Ham United (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9786e02491cd73bef33d48d5f1b2ad51.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f6fd9013a1e10442708bc6e9d09ee236.png",
-            "time": "19:00 04/05",
-            "blv": "GIÀNG A NA",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-023e0adef3_7c9fe5a0_20260504.png?v=7c9fe5a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-883b0204a4",
           "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
           "type": "single",
@@ -1342,11 +1289,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-328a06cb1a",
+                          "id": "lnk-d5c10374d7",
                           "name": "GIÀNG A LEX",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f837f836519_145875/index.m3u8?expire=1778479736",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-96e720abe1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f0e9a847a833829bdf30f156cdb88827/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
