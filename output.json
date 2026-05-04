@@ -53,7 +53,7 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Myanmar U17 Women",
             "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/0eff6ce301fcd86f8793b5b859ea050f.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/42e049c1eedb100ff79677bef706ff0d.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
             "time": "14:30 04/05",
             "blv": "GIÀNG A MÓM",
@@ -64,7 +64,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_a3a93c8d_20260504.png?v=a3a93c8d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_0f006e4d_20260504.png?v=0f006e4d",
             "width": 1600,
             "height": 1200
           }
@@ -1174,8 +1174,8 @@
           }
         },
         {
-          "id": "kaytee-e0cb32f3cd",
-          "name": "Mark Lajal vs Renta Tokuda | 15:05 04/05",
+          "id": "kaytee-e154512de0",
+          "name": "Mark Lajal vs Renta Tokuda | 15:20 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1189,15 +1189,15 @@
           ],
           "sources": [
             {
-              "id": "src-e0cb32f3cd",
+              "id": "src-e154512de0",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-e0cb32f3cd",
+                  "id": "ct-e154512de0",
                   "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-e0cb32f3cd",
+                      "id": "st-e154512de0",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1212,7 +1212,7 @@
             "team_b": "Renta Tokuda",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "15:05 04/05",
+            "time": "15:20 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1221,7 +1221,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e0cb32f3cd_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e154512de0_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
