@@ -748,7 +748,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-912f0dc9f1",
+                          "id": "lnk-348d0baf68",
                           "name": "GIÀNG A BẢNH",
                           "type": "hls",
                           "default": true,
@@ -765,7 +765,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-de85ec03bf",
+                          "id": "lnk-7ca136cdd6",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/6374c61b3ae6964fc0ff65eb2418171f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-50f4071ff8",
                           "name": "GIÀNG A BÉO",
                           "type": "hls",
                           "default": false,
