@@ -11,221 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-7ed0c1b412",
-          "name": "Everton vs Manchester City | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7ed0c1b412",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7ed0c1b412",
-                  "name": "Everton vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-7ed0c1b412",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0148d1305c",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8ea104841e_145419/index.m3u8?expire=1778525328",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e712968dfb",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/82dcfcc79a7f2b33757deedb0ed889dc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-248884eb56",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8ecc84841e_145689/index.m3u8?expire=1778526024",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Everton",
-            "team_b": "Manchester City",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9592d1e0be6375b9e6c5ef169b7aa864.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "time": "02:00 05/05",
-            "blv": "GIÀNG A DÂN, GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ed0c1b412_9d601fe9_20260505.png?v=9d601fe9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-f1d9c7ce2a",
-          "name": "Sevilla FC vs Real Sociedad | 02:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1d9c7ce2a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-f1d9c7ce2a",
-                  "name": "Sevilla FC vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-f1d9c7ce2a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7de53bda78",
-                          "name": "GIÀNG A CÒI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8e6be4841e_145208/index.m3u8?expire=1778524478",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3459851eb5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e452474ad3097f97ac6432b7bd34ac37/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fab53ca7ca",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8eb5636519_145274/index.m3u8?expire=1778525654",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Sevilla FC",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/579db6e95905545973035e6eab8df2cd.png",
-            "time": "02:00 05/05",
-            "blv": "GIÀNG A CÒI, GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1d9c7ce2a_dbf709bb_20260505.png?v=dbf709bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-efa48280f9",
           "name": "Sporting CP vs Vitoria Guimaraes | 02:15 05/05",
@@ -2065,8 +1855,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Sofia Kenin",
             "team_b": "Bianca Andreescu",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a89a8cd0752a1bfb104818e197463b1.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d7e13e3eeef5067fbc138d4fda9ec5ce.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/4a89a8cd0752a1bfb104818e197463b1.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/d7e13e3eeef5067fbc138d4fda9ec5ce.png",
             "time": "17:10 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -2076,7 +1866,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-77b1eb95eb_e7772ba8_20260505.png?v=e7772ba8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-77b1eb95eb_c68f9d1f_20260505.png?v=c68f9d1f",
             "width": 1600,
             "height": 1200
           }
@@ -2118,8 +1908,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Mccartney Kessler",
             "team_b": "Lucia Bronzetti",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cb3bab7e84cdda0aba038b08bd237637.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4b3bdf6313562c2ad4d3af4b13e7c936.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/cb3bab7e84cdda0aba038b08bd237637.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/4b3bdf6313562c2ad4d3af4b13e7c936.png",
             "time": "17:20 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2129,7 +1919,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bd9bc97e39_69e4bc3d_20260505.png?v=69e4bc3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bd9bc97e39_270d84f0_20260505.png?v=270d84f0",
             "width": 1600,
             "height": 1200
           }
@@ -2171,8 +1961,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Anastasia Zakharova",
             "team_b": "Dayana Yastremska",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/82ac7f70a1ca9091adc4a073c81e2cf2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5ce6a09428f62fa1d431fbee9a18322a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/82ac7f70a1ca9091adc4a073c81e2cf2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/5ce6a09428f62fa1d431fbee9a18322a.png",
             "time": "18:20 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -2182,7 +1972,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3943ac13ef_d8cb3ab8_20260505.png?v=d8cb3ab8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3943ac13ef_65e86faa_20260505.png?v=65e86faa",
             "width": 1600,
             "height": 1200
           }
@@ -2224,8 +2014,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2235,7 +2025,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_aa9ea644_20260505.png?v=aa9ea644",
             "width": 1600,
             "height": 1200
           }
@@ -2277,8 +2067,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Ann Li",
             "team_b": "Zhang Shuai",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3053de3d345996c6c386ea91c3a430a2.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/75655aabfb5c910ac5b9c6d927e86122.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/3053de3d345996c6c386ea91c3a430a2.png",
             "time": "19:30 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -2288,7 +2078,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_eb839823_20260505.png?v=eb839823",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_734835aa_20260505.png?v=734835aa",
             "width": 1600,
             "height": 1200
           }
