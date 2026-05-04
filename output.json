@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-b49bd02968",
-          "name": "HJK Helsinki vs Lahti | 23:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b49bd02968",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b49bd02968",
-                  "name": "HJK Helsinki vs Lahti",
-                  "streams": [
-                    {
-                      "id": "st-b49bd02968",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6113dce325",
-                          "name": "GIÀNG A MAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8b9c736519_145223/index.m3u8?expire=1778512967",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-151f142daf",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/85f9fba932fc23f942a6b676e014980d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finnish Veikkausliiga",
-            "team_a": "HJK Helsinki",
-            "team_b": "Lahti",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/fd1a9c51505300dec9c26e5847114851.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0ab1b8407086bab060a396f244a28cd6.png",
-            "time": "23:00 04/05",
-            "blv": "GIÀNG A MAO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b49bd02968_7978ebc8_20260505.png?v=7978ebc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-5cebabcffd",
           "name": "Al-Fayha vs Al-Riyadh | 23:10 04/05",
