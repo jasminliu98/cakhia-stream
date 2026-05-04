@@ -88,8 +88,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Myanmar U17 Women",
             "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/42e049c1eedb100ff79677bef706ff0d.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f5c29f4d0153b28ef8802fe964122c65.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/42e049c1eedb100ff79677bef706ff0d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
             "time": "14:30 04/05",
             "blv": "GIÀNG A MÓM",
             "is_live": true,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_34e39499_20260504.png?v=34e39499",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_0f006e4d_20260504.png?v=0f006e4d",
             "width": 1600,
             "height": 1200
           }
@@ -1433,59 +1433,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8c39e55cd7_8c66e30d_20260504.png?v=8c66e30d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-b12859ff08",
-          "name": "Mark Lajal vs Renta Tokuda | 17:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b12859ff08",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b12859ff08",
-                  "name": "Mark Lajal vs Renta Tokuda",
-                  "streams": [
-                    {
-                      "id": "st-b12859ff08",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Mark Lajal",
-            "team_b": "Renta Tokuda",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "17:00 04/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b12859ff08_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
