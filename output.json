@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-751f6fa8b7",
-          "name": "Persib Bandung vs PSIM Yogyakarta | 15:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-751f6fa8b7",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-751f6fa8b7",
-                  "name": "Persib Bandung vs PSIM Yogyakarta",
-                  "streams": [
-                    {
-                      "id": "st-751f6fa8b7",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a98229b754",
-                          "name": "GIÀNG A BÚN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8528336519_146331/index.m3u8?expire=1778486531",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1fdef4d9e7",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fade9633b36ae26df55731dc177bc8bd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Persib Bandung",
-            "team_b": "PSIM Yogyakarta",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/b2004093bf25a5a8d1768970d6e49d71.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/1a64731cd883e9d734e29a83301ea849.png",
-            "time": "15:30 04/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-751f6fa8b7_49dace5c_20260504.png?v=49dace5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-33a921963a",
           "name": "Vietnam U17 Women vs China U17 Women | 18:30 04/05",
@@ -780,7 +692,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
             "time": "00:00 05/05",
-            "blv": "GIÀNG A MÈN",
+            "blv": "GIÀNG A RICH",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
