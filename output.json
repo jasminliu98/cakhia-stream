@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -183,10 +183,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -201,7 +201,25 @@
                     {
                       "id": "st-883b0204a4",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cddb9cdab",
+                          "name": "GIÀNG A TRỀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f89d1636519_145689/index.m3u8?expire=1778505622",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -216,7 +234,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/62572999d107f777efa4aeb907443527.png",
             "time": "21:00 04/05",
             "blv": "GIÀNG A TRỀ, GIÀNG A RON",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -236,10 +254,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -254,7 +272,25 @@
                     {
                       "id": "st-ba61323c77",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-65c9b0450b",
+                          "name": "GIÀNG A NÌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f89e164841e_145187/index.m3u8?expire=1778505878",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -269,7 +305,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
             "time": "21:00 04/05",
             "blv": "GIÀNG A NÌ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2299,7 +2335,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2312,10 +2348,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2330,7 +2366,25 @@
                     {
                       "id": "st-a98d3dd237",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-dff362d3f6",
+                          "name": "GIÀNG A LEX",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f89f6536519_145875/index.m3u8?expire=1778506213",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2345,7 +2399,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/0dc59affe67cecda183052acbbde8ad9.jpg",
             "time": "21:00 04/05",
             "blv": "GIÀNG A LEX",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
