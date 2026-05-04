@@ -88,8 +88,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Myanmar U17 Women",
             "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/42e049c1eedb100ff79677bef706ff0d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/42e049c1eedb100ff79677bef706ff0d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f5c29f4d0153b28ef8802fe964122c65.png",
             "time": "14:30 04/05",
             "blv": "GIÀNG A MÓM",
             "is_live": true,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_0f006e4d_20260504.png?v=0f006e4d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_34e39499_20260504.png?v=34e39499",
             "width": 1600,
             "height": 1200
           }
@@ -1377,11 +1377,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8ae4c334d2",
+                          "id": "lnk-02ae645417",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f85cb34841e_146088/index.m3u8?expire=1778489139",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-cb8d6f0398",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4fe5183c73cd552506132b429d7b9603/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
