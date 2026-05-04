@@ -44,7 +44,7 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-c086158db7",
+                          "id": "lnk-22d6bb47c3",
                           "name": "GIÀNG A NGAO",
                           "type": "hls",
                           "default": true,
@@ -61,7 +61,24 @@
                           ]
                         },
                         {
-                          "id": "lnk-90d65fa1df",
+                          "id": "lnk-18ffc733c1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/50787808a2d9cd44c981798a9eac3dff/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-00996487f5",
                           "name": "GIÀNG A MAO",
                           "type": "hls",
                           "default": false,
@@ -132,11 +149,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-fd28fc76ec",
+                          "id": "lnk-cc0dac6172",
                           "name": "GIÀNG A NA",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f87ed336519_146847/index.m3u8?expire=1778497875",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5064770a39",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/65acdad8272a7f25196115835bbd3db5/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1973,6 +2007,165 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-909f978853_84884005_20260504.png?v=84884005",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ce41369b5c",
+          "name": "India (w) U17 vs Japan (w) U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce41369b5c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ce41369b5c",
+                  "name": "India (w) U17 vs Japan (w) U17",
+                  "streams": [
+                    {
+                      "id": "st-ce41369b5c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "India (w) U17",
+            "team_b": "Japan (w) U17",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a18a24058618b5ef80eec61300f85999.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "time": "18:30 05/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce41369b5c_d865e8c2_20260504.png?v=d865e8c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6e72231ea9",
+          "name": "Philippines U17 Women vs North Korea Women U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e72231ea9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6e72231ea9",
+                  "name": "Philippines U17 Women vs North Korea Women U17",
+                  "streams": [
+                    {
+                      "id": "st-6e72231ea9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Philippines U17 Women",
+            "team_b": "North Korea Women U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "time": "18:30 05/05",
+            "blv": "GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260504.png?v=317a1ed2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-db5c3bf0c5",
+          "name": "Tanjong Pagar Utd vs Hougang United FC | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db5c3bf0c5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-db5c3bf0c5",
+                  "name": "Tanjong Pagar Utd vs Hougang United FC",
+                  "streams": [
+                    {
+                      "id": "st-db5c3bf0c5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Singapore Premier League",
+            "team_a": "Tanjong Pagar Utd",
+            "team_b": "Hougang United FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6383c94b1ad9982eeaabbb99e0431ea3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/22bd6a4d9cba9a0127b11c10faefb219.png",
+            "time": "18:30 05/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-db5c3bf0c5_4bb01695_20260504.png?v=4bb01695",
             "width": 1600,
             "height": 1200
           }
