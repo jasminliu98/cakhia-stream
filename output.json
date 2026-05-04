@@ -2016,99 +2016,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-c84b584edd",
-          "name": "Cui Jie vs Alexis Galarneau | 15:45 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c84b584edd",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c84b584edd",
-                  "name": "Cui Jie vs Alexis Galarneau",
-                  "streams": [
-                    {
-                      "id": "st-c84b584edd",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c10374d7",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f837f836519_145875/index.m3u8?expire=1778479736",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-96e720abe1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f0e9a847a833829bdf30f156cdb88827/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Cui Jie",
-            "team_b": "Alexis Galarneau",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "15:45 04/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c84b584edd_b3cd3bb1_20260504.png?v=b3cd3bb1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-8c39e55cd7",
           "name": "Mikhail Kukushkin vs Zhang Tianhui | 15:50 04/05",
