@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (5 LIVE)",
+      "name": "⚽ Bóng đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-20b01531bf",
-          "name": "Almeria vs Mirandes | 01:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-20b01531bf",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-20b01531bf",
-                  "name": "Almeria vs Mirandes",
-                  "streams": [
-                    {
-                      "id": "st-20b01531bf",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6ed8b4a8e",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8df8e36519_145467/index.m3u8?expire=1778522638",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1ad44dcde7",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/3f271ca16cd7a1e00ccd1507656d60ea/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Segunda Division",
-            "team_a": "Almeria",
-            "team_b": "Mirandes",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d019943fa39f97f70cf49601cccbfa4b.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/1b64e442df24728c214ea6e741a6d0bc.png",
-            "time": "01:30 05/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-20b01531bf_cf7791cc_20260505.png?v=cf7791cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e433dfbc41",
           "name": "AS Roma vs Fiorentina | 01:45 05/05",
