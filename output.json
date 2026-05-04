@@ -1256,14 +1256,14 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-dd93678205",
-          "name": "Hayato Matsuoka vs Yusuke Takahashi | 12:45 04/05",
+          "id": "kaytee-c84b584edd",
+          "name": "Cui Jie vs Alexis Galarneau | 15:45 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1277,128 +1277,23 @@
           ],
           "sources": [
             {
-              "id": "src-dd93678205",
+              "id": "src-c84b584edd",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-dd93678205",
-                  "name": "Hayato Matsuoka vs Yusuke Takahashi",
-                  "streams": [
-                    {
-                      "id": "st-dd93678205",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2fa6bca6c",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f82a5636519_146088/index.m3u8?expire=1778476246",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-013171b80d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f7f2201f6eedad4ecbd1de247bcf0645/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Hayato Matsuoka",
-            "team_b": "Yusuke Takahashi",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06ced81e28f51f9fadc2fd76af0a2949.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b87190a20612926a4cab534392627f10.jpg",
-            "time": "12:45 04/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-dd93678205_d593cb91_20260504.png?v=d593cb91",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-2a310e83f6",
-          "name": "Cui Jie vs Alexis Galarneau | 15:40 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a310e83f6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-2a310e83f6",
+                  "id": "ct-c84b584edd",
                   "name": "Cui Jie vs Alexis Galarneau",
                   "streams": [
                     {
-                      "id": "st-2a310e83f6",
+                      "id": "st-c84b584edd",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d5c10374d7",
+                          "id": "lnk-328a06cb1a",
                           "name": "GIÀNG A LEX",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f837f836519_145875/index.m3u8?expire=1778479736",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-96e720abe1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f0e9a847a833829bdf30f156cdb88827/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1423,7 +1318,7 @@
             "team_b": "Alexis Galarneau",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "15:40 04/05",
+            "time": "15:45 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1432,14 +1327,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-2a310e83f6_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c84b584edd_b3cd3bb1_20260504.png?v=b3cd3bb1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-fa944dec2f",
-          "name": "Mark Lajal vs Renta Tokuda | 16:50 04/05",
+          "id": "kaytee-b12859ff08",
+          "name": "Mark Lajal vs Renta Tokuda | 17:00 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1453,15 +1348,15 @@
           ],
           "sources": [
             {
-              "id": "src-fa944dec2f",
+              "id": "src-b12859ff08",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-fa944dec2f",
+                  "id": "ct-b12859ff08",
                   "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-fa944dec2f",
+                      "id": "st-b12859ff08",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1476,7 +1371,7 @@
             "team_b": "Renta Tokuda",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "16:50 04/05",
+            "time": "17:00 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1485,7 +1380,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fa944dec2f_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b12859ff08_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
