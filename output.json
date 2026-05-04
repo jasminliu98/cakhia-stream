@@ -1084,6 +1084,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-7fcc79809e",
+          "name": "Mark Lajal vs Renta Tokuda | 14:40 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7fcc79809e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7fcc79809e",
+                  "name": "Mark Lajal vs Renta Tokuda",
+                  "streams": [
+                    {
+                      "id": "st-7fcc79809e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Mark Lajal",
+            "team_b": "Renta Tokuda",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
+            "time": "14:40 04/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7fcc79809e_dc50b721_20260504.png?v=dc50b721",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
