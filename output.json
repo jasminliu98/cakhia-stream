@@ -2505,8 +2505,8 @@
             "league": "AFC U17 Asian Cup",
             "team_a": "Japan U17",
             "team_b": "Qatar U17",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A NÚI",
             "is_live": false,
@@ -2516,7 +2516,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_66d22b64_20260505.png?v=66d22b64",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260505.png?v=6c8704f3",
             "width": 1600,
             "height": 1200
           }
