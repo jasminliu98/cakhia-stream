@@ -974,11 +974,99 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-40b36e9606",
+          "name": "Hayato Matsuoka vs Yusuke Takahashi | 12:20 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40b36e9606",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-40b36e9606",
+                  "name": "Hayato Matsuoka vs Yusuke Takahashi",
+                  "streams": [
+                    {
+                      "id": "st-40b36e9606",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2fa6bca6c",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f82a5636519_146088/index.m3u8?expire=1778476246",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-013171b80d",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f7f2201f6eedad4ecbd1de247bcf0645/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Hayato Matsuoka",
+            "team_b": "Yusuke Takahashi",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/06ced81e28f51f9fadc2fd76af0a2949.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/b87190a20612926a4cab534392627f10.jpg",
+            "time": "12:20 04/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-40b36e9606_d593cb91_20260504.png?v=d593cb91",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-d2d01d0dff",
           "name": "Mikhail Kukushkin vs Zhang Tianhui | 13:30 04/05",
