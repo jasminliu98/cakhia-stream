@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -117,94 +117,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-883b0204a4_13c2e6df_20260504.png?v=13c2e6df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-ba61323c77",
-          "name": "Pharco vs El Mokawloon El Arab | 21:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba61323c77",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ba61323c77",
-                  "name": "Pharco vs El Mokawloon El Arab",
-                  "streams": [
-                    {
-                      "id": "st-ba61323c77",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a87362916",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f89e164841e_145187/index.m3u8?expire=1778505878",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9e6275de4f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/59d76688f98a67e3d90bd1755cdfd55d/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Pharco",
-            "team_b": "El Mokawloon El Arab",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/abc7123841c5174901b57ace767891ca.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/d2ba8945533ebbda0bcccf6cf21a4bd4.png",
-            "time": "21:00 04/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ba61323c77_885ba392_20260504.png?v=885ba392",
             "width": 1600,
             "height": 1200
           }
