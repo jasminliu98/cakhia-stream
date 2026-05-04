@@ -70,59 +70,6 @@
           }
         },
         {
-          "id": "kaytee-7df3814b47",
-          "name": "Albirex Niigata FC vs Young Lions | 18:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7df3814b47",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7df3814b47",
-                  "name": "Albirex Niigata FC vs Young Lions",
-                  "streams": [
-                    {
-                      "id": "st-7df3814b47",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Premier League",
-            "team_a": "Albirex Niigata FC",
-            "team_b": "Young Lions",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1bc138bc13d186569590f57f9d9127cd.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/9208155f7204354ad78a72594ff7b13c.png",
-            "time": "18:30 04/05",
-            "blv": "GIÀNG A NA",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7df3814b47_fcff3e86_20260504.png?v=fcff3e86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-6f8dfc9265",
           "name": "Persijap Jepara vs Persija Jakarta | 19:00 04/05",
           "type": "single",
@@ -1934,8 +1881,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-8c39e55cd7",
-          "name": "Mikhail Kukushkin vs Zhang Tianhui | 15:50 04/05",
+          "id": "kaytee-efa3690855",
+          "name": "Mark Lajal vs Renta Tokuda | 16:15 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1949,23 +1896,23 @@
           ],
           "sources": [
             {
-              "id": "src-8c39e55cd7",
+              "id": "src-efa3690855",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-8c39e55cd7",
-                  "name": "Mikhail Kukushkin vs Zhang Tianhui",
+                  "id": "ct-efa3690855",
+                  "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-8c39e55cd7",
+                      "id": "st-efa3690855",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-02ae645417",
+                          "id": "lnk-814aaec94f",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f85cb34841e_146088/index.m3u8?expire=1778489139",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f876464841e_146088/index.m3u8?expire=1778495686",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1978,11 +1925,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-cb8d6f0398",
+                          "id": "lnk-9972e59be5",
                           "name": "Link nhà đài",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.alilicloud.com/live/4fe5183c73cd552506132b429d7b9603/playlist.m3u8",
+                          "url": "https://live.alilicloud.com/live/9bb6da8c227a4d7a61a5e8cd201ffbd9/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2003,11 +1950,11 @@
           ],
           "org_metadata": {
             "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Mikhail Kukushkin",
-            "team_b": "Zhang Tianhui",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75b1af047d9890dba3158e890f0f9244.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/aba47629cf9f84588a744afeb355422f.png",
-            "time": "15:50 04/05",
+            "team_a": "Mark Lajal",
+            "team_b": "Renta Tokuda",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
+            "time": "16:15 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": true,
             "cate_name": "Tennis"
@@ -2016,7 +1963,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8c39e55cd7_8c66e30d_20260504.png?v=8c66e30d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-efa3690855_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
