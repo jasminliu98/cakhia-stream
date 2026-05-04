@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -904,10 +904,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -922,7 +922,25 @@
                     {
                       "id": "st-149ef7df69",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a853bb35f",
+                          "name": "GIÀNG A NẾP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8d7a14841e_145428/index.m3u8?expire=1778520609",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -937,7 +955,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png",
             "time": "01:00 05/05",
             "blv": "GIÀNG A NẾP",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -945,59 +963,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-149ef7df69_71bae981_20260505.png?v=71bae981",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-d854f1dc65",
-          "name": "Al-Ettifaq FC vs Al Najma(KSA) | 01:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d854f1dc65",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-d854f1dc65",
-                  "name": "Al-Ettifaq FC vs Al Najma(KSA)",
-                  "streams": [
-                    {
-                      "id": "st-d854f1dc65",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al-Ettifaq FC",
-            "team_b": "Al Najma(KSA)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/381dd852484f06350b771097612cf08e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
-            "time": "01:00 05/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d854f1dc65_cde3c319_20260505.png?v=cde3c319",
             "width": 1600,
             "height": 1200
           }
