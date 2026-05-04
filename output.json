@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-cbb727071a",
-          "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cbb727071a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-cbb727071a",
-                  "name": "Djurgardens vs IFK Goteborg",
-                  "streams": [
-                    {
-                      "id": "st-cbb727071a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-750a9ed074",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c5a136519_145476/index.m3u8?expire=1778516001",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4b17bbde2a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/015e449f5888d09aa85865e8b066a233/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Djurgardens",
-            "team_b": "IFK Goteborg",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260505.png?v=eac31a1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-071aca865f",
-          "name": "Halmstads vs Brommapojkarna | 00:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-071aca865f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-071aca865f",
-                  "name": "Halmstads vs Brommapojkarna",
-                  "streams": [
-                    {
-                      "id": "st-071aca865f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b020a64588",
-                          "name": "GIÀNG A BÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c2a836519_145274/index.m3u8?expire=1778515240",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9d1177d34a",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/d8dcfec2b6975c8730f090bb969ebb98/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sweden Allsvenskan",
-            "team_a": "Halmstads",
-            "team_b": "Brommapojkarna",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d84614f172a18a18947a7567a9625b45.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/61603b48126b6e023af5811bf43354b2.png",
-            "time": "00:00 05/05",
-            "blv": "GIÀNG A BÁO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260505.png?v=13219748",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-d324ce3bb6",
           "name": "Midtjylland vs Viborg | 00:00 05/05",
@@ -854,7 +678,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-682ed067b8",
-                          "name": "GIÀNG A TRỀ",
+                          "name": "GIÀNG A DÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8ea104841e_145419/index.m3u8?expire=1778525328",
@@ -883,7 +707,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/9592d1e0be6375b9e6c5ef169b7aa864.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
             "time": "02:00 05/05",
-            "blv": "GIÀNG A TRỀ, GIÀNG A DÂN",
+            "blv": "GIÀNG A DÂN",
             "is_live": true,
             "cate_name": "Bóng đá"
           },
@@ -929,6 +753,23 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8e6be4841e_145208/index.m3u8?expire=1778524478",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9bbcaf172b",
+                          "name": "GIÀNG A BÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8eb5636519_145274/index.m3u8?expire=1778525654",
                           "request_headers": [
                             {
                               "key": "Referer",
