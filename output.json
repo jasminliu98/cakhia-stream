@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,94 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f8dfc9265_1b25025b_20260504.png?v=1b25025b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-023e0adef3",
-          "name": "Aston Villa (w) vs West Ham United (w) | 19:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-023e0adef3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-023e0adef3",
-                  "name": "Aston Villa (w) vs West Ham United (w)",
-                  "streams": [
-                    {
-                      "id": "st-023e0adef3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-054f09602a",
-                          "name": "GIÀNG A SIK",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f883d536519_145268/index.m3u8?expire=1778499157",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-101921322b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/47c17be3eed63e6a425674b690a56428/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English FA Women's Super League",
-            "team_a": "Aston Villa (w)",
-            "team_b": "West Ham United (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9786e02491cd73bef33d48d5f1b2ad51.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f6fd9013a1e10442708bc6e9d09ee236.png",
-            "time": "19:00 04/05",
-            "blv": "GIÀNG A SIK",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-023e0adef3_7c9fe5a0_20260504.png?v=7c9fe5a0",
             "width": 1600,
             "height": 1200
           }
