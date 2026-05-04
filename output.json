@@ -1307,28 +1307,11 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d5c10374d7",
+                          "id": "lnk-328a06cb1a",
                           "name": "GIÀNG A LEX",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f837f836519_145875/index.m3u8?expire=1778479736",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-96e720abe1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f0e9a847a833829bdf30f156cdb88827/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1404,8 +1387,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Mark Lajal",
             "team_b": "Renta Tokuda",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/80ee86bf534e983258c8c9b7e7bda64b.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/4c019fe7aec0288a7387d2bfca806708.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
             "time": "16:30 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -1415,7 +1398,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-59ac4d9ee9_9d8e0dce_20260504.png?v=9d8e0dce",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-59ac4d9ee9_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
