@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-e433dfbc41",
-          "name": "AS Roma vs Fiorentina | 01:45 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e433dfbc41",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e433dfbc41",
-                  "name": "AS Roma vs Fiorentina",
-                  "streams": [
-                    {
-                      "id": "st-e433dfbc41",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-348d0baf68",
-                          "name": "GIÀNG A BẢNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8e2964841e_145205/index.m3u8?expire=1778523414",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7ca136cdd6",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/6374c61b3ae6964fc0ff65eb2418171f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-50f4071ff8",
-                          "name": "GIÀNG A BÉO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8dff44841e_146781/index.m3u8?expire=1778522740",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italian Serie A",
-            "team_a": "AS Roma",
-            "team_b": "Fiorentina",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7a192686d30c1ad031d2fb605eaf2f2a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/858d87ded0cce014bae0c9681af48524.png",
-            "time": "01:45 05/05",
-            "blv": "GIÀNG A BẢNH, GIÀNG A BÉO",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e433dfbc41_b69548a6_20260505.png?v=b69548a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-7ed0c1b412",
           "name": "Everton vs Manchester City | 02:00 05/05",
