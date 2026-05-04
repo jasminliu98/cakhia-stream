@@ -2448,56 +2448,38 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-9b240290ed",
-          "name": "Radnicki Nis vs Vojvodina | 23:00 04/05",
+          "id": "kaytee-f5e2ba583e",
+          "name": "Radnicki Nis vs Vojvodina | 00:00 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-9b240290ed",
+              "id": "src-f5e2ba583e",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-9b240290ed",
+                  "id": "ct-f5e2ba583e",
                   "name": "Radnicki Nis vs Vojvodina",
                   "streams": [
                     {
-                      "id": "st-9b240290ed",
+                      "id": "st-f5e2ba583e",
                       "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5500b4f28",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8c2cf36519_146208/index.m3u8?expire=1778515279",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -2510,16 +2492,16 @@
             "team_b": "Vojvodina",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-dev/football/team/logo/20130824120715.jpg",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/74f72fe038f2317e6d9e76b5ec9a0267.png",
-            "time": "23:00 04/05",
+            "time": "00:00 05/05",
             "blv": "GIÀNG A MU",
-            "is_live": true,
+            "is_live": false,
             "cate_name": "Bóng chuyền"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b240290ed_2ff2fa47_20260504.png?v=2ff2fa47",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f5e2ba583e_2ff2fa47_20260504.png?v=2ff2fa47",
             "width": 1600,
             "height": 1200
           }
