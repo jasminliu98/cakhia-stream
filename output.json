@@ -132,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0ef9d71d27",
+                          "id": "lnk-a98229b754",
                           "name": "GIÀNG A BÚN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f8528336519_146331/index.m3u8?expire=1778486531",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1fdef4d9e7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fade9633b36ae26df55731dc177bc8bd/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
