@@ -1958,6 +1958,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-909f978853",
+          "name": "Football Club Seoul vs FC Anyang | 17:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-909f978853",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-909f978853",
+                  "name": "Football Club Seoul vs FC Anyang",
+                  "streams": [
+                    {
+                      "id": "st-909f978853",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Football Club Seoul",
+            "team_b": "FC Anyang",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
+            "time": "17:00 05/05",
+            "blv": "GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-909f978853_84884005_20260504.png?v=84884005",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
