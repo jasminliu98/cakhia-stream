@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,182 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b49bd02968_7978ebc8_20260505.png?v=7978ebc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-fdf7d31c88",
-          "name": "Eintracht Frankfurt (w) vs Nurnberg (w) | 23:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdf7d31c88",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-fdf7d31c88",
-                  "name": "Eintracht Frankfurt (w) vs Nurnberg (w)",
-                  "streams": [
-                    {
-                      "id": "st-fdf7d31c88",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00ca117d43",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8b94a36519_145232/index.m3u8?expire=1778512842",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ce9e5ad311",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e3f9eed22c272d0515c579f025a7f1f9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Frauen Bundesliga",
-            "team_a": "Eintracht Frankfurt (w)",
-            "team_b": "Nurnberg (w)",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/9ebd79de8504a6573dce8c419ff16b10.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7e2a65e9804e89abf1a9aa4c1c0bdfb3.png",
-            "time": "23:00 04/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdf7d31c88_17281a42_20260505.png?v=17281a42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-0da890ab30",
-          "name": "NK Istra 1961 vs Slaven Belupo | 23:00 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0da890ab30",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0da890ab30",
-                  "name": "NK Istra 1961 vs Slaven Belupo",
-                  "streams": [
-                    {
-                      "id": "st-0da890ab30",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-36f56ea24d",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8bcf14841e_145407/index.m3u8?expire=1778513777",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-acf3512eeb",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/17150a951c3067b7547760ef7774ba60/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Croatian Football League",
-            "team_a": "NK Istra 1961",
-            "team_b": "Slaven Belupo",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/487a310ef1af87f7d99b52f507007ffc.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a491b4d6a330910fa354ff60a65bb615.png",
-            "time": "23:00 04/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0da890ab30_c0c9cbe7_20260505.png?v=c0c9cbe7",
             "width": 1600,
             "height": 1200
           }
@@ -963,6 +787,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-149ef7df69_71bae981_20260505.png?v=71bae981",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d854f1dc65",
+          "name": "Al-Ettifaq FC vs Al Najma(KSA) | 01:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d854f1dc65",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d854f1dc65",
+                  "name": "Al-Ettifaq FC vs Al Najma(KSA)",
+                  "streams": [
+                    {
+                      "id": "st-d854f1dc65",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c180df721f",
+                          "name": "GIÀNG A BẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8dcc34841e_145407/index.m3u8?expire=1778521923",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Ettifaq FC",
+            "team_b": "Al Najma(KSA)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/381dd852484f06350b771097612cf08e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
+            "time": "01:00 05/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d854f1dc65_cde3c319_20260505.png?v=cde3c319",
             "width": 1600,
             "height": 1200
           }
