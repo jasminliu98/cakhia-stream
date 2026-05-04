@@ -44,11 +44,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-e086929ace",
+                          "id": "lnk-3453bb7b00",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f841cb4841e_145698/index.m3u8?expire=1778482251",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-50845de7ad",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f6b5e71a8882a9eb2dd399fa86082454/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1040,6 +1057,165 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-be9d6c3541",
+          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be9d6c3541",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-be9d6c3541",
+                  "name": "Daejeon Citizen vs Incheon United Club",
+                  "streams": [
+                    {
+                      "id": "st-be9d6c3541",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Incheon United Club",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "time": "14:30 05/05",
+            "blv": "GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-be9d6c3541_f5566b22_20260504.png?v=f5566b22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-99677ae09b",
+          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99677ae09b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-99677ae09b",
+                  "name": "Lebanon U17 Women vs Australia Women U17",
+                  "streams": [
+                    {
+                      "id": "st-99677ae09b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Lebanon U17 Women",
+            "team_b": "Australia Women U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
+            "time": "14:30 05/05",
+            "blv": "GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-99677ae09b_fafa1d5b_20260504.png?v=fafa1d5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-13372d9147",
+          "name": "Chinese Taipei U17 Women vs Korea Rep. (w) U17 | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13372d9147",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-13372d9147",
+                  "name": "Chinese Taipei U17 Women vs Korea Rep. (w) U17",
+                  "streams": [
+                    {
+                      "id": "st-13372d9147",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Chinese Taipei U17 Women",
+            "team_b": "Korea Rep. (w) U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cd279f680e9b1ecac849d401582cc1d3.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/566b83e60e3ffdb744bc3d1843fb4311.png",
+            "time": "14:30 05/05",
+            "blv": "GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-13372d9147_b70691eb_20260504.png?v=b70691eb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1139,8 +1315,8 @@
           }
         },
         {
-          "id": "kaytee-04f31ac893",
-          "name": "Cui Jie vs Alexis Galarneau | 14:30 04/05",
+          "id": "kaytee-17511d0d54",
+          "name": "Cui Jie vs Alexis Galarneau | 14:40 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1154,15 +1330,15 @@
           ],
           "sources": [
             {
-              "id": "src-04f31ac893",
+              "id": "src-17511d0d54",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-04f31ac893",
+                  "id": "ct-17511d0d54",
                   "name": "Cui Jie vs Alexis Galarneau",
                   "streams": [
                     {
-                      "id": "st-04f31ac893",
+                      "id": "st-17511d0d54",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1195,7 +1371,7 @@
             "team_b": "Alexis Galarneau",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "14:30 04/05",
+            "time": "14:40 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1204,14 +1380,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-04f31ac893_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-17511d0d54_b3cd3bb1_20260504.png?v=b3cd3bb1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-03c7c06bdd",
-          "name": "Mark Lajal vs Renta Tokuda | 15:40 04/05",
+          "id": "kaytee-e456fafd4c",
+          "name": "Mark Lajal vs Renta Tokuda | 15:50 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1225,15 +1401,15 @@
           ],
           "sources": [
             {
-              "id": "src-03c7c06bdd",
+              "id": "src-e456fafd4c",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-03c7c06bdd",
+                  "id": "ct-e456fafd4c",
                   "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-03c7c06bdd",
+                      "id": "st-e456fafd4c",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1248,7 +1424,7 @@
             "team_b": "Renta Tokuda",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "15:40 04/05",
+            "time": "15:50 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1257,7 +1433,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-03c7c06bdd_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e456fafd4c_dc50b721_20260504.png?v=dc50b721",
             "width": 1600,
             "height": 1200
           }
