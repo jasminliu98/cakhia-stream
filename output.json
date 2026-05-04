@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -112,10 +112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -130,7 +130,25 @@
                     {
                       "id": "st-751f6fa8b7",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ef9d71d27",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8528336519_146331/index.m3u8?expire=1778486531",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -145,7 +163,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/1a64731cd883e9d734e29a83301ea849.png",
             "time": "15:30 04/05",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1262,8 +1280,8 @@
           }
         },
         {
-          "id": "kaytee-6b8a2a98e5",
-          "name": "Cui Jie vs Alexis Galarneau | 15:10 04/05",
+          "id": "kaytee-bc9eb5d45f",
+          "name": "Cui Jie vs Alexis Galarneau | 15:20 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1277,15 +1295,15 @@
           ],
           "sources": [
             {
-              "id": "src-6b8a2a98e5",
+              "id": "src-bc9eb5d45f",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-6b8a2a98e5",
+                  "id": "ct-bc9eb5d45f",
                   "name": "Cui Jie vs Alexis Galarneau",
                   "streams": [
                     {
-                      "id": "st-6b8a2a98e5",
+                      "id": "st-bc9eb5d45f",
                       "name": "KT",
                       "stream_links": [
                         {
@@ -1335,7 +1353,7 @@
             "team_b": "Alexis Galarneau",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/852f589419313208735f0e8402ce179e.png",
-            "time": "15:10 04/05",
+            "time": "15:20 04/05",
             "blv": "GIÀNG A LEX",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1344,14 +1362,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6b8a2a98e5_b3cd3bb1_20260504.png?v=b3cd3bb1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bc9eb5d45f_b3cd3bb1_20260504.png?v=b3cd3bb1",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "kaytee-95fe5755d5",
-          "name": "Mark Lajal vs Renta Tokuda | 16:20 04/05",
+          "id": "kaytee-59ac4d9ee9",
+          "name": "Mark Lajal vs Renta Tokuda | 16:30 04/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1365,15 +1383,15 @@
           ],
           "sources": [
             {
-              "id": "src-95fe5755d5",
+              "id": "src-59ac4d9ee9",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-95fe5755d5",
+                  "id": "ct-59ac4d9ee9",
                   "name": "Mark Lajal vs Renta Tokuda",
                   "streams": [
                     {
-                      "id": "st-95fe5755d5",
+                      "id": "st-59ac4d9ee9",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1386,9 +1404,9 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Mark Lajal",
             "team_b": "Renta Tokuda",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4c019fe7aec0288a7387d2bfca806708.png",
-            "time": "16:20 04/05",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/80ee86bf534e983258c8c9b7e7bda64b.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/4c019fe7aec0288a7387d2bfca806708.png",
+            "time": "16:30 04/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1397,7 +1415,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-95fe5755d5_dc50b721_20260504.png?v=dc50b721",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-59ac4d9ee9_9d8e0dce_20260504.png?v=9d8e0dce",
             "width": 1600,
             "height": 1200
           }
