@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (11 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-84af325609",
-          "name": "Qarabag vs Turan Tovuz | 22:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84af325609",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-84af325609",
-                  "name": "Qarabag vs Turan Tovuz",
-                  "streams": [
-                    {
-                      "id": "st-84af325609",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dbc53d2853",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f8b4e036519_145238/index.m3u8?expire=1778511712",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c7e9181bb1",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/6c792b99e2c8d06619e3349ebf07482e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Azerbaijan Premier League",
-            "team_a": "Qarabag",
-            "team_b": "Turan Tovuz",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/7f7d00906d511bcf48f9a600580ff953.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/14215ad91a839ba1b4f216001eb02d91.png",
-            "time": "22:30 04/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-84af325609_b124f16e_20260505.png?v=b124f16e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b49bd02968",
           "name": "HJK Helsinki vs Lahti | 23:00 04/05",
@@ -1616,59 +1528,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260505.png?v=ec765b68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-e234f86a63",
-          "name": "Gyeongju FC (w) vs Seoul Amazones (w) | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e234f86a63",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-e234f86a63",
-                  "name": "Gyeongju FC (w) vs Seoul Amazones (w)",
-                  "streams": [
-                    {
-                      "id": "st-e234f86a63",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean WK League",
-            "team_a": "Gyeongju FC (w)",
-            "team_b": "Seoul Amazones (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cc35fb970f1464e1468bafebb54a2ca6.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/19ba34d167be9b01eb848a0a777932ac.png",
-            "time": "12:00 05/05",
-            "blv": "GIÀNG A MU",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e234f86a63_69611e9a_20260505.png?v=69611e9a",
             "width": 1600,
             "height": 1200
           }
