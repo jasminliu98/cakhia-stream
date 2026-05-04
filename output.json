@@ -264,6 +264,59 @@
           }
         },
         {
+          "id": "kaytee-023e0adef3",
+          "name": "Aston Villa (w) vs West Ham United (w) | 19:00 04/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-023e0adef3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-023e0adef3",
+                  "name": "Aston Villa (w) vs West Ham United (w)",
+                  "streams": [
+                    {
+                      "id": "st-023e0adef3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English FA Women's Super League",
+            "team_a": "Aston Villa (w)",
+            "team_b": "West Ham United (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9786e02491cd73bef33d48d5f1b2ad51.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f6fd9013a1e10442708bc6e9d09ee236.png",
+            "time": "19:00 04/05",
+            "blv": "GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-023e0adef3_7c9fe5a0_20260504.png?v=7c9fe5a0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-883b0204a4",
           "name": "Chelsea vs Nottingham Forest | 21:00 04/05",
           "type": "single",
