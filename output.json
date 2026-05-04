@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-ade149401b",
-          "name": "Myanmar U17 Women vs Thailand U17 Women | 14:30 04/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ade149401b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ade149401b",
-                  "name": "Myanmar U17 Women vs Thailand U17 Women",
-                  "streams": [
-                    {
-                      "id": "st-ade149401b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3453bb7b00",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f841cb4841e_145698/index.m3u8?expire=1778482251",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-50845de7ad",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f6b5e71a8882a9eb2dd399fa86082454/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Myanmar U17 Women",
-            "team_b": "Thailand U17 Women",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/42e049c1eedb100ff79677bef706ff0d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f5c29f4d0153b28ef8802fe964122c65.png",
-            "time": "14:30 04/05",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ade149401b_0f006e4d_20260504.png?v=0f006e4d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-751f6fa8b7",
           "name": "Persib Bandung vs PSIM Yogyakarta | 15:30 04/05",
@@ -771,6 +683,324 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9b135daf07_cae95e68_20260504.png?v=cae95e68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cbb727071a",
+          "name": "Djurgardens vs IFK Goteborg | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbb727071a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cbb727071a",
+                  "name": "Djurgardens vs IFK Goteborg",
+                  "streams": [
+                    {
+                      "id": "st-cbb727071a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "Djurgardens",
+            "team_b": "IFK Goteborg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5d15445b5ebaaad062065f158f1d1fd8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/41b828223947cae32e97c8cac45fb17f.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A MÈN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cbb727071a_eac31a1b_20260504.png?v=eac31a1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-071aca865f",
+          "name": "Halmstads vs Brommapojkarna | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-071aca865f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-071aca865f",
+                  "name": "Halmstads vs Brommapojkarna",
+                  "streams": [
+                    {
+                      "id": "st-071aca865f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Allsvenskan",
+            "team_a": "Halmstads",
+            "team_b": "Brommapojkarna",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d84614f172a18a18947a7567a9625b45.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/61603b48126b6e023af5811bf43354b2.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-071aca865f_13219748_20260504.png?v=13219748",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d324ce3bb6",
+          "name": "Midtjylland vs Viborg | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d324ce3bb6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d324ce3bb6",
+                  "name": "Midtjylland vs Viborg",
+                  "streams": [
+                    {
+                      "id": "st-d324ce3bb6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Midtjylland",
+            "team_b": "Viborg",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/870815ca7c7545f7dc8c0716eecdb708.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c5beffcdc88a77f8494e85108b306062.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A SIK",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d324ce3bb6_3715821f_20260504.png?v=3715821f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-018e32bbf7",
+          "name": "Ittihad Alexandria SC vs Petrojet | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-018e32bbf7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-018e32bbf7",
+                  "name": "Ittihad Alexandria SC vs Petrojet",
+                  "streams": [
+                    {
+                      "id": "st-018e32bbf7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Ittihad Alexandria SC",
+            "team_b": "Petrojet",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/56484f26eac26f8e279ea2172c48632d.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/f81f7bb9cf129a0f1c66880d7fba5d7b.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A ĐẬU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-018e32bbf7_8d47c18e_20260504.png?v=8d47c18e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7eb04c5981",
+          "name": "Wadi Degla SC vs Kahraba Ismailia | 00:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7eb04c5981",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7eb04c5981",
+                  "name": "Wadi Degla SC vs Kahraba Ismailia",
+                  "streams": [
+                    {
+                      "id": "st-7eb04c5981",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Wadi Degla SC",
+            "team_b": "Kahraba Ismailia",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/0b565bf79378453da0982dfcf95ccc98.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/710c1aec087466a2e2177fb812c87dc8.png",
+            "time": "00:00 05/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7eb04c5981_50754d21_20260504.png?v=50754d21",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d854f1dc65",
+          "name": "Al-Ettifaq FC vs Al Najma(KSA) | 01:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d854f1dc65",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d854f1dc65",
+                  "name": "Al-Ettifaq FC vs Al Najma(KSA)",
+                  "streams": [
+                    {
+                      "id": "st-d854f1dc65",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al-Ettifaq FC",
+            "team_b": "Al Najma(KSA)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/381dd852484f06350b771097612cf08e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fde877e452f79f75955ad4e4f326c654.png",
+            "time": "01:00 05/05",
+            "blv": "GIÀNG A LUNG",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d854f1dc65_cde3c319_20260504.png?v=cde3c319",
             "width": 1600,
             "height": 1200
           }
