@@ -2832,8 +2832,8 @@
             "league": "ATP Challenger Wuxi, China Men Singles",
             "team_a": "Keegan Smith",
             "team_b": "Bu Yunchaokete",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/a812670d717d895e5cb5bddb7b192268.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/6f80307b9ca4b5961fbeee2f6194000a.png",
             "time": "13:20 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
@@ -2843,7 +2843,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8dd42ea651_65ba6a09_20260505.png?v=65ba6a09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8dd42ea651_7f30f8c6_20260505.png?v=7f30f8c6",
             "width": 1600,
             "height": 1200
           }
