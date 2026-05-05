@@ -17,59 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-7b3685b033",
-          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b3685b033",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-7b3685b033",
-                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
-                  "streams": [
-                    {
-                      "id": "st-7b3685b033",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Jeonbuk Hyundai Motors",
-            "team_b": "Gwangju Football Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png",
-            "time": "12:00 05/05",
-            "blv": "GIÀNG A CƠ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7b3685b033_93ea190a_20260505.png?v=93ea190a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-616e39086d",
           "name": "Bucheon FC 1995 vs Jeju SK FC | 12:00 05/05",
           "type": "single",
@@ -118,6 +65,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-616e39086d_a6d59c6f_20260505.png?v=a6d59c6f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-7b3685b033",
+          "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b3685b033",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-7b3685b033",
+                  "name": "Jeonbuk Hyundai Motors vs Gwangju Football Club",
+                  "streams": [
+                    {
+                      "id": "st-7b3685b033",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Jeonbuk Hyundai Motors",
+            "team_b": "Gwangju Football Club",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ee2117f952745163fecfa4b74a6a2bea.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png",
+            "time": "12:00 05/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7b3685b033_93ea190a_20260505.png?v=93ea190a",
             "width": 1600,
             "height": 1200
           }
@@ -176,59 +176,6 @@
           }
         },
         {
-          "id": "kaytee-744207f02d",
-          "name": "Boeun Sangmu (w) vs Suwon FMC (w) | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-744207f02d",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-744207f02d",
-                  "name": "Boeun Sangmu (w) vs Suwon FMC (w)",
-                  "streams": [
-                    {
-                      "id": "st-744207f02d",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean WK League",
-            "team_a": "Boeun Sangmu (w)",
-            "team_b": "Suwon FMC (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8df2032f7b49b5537a934396a1710828.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
-            "time": "12:00 05/05",
-            "blv": "GIÀNG A BÚN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_02e2649d_20260505.png?v=02e2649d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-86db6868ee",
           "name": "Sejong Gumi Sportstoto (w) vs KSPO FC (w) | 12:00 05/05",
           "type": "single",
@@ -277,6 +224,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260505.png?v=ec765b68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-744207f02d",
+          "name": "Boeun Sangmu (w) vs Suwon FMC (w) | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-744207f02d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-744207f02d",
+                  "name": "Boeun Sangmu (w) vs Suwon FMC (w)",
+                  "streams": [
+                    {
+                      "id": "st-744207f02d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean WK League",
+            "team_a": "Boeun Sangmu (w)",
+            "team_b": "Suwon FMC (w)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8df2032f7b49b5537a934396a1710828.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
+            "time": "12:00 05/05",
+            "blv": "GIÀNG A BÚN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_02e2649d_20260505.png?v=02e2649d",
             "width": 1600,
             "height": 1200
           }
