@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-909f978853",
-          "name": "Football Club Seoul vs FC Anyang | 17:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-909f978853",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-909f978853",
-                  "name": "Football Club Seoul vs FC Anyang",
-                  "streams": [
-                    {
-                      "id": "st-909f978853",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f7fce1aef",
-                          "name": "GIÀNG A MÓM",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ba3c36519_145698/index.m3u8?expire=1778578620",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e946ee03b7",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/bd1eae2d9c1ca9a803e52524fb97a194/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Football Club Seoul",
-            "team_b": "FC Anyang",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
-            "time": "17:00 05/05",
-            "blv": "GIÀNG A MÓM",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-909f978853_84884005_20260505.png?v=84884005",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9ff698407b",
           "name": "Qingdao West Coast FC vs Tianjin Jinmen Tiger FC | 18:00 05/05",
@@ -802,11 +714,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-88a932d8a4",
+                          "id": "lnk-326632fc30",
                           "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9d44b36519_145244/index.m3u8?expire=1778585291",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5c46aba3d0",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c0820312fbeccbc9149fe8293e8dea04/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2419,8 +2348,8 @@
           }
         },
         {
-          "id": "kaytee-a0133e71bd",
-          "name": "Martina Trevisan vs Talia Gibson | 20:05 05/05",
+          "id": "kaytee-33e9103963",
+          "name": "Martina Trevisan vs Talia Gibson | 20:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2434,15 +2363,15 @@
           ],
           "sources": [
             {
-              "id": "src-a0133e71bd",
+              "id": "src-33e9103963",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-a0133e71bd",
+                  "id": "ct-33e9103963",
                   "name": "Martina Trevisan vs Talia Gibson",
                   "streams": [
                     {
-                      "id": "st-a0133e71bd",
+                      "id": "st-33e9103963",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2457,7 +2386,7 @@
             "team_b": "Talia Gibson",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
-            "time": "20:05 05/05",
+            "time": "20:30 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2466,7 +2395,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0133e71bd_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-33e9103963_a83cd0c2_20260505.png?v=a83cd0c2",
             "width": 1600,
             "height": 1200
           }
