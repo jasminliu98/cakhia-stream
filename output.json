@@ -1340,6 +1340,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-1c4b68d4b5",
+          "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c4b68d4b5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1c4b68d4b5",
+                  "name": "V-Varen Nagasaki vs Fagiano Okayama",
+                  "streams": [
+                    {
+                      "id": "st-1c4b68d4b5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "V-Varen Nagasaki",
+            "team_b": "Fagiano Okayama",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b28ace839956d8eacce11926ea5e43b3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+            "time": "11:00 06/05",
+            "blv": "GIÀNG A DÂN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1c4b68d4b5_517d9076_20260505.png?v=517d9076",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
