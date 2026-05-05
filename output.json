@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-4b4735ac76",
-          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b4735ac76",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-4b4735ac76",
-                  "name": "Saudi Arabia U17 vs Myanmar U17",
-                  "streams": [
-                    {
-                      "id": "st-4b4735ac76",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff62578199",
-                          "name": "GIÀNG A GIÀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1bf536519_145238/index.m3u8?expire=1778603637",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70611de4e7",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/08e9a254f5ec43064bac5cbd168edef9/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Saudi Arabia U17",
-            "team_b": "Myanmar U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
-            "time": "00:00 06/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4b4735ac76_a8f207c6_20260506.png?v=a8f207c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-1914a42ed9",
           "name": "Al Ahly FC vs Enppi | 00:00 06/05",
@@ -1867,6 +1779,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-a0f96d49ca",
+          "name": "FC Bayern Munich vs Paris Saint Germain | 02:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0f96d49ca",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-a0f96d49ca",
+                  "name": "FC Bayern Munich vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "st-a0f96d49ca",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "FC Bayern Munich",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/3b720f181ce9993f9422d276acf7b292.png",
+            "time": "02:00 07/05",
+            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0f96d49ca_9599b0df_20260506.png?v=9599b0df",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2011,8 +1976,8 @@
             "league": "EuroLeague",
             "team_a": "Monaco",
             "team_b": "Olympiacos",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e59309cc71a5436c88b6645da5dc39fc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e713068dda3d8da9f9872e61a850a142.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/e59309cc71a5436c88b6645da5dc39fc.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/e713068dda3d8da9f9872e61a850a142.png",
             "time": "00:45 06/05",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -2022,7 +1987,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_62363465_20260506.png?v=62363465",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_88e0ca80_20260506.png?v=88e0ca80",
             "width": 1600,
             "height": 1200
           }
@@ -2064,8 +2029,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "Vivo Franca",
             "team_b": "Mogi das Cruzes",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a65268effd9adde355c5816840d3ee14.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5c7885e39f348766735a235c20385cd5.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/a65268effd9adde355c5816840d3ee14.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5c7885e39f348766735a235c20385cd5.png",
             "time": "05:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2075,7 +2040,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_d39c4149_20260506.png?v=d39c4149",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_bc95a9e3_20260506.png?v=bc95a9e3",
             "width": 1600,
             "height": 1200
           }
@@ -2117,8 +2082,8 @@
             "league": "National Basketball Association",
             "team_a": "Detroit Pistons",
             "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
             "time": "06:00 06/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -2128,7 +2093,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_9a2da953_20260506.png?v=9a2da953",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_78864639_20260506.png?v=78864639",
             "width": 1600,
             "height": 1200
           }
@@ -2170,8 +2135,8 @@
             "league": "National Basketball Association",
             "team_a": "Oklahoma City Thunder",
             "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/fa6f985041ec3f9729172380ae9cebf8.png",
             "time": "07:30 06/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2181,7 +2146,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_b7d310e8_20260506.png?v=b7d310e8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_e99aa49c_20260506.png?v=e99aa49c",
             "width": 1600,
             "height": 1200
           }
