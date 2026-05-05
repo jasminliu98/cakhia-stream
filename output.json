@@ -17,59 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-99677ae09b",
-          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-99677ae09b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-99677ae09b",
-                  "name": "Lebanon U17 Women vs Australia Women U17",
-                  "streams": [
-                    {
-                      "id": "st-99677ae09b",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Lebanon U17 Women",
-            "team_b": "Australia Women U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "14:30 05/05",
-            "blv": "GIÀNG A RON",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-99677ae09b_fafa1d5b_20260505.png?v=fafa1d5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-be9d6c3541",
           "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
           "type": "single",
@@ -118,6 +65,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-be9d6c3541_f5566b22_20260505.png?v=f5566b22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-99677ae09b",
+          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99677ae09b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-99677ae09b",
+                  "name": "Lebanon U17 Women vs Australia Women U17",
+                  "streams": [
+                    {
+                      "id": "st-99677ae09b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "Lebanon U17 Women",
+            "team_b": "Australia Women U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
+            "time": "14:30 05/05",
+            "blv": "GIÀNG A RON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-99677ae09b_fafa1d5b_20260505.png?v=fafa1d5b",
             "width": 1600,
             "height": 1200
           }
