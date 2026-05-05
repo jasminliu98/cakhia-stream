@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -552,10 +552,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -570,7 +570,42 @@
                     {
                       "id": "st-083c3bef2a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4714d8dd9e",
+                          "name": "GIÀNG A NGAO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa37f236519_145689/index.m3u8?expire=1778610802",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-21ebd385ca",
+                          "name": "GIÀNG A TRỀ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa369c4841e_145821/index.m3u8?expire=1778610460",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -585,7 +620,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
             "time": "02:00 06/05",
             "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1862,8 +1897,8 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Zizou Bergs",
             "team_b": "Terence Atmane",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "time": "16:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -1873,7 +1908,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260506.png?v=245b013f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_1f5d8ce8_20260506.png?v=1f5d8ce8",
             "width": 1600,
             "height": 1200
           }
