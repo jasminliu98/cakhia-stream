@@ -132,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d30574efe5",
+                          "id": "lnk-2f7fce1aef",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9ba3c36519_145698/index.m3u8?expire=1778578620",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e946ee03b7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/bd1eae2d9c1ca9a803e52524fb97a194/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1072,6 +1089,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3af40d89f2_478325b2_20260505.png?v=478325b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-97100e0b9e",
+          "name": "Kashiwa Reysol vs Urawa Red Diamonds | 17:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97100e0b9e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-97100e0b9e",
+                  "name": "Kashiwa Reysol vs Urawa Red Diamonds",
+                  "streams": [
+                    {
+                      "id": "st-97100e0b9e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Urawa Red Diamonds",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/d272859d78eb8ca7a14753f4293fbf45.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ca15e36551392e8c99b53b5b2f8531d3.png",
+            "time": "17:00 06/05",
+            "blv": "GIÀNG A TRỀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-97100e0b9e_e8e7b653_20260505.png?v=e8e7b653",
             "width": 1600,
             "height": 1200
           }
