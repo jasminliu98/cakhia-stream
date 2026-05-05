@@ -1975,6 +1975,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-fc4b8959ca",
+          "name": "Shanghai Port FC vs Shenzhen Peng City FC | 18:35 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc4b8959ca",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-fc4b8959ca",
+                  "name": "Shanghai Port FC vs Shenzhen Peng City FC",
+                  "streams": [
+                    {
+                      "id": "st-fc4b8959ca",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Shanghai Port FC",
+            "team_b": "Shenzhen Peng City FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c4e143e537412003565cdb7c2d212538.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/b982f4d4215ea40ad21d589498140a56.png",
+            "time": "18:35 06/05",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fc4b8959ca_cc463d81_20260505.png?v=cc463d81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-9cd9b6126c",
+          "name": "Beijing Guoan FC vs Dalian Yingbo FC | 18:35 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9cd9b6126c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9cd9b6126c",
+                  "name": "Beijing Guoan FC vs Dalian Yingbo FC",
+                  "streams": [
+                    {
+                      "id": "st-9cd9b6126c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Beijing Guoan FC",
+            "team_b": "Dalian Yingbo FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e7af298237651113dfeafc32ff734a24.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0e5467034917e26c6e60a7162711c150.png",
+            "time": "18:35 06/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9cd9b6126c_a37d9ebf_20260505.png?v=a37d9ebf",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
