@@ -1765,8 +1765,8 @@
           }
         },
         {
-          "id": "kaytee-a1f626c0d4",
-          "name": "Keegan Smith vs Bu Yunchaokete | 13:35 05/05",
+          "id": "kaytee-904b4052e8",
+          "name": "Keegan Smith vs Bu Yunchaokete | 13:45 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1780,15 +1780,15 @@
           ],
           "sources": [
             {
-              "id": "src-a1f626c0d4",
+              "id": "src-904b4052e8",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-a1f626c0d4",
+                  "id": "ct-904b4052e8",
                   "name": "Keegan Smith vs Bu Yunchaokete",
                   "streams": [
                     {
-                      "id": "st-a1f626c0d4",
+                      "id": "st-904b4052e8",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1803,7 +1803,7 @@
             "team_b": "Bu Yunchaokete",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
-            "time": "13:35 05/05",
+            "time": "13:45 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1812,7 +1812,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1f626c0d4_65ba6a09_20260505.png?v=65ba6a09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-904b4052e8_65ba6a09_20260505.png?v=65ba6a09",
             "width": 1600,
             "height": 1200
           }
@@ -2175,6 +2175,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-72ceb3d757",
+          "name": "Monaco vs Olympiacos | 00:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72ceb3d757",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-72ceb3d757",
+                  "name": "Monaco vs Olympiacos",
+                  "streams": [
+                    {
+                      "id": "st-72ceb3d757",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EuroLeague",
+            "team_a": "Monaco",
+            "team_b": "Olympiacos",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e59309cc71a5436c88b6645da5dc39fc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e713068dda3d8da9f9872e61a850a142.png",
+            "time": "00:45 06/05",
+            "blv": "GIÀNG A SÓC",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_62363465_20260505.png?v=62363465",
             "width": 1600,
             "height": 1200
           }
