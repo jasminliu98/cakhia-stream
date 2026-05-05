@@ -1564,7 +1564,7 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1636,6 +1636,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-844bfef5f8_65ba6a09_20260505.png?v=65ba6a09",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-b14e8ef3ec",
+          "name": "wta-rome-1600-05-05-2026 | 16:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b14e8ef3ec",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b14e8ef3ec",
+                  "name": "wta-rome-1600-05-05-2026",
+                  "streams": [
+                    {
+                      "id": "st-b14e8ef3ec",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d8dcd5600",
+                          "name": "GIÀNG A LEX",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9b0e74841e_145875/index.m3u8?expire=1778576231",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tennis",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "16:00 05/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b14e8ef3ec_0af45c99_20260505.png?v=0af45c99",
             "width": 1600,
             "height": 1200
           }
