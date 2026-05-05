@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-125869e570",
-          "name": "RKC Waalwijk vs Willem II | 23:45 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-125869e570",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-125869e570",
-                  "name": "RKC Waalwijk vs Willem II",
-                  "streams": [
-                    {
-                      "id": "st-125869e570",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40d2580f75",
-                          "name": "GIÀNG A LUNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa151c4841e_145422/index.m3u8?expire=1778601884",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eerste Divisie",
-            "team_a": "RKC Waalwijk",
-            "team_b": "Willem II",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/66fea185f2f39d205f96b5d1a41ae9f4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/7b10a020a3acd1ed95d783a1dfa3498e.png",
-            "time": "23:45 05/05",
-            "blv": "GIÀNG A LUNG",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-125869e570_45aaf344_20260506.png?v=45aaf344",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-4b4735ac76",
           "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
