@@ -1572,6 +1572,59 @@
           }
         },
         {
+          "id": "kaytee-5738ec6fa5",
+          "name": "wta-rome-1500-05-05-2026 | 15:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5738ec6fa5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-5738ec6fa5",
+                  "name": "wta-rome-1500-05-05-2026",
+                  "streams": [
+                    {
+                      "id": "st-5738ec6fa5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tennis",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "15:00 05/05",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-5738ec6fa5_0af45c99_20260505.png?v=0af45c99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-cf9bb1efd5",
           "name": "Barbora Krejcikova vs Elsa Jacquemot | 16:00 05/05",
           "type": "single",
@@ -1661,8 +1714,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Sofia Kenin",
             "team_b": "Bianca Andreescu",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/4a89a8cd0752a1bfb104818e197463b1.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/d7e13e3eeef5067fbc138d4fda9ec5ce.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a89a8cd0752a1bfb104818e197463b1.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/d7e13e3eeef5067fbc138d4fda9ec5ce.png",
             "time": "17:10 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1672,7 +1725,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-77b1eb95eb_c68f9d1f_20260505.png?v=c68f9d1f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-77b1eb95eb_e7772ba8_20260505.png?v=e7772ba8",
             "width": 1600,
             "height": 1200
           }
@@ -1714,8 +1767,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Anastasia Zakharova",
             "team_b": "Dayana Yastremska",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/82ac7f70a1ca9091adc4a073c81e2cf2.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/5ce6a09428f62fa1d431fbee9a18322a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/82ac7f70a1ca9091adc4a073c81e2cf2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5ce6a09428f62fa1d431fbee9a18322a.png",
             "time": "18:20 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1725,7 +1778,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3943ac13ef_65e86faa_20260505.png?v=65e86faa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-3943ac13ef_d8cb3ab8_20260505.png?v=d8cb3ab8",
             "width": 1600,
             "height": 1200
           }
@@ -1767,8 +1820,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -1778,7 +1831,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_aa9ea644_20260505.png?v=aa9ea644",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_a83cd0c2_20260505.png?v=a83cd0c2",
             "width": 1600,
             "height": 1200
           }
@@ -1820,8 +1873,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Ann Li",
             "team_b": "Zhang Shuai",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/75655aabfb5c910ac5b9c6d927e86122.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/3053de3d345996c6c386ea91c3a430a2.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3053de3d345996c6c386ea91c3a430a2.png",
             "time": "19:30 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1831,7 +1884,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_734835aa_20260505.png?v=734835aa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_eb839823_20260505.png?v=eb839823",
             "width": 1600,
             "height": 1200
           }
