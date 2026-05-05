@@ -11,698 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-ce41369b5c",
-          "name": "India (w) U17 vs Japan (w) U17 | 18:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce41369b5c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ce41369b5c",
-                  "name": "India (w) U17 vs Japan (w) U17",
-                  "streams": [
-                    {
-                      "id": "st-ce41369b5c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59165c3bb3",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ce354841e_145232/index.m3u8?expire=1778583733",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fb685fbcce",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/097a9aa2037ba4d21404976208123bbc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "India (w) U17",
-            "team_b": "Japan (w) U17",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a18a24058618b5ef80eec61300f85999.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "time": "18:30 05/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce41369b5c_d865e8c2_20260505.png?v=d865e8c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-6e72231ea9",
-          "name": "Philippines U17 Women vs North Korea Women U17 | 18:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e72231ea9",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6e72231ea9",
-                  "name": "Philippines U17 Women vs North Korea Women U17",
-                  "streams": [
-                    {
-                      "id": "st-6e72231ea9",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d93f5faee",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d03336519_145199/index.m3u8?expire=1778584243",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-dcb3e073f5",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e7acae3b2db98fe7ba092489d06d08bb/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Philippines U17 Women",
-            "team_b": "North Korea Women U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
-            "time": "18:30 05/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260505.png?v=317a1ed2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-6283cd70d2",
-          "name": "Shandong Taishan FC vs Shanghai Shenhua FC | 18:35 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6283cd70d2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6283cd70d2",
-                  "name": "Shandong Taishan FC vs Shanghai Shenhua FC",
-                  "streams": [
-                    {
-                      "id": "st-6283cd70d2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bcc64129c",
-                          "name": "GIÀNG A NA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d04d4841e_146847/index.m3u8?expire=1778584269",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-dfcc5a602e",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/a5dd3836ead48049175bb67bcd6c376b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Shandong Taishan FC",
-            "team_b": "Shanghai Shenhua FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/85c080cf02a7161687ddd5b5800dc303.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/e8327d4681b4a73c83be9fe087b30721.png",
-            "time": "18:35 05/05",
-            "blv": "GIÀNG A NA",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-53b4f8059c",
-          "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53b4f8059c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-53b4f8059c",
-                  "name": "Liaoning Tieren vs Chengdu Rongcheng FC",
-                  "streams": [
-                    {
-                      "id": "st-53b4f8059c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb6d18f54c",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9cdfd36519_145187/index.m3u8?expire=1778583677",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e179baebe3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2f10c0640b9e638c615d6a0c891a1496/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Liaoning Tieren",
-            "team_b": "Chengdu Rongcheng FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
-            "time": "18:35 05/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-6fd8db7d1f",
-          "name": "Tanjong Pagar Utd vs Hougang United FC | 19:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fd8db7d1f",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6fd8db7d1f",
-                  "name": "Tanjong Pagar Utd vs Hougang United FC",
-                  "streams": [
-                    {
-                      "id": "st-6fd8db7d1f",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-005a811a0e",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ceb736519_145476/index.m3u8?expire=1778583863",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-caf608e44c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/17a9606f028adfabcdcf5aaeba0b7311/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Premier League",
-            "team_a": "Tanjong Pagar Utd",
-            "team_b": "Hougang United FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6383c94b1ad9982eeaabbb99e0431ea3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/22bd6a4d9cba9a0127b11c10faefb219.png",
-            "time": "19:00 05/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6fd8db7d1f_4bb01695_20260505.png?v=4bb01695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-0eedc05a5c",
-          "name": "Borneo FC vs Persita Tangerang | 19:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0eedc05a5c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0eedc05a5c",
-                  "name": "Borneo FC vs Persita Tangerang",
-                  "streams": [
-                    {
-                      "id": "st-0eedc05a5c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aced4e4ebb",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d6474841e_145407/index.m3u8?expire=1778585799",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Borneo FC",
-            "team_b": "Persita Tangerang",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/da85ffb03146e72ce9928729dcabda51.png",
-            "time": "19:00 05/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260505.png?v=73d08fc0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-666af2c91a",
-          "name": "Chongqing Tongliangloong FC vs Henan FC | 19:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-666af2c91a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-666af2c91a",
-                  "name": "Chongqing Tongliangloong FC vs Henan FC",
-                  "streams": [
-                    {
-                      "id": "st-666af2c91a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-124b7d5c53",
-                          "name": "GIÀNG A KEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d22236519_145467/index.m3u8?expire=1778584738",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fa261c0c9b",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e9c2c299fe2760c5ce74097f8c3bbe7b/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Chongqing Tongliangloong FC",
-            "team_b": "Henan FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5be93c1a6628d27de6d39fde9ea94b7a.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f336520db254da6d6d5294b720d26d83.png",
-            "time": "19:00 05/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-666af2c91a_472d237d_20260505.png?v=472d237d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-768ed365a2",
-          "name": "Karvan Evlakh vs FC Neftci Baku | 19:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-768ed365a2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-768ed365a2",
-                  "name": "Karvan Evlakh vs FC Neftci Baku",
-                  "streams": [
-                    {
-                      "id": "st-768ed365a2",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-326632fc30",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d44b36519_145244/index.m3u8?expire=1778585291",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5c46aba3d0",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c0820312fbeccbc9149fe8293e8dea04/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Azerbaijan Premier League",
-            "team_a": "Karvan Evlakh",
-            "team_b": "FC Neftci Baku",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/aa6d9f240dd67791dd86ff4de072d846.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2d9ea2234c3ada82b3d0355791c45669.png",
-            "time": "19:00 05/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260505.png?v=b4649b6a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-63e943757d",
           "name": "Japan U17 vs Qatar U17 | 23:00 05/05",
@@ -796,7 +109,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/a19ee4a4454087b98d1f2bb9058a337e.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
             "time": "23:00 05/05",
-            "blv": "GIÀNG A RICH",
+            "blv": "GIÀNG A PHỦ",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -2186,6 +1499,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-ec4222257d",
+          "name": "Jelgava vs Super Nova | 22:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec4222257d",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ec4222257d",
+                  "name": "Jelgava vs Super Nova",
+                  "streams": [
+                    {
+                      "id": "st-ec4222257d",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Latvian Higher League",
+            "team_a": "Jelgava",
+            "team_b": "Super Nova",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/277e5d1f01baffb84533c9236b05cbf8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6ecfe734e6971ff83a4a3808b669d059.png",
+            "time": "22:00 06/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ec4222257d_78b17265_20260505.png?v=78b17265",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2197,8 +1563,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-46eaf8ed8b",
-          "name": "thien-luong-vs-aj-manas-showmatch-1930-05-05-2026 | 19:30 05/05",
+          "id": "kaytee-7ea65f00d6",
+          "name": "showmatch-kien-seu--jaybee-2100-05-05-2026 | 21:00 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2212,23 +1578,23 @@
           ],
           "sources": [
             {
-              "id": "src-46eaf8ed8b",
+              "id": "src-7ea65f00d6",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-46eaf8ed8b",
-                  "name": "thien-luong-vs-aj-manas-showmatch-1930-05-05-2026",
+                  "id": "ct-7ea65f00d6",
+                  "name": "showmatch-kien-seu--jaybee-2100-05-05-2026",
                   "streams": [
                     {
-                      "id": "st-46eaf8ed8b",
+                      "id": "st-7ea65f00d6",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6fbb91f5d9",
+                          "id": "lnk-382f82b1d6",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9dc6936519_145575/index.m3u8?expire=1778587369",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9f8a44841e_145575/index.m3u8?expire=1778594596",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2253,7 +1619,7 @@
             "team_b": "",
             "logo_a": "",
             "logo_b": "",
-            "time": "19:30 05/05",
+            "time": "21:00 05/05",
             "blv": "GIÀNG A NGỘ",
             "is_live": true,
             "cate_name": "Billiards"
@@ -2262,7 +1628,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-46eaf8ed8b_0af45c99_20260505.png?v=0af45c99",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-7ea65f00d6_0af45c99_20260505.png?v=0af45c99",
             "width": 1600,
             "height": 1200
           }
@@ -2271,135 +1637,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-b14e8ef3ec",
-          "name": "wta-rome-1600-05-05-2026 | 16:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b14e8ef3ec",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-b14e8ef3ec",
-                  "name": "wta-rome-1600-05-05-2026",
-                  "streams": [
-                    {
-                      "id": "st-b14e8ef3ec",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d8dcd5600",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9b0e74841e_145875/index.m3u8?expire=1778576231",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tennis",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "16:00 05/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b14e8ef3ec_0af45c99_20260505.png?v=0af45c99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-39bd995aa2",
-          "name": "Martina Trevisan vs Talia Gibson | 21:25 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39bd995aa2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-39bd995aa2",
-                  "name": "Martina Trevisan vs Talia Gibson",
-                  "streams": [
-                    {
-                      "id": "st-39bd995aa2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Rome, Italy Women Singles",
-            "team_a": "Martina Trevisan",
-            "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
-            "time": "21:25 05/05",
-            "blv": "GIÀNG A CÁO",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-39bd995aa2_a83cd0c2_20260505.png?v=a83cd0c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-e1ca6ce84e",
           "name": "Zizou Bergs vs Terence Atmane | 16:00 06/05",
@@ -2625,7 +1867,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền",
+      "name": "🏐 Bóng chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2638,10 +1880,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2656,7 +1898,25 @@
                     {
                       "id": "st-246fa0beea",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-68b642b49b",
+                          "name": "GIÀNG A LEX",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ffa636519_145875/index.m3u8?expire=1778596390",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2671,7 +1931,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8ad517d31669360d44426e3e3eb1f174.png",
             "time": "22:00 05/05",
             "blv": "GIÀNG A LEX",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
@@ -2691,10 +1951,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2709,7 +1969,25 @@
                     {
                       "id": "st-6afbe0ff17",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6012e39a5",
+                          "name": "GIÀNG A MU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0c094841e_146208/index.m3u8?expire=1778599561",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2724,7 +2002,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7a33661bb145b4508223a82c551e2989.png",
             "time": "22:30 05/05",
             "blv": "GIÀNG A MU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
