@@ -828,6 +828,59 @@
           }
         },
         {
+          "id": "kaytee-9ff698407b",
+          "name": "Qingdao West Coast FC vs Tianjin Jinmen Tiger FC | 18:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ff698407b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9ff698407b",
+                  "name": "Qingdao West Coast FC vs Tianjin Jinmen Tiger FC",
+                  "streams": [
+                    {
+                      "id": "st-9ff698407b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Qingdao West Coast FC",
+            "team_b": "Tianjin Jinmen Tiger FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/383d42e0d0843463b538bc3367d0c4c9.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c1786665c81e5dba734d5a8c2346d69e.png",
+            "time": "18:00 05/05",
+            "blv": "GIÀNG A SU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9ff698407b_017a13fe_20260505.png?v=017a13fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-ce41369b5c",
           "name": "India (w) U17 vs Japan (w) U17 | 18:30 05/05",
           "type": "single",
