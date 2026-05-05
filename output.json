@@ -1627,59 +1627,6 @@
           }
         },
         {
-          "id": "kaytee-9573cf2a3e",
-          "name": "Alex Bolt vs Sun Fajing | 12:10 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9573cf2a3e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9573cf2a3e",
-                  "name": "Alex Bolt vs Sun Fajing",
-                  "streams": [
-                    {
-                      "id": "st-9573cf2a3e",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Alex Bolt",
-            "team_b": "Sun Fajing",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cccf89a7f94d22cbba4394a66bf00895.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/58d94844bb87afa2e5248a11e3d86f6f.png",
-            "time": "12:10 05/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9573cf2a3e_35971ed8_20260505.png?v=35971ed8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-8dd42ea651",
           "name": "Keegan Smith vs Bu Yunchaokete | 13:20 05/05",
           "type": "single",
