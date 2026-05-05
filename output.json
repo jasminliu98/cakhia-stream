@@ -1694,8 +1694,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-84ca4710ba",
-          "name": "Keegan Smith vs Bu Yunchaokete | 13:30 05/05",
+          "id": "kaytee-a1f626c0d4",
+          "name": "Keegan Smith vs Bu Yunchaokete | 13:35 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1709,15 +1709,15 @@
           ],
           "sources": [
             {
-              "id": "src-84ca4710ba",
+              "id": "src-a1f626c0d4",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-84ca4710ba",
+                  "id": "ct-a1f626c0d4",
                   "name": "Keegan Smith vs Bu Yunchaokete",
                   "streams": [
                     {
-                      "id": "st-84ca4710ba",
+                      "id": "st-a1f626c0d4",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1732,7 +1732,7 @@
             "team_b": "Bu Yunchaokete",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
-            "time": "13:30 05/05",
+            "time": "13:35 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1741,7 +1741,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-84ca4710ba_65ba6a09_20260505.png?v=65ba6a09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a1f626c0d4_65ba6a09_20260505.png?v=65ba6a09",
             "width": 1600,
             "height": 1200
           }
@@ -1904,6 +1904,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-e1ca6ce84e",
+          "name": "Zizou Bergs vs Terence Atmane | 16:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1ca6ce84e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-e1ca6ce84e",
+                  "name": "Zizou Bergs vs Terence Atmane",
+                  "streams": [
+                    {
+                      "id": "st-e1ca6ce84e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Rome, Italy Men Singles",
+            "team_a": "Zizou Bergs",
+            "team_b": "Terence Atmane",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "time": "16:00 06/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260505.png?v=245b013f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2051,6 +2104,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-70fd50787a",
+          "name": "Vivo Franca vs Mogi das Cruzes | 05:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70fd50787a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-70fd50787a",
+                  "name": "Vivo Franca vs Mogi das Cruzes",
+                  "streams": [
+                    {
+                      "id": "st-70fd50787a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Novo Basquete Brasil",
+            "team_a": "Vivo Franca",
+            "team_b": "Mogi das Cruzes",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a65268effd9adde355c5816840d3ee14.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5c7885e39f348766735a235c20385cd5.png",
+            "time": "05:00 06/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_d39c4149_20260505.png?v=d39c4149",
             "width": 1600,
             "height": 1200
           }
