@@ -496,7 +496,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/09fe2ecf88f68970da755f8655d5da8a.png",
             "time": "15:30 05/05",
-            "blv": "GIÀNG A GIÀ",
+            "blv": "GIÀNG A BẠC",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1747,8 +1747,8 @@
           }
         },
         {
-          "id": "kaytee-f2cfd12e4b",
-          "name": "Martina Trevisan vs Talia Gibson | 18:30 05/05",
+          "id": "kaytee-fdd3ea52d3",
+          "name": "Martina Trevisan vs Talia Gibson | 18:20 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1762,15 +1762,15 @@
           ],
           "sources": [
             {
-              "id": "src-f2cfd12e4b",
+              "id": "src-fdd3ea52d3",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-f2cfd12e4b",
+                  "id": "ct-fdd3ea52d3",
                   "name": "Martina Trevisan vs Talia Gibson",
                   "streams": [
                     {
-                      "id": "st-f2cfd12e4b",
+                      "id": "st-fdd3ea52d3",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1783,9 +1783,9 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
-            "time": "18:30 05/05",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
+            "time": "18:20 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1794,7 +1794,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-fdd3ea52d3_aa9ea644_20260505.png?v=aa9ea644",
             "width": 1600,
             "height": 1200
           }
@@ -1836,8 +1836,8 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Zizou Bergs",
             "team_b": "Terence Atmane",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "time": "16:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -1847,7 +1847,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260505.png?v=245b013f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_1f5d8ce8_20260505.png?v=1f5d8ce8",
             "width": 1600,
             "height": 1200
           }
