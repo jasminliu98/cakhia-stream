@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,42 @@
                     {
                       "id": "st-63e943757d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f3481b965",
+                          "name": "GIÀNG A NÚI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0df04841e_145611/index.m3u8?expire=1778600048",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-289c0236c0",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/73b39e630ca53f158c00ceccc0306533/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +92,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A NÚI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -77,10 +112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +130,42 @@
                     {
                       "id": "st-50c455e063",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-54747ff3af",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0c5b36519_145232/index.m3u8?expire=1778599643",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-411addbe80",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/5e94889ffa68dd6746652d8589a08d71/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,7 +180,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A PHỦ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1552,6 +1622,112 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-cd50c23e5c",
+          "name": "Australia U17 vs India U17 | 23:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd50c23e5c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cd50c23e5c",
+                  "name": "Australia U17 vs India U17",
+                  "streams": [
+                    {
+                      "id": "st-cd50c23e5c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Australia U17",
+            "team_b": "India U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7df4050f103d78f6d6a198896197ee30.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/603df20031dd4c1ff7c57750ade6f96d.png",
+            "time": "23:00 06/05",
+            "blv": "GIÀNG A BÁO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd50c23e5c_0fe17e80_20260505.png?v=0fe17e80",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-343cf687f9",
+          "name": "Bayern Munchen (w) vs Hoffenheim (w) | 23:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-343cf687f9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-343cf687f9",
+                  "name": "Bayern Munchen (w) vs Hoffenheim (w)",
+                  "streams": [
+                    {
+                      "id": "st-343cf687f9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Frauen Bundesliga",
+            "team_a": "Bayern Munchen (w)",
+            "team_b": "Hoffenheim (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/57ec3afbec462319117d3d7f90f746db.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7df1bb2165d76d50a408e248adcc87bb.png",
+            "time": "23:00 06/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-343cf687f9_21741fa6_20260505.png?v=21741fa6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1699,7 +1875,7 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1712,10 +1888,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1730,7 +1906,42 @@
                     {
                       "id": "st-916197fc12",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b2d9d684c",
+                          "name": "GIÀNG A ĐỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0d604841e_145247/index.m3u8?expire=1778599904",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1f9297bd9f",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c9b1da68ab1dad09be528fdd5e7d525f/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1745,7 +1956,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A ĐỘ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng rổ"
           },
           "image": {
@@ -1859,6 +2070,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_d39c4149_20260505.png?v=d39c4149",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cd9865dc66",
+          "name": "Detroit Pistons vs Cleveland Cavaliers | 06:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd9865dc66",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cd9865dc66",
+                  "name": "Detroit Pistons vs Cleveland Cavaliers",
+                  "streams": [
+                    {
+                      "id": "st-cd9865dc66",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Detroit Pistons",
+            "team_b": "Cleveland Cavaliers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "time": "06:00 06/05",
+            "blv": "GIÀNG A THỎ",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_9a2da953_20260505.png?v=9a2da953",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-afc706acfe",
+          "name": "Oklahoma City Thunder vs Los Angeles Lakers | 07:30 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afc706acfe",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-afc706acfe",
+                  "name": "Oklahoma City Thunder vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-afc706acfe",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Oklahoma City Thunder",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "time": "07:30 06/05",
+            "blv": "GIÀNG A CÁO",
+            "is_live": false,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_b7d310e8_20260505.png?v=b7d310e8",
             "width": 1600,
             "height": 1200
           }
@@ -2015,6 +2332,59 @@
           }
         },
         {
+          "id": "kaytee-f257e2f721",
+          "name": "GKS Katowice vs Bielsko-Biala | 01:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f257e2f721",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f257e2f721",
+                  "name": "GKS Katowice vs Bielsko-Biala",
+                  "streams": [
+                    {
+                      "id": "st-f257e2f721",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "I. Liga",
+            "team_a": "GKS Katowice",
+            "team_b": "Bielsko-Biala",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9ac72d7d69a7ded1bd3302fd5c5e8229.jpg",
+            "time": "01:00 06/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f257e2f721_c144d6a5_20260505.png?v=c144d6a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-b5227385d4",
           "name": "GKS Katowice vs Bielsko-Biala | 01:00 06/05",
           "type": "single",
@@ -2063,6 +2433,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b5227385d4_c144d6a5_20260505.png?v=c144d6a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ab929064b3",
+          "name": "Modena vs Trentino W | 01:30 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab929064b3",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ab929064b3",
+                  "name": "Modena vs Trentino W",
+                  "streams": [
+                    {
+                      "id": "st-ab929064b3",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Slovak Super Liga",
+            "team_a": "Modena",
+            "team_b": "Trentino W",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8324cb4b9cbcd67ba3018afc1f9e8dc3.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1d8c7ddc0d688da6c1c7a42343a65f22.png",
+            "time": "01:30 06/05",
+            "blv": "GIÀNG A SU",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ab929064b3_66e73de4_20260505.png?v=66e73de4",
             "width": 1600,
             "height": 1200
           }
