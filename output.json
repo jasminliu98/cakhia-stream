@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (3 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-107693ddce",
-          "name": "Tajikistan U17 vs Thailand U17 | 00:30 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-107693ddce",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-107693ddce",
-                  "name": "Tajikistan U17 vs Thailand U17",
-                  "streams": [
-                    {
-                      "id": "st-107693ddce",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35f03996e5",
-                          "name": "BLV SIMON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1da936519_147411/index.m3u8?expire=1778604073",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8fd6f7085d",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fb59a3a213b6e0e6ef1c47b2b4afb37f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Tajikistan U17",
-            "team_b": "Thailand U17",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/2efe07c30596a4250cae3d525d711a4d.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
-            "time": "00:30 06/05",
-            "blv": "BLV SIMON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-107693ddce_d914ecd9_20260506.png?v=d914ecd9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-f1271bae9c",
           "name": "Al Khaleej Club vs Al Hilal | 01:00 06/05",
@@ -1856,99 +1768,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-72ceb3d757",
-          "name": "Monaco vs Olympiacos | 00:45 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72ceb3d757",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-72ceb3d757",
-                  "name": "Monaco vs Olympiacos",
-                  "streams": [
-                    {
-                      "id": "st-72ceb3d757",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a29ae36877",
-                          "name": "GIÀNG A SÓC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa28ca36519_145211/index.m3u8?expire=1778606922",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e71b09cc82",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/1622a91398549deda2f7dda771875885/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EuroLeague",
-            "team_a": "Monaco",
-            "team_b": "Olympiacos",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e59309cc71a5436c88b6645da5dc39fc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e713068dda3d8da9f9872e61a850a142.png",
-            "time": "00:45 06/05",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_62363465_20260506.png?v=62363465",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-70fd50787a",
           "name": "Vivo Franca vs Mogi das Cruzes | 05:00 06/05",
