@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (10 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260506.png?v=6c8704f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-50c455e063",
-          "name": "Gnistan Helsinki vs Inter Turku | 23:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50c455e063",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-50c455e063",
-                  "name": "Gnistan Helsinki vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "st-50c455e063",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54747ff3af",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0c5b36519_145232/index.m3u8?expire=1778599643",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-411addbe80",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/5e94889ffa68dd6746652d8589a08d71/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finnish Veikkausliiga",
-            "team_a": "Gnistan Helsinki",
-            "team_b": "Inter Turku",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a19ee4a4454087b98d1f2bb9058a337e.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/f26fb30a9c60dd634d8b2f36afe0e8f1.png",
-            "time": "23:00 05/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-50c455e063_42963d4e_20260506.png?v=42963d4e",
             "width": 1600,
             "height": 1200
           }
@@ -819,11 +731,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ace5ae74a4",
+                          "id": "lnk-45b1e4a35b",
                           "name": "GIÀNG A GÀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69fa2aca36519_145503/index.m3u8?expire=1778607434",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-1711109325",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fbc6d5f0bb5361644c2b427f7744a524/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2200,99 +2129,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (2 LIVE)",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-916197fc12",
-          "name": "Hapoel Tel Aviv vs Real Madrid | 23:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-916197fc12",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-916197fc12",
-                  "name": "Hapoel Tel Aviv vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-916197fc12",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1b2d9d684c",
-                          "name": "GIÀNG A ĐỘ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0d604841e_145247/index.m3u8?expire=1778599904",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1f9297bd9f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c9b1da68ab1dad09be528fdd5e7d525f/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EuroLeague",
-            "team_a": "Hapoel Tel Aviv",
-            "team_b": "Real Madrid",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
-            "time": "23:00 05/05",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260506.png?v=8d587113",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-72ceb3d757",
           "name": "Monaco vs Olympiacos | 00:45 06/05",
@@ -2544,82 +2385,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (3 LIVE)",
+      "name": "🏐 Bóng chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-6afbe0ff17",
-          "name": "Anioly Torun vs Mickiewicz Kluczbork | 22:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6afbe0ff17",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6afbe0ff17",
-                  "name": "Anioly Torun vs Mickiewicz Kluczbork",
-                  "streams": [
-                    {
-                      "id": "st-6afbe0ff17",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6012e39a5",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa0c094841e_146208/index.m3u8?expire=1778599561",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romania Liga 1",
-            "team_a": "Anioly Torun",
-            "team_b": "Mickiewicz Kluczbork",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/ae1cb46c06fcf75f0940114670788b6e.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/7a33661bb145b4508223a82c551e2989.png",
-            "time": "22:30 05/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6afbe0ff17_881bf0ab_20260506.png?v=881bf0ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-f257e2f721",
           "name": "GKS Katowice vs Bielsko-Biala | 01:00 06/05",
