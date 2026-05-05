@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -276,6 +276,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-53b4f8059c",
+          "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53b4f8059c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-53b4f8059c",
+                  "name": "Liaoning Tieren vs Chengdu Rongcheng FC",
+                  "streams": [
+                    {
+                      "id": "st-53b4f8059c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb6d18f54c",
+                          "name": "GIÀNG A NÌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9cdfd36519_145187/index.m3u8?expire=1778583677",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e179baebe3",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2f10c0640b9e638c615d6a0c891a1496/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Liaoning Tieren",
+            "team_b": "Chengdu Rongcheng FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
+            "time": "18:35 05/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
             "width": 1600,
             "height": 1200
           }
@@ -2260,8 +2348,8 @@
           }
         },
         {
-          "id": "kaytee-15d64275e8",
-          "name": "Martina Trevisan vs Talia Gibson | 21:10 05/05",
+          "id": "kaytee-39bd995aa2",
+          "name": "Martina Trevisan vs Talia Gibson | 21:25 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2275,15 +2363,15 @@
           ],
           "sources": [
             {
-              "id": "src-15d64275e8",
+              "id": "src-39bd995aa2",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-15d64275e8",
+                  "id": "ct-39bd995aa2",
                   "name": "Martina Trevisan vs Talia Gibson",
                   "streams": [
                     {
-                      "id": "st-15d64275e8",
+                      "id": "st-39bd995aa2",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2296,9 +2384,9 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
-            "time": "21:10 05/05",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
+            "time": "21:25 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2307,7 +2395,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15d64275e8_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-39bd995aa2_aa9ea644_20260505.png?v=aa9ea644",
             "width": 1600,
             "height": 1200
           }
@@ -2411,8 +2499,8 @@
             "league": "EuroLeague",
             "team_a": "Hapoel Tel Aviv",
             "team_b": "Real Madrid",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/ca224b11d94be0f26e2043aa8584db09.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/64da3b30721ca7c898892c6baec2ec4e.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A ĐỘ",
             "is_live": false,
@@ -2422,7 +2510,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_3624fd6a_20260505.png?v=3624fd6a",
             "width": 1600,
             "height": 1200
           }
