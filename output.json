@@ -396,11 +396,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-6e290b583b",
+                          "id": "lnk-4232f5dd14",
                           "name": "GIÀNG A KEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9707336519_145467/index.m3u8?expire=1778559731",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-56ea84c5bf",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fc2a9b326ad3c61cd7e3ca17a0ef6933/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2273,6 +2290,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6afbe0ff17_881bf0ab_20260505.png?v=881bf0ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-b5227385d4",
+          "name": "GKS Katowice vs Bielsko-Biala | 01:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5227385d4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-b5227385d4",
+                  "name": "GKS Katowice vs Bielsko-Biala",
+                  "streams": [
+                    {
+                      "id": "st-b5227385d4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "I. Liga",
+            "team_a": "GKS Katowice",
+            "team_b": "Bielsko-Biala",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1777bea43e3e09846d3abc85e0186ebe.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/9ac72d7d69a7ded1bd3302fd5c5e8229.jpg",
+            "time": "01:00 06/05",
+            "blv": "GIÀNG A LEX",
+            "is_live": false,
+            "cate_name": "Bóng chuyền"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-b5227385d4_c144d6a5_20260505.png?v=c144d6a5",
             "width": 1600,
             "height": 1200
           }
