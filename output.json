@@ -2297,7 +2297,7 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (2 LIVE)",
+      "name": "🏐 Bóng chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2452,10 +2452,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2470,7 +2470,25 @@
                     {
                       "id": "st-ab929064b3",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c73d44296c",
+                          "name": "GIÀNG A SU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa306636519_147639/index.m3u8?expire=1778608870",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2485,7 +2503,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1d8c7ddc0d688da6c1c7a42343a65f22.png",
             "time": "01:30 06/05",
             "blv": "GIÀNG A SU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng chuyền"
           },
           "image": {
