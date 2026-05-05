@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (7 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -193,94 +193,6 @@
           }
         },
         {
-          "id": "kaytee-ce41369b5c",
-          "name": "India (w) U17 vs Japan (w) U17 | 18:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce41369b5c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ce41369b5c",
-                  "name": "India (w) U17 vs Japan (w) U17",
-                  "streams": [
-                    {
-                      "id": "st-ce41369b5c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59165c3bb3",
-                          "name": "GIÀNG A PHỦ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ce354841e_145232/index.m3u8?expire=1778583733",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fb685fbcce",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/097a9aa2037ba4d21404976208123bbc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "India (w) U17",
-            "team_b": "Japan (w) U17",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a18a24058618b5ef80eec61300f85999.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
-            "time": "18:30 05/05",
-            "blv": "GIÀNG A PHỦ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce41369b5c_d865e8c2_20260505.png?v=d865e8c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-6e72231ea9",
           "name": "Philippines U17 Women vs North Korea Women U17 | 18:30 05/05",
           "type": "single",
@@ -364,77 +276,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260505.png?v=317a1ed2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-db5c3bf0c5",
-          "name": "Tanjong Pagar Utd vs Hougang United FC | 18:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db5c3bf0c5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-db5c3bf0c5",
-                  "name": "Tanjong Pagar Utd vs Hougang United FC",
-                  "streams": [
-                    {
-                      "id": "st-db5c3bf0c5",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-93bd4a0a3d",
-                          "name": "GIÀNG A RICH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ceb736519_145476/index.m3u8?expire=1778583863",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Premier League",
-            "team_a": "Tanjong Pagar Utd",
-            "team_b": "Hougang United FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/6383c94b1ad9982eeaabbb99e0431ea3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/22bd6a4d9cba9a0127b11c10faefb219.png",
-            "time": "18:30 05/05",
-            "blv": "GIÀNG A RICH",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-db5c3bf0c5_4bb01695_20260505.png?v=4bb01695",
             "width": 1600,
             "height": 1200
           }
@@ -616,6 +457,77 @@
           }
         },
         {
+          "id": "kaytee-6fd8db7d1f",
+          "name": "Tanjong Pagar Utd vs Hougang United FC | 19:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fd8db7d1f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6fd8db7d1f",
+                  "name": "Tanjong Pagar Utd vs Hougang United FC",
+                  "streams": [
+                    {
+                      "id": "st-6fd8db7d1f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-93bd4a0a3d",
+                          "name": "GIÀNG A RICH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ceb736519_145476/index.m3u8?expire=1778583863",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Singapore Premier League",
+            "team_a": "Tanjong Pagar Utd",
+            "team_b": "Hougang United FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6383c94b1ad9982eeaabbb99e0431ea3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/22bd6a4d9cba9a0127b11c10faefb219.png",
+            "time": "19:00 05/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6fd8db7d1f_4bb01695_20260505.png?v=4bb01695",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-0eedc05a5c",
           "name": "Borneo FC vs Persita Tangerang | 19:00 05/05",
           "type": "single",
@@ -623,10 +535,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -641,7 +553,25 @@
                     {
                       "id": "st-0eedc05a5c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-aced4e4ebb",
+                          "name": "GIÀNG A BẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d6474841e_145407/index.m3u8?expire=1778585799",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -656,7 +586,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/da85ffb03146e72ce9928729dcabda51.png",
             "time": "19:00 05/05",
             "blv": "GIÀNG A BẠC",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -676,10 +606,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -694,7 +624,25 @@
                     {
                       "id": "st-666af2c91a",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c3c8f1290",
+                          "name": "GIÀNG A KEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d22236519_145467/index.m3u8?expire=1778584738",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -709,7 +657,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/f336520db254da6d6d5294b720d26d83.png",
             "time": "19:00 05/05",
             "blv": "GIÀNG A KEN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -729,10 +677,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -747,7 +695,25 @@
                     {
                       "id": "st-768ed365a2",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-88a932d8a4",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d44b36519_145244/index.m3u8?expire=1778585291",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -762,7 +728,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/2d9ea2234c3ada82b3d0355791c45669.png",
             "time": "19:00 05/05",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
