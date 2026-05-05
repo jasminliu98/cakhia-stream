@@ -635,7 +635,7 @@
             "team_a": "Qingdao West Coast FC",
             "team_b": "Tianjin Jinmen Tiger FC",
             "logo_a": "https://cdn.rapid-api.icu/football/team/383d42e0d0843463b538bc3367d0c4c9.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c1786665c81e5dba734d5a8c2346d69e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c1786665c81e5dba734d5a8c2346d69e.png",
             "time": "18:00 05/05",
             "blv": "GIÀNG A SU",
             "is_live": false,
@@ -645,7 +645,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9ff698407b_017a13fe_20260505.png?v=017a13fe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9ff698407b_bfc394c8_20260505.png?v=bfc394c8",
             "width": 1600,
             "height": 1200
           }
@@ -740,8 +740,8 @@
             "league": "AFC U17 Women's Asian Cup",
             "team_a": "Philippines U17 Women",
             "team_b": "North Korea Women U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ba5a270beff01e94d4c372e5283ee654.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/ba5a270beff01e94d4c372e5283ee654.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/702d8e982ec231766ec875424c555d0e.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A RON",
             "is_live": false,
@@ -751,7 +751,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_317a1ed2_20260505.png?v=317a1ed2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e72231ea9_e6430fba_20260505.png?v=e6430fba",
             "width": 1600,
             "height": 1200
           }
@@ -1111,8 +1111,8 @@
             "league": "AFC U17 Asian Cup",
             "team_a": "Japan U17",
             "team_b": "Qatar U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3c4d97fd12b32034eecb81ef51583b26.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8583e166d6e955dd01525d25b53b4439.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A NÚI",
             "is_live": false,
@@ -1122,7 +1122,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260505.png?v=6c8704f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_66d22b64_20260505.png?v=66d22b64",
             "width": 1600,
             "height": 1200
           }
@@ -1792,8 +1792,8 @@
             "league": "EuroLeague",
             "team_a": "Hapoel Tel Aviv",
             "team_b": "Real Madrid",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ca224b11d94be0f26e2043aa8584db09.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/64da3b30721ca7c898892c6baec2ec4e.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/ca224b11d94be0f26e2043aa8584db09.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/64da3b30721ca7c898892c6baec2ec4e.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A ĐỘ",
             "is_live": false,
@@ -1803,7 +1803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_8d587113_20260505.png?v=8d587113",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-916197fc12_3624fd6a_20260505.png?v=3624fd6a",
             "width": 1600,
             "height": 1200
           }
