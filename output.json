@@ -731,11 +731,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-0978ca6863",
+                          "id": "lnk-35f03996e5",
                           "name": "BLV SIMON",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69fa1da936519_147411/index.m3u8?expire=1778604073",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8fd6f7085d",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/fb59a3a213b6e0e6ef1c47b2b4afb37f/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2492,82 +2509,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (2 LIVE)",
+      "name": "🏐 Bóng chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-246fa0beea",
-          "name": "Dinamo Bucuresti vs Arcada Galati | 22:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-246fa0beea",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-246fa0beea",
-                  "name": "Dinamo Bucuresti vs Arcada Galati",
-                  "streams": [
-                    {
-                      "id": "st-246fa0beea",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68b642b49b",
-                          "name": "GIÀNG A LEX",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ffa636519_145875/index.m3u8?expire=1778596390",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Divizia A1 - Play Offs - Tứ kết",
-            "team_a": "Dinamo Bucuresti",
-            "team_b": "Arcada Galati",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd148d6f912618c4888ddd4f5d4c3d2b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8ad517d31669360d44426e3e3eb1f174.png",
-            "time": "22:00 05/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_eb4ffa3d_20260506.png?v=eb4ffa3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-6afbe0ff17",
           "name": "Anioly Torun vs Mickiewicz Kluczbork | 22:30 05/05",
