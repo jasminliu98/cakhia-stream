@@ -1785,8 +1785,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -1796,7 +1796,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_aa9ea644_20260505.png?v=aa9ea644",
             "width": 1600,
             "height": 1200
           }
@@ -1838,8 +1838,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Ann Li",
             "team_b": "Zhang Shuai",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3053de3d345996c6c386ea91c3a430a2.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/75655aabfb5c910ac5b9c6d927e86122.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/3053de3d345996c6c386ea91c3a430a2.png",
             "time": "19:30 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1849,7 +1849,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_eb839823_20260505.png?v=eb839823",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_734835aa_20260505.png?v=734835aa",
             "width": 1600,
             "height": 1200
           }
@@ -1858,99 +1858,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (1 LIVE)",
+      "name": "🏀 Bóng rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-83c97c9ba6",
-          "name": "San Antonio Spurs vs Minnesota Timberwolves | 08:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83c97c9ba6",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-83c97c9ba6",
-                  "name": "San Antonio Spurs vs Minnesota Timberwolves",
-                  "streams": [
-                    {
-                      "id": "st-83c97c9ba6",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-019db3b145",
-                          "name": "GIÀNG A SÓC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9340336519_145211/index.m3u8?expire=1778544259",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e9d968a7a6",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/049c9a170834d31adeee8f862620b857/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "San Antonio Spurs",
-            "team_b": "Minnesota Timberwolves",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5305d1a7b721b5bef418041eff53ba82.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38794d0ac418d8f2d03bd17a2623f3ed.png",
-            "time": "08:30 05/05",
-            "blv": "GIÀNG A SÓC",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-83c97c9ba6_f5d9ef10_20260505.png?v=f5d9ef10",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-9f87e854c5",
           "name": "Goyang Sono Skygunners vs Busan KCC Egis | 12:00 05/05",
