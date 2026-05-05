@@ -88,8 +88,8 @@
             "league": "AFC U17 Asian Cup",
             "team_a": "Japan U17",
             "team_b": "Qatar U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3c4d97fd12b32034eecb81ef51583b26.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8583e166d6e955dd01525d25b53b4439.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/3c4d97fd12b32034eecb81ef51583b26.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8583e166d6e955dd01525d25b53b4439.png",
             "time": "23:00 05/05",
             "blv": "GIÀNG A NÚI",
             "is_live": true,
@@ -99,7 +99,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_6c8704f3_20260506.png?v=6c8704f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-63e943757d_66d22b64_20260506.png?v=66d22b64",
             "width": 1600,
             "height": 1200
           }
@@ -379,11 +379,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3e048a5aed",
+                          "id": "lnk-ff62578199",
                           "name": "GIÀNG A GIÀ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69fa1bf536519_145238/index.m3u8?expire=1778603637",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-70611de4e7",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/08e9a254f5ec43064bac5cbd168edef9/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -450,11 +467,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-12091d0728",
+                          "id": "lnk-1dd54d9d2a",
                           "name": "GIÀNG A ĐẬU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69fa1b3e4841e_145169/index.m3u8?expire=1778603454",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-88607d2d20",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e1715d7b1021bc07ddca82641c4be010/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -521,11 +555,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-83ebd7279b",
+                          "id": "lnk-828aeab4f3",
                           "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69fa1c0b36519_145244/index.m3u8?expire=1778603659",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a49d28a728",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/354262eb7c35d3a6e124c9a432de06d7/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -592,11 +643,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-51e9d99675",
+                          "id": "lnk-06533f5897",
                           "name": "GIÀNG A NGỘ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69fa1eba4841e_145575/index.m3u8?expire=1778604346",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d66a55d1",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1c9804a1ec1938749d92e06a940d7628/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
