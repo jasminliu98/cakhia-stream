@@ -220,11 +220,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-a2c385fd1e",
+                          "id": "lnk-59165c3bb3",
                           "name": "GIÀNG A PHỦ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9ce354841e_145232/index.m3u8?expire=1778583733",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fb685fbcce",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/097a9aa2037ba4d21404976208123bbc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -433,11 +450,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-18b000a4cb",
+                          "id": "lnk-3bcc64129c",
                           "name": "GIÀNG A NA",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9d04d4841e_146847/index.m3u8?expire=1778584269",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-dfcc5a602e",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/a5dd3836ead48049175bb67bcd6c376b/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -504,11 +538,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3f1d9e168d",
+                          "id": "lnk-fb6d18f54c",
                           "name": "GIÀNG A NÌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9cdfd36519_145187/index.m3u8?expire=1778583677",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e179baebe3",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/2f10c0640b9e638c615d6a0c891a1496/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -601,6 +652,59 @@
           }
         },
         {
+          "id": "kaytee-768ed365a2",
+          "name": "Karvan Evlakh vs FC Neftci Baku | 19:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-768ed365a2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-768ed365a2",
+                  "name": "Karvan Evlakh vs FC Neftci Baku",
+                  "streams": [
+                    {
+                      "id": "st-768ed365a2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azerbaijan Premier League",
+            "team_a": "Karvan Evlakh",
+            "team_b": "FC Neftci Baku",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/aa6d9f240dd67791dd86ff4de072d846.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2d9ea2234c3ada82b3d0355791c45669.png",
+            "time": "19:00 05/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260505.png?v=b4649b6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-0eedc05a5c",
           "name": "Borneo FC vs Persita Tangerang | 19:00 05/05",
           "type": "single",
@@ -649,59 +753,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260505.png?v=73d08fc0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-768ed365a2",
-          "name": "Karvan Evlakh vs FC Neftci Baku | 19:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-768ed365a2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-768ed365a2",
-                  "name": "Karvan Evlakh vs FC Neftci Baku",
-                  "streams": [
-                    {
-                      "id": "st-768ed365a2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Azerbaijan Premier League",
-            "team_a": "Karvan Evlakh",
-            "team_b": "FC Neftci Baku",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/aa6d9f240dd67791dd86ff4de072d846.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/2d9ea2234c3ada82b3d0355791c45669.png",
-            "time": "19:00 05/05",
-            "blv": "GIÀNG A GIÀ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260505.png?v=b4649b6a",
             "width": 1600,
             "height": 1200
           }
