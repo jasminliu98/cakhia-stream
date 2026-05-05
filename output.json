@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -100,94 +100,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1914a42ed9_10b493f1_20260506.png?v=10b493f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-6187d8bd64",
-          "name": "Ceramica Cleopatra FC vs Pyramids FC | 00:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6187d8bd64",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6187d8bd64",
-                  "name": "Ceramica Cleopatra FC vs Pyramids FC",
-                  "streams": [
-                    {
-                      "id": "st-6187d8bd64",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-828aeab4f3",
-                          "name": "GIÀNG A CAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1c0b36519_145244/index.m3u8?expire=1778603659",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a49d28a728",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/354262eb7c35d3a6e124c9a432de06d7/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Premier League",
-            "team_a": "Ceramica Cleopatra FC",
-            "team_b": "Pyramids FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/8dee40fb1b26ee38a0d8e8a8333f89a8.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/0c750c05518db78eeabc97fb11574fed.png",
-            "time": "00:00 06/05",
-            "blv": "GIÀNG A CAY",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6187d8bd64_6e40eb20_20260506.png?v=6e40eb20",
             "width": 1600,
             "height": 1200
           }
@@ -1843,6 +1755,112 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "kaytee-1e911f775a",
+          "name": "Mark Lajal vs Mikhail Kukushkin | 13:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e911f775a",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1e911f775a",
+                  "name": "Mark Lajal vs Mikhail Kukushkin",
+                  "streams": [
+                    {
+                      "id": "st-1e911f775a",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Mark Lajal",
+            "team_b": "Mikhail Kukushkin",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/80ee86bf534e983258c8c9b7e7bda64b.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75b1af047d9890dba3158e890f0f9244.png",
+            "time": "13:00 06/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1e911f775a_0da34728_20260506.png?v=0da34728",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-0c113dd690",
+          "name": "Sun Fajing vs Rio Noguchi | 14:10 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c113dd690",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0c113dd690",
+                  "name": "Sun Fajing vs Rio Noguchi",
+                  "streams": [
+                    {
+                      "id": "st-0c113dd690",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Sun Fajing",
+            "team_b": "Rio Noguchi",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/58d94844bb87afa2e5248a11e3d86f6f.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bfa68867c94946e2734c65447ed39f3c.png",
+            "time": "14:10 06/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0c113dd690_6c110880_20260506.png?v=6c110880",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-e1ca6ce84e",
           "name": "Zizou Bergs vs Terence Atmane | 16:00 06/05",
           "type": "single",
@@ -1891,6 +1909,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260506.png?v=245b013f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-aec569c2ed",
+          "name": "Alastair Gray vs Cui Jie | 16:30 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aec569c2ed",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-aec569c2ed",
+                  "name": "Alastair Gray vs Cui Jie",
+                  "streams": [
+                    {
+                      "id": "st-aec569c2ed",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Alastair Gray",
+            "team_b": "Cui Jie",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3d5cd39ade91936b1ef0a655395c57d5.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1d544c72cef6d33b5f97f4a09448ed25.png",
+            "time": "16:30 06/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": false,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-aec569c2ed_44cda86e_20260506.png?v=44cda86e",
             "width": 1600,
             "height": 1200
           }
@@ -1976,8 +2047,8 @@
             "league": "EuroLeague",
             "team_a": "Monaco",
             "team_b": "Olympiacos",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/e59309cc71a5436c88b6645da5dc39fc.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/e713068dda3d8da9f9872e61a850a142.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e59309cc71a5436c88b6645da5dc39fc.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e713068dda3d8da9f9872e61a850a142.png",
             "time": "00:45 06/05",
             "blv": "GIÀNG A SÓC",
             "is_live": true,
@@ -1987,7 +2058,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_88e0ca80_20260506.png?v=88e0ca80",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_62363465_20260506.png?v=62363465",
             "width": 1600,
             "height": 1200
           }
@@ -2029,8 +2100,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "Vivo Franca",
             "team_b": "Mogi das Cruzes",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/a65268effd9adde355c5816840d3ee14.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5c7885e39f348766735a235c20385cd5.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a65268effd9adde355c5816840d3ee14.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5c7885e39f348766735a235c20385cd5.png",
             "time": "05:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2040,7 +2111,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_bc95a9e3_20260506.png?v=bc95a9e3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_d39c4149_20260506.png?v=d39c4149",
             "width": 1600,
             "height": 1200
           }
@@ -2082,8 +2153,8 @@
             "league": "National Basketball Association",
             "team_a": "Detroit Pistons",
             "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
             "time": "06:00 06/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -2093,7 +2164,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_78864639_20260506.png?v=78864639",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_9a2da953_20260506.png?v=9a2da953",
             "width": 1600,
             "height": 1200
           }
@@ -2135,8 +2206,8 @@
             "league": "National Basketball Association",
             "team_a": "Oklahoma City Thunder",
             "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
-            "logo_b": "https://cdn.rapid-api.icu/basketball/team/fa6f985041ec3f9729172380ae9cebf8.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
             "time": "07:30 06/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2146,7 +2217,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_e99aa49c_20260506.png?v=e99aa49c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_b7d310e8_20260506.png?v=b7d310e8",
             "width": 1600,
             "height": 1200
           }
