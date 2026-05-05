@@ -308,11 +308,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-7db9b56b3d",
+                          "id": "lnk-8d93f5faee",
                           "name": "GIÀNG A RON",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9d03336519_145199/index.m3u8?expire=1778584243",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-dcb3e073f5",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e7acae3b2db98fe7ba092489d06d08bb/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -599,6 +616,59 @@
           }
         },
         {
+          "id": "kaytee-0eedc05a5c",
+          "name": "Borneo FC vs Persita Tangerang | 19:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0eedc05a5c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-0eedc05a5c",
+                  "name": "Borneo FC vs Persita Tangerang",
+                  "streams": [
+                    {
+                      "id": "st-0eedc05a5c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Indonesian Liga 1",
+            "team_a": "Borneo FC",
+            "team_b": "Persita Tangerang",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/da85ffb03146e72ce9928729dcabda51.png",
+            "time": "19:00 05/05",
+            "blv": "GIÀNG A BẠC",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260505.png?v=73d08fc0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-666af2c91a",
           "name": "Chongqing Tongliangloong FC vs Henan FC | 19:00 05/05",
           "type": "single",
@@ -700,59 +770,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-768ed365a2_b4649b6a_20260505.png?v=b4649b6a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-0eedc05a5c",
-          "name": "Borneo FC vs Persita Tangerang | 19:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0eedc05a5c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-0eedc05a5c",
-                  "name": "Borneo FC vs Persita Tangerang",
-                  "streams": [
-                    {
-                      "id": "st-0eedc05a5c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Borneo FC",
-            "team_b": "Persita Tangerang",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/da85ffb03146e72ce9928729dcabda51.png",
-            "time": "19:00 05/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-0eedc05a5c_73d08fc0_20260505.png?v=73d08fc0",
             "width": 1600,
             "height": 1200
           }
