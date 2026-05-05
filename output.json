@@ -11,187 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (6 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-be9d6c3541",
-          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be9d6c3541",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-be9d6c3541",
-                  "name": "Daejeon Citizen vs Incheon United Club",
-                  "streams": [
-                    {
-                      "id": "st-be9d6c3541",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03440cb428",
-                          "name": "GIÀNG A DÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f996fa36519_145419/index.m3u8?expire=1778569594",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-40c113357c",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/f1d80a0cd657e1cc2e85012e7cb70de3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Incheon United Club",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/090eeb1513e8f1d0cf6d8647d10b2eea.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
-            "time": "14:30 05/05",
-            "blv": "GIÀNG A DÂN",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-be9d6c3541_f5566b22_20260505.png?v=f5566b22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-99677ae09b",
-          "name": "Lebanon U17 Women vs Australia Women U17 | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-99677ae09b",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-99677ae09b",
-                  "name": "Lebanon U17 Women vs Australia Women U17",
-                  "streams": [
-                    {
-                      "id": "st-99677ae09b",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de00eacf0b",
-                          "name": "GIÀNG A RON",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f994d536519_145199/index.m3u8?expire=1778569045",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8b8822639f",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/fa484514058ab50045103f07e31e5346/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Women's Asian Cup",
-            "team_a": "Lebanon U17 Women",
-            "team_b": "Australia Women U17",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5d0c20971b46597973cbf23b9bb0771b.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f476c5c90ef26f3257a4a6c17374c1bc.png",
-            "time": "14:30 05/05",
-            "blv": "GIÀNG A RON",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-99677ae09b_fafa1d5b_20260505.png?v=fafa1d5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-13372d9147",
           "name": "Chinese Taipei U17 Women vs Korea Rep. (w) U17 | 14:30 05/05",
@@ -276,6 +100,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-13372d9147_b70691eb_20260505.png?v=b70691eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-be9d6c3541",
+          "name": "Daejeon Citizen vs Incheon United Club | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be9d6c3541",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-be9d6c3541",
+                  "name": "Daejeon Citizen vs Incheon United Club",
+                  "streams": [
+                    {
+                      "id": "st-be9d6c3541",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03440cb428",
+                          "name": "GIÀNG A DÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f996fa36519_145419/index.m3u8?expire=1778569594",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-40c113357c",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f1d80a0cd657e1cc2e85012e7cb70de3/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Daejeon Citizen",
+            "team_b": "Incheon United Club",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/090eeb1513e8f1d0cf6d8647d10b2eea.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/36559689046e7d1d4f597c1a0bf9c5d6.png",
+            "time": "14:30 05/05",
+            "blv": "GIÀNG A DÂN",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-be9d6c3541_f5566b22_20260505.png?v=f5566b22",
             "width": 1600,
             "height": 1200
           }
