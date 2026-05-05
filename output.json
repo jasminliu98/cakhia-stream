@@ -1688,11 +1688,82 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-25e2df128f",
+          "name": "Alex Bolt vs Sun Fajing | 12:25 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25e2df128f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-25e2df128f",
+                  "name": "Alex Bolt vs Sun Fajing",
+                  "streams": [
+                    {
+                      "id": "st-25e2df128f",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e82e53925",
+                          "name": "GIÀNG A LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9827d4841e_146088/index.m3u8?expire=1778564349",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Challenger Wuxi, China Men Singles",
+            "team_a": "Alex Bolt",
+            "team_b": "Sun Fajing",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cccf89a7f94d22cbba4394a66bf00895.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/58d94844bb87afa2e5248a11e3d86f6f.png",
+            "time": "12:25 05/05",
+            "blv": "GIÀNG A LONG",
+            "is_live": true,
+            "cate_name": "Tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-25e2df128f_35971ed8_20260505.png?v=35971ed8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-a1f626c0d4",
           "name": "Keegan Smith vs Bu Yunchaokete | 13:35 05/05",
