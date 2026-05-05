@@ -2116,6 +2116,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-cea9bb21d9",
+          "name": "Selangor FC vs Nam Dinh FC | 20:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cea9bb21d9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cea9bb21d9",
+                  "name": "Selangor FC vs Nam Dinh FC",
+                  "streams": [
+                    {
+                      "id": "st-cea9bb21d9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asean Club Championship Shopee Cup",
+            "team_a": "Selangor FC",
+            "team_b": "Nam Dinh FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/585f46e1975ca0a4cce84365f5290111.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/bc5db4dd418cb566a4475649876b55bb.png",
+            "time": "20:00 06/05",
+            "blv": "GIÀNG A NGAO, BLV SIMON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cea9bb21d9_eda10f21_20260505.png?v=eda10f21",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2278,8 +2331,8 @@
           }
         },
         {
-          "id": "kaytee-498af83bcd",
-          "name": "Martina Trevisan vs Talia Gibson | 21:00 05/05",
+          "id": "kaytee-15d64275e8",
+          "name": "Martina Trevisan vs Talia Gibson | 21:10 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2293,15 +2346,15 @@
           ],
           "sources": [
             {
-              "id": "src-498af83bcd",
+              "id": "src-15d64275e8",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-498af83bcd",
+                  "id": "ct-15d64275e8",
                   "name": "Martina Trevisan vs Talia Gibson",
                   "streams": [
                     {
-                      "id": "st-498af83bcd",
+                      "id": "st-15d64275e8",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -2316,7 +2369,7 @@
             "team_b": "Talia Gibson",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
-            "time": "21:00 05/05",
+            "time": "21:10 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
             "cate_name": "Tennis"
@@ -2325,7 +2378,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-498af83bcd_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-15d64275e8_a83cd0c2_20260505.png?v=a83cd0c2",
             "width": 1600,
             "height": 1200
           }
