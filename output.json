@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-69dcae1430",
-          "name": "Indonesia U17 vs China U17 | 23:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69dcae1430",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-69dcae1430",
-                  "name": "Indonesia U17 vs China U17",
-                  "streams": [
-                    {
-                      "id": "st-69dcae1430",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7ba2167d67",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa13dc4841e_145689/index.m3u8?expire=1778601564",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-29e5db8755",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/8c2627e780d0f3202fa0792853b9c368/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U17 Asian Cup",
-            "team_a": "Indonesia U17",
-            "team_b": "China U17",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/a222bcd619abdcee951b28cae8d1cce6.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/56b46dcd3e801a496ca783ab0bd0f44d.png",
-            "time": "23:30 05/05",
-            "blv": "GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-69dcae1430_c781c66b_20260506.png?v=c781c66b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-125869e570",
           "name": "RKC Waalwijk vs Willem II | 23:45 05/05",
@@ -2021,8 +1933,8 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Zizou Bergs",
             "team_b": "Terence Atmane",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "time": "16:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2032,7 +1944,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260506.png?v=245b013f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_1f5d8ce8_20260506.png?v=1f5d8ce8",
             "width": 1600,
             "height": 1200
           }
