@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -112,10 +112,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -130,7 +130,25 @@
                     {
                       "id": "st-9ff698407b",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ba0ab853e4",
+                          "name": "GIÀNG A SU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9c6c936519_147639/index.m3u8?expire=1778581833",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -145,7 +163,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/c1786665c81e5dba734d5a8c2346d69e.png",
             "time": "18:00 05/05",
             "blv": "GIÀNG A SU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -794,6 +812,271 @@
           }
         },
         {
+          "id": "kaytee-4b4735ac76",
+          "name": "Saudi Arabia U17 vs Myanmar U17 | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b4735ac76",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-4b4735ac76",
+                  "name": "Saudi Arabia U17 vs Myanmar U17",
+                  "streams": [
+                    {
+                      "id": "st-4b4735ac76",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Saudi Arabia U17",
+            "team_b": "Myanmar U17",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/081372dd82f5917deb2d2fa64e052173.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
+            "time": "00:00 06/05",
+            "blv": "GIÀNG A GIÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-4b4735ac76_a8f207c6_20260505.png?v=a8f207c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-1914a42ed9",
+          "name": "Al Ahly FC vs Enppi | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1914a42ed9",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-1914a42ed9",
+                  "name": "Al Ahly FC vs Enppi",
+                  "streams": [
+                    {
+                      "id": "st-1914a42ed9",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Al Ahly FC",
+            "team_b": "Enppi",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/e40a14044c93d0e5e2f9d558aa1640fa.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/1bd9415259f9b04af4c6164660af9a48.png",
+            "time": "00:00 06/05",
+            "blv": "GIÀNG A ĐẬU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-1914a42ed9_10b493f1_20260505.png?v=10b493f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6187d8bd64",
+          "name": "Ceramica Cleopatra FC vs Pyramids FC | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6187d8bd64",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6187d8bd64",
+                  "name": "Ceramica Cleopatra FC vs Pyramids FC",
+                  "streams": [
+                    {
+                      "id": "st-6187d8bd64",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Ceramica Cleopatra FC",
+            "team_b": "Pyramids FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8dee40fb1b26ee38a0d8e8a8333f89a8.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0c750c05518db78eeabc97fb11574fed.png",
+            "time": "00:00 06/05",
+            "blv": "GIÀNG A CAY",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6187d8bd64_6e40eb20_20260505.png?v=6e40eb20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6f207fbce4",
+          "name": "Smouha SC vs Zamalek SC | 00:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f207fbce4",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6f207fbce4",
+                  "name": "Smouha SC vs Zamalek SC",
+                  "streams": [
+                    {
+                      "id": "st-6f207fbce4",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Premier League",
+            "team_a": "Smouha SC",
+            "team_b": "Zamalek SC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2859c6dc44290631fe151b7d306dfde6.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6ad4e821a96f050ba29f431fbf57801e.png",
+            "time": "00:00 06/05",
+            "blv": "GIÀNG A NGỘ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6f207fbce4_920ba719_20260505.png?v=920ba719",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-107693ddce",
+          "name": "Tajikistan U17 vs Thailand U17 | 00:30 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-107693ddce",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-107693ddce",
+                  "name": "Tajikistan U17 vs Thailand U17",
+                  "streams": [
+                    {
+                      "id": "st-107693ddce",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Asian Cup",
+            "team_a": "Tajikistan U17",
+            "team_b": "Thailand U17",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/2efe07c30596a4250cae3d525d711a4d.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
+            "time": "00:30 06/05",
+            "blv": "BLV SIMON",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-107693ddce_d914ecd9_20260505.png?v=d914ecd9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-083c3bef2a",
           "name": "Arsenal vs Atletico Madrid | 02:00 06/05",
           "type": "single",
@@ -1201,8 +1484,8 @@
           }
         },
         {
-          "id": "kaytee-6e2e7630ce",
-          "name": "Martina Trevisan vs Talia Gibson | 19:50 05/05",
+          "id": "kaytee-a0133e71bd",
+          "name": "Martina Trevisan vs Talia Gibson | 20:05 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1216,15 +1499,15 @@
           ],
           "sources": [
             {
-              "id": "src-6e2e7630ce",
+              "id": "src-a0133e71bd",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-6e2e7630ce",
+                  "id": "ct-a0133e71bd",
                   "name": "Martina Trevisan vs Talia Gibson",
                   "streams": [
                     {
-                      "id": "st-6e2e7630ce",
+                      "id": "st-a0133e71bd",
                       "name": "KT",
                       "stream_links": []
                     }
@@ -1239,7 +1522,7 @@
             "team_b": "Talia Gibson",
             "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
-            "time": "19:50 05/05",
+            "time": "20:05 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
             "cate_name": "Tennis"
@@ -1248,7 +1531,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6e2e7630ce_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0133e71bd_a83cd0c2_20260505.png?v=a83cd0c2",
             "width": 1600,
             "height": 1200
           }
