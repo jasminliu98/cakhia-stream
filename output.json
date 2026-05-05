@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -276,94 +276,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-53b4f8059c",
-          "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53b4f8059c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-53b4f8059c",
-                  "name": "Liaoning Tieren vs Chengdu Rongcheng FC",
-                  "streams": [
-                    {
-                      "id": "st-53b4f8059c",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb6d18f54c",
-                          "name": "GIÀNG A NÌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9cdfd36519_145187/index.m3u8?expire=1778583677",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e179baebe3",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/2f10c0640b9e638c615d6a0c891a1496/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Liaoning Tieren",
-            "team_b": "Chengdu Rongcheng FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
-            "time": "18:35 05/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
             "width": 1600,
             "height": 1200
           }
@@ -643,11 +555,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-88a932d8a4",
+                          "id": "lnk-326632fc30",
                           "name": "GIÀNG A CAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9d44b36519_145244/index.m3u8?expire=1778585291",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5c46aba3d0",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c0820312fbeccbc9149fe8293e8dea04/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
