@@ -1553,8 +1553,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "kaytee-25e2df128f",
-          "name": "Alex Bolt vs Sun Fajing | 12:25 05/05",
+          "id": "kaytee-844bfef5f8",
+          "name": "Keegan Smith vs Bu Yunchaokete | 15:30 05/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1568,40 +1568,23 @@
           ],
           "sources": [
             {
-              "id": "src-25e2df128f",
+              "id": "src-844bfef5f8",
               "name": "CakhiaTV",
               "contents": [
                 {
-                  "id": "ct-25e2df128f",
-                  "name": "Alex Bolt vs Sun Fajing",
+                  "id": "ct-844bfef5f8",
+                  "name": "Keegan Smith vs Bu Yunchaokete",
                   "streams": [
                     {
-                      "id": "st-25e2df128f",
+                      "id": "st-844bfef5f8",
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-b90b053413",
+                          "id": "lnk-d5819a40be",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9827d4841e_146088/index.m3u8?expire=1778564349",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a45cc78e98",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/4120ff4ffdd472de77a0f43c95aaf947/playlist.m3u8",
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9a93136519_146088/index.m3u8?expire=1778574257",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1622,11 +1605,11 @@
           ],
           "org_metadata": {
             "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Alex Bolt",
-            "team_b": "Sun Fajing",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/cccf89a7f94d22cbba4394a66bf00895.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/58d94844bb87afa2e5248a11e3d86f6f.png",
-            "time": "12:25 05/05",
+            "team_a": "Keegan Smith",
+            "team_b": "Bu Yunchaokete",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
+            "time": "15:30 05/05",
             "blv": "GIÀNG A LONG",
             "is_live": true,
             "cate_name": "Tennis"
@@ -1635,7 +1618,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-25e2df128f_35971ed8_20260505.png?v=35971ed8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-844bfef5f8_65ba6a09_20260505.png?v=65ba6a09",
             "width": 1600,
             "height": 1200
           }
