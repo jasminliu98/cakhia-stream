@@ -11,99 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-c42936de17",
-          "name": "Madura United vs Bali United | 15:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c42936de17",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-c42936de17",
-                  "name": "Madura United vs Bali United",
-                  "streams": [
-                    {
-                      "id": "st-c42936de17",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5096d58813",
-                          "name": "GIÀNG A BẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9a40b36519_145407/index.m3u8?expire=1778572939",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-09f08c9bf0",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/c2fb14084673abde281830b021ae946e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Indonesian Liga 1",
-            "team_a": "Madura United",
-            "team_b": "Bali United",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/320ff18ba51acdf34c92311dec8186a7.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/09fe2ecf88f68970da755f8655d5da8a.png",
-            "time": "15:30 05/05",
-            "blv": "GIÀNG A BẠC",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c42936de17_a4029d2c_20260505.png?v=a4029d2c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-909f978853",
           "name": "Football Club Seoul vs FC Anyang | 17:00 05/05",
