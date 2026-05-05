@@ -1688,82 +1688,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-8a2a64270e",
-          "name": "Kwon Soon-woo vs Kaichi Uchida | 11:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a2a64270e",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8a2a64270e",
-                  "name": "Kwon Soon-woo vs Kaichi Uchida",
-                  "streams": [
-                    {
-                      "id": "st-8a2a64270e",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d23ca31f32",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f966d04841e_146088/index.m3u8?expire=1778557264",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Kwon Soon-woo",
-            "team_b": "Kaichi Uchida",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce9295b333a346304c3141e49b7aad7a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/f306bb21a3a1b049bc617000def6c0c9.png",
-            "time": "11:00 05/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8a2a64270e_49c6e90c_20260505.png?v=49c6e90c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-84ca4710ba",
           "name": "Keegan Smith vs Bu Yunchaokete | 13:30 05/05",
@@ -1972,59 +1901,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_a83cd0c2_20260505.png?v=a83cd0c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-355fe5b339",
-          "name": "Ann Li vs Zhang Shuai | 19:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-355fe5b339",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-355fe5b339",
-                  "name": "Ann Li vs Zhang Shuai",
-                  "streams": [
-                    {
-                      "id": "st-355fe5b339",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Rome, Italy Women Singles",
-            "team_a": "Ann Li",
-            "team_b": "Zhang Shuai",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3053de3d345996c6c386ea91c3a430a2.png",
-            "time": "19:30 05/05",
-            "blv": "GIÀNG A LEX",
-            "is_live": false,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_eb839823_20260505.png?v=eb839823",
             "width": 1600,
             "height": 1200
           }
