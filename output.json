@@ -1077,6 +1077,59 @@
           }
         },
         {
+          "id": "kaytee-f1271bae9c",
+          "name": "Al Khaleej Club vs Al Hilal | 01:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1271bae9c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f1271bae9c",
+                  "name": "Al Khaleej Club vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-f1271bae9c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Khaleej Club",
+            "team_b": "Al Hilal",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6d48cbd483dee74ed9aef387bb082d64.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/07a555616afab7be32e00150eacf4197.png",
+            "time": "01:00 06/05",
+            "blv": "GIÀNG A GÀ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f1271bae9c_135ad817_20260505.png?v=135ad817",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-083c3bef2a",
           "name": "Arsenal vs Atletico Madrid | 02:00 06/05",
           "type": "single",
