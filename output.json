@@ -616,59 +616,6 @@
           }
         },
         {
-          "id": "kaytee-8e3a574617",
-          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e3a574617",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-8e3a574617",
-                  "name": "Gangwon Football Club vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-8e3a574617",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean K League 1",
-            "team_a": "Gangwon Football Club",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6f05c460789939ac83282bd0686446f1.png",
-            "time": "14:30 05/05",
-            "blv": "GIÀNG A BẢNH",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e3a574617_a7f244ab_20260505.png?v=a7f244ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-cadf148a73",
           "name": "Gimcheon Sangmu Football Club vs Ulsan HD FC | 14:30 05/05",
           "type": "single",
@@ -717,6 +664,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cadf148a73_3b157b4e_20260505.png?v=3b157b4e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-8e3a574617",
+          "name": "Gangwon Football Club vs Pohang Steelers | 14:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e3a574617",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-8e3a574617",
+                  "name": "Gangwon Football Club vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-8e3a574617",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean K League 1",
+            "team_a": "Gangwon Football Club",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6f05c460789939ac83282bd0686446f1.png",
+            "time": "14:30 05/05",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-8e3a574617_a7f244ab_20260505.png?v=a7f244ab",
             "width": 1600,
             "height": 1200
           }
@@ -1774,11 +1774,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-3e82e53925",
+                          "id": "lnk-b90b053413",
                           "name": "GIÀNG A LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9827d4841e_146088/index.m3u8?expire=1778564349",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a45cc78e98",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/4120ff4ffdd472de77a0f43c95aaf947/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
