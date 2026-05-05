@@ -44,11 +44,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-28b9fd5ba9",
+                          "id": "lnk-f9b94b22f2",
                           "name": "GIÀNG A CƠ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f972cf36519_145277/index.m3u8?expire=1778560335",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ba4c972af3",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/0df0d5d9717e6941579e440ef15ce0ee/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -115,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-d27b21242d",
+                          "id": "lnk-7780ecaa60",
                           "name": "GIÀNG A MÓM",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f970a136519_145698/index.m3u8?expire=1778559777",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5efd35eb4f",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/f15669cdbf0a35dfc2b0b8aba91e13ce/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -186,11 +220,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-845d0db3ab",
+                          "id": "lnk-5f39685a79",
                           "name": "GIÀNG A XOÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9705d36519_146091/index.m3u8?expire=1778559709",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8279380421",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e38823fbd016d8d80527cc1ba99d292a/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,8 +264,8 @@
             "league": "Korean WK League",
             "team_a": "Changnyeong (w)",
             "team_b": "Incheon Hyundai Steel Red Angels (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/7c2bd5703358c6c32683e2897f1100df.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/7c2bd5703358c6c32683e2897f1100df.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A XOÀI",
             "is_live": true,
@@ -224,7 +275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-259d5957ee_01d38251_20260505.png?v=01d38251",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-259d5957ee_a8c72a2e_20260505.png?v=a8c72a2e",
             "width": 1600,
             "height": 1200
           }
@@ -257,11 +308,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-809e0bd621",
+                          "id": "lnk-ca961a8ac9",
                           "name": "GIÀNG A BÚN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f973fe36519_146331/index.m3u8?expire=1778560638",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-03691c430a",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c8ecdc6a557d8cf1bbcb5d68a5f14962/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,8 +352,8 @@
             "league": "Korean WK League",
             "team_a": "Boeun Sangmu (w)",
             "team_b": "Suwon FMC (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8df2032f7b49b5537a934396a1710828.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/8df2032f7b49b5537a934396a1710828.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/8de91d390f36c35944456e8eb51346b3.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A BÚN",
             "is_live": true,
@@ -295,7 +363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_02e2649d_20260505.png?v=02e2649d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_12317c13_20260505.png?v=12317c13",
             "width": 1600,
             "height": 1200
           }
@@ -355,8 +423,8 @@
             "league": "Korean WK League",
             "team_a": "Sejong Gumi Sportstoto (w)",
             "team_b": "KSPO FC (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51bbefa8069e06c0e2911f4c690feb29.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce420e1c7a8b93f3dfe28434e89a3e41.png",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/51bbefa8069e06c0e2911f4c690feb29.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ce420e1c7a8b93f3dfe28434e89a3e41.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A KEN",
             "is_live": true,
@@ -366,7 +434,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260505.png?v=ec765b68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_5ba5d091_20260505.png?v=5ba5d091",
             "width": 1600,
             "height": 1200
           }
@@ -1483,6 +1551,59 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "kaytee-71efacf7f6",
+          "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71efacf7f6",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-71efacf7f6",
+                  "name": "Nagoya Grampus vs Gamba Osaka",
+                  "streams": [
+                    {
+                      "id": "st-71efacf7f6",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Nagoya Grampus",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/32aa68e1fa3d62dad572d19b21a09353.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/91008a96b5de8c75376d17057f89890e.png",
+            "time": "12:00 06/05",
+            "blv": "GIÀNG A MAO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-71efacf7f6_d391ce00_20260505.png?v=d391ce00",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1895,11 +2016,99 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ",
+      "name": "🏀 Bóng rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "kaytee-9f87e854c5",
+          "name": "Goyang Sono Skygunners vs Busan KCC Egis | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f87e854c5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-9f87e854c5",
+                  "name": "Goyang Sono Skygunners vs Busan KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-9f87e854c5",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3284f3d0d9",
+                          "name": "GIÀNG A ĐỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f979724841e_145247/index.m3u8?expire=1778562034",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e422145a5b",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/9e4541b1dc01d0b0924196f84dc96389/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean Basketball League",
+            "team_a": "Goyang Sono Skygunners",
+            "team_b": "Busan KCC Egis",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a5ba2f4b39c4cb6db259ed9fb916da1.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
+            "time": "12:00 05/05",
+            "blv": "GIÀNG A ĐỘ",
+            "is_live": true,
+            "cate_name": "Bóng rổ"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_c317242e_20260505.png?v=c317242e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "kaytee-916197fc12",
           "name": "Hapoel Tel Aviv vs Real Madrid | 23:00 05/05",
