@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -42,7 +42,25 @@
                     {
                       "id": "st-7b3685b033",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-28b9fd5ba9",
+                          "name": "GIÀNG A CƠ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f972cf36519_145277/index.m3u8?expire=1778560335",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/2e8e1e2a893d37e3f7260e97c807c28a.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A CƠ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -77,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -95,7 +113,25 @@
                     {
                       "id": "st-616e39086d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d27b21242d",
+                          "name": "GIÀNG A MÓM",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f970a136519_145698/index.m3u8?expire=1778559777",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -110,7 +146,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/2d2abe914435bb9b7140cf2154c50de9.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A MÓM",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -130,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +184,25 @@
                     {
                       "id": "st-259d5957ee",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-845d0db3ab",
+                          "name": "GIÀNG A XOÀI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9705d36519_146091/index.m3u8?expire=1778559709",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -163,7 +217,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ea4ce3a397e17ff504fcb9a4b1c4f740.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A XOÀI",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -183,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -201,7 +255,25 @@
                     {
                       "id": "st-744207f02d",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-809e0bd621",
+                          "name": "GIÀNG A BÚN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f973fe36519_146331/index.m3u8?expire=1778560638",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -216,7 +288,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/8de91d390f36c35944456e8eb51346b3.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A BÚN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -236,10 +308,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -254,7 +326,25 @@
                     {
                       "id": "st-86db6868ee",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e290b583b",
+                          "name": "GIÀNG A KEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9707336519_145467/index.m3u8?expire=1778559731",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -269,7 +359,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce420e1c7a8b93f3dfe28434e89a3e41.png",
             "time": "12:00 05/05",
             "blv": "GIÀNG A KEN",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -639,7 +729,7 @@
             "logo_a": "https://cdn.rapid-api.icu/football/team/ad010af729c420626d1865ad744168d3.png",
             "logo_b": "https://cdn.rapid-api.icu/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png",
             "time": "17:00 05/05",
-            "blv": "GIÀNG A BÉO",
+            "blv": "GIÀNG A MÓM",
             "is_live": false,
             "cate_name": "Bóng đá"
           },
@@ -1785,8 +1875,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -1796,7 +1886,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f2cfd12e4b_aa9ea644_20260505.png?v=aa9ea644",
             "width": 1600,
             "height": 1200
           }
@@ -1838,8 +1928,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Ann Li",
             "team_b": "Zhang Shuai",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/75655aabfb5c910ac5b9c6d927e86122.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3053de3d345996c6c386ea91c3a430a2.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/75655aabfb5c910ac5b9c6d927e86122.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/3053de3d345996c6c386ea91c3a430a2.png",
             "time": "19:30 05/05",
             "blv": "GIÀNG A LEX",
             "is_live": false,
@@ -1849,7 +1939,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_eb839823_20260505.png?v=eb839823",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-355fe5b339_734835aa_20260505.png?v=734835aa",
             "width": 1600,
             "height": 1200
           }
@@ -1863,59 +1953,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-9f87e854c5",
-          "name": "Goyang Sono Skygunners vs Busan KCC Egis | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f87e854c5",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-9f87e854c5",
-                  "name": "Goyang Sono Skygunners vs Busan KCC Egis",
-                  "streams": [
-                    {
-                      "id": "st-9f87e854c5",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean Basketball League",
-            "team_a": "Goyang Sono Skygunners",
-            "team_b": "Busan KCC Egis",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/4a5ba2f4b39c4cb6db259ed9fb916da1.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/0add24fc964de3ea25e83417aa301f81.png",
-            "time": "12:00 05/05",
-            "blv": "GIÀNG A ĐỘ",
-            "is_live": false,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9f87e854c5_c317242e_20260505.png?v=c317242e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-916197fc12",
           "name": "Hapoel Tel Aviv vs Real Madrid | 23:00 05/05",
