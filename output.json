@@ -1848,82 +1848,11 @@
     },
     {
       "id": "cate_50",
-      "name": "🏐 Bóng chuyền (1 LIVE)",
+      "name": "🏐 Bóng chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-ab929064b3",
-          "name": "Modena vs Trentino W | 01:30 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab929064b3",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-ab929064b3",
-                  "name": "Modena vs Trentino W",
-                  "streams": [
-                    {
-                      "id": "st-ab929064b3",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c73d44296c",
-                          "name": "GIÀNG A SU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa306636519_147639/index.m3u8?expire=1778608870",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Slovak Super Liga",
-            "team_a": "Modena",
-            "team_b": "Trentino W",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8324cb4b9cbcd67ba3018afc1f9e8dc3.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/1d8c7ddc0d688da6c1c7a42343a65f22.png",
-            "time": "01:30 06/05",
-            "blv": "GIÀNG A SU",
-            "is_live": true,
-            "cate_name": "Bóng chuyền"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ab929064b3_66e73de4_20260506.png?v=66e73de4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b9e92328c9",
           "name": "Legion Obuhovo vs Energia Gomel | 22:00 06/05",
