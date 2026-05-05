@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (4 LIVE)",
+      "name": "⚽ Bóng đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -359,10 +359,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -377,7 +377,25 @@
                     {
                       "id": "st-4b4735ac76",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e048a5aed",
+                          "name": "GIÀNG A GIÀ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1bf536519_145238/index.m3u8?expire=1778603637",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -392,7 +410,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fbbcb591970475f0c7737c04c9d2f2da.png",
             "time": "00:00 06/05",
             "blv": "GIÀNG A GIÀ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -412,10 +430,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -430,7 +448,25 @@
                     {
                       "id": "st-1914a42ed9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-12091d0728",
+                          "name": "GIÀNG A ĐẬU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1b3e4841e_145169/index.m3u8?expire=1778603454",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -445,7 +481,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/1bd9415259f9b04af4c6164660af9a48.png",
             "time": "00:00 06/05",
             "blv": "GIÀNG A ĐẬU",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -465,10 +501,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -483,7 +519,25 @@
                     {
                       "id": "st-6187d8bd64",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-83ebd7279b",
+                          "name": "GIÀNG A CAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1c0b36519_145244/index.m3u8?expire=1778603659",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -498,7 +552,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/0c750c05518db78eeabc97fb11574fed.png",
             "time": "00:00 06/05",
             "blv": "GIÀNG A CAY",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -518,10 +572,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -536,7 +590,25 @@
                     {
                       "id": "st-6f207fbce4",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-51e9d99675",
+                          "name": "GIÀNG A NGỘ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1eba4841e_145575/index.m3u8?expire=1778604346",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -551,7 +623,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/6ad4e821a96f050ba29f431fbf57801e.png",
             "time": "00:00 06/05",
             "blv": "GIÀNG A NGỘ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -1778,6 +1850,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-343cf687f9_21741fa6_20260505.png?v=21741fa6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-bb1b2eb517",
+          "name": "Barcelona (w) vs Levante UD (w) | 23:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb1b2eb517",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-bb1b2eb517",
+                  "name": "Barcelona (w) vs Levante UD (w)",
+                  "streams": [
+                    {
+                      "id": "st-bb1b2eb517",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish Primera División de la Liga de Fútbol Femenino",
+            "team_a": "Barcelona (w)",
+            "team_b": "Levante UD (w)",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/b65ee16a9cfe056825b1e0c15c05cf54.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/52ebc5630a85879ead9c724e4b6b9f6c.png",
+            "time": "23:45 06/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-bb1b2eb517_18e40b03_20260505.png?v=18e40b03",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c91c74c016",
+          "name": "Almere City FC vs De Graafschap | 23:45 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c91c74c016",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c91c74c016",
+                  "name": "Almere City FC vs De Graafschap",
+                  "streams": [
+                    {
+                      "id": "st-c91c74c016",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eerste Divisie",
+            "team_a": "Almere City FC",
+            "team_b": "De Graafschap",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/6fc28fcf1969e983c6974c9f5b96b77c.PNG",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/0c520a5ff707978cf7ce6e3ff30dc98e.png",
+            "time": "23:45 06/05",
+            "blv": "GIÀNG A RICH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c91c74c016_c049ca53_20260505.png?v=c049ca53",
             "width": 1600,
             "height": 1200
           }
