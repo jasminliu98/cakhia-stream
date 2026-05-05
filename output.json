@@ -1999,99 +1999,11 @@
     },
     {
       "id": "cate_20",
-      "name": "🏀 Bóng rổ (3 LIVE)",
+      "name": "🏀 Bóng rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-facd321dd0",
-          "name": "E.c. Pinheiros Sao Paolo vs Paulistano Amil | 06:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-facd321dd0",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-facd321dd0",
-                  "name": "E.c. Pinheiros Sao Paolo vs Paulistano Amil",
-                  "streams": [
-                    {
-                      "id": "st-facd321dd0",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b11a0ae0b",
-                          "name": "GIÀNG A MU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f91e5a4841e_146208/index.m3u8?expire=1778538714",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-074781c1e0",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/6b06a3c34ebd0a4efdab9b2ab1ab5bb5/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Novo Basquete Brasil",
-            "team_a": "E.c. Pinheiros Sao Paolo",
-            "team_b": "Paulistano Amil",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/16955cfd2097843a95e93a128e3d5b21.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/984e8b2a7f23e585e1cc8d2fc0df89f1.png",
-            "time": "06:00 05/05",
-            "blv": "GIÀNG A MU",
-            "is_live": true,
-            "cate_name": "Bóng rổ"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-facd321dd0_65fab3c6_20260505.png?v=65fab3c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-16e2542f3b",
           "name": "New York Knicks vs Philadelphia 76ers | 07:00 05/05",
