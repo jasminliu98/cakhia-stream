@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (9 LIVE)",
+      "name": "⚽ Bóng đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -188,6 +188,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-9ff698407b_017a13fe_20260505.png?v=017a13fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ce41369b5c",
+          "name": "India (w) U17 vs Japan (w) U17 | 18:30 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce41369b5c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ce41369b5c",
+                  "name": "India (w) U17 vs Japan (w) U17",
+                  "streams": [
+                    {
+                      "id": "st-ce41369b5c",
+                      "name": "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-59165c3bb3",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ce354841e_145232/index.m3u8?expire=1778583733",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fb685fbcce",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/097a9aa2037ba4d21404976208123bbc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U17 Women's Asian Cup",
+            "team_a": "India (w) U17",
+            "team_b": "Japan (w) U17",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a18a24058618b5ef80eec61300f85999.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
+            "time": "18:30 05/05",
+            "blv": "GIÀNG A PHỦ",
+            "is_live": true,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ce41369b5c_d865e8c2_20260505.png?v=d865e8c2",
             "width": 1600,
             "height": 1200
           }
