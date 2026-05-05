@@ -11,116 +11,11 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (1 LIVE)",
+      "name": "⚽ Bóng đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-083c3bef2a",
-          "name": "Arsenal vs Atletico Madrid | 02:00 06/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-083c3bef2a",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-083c3bef2a",
-                  "name": "Arsenal vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-083c3bef2a",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73eb447fb0",
-                          "name": "GIÀNG A NGAO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa37f236519_145689/index.m3u8?expire=1778610802",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-708ec6a657",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/893b0ead1ceafc3dfa80c2999b720ef3/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0877a8893f",
-                          "name": "GIÀNG A TRỀ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa369c4841e_145821/index.m3u8?expire=1778610460",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Arsenal",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/d6f5debc456da1119256ab66462ab510.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/390977b0421bce136c562057ea171ecf.png",
-            "time": "02:00 06/05",
-            "blv": "GIÀNG A NGAO, GIÀNG A TRỀ",
-            "is_live": true,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-083c3bef2a_9f81be11_20260506.png?v=9f81be11",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-f47f4a6ee5",
           "name": "Tigres UANL vs Nashville | 08:30 06/05",
