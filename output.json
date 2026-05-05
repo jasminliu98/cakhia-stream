@@ -484,11 +484,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-1215785735",
+                          "id": "lnk-5096d58813",
                           "name": "GIÀNG A BẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9a40b36519_145407/index.m3u8?expire=1778572939",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-09f08c9bf0",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c2fb14084673abde281830b021ae946e/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
