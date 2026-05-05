@@ -132,11 +132,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-ba0ab853e4",
+                          "id": "lnk-41e6a6f2a9",
                           "name": "GIÀNG A SU",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9c6c936519_147639/index.m3u8?expire=1778581833",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b5904abdc",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/ac0233b05cafc9c84e1bdf2cd07de235/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1183,6 +1200,59 @@
           }
         },
         {
+          "id": "kaytee-f47f4a6ee5",
+          "name": "Tigres UANL vs Nashville | 08:30 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f47f4a6ee5",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-f47f4a6ee5",
+                  "name": "Tigres UANL vs Nashville",
+                  "streams": [
+                    {
+                      "id": "st-f47f4a6ee5",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CNCF CHL",
+            "team_a": "Tigres UANL",
+            "team_b": "Nashville",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/a7df6424c12ac9b7a6e5ca3ff953d5b3.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/eafb707bc6f8028dc71923176915c8e3.png",
+            "time": "08:30 06/05",
+            "blv": "GIÀNG A LƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-f47f4a6ee5_1a0f960a_20260505.png?v=1a0f960a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-1c4b68d4b5",
           "name": "V-Varen Nagasaki vs Fagiano Okayama | 11:00 06/05",
           "type": "single",
@@ -1236,6 +1306,59 @@
           }
         },
         {
+          "id": "kaytee-671172db2f",
+          "name": "Shimizu S-Pulse vs Cerezo Osaka | 11:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-671172db2f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-671172db2f",
+                  "name": "Shimizu S-Pulse vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-671172db2f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Shimizu S-Pulse",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/fa4105f0408ef893d941e70ae003ab4c.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/ab10ee503e539e55a9a11a9ff202405a.png",
+            "time": "11:00 06/05",
+            "blv": "GIÀNG A CÒI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-671172db2f_62d755b9_20260505.png?v=62d755b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-71efacf7f6",
           "name": "Nagoya Grampus vs Gamba Osaka | 12:00 06/05",
           "type": "single",
@@ -1284,6 +1407,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-71efacf7f6_d391ce00_20260505.png?v=d391ce00",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-d3cf3cc33f",
+          "name": "Avispa Fukuoka vs Kyoto Sanga | 12:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3cf3cc33f",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-d3cf3cc33f",
+                  "name": "Avispa Fukuoka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-d3cf3cc33f",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/7d6fa50ea67cde7d66612a8189897ba5.png",
+            "time": "12:00 06/05",
+            "blv": "GIÀNG A BẢNH",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-d3cf3cc33f_89587649_20260505.png?v=89587649",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-ecf020a58e",
+          "name": "FC Tokyo vs JEF United Ichihara Chiba | 13:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecf020a58e",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-ecf020a58e",
+                  "name": "FC Tokyo vs JEF United Ichihara Chiba",
+                  "streams": [
+                    {
+                      "id": "st-ecf020a58e",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "FC Tokyo",
+            "team_b": "JEF United Ichihara Chiba",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/333df39860930a21cf72b4e9664723ab.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+            "time": "13:00 06/05",
+            "blv": "GIÀNG A XOÀI",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-ecf020a58e_b8e01c03_20260505.png?v=b8e01c03",
             "width": 1600,
             "height": 1200
           }
@@ -1573,8 +1802,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
             "time": "20:05 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -1584,7 +1813,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0133e71bd_a83cd0c2_20260505.png?v=a83cd0c2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0133e71bd_aa9ea644_20260505.png?v=aa9ea644",
             "width": 1600,
             "height": 1200
           }
@@ -1626,8 +1855,8 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Zizou Bergs",
             "team_b": "Terence Atmane",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "time": "16:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -1637,7 +1866,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260505.png?v=245b013f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_1f5d8ce8_20260505.png?v=1f5d8ce8",
             "width": 1600,
             "height": 1200
           }
@@ -1856,7 +2085,7 @@
             "league": "Divizia A1 - Play Offs - Tứ kết",
             "team_a": "Dinamo Bucuresti",
             "team_b": "Arcada Galati",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd148d6f912618c4888ddd4f5d4c3d2b.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/bd148d6f912618c4888ddd4f5d4c3d2b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8ad517d31669360d44426e3e3eb1f174.png",
             "time": "22:00 05/05",
             "blv": "GIÀNG A LEX",
@@ -1867,7 +2096,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_eb4ffa3d_20260505.png?v=eb4ffa3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_ff533c0f_20260505.png?v=ff533c0f",
             "width": 1600,
             "height": 1200
           }
