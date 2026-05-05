@@ -1142,99 +1142,11 @@
     },
     {
       "id": "cate_27",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "kaytee-844bfef5f8",
-          "name": "Keegan Smith vs Bu Yunchaokete | 15:30 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-844bfef5f8",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-844bfef5f8",
-                  "name": "Keegan Smith vs Bu Yunchaokete",
-                  "streams": [
-                    {
-                      "id": "st-844bfef5f8",
-                      "name": "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eead772e44",
-                          "name": "GIÀNG A LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9a93136519_146088/index.m3u8?expire=1778574257",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-314c309470",
-                          "name": "Link nhà đài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/7507fe5032bac541049280b1536c9ee4/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://cakhiatv247.net/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Challenger Wuxi, China Men Singles",
-            "team_a": "Keegan Smith",
-            "team_b": "Bu Yunchaokete",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a812670d717d895e5cb5bddb7b192268.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/6f80307b9ca4b5961fbeee2f6194000a.png",
-            "time": "15:30 05/05",
-            "blv": "GIÀNG A LONG",
-            "is_live": true,
-            "cate_name": "Tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-844bfef5f8_65ba6a09_20260505.png?v=65ba6a09",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "kaytee-b14e8ef3ec",
           "name": "wta-rome-1600-05-05-2026 | 16:00 05/05",
