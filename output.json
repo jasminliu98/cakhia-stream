@@ -714,11 +714,28 @@
                       "name": "KT",
                       "stream_links": [
                         {
-                          "id": "lnk-8c3c8f1290",
+                          "id": "lnk-124b7d5c53",
                           "name": "GIÀNG A KEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn-hls.cakhiatv89.com/live/69f9d22236519_145467/index.m3u8?expire=1778584738",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fa261c0c9b",
+                          "name": "Link nhà đài",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e9c2c299fe2760c5ce74097f8c3bbe7b/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
