@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (8 LIVE)",
+      "name": "⚽ Bóng đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -711,10 +711,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -729,7 +729,25 @@
                     {
                       "id": "st-107693ddce",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0978ca6863",
+                          "name": "BLV SIMON",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69fa1da936519_147411/index.m3u8?expire=1778604073",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -744,7 +762,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51c3745e99294178891085f6c3f265e2.png",
             "time": "00:30 06/05",
             "blv": "BLV SIMON",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -2127,8 +2145,8 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Zizou Bergs",
             "team_b": "Terence Atmane",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn.rapid-api.icu/v2/team/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
             "time": "16:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2138,7 +2156,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260506.png?v=245b013f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_1f5d8ce8_20260506.png?v=1f5d8ce8",
             "width": 1600,
             "height": 1200
           }
@@ -2277,8 +2295,8 @@
             "league": "EuroLeague",
             "team_a": "Monaco",
             "team_b": "Olympiacos",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e59309cc71a5436c88b6645da5dc39fc.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/e713068dda3d8da9f9872e61a850a142.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/e59309cc71a5436c88b6645da5dc39fc.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/e713068dda3d8da9f9872e61a850a142.png",
             "time": "00:45 06/05",
             "blv": "GIÀNG A SÓC",
             "is_live": false,
@@ -2288,7 +2306,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_62363465_20260506.png?v=62363465",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-72ceb3d757_88e0ca80_20260506.png?v=88e0ca80",
             "width": 1600,
             "height": 1200
           }
@@ -2330,8 +2348,8 @@
             "league": "Novo Basquete Brasil",
             "team_a": "Vivo Franca",
             "team_b": "Mogi das Cruzes",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/a65268effd9adde355c5816840d3ee14.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/5c7885e39f348766735a235c20385cd5.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/a65268effd9adde355c5816840d3ee14.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/5c7885e39f348766735a235c20385cd5.png",
             "time": "05:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -2341,7 +2359,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_d39c4149_20260506.png?v=d39c4149",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-70fd50787a_bc95a9e3_20260506.png?v=bc95a9e3",
             "width": 1600,
             "height": 1200
           }
@@ -2383,8 +2401,8 @@
             "league": "National Basketball Association",
             "team_a": "Detroit Pistons",
             "team_b": "Cleveland Cavaliers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3f82122a48e98eaccc5e71307eba801a.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/57c938e35ceb2ee92562a09c4165fb47.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/3f82122a48e98eaccc5e71307eba801a.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/57c938e35ceb2ee92562a09c4165fb47.png",
             "time": "06:00 06/05",
             "blv": "GIÀNG A THỎ",
             "is_live": false,
@@ -2394,7 +2412,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_9a2da953_20260506.png?v=9a2da953",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cd9865dc66_78864639_20260506.png?v=78864639",
             "width": 1600,
             "height": 1200
           }
@@ -2436,8 +2454,8 @@
             "league": "National Basketball Association",
             "team_a": "Oklahoma City Thunder",
             "team_b": "Los Angeles Lakers",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/319e03be75fee4098a83b1d0e01940b7.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/fa6f985041ec3f9729172380ae9cebf8.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
+            "logo_b": "https://cdn.rapid-api.icu/basketball/team/fa6f985041ec3f9729172380ae9cebf8.png",
             "time": "07:30 06/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -2447,7 +2465,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_b7d310e8_20260506.png?v=b7d310e8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-afc706acfe_e99aa49c_20260506.png?v=e99aa49c",
             "width": 1600,
             "height": 1200
           }
@@ -2516,7 +2534,7 @@
             "league": "Divizia A1 - Play Offs - Tứ kết",
             "team_a": "Dinamo Bucuresti",
             "team_b": "Arcada Galati",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd148d6f912618c4888ddd4f5d4c3d2b.png",
+            "logo_a": "https://cdn.rapid-api.icu/basketball/team/bd148d6f912618c4888ddd4f5d4c3d2b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8ad517d31669360d44426e3e3eb1f174.png",
             "time": "22:00 05/05",
             "blv": "GIÀNG A LEX",
@@ -2527,7 +2545,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_eb4ffa3d_20260506.png?v=eb4ffa3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_ff533c0f_20260506.png?v=ff533c0f",
             "width": 1600,
             "height": 1200
           }
