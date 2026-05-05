@@ -176,59 +176,6 @@
           }
         },
         {
-          "id": "kaytee-86db6868ee",
-          "name": "Sejong Gumi Sportstoto (w) vs KSPO FC (w) | 12:00 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86db6868ee",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-86db6868ee",
-                  "name": "Sejong Gumi Sportstoto (w) vs KSPO FC (w)",
-                  "streams": [
-                    {
-                      "id": "st-86db6868ee",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Korean WK League",
-            "team_a": "Sejong Gumi Sportstoto (w)",
-            "team_b": "KSPO FC (w)",
-            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51bbefa8069e06c0e2911f4c690feb29.png",
-            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce420e1c7a8b93f3dfe28434e89a3e41.png",
-            "time": "12:00 05/05",
-            "blv": "GIÀNG A KEN",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260505.png?v=ec765b68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-744207f02d",
           "name": "Boeun Sangmu (w) vs Suwon FMC (w) | 12:00 05/05",
           "type": "single",
@@ -277,6 +224,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-744207f02d_02e2649d_20260505.png?v=02e2649d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-86db6868ee",
+          "name": "Sejong Gumi Sportstoto (w) vs KSPO FC (w) | 12:00 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86db6868ee",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-86db6868ee",
+                  "name": "Sejong Gumi Sportstoto (w) vs KSPO FC (w)",
+                  "streams": [
+                    {
+                      "id": "st-86db6868ee",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korean WK League",
+            "team_a": "Sejong Gumi Sportstoto (w)",
+            "team_b": "KSPO FC (w)",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/51bbefa8069e06c0e2911f4c690feb29.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/ce420e1c7a8b93f3dfe28434e89a3e41.png",
+            "time": "12:00 05/05",
+            "blv": "GIÀNG A KEN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-86db6868ee_ec765b68_20260505.png?v=ec765b68",
             "width": 1600,
             "height": 1200
           }
