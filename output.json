@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_1",
-      "name": "⚽ Bóng đá (2 LIVE)",
+      "name": "⚽ Bóng đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -200,10 +200,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -218,7 +218,25 @@
                     {
                       "id": "st-ce41369b5c",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2c385fd1e",
+                          "name": "GIÀNG A PHỦ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ce354841e_145232/index.m3u8?expire=1778583733",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -233,7 +251,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/a5cc0f9ca35d53a5332bf84dc9b79104.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A PHỦ",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -253,10 +271,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -271,7 +289,25 @@
                     {
                       "id": "st-6e72231ea9",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7db9b56b3d",
+                          "name": "GIÀNG A RON",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9d03336519_145199/index.m3u8?expire=1778584243",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -286,7 +322,7 @@
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/702d8e982ec231766ec875424c555d0e.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A RON",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -306,10 +342,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -324,7 +360,25 @@
                     {
                       "id": "st-db5c3bf0c5",
                       "name": "KT",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-93bd4a0a3d",
+                          "name": "GIÀNG A RICH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.cakhiatv89.com/live/69f9ceb736519_145476/index.m3u8?expire=1778583863",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://cakhiatv247.net/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -339,7 +393,7 @@
             "logo_b": "https://cdn.rapid-api.icu/football/team/22bd6a4d9cba9a0127b11c10faefb219.png",
             "time": "18:30 05/05",
             "blv": "GIÀNG A RICH",
-            "is_live": false,
+            "is_live": true,
             "cate_name": "Bóng đá"
           },
           "image": {
@@ -347,59 +401,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-db5c3bf0c5_4bb01695_20260505.png?v=4bb01695",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "kaytee-53b4f8059c",
-          "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53b4f8059c",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-53b4f8059c",
-                  "name": "Liaoning Tieren vs Chengdu Rongcheng FC",
-                  "streams": [
-                    {
-                      "id": "st-53b4f8059c",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Liaoning Tieren",
-            "team_b": "Chengdu Rongcheng FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
-            "time": "18:35 05/05",
-            "blv": "GIÀNG A NÌ",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
             "width": 1600,
             "height": 1200
           }
@@ -453,6 +454,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-53b4f8059c",
+          "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53b4f8059c",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-53b4f8059c",
+                  "name": "Liaoning Tieren vs Chengdu Rongcheng FC",
+                  "streams": [
+                    {
+                      "id": "st-53b4f8059c",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Liaoning Tieren",
+            "team_b": "Chengdu Rongcheng FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/1c4ae95c663ed84758a04627451e3470.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/6ade4c9aaa615702eb7ec459e56d1968.png",
+            "time": "18:35 05/05",
+            "blv": "GIÀNG A NÌ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
             "width": 1600,
             "height": 1200
           }
