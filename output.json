@@ -352,59 +352,6 @@
           }
         },
         {
-          "id": "kaytee-6283cd70d2",
-          "name": "Shandong Taishan FC vs Shanghai Shenhua FC | 18:35 05/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6283cd70d2",
-              "name": "CakhiaTV",
-              "contents": [
-                {
-                  "id": "ct-6283cd70d2",
-                  "name": "Shandong Taishan FC vs Shanghai Shenhua FC",
-                  "streams": [
-                    {
-                      "id": "st-6283cd70d2",
-                      "name": "KT",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Football Super League",
-            "team_a": "Shandong Taishan FC",
-            "team_b": "Shanghai Shenhua FC",
-            "logo_a": "https://cdn.rapid-api.icu/football/team/85c080cf02a7161687ddd5b5800dc303.png",
-            "logo_b": "https://cdn.rapid-api.icu/football/team/e8327d4681b4a73c83be9fe087b30721.png",
-            "time": "18:35 05/05",
-            "blv": "GIÀNG A NA",
-            "is_live": false,
-            "cate_name": "Bóng đá"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "kaytee-53b4f8059c",
           "name": "Liaoning Tieren vs Chengdu Rongcheng FC | 18:35 05/05",
           "type": "single",
@@ -453,6 +400,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-53b4f8059c_1c12c471_20260505.png?v=1c12c471",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-6283cd70d2",
+          "name": "Shandong Taishan FC vs Shanghai Shenhua FC | 18:35 05/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6283cd70d2",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-6283cd70d2",
+                  "name": "Shandong Taishan FC vs Shanghai Shenhua FC",
+                  "streams": [
+                    {
+                      "id": "st-6283cd70d2",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Shandong Taishan FC",
+            "team_b": "Shanghai Shenhua FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/85c080cf02a7161687ddd5b5800dc303.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/e8327d4681b4a73c83be9fe087b30721.png",
+            "time": "18:35 05/05",
+            "blv": "GIÀNG A NA",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-6283cd70d2_a1d33704_20260505.png?v=a1d33704",
             "width": 1600,
             "height": 1200
           }
@@ -1518,6 +1518,59 @@
           }
         },
         {
+          "id": "kaytee-189de6e0a7",
+          "name": "Sanfrecce Hiroshima vs Vissel Kobe | 13:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-189de6e0a7",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-189de6e0a7",
+                  "name": "Sanfrecce Hiroshima vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-189de6e0a7",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/c81d5ff7a33a4f6a9312a8703f619352.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/d85cce27ab583e5b3cead155f02b098a.png",
+            "time": "13:00 06/05",
+            "blv": "GIÀNG A MU",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-189de6e0a7_94750186_20260505.png?v=94750186",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-3af40d89f2",
           "name": "Kashima Antlers vs Mito Hollyhock | 14:00 06/05",
           "type": "single",
@@ -1571,6 +1624,112 @@
           }
         },
         {
+          "id": "kaytee-cfa64c8e0b",
+          "name": "Machida Zelvia vs Yokohama F. Marinos | 14:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfa64c8e0b",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cfa64c8e0b",
+                  "name": "Machida Zelvia vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-cfa64c8e0b",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Machida Zelvia",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/78ddaaa79d9502f5e2df0fbb6261f937.png",
+            "time": "14:00 06/05",
+            "blv": "GIÀNG A BÉO",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cfa64c8e0b_61dd092f_20260505.png?v=61dd092f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-c3293bd424",
+          "name": "Kawasaki Frontale vs Tokyo Verdy | 15:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3293bd424",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-c3293bd424",
+                  "name": "Kawasaki Frontale vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "st-c3293bd424",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Japanese J1 League",
+            "team_a": "Kawasaki Frontale",
+            "team_b": "Tokyo Verdy",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/937795c0851c1e794e96a5cb660fcd59.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/2a8adb34e764602183a7bee8f51726e4.png",
+            "time": "15:00 06/05",
+            "blv": "GIÀNG A KEN",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-c3293bd424_779bd47d_20260505.png?v=779bd47d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "kaytee-97100e0b9e",
           "name": "Kashiwa Reysol vs Urawa Red Diamonds | 17:00 06/05",
           "type": "single",
@@ -1619,6 +1778,59 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-97100e0b9e_e8e7b653_20260505.png?v=e8e7b653",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "kaytee-cde5a937fe",
+          "name": "Wuhan Three Towns FC vs Qingdao Hainiu FC | 18:00 06/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cde5a937fe",
+              "name": "CakhiaTV",
+              "contents": [
+                {
+                  "id": "ct-cde5a937fe",
+                  "name": "Wuhan Three Towns FC vs Qingdao Hainiu FC",
+                  "streams": [
+                    {
+                      "id": "st-cde5a937fe",
+                      "name": "KT",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Football Super League",
+            "team_a": "Wuhan Three Towns FC",
+            "team_b": "Qingdao Hainiu FC",
+            "logo_a": "https://cdn.rapid-api.icu/football/team/9d520898f49a46e0a00feef82240cb80.png",
+            "logo_b": "https://cdn.rapid-api.icu/football/team/c1bc80f45a0bf86310ec6e56980c1757.png",
+            "time": "18:00 06/05",
+            "blv": "GIÀNG A CƠ",
+            "is_live": false,
+            "cate_name": "Bóng đá"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-cde5a937fe_86ddbb87_20260505.png?v=86ddbb87",
             "width": 1600,
             "height": 1200
           }
@@ -1802,8 +2014,8 @@
             "league": "WTA Rome, Italy Women Singles",
             "team_a": "Martina Trevisan",
             "team_b": "Talia Gibson",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/3105738027644a2234fcb4b23139d3b2.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/38100bef9fd1b618f4fea50ec667775a.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/3105738027644a2234fcb4b23139d3b2.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/38100bef9fd1b618f4fea50ec667775a.png",
             "time": "20:05 05/05",
             "blv": "GIÀNG A CÁO",
             "is_live": false,
@@ -1813,7 +2025,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0133e71bd_aa9ea644_20260505.png?v=aa9ea644",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-a0133e71bd_a83cd0c2_20260505.png?v=a83cd0c2",
             "width": 1600,
             "height": 1200
           }
@@ -1855,8 +2067,8 @@
             "league": "ATP Rome, Italy Men Singles",
             "team_a": "Zizou Bergs",
             "team_b": "Terence Atmane",
-            "logo_a": "https://cdn.rapid-api.icu/v2/team/1be9fe46633fcb6210505d9970292b56.png",
-            "logo_b": "https://cdn.rapid-api.icu/v2/team/65da41436c7adbdd21790b830ebf4024.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/1be9fe46633fcb6210505d9970292b56.png",
+            "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/65da41436c7adbdd21790b830ebf4024.png",
             "time": "16:00 06/05",
             "blv": "GIÀNG A MU",
             "is_live": false,
@@ -1866,7 +2078,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_1f5d8ce8_20260505.png?v=1f5d8ce8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-e1ca6ce84e_245b013f_20260505.png?v=245b013f",
             "width": 1600,
             "height": 1200
           }
@@ -2085,7 +2297,7 @@
             "league": "Divizia A1 - Play Offs - Tứ kết",
             "team_a": "Dinamo Bucuresti",
             "team_b": "Arcada Galati",
-            "logo_a": "https://cdn.rapid-api.icu/basketball/team/bd148d6f912618c4888ddd4f5d4c3d2b.png",
+            "logo_a": "https://cdn-static.cakhiatv89.com/live-tv89/football/team/logo/bd148d6f912618c4888ddd4f5d4c3d2b.png",
             "logo_b": "https://cdn-static.cakhiatv89.com/live-tv89/cms/8ad517d31669360d44426e3e3eb1f174.png",
             "time": "22:00 05/05",
             "blv": "GIÀNG A LEX",
@@ -2096,7 +2308,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_ff533c0f_20260505.png?v=ff533c0f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/cakhia-stream/refs/heads/main/thumbs/kaytee-246fa0beea_eb4ffa3d_20260505.png?v=eb4ffa3d",
             "width": 1600,
             "height": 1200
           }
